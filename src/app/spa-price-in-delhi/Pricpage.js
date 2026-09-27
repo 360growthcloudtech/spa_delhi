@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Playfair_Display, Montserrat } from 'next/font/google';
 import { motion } from 'framer-motion';
 import { FaSpa, FaHotel, FaCrown, FaCheckCircle, FaStar,FaHotTub } from "react-icons/fa";
 import { FaWhatsapp } from 'react-icons/fa';
@@ -20,9 +19,6 @@ import WhatsappFloat from '../components/WhatsappFloat';
  
 
 
-// ✅ Load Google Fonts
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
-const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
 export default function Pricpage() {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
@@ -223,12 +219,12 @@ const teamMembers = [
       {/* Content */}
       <div className="relative z-10 max-w-4xl text-center px-4">
         <h1
-          className={`text-3xl md:text-5xl font-bold text-white leading-tight ${playfair.variable} font-serif`}
+          className={`text-3xl md:text-5xl font-bold text-white leading-tight font-serif`}
         >
          Spa Price in Delhi — Clear, Honest Rates From ₹1999
         </h1>
         <p
-          className={`mt-6 text-lg md:text-1xl text-white/90 font-light ${montserrat.variable}`}
+          className={`mt-6 text-lg md:text-1xl text-white/90 font-light`}
         >
           Choose from flexible packages crafted for every need. No hidden fees. Just luxury and comfort, always within reach.
         </p>
@@ -1027,7 +1023,7 @@ const teamMembers = [
                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                        className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
                         <FaTelegram className="text-xl mr-3" />
                         Chat On Telegram
@@ -1045,7 +1041,7 @@ const teamMembers = [
             </section>
             {/* End outlate */}
             {/* Our Therapy Experts */}
-                  <section className="py-16 px-4 bg-gradient-to-br from-[#FFF9F0] via-[#fcf5e9] to-[#f9f1e2]">
+                  <section className="py-16 px-4 bg-gradient-to-br from-[#f5fdfc] via-[#fcf5e9] to-[#f9f1e2]">
                     <div className="max-w-7xl mx-auto">
                       
                       <div className="text-center mb-16">

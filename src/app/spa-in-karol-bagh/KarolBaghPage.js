@@ -437,7 +437,7 @@ export default function KarolBaghPage() {
                           href="https://t.me/+a5Bu6FBPN9FlOWM9"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                          className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                         >
                           <FaTelegram className="text-xl mr-3" />
                           Meet Our Team
@@ -641,7 +641,7 @@ export default function KarolBaghPage() {
                       href="https://t.me/+a5Bu6FBPN9FlOWM9"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                      className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                     >
                       <FaTelegram className="text-xl mr-3" />
                       Meet Our Team
@@ -719,7 +719,7 @@ export default function KarolBaghPage() {
         {/* End Services Section */}
 
         {/* content section */}
-        <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-20 px-6 md:px-16">
+        <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-20 px-6 md:px-16">
           <div className="max-w-6xl mx-auto">
             <motion.div
               className="text-center mb-12"
@@ -729,7 +729,7 @@ export default function KarolBaghPage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Best Spa in Karol Bagh for Body Massage & Relaxing Spa Treatments</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Spa in Karol Bagh for Body Massage & Relaxing Spa Treatments</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                 From full body massage to couple spa and home spa in Karol Bagh, Spa Delhi blends skilled therapists, hygienic settings and personal care for every guest who walks in.
@@ -741,7 +741,7 @@ export default function KarolBaghPage() {
                 {SERVICES_LEFT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#e8d5c9] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
                     initial={{ opacity: 0, x: 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -761,7 +761,7 @@ export default function KarolBaghPage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#f7efe7] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>
@@ -791,7 +791,7 @@ export default function KarolBaghPage() {
                 {SERVICES_RIGHT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#e8d5c9] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -811,7 +811,7 @@ export default function KarolBaghPage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#f7efe7] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>
@@ -1054,7 +1054,7 @@ export default function KarolBaghPage() {
                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                        className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
                         <FaTelegram className="text-xl mr-3" />
                         Meet Our Team

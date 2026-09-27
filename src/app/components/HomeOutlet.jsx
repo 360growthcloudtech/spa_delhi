@@ -180,7 +180,7 @@ export default function HomeOutlet() {
             href="https://t.me/+a5Bu6FBPN9FlOWM9"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 px-5 rounded-full flex items-center justify-center"
+            className="mt-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white py-3 px-5 rounded-full flex items-center justify-center"
           >
             <FaTelegram className="mr-2" />
             Join for Daily Updates

@@ -6,7 +6,7 @@ import { FaTelegram } from "react-icons/fa";
 
 export default function AboutSection() {
   return (
-    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
+    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#f5fdfc] to-[#f5fdfc] relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
       <div className="absolute top-20 right-10 w-80 h-80 rounded-full bg-amber-200/30 blur-3xl"></div>
       <div className="absolute bottom-20 left-10 w-60 h-60 rounded-full bg-amber-100/40 blur-3xl"></div>
@@ -169,7 +169,7 @@ export default function AboutSection() {
               href="https://t.me/+a5Bu6FBPN9FlOWM9"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+              className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
             >
               {" "}
               <FaTelegram className="text-xl mr-3" /> Available Therapists{" "}

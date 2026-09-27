@@ -24,7 +24,7 @@ const galleryImages = [
 
 export default function Gallerypage() {
   return (
-    <main className="bg-[#FFF9F0] min-h-screen text-gray-800">
+    <main className="bg-[#f5fdfc] min-h-screen text-gray-800">
       {/* Banner Section */}
       <section className="relative h-[60vh] w-full">
         <Image

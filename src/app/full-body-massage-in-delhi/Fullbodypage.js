@@ -107,7 +107,7 @@ export default function Fullbodypage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
+    <main className="min-h-screen bg-[#f5fdfc] text-[#113435]">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
@@ -116,7 +116,7 @@ export default function Fullbodypage() {
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
               <FaStar className="text-amber-500" /> SIGNATURE TREATMENT
             </div>
-            <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
+            <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#113435] md:text-5xl lg:text-5xl">
               Full Body Massage in <span className="text-amber-700">Delhi</span> — Affordable Luxury
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
@@ -161,13 +161,13 @@ export default function Fullbodypage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why It Works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">A genuine full body massage, done properly.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">A genuine full body massage, done properly.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {highlights.map((item) => (
             <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="rounded-3xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50">{item.icon}</div>
-              <h3 className="text-xl font-semibold text-[#3a2e2a]">{item.title}</h3>
+              <h3 className="text-xl font-semibold text-[#113435]">{item.title}</h3>
               <p className="mt-3 leading-relaxed text-gray-600">{item.desc}</p>
             </motion.div>
           ))}
@@ -175,11 +175,11 @@ export default function Fullbodypage() {
       </section>
 
       {/* Long-form SEO content — scannable card layout */}
-      <section className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section className="bg-[#e6f7f6] py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full Body Massage in Delhi — What It Is & How to Book</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Full Body Massage in Delhi — What It Is & How to Book</h2>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
@@ -196,7 +196,7 @@ export default function Fullbodypage() {
             <div className="grid gap-5 sm:grid-cols-2">
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Head-to-Toe, Every Time</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Head-to-Toe, Every Time</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Back, shoulders, arms, legs, and feet — not just whichever area feels worst. A real body massage in Delhi covers all of it.
                 </p>
@@ -204,7 +204,7 @@ export default function Fullbodypage() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Affordable, Not Compromised</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Affordable, Not Compromised</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   From ₹1999 at any of our{" "}
                   <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>.
@@ -213,7 +213,7 @@ export default function Fullbodypage() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotel /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Luxury Hotel Option</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Luxury Hotel Option</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Want the luxury version? Book our five-star hotel spa for a longer, more indulgent session in your room.
                 </p>
@@ -221,7 +221,7 @@ export default function Fullbodypage() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Home Spa, Same Standard</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Home Spa, Same Standard</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Can't travel? A therapist comes to your home anywhere in Delhi NCR — same hygiene, same technique.
                 </p>
@@ -243,7 +243,7 @@ export default function Fullbodypage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="overflow-hidden rounded-[32px] bg-gradient-to-br from-[#3a2e2a] to-[#5b3f31] p-8 text-white shadow-2xl md:p-12"
+          className="overflow-hidden rounded-[32px] bg-gradient-to-br from-[#113435] to-[#346065] p-8 text-white shadow-2xl md:p-12"
         >
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Why Choose Spa Delhi</p>
@@ -289,13 +289,13 @@ export default function Fullbodypage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How It Compares</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full body massage vs. our other treatments.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Full body massage vs. our other treatments.</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-600">Not sure which session is right for you? Here's a quick, honest comparison.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
             <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. B2B Massage</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">vs. B2B Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
               <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>{" "}
               is a full-contact, body-to-body technique — a different, more intensive format than the hands-only full body session.
@@ -303,7 +303,7 @@ export default function Fullbodypage() {
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
             <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Deep Tissue Massage</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">vs. Deep Tissue Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
               <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Deep tissue massage</Link>{" "}
               uses firmer pressure on stiff, knotted muscles — better for targeted recovery than general full body relaxation.
@@ -311,7 +311,7 @@ export default function Fullbodypage() {
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
             <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHeart /></div>
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">vs. Couples Massage</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">vs. Couples Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
               <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Couples massage</Link>{" "}
               is a shared, side-by-side session for two — a better pick for a date or anniversary than a solo session.
@@ -324,7 +324,7 @@ export default function Fullbodypage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Locations We Cover</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Full body massage across Delhi NCR.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Full body massage across Delhi NCR.</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-600">A full body massage in Delhi shouldn't mean a long commute — including in-room service at these Delhi 5-star hotels.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -333,7 +333,7 @@ export default function Fullbodypage() {
               <Image src="/images/RoseateHouse.jpg" alt="Body massage near Roseate House Mahipalpur" fill className="object-cover transition duration-500 group-hover:scale-105" />
             </div>
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-[#3a2e2a]">Roseate House, Mahipalpur</h3>
+              <h3 className="text-lg font-semibold text-[#113435]">Roseate House, Mahipalpur</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">A Russian body spa in Mahipalpur is one of our most-booked in-room packages here, close to IGI Airport.</p>
             </div>
           </Link>
@@ -342,7 +342,7 @@ export default function Fullbodypage() {
               <Image src="/images/TheOberoi_Lajpatnagar.webp" alt="Body massage near The Oberoi Lajpat Nagar" fill className="object-cover transition duration-500 group-hover:scale-105" />
             </div>
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-[#3a2e2a]">The Oberoi, Lajpat Nagar</h3>
+              <h3 className="text-lg font-semibold text-[#113435]">The Oberoi, Lajpat Nagar</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">Body massage in Lajpat Nagar at our outlet, or in-room service if you're staying at The Oberoi nearby.</p>
             </div>
           </Link>
@@ -351,7 +351,7 @@ export default function Fullbodypage() {
               <Image src="/images/TheSuryaaNewDelhi(NFC).webp" alt="Body massage near The Suryaa Saket" fill className="object-cover transition duration-500 group-hover:scale-105" />
             </div>
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-[#3a2e2a]">The Suryaa, Saket</h3>
+              <h3 className="text-lg font-semibold text-[#113435]">The Suryaa, Saket</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">Body massage in Saket close to Select Citywalk, with in-room bookings for guests at The Suryaa.</p>
             </div>
           </Link>
@@ -360,7 +360,7 @@ export default function Fullbodypage() {
               <Image src="/images/fpkdl.com_750_1758779588_beautiful-young-girl-spa-salon_392895-8485.jpg" alt="Full body massage in Rohini" fill className="object-cover transition duration-500 group-hover:scale-105" />
             </div>
             <div className="p-5">
-              <h3 className="text-lg font-semibold text-[#3a2e2a]">Full Body Massage in Rohini</h3>
+              <h3 className="text-lg font-semibold text-[#113435]">Full Body Massage in Rohini</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">Full body massage in Rohini, Delhi is covered across every major sector, plus home spa on request.</p>
             </div>
           </Link>
@@ -368,16 +368,16 @@ export default function Fullbodypage() {
       </section>
 
       {/* Benefits */}
-      <section className="bg-[#f7efe8] py-16 lg:py-20">
+      <section className="bg-[#edf9f8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Full Body Massage</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What a proper session can do for you.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">What a proper session can do for you.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {benefits.map((b) => (
               <motion.div key={b.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">{b.title}</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">{b.title}</h3>
                 <p className="mt-2 text-gray-600">{b.desc}</p>
               </motion.div>
             ))}
@@ -390,7 +390,7 @@ export default function Fullbodypage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">5-Star Hotels in Delhi</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Luxury Hotel Spa for Full Body Massage in Delhi</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Luxury Hotel Spa for Full Body Massage in Delhi</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">Staying at one of these hotels? We send a therapist straight to your room for a private full body massage.</p>
           </div>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -407,7 +407,7 @@ export default function Fullbodypage() {
                   <Image src={hotel.image} alt={`Full body massage near ${hotel.name}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-[#3a2e2a]">{hotel.name}</h3>
+                  <h3 className="text-xl font-bold text-[#113435]">{hotel.name}</h3>
                   <p className="mt-1 text-xs font-medium uppercase tracking-wide text-amber-600">{hotel.location}</p>
                   <p className="mt-3 text-sm leading-relaxed text-gray-600">{hotel.desc}</p>
                   <a
@@ -430,41 +430,41 @@ export default function Fullbodypage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">First Time Here?</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What to expect during your session.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">What to expect during your session.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">Check-in & Consultation</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">Check-in & Consultation</h3>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">A quick chat about pressure, oil preference, and anything you'd rather your therapist avoid.</p>
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">Private, Closed Room</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">Private, Closed Room</h3>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">Your room stays closed for the full session — no shared spaces, no interruptions from booking to checkout.</p>
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">Head-to-Toe Coverage</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">Head-to-Toe Coverage</h3>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">Back, shoulders, arms, legs, and feet — the full session, not a shortened version.</p>
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-            <h3 className="text-lg font-semibold text-[#3a2e2a]">Aftercare & Checkout</h3>
+            <h3 className="text-lg font-semibold text-[#113435]">Aftercare & Checkout</h3>
             <p className="mt-2 text-sm leading-relaxed text-gray-600">A few minutes to ease back before you head out — plus water and a quiet space if you'd like to sit for a bit.</p>
           </div>
         </div>
       </section>
 
       {/* How it works */}
-      <section className="bg-[#f7efe8] py-16 lg:py-20">
+      <section className="bg-[#edf9f8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How it works</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Simple, discreet, professional.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Simple, discreet, professional.</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
             {processSteps.map((step) => (
               <motion.div key={step.number} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="rounded-[24px] border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-amber-50 text-xl font-semibold text-amber-700">{step.number}</div>
                 <div className="mb-3 text-amber-700">{step.icon}</div>
-                <h3 className="text-xl font-semibold text-[#3a2e2a]">{step.title}</h3>
+                <h3 className="text-xl font-semibold text-[#113435]">{step.title}</h3>
                 <p className="mt-3 text-gray-600">{step.text}</p>
               </motion.div>
             ))}
@@ -473,18 +473,18 @@ export default function Fullbodypage() {
       </section>
 
       {/* Pricing */}
-      <section id="Pricing" className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section id="Pricing" className="bg-[#e6f7f6] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Transparent pricing, no surprises.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Transparent pricing, no surprises.</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff7ed] to-[#fffaf3]" : "border-amber-100 bg-white"}`}>
+              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#effffe] to-[#f5fdfc]" : "border-amber-100 bg-white"}`}>
                 <div className={`absolute right-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${plan.highlight ? "bg-amber-600 text-white" : "bg-amber-100 text-amber-700"}`}>{plan.badge}</div>
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50">{plan.icon}</div>
-                <h3 className="text-2xl font-semibold text-[#3a2e2a]">{plan.title}</h3>
+                <h3 className="text-2xl font-semibold text-[#113435]">{plan.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-gray-600">{plan.desc}</p>
                 <div className="mt-6 flex items-end gap-2">
                   <span className="text-4xl font-bold text-amber-700">{plan.price}</span>
@@ -511,13 +511,13 @@ export default function Fullbodypage() {
         <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-xl">
           <div className="mb-8 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently asked questions</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Everything before you book.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Everything before you book.</h2>
           </div>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-[#fffaf5] p-5">
+              <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-[#f5fdfc] p-5">
                 <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
-                  <span className="text-lg font-semibold text-[#3a2e2a]">{faq.question}</span>
+                  <span className="text-lg font-semibold text-[#113435]">{faq.question}</span>
                   <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />
                 </button>
                 <AnimatePresence initial={false}>
@@ -537,7 +537,7 @@ export default function Fullbodypage() {
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Related Services</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Related Services</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -559,7 +559,7 @@ export default function Fullbodypage() {
 
       {/* CTA */}
       <section className="mx-auto max-w-7xl px-6 pb-20">
-        <div className="rounded-[32px] bg-gradient-to-r from-[#3a2e2a] to-[#5b3f31] p-8 text-white shadow-2xl md:p-10">
+        <div className="rounded-[32px] bg-gradient-to-r from-[#113435] to-[#346065] p-8 text-white shadow-2xl md:p-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your session</p>
@@ -567,7 +567,7 @@ export default function Fullbodypage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk into any of our 24+ outlets, or have us come to your hotel or home anywhere in Delhi NCR.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#113435] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

@@ -153,7 +153,7 @@ const specialFeatures = [
                               href="#" 
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                              className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                             >
                               <FaTelegram className="text-xl mr-3" />
                               See available staff
@@ -175,14 +175,14 @@ const specialFeatures = [
   <div className="relative z-10 max-w-6xl mx-auto text-[#FAF3E9]">
     {/* Elegant heading with decorative elements */}
     <div className="flex flex-col items-center mb-12">
-      <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-[#D4A866] to-transparent mb-8" />
-      <h2 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-4 text-[#F9D9A9] tracking-wide">
-        <span className="block text-xl font-light tracking-widest text-[#D4A866] mb-2">
+      <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-[#85d200] to-transparent mb-8" />
+      <h2 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-4 text-[#b6f0ec] tracking-wide">
+        <span className="block text-xl font-light tracking-widest text-[#85d200] mb-2">
           PREMIUM WELLNESS DESTINATIONS
         </span>
         24+ Exclusive Spa Delhi Outlets
       </h2>
-      <div className="w-16 h-0.5 bg-[#D4A866] mt-6" />
+      <div className="w-16 h-0.5 bg-[#85d200] mt-6" />
     </div>
 
     {/* Refined description */}
@@ -194,9 +194,9 @@ const specialFeatures = [
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto">
       {specialFeatures.map((item, index) => (
         <li key={index}>
-          <div className="flex items-start gap-3 p-5 rounded-xl border border-[#D4A866]/30 bg-gradient-to-b from-[#2D1B0F]/60 to-[#1A1109]/60 backdrop-blur-sm hover:border-[#D4A866]/60 transition-all duration-300 group hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-black/20">
+          <div className="flex items-start gap-3 p-5 rounded-xl border border-[#85d200]/30 bg-gradient-to-b from-[#2D1B0F]/60 to-[#1A1109]/60 backdrop-blur-sm hover:border-[#85d200]/60 transition-all duration-300 group hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-black/20">
             <svg
-              className="flex-shrink-0 w-5 h-5 mt-0.5 text-[#D4A866] group-hover:scale-110 transition-transform"
+              className="flex-shrink-0 w-5 h-5 mt-0.5 text-[#85d200] group-hover:scale-110 transition-transform"
               fill="currentColor"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +208,7 @@ const specialFeatures = [
                 9.997 26.206 0 36.204l-294.4 294.401c-9.998 
                 9.997-26.207 9.997-36.204-.001z"/>
             </svg>
-            <span className="text-left font-light text-[#FAF3E9] group-hover:text-[#F9D9A9] transition-colors">
+            <span className="text-left font-light text-[#FAF3E9] group-hover:text-[#b6f0ec] transition-colors">
               {item}
             </span>
           </div>
@@ -217,10 +217,10 @@ const specialFeatures = [
     </ul>
 
     {/* Decorative corner elements */}
-    <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[#D4A866]/50" />
-    <div className="absolute top-6 right-6 w-8 h-8 border-t border-r border-[#D4A866]/50" />
-    <div className="absolute bottom-6 left-6 w-8 h-8 border-b border-l border-[#D4A866]/50" />
-    <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[#D4A866]/50" />
+    <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[#85d200]/50" />
+    <div className="absolute top-6 right-6 w-8 h-8 border-t border-r border-[#85d200]/50" />
+    <div className="absolute bottom-6 left-6 w-8 h-8 border-b border-l border-[#85d200]/50" />
+    <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[#85d200]/50" />
   </div>
       </section>
     </>

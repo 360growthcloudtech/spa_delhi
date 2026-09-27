@@ -98,7 +98,7 @@ export default function DeepTissueKarolBaghPage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <main className="min-h-screen bg-[#fffaf6] text-[#2f241d]">
+    <main className="min-h-screen bg-[#f5fdfc] text-[#113435]">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
         <div className="absolute bottom-8 right-10 h-28 w-28 rounded-full bg-rose-200/30 blur-3xl" />
@@ -107,7 +107,7 @@ export default function DeepTissueKarolBaghPage() {
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
               <FaStar className="text-amber-500" /> KAROL BAGH SPECIALITY
             </div>
-            <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#3a2e2a] md:text-5xl lg:text-5xl">
+            <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#113435] md:text-5xl lg:text-5xl">
               Deep Tissue Massage in <span className="text-amber-700">Karol Bagh</span> for Real Pain Relief
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
@@ -147,13 +147,13 @@ export default function DeepTissueKarolBaghPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why This Combination Works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Deep tissue technique, delivered right in Central Delhi.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Deep tissue technique, delivered right in Central Delhi.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
             <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="rounded-3xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50">{item.icon}</div>
-              <h3 className="text-xl font-semibold text-[#3a2e2a]">{item.title}</h3>
+              <h3 className="text-xl font-semibold text-[#113435]">{item.title}</h3>
               <p className="mt-3 leading-relaxed text-gray-600">{item.desc}</p>
             </motion.div>
           ))}
@@ -161,11 +161,11 @@ export default function DeepTissueKarolBaghPage() {
       </section>
 
       {/* Long-form SEO content — scannable card layout */}
-      <section className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section className="bg-[#e6f7f6] py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">The Full Picture</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Deep Tissue Massage in Karol Bagh — Technique, Pricing & What to Expect</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Deep Tissue Massage in Karol Bagh — Technique, Pricing & What to Expect</h2>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
@@ -182,7 +182,7 @@ export default function DeepTissueKarolBaghPage() {
             <div className="grid gap-5 sm:grid-cols-2">
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Real Pressure, Not a Light Rubdown</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Real Pressure, Not a Light Rubdown</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Unlike a <Link href="/swedish-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Swedish massage</Link>, deep tissue work uses slow, deliberate strokes to reach the muscle layers actually holding your tension.
                 </p>
@@ -190,7 +190,7 @@ export default function DeepTissueKarolBaghPage() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Close to Karol Bagh Metro</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Close to Karol Bagh Metro</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Easy to reach from Ajmal Khan Road, Rajendra Place, and Patel Nagar. First visit from ₹1999, home and hotel spa too.
                 </p>
@@ -198,7 +198,7 @@ export default function DeepTissueKarolBaghPage() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Trained in Deep Tissue, Not Just "Firmer"</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Trained in Deep Tissue, Not Just "Firmer"</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Russian, Thai, and Uzbek therapists apply controlled, firm pressure — a "good hurt," never sharp pain, with check-ins throughout.
                 </p>
@@ -206,7 +206,7 @@ export default function DeepTissueKarolBaghPage() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Built Around Where It Hurts</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Built Around Where It Hurts</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Tell us where it hurts when you book. Curious which technique fits you? Read our{" "}
                   <Link href="/swedish-massage-vs-deep-tissue-massage" className="font-medium text-amber-700 underline hover:text-amber-800">comparison guide</Link>.
@@ -226,7 +226,7 @@ export default function DeepTissueKarolBaghPage() {
       <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
         <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
-          <h2 className="mt-3 text-2xl font-bold text-[#3a2e2a] md:text-3xl">The most trusted deep tissue massage in Karol Bagh.</h2>
+          <h2 className="mt-3 text-2xl font-bold text-[#113435] md:text-3xl">The most trusted deep tissue massage in Karol Bagh.</h2>
           <p className="mt-4 leading-relaxed text-gray-700">
             We've been doing this for more than a decade, with{" "}
             <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>. That matters here specifically, because deep tissue work is easy to get wrong — too little pressure and it does nothing, too much and it's just painful. Our therapists are trained to find that line and stay on it, session after session, guest after guest.
@@ -243,23 +243,23 @@ export default function DeepTissueKarolBaghPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Deep Tissue</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">What regular sessions can do for chronic pain and stiffness.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">What regular sessions can do for chronic pain and stiffness.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {benefits.map((b) => (
             <motion.div key={b.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-[#3a2e2a]">{b.title}</h3>
+              <h3 className="text-lg font-semibold text-[#113435]">{b.title}</h3>
               <p className="mt-2 text-gray-600">{b.desc}</p>
             </motion.div>
           ))}
         </div>
       </section>
 
-      <section className="bg-[#f7efe8] py-16 lg:py-20">
+      <section className="bg-[#edf9f8] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Conveniently located near these Karol Bagh neighbourhoods.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Conveniently located near these Karol Bagh neighbourhoods.</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
               Want the full picture of what our Karol Bagh outlet offers? Visit our <Link href="/spa-in-karol-bagh" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Karol Bagh</Link> page for all services.
             </p>
@@ -271,7 +271,7 @@ export default function DeepTissueKarolBaghPage() {
                   <Image src={area.image} alt={`Deep tissue massage near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-5">
-                  <h3 className="text-lg font-semibold text-[#3a2e2a]">{area.title}</h3>
+                  <h3 className="text-lg font-semibold text-[#113435]">{area.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-gray-600">{area.description}</p>
                 </div>
               </motion.div>
@@ -283,32 +283,32 @@ export default function DeepTissueKarolBaghPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:py-20">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">How it works</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">From booking to real relief.</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">From booking to real relief.</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {processSteps.map((step) => (
             <motion.div key={step.number} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className="rounded-[24px] border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-amber-50 text-xl font-semibold text-amber-700">{step.number}</div>
               <div className="mb-3 text-amber-700">{step.icon}</div>
-              <h3 className="text-xl font-semibold text-[#3a2e2a]">{step.title}</h3>
+              <h3 className="text-xl font-semibold text-[#113435]">{step.title}</h3>
               <p className="mt-3 text-gray-600">{step.text}</p>
             </motion.div>
           ))}
         </div>
       </section>
 
-      <section id="Pricing" className="bg-[#fdf2e8] py-16 lg:py-20">
+      <section id="Pricing" className="bg-[#e6f7f6] py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Focused pain-relief sessions, transparent pricing.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Focused pain-relief sessions, transparent pricing.</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff7ed] to-[#fffaf3]" : "border-amber-100 bg-white"}`}>
+              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#effffe] to-[#f5fdfc]" : "border-amber-100 bg-white"}`}>
                 <div className={`absolute right-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${plan.highlight ? "bg-amber-600 text-white" : "bg-amber-100 text-amber-700"}`}>{plan.badge}</div>
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50">{plan.icon}</div>
-                <h3 className="text-2xl font-semibold text-[#3a2e2a]">{plan.title}</h3>
+                <h3 className="text-2xl font-semibold text-[#113435]">{plan.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-gray-600">{plan.desc}</p>
                 <div className="mt-6 flex items-end gap-2">
                   <span className="text-4xl font-bold text-amber-700">{plan.price}</span>
@@ -331,13 +331,13 @@ export default function DeepTissueKarolBaghPage() {
         <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-xl">
           <div className="mb-8 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently asked questions</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Everything before you book.</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Everything before you book.</h2>
           </div>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-[#fffaf5] p-5">
+              <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-[#f5fdfc] p-5">
                 <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
-                  <span className="text-lg font-semibold text-[#3a2e2a]">{faq.question}</span>
+                  <span className="text-lg font-semibold text-[#113435]">{faq.question}</span>
                   <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />
                 </button>
                 <AnimatePresence initial={false}>
@@ -356,7 +356,7 @@ export default function DeepTissueKarolBaghPage() {
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Related Services & Locations</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Related Services & Locations</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -373,7 +373,7 @@ export default function DeepTissueKarolBaghPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-20">
-        <div className="rounded-[32px] bg-gradient-to-r from-[#3a2e2a] to-[#5b3f31] p-8 text-white shadow-2xl md:p-10">
+        <div className="rounded-[32px] bg-gradient-to-r from-[#113435] to-[#346065] p-8 text-white shadow-2xl md:p-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your session</p>
@@ -381,7 +381,7 @@ export default function DeepTissueKarolBaghPage() {
               <p className="mt-3 leading-relaxed text-white/80">Whether it's your outlet, hotel, or home, our therapists bring proper deep tissue technique to you.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#3a2e2a] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#113435] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

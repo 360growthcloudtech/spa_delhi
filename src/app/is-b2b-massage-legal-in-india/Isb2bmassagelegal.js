@@ -61,7 +61,7 @@ export default function Isb2bmassagelegal() {
                      ];
                 
   return (
-    <main className="bg-[#FFF9F0] min-h-screen text-gray-800">
+    <main className="bg-[#f5fdfc] min-h-screen text-gray-800">
       {/* Banner Section */}
       <section className="relative h-[60vh] w-full">
         <Image
@@ -88,7 +88,7 @@ export default function Isb2bmassagelegal() {
         </div>
       </section>
       {/* /// */}
-       <section className="w-full bg-[#faf7f2] py-16 px-4">
+       <section className="w-full bg-[#f2fbfa] py-16 px-4">
       <div className="max-w-5xl mx-auto">
 
         {/* FEATURED IMAGE */}
@@ -116,7 +116,7 @@ export default function Isb2bmassagelegal() {
         </p>
 
         {/* SWEDISH MASSAGE */}
-        <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
+        <h2 className="text-2xl font-semibold text-[#066168] mb-4">
           Understanding the topic
         </h2>
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
@@ -223,7 +223,7 @@ Common spa services include:
         </p>
 
         {/* DEEP TISSUE */}
-        <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
+        <h2 className="text-2xl font-semibold text-[#066168] mb-4">
           Why people choose professional spa services
         </h2>
         
@@ -326,7 +326,7 @@ Common spa services include:
 
         {/* BENEFITS OF SWEDISH MASSAGE */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#c65a00] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
             Spa Delhi presence across Delhi NCR
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -452,8 +452,8 @@ Common spa services include:
                <section className="w-full bg-white py-5 px-4">
       <div className="max-w-5xl mx-auto space-y-14">
         {/* CTA */}
-        <div className="bg-[#fff3e8] border-l-4 border-[#c65a00] p-6 rounded">
-            <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
+        <div className="bg-[#fff3e8] border-l-4 border-[#066168] p-6 rounded">
+            <h2 className="text-2xl font-semibold text-[#066168] mb-4">
           Conclusion
         </h2>
           <p className="text-gray-800 font-medium">

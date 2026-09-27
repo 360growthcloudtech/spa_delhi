@@ -338,7 +338,7 @@ const faqs = [
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
+                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                  {/* Hotel Icon */}
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21V3h18v18M9 21v-6h6v6" />
@@ -347,7 +347,7 @@ const faqs = [
                 <span className="text-sm text-gray-700">24+ Spa Outlet</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
+                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2C10.8954 2 10 2.89543 10 4V6H8C6.89543 6 6 6.89543 6 8V20C6 21.1046 6.89543 22 8 22H16C17.1046 22 18 21.1046 18 20V8C18 6.89543 17.1046 6 16 6H14V4C14 2.89543 13.1046 2 12 2ZM12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9Z" />
                   </svg>
@@ -355,7 +355,7 @@ const faqs = [
                 <span className="text-sm text-gray-700">12+ Hotel OutLet</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
+                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   {/* Muscle Relief / Healing Hand Icon */}
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16c0-1.1.9-2 2-2h2v-5a2 2 0 114 0v5h2a2 2 0 110 4h-1l-1 3-1-3H6a2 2 0 01-2-2z" />
@@ -364,7 +364,7 @@ const faqs = [
                 <span className="text-sm text-gray-700">Home Spa</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
+                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
@@ -388,7 +388,7 @@ const faqs = [
                                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                                        className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                                       >
                                         <FaTelegram className="text-xl mr-3" />
                                         Meet Our Team
@@ -697,7 +697,7 @@ const faqs = [
                                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                                        className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                                       >
                                         <FaTelegram className="text-xl mr-3" />
                                         Meet Our Team
@@ -717,7 +717,7 @@ const faqs = [
               </section>
               {/* End Our Signature Treatments */}
               {/* icon section */}
-              <section className="relative bg-gradient-to-br from-[#fcf7f4] to-[#f8f0eb] py-24 px-6 lg:px-16 overflow-hidden">
+              <section className="relative bg-gradient-to-br from-[#f5fdfc] to-[#f8f0eb] py-24 px-6 lg:px-16 overflow-hidden">
                     {/* Decorative elements */}
                     <div className="absolute top-0 right-0 w-64 h-64 bg-[#f5e4d7] rounded-full mix-blend-multiply filter blur-3xl opacity-30 transform translate-x-1/2 -translate-y-1/2"></div>
                     <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#e8d1c5] rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform -translate-x-1/2 translate-y-1/2"></div>
@@ -737,7 +737,7 @@ const faqs = [
                             </motion.span>
                             
                             <motion.h2 
-                              className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-2 mb-6 leading-tight"
+                              className="text-4xl md:text-5xl font-bold text-[#113435] mt-2 mb-6 leading-tight"
                               initial={{ opacity: 0, y: 20 }}
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.5, delay: 0.2 }}
@@ -759,7 +759,7 @@ const faqs = [
                             {features2.map((item, index) => (
                               <motion.div 
                                 key={index}
-                                className="bg-white bg-opacity-70 backdrop-blur-sm rounded-2xl p-5 border border-[#e8d5c9] shadow-sm hover:shadow-md transition-all"
+                                className="bg-white bg-opacity-70 backdrop-blur-sm rounded-2xl p-5 border border-[#cdeceb] shadow-sm hover:shadow-md transition-all"
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.3 + (index * 0.1) }}
@@ -776,7 +776,7 @@ const faqs = [
                                     />
                                   </div>
                                   <div>
-                                    <h3 className="text-lg font-semibold text-[#3a2e2a] mb-1">{item.title}</h3>
+                                    <h3 className="text-lg font-semibold text-[#113435] mb-1">{item.title}</h3>
                                     <p className="text-sm text-[#7d6b62]">{item.description}</p>
                                   </div>
                                 </div>
@@ -864,7 +864,7 @@ const faqs = [
                   </section>
               {/* ENd icon section */}
               {/* About Section */}
-                    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
+                    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#f5fdfc] to-[#f5fdfc] relative overflow-hidden">
                       {/* Decorative Elements */}
                       <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
                       <div className="absolute top-20 right-10 w-80 h-80 rounded-full bg-amber-200/30 blur-3xl"></div>
@@ -1360,7 +1360,7 @@ const faqs = [
               </div>
             </section>
              {/* content section */}
-                  <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-18 px-4 md:px-14">
+                  <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-18 px-4 md:px-14">
                                                    <div className="max-w-6xl mx-auto">
                                                      {/* Section Header */}
                                                      {/* <motion.div 
@@ -1371,7 +1371,7 @@ const faqs = [
                                                        transition={{ duration: 0.6 }}
                                                      >
                                                        <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                                       <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">Top Rated Body Spa Services in Delhi for Complete Relaxation</h1>
+                                                       <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-6">Top Rated Body Spa Services in Delhi for Complete Relaxation</h1>
                                                        <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
                                                      </motion.div> */}
                            
@@ -1380,7 +1380,7 @@ const faqs = [
                                                        <div>
                                                          
                                                          {/* <motion.div 
-                                                           className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#e8d5c9]"
+                                                           className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#cdeceb]"
                                                            initial={{ opacity: 0, x: 30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1422,7 +1422,7 @@ const faqs = [
                            
                                                          {/* Body Treatments */}
                                                          {/* <motion.div 
-                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#e8d5c9]"
+                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#cdeceb]"
                                                            initial={{ opacity: 0, x: -30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1468,7 +1468,7 @@ const faqs = [
                            
                                                          {/* Massage Therapy */}
                                                          {/* <motion.div 
-                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#e8d5c9]"
+                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#cdeceb]"
                                                            initial={{ opacity: 0, x: -30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1513,7 +1513,7 @@ const faqs = [
                                                          </motion.div> */}
                                                          {/* Wellness Packages */}
                                                          {/* <motion.div 
-                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#e8d5c9]"
+                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#cdeceb]"
                                                            initial={{ opacity: 0, x: 30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1525,7 +1525,7 @@ const faqs = [
                                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                                                                </svg>
                                                              </div>
-                                                             <h2 className="text-2xl font-bold text-[#3a2e2a]">Home & Hotel Spa</h2>
+                                                             <h2 className="text-2xl font-bold text-[#113435]">Home & Hotel Spa</h2>
                                                            </div>
                                                            <p className="text-gray-600 leading-relaxed mb-6">
                                                              Our commitment extends beyond individual wellness to planetary health. We're proud to be the first Carbon Neutral spa in our region, with initiatives including:
@@ -1577,7 +1577,7 @@ const faqs = [
                                                                href='https://api.whatsapp.com/send?phone=919217255113'
                                                                target="_blank"
                                                                rel="noopener noreferrer"
-                                                               className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                                                               className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                                                              >
                                                                <FaWhatsapp className="text-xl mr-3" />
                                                                Book Your Session Now
@@ -1682,7 +1682,7 @@ const faqs = [
 
               
               {/* Our Therapy Experts */}
-                    <section className="py-16 px-4 bg-gradient-to-br from-[#FFF9F0] via-[#fcf5e9] to-[#f9f1e2]">
+                    <section className="py-16 px-4 bg-gradient-to-br from-[#f5fdfc] via-[#fcf5e9] to-[#f9f1e2]">
                       <div className="max-w-7xl mx-auto">
                         
                         <div className="text-center mb-16">

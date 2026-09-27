@@ -1,20 +1,28 @@
-import { Montserrat, Playfair_Display } from 'next/font/google'
+import { Afacad, Figtree, Kaushan_Script } from 'next/font/google'
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TopBar from "./components/TopBar";
 import Analytics from "./components/Analytics";
-;
+import ThemeEffects from "./components/ThemeEffects";
 
-const montserrat = Montserrat({
+// Travlla theme typography: Figtree (body), Afacad (titles), Kaushan Script (display accents)
+const figtree = Figtree({
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  variable: '--font-figtree',
   display: 'swap',
 })
 
-const playfair = Playfair_Display({
+const afacad = Afacad({
   subsets: ['latin'],
-  variable: '--font-playfair',
+  variable: '--font-afacad',
+  display: 'swap',
+})
+
+const kaushan = Kaushan_Script({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-kaushan',
   display: 'swap',
 })
 
@@ -33,13 +41,14 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${figtree.variable} ${afacad.variable} ${kaushan.variable}`}>
+      <body className="font-sans">
          <Analytics />
         {/* <TopBar /> */}
         <Navbar />
         {children}
         <Footer />
+        <ThemeEffects />
       </body>
     </html>
   );

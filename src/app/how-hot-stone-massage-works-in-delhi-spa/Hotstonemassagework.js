@@ -56,7 +56,7 @@ export default function Swedishvsdeeptissue() {
                      ];
                 
   return (
-    <main className="bg-[#FFF9F0] min-h-screen text-gray-800">
+    <main className="bg-[#f5fdfc] min-h-screen text-gray-800">
       {/* Banner Section */}
       <section className="relative h-[60vh] w-full">
         <Image
@@ -102,7 +102,7 @@ export default function Swedishvsdeeptissue() {
       </section> */}
 
       {/* /// */}
-       <section className="w-full bg-[#faf7f2] py-16 px-4">
+       <section className="w-full bg-[#f2fbfa] py-16 px-4">
       <div className="max-w-5xl mx-auto">
 
         {/* FEATURED IMAGE */}
@@ -117,7 +117,7 @@ export default function Swedishvsdeeptissue() {
         </div>
 
         {/* TITLE */}
-        {/* <h1 className="text-3xl md:text-4xl font-semibold text-[#c65a00] mb-6 leading-snug">
+        {/* <h1 className="text-3xl md:text-4xl font-semibold text-[#066168] mb-6 leading-snug">
           Swedish Massage vs Deep Tissue Massage: Which Massage Should You Choose?
         </h1> */}
 
@@ -130,7 +130,7 @@ export default function Swedishvsdeeptissue() {
         </p>
 
         {/* SWEDISH MASSAGE */}
-        <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
+        <h2 className="text-2xl font-semibold text-[#066168] mb-4">
           What is it?
         </h2>
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
@@ -212,7 +212,7 @@ export default function Swedishvsdeeptissue() {
                 </p>
 
         {/* DEEP TISSUE */}
-        <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
+        <h2 className="text-2xl font-semibold text-[#066168] mb-4">
           Advantages of Hot Stone Therapy
         </h2>
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
@@ -267,13 +267,13 @@ export default function Swedishvsdeeptissue() {
         </div> */}
 
         {/* DIFFERENCE */}
-        {/* <h2 className="text-2xl font-semibold text-[#c65a00] mb-6">
+        {/* <h2 className="text-2xl font-semibold text-[#066168] mb-6">
           Key Differences: Swedish vs Deep Tissue Massage
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           <div className="bg-white p-6 rounded shadow-sm">
-            <h3 className="text-lg font-semibold text-[#c65a00] mb-3">
+            <h3 className="text-lg font-semibold text-[#066168] mb-3">
               Swedish Massage
             </h3>
             <ul className="space-y-2 text-gray-700">
@@ -285,7 +285,7 @@ export default function Swedishvsdeeptissue() {
           </div>
 
           <div className="bg-white p-6 rounded shadow-sm">
-            <h3 className="text-lg font-semibold text-[#c65a00] mb-3">
+            <h3 className="text-lg font-semibold text-[#066168] mb-3">
               Deep Tissue Massage
             </h3>
             <ul className="space-y-2 text-gray-700">
@@ -307,7 +307,7 @@ export default function Swedishvsdeeptissue() {
 
         {/* BENEFITS OF SWEDISH MASSAGE */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#c65a00] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
             How to do hot stone massage at home?
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -325,7 +325,7 @@ export default function Swedishvsdeeptissue() {
 
         {/* BENEFITS OF DEEP TISSUE */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#c65a00] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
             Who Would A Hot Stone Massage Benefits?
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -350,8 +350,8 @@ export default function Swedishvsdeeptissue() {
         </div>
 
         {/* WHICH MASSAGE SHOULD YOU CHOOSE */}
-        <div className="bg-[#faf7f2] p-8 rounded-xl">
-         <h2 className="text-2xl md:text-3xl font-semibold text-[#c65a00] mb-4">
+        <div className="bg-[#f2fbfa] p-8 rounded-xl">
+         <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
            Who is Hot Stone Massage Not Good For?
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -385,7 +385,7 @@ export default function Swedishvsdeeptissue() {
                   Read More → <a href="/swedish-massage-vs-deep-tissue-massage">Swedish Massage vs Deep Tissue Massage</a>
                 </p>
           
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#c65a00] mb-4">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
             What is the Purpose of Hot Stone Massage? 
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -411,7 +411,7 @@ export default function Swedishvsdeeptissue() {
         </div>
 
         {/* CAUTION */}
-        <div className="bg-[#fff3e8] border-l-4 border-[#c65a00] p-6 rounded">
+        <div className="bg-[#fff3e8] border-l-4 border-[#066168] p-6 rounded">
           <h3 className="text-xl font-semibold mb-3 text-gray-800">
             Aftercare Advice for Optimal Outcomes
           </h3>
@@ -432,8 +432,8 @@ export default function Swedishvsdeeptissue() {
         </div>
 
         {/* CTA */}
-        <div className="bg-[#fff3e8] border-l-4 border-[#c65a00] p-6 rounded">
-            <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
+        <div className="bg-[#fff3e8] border-l-4 border-[#066168] p-6 rounded">
+            <h2 className="text-2xl font-semibold text-[#066168] mb-4">
           Conclusion
         </h2>
           <p className="text-gray-800 font-medium">

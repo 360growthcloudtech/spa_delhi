@@ -430,7 +430,7 @@ export default function SwedishMassagePage() {
                           href="https://t.me/+a5Bu6FBPN9FlOWM9"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                          className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                         >
                           <FaTelegram className="text-xl mr-3" />
                           Meet Our Team
@@ -560,11 +560,11 @@ export default function SwedishMassagePage() {
         </section>
 
         {/* Long-form SEO content — scannable card layout */}
-        <section className="bg-[#fdf2e8] py-16 lg:py-20">
+        <section className="bg-[#e6f7f6] py-16 lg:py-20">
           <div className="mx-auto max-w-6xl px-6">
             <div className="mb-12 text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Complete Guide</p>
-              <h2 className="mt-3 text-3xl font-bold text-[#3a2e2a] md:text-4xl">Swedish Massage in Delhi — Technique, Benefits & How to Choose It</h2>
+              <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Swedish Massage in Delhi — Technique, Benefits & How to Choose It</h2>
               <p className="mx-auto mt-4 max-w-2xl text-gray-600">
                 Everything you'd ask before booking a Swedish massage near me in Delhi, in four quick sections.
               </p>
@@ -579,7 +579,7 @@ export default function SwedishMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Five Classic Movements, Done Properly</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Five Classic Movements, Done Properly</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Genuine Swedish technique takes real training. Our therapists use effleurage, petrissage, friction, tapotement, and vibration together — a full body session that relaxes muscles and improves circulation.
                 </p>
@@ -593,7 +593,7 @@ export default function SwedishMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Swedish vs Deep Tissue</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Swedish vs Deep Tissue</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Swedish uses lighter, relaxing pressure; deep tissue goes firmer for chronic pain. Unsure which fits you? Read our{" "}
                   <Link href="/swedish-massage-vs-deep-tissue-massage" className="font-medium text-amber-700 underline hover:text-amber-800">full comparison</Link>.
@@ -608,7 +608,7 @@ export default function SwedishMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Who It's Really For</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Who It's Really For</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   A favourite among office professionals, travellers unwinding after a long journey, and anyone wanting a calming self-care ritual and better sleep.
                 </p>
@@ -622,7 +622,7 @@ export default function SwedishMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
-                <h3 className="text-lg font-semibold text-[#3a2e2a]">Hygiene & Safety First</h3>
+                <h3 className="text-lg font-semibold text-[#113435]">Hygiene & Safety First</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Fresh towels, sanitised treatment rooms, and premium oils for every guest — every therapist follows strict hygiene protocols, no exceptions.
                 </p>
@@ -769,7 +769,7 @@ export default function SwedishMassagePage() {
         {/* End Related Services */}
 
         {/* content section */}
-        <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-20 px-6 md:px-16">
+        <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-20 px-6 md:px-16">
           <div className="max-w-6xl mx-auto">
             <motion.div
               className="text-center mb-12"
@@ -779,7 +779,7 @@ export default function SwedishMassagePage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Best Swedish Massage in Delhi for Complete Relaxation</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Swedish Massage in Delhi for Complete Relaxation</h2>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                 From trained therapists to hygienic outlets and 24/7 booking support, Spa Delhi blends genuine relaxation with comfort and personal care.
@@ -791,7 +791,7 @@ export default function SwedishMassagePage() {
                 {SERVICES_LEFT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#e8d5c9] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
                     initial={{ opacity: 0, x: 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -811,7 +811,7 @@ export default function SwedishMassagePage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#f7efe7] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>
@@ -841,7 +841,7 @@ export default function SwedishMassagePage() {
                 {SERVICES_RIGHT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#e8d5c9] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -861,7 +861,7 @@ export default function SwedishMassagePage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#f7efe7] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>
@@ -1104,7 +1104,7 @@ export default function SwedishMassagePage() {
                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                        className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
                         <FaTelegram className="text-xl mr-3" />
                         Meet Our Team
