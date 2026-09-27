@@ -71,7 +71,7 @@ export default function HomeWhyChoiceus() {
         </div>
 
         <div className="relative mt-10 text-center">
-          <a href="https://api.whatsapp.com/send?phone=919217255113" className="site-button light">
+          <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="site-button light">
             Book Your Session
           </a>
         </div>

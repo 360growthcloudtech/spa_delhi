@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const ENQUIRE_URL = "https://api.whatsapp.com/send?phone=919217255113";
+const ENQUIRE_URL = "https://api.whatsapp.com/send?phone=9310xxxxxx";
 
 /**
  * Site-wide theme effects:
@@ -42,9 +42,8 @@ export default function ThemeEffects() {
         type="button"
         aria-label="Back to top"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className={`fixed bottom-6 right-6 z-50 size-14 rounded-full bg-white shadow-xl shadow-black/10 flex items-center justify-center text-ink transition-all duration-500 hover:bg-primary hover:text-white ${
-          progress > 0.04 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6 pointer-events-none"
-        }`}
+        className={`fixed bottom-6 right-6 z-50 size-14 rounded-full bg-white shadow-xl shadow-black/10 flex items-center justify-center text-ink transition-all duration-500 hover:bg-primary hover:text-white ${progress > 0.04 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6 pointer-events-none"
+          }`}
       >
         <svg className="absolute inset-0 -rotate-90" viewBox="0 0 56 56" aria-hidden="true">
           <circle cx="28" cy="28" r={r} fill="none" stroke="currentColor" strokeOpacity="0.12" strokeWidth="3" />

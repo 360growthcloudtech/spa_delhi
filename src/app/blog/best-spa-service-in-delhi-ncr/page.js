@@ -90,12 +90,12 @@ const relatedBlogs = [
 export default function BestSpaServicesDelhiNCR() {
   return (
     <>
-    <script
+      <script
         id="breadcrumb-schema-best-spa-service-in-delhi-ncr"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-    <style>{`
+      <style>{`
         html{
           scroll-behavior:smooth;
         }
@@ -103,15 +103,15 @@ export default function BestSpaServicesDelhiNCR() {
 
       <main className="bg-[#FFFDF8] text-gray-800">
         <section className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <Breadcrumbs
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Blogs", href: "/blog" },
-            {
-              label: "Best Spa Services in Delhi NCR"
-            },
-          ]}
-        />
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Blogs", href: "/blog" },
+              {
+                label: "Best Spa Services in Delhi NCR"
+              },
+            ]}
+          />
         </section>
 
         {/* Hero Section */}
@@ -224,7 +224,7 @@ export default function BestSpaServicesDelhiNCR() {
 
                 </section>
 
-                                <section
+                <section
                   id="table-of-contents"
                   className="scroll-mt-32 rounded-[24px] border border-amber-100 bg-amber-50 p-8"
                 >
@@ -390,7 +390,7 @@ export default function BestSpaServicesDelhiNCR() {
 
                 </section>
 
-                                {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
+                {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
                     src="/images/MassageSession.webp"
@@ -514,7 +514,7 @@ export default function BestSpaServicesDelhiNCR() {
 
                 </div>
 
-                                <section
+                <section
                   id="choose-spa"
                   className="space-y-6 scroll-mt-32"
                 >
@@ -672,7 +672,7 @@ export default function BestSpaServicesDelhiNCR() {
 
                 </div>
 
-                                <section
+                <section
                   id="wellness"
                   className="space-y-6 scroll-mt-32"
                 >
@@ -725,7 +725,7 @@ export default function BestSpaServicesDelhiNCR() {
                     src="/images/spa-in-connaught-place5.jpg"
                     alt="Wellness Spa in Delhi"
                     fill
- className="object-cover "                  />
+                    className="object-cover " />
 
                 </div>
 
@@ -867,7 +867,7 @@ export default function BestSpaServicesDelhiNCR() {
                   </div>
 
                 </section>
-                 <section className="rounded-[24px] bg-gradient-to-r from-amber-600 to-amber-700 p-8 mb-5 text-white shadow-lg">
+                <section className="rounded-[24px] bg-gradient-to-r from-amber-600 to-amber-700 p-8 mb-5 text-white shadow-lg">
 
                   <h2 className="text-3xl font-bold">
                     Looking for a Relaxing Spa Experience?
@@ -889,7 +889,7 @@ export default function BestSpaServicesDelhiNCR() {
                     </Link>
 
                     <a
-                      href="https://api.whatsapp.com/send?phone=919217255113"
+                      href="https://api.whatsapp.com/send?phone=9310xxxxxx"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"

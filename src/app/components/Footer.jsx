@@ -4,7 +4,7 @@ import { FiMail, FiChevronDown } from "react-icons/fi";
 
 const socials = [
   { name: "Telegram", icon: FaTelegramPlane, link: "https://t.me/+a5Bu6FBPN9FlOWM9" },
-  { name: "WhatsApp", icon: FaWhatsapp, link: "https://api.whatsapp.com/send?phone=919217255113" },
+  { name: "WhatsApp", icon: FaWhatsapp, link: "https://api.whatsapp.com/send?phone=9310xxxxxx" },
   { name: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/delhi.luxury_spa/" },
 ];
 
@@ -122,7 +122,7 @@ export default function Footer() {
             <Heading>Contact Us</Heading>
             <ul className="space-y-4 text-sm">
               <li>
-                <a href="tel:+919217255113" className="flex items-center gap-3 hover:text-primary transition-colors">
+                <a href="tel:+9310xxxxxx" className="flex items-center gap-3 hover:text-primary transition-colors">
                   <span className="size-9 shrink-0 rounded-full bg-cream text-primary flex items-center justify-center">
                     <FaPhoneAlt size={13} />
                   </span>
@@ -138,7 +138,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <a href="https://api.whatsapp.com/send?phone=919217255113" className="site-button mt-6 !py-3">
+            <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="site-button mt-6 !py-3">
               Book a Session
             </a>
           </div>
@@ -166,7 +166,7 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} Luxury Russian Spa. All rights reserved.</p>
           <p>
             Mail <a href="mailto:dmspadelhi@gmail.com" className="hover:text-primary">dmspadelhi@gmail.com</a> | Phone{" "}
-            <a href="tel:+919217255113" className="hover:text-primary">+91 9217255113</a>
+            <a href="tel:+9310xxxxxx" className="hover:text-primary">+91 9217255113</a>
           </p>
         </div>
       </div>

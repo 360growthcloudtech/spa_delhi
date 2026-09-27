@@ -8,7 +8,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=919217255113",
+      whatsapp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
@@ -18,7 +18,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=919217255113",
+      whatsapp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
@@ -28,7 +28,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=919217255113",
+      whatsapp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
@@ -38,7 +38,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=919217255113",
+      whatsapp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       telegram: "https://t.me/+a5Bu6FBPN9FlOWM9",
       instagram: "",
     },
@@ -49,7 +49,7 @@ export default function HomeTherapyest() {
   return (
     <section className="py-16 px-4 bg-amber-50">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Heading */}
         <div className="text-center mb-12">
           <p className="text-amber-600 uppercase font-semibold tracking-wider mb-3">
@@ -97,25 +97,25 @@ export default function HomeTherapyest() {
               </div>
 
               <div className="flex justify-center gap-4 py-4">
-  <a
-    href={member.socials.whatsapp}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-gray-600 hover:text-green-600 transition"
-  >
-    <FaWhatsapp size={22} />
-  </a>
+                <a
+                  href={member.socials.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-green-600 transition"
+                >
+                  <FaWhatsapp size={22} />
+                </a>
 
-  <a
-    href={member.socials.telegram}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-gray-600 hover:text-sky-500 transition"
-  >
-    <FaTelegramPlane size={22} />
-  </a>
+                <a
+                  href={member.socials.telegram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-sky-500 transition"
+                >
+                  <FaTelegramPlane size={22} />
+                </a>
 
-  {/* <a
+                {/* <a
     href={member.socials.instagram}
     target="_blank"
     rel="noopener noreferrer"
@@ -123,7 +123,7 @@ export default function HomeTherapyest() {
   >
     <FaInstagram size={22} />
   </a> */}
-</div>
+              </div>
             </div>
           ))}
         </div>

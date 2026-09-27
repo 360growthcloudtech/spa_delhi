@@ -209,7 +209,7 @@ export default function SandwichMassageDelhiPage() {
 
                 </section>
 
-                                <section
+                <section
                   id="what-is-sandwich-massage"
                   className="space-y-4 scroll-mt-32"
                 >
@@ -325,7 +325,7 @@ export default function SandwichMassageDelhiPage() {
 
                 </section>
 
-                                <section
+                <section
                   id="benefits"
                   className="space-y-6 scroll-mt-32"
                 >
@@ -496,7 +496,7 @@ export default function SandwichMassageDelhiPage() {
                   />
 
                 </div> */}
-                                <section
+                <section
                   id="choose-spa"
                   className="space-y-5 scroll-mt-32"
                 >
@@ -640,7 +640,7 @@ export default function SandwichMassageDelhiPage() {
 
                 </div> */}
 
-                                <section
+                <section
                   id="book"
                   className="space-y-5 scroll-mt-32"
                 >
@@ -825,7 +825,7 @@ export default function SandwichMassageDelhiPage() {
 
                 </div>
 
-                                <section
+                <section
                   id="conclusion"
                   className="space-y-5 scroll-mt-32"
                 >
@@ -885,7 +885,7 @@ export default function SandwichMassageDelhiPage() {
                 <section className="rounded-[24px] bg-gradient-to-r from-amber-600 to-amber-700 p-8 text-white shadow-lg">
 
                   <h2 className="text-3xl font-bold">
-                    Book Your Spa Appointment 
+                    Book Your Spa Appointment
                   </h2>
 
                   <p className="mt-4 max-w-2xl text-lg text-amber-50">
@@ -904,7 +904,7 @@ export default function SandwichMassageDelhiPage() {
                     </Link>
 
                     <a
-                      href="https://api.whatsapp.com/send?phone=919217255113"
+                      href="https://api.whatsapp.com/send?phone=9310xxxxxx"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"

@@ -7,7 +7,7 @@ import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 import { FiChevronDown, FiX } from "react-icons/fi";
 import Logo from "./Logo";
 
-const WHATSAPP = "https://api.whatsapp.com/send?phone=919217255113";
+const WHATSAPP = "https://api.whatsapp.com/send?phone=9310xxxxxx";
 
 const servicesDropdown = [
   { name: "Sandwich Massage", href: "/sandwich-massage-in-delhi" },
@@ -76,9 +76,8 @@ export default function Navbar() {
 
       {/* Main Header: transparent over the home hero, white once scrolled (Avataar) */}
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-[background-color,box-shadow] duration-300 ${
-          transparent ? "bg-transparent" : "bg-white shadow-[0_2px_16px_rgba(0,0,0,0.06)]"
-        }`}
+        className={`fixed top-0 left-0 w-full z-50 transition-[background-color,box-shadow] duration-300 ${transparent ? "bg-transparent" : "bg-white shadow-[0_2px_16px_rgba(0,0,0,0.06)]"
+          }`}
       >
         <nav className="max-w-7xl mx-auto flex justify-between items-center gap-6 px-5 md:px-8 h-[72px] lg:h-[92px]">
           <a href="/" aria-label="Luxury Russian Spa home" className="shrink-0">
@@ -96,7 +95,7 @@ export default function Navbar() {
               <FaWhatsapp size={26} />
             </a>
             <a
-              href="tel:+919217255113"
+              href="tel:+9310xxxxxx"
               aria-label="Call +91-9217255113"
               className={`hidden sm:block transition-colors duration-300 ${transparent ? "text-white hover:text-secondary" : "text-ink hover:text-primary"}`}
             >
@@ -109,11 +108,10 @@ export default function Navbar() {
                 <li key={item.name} className="relative group">
                   <a
                     href={item.href}
-                    className={`nav-link flex items-center gap-1 text-[15px] uppercase tracking-[0.02em] transition-colors duration-300 ${
-                      transparent
+                    className={`nav-link flex items-center gap-1 text-[15px] uppercase tracking-[0.02em] transition-colors duration-300 ${transparent
                         ? "text-white hover:text-secondary"
                         : isActive(item.href) ? "text-primary" : "text-ink hover:text-primary"
-                    }`}
+                      }`}
                   >
                     {item.name}
                     {item.children && <FiChevronDown className="transition-transform duration-300 group-hover:rotate-180" />}
@@ -142,9 +140,8 @@ export default function Navbar() {
             {/* CTA: white box on the hero, black box once scrolled */}
             <a
               href={WHATSAPP}
-              className={`hidden sm:inline-flex items-center rounded-[3px] px-5 py-3 text-[15px] uppercase tracking-[0.02em] transition-colors duration-300 ${
-                transparent ? "bg-white text-black hover:bg-cream" : "bg-black text-white hover:bg-primary"
-              }`}
+              className={`hidden sm:inline-flex items-center rounded-[3px] px-5 py-3 text-[15px] uppercase tracking-[0.02em] transition-colors duration-300 ${transparent ? "bg-white text-black hover:bg-cream" : "bg-black text-white hover:bg-primary"
+                }`}
             >
               Book a Session
             </a>
@@ -244,7 +241,7 @@ export default function Navbar() {
                 <a href={WHATSAPP} className="site-button w-full">
                   <FaWhatsapp /> Book a Session
                 </a>
-                <a href="tel:+919217255113" className="flex items-center gap-3 text-sm text-ink">
+                <a href="tel:+9310xxxxxx" className="flex items-center gap-3 text-sm text-ink">
                   <span className="size-10 rounded-full bg-cream text-primary flex items-center justify-center">
                     <FaPhoneAlt size={13} />
                   </span>

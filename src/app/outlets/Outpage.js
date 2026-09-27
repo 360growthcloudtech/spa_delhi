@@ -176,7 +176,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -186,7 +186,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -196,7 +196,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -206,7 +206,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -391,14 +391,14 @@ export default function Outpage() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:+919217255113"
+              href="tel:+9310xxxxxx"
               className="flex items-center gap-2 text-amber-800 hover:text-amber-600 transition"
             >
               📞 +91 9217255113
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=919217255113"
+              href="https://api.whatsapp.com/send?phone=9310xxxxxx"
               className="px-6 py-3 rounded-xl bg-amber-600 text-white font-medium shadow-md hover:bg-amber-700 transition"
             >
               Book Now
@@ -557,7 +557,7 @@ View All Services
 
             {/* Book Now Button */}
             <a
-              href="https://api.whatsapp.com/send?phone=919217255113"
+              href="https://api.whatsapp.com/send?phone=9310xxxxxx"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-auto px-5 py-2 rounded-full bg-amber-500 text-white text-sm font-semibold hover:bg-amber-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -667,7 +667,7 @@ View All Services
                               <span className="text-stone-700">Aromatherapy</span>
                             </li>
                           </ul>
-                          <a href='https://api.whatsapp.com/send?phone=919217255113'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                          <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             Book Now
                           </button></a>
                           
@@ -729,7 +729,7 @@ View All Services
                         Our Packages
                       </button>
                       </a>
-                      <a href='https://api.whatsapp.com/send?phone=919217255113'>
+                      <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
                         <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>

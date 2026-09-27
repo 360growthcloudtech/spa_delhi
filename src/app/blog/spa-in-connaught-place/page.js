@@ -207,7 +207,7 @@ export default function SpaInConnaughtPlacePage() {
 
                 </section>
 
-                                <section
+                <section
                   id="why-choose"
                   className="space-y-6 scroll-mt-32"
                 >
@@ -266,7 +266,7 @@ export default function SpaInConnaughtPlacePage() {
 
                 </section>
 
-                { <div className="relative h-[320px] overflow-hidden rounded-[20px]">
+                {<div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
                     src="/images/spa-in-connaught-place8.jpg"
@@ -275,7 +275,7 @@ export default function SpaInConnaughtPlacePage() {
                     className="object-cover"
                   />
 
-                </div> }
+                </div>}
 
                 <section
                   id="services"
@@ -359,7 +359,7 @@ export default function SpaInConnaughtPlacePage() {
 
                 </div>
 
-                                <section
+                <section
                   id="benefits"
                   className="space-y-6 scroll-mt-32"
                 >
@@ -499,7 +499,7 @@ export default function SpaInConnaughtPlacePage() {
 
                 </div>
 
-                                <section
+                <section
                   id="choose-centre"
                   className="space-y-5 scroll-mt-32"
                 >
@@ -639,7 +639,7 @@ export default function SpaInConnaughtPlacePage() {
 
                 </div> */}
 
-                                <section
+                <section
                   id="best-time"
                   className="space-y-5 scroll-mt-32"
                 >
@@ -757,7 +757,7 @@ export default function SpaInConnaughtPlacePage() {
 
                 </div>
 
-                                <section
+                <section
                   id="conclusion"
                   className="space-y-5 scroll-mt-32"
                 >
@@ -832,7 +832,7 @@ export default function SpaInConnaughtPlacePage() {
                     </Link>
 
                     <a
-                      href="https://api.whatsapp.com/send?phone=919217255113"
+                      href="https://api.whatsapp.com/send?phone=9310xxxxxx"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"

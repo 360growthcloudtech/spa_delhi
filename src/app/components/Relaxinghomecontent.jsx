@@ -5,7 +5,7 @@ export default function RelaxingHomeContent() {
     <section className="bg-[#faf8f5] py-16 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
+
           {/* Images */}
           <div className="space-y-6">
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-md">
@@ -84,7 +84,7 @@ export default function RelaxingHomeContent() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://api.whatsapp.com/send?phone=919217255113"
+                href="https://api.whatsapp.com/send?phone=9310xxxxxx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 text-center bg-amber-600 hover:bg-amber-700 text-white py-3 px-6 rounded-full font-semibold"

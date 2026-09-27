@@ -9,105 +9,105 @@ import { FaStar, FaCheckCircle } from 'react-icons/fa';
 import { FaHandSparkles, FaLeaf, FaHotTub } from 'react-icons/fa';
 import { AnimatePresence } from 'framer-motion';
 import { FaTelegram } from 'react-icons/fa';
-import {  FaClock, FaPhoneAlt,  FaCreditCard } from 'react-icons/fa'
+import { FaClock, FaPhoneAlt, FaCreditCard } from 'react-icons/fa'
 // import { link } from 'fs';
 
 
 
 export default function Aeropage() {
   const [isVisible, setIsVisible] = useState(false);
-      useEffect(() => {
-                setIsVisible(true);
-              }, []);
-            
-            const [activeIndex, setActiveIndex] = useState(null);
-              const toggleFAQ = (index) => {
-              setActiveIndex(activeIndex === index ? null : index);
-            };
-            const faqs = [
-                  
-                  {
-                    question: "What makes a luxury spa in Aerocity unique?",
-                    answer: " Spa in Aerocity is the premium and luxury spa outlet in Delhi. At the aerocity outlet we offer foreign international therapists to provide spa in top 5 star hotels of Delhi.",
-                    icon: <FaSpa className="text-teal-600" />
-                  },
-                  {
-                    question: "Are Aerocity spa services near the airport?",
-                    answer: "Yes, Our Aerocity outlets are conveniently located close to IGI Airport hotels. You can call us for your spa session booking and we will come to your door steps to provide 100% relaxation.",
-                    icon: <FaHandSparkles className="text-teal-600" />
-                  },
-                  
-                  {
-                    question: "Is body massage in Aerocity available?",
-                    answer: "Yes, We offer multiple types of massage therapy in our aerocity spa. Potli massage, hot stone massage, swedish massage or full body massage in Aerocity. For more query contact us.",
-                    icon: <FaLeaf className="text-teal-600" />
-                  },
-                  {
-                    question: "Are Aerocity rates different from other outlets?",
-                    answer: "Yes, Because Aerocity is the premium location and our spa outlet in Aerocity is known for luxury and premium service. Spa in aerocity prices are different from other spas. Check the Pricing page for exact rates.",
-                    icon: <FaSpa className="text-teal-600" />
-                  },
-                  {
-                        question: "Can I book a hotel spa in Aerocity?",
-                        answer: "Yes, you can book your spa session at the 5 star hotels in aerocity. We have 5 star hotel spa outlets in aerocity Jw Marriott, Lemon Tree, Novotel and Ibis Hotel.",
-                        icon: <FaHotTub className="text-teal-600" />
-                      },
-                      {
-                            question: "Can I pay online for my services?",
-                            answer: "Yes, we offer secure online payment options through our website for your convenience.",
-                            icon: <FaSpa className="text-teal-600" />
-                          },
-                ];
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
+  const [activeIndex, setActiveIndex] = useState(null);
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+  const faqs = [
+
+    {
+      question: "What makes a luxury spa in Aerocity unique?",
+      answer: " Spa in Aerocity is the premium and luxury spa outlet in Delhi. At the aerocity outlet we offer foreign international therapists to provide spa in top 5 star hotels of Delhi.",
+      icon: <FaSpa className="text-teal-600" />
+    },
+    {
+      question: "Are Aerocity spa services near the airport?",
+      answer: "Yes, Our Aerocity outlets are conveniently located close to IGI Airport hotels. You can call us for your spa session booking and we will come to your door steps to provide 100% relaxation.",
+      icon: <FaHandSparkles className="text-teal-600" />
+    },
+
+    {
+      question: "Is body massage in Aerocity available?",
+      answer: "Yes, We offer multiple types of massage therapy in our aerocity spa. Potli massage, hot stone massage, swedish massage or full body massage in Aerocity. For more query contact us.",
+      icon: <FaLeaf className="text-teal-600" />
+    },
+    {
+      question: "Are Aerocity rates different from other outlets?",
+      answer: "Yes, Because Aerocity is the premium location and our spa outlet in Aerocity is known for luxury and premium service. Spa in aerocity prices are different from other spas. Check the Pricing page for exact rates.",
+      icon: <FaSpa className="text-teal-600" />
+    },
+    {
+      question: "Can I book a hotel spa in Aerocity?",
+      answer: "Yes, you can book your spa session at the 5 star hotels in aerocity. We have 5 star hotel spa outlets in aerocity Jw Marriott, Lemon Tree, Novotel and Ibis Hotel.",
+      icon: <FaHotTub className="text-teal-600" />
+    },
+    {
+      question: "Can I pay online for my services?",
+      answer: "Yes, we offer secure online payment options through our website for your convenience.",
+      icon: <FaSpa className="text-teal-600" />
+    },
+  ];
   const hotelOutlets = [
-  {
-    title: "JW Marriott Hotel Aerocity",
-    image: "/images/JW Marriott Hotel Aerocity.jpg",
-    description:
-      "Spend your time in the quality environment of JW Marriott Hotel Aerocity and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
-  },
-  {
-    title: "Lemon Tree Premier Aerocity",
-    image: "/images/LemonTreePremierAerocity.jpg",
-    description:
-      "Lemon Tree Premier Aerocity combines style with relaxation, and Luxury Russian Spa adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
-  },
-  {
-    title: "Novotel New Delhi Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
-    description:
-      "Novotel Aerocity is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
-  },
-  {
-    title: "Pride Plaza Hotel",
-    image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
-    description:
-      "Visit to Pride Plaza Hotel is even more comfortable with Luxury Russian Spa. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
-  },
-  {
-    title: "IBIS New Delhi Aerocity",
-    image: "/images/IBISNewDelhiAerocity.jpg",
-    description:
-      "IBIS Aerocity is popular due to comfort and practicality, and Luxury Russian Spa is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
-  },
-  {
-    title: "Pullman Aerocity",
-    image: "/images/pullmanAerocity.jpg",
-    description:
-      "Pullman Aerocity is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Luxury Russian Spa ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
-  },
-  {
-    title: "Jaypee Vasant Aerocity",
-    image: "/images/jaypeeVasantAerocity.png",
-    description:
-      "At Jaypee Vasant Aerocity, Luxury Russian Spa creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
-  },
-  {
-    title: "The Ashok (Chanakyapuri)",
-    image: "/images/TheAshok(Chanakyapuri).webp",
-    description:
-      "The massage services at Luxury Russian Spa are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
-  },
-];
+    {
+      title: "JW Marriott Hotel Aerocity",
+      image: "/images/JW Marriott Hotel Aerocity.jpg",
+      description:
+        "Spend your time in the quality environment of JW Marriott Hotel Aerocity and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
+    },
+    {
+      title: "Lemon Tree Premier Aerocity",
+      image: "/images/LemonTreePremierAerocity.jpg",
+      description:
+        "Lemon Tree Premier Aerocity combines style with relaxation, and Luxury Russian Spa adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
+    },
+    {
+      title: "Novotel New Delhi Aerocity",
+      image: "/images/NovotelNewDelhiAerocity.webp",
+      description:
+        "Novotel Aerocity is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
+    },
+    {
+      title: "Pride Plaza Hotel",
+      image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
+      description:
+        "Visit to Pride Plaza Hotel is even more comfortable with Luxury Russian Spa. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
+    },
+    {
+      title: "IBIS New Delhi Aerocity",
+      image: "/images/IBISNewDelhiAerocity.jpg",
+      description:
+        "IBIS Aerocity is popular due to comfort and practicality, and Luxury Russian Spa is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
+    },
+    {
+      title: "Pullman Aerocity",
+      image: "/images/pullmanAerocity.jpg",
+      description:
+        "Pullman Aerocity is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Luxury Russian Spa ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
+    },
+    {
+      title: "Jaypee Vasant Aerocity",
+      image: "/images/jaypeeVasantAerocity.png",
+      description:
+        "At Jaypee Vasant Aerocity, Luxury Russian Spa creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
+    },
+    {
+      title: "The Ashok (Chanakyapuri)",
+      image: "/images/TheAshok(Chanakyapuri).webp",
+      description:
+        "The massage services at Luxury Russian Spa are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
+    },
+  ];
   const pricingPlans = [
     {
       title: "Spa Outlet",
@@ -137,190 +137,190 @@ export default function Aeropage() {
       icon: <FaCrown className="text-amber-500" />
     }
   ];
-   {/* Our Process */}
+  {/* Our Process */ }
   const processSteps = [
-  {
-    number: '01',
-    title: 'Meeting',
-    description: 'Our spa meeting process ensures a seamless and soothing experience, from scheduling to consultation and relaxation.',
-    image: '/images/mmeeting.webp',
-  },
-  {
-    number: '02',
-    title: 'Treatment',
-    description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
-    image: '/images/spa-treatments.jpg',
-  },
-  {
-    number: '03',
-    title: 'Finalizing',
-    description: 'Confirm your appointment, choose your therapy, and relax, your spa journey is now set.',
-    image: '/images/finalizing.avif',
-  },
-];
-{/* End Our Process */}
-  
-const services = [
-  {
-    title: "B2B Massage",
-    description:
-      "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
-    icon: "💆‍♂️",
-    url: "/b2b-massage-in-delhi",
-  },
-  {
-    title: "Couples Massage",
-    description:
-      "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
-    icon: "👫",
-    url: "/couples-massage-in-delhi",
-  },
-  {
-    title: "Aromatherapy",
-    description:
-      "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
-    icon: "🌸",
-    url: "/massage-service-in-delhi",
-  },
-  {
-    title: "Hot Stone Therapy",
-    description:
-      "Warm stones are carefully placed on the body to reduce muscle stiffness and improve blood circulation. The soothing heat releases stress completely.",
-    icon: "🪨",
-    url: "/full-body-massage-in-delhi",
-  },
-  {
-    title: "Full Body Massage in Aerocity",
-    description:
-      "A complete head-to-toe session minutes from Terminal 3 — outlet, hotel, or home spa, built for travellers on tight schedules.",
-    icon: "✈️",
-    url: "/full-body-massage-in-aerocity",
-  },
-];
-  const services1 = [
-  {
-    id: 'swedish',
-    title: 'Swedish Massage',
-    desc: 'Gentle long strokes for total relaxation — perfect for first-time guests and light-tension relief.',
-    duration: '60 / 90 mins',
-    price: '₹1,499 - ₹2,499',
-    icon: (
-      <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-        <path d="M3 12h18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M6 8l3-3 3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    ),
-  },
-  {
-    id: 'deep',
-    title: 'Deep Tissue Massage',
-    desc: 'Targeted pressure to relieve chronic muscle tension and knots. Best for athletes and heavy tension.',
-    duration: '60 / 90 mins',
-    price: '₹1,799 - ₹2,999',
-    icon: (
-      <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-        <path d="M12 3v18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M3 12h18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    ),
-  },
-  {
-    id: 'couple',
-    title: 'Couple Massage',
-    desc: 'Shared, synchronised therapy for two — perfect for couples staying at Aerocity hotels.',
-    duration: '60 / 90 mins',
-    price: '₹3,499 - ₹4,999',
-    icon: (
-      <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-        <path d="M7 7a4 4 0 0 1 8 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M3 20a9 9 0 0 1 18 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    ),
-  },
-  {
-    id: 'aroma',
-    title: 'Aromatherapy',
-    desc: 'Relaxing aromatic oils combined with light-to-medium pressure to calm mind and senses.',
-    duration: '45 / 60 mins',
-    price: '₹1,299 - ₹1,899',
-    icon: (
-      <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-        <path d="M12 2s4 1 4 4-2 4-4 4-4-1-4-4 4-4 4-4z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M6 18c2-2 4-3 6-3s4 1 6 3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    ),
-  },
-  {
-    id: 'hotstone',
-    title: 'Hot Stone Massage',
-    desc: 'Warm stones and calming strokes to release deep muscle tension and induce deep relaxation.',
-    duration: '75 / 90 mins',
-    price: '₹2,199 - ₹3,499',
-    icon: (
-      <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-        <path d="M4 17c2-3 7-4 9-4s7 1 9 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M6 12c3-4 9-4 12 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    ),
-  },
-]
-const SERVICES_LEFT = [
-  {
-    id: 'foreigner',
-    title: 'Unmatched Luxury and Ambiance',
-    subtitle: 'International therapists for authentic treatments',
-    desc:
-      "All of the Luxury Russian Spa branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
-    chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
-    time: '60-90 min',
-    price: 'From ₹2,800',
-    image: '/images/spamodel.webp',
-  },
-  {
-    id: 'body',
-    title: 'Highly Skilled Global Therapists',
-    subtitle: 'Mastery across 23 specialised modalities',
-    desc:
-      "Our therapists are professionally trained, experienced and have knowledge of international spa techniques. They deliver treatments focused on quality and care for each client.",
-    chips: [
-      'Thai Herbal Compress',
-      'Shiatsu',
-      'Lymphatic Drainage',
-      'Ayurvedic Abhyanga',
-      'Hot Stone',
-      'Aromatherapy',
-    ],
-    time: '75-90 min',
-    price: 'From ₹3,200',
-    image: '/images/services.webp',
-  },
-]
+    {
+      number: '01',
+      title: 'Meeting',
+      description: 'Our spa meeting process ensures a seamless and soothing experience, from scheduling to consultation and relaxation.',
+      image: '/images/mmeeting.webp',
+    },
+    {
+      number: '02',
+      title: 'Treatment',
+      description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
+      image: '/images/spa-treatments.jpg',
+    },
+    {
+      number: '03',
+      title: 'Finalizing',
+      description: 'Confirm your appointment, choose your therapy, and relax, your spa journey is now set.',
+      image: '/images/finalizing.avif',
+    },
+  ];
+  {/* End Our Process */ }
 
-const SERVICES_RIGHT = [
-  {
-    id: 'top',
-    title: 'Wide Range of Premium Treatments',
-    subtitle: 'Sustainable + award-winning',
-    desc:
-      "With many therapies like full-body massage, couple massage, aromatherapy, and body-to-body, our menu adapts to everyone’s needs.",
-    chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
-    time: '60-120 min',
-    price: 'From ₹2,500',
-    image: '/images/Sandwich Massage.webp',
-  },
-  {
-    id: 'packages',
-    title: 'Accessible at Delhi’s Top Hotels',
-    subtitle: 'Premium in-room & home journeys',
-    desc:
-      "Luxury Russian Spa is available in leading hotels in Aerocity, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
-    chips: ['JW Marriott Aerocity', 'The Suryaa', 'The Park CP'],
-    time: '3-6 hours',
-    price: 'From ₹8,500',
-    image: '/images/RoseateHouse.jpg',
-  },
-]
-const topSteps = [
+  const services = [
+    {
+      title: "B2B Massage",
+      description:
+        "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
+      icon: "💆‍♂️",
+      url: "/b2b-massage-in-delhi",
+    },
+    {
+      title: "Couples Massage",
+      description:
+        "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
+      icon: "👫",
+      url: "/couples-massage-in-delhi",
+    },
+    {
+      title: "Aromatherapy",
+      description:
+        "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
+      icon: "🌸",
+      url: "/massage-service-in-delhi",
+    },
+    {
+      title: "Hot Stone Therapy",
+      description:
+        "Warm stones are carefully placed on the body to reduce muscle stiffness and improve blood circulation. The soothing heat releases stress completely.",
+      icon: "🪨",
+      url: "/full-body-massage-in-delhi",
+    },
+    {
+      title: "Full Body Massage in Aerocity",
+      description:
+        "A complete head-to-toe session minutes from Terminal 3 — outlet, hotel, or home spa, built for travellers on tight schedules.",
+      icon: "✈️",
+      url: "/full-body-massage-in-aerocity",
+    },
+  ];
+  const services1 = [
+    {
+      id: 'swedish',
+      title: 'Swedish Massage',
+      desc: 'Gentle long strokes for total relaxation — perfect for first-time guests and light-tension relief.',
+      duration: '60 / 90 mins',
+      price: '₹1,499 - ₹2,499',
+      icon: (
+        <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <path d="M3 12h18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M6 8l3-3 3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 'deep',
+      title: 'Deep Tissue Massage',
+      desc: 'Targeted pressure to relieve chronic muscle tension and knots. Best for athletes and heavy tension.',
+      duration: '60 / 90 mins',
+      price: '₹1,799 - ₹2,999',
+      icon: (
+        <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <path d="M12 3v18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M3 12h18" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 'couple',
+      title: 'Couple Massage',
+      desc: 'Shared, synchronised therapy for two — perfect for couples staying at Aerocity hotels.',
+      duration: '60 / 90 mins',
+      price: '₹3,499 - ₹4,999',
+      icon: (
+        <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <path d="M7 7a4 4 0 0 1 8 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M3 20a9 9 0 0 1 18 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 'aroma',
+      title: 'Aromatherapy',
+      desc: 'Relaxing aromatic oils combined with light-to-medium pressure to calm mind and senses.',
+      duration: '45 / 60 mins',
+      price: '₹1,299 - ₹1,899',
+      icon: (
+        <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <path d="M12 2s4 1 4 4-2 4-4 4-4-1-4-4 4-4 4-4z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M6 18c2-2 4-3 6-3s4 1 6 3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 'hotstone',
+      title: 'Hot Stone Massage',
+      desc: 'Warm stones and calming strokes to release deep muscle tension and induce deep relaxation.',
+      duration: '75 / 90 mins',
+      price: '₹2,199 - ₹3,499',
+      icon: (
+        <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <path d="M4 17c2-3 7-4 9-4s7 1 9 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M6 12c3-4 9-4 12 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+  ]
+  const SERVICES_LEFT = [
+    {
+      id: 'foreigner',
+      title: 'Unmatched Luxury and Ambiance',
+      subtitle: 'International therapists for authentic treatments',
+      desc:
+        "All of the Luxury Russian Spa branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
+      chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
+      time: '60-90 min',
+      price: 'From ₹2,800',
+      image: '/images/spamodel.webp',
+    },
+    {
+      id: 'body',
+      title: 'Highly Skilled Global Therapists',
+      subtitle: 'Mastery across 23 specialised modalities',
+      desc:
+        "Our therapists are professionally trained, experienced and have knowledge of international spa techniques. They deliver treatments focused on quality and care for each client.",
+      chips: [
+        'Thai Herbal Compress',
+        'Shiatsu',
+        'Lymphatic Drainage',
+        'Ayurvedic Abhyanga',
+        'Hot Stone',
+        'Aromatherapy',
+      ],
+      time: '75-90 min',
+      price: 'From ₹3,200',
+      image: '/images/services.webp',
+    },
+  ]
+
+  const SERVICES_RIGHT = [
+    {
+      id: 'top',
+      title: 'Wide Range of Premium Treatments',
+      subtitle: 'Sustainable + award-winning',
+      desc:
+        "With many therapies like full-body massage, couple massage, aromatherapy, and body-to-body, our menu adapts to everyone’s needs.",
+      chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
+      time: '60-120 min',
+      price: 'From ₹2,500',
+      image: '/images/Sandwich Massage.webp',
+    },
+    {
+      id: 'packages',
+      title: 'Accessible at Delhi’s Top Hotels',
+      subtitle: 'Premium in-room & home journeys',
+      desc:
+        "Luxury Russian Spa is available in leading hotels in Aerocity, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
+      chips: ['JW Marriott Aerocity', 'The Suryaa', 'The Park CP'],
+      time: '3-6 hours',
+      price: 'From ₹8,500',
+      image: '/images/RoseateHouse.jpg',
+    },
+  ]
+  const topSteps = [
     {
       icon: <FaHotel className="text-amber-700 text-xl" />,
       title: 'Therapist Arrival at Your Hotel',
@@ -350,216 +350,216 @@ const topSteps = [
       text: 'Pay via UPI, cash, card or online. After your session, rate your therapist and share feedback — we value your experience.',
     },
   ]
-  
+
   return (
     <main>
-<div className="bg-rose-50 text-gray-800">
-  
-      {/* Banner */}         
-      <div className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-rose-50">
-        {/* Floating decorative elements */}
-        <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
-        <div className="absolute top-1/3 right-20 w-16 h-16 bg-amber-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
-        <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div>
-        
-        {/* Main content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          {/* Text content - more minimal */}
-          <div className="space-y-6 text-center lg:text-left">
-            <div className="inline-flex items-center space-x-2 mb-6">
-              <div className="w-12 h-px bg-amber-600"></div>
-              <span className="text-amber-600 font-light tracking-widest">OUR OUTLETS</span>
-              <div className="w-12 h-px bg-amber-600"></div>
-            </div>
-            
-            <h2 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
-            at Top Hotels in
-              <span className="block mt-2 font-medium">Aerocity – Luxury Russian Spa <span className="text-rose-600">Tranquility</span></span>
-            </h2>
-            
-            <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Step into comfort and relaxation with Luxury Russian Spa’s luxury Spa in Aerocity, offering treatments at the finest hotels in the Area. Whether you visit for work, stay on holiday, or seek soothing care during your trip, our expert therapists ensure you enjoy a calm and refreshing experience without ever leaving your hotel.
-            </p>
-            
-            <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0 0 10 9.87v4.263a1 1 0 0 0 1.555.832l3.197-2.132a1 1 0 0 0 0-1.664z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <span className="text-sm text-gray-700">Airport</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 0 1 2-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 0 0 -2 2zm9-13.5V9" />
-                  </svg>
-                </div>
-                <span className="text-sm text-gray-700">Mahipalpure</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 0 1 -2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3l-4 4z" />
-                  </svg>
-                </div>
-                <span className="text-sm text-gray-700">Aerocity</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
-                  </svg>
-                </div>
-                <span className="text-sm text-gray-700">Gurugram</span>
-              </div>
-            </div>
+      <div className="bg-rose-50 text-gray-800">
 
-            <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href='/massage-service-in-delhi'>
-                <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-                <span>View All Services</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </button>
-              </a>
-              <a href='https://api.whatsapp.com/send?phone=919217255113'>
-                <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
-                </svg>
-                <span>Book Appointment</span>
-              </button>
-              </a>
-              
-            </div>
-          </div>
+        {/* Banner */}
+        <div className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-rose-50">
+          {/* Floating decorative elements */}
+          <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
+          <div className="absolute top-1/3 right-20 w-16 h-16 bg-amber-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
+          <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div>
 
-          {/* Image section - more elegant */}
-          <div className="relative h-80 md:h-96 lg:h-[450px]">
-            <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-              <div className="relative w-full h-full">
-                <img
-                  src="/images/RoseateHouse.jpg" // ✅ Yahan apna image path daal
-                  alt="Spa Environment"
-                  className="w-full h-full object-cover"
-                />
+          {/* Main content */}
+          <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            {/* Text content - more minimal */}
+            <div className="space-y-6 text-center lg:text-left">
+              <div className="inline-flex items-center space-x-2 mb-6">
+                <div className="w-12 h-px bg-amber-600"></div>
+                <span className="text-amber-600 font-light tracking-widest">OUR OUTLETS</span>
+                <div className="w-12 h-px bg-amber-600"></div>
               </div>
-          </div>
 
-          {/* Floating leaf decoration */}
-          <div className="absolute -bottom-6 -right-6">
-            <svg className="w-24 h-24 text-amber-600/30" viewBox="0 0 100 100">
-              <path
-                fill="currentColor"
-                d="M50,10 C70,10 90,30 90,50 C90,70 70,90 50,90 C30,90 10,70 10,50 C10,30 30,10 50,10 Z M50,25 C35,25 25,35 25,50 C25,65 35,75 50,75 C65,75 75,65 75,50 C75,35 65,25 50,25 Z"
-              />
-            </svg>
-          </div>
+              <h2 className="text-4xl md:text-5xl font-light text-gray-800">
+                <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
+                at Top Hotels in
+                <span className="block mt-2 font-medium">Aerocity – Luxury Russian Spa <span className="text-rose-600">Tranquility</span></span>
+              </h2>
 
-            {/* Minimalist stats */}
-            <div className="absolute -left-4 bottom-8 bg-white p-4 shadow-md">
-              <div className="text-center">
-                <div className="text-2xl font-serif text-amber-800">12+</div>
-                <div className="text-xs text-gray-500 tracking-widest">YEARS</div>
+              <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                Step into comfort and relaxation with Luxury Russian Spa’s luxury Spa in Aerocity, offering treatments at the finest hotels in the Area. Whether you visit for work, stay on holiday, or seek soothing care during your trip, our expert therapists ensure you enjoy a calm and refreshing experience without ever leaving your hotel.
+              </p>
+
+              <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0 0 10 9.87v4.263a1 1 0 0 0 1.555.832l3.197-2.132a1 1 0 0 0 0-1.664z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-gray-700">Airport</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 0 1 2-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 0 0 -2 2zm9-13.5V9" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-gray-700">Mahipalpure</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 0 1 -2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3l-4 4z" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-gray-700">Aerocity</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-gray-700">Gurugram</span>
+                </div>
+              </div>
+
+              <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <a href='/massage-service-in-delhi'>
+                  <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
+                    <span>View All Services</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </button>
+                </a>
+                <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+                  <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
+                    </svg>
+                    <span>Book Appointment</span>
+                  </button>
+                </a>
+
               </div>
             </div>
-          </div>
 
-        </div>
-        
-        {/* Minimal wave divider */}
-        <div className="absolute bottom-0 left-0 w-full overflow-hidden">
-          <svg viewBox="0 0 1200 120" className="relative block w-full h-12">
-            <path fill="white" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".5"></path>
-          </svg>
-        </div>
-      </div>
-      {/* End Banner */}
-      {/* our 5* hoterl outlets */}
-             <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Title */}
-          <motion.div 
-                    className="text-center mb-10 md:mb-12"
-                    initial={false}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
-                    transition={{ duration: 0.8 }}
-                  >
-                    <motion.div
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                      initial={false}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                      <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                      <span className="text-amber-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
-                    </motion.div>
-                    
-                    <motion.h2
-                      className="text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
-                      initial={false}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.3, duration: 0.6 }}
-                    >
-                      Body Massage in Aerocity <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">at Top Hotels</span>
-                    </motion.h2>
-                    
-                    <motion.p
-                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                      initial={false}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.4, duration: 0.5 }}
-                    >
-                      Luxury Russian Spa offers exclusive massage services at some of the most prestigious hotels in Aerocity. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
-                    </motion.p>
-                    
-                    <motion.div
-                      className="flex justify-center mt-10"
-                      initial={false}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.5, duration: 0.5 }}
-                    >
-                      <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-                    </motion.div>
-                  </motion.div>
-      
-          {/* Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {hotelOutlets.map((hotel, index) => (
-              <motion.div
-                key={index}
-                className="bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-              >
-                {/* Image */}
-                <div className="relative h-48 w-full">
-                  <Image
-                    src={hotel.image}
-                    alt={hotel.title}
-                    fill
-                    className="object-cover"
+            {/* Image section - more elegant */}
+            <div className="relative h-80 md:h-96 lg:h-[450px]">
+              <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
+                <div className="relative w-full h-full">
+                  <img
+                    src="/images/RoseateHouse.jpg" // ✅ Yahan apna image path daal
+                    alt="Spa Environment"
+                    className="w-full h-full object-cover"
                   />
                 </div>
-      
-                {/* Content */}
-                <div className="p-5 flex flex-col flex-grow">
-                  <h3 className="text-lg font-semibold text-amber-800 font-serif mb-2">
-                    {hotel.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm flex-grow mb-4">
-                    {hotel.description}
-                  </p>
-      
-                  {/* Book Now Button */}
-                  {/* <a
+              </div>
+
+              {/* Floating leaf decoration */}
+              <div className="absolute -bottom-6 -right-6">
+                <svg className="w-24 h-24 text-amber-600/30" viewBox="0 0 100 100">
+                  <path
+                    fill="currentColor"
+                    d="M50,10 C70,10 90,30 90,50 C90,70 70,90 50,90 C30,90 10,70 10,50 C10,30 30,10 50,10 Z M50,25 C35,25 25,35 25,50 C25,65 35,75 50,75 C65,75 75,65 75,50 C75,35 65,25 50,25 Z"
+                  />
+                </svg>
+              </div>
+
+              {/* Minimalist stats */}
+              <div className="absolute -left-4 bottom-8 bg-white p-4 shadow-md">
+                <div className="text-center">
+                  <div className="text-2xl font-serif text-amber-800">12+</div>
+                  <div className="text-xs text-gray-500 tracking-widest">YEARS</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Minimal wave divider */}
+          <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+            <svg viewBox="0 0 1200 120" className="relative block w-full h-12">
+              <path fill="white" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".5"></path>
+            </svg>
+          </div>
+        </div>
+        {/* End Banner */}
+        {/* our 5* hoterl outlets */}
+        <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Title */}
+            <motion.div
+              className="text-center mb-10 md:mb-12"
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8 }}
+            >
+              <motion.div
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+                initial={false}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+              >
+                <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
+                <span className="text-amber-700 font-medium tracking-wider">PREMIUM LOCATIONS</span>
+              </motion.div>
+
+              <motion.h2
+                className="text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+              >
+                Body Massage in Aerocity <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">at Top Hotels</span>
+              </motion.h2>
+
+              <motion.p
+                className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
+              >
+                Luxury Russian Spa offers exclusive massage services at some of the most prestigious hotels in Aerocity. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
+              </motion.p>
+
+              <motion.div
+                className="flex justify-center mt-10"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+              >
+                <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+              </motion.div>
+            </motion.div>
+
+            {/* Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {hotelOutlets.map((hotel, index) => (
+                <motion.div
+                  key={index}
+                  className="bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                >
+                  {/* Image */}
+                  <div className="relative h-48 w-full">
+                    <Image
+                      src={hotel.image}
+                      alt={hotel.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+
+                  {/* Content */}
+                  <div className="p-5 flex flex-col flex-grow">
+                    <h3 className="text-lg font-semibold text-amber-800 font-serif mb-2">
+                      {hotel.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm flex-grow mb-4">
+                      {hotel.description}
+                    </p>
+
+                    {/* Book Now Button */}
+                    {/* <a
                     href="http://wa.link/njldxn"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -567,704 +567,704 @@ const topSteps = [
                   >
                     BOOK NOW
                   </a> */}
-                  <a 
-                                                          href="https://t.me/+a5Bu6FBPN9FlOWM9" 
-                                                          target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                                                        >
-                                                          <FaTelegram className="text-xl mr-3" />
-                                                          Meet Our Team
-                                                        </a>
-                </div>
-              </motion.div>
-            ))}
+                    <a
+                      href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                    >
+                      <FaTelegram className="text-xl mr-3" />
+                      Meet Our Team
+                    </a>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-            {/* End outlets */}
-            {/* About Us Section */}
-            <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
-              <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
-                
-                <motion.div
-                  initial={false}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6 }}
-                  className="space-y-6"
-                >
-                  <motion.div
-                                className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                                initial={false}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.2 }}
-                                viewport={{ once: true }}
-                              >
-                                <span className="mr-2">✦</span> About Our Aerocity Spa Outlets
-                              </motion.div>
-                  
-                              <motion.h2
-                                className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                                initial={false}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.3 }}
-                                viewport={{ once: true }}
-                              >
-                                Step Into Luxury <span className="relative">
-                                  <span className="text-amber-600 z-10 relative">Wellness at Aerocity with Luxury Russian Spa</span>
-                                  <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
-                                </span>
-                              </motion.h2>
-                  <p className="text-gray-700 text-lg">
-                    Luxury Russian Spa makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. Make your reservations now and spend a night that is memorable.
-                  </p>
-                  {/* <p className="text-gray-700 text-lg">
+        </section>
+        {/* End outlets */}
+        {/* About Us Section */}
+        <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
+
+            <motion.div
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="space-y-6"
+            >
+              <motion.div
+                className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                viewport={{ once: true }}
+              >
+                <span className="mr-2">✦</span> About Our Aerocity Spa Outlets
+              </motion.div>
+
+              <motion.h2
+                className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3 }}
+                viewport={{ once: true }}
+              >
+                Step Into Luxury <span className="relative">
+                  <span className="text-amber-600 z-10 relative">Wellness at Aerocity with Luxury Russian Spa</span>
+                  <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
+                </span>
+              </motion.h2>
+              <p className="text-gray-700 text-lg">
+                Luxury Russian Spa makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. Make your reservations now and spend a night that is memorable.
+              </p>
+              {/* <p className="text-gray-700 text-lg">
                     Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
                      Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
                   </p> */}
-                </motion.div>
-      
-                <motion.div
-                  initial={false}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  className="grid grid-cols-2 gap-4"
-                >
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/luxurySpaRoom.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/spaexpert3.webp" alt="Massage Session" className="w-full h-full object-cover" />
-                  </div>
-                </motion.div>
-              </div>
-            </section>
-      {/* Services Section */}
-            <section
-      id="services"
-      className="py-16 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative"
-    >
-      <div className="max-w-7xl mx-auto">
-        {/* Heading */}
-        <div className="text-center mb-10 md:mb-12">
-          <motion.p
-            className="text-amber-500 uppercase font-semibold tracking-wider mb-4"
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            Our Premium Services
-          </motion.p>
+            </motion.div>
 
-          <motion.h2
-            className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-            Why Choose{" "}
-            <span className="text-amber-500">
-              Luxury Russian Spa for Spa Services in Delhi
-            </span>
-          </motion.h2>
-
-          <motion.p
-            className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            Luxury Russian Spa blends luxury with trusted spa treatments. Enjoy premium
-            relaxation in high-quality hotels whether you are visiting Delhi for
-            work, travel, or complete rejuvenation.
-          </motion.p>
-        </div>
-
-        {/* Services Grid */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {services.map((service, index) => (
             <motion.div
-              key={service.title}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
               initial={false}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -12 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="grid grid-cols-2 gap-4"
             >
-              <div className="absolute -top-4 -right-4 w-16 h-16 bg-amber-500 rounded-full opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
-
-              <div className="text-5xl mb-6 text-amber-500">
-                {service.icon}
+              <div className="rounded-2xl overflow-hidden shadow-xl">
+                <img src="/images/luxurySpaRoom.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
               </div>
-
-              <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">
-                {service.title}
-              </h3>
-
-              <p className="text-gray-600 mb-6">
-                {service.description}
-              </p>
-
-              <a
-                href={service.url}
-                className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
-              >
-                Learn More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </a>
+              <div className="rounded-2xl overflow-hidden shadow-xl">
+                <img src="/images/spaexpert3.webp" alt="Massage Session" className="w-full h-full object-cover" />
+              </div>
             </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-             {/* End Services Section */}
-                 
-      {/* content */}
-      <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute top-10 left-10 opacity-10">
-        <svg width="100" height="100" viewBox="0 0 100 100">
-          <path d="M50,15 C65,15 80,25 85,40 C90,55 85,70 70,85 C55,90 40,85 25,70 C15,55 15,40 25,25 C30,20 40,15 50,15 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
-        </svg>
-      </div>
-      
-      <div className="absolute bottom-20 right-10 opacity-10 rotate-45">
-        <svg width="80" height="80" viewBox="0 0 80 80">
-          <path d="M40,10 C50,10 60,15 65,25 C70,35 65,45 55,55 C45,60 35,65 25,55 C15,45 15,35 25,25 C30,20 35,15 40,10 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
-        </svg>
-      </div>
-      
-      <div className="max-w-[95%] mx-auto">
-        {/* Section header */}
-        <div className="text-center mb-10 md:mb-12">
-          <motion.div
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                      initial={false}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                      <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                      <span className="text-amber-700 font-medium tracking-wider">PREMIUM EXPERIENCE</span>
-                    </motion.div>
-                    
-                    <motion.h2
-                      className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                      initial={false}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.3, duration: 0.6 }}
-                    >
-                      Top Luxury Spa <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Outlets in Aerocity Delhi</span>
-                    </motion.h2>
-          <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
-        </div>
-        
+          </div>
+        </section>
+        {/* Services Section */}
+        <section
+          id="services"
+          className="py-16 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative"
+        >
+          <div className="max-w-7xl mx-auto">
+            {/* Heading */}
+            <div className="text-center mb-10 md:mb-12">
+              <motion.p
+                className="text-amber-500 uppercase font-semibold tracking-wider mb-4"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+              >
+                Our Premium Services
+              </motion.p>
 
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          {/* Left Image & Content */}
-          
-          <motion.div 
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-            className="w-full lg:w-1/2 relative"
-          >
-            <div className="relative overflow-hidden rounded-2xl shadow-xl z-10">
-              <div className="bg-gradient-to-br from-stone-50 to-amber-50 p-1 rounded-2xl">
-                <div className="bg-white p-6 rounded-2xl shadow-sm">
-                  <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-                    <img
-                        src="/images/hb3.webp" // Change path accordingly
-                        alt="Premium Body Spa"
-                        className="w-full h-full object-cover rounded-xl"
-                      />
-                    <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full" />
-                    <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
-                      Most Popular
-                    </div>
+              <motion.h2
+                className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                viewport={{ once: true }}
+              >
+                Why Choose{" "}
+                <span className="text-amber-500">
+                  Luxury Russian Spa for Spa Services in Delhi
+                </span>
+              </motion.h2>
+
+              <motion.p
+                className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                viewport={{ once: true }}
+              >
+                Luxury Russian Spa blends luxury with trusted spa treatments. Enjoy premium
+                relaxation in high-quality hotels whether you are visiting Delhi for
+                work, travel, or complete rejuvenation.
+              </motion.p>
+            </div>
+
+            {/* Services Grid */}
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+              {services.map((service, index) => (
+                <motion.div
+                  key={service.title}
+                  className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  whileHover={{ y: -12 }}
+                >
+                  <div className="absolute -top-4 -right-4 w-16 h-16 bg-amber-500 rounded-full opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
+
+                  <div className="text-5xl mb-6 text-amber-500">
+                    {service.icon}
                   </div>
-                  
-                  <div className="mt-6">
-                    <div className="flex justify-between items-start">
-                      <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
-                      <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
-                        <span className="font-bold">₹1999</span> First Visit
+
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">
+                    {service.title}
+                  </h3>
+
+                  <p className="text-gray-600 mb-6">
+                    {service.description}
+                  </p>
+
+                  <a
+                    href={service.url}
+                    className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
+                  >
+                    Learn More
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+        {/* End Services Section */}
+
+        {/* content */}
+        <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
+          {/* Decorative elements */}
+          <div className="absolute top-10 left-10 opacity-10">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+              <path d="M50,15 C65,15 80,25 85,40 C90,55 85,70 70,85 C55,90 40,85 25,70 C15,55 15,40 25,25 C30,20 40,15 50,15 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
+            </svg>
+          </div>
+
+          <div className="absolute bottom-20 right-10 opacity-10 rotate-45">
+            <svg width="80" height="80" viewBox="0 0 80 80">
+              <path d="M40,10 C50,10 60,15 65,25 C70,35 65,45 55,55 C45,60 35,65 25,55 C15,45 15,35 25,25 C30,20 35,15 40,10 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
+            </svg>
+          </div>
+
+          <div className="max-w-[95%] mx-auto">
+            {/* Section header */}
+            <div className="text-center mb-10 md:mb-12">
+              <motion.div
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+                initial={false}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+              >
+                <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
+                <span className="text-amber-700 font-medium tracking-wider">PREMIUM EXPERIENCE</span>
+              </motion.div>
+
+              <motion.h2
+                className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+              >
+                Top Luxury Spa <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Outlets in Aerocity Delhi</span>
+              </motion.h2>
+              <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
+            </div>
+
+
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+              {/* Left Image & Content */}
+
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+                className="w-full lg:w-1/2 relative"
+              >
+                <div className="relative overflow-hidden rounded-2xl shadow-xl z-10">
+                  <div className="bg-gradient-to-br from-stone-50 to-amber-50 p-1 rounded-2xl">
+                    <div className="bg-white p-6 rounded-2xl shadow-sm">
+                      <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
+                        <img
+                          src="/images/hb3.webp" // Change path accordingly
+                          alt="Premium Body Spa"
+                          className="w-full h-full object-cover rounded-xl"
+                        />
+                        <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full" />
+                        <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
+                          Most Popular
+                        </div>
                       </div>
-                    </div>
-                    
-                    <ul className="mt-4 space-y-2">
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Couple Massage</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Jacuzzi Bath</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Private Room</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Oil & Cream Massage</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Aromatherapy</span>
-                      </li>
-                    </ul>
-                    
-                    {/* <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+
+                      <div className="mt-6">
+                        <div className="flex justify-between items-start">
+                          <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
+                          <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
+                            <span className="font-bold">₹1999</span> First Visit
+                          </div>
+                        </div>
+
+                        <ul className="mt-4 space-y-2">
+                          <li className="flex items-center">
+                            <span className="text-amber-600 mr-2">✓</span>
+                            <span className="text-stone-700">Couple Massage</span>
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-amber-600 mr-2">✓</span>
+                            <span className="text-stone-700">Jacuzzi Bath</span>
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-amber-600 mr-2">✓</span>
+                            <span className="text-stone-700">Private Room</span>
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-amber-600 mr-2">✓</span>
+                            <span className="text-stone-700">Oil & Cream Massage</span>
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-amber-600 mr-2">✓</span>
+                            <span className="text-stone-700">Aromatherapy</span>
+                          </li>
+                        </ul>
+
+                        {/* <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                       Book Now
                     </button> */}
-                    <a 
-                                                            href="https://t.me/+a5Bu6FBPN9FlOWM9" 
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                                                          >
-                                                            <FaTelegram className="text-xl mr-3" />
-                                                            Meet Our Team
-                                                          </a>
+                        <a
+                          href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                        >
+                          <FaTelegram className="text-xl mr-3" />
+                          Meet Our Team
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            {/* Decorative elements */}
-            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-amber-100 rounded-full z-0"></div>
-            <div className="absolute -top-6 -right-6 w-16 h-16 bg-stone-200 rounded-full z-0"></div>
-          </motion.div>
+                {/* Decorative elements */}
+                <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-amber-100 rounded-full z-0"></div>
+                <div className="absolute -top-6 -right-6 w-16 h-16 bg-stone-200 rounded-full z-0"></div>
+              </motion.div>
 
-          {/* Right Text Content */}
-          <motion.div 
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-            className="w-full lg:w-1/2"
-          >
-            <div className="max-w-lg">
-              <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication.
-                Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis
-                of calm in the heart of Delhi. We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>,
-                <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>,
-                and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully
-                designed private sanctuaries.
-              </p>
-
-              <p className="text-stone-600 mb-6 leading-relaxed">
-                Being close to the airport, our Aerocity spa is a favourite stop for travelers who want to unwind before or after a flight, as well as guests staying at nearby hotels. Every session is private, hygienic, and led by trained therapists who tailor the treatment to your comfort and time available — so even a short layover can feel like a proper reset.
-              </p>
-              
-              <div className="grid grid-cols-2 gap-4 mb-8">
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">★</div>
-                        <h4 className="font-medium text-stone-800">5 Start Hotel</h4>
-                        <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
-                      </div>
-                      <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
-                        <h4 className="font-medium text-stone-800">Nuru Massage</h4>
-                        <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
-                      </div>
-                      <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                        <h4 className="font-medium text-stone-800">Couples Welcome</h4>
-                        <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
-                      </div>
-                      <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🧖</div>
-                        <h4 className="font-medium text-stone-800">Erotic Massage</h4>
-                        <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
-                      </div>
-              </div>
-              
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href='/outlets'>
-                  <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                  Our Outlets
-                </button>
-                </a>
-                <a href='https://api.whatsapp.com/send?phone=919217255113'>
-                  <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                  Book Appointment
-                </button>
-                </a>
-                
-              </div>
-            
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-      {/* end content */}
-            
-    {/* content section */}
-                         
-                          {/* /// */}
-                              <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-16 px-6 md:px-16">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <motion.div
-          className="text-center mb-12"
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-4 mb-4 font-serif">Our Massage Services at Hotels in Aerocity</h1>
-          <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
-          <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-           Luxury Russian Spa offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* LEFT COLUMN: stacked service cards */}
-          <div className="space-y-8">
-            {SERVICES_LEFT.map((s, idx) => (
+              {/* Right Text Content */}
               <motion.div
-                key={s.id}
-                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
-                initial={false}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: idx * 0.08 }}
+                initial={{ opacity: 0, x: 30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+                className="w-full lg:w-1/2"
               >
-                <div className="md:flex gap-6">
-                  {/* Image */}
-                  <div className="relative w-full md:w-48 h-40 rounded-xl overflow-hidden flex-shrink-0">
-                    <Image src={s.image} alt={s.title} fill className="object-cover" />
+                <div className="max-w-lg">
+                  <p className="text-lg text-stone-600 mb-6 leading-relaxed">
+                    Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication.
+                    Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis
+                    of calm in the heart of Delhi. We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>,
+                    <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>,
+                    and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully
+                    designed private sanctuaries.
+                  </p>
+
+                  <p className="text-stone-600 mb-6 leading-relaxed">
+                    Being close to the airport, our Aerocity spa is a favourite stop for travelers who want to unwind before or after a flight, as well as guests staying at nearby hotels. Every session is private, hygienic, and led by trained therapists who tailor the treatment to your comfort and time available — so even a short layover can feel like a proper reset.
+                  </p>
+
+                  <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                      <div className="text-amber-600 text-2xl mb-2">★</div>
+                      <h4 className="font-medium text-stone-800">5 Start Hotel</h4>
+                      <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                      <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
+                      <h4 className="font-medium text-stone-800">Nuru Massage</h4>
+                      <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                      <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
+                      <h4 className="font-medium text-stone-800">Couples Welcome</h4>
+                      <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                      <div className="text-amber-600 text-2xl mb-2">🧖</div>
+                      <h4 className="font-medium text-stone-800">Erotic Massage</h4>
+                      <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
+                    </div>
                   </div>
 
-                  {/* Text */}
-                  <div className="mt-4 md:mt-0 flex-1">
-                    <h3 className="text-2xl font-semibold text-amber-800">{s.title}</h3>
-                    <p className="text-sm text-amber-700 mt-1 font-medium">{s.subtitle}</p>
-                    <p className="text-gray-600 mt-3 leading-relaxed">{s.desc}</p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <a href='/outlets'>
+                      <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                        Our Outlets
+                      </button>
+                    </a>
+                    <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+                      <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                        Book Appointment
+                      </button>
+                    </a>
 
-                    <div className="mt-4 flex flex-wrap gap-3">
-                      {s.chips.slice(0, 6).map((c, i) => (
-                        <span
-                          key={i}
-                          className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
-                        >
-                          {c}
-                        </span>
-                      ))}
-                    </div>
-
-                    <div className="mt-4 flex items-center justify-between">
-                      <span className="inline-block bg-amber-100 text-amber-800 py-1 px-3 rounded-full text-sm font-medium">
-                        {s.time} • {s.price}
-                      </span>
-                      <a
-                        href="https://api.whatsapp.com/send?phone=919217255113"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
-                      >
-                        Book Now
-                      </a>
-                    </div>
                   </div>
+
                 </div>
               </motion.div>
-            ))}
+            </div>
           </div>
+        </section>
+        {/* end content */}
 
-          {/* RIGHT COLUMN: stacked service cards + promo */}
-          <div className="space-y-8">
-            {SERVICES_RIGHT.map((s, idx) => (
-              <motion.div
-                key={s.id}
-                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
-                initial={false}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: idx * 0.08 }}
-              >
-                <div className="md:flex gap-6">
-                  <div className="relative w-full md:w-48 h-40 rounded-xl overflow-hidden flex-shrink-0">
-                    <Image src={s.image} alt={s.title} fill className="object-cover" />
-                  </div>
+        {/* content section */}
 
-                  <div className="mt-4 md:mt-0 flex-1">
-                    <h3 className="text-2xl font-semibold text-amber-800">{s.title}</h3>
-                    <p className="text-sm text-amber-700 mt-1 font-medium">{s.subtitle}</p>
-                    <p className="text-gray-600 mt-3 leading-relaxed">{s.desc}</p>
-
-                    <div className="mt-4 flex flex-wrap gap-3">
-                      {s.chips.slice(0, 6).map((c, i) => (
-                        <span
-                          key={i}
-                          className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
-                        >
-                          {c}
-                        </span>
-                      ))}
-                    </div>
-
-                    <div className="mt-4 flex items-center justify-between">
-                      <span className="inline-block bg-amber-100 text-amber-800 py-1 px-3 rounded-full text-sm font-medium">
-                        {s.time} • {s.price}
-                      </span>
-                      <a
-                        href="https://api.whatsapp.com/send?phone=919217255113"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
-                      >
-                        Book Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-
-            {/* Promo / Additional info block */}
+        {/* /// */}
+        <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-16 px-6 md:px-16">
+          <div className="max-w-6xl mx-auto">
+            {/* Header */}
             <motion.div
-              className="bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-6 text-white shadow-xl"
+              className="text-center mb-12"
               initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.12 }}
+              transition={{ duration: 0.6 }}
             >
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <div>
-                  <h4 className="text-2xl font-bold">A Promise of Total Rejuvenation</h4>
-                  <p className="mt-2 opacity-95">
-                    Every massage is designed to relax, refresh, and heal. We ensure you return energized, calm, and fully satisfied with your therapy.
-                  </p>
-                </div>
-                <div className="flex gap-3">
-                  <a
-                    href="https://t.me/+a5Bu6FBPN9FlOWM9"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full font-medium shadow-sm transition"
+              <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-4 mb-4 font-serif">Our Massage Services at Hotels in Aerocity</h1>
+              <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
+              <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+                Luxury Russian Spa offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* LEFT COLUMN: stacked service cards */}
+              <div className="space-y-8">
+                {SERVICES_LEFT.map((s, idx) => (
+                  <motion.div
+                    key={s.id}
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
+                    initial={false}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: idx * 0.08 }}
                   >
-                    <FaTelegram className="text-white" /> Join Telegram
-                  </a>
-                </div>
+                    <div className="md:flex gap-6">
+                      {/* Image */}
+                      <div className="relative w-full md:w-48 h-40 rounded-xl overflow-hidden flex-shrink-0">
+                        <Image src={s.image} alt={s.title} fill className="object-cover" />
+                      </div>
+
+                      {/* Text */}
+                      <div className="mt-4 md:mt-0 flex-1">
+                        <h3 className="text-2xl font-semibold text-amber-800">{s.title}</h3>
+                        <p className="text-sm text-amber-700 mt-1 font-medium">{s.subtitle}</p>
+                        <p className="text-gray-600 mt-3 leading-relaxed">{s.desc}</p>
+
+                        <div className="mt-4 flex flex-wrap gap-3">
+                          {s.chips.slice(0, 6).map((c, i) => (
+                            <span
+                              key={i}
+                              className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
+                            >
+                              {c}
+                            </span>
+                          ))}
+                        </div>
+
+                        <div className="mt-4 flex items-center justify-between">
+                          <span className="inline-block bg-amber-100 text-amber-800 py-1 px-3 rounded-full text-sm font-medium">
+                            {s.time} • {s.price}
+                          </span>
+                          <a
+                            href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
+                          >
+                            Book Now
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
               </div>
+
+              {/* RIGHT COLUMN: stacked service cards + promo */}
+              <div className="space-y-8">
+                {SERVICES_RIGHT.map((s, idx) => (
+                  <motion.div
+                    key={s.id}
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
+                    initial={false}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: idx * 0.08 }}
+                  >
+                    <div className="md:flex gap-6">
+                      <div className="relative w-full md:w-48 h-40 rounded-xl overflow-hidden flex-shrink-0">
+                        <Image src={s.image} alt={s.title} fill className="object-cover" />
+                      </div>
+
+                      <div className="mt-4 md:mt-0 flex-1">
+                        <h3 className="text-2xl font-semibold text-amber-800">{s.title}</h3>
+                        <p className="text-sm text-amber-700 mt-1 font-medium">{s.subtitle}</p>
+                        <p className="text-gray-600 mt-3 leading-relaxed">{s.desc}</p>
+
+                        <div className="mt-4 flex flex-wrap gap-3">
+                          {s.chips.slice(0, 6).map((c, i) => (
+                            <span
+                              key={i}
+                              className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
+                            >
+                              {c}
+                            </span>
+                          ))}
+                        </div>
+
+                        <div className="mt-4 flex items-center justify-between">
+                          <span className="inline-block bg-amber-100 text-amber-800 py-1 px-3 rounded-full text-sm font-medium">
+                            {s.time} • {s.price}
+                          </span>
+                          <a
+                            href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
+                          >
+                            Book Now
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
+
+                {/* Promo / Additional info block */}
+                <motion.div
+                  className="bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-6 text-white shadow-xl"
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.12 }}
+                >
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                    <div>
+                      <h4 className="text-2xl font-bold">A Promise of Total Rejuvenation</h4>
+                      <p className="mt-2 opacity-95">
+                        Every massage is designed to relax, refresh, and heal. We ensure you return energized, calm, and fully satisfied with your therapy.
+                      </p>
+                    </div>
+                    <div className="flex gap-3">
+                      <a
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full font-medium shadow-sm transition"
+                      >
+                        <FaTelegram className="text-white" /> Join Telegram
+                      </a>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+
+            {/* Footer CTA */}
+            <motion.div
+              className="mt-12 text-center"
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.08 }}
+            >
+              <a
+                href="/spa-price-in-delhi"
+                className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-200"
+              >
+                View Our Packages & Book Now
+              </a>
             </motion.div>
           </div>
-        </div>
+        </section>
+        {/* end */}
+        {/* how to book Aerocity spa outlets */}
+        <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
+          <div className="max-w-6xl mx-auto px-6">
+            {/* Header */}
+            <header className="text-center mb-14">
+              <motion.h2
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
+              >
+                <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
+                  How to Book Massage Therapy in Aerocity&apos;s
+                </span>
+                <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
+                  Prestigious Hotels?
+                </span>
+              </motion.h2>
 
-        {/* Footer CTA */}
-        <motion.div
-          className="mt-12 text-center"
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.08 }}
-        >
-          <a
-            href="/spa-price-in-delhi"
-            className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-200"
-          >
-            View Our Packages & Book Now
-          </a>
-        </motion.div>
-      </div>
-    </section>
-                        {/* end */}
-                        {/* how to book Aerocity spa outlets */}
-                        <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
-      <div className="max-w-6xl mx-auto px-6">
-        {/* Header */}
-        <header className="text-center mb-14">
-          <motion.h2
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
-          >
-            <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
-              How to Book Massage Therapy in Aerocity&apos;s
-            </span>
-            <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
-              Prestigious Hotels?
-            </span>
-          </motion.h2>
+              <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
+                Booking a Luxury Russian Spa session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
+              </p>
+            </header>
 
-          <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-            Booking a Luxury Russian Spa session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
-          </p>
-        </header>
+            {/* Top row: 3 cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              {topSteps.map((s, idx) => (
+                <motion.article
 
-        {/* Top row: 3 cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {topSteps.map((s, idx) => (
-            <motion.article
-              
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 text-center hover:shadow-xl hover:-translate-y-1 transition"
-            >
-              <div className="w-12 h-12 mx-auto flex items-center justify-center rounded-full bg-amber-100 mb-4">
-                {s.icon}
-              </div>
-              <h3 className="text-lg md:text-xl font-semibold text-amber-800 mb-2">{s.title}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">{s.text}</p>
-            </motion.article>
-          ))}
-        </div>
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: idx * 0.1 }}
+                  className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 text-center hover:shadow-xl hover:-translate-y-1 transition"
+                >
+                  <div className="w-12 h-12 mx-auto flex items-center justify-center rounded-full bg-amber-100 mb-4">
+                    {s.icon}
+                  </div>
+                  <h3 className="text-lg md:text-xl font-semibold text-amber-800 mb-2">{s.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{s.text}</p>
+                </motion.article>
+              ))}
+            </div>
 
-        {/* Bottom row: 2 wide cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {bottomSteps.map((s, idx) => (
-            <motion.article
-              key={idx}
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 flex items-start gap-4 hover:shadow-xl transition"
-            >
-              <div className="w-14 h-14 flex items-center justify-center rounded-full bg-amber-100">
-                {s.icon}
-              </div>
-              <div>
-                <h4 className="text-lg font-semibold text-amber-800 mb-1">{s.title}</h4>
-                <p className="text-gray-600 text-sm leading-relaxed">{s.text}</p>
-              </div>
-            </motion.article>
-          ))}
-        </div>
+            {/* Bottom row: 2 wide cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {bottomSteps.map((s, idx) => (
+                <motion.article
+                  key={idx}
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: idx * 0.1 }}
+                  className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 flex items-start gap-4 hover:shadow-xl transition"
+                >
+                  <div className="w-14 h-14 flex items-center justify-center rounded-full bg-amber-100">
+                    {s.icon}
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-amber-800 mb-1">{s.title}</h4>
+                    <p className="text-gray-600 text-sm leading-relaxed">{s.text}</p>
+                  </div>
+                </motion.article>
+              ))}
+            </div>
 
-        {/* CTA */}
-        <div className="mt-12 text-center">
-          <a
-            href="https://api.whatsapp.com/send?phone=919217255113"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"
-          >
-            Book Now on WhatsApp
-          </a>
-        </div>
-      </div>
-    </section>
-                        {/* how to book Aerocity spa outlets */}
-{/* Pricing Section */}
-            <section id= "Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
-            {/* Decorative elements */}
-            <div className="absolute top-10 left-0 w-24 h-24 rounded-full bg-amber-100 opacity-20 blur-3xl"></div>
-            <div className="absolute bottom-20 right-0 w-32 h-32 rounded-full bg-amber-200 opacity-15 blur-3xl"></div>
-            
-            <div className="max-w-7xl mx-auto relative z-10">
-              {/* Heading */}
-              <div className="text-center mb-10 md:mb-12">
+            {/* CTA */}
+            <div className="mt-12 text-center">
+              <a
+                href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"
+              >
+                Book Now on WhatsApp
+              </a>
+            </div>
+          </div>
+        </section>
+        {/* how to book Aerocity spa outlets */}
+        {/* Pricing Section */}
+        <section id="Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
+          {/* Decorative elements */}
+          <div className="absolute top-10 left-0 w-24 h-24 rounded-full bg-amber-100 opacity-20 blur-3xl"></div>
+          <div className="absolute bottom-20 right-0 w-32 h-32 rounded-full bg-amber-200 opacity-15 blur-3xl"></div>
+
+          <div className="max-w-7xl mx-auto relative z-10">
+            {/* Heading */}
+            <div className="text-center mb-10 md:mb-12">
+              <motion.div
+                className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+              >
+                <FaStar className="text-amber-500" />
+                Affordable Luxury
+              </motion.div>
+              <motion.h2
+                className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+              >
+                Our <span className="text-amber-600">Pricing Packages</span>
+              </motion.h2>
+              <motion.p
+                className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+              >
+                Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+              </motion.p>
+              <motion.div
+                className="flex justify-center mt-10"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+              >
+                <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+              </motion.div>
+            </div>
+
+            {/* Pricing Cards */}
+            <div className="grid md:grid-cols-3 gap-8 lg:gap-10">
+              {pricingPlans.map((plan, index) => (
                 <motion.div
-                  className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
+                  key={index}
+                  className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
                   initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  whileHover={{ y: -10 }}
                 >
-                  <FaStar className="text-amber-500" />
-                  Affordable Luxury
-                </motion.div>
-                <motion.h2
-                  className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                  initial={false}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.1 }}
-                >
-                  Our <span className="text-amber-600">Pricing Packages</span>
-                </motion.h2>
-                <motion.p
-                  className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                  initial={false}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2 }}
-                >
-                  Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
-                </motion.p>
-                <motion.div
-                   className="flex justify-center mt-10"
-                   initial={false}
-                   whileInView={{ opacity: 1, y: 0 }}
-                   transition={{ delay: 0.5, duration: 0.5 }}
-                 >
-                   <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-                 </motion.div>
-              </div>
-      
-              {/* Pricing Cards */}
-              <div className="grid md:grid-cols-3 gap-8 lg:gap-10">
-                {pricingPlans.map((plan, index) => (
-                  <motion.div
-                    key={index}
-                    className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
-                    initial={false}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    whileHover={{ y: -10 }}
-                  >
-                    {/* Featured badge */}
-                    {plan.highlight && (
-                      <div className="absolute top-6 right-6 bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-1 rounded-full text-sm font-bold z-20 rotate-12 shadow-lg">
-                        MOST POPULAR
-                      </div>
-                    )}
-                    
-                    <div className={`h-full flex flex-col border ${plan.highlight ? "border-amber-500 shadow-xl" : "border-amber-100 shadow-lg"} rounded-3xl overflow-hidden bg-white`}>
-                      <div className={`p-8 pb-6 ${plan.highlight ? "bg-gradient-to-r from-amber-600 to-amber-700" : "bg-amber-800"}`}>
-                        <div className="flex items-center gap-4 mb-4">
-                          <div className="text-3xl">
-                            {plan.icon}
-                          </div>
-                          <h3 className={`text-2xl font-bold font-serif ${plan.highlight ? "text-white" : "text-amber-100"}`}>
-                            {plan.title}
-                          </h3>
+                  {/* Featured badge */}
+                  {plan.highlight && (
+                    <div className="absolute top-6 right-6 bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-1 rounded-full text-sm font-bold z-20 rotate-12 shadow-lg">
+                      MOST POPULAR
+                    </div>
+                  )}
+
+                  <div className={`h-full flex flex-col border ${plan.highlight ? "border-amber-500 shadow-xl" : "border-amber-100 shadow-lg"} rounded-3xl overflow-hidden bg-white`}>
+                    <div className={`p-8 pb-6 ${plan.highlight ? "bg-gradient-to-r from-amber-600 to-amber-700" : "bg-amber-800"}`}>
+                      <div className="flex items-center gap-4 mb-4">
+                        <div className="text-3xl">
+                          {plan.icon}
                         </div>
-                        <p className={`text-lg ${plan.highlight ? "text-amber-100" : "text-amber-200"}`}>
-                          {plan.description}
-                        </p>
+                        <h3 className={`text-2xl font-bold font-serif ${plan.highlight ? "text-white" : "text-amber-100"}`}>
+                          {plan.title}
+                        </h3>
                       </div>
-                      
-                      <div className="p-8 pt-12 pb-10 -mt-6 relative">
-                        {/* Price circle */}
-                        <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-20 h-20 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 flex items-center justify-center shadow-lg">
-                          <span className="text-white text-xl font-bold">
-                            {plan.price}
-                          </span>
-                        </div>
-                        
-                        <ul className="space-y-4 mb-8">
-                          {plan.features.map((feature, i) => (
-                            <li key={i} className="flex items-start gap-3">
-                              <FaCheckCircle className="text-amber-500 mt-1 flex-shrink-0" />
-                              <span className="text-amber-800">{feature}</span>
-                            </li>
-                          ))}
-                        </ul>
-                        
-                        {/* <a
+                      <p className={`text-lg ${plan.highlight ? "text-amber-100" : "text-amber-200"}`}>
+                        {plan.description}
+                      </p>
+                    </div>
+
+                    <div className="p-8 pt-12 pb-10 -mt-6 relative">
+                      {/* Price circle */}
+                      <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-20 h-20 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 flex items-center justify-center shadow-lg">
+                        <span className="text-white text-xl font-bold">
+                          {plan.price}
+                        </span>
+                      </div>
+
+                      <ul className="space-y-4 mb-8">
+                        {plan.features.map((feature, i) => (
+                          <li key={i} className="flex items-start gap-3">
+                            <FaCheckCircle className="text-amber-500 mt-1 flex-shrink-0" />
+                            <span className="text-amber-800">{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+
+                      {/* <a
                           href={plan.ctaLink}
                           className={`mt-auto block text-center py-3 px-6 rounded-full font-bold transition-all duration-300 ${
                             plan.highlight 
@@ -1274,23 +1274,23 @@ const topSteps = [
                         >
                           Book Now
                         </a> */}
-                        <a 
-                                                                href="https://t.me/+a5Bu6FBPN9FlOWM9" 
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                                className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                                                              >
-                                                                <FaTelegram className="text-xl mr-3" />
-                                                                Meet Our Team
-                                                              </a>
-                      </div>
+                      <a
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                      >
+                        <FaTelegram className="text-xl mr-3" />
+                        Meet Our Team
+                      </a>
                     </div>
-                  </motion.div>
-                ))}
-              </div>
-      
-              {/* Additional information */}
-              {/* <motion.div 
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Additional information */}
+            {/* <motion.div 
                 className="mt-16 bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-200 rounded-2xl p-6 md:p-8 text-center"
                 initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -1311,40 +1311,40 @@ const topSteps = [
                   </div>
                 </div>
               </motion.div> */}
-            </div>
-          </section>
-          {/* End Pricing Section */}
-          {/* Our Process */}
-                                <section className="w-full py-10 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
-                                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                                   {/* Section Header */}
-                         <motion.div 
-                           className="text-center mb-10 md:mb-12"
-                           initial={false}
-                           whileInView={{ opacity: 1, y: 0 }}
-                           viewport={{ once: true, margin: "-100px" }}
-                           transition={{ duration: 0.8 }}
-                         >
-                           <motion.div
-                             className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                             initial={false}
-                             whileInView={{ opacity: 1, scale: 1 }}
-                             transition={{ delay: 0.2, duration: 0.5 }}
-                           >
-                             <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                             <span className="text-amber-700 font-medium tracking-wider">Process</span>
-                           </motion.div>
-                           
-                           <motion.h2
-                             className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                             initial={false}
-                             whileInView={{ opacity: 1, y: 0 }}
-                             transition={{ delay: 0.3, duration: 0.6 }}
-                           >
-                             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Process</span>
-                           </motion.h2>
-                           
-                           {/* <motion.p
+          </div>
+        </section>
+        {/* End Pricing Section */}
+        {/* Our Process */}
+        <section className="w-full py-10 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Section Header */}
+            <motion.div
+              className="text-center mb-10 md:mb-12"
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8 }}
+            >
+              <motion.div
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+                initial={false}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+              >
+                <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
+                <span className="text-amber-700 font-medium tracking-wider">Process</span>
+              </motion.div>
+
+              <motion.h2
+                className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+              >
+                Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Process</span>
+              </motion.h2>
+
+              {/* <motion.p
                              className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
                              initial={false}
                              whileInView={{ opacity: 1, y: 0 }}
@@ -1352,60 +1352,60 @@ const topSteps = [
                            >
                              Located in premium 5-star properties across Delhi – enjoy serenity, comfort, and personalized spa experiences at every outlet.
                            </motion.p> */}
-                           
-                           <motion.div
-                             className="flex justify-center mt-10"
-                             initial={false}
-                             whileInView={{ opacity: 1, y: 0 }}
-                             transition={{ delay: 0.5, duration: 0.5 }}
-                           >
-                             <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-                           </motion.div>
-                         </motion.div>
-                               
-                                   {/* Process Steps */}
-                                   <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                                     {processSteps.map((step, index) => (
-                                       <motion.div
-                                         key={index}
-                                         className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
-                                         initial={false}
-                                         whileInView={{ opacity: 1, y: 0 }}
-                                         viewport={{ once: true }}
-                                         transition={{ duration: 0.5, delay: index * 0.2 }}
-                                       >
-                                         {/* Step Number */}
-                                         <div className="absolute top-4 left-4 text-3xl font-bold text-amber-300 opacity-30 z-0">
-                                           {step.number}
-                                         </div>
-                               
-                                         {/* Image */}
-                                         <div className="relative w-44 h-44 mx-auto mb-8 rounded-full overflow-hidden shadow-xl border-4 border-gradient-to-tr from-rose-200 via-amber-100 to-rose-100 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                                           <Image
-                                             src={step.image}
-                                             alt={step.title}
-                                             layout="fill"
-                                             objectFit="cover"
-                                             className="rounded-full"
-                                           />
-                                         </div>
-                 
-                               
-                                         {/* Title */}
-                                         <h4 className="text-2xl font-semibold text-amber-800 mb-4 font-serif">
-                                           {step.title}
-                                         </h4>
-                               
-                                         {/* Description */}
-                                         <p className="text-gray-600 leading-relaxed text-base">{step.description}</p>
-                                       </motion.div>
-                                     ))}
-                                   </div>
-                                 </div>
-                                </section>
-                              {/* End Our Process */}
-      {/* 700+ Words Content Block */}
-      {/* <div className="bg-white py-14 px-6 md:px-20">
+
+              <motion.div
+                className="flex justify-center mt-10"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+              >
+                <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+              </motion.div>
+            </motion.div>
+
+            {/* Process Steps */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+              {processSteps.map((step, index) => (
+                <motion.div
+                  key={index}
+                  className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.2 }}
+                >
+                  {/* Step Number */}
+                  <div className="absolute top-4 left-4 text-3xl font-bold text-amber-300 opacity-30 z-0">
+                    {step.number}
+                  </div>
+
+                  {/* Image */}
+                  <div className="relative w-44 h-44 mx-auto mb-8 rounded-full overflow-hidden shadow-xl border-4 border-gradient-to-tr from-rose-200 via-amber-100 to-rose-100 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    <Image
+                      src={step.image}
+                      alt={step.title}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-full"
+                    />
+                  </div>
+
+
+                  {/* Title */}
+                  <h4 className="text-2xl font-semibold text-amber-800 mb-4 font-serif">
+                    {step.title}
+                  </h4>
+
+                  {/* Description */}
+                  <p className="text-gray-600 leading-relaxed text-base">{step.description}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+        {/* End Our Process */}
+        {/* 700+ Words Content Block */}
+        {/* <div className="bg-white py-14 px-6 md:px-20">
         <div className="max-w-5xl mx-auto space-y-6 text-gray-700 text-lg leading-relaxed">
           <h2 className="text-2xl font-bold text-amber-700 mb-4 text-center">Why Choose Our Spa in Aerocity?</h2>
           <p>
@@ -1431,99 +1431,99 @@ const topSteps = [
           </p>
         </div>
       </div> */}
-      {/* F&Q Section */}
-      <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-                            <div className="max-w-5xl mx-auto px-4">
-                              <motion.div
-                                initial={false}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6 }}
-                                viewport={{ once: true }}
-                                className="text-center mb-14"
-                              >
-                                <motion.div
-                                  className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                                  initial={false}
-                                  whileInView={{ opacity: 1, y: 0 }}
-                                  viewport={{ once: true }}
-                                >
-                                  <FaStar className="text-amber-500" />
-                                  Questions? We’re here to help
-                                </motion.div>
-                                <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
-                                  Frequently Asked <span className="text-amber-600">Questions</span>
-                                </h2>
-                                <p className="text-amber-800 max-w-2xl mx-auto text-lg">
-                                  Everything you need to know about our luxurious spa services and how to book them.
-                                </p>
-                                <div className="flex justify-center mt-6">
-                                  <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-                                </div>
-                              </motion.div>
-                    
-                              {/* FAQ Accordion */}
-                              <div className="space-y-5">
-                                {faqs.map((faq, index) => (
-                                  <motion.div
-                                    key={index}
-                                    initial={false}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.4, delay: index * 0.1 }}
-                                    viewport={{ once: true }}
-                                    className="bg-white rounded-2xl shadow-lg overflow-hidden border border-amber-100"
-                                  >
-                                    <button
-                                      onClick={() => toggleFAQ(index)}
-                                      className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
-                                    >
-                                      <div className="flex items-start space-x-4">
-                                        <div className="mt-1 p-2 bg-amber-50 rounded-lg">
-                                          {faq.icon}
-                                        </div>
-                                        <h3 className="text-lg md:text-xl font-medium text-amber-900 group-hover:text-amber-700 transition-colors">
-                                          {faq.question}
-                                        </h3>
-                                      </div>
-                                      <div className="ml-4 flex-shrink-0">
-                                        <svg
-                                          className={`w-6 h-6 text-amber-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
-                                          fill="none"
-                                          viewBox="0 0 24 24"
-                                          stroke="currentColor"
-                                        >
-                                          <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M19 9l-7 7-7-7"
-                                          />
-                                        </svg>
-                                      </div>
-                                    </button>
-                    
-                                    <AnimatePresence>
-                                      {activeIndex === index && (
-                                        <motion.div
-                                          initial={{ height: 0, opacity: 0 }}
-                                          animate={{ height: 'auto', opacity: 1 }}
-                                          exit={{ height: 0, opacity: 0 }}
-                                          transition={{ duration: 0.3 }}
-                                          className="overflow-hidden"
-                                        >
-                                          <div className="px-6 pb-6 pt-2 border-t border-amber-50">
-                                            <p className="text-amber-700">
-                                              {faq.answer}
-                                            </p>
-                                          </div>
-                                        </motion.div>
-                                      )}
-                                    </AnimatePresence>
-                                  </motion.div>
-                                ))}
-                              </div>
-                    
-                              {/* CTA Box */}
-                              {/* <motion.div
+        {/* F&Q Section */}
+        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
+          <div className="max-w-5xl mx-auto px-4">
+            <motion.div
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="text-center mb-14"
+            >
+              <motion.div
+                className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+              >
+                <FaStar className="text-amber-500" />
+                Questions? We’re here to help
+              </motion.div>
+              <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
+                Frequently Asked <span className="text-amber-600">Questions</span>
+              </h2>
+              <p className="text-amber-800 max-w-2xl mx-auto text-lg">
+                Everything you need to know about our luxurious spa services and how to book them.
+              </p>
+              <div className="flex justify-center mt-6">
+                <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+              </div>
+            </motion.div>
+
+            {/* FAQ Accordion */}
+            <div className="space-y-5">
+              {faqs.map((faq, index) => (
+                <motion.div
+                  key={index}
+                  initial={false}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="bg-white rounded-2xl shadow-lg overflow-hidden border border-amber-100"
+                >
+                  <button
+                    onClick={() => toggleFAQ(index)}
+                    className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
+                  >
+                    <div className="flex items-start space-x-4">
+                      <div className="mt-1 p-2 bg-amber-50 rounded-lg">
+                        {faq.icon}
+                      </div>
+                      <h3 className="text-lg md:text-xl font-medium text-amber-900 group-hover:text-amber-700 transition-colors">
+                        {faq.question}
+                      </h3>
+                    </div>
+                    <div className="ml-4 flex-shrink-0">
+                      <svg
+                        className={`w-6 h-6 text-amber-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+
+                  <AnimatePresence>
+                    {activeIndex === index && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="px-6 pb-6 pt-2 border-t border-amber-50">
+                          <p className="text-amber-700">
+                            {faq.answer}
+                          </p>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* CTA Box */}
+            {/* <motion.div
                                 initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.4 }}
@@ -1543,10 +1543,10 @@ const topSteps = [
                                   </button>
                                 </div>
                               </motion.div> */}
-                            </div>
-      </section>
-    </div>
+          </div>
+        </section>
+      </div>
     </main>
-    
+
   );
 }

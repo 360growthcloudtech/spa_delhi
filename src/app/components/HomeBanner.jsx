@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 
-const WHATSAPP = "https://api.whatsapp.com/send?phone=919217255113";
+const WHATSAPP = "https://api.whatsapp.com/send?phone=9310xxxxxx";
 
 const slides = [
   {
@@ -120,9 +120,8 @@ export default function HomeBanner() {
               {slides.map((slide, i) => (
                 <h2
                   key={i}
-                  className={`[grid-area:1/1] font-sans text-white/95 text-base md:text-lg font-medium leading-relaxed transition-all duration-500 ${
-                    active === i ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2 pointer-events-none"
-                  }`}
+                  className={`[grid-area:1/1] font-sans text-white/95 text-base md:text-lg font-medium leading-relaxed transition-all duration-500 ${active === i ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2 pointer-events-none"
+                    }`}
                 >
                   {slide.title}
                 </h2>

@@ -33,31 +33,31 @@ export default function Conpage() {
     console.log('Form submitted:', formData);
   };
   const locations = [
-  {
-    name: "Lajpat Nagar",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
-    description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-    link: "https://wa.me/919217255113"
-  },
-  {
-    name: "Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
-    description: "Relax and unwind with our premium services at Aerocity.",
-    link: "https://wa.me/919217255113"
-  },
-  {
-    name: "Paschim Vihar",
-    image: "/images/TheParkConnaughtPlace.webp",
-    description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/919217255113"
-  },
-  {
-    name: "Rohini",
-    image: "/images/TheGrandNewDelhi.webp",
-    description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/919217255113"
-  }
-];
+    {
+      name: "Lajpat Nagar",
+      image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
+      description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
+      link: "https://wa.me/9310xxxxxx"
+    },
+    {
+      name: "Aerocity",
+      image: "/images/NovotelNewDelhiAerocity.webp",
+      description: "Relax and unwind with our premium services at Aerocity.",
+      link: "https://wa.me/9310xxxxxx"
+    },
+    {
+      name: "Paschim Vihar",
+      image: "/images/TheParkConnaughtPlace.webp",
+      description: "Experience rejuvenation at our elegant Paschim Vihar location.",
+      link: "https://wa.me/9310xxxxxx"
+    },
+    {
+      name: "Rohini",
+      image: "/images/TheGrandNewDelhi.webp",
+      description: "Escape to serenity at our luxurious spa in Rohini.",
+      link: "https://wa.me/9310xxxxxx"
+    }
+  ];
 
   return (
     <>
@@ -82,7 +82,7 @@ export default function Conpage() {
           </p>
 
           <a
-            href="tel:+919217255113"
+            href="tel:+9310xxxxxx"
             className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
           >
             Book Your Session Now
@@ -91,72 +91,72 @@ export default function Conpage() {
       </section>
       {/* End Banner */}
       {/* Locations Section */}
-<section className="py-16 px-6 md:px-16 bg-gradient-to-b from-white to-amber-50 relative">
-  <div className="max-w-7xl mx-auto">
-    {/* Section Title */}
-    <div className="text-center mb-12">
-      <motion.h2
-        className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-        initial={false}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-      >
-        Our <span className="text-amber-600">Prime Locations</span>
-      </motion.h2>
-      <motion.p
-        className="text-gray-600 max-w-2xl mx-auto text-lg"
-        initial={false}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        viewport={{ once: true }}
-      >
-        Visit us at any of our luxurious outlets, conveniently located across Delhi for your ultimate spa experience.
-      </motion.p>
-    </div>
-
-    {/* Location Cards */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      {locations.map((location, index) => (
-        <motion.div
-          key={index}
-          className="bg-white rounded-2xl shadow-lg relative overflow-hidden group"
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: index * 0.1 }}
-          viewport={{ once: true }}
-          whileHover={{ scale: 1.05 }}
-        >
-          {/* Location Image */}
-          <div className="relative h-56 w-full">
-            <Image
-              src={location.image}
-              alt={location.name}
-              layout="fill"
-              objectFit="cover"
-              className="transform group-hover:scale-110 transition-all duration-500"
-            />
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent z-10"></div> */}
-          </div>
-
-          {/* Location Content */}
-          <div className="p-6 text-center">
-            <h3 className="text-2xl font-bold text-amber-900 mb-2 font-serif">{location.name}</h3>
-            <p className="text-gray-700 text-base mb-4">{location.description}</p>
-            <a
-              href={location.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 px-5 rounded-full text-base transition-all"
+      <section className="py-16 px-6 md:px-16 bg-gradient-to-b from-white to-amber-50 relative">
+        <div className="max-w-7xl mx-auto">
+          {/* Section Title */}
+          <div className="text-center mb-12">
+            <motion.h2
+              className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
             >
-              <FaWhatsapp className="text-lg" />
-              Book on WhatsApp
-            </a>
+              Our <span className="text-amber-600">Prime Locations</span>
+            </motion.h2>
+            <motion.p
+              className="text-gray-600 max-w-2xl mx-auto text-lg"
+              initial={false}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              viewport={{ once: true }}
+            >
+              Visit us at any of our luxurious outlets, conveniently located across Delhi for your ultimate spa experience.
+            </motion.p>
           </div>
-        </motion.div>
-      ))}
-    </div>
-  </div>
-</section>
+
+          {/* Location Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {locations.map((location, index) => (
+              <motion.div
+                key={index}
+                className="bg-white rounded-2xl shadow-lg relative overflow-hidden group"
+                initial={false}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.05 }}
+              >
+                {/* Location Image */}
+                <div className="relative h-56 w-full">
+                  <Image
+                    src={location.image}
+                    alt={location.name}
+                    layout="fill"
+                    objectFit="cover"
+                    className="transform group-hover:scale-110 transition-all duration-500"
+                  />
+                  {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent z-10"></div> */}
+                </div>
+
+                {/* Location Content */}
+                <div className="p-6 text-center">
+                  <h3 className="text-2xl font-bold text-amber-900 mb-2 font-serif">{location.name}</h3>
+                  <p className="text-gray-700 text-base mb-4">{location.description}</p>
+                  <a
+                    href={location.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-medium py-2 px-5 rounded-full text-base transition-all"
+                  >
+                    <FaWhatsapp className="text-lg" />
+                    Book on WhatsApp
+                  </a>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
 
 
 
@@ -252,7 +252,7 @@ export default function Conpage() {
           </form>
         </div>
       </section>
-       <WhatsappFloat />
+      <WhatsappFloat />
     </>
   );
 }

@@ -63,7 +63,7 @@ const LuxuryHotelShowcase = ({
             Exclusive Partnerships
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6">
-           Luxury Hotel Spa for {service} in Delhi
+            Luxury Hotel Spa for {service} in Delhi
           </h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
             We provide <strong className="text-amber-600 font-medium"><a href={serviceHref}>{serviceLower} in Delhi</a></strong> at luxurious hotels right at your doorstep. Here's our list of luxury hotels where we bring you the best {serviceLower} in Delhi:
@@ -115,9 +115,8 @@ const LuxuryHotelShowcase = ({
             {hotels.map((hotel, index) => (
               <motion.div
                 key={hotel.id}
-                className={`relative bg-white rounded-2xl shadow-lg p-6 transition-all duration-300 cursor-pointer overflow-hidden group ${
-                  activeHotel === index ? 'ring-4 ring-amber-500' : 'hover:ring-2 hover:ring-amber-300'
-                }`}
+                className={`relative bg-white rounded-2xl shadow-lg p-6 transition-all duration-300 cursor-pointer overflow-hidden group ${activeHotel === index ? 'ring-4 ring-amber-500' : 'hover:ring-2 hover:ring-amber-300'
+                  }`}
                 whileHover={{ y: -5 }}
                 onClick={() => {
                   setActiveHotel(index);
@@ -177,13 +176,13 @@ const LuxuryHotelShowcase = ({
         </div>
 
         <div className="mt-16 text-center">
-          <a href="https://api.whatsapp.com/send?phone=919217255113" target="_blank" rel="noopener noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" target="_blank" rel="noopener noreferrer">
             <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 group">
-            Book Your {service} Today!
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor">
-              <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 0 0 0 -1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 00 0 1 .5h5.69l-1.72 1.72a.75.75 0 1 0 1 .06 1.06l3-3z" clipRule="evenodd" />
-            </svg>
-          </button>
+              Book Your {service} Today!
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor">
+                <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 0 0 0 -1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 00 0 1 .5h5.69l-1.72 1.72a.75.75 0 1 0 1 .06 1.06l3-3z" clipRule="evenodd" />
+              </svg>
+            </button>
           </a>
         </div>
       </div>

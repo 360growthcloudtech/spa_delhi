@@ -249,7 +249,7 @@ export default function B2BMassageBlogPage() {
                   </ul>
 
                 </section>
-                                <section
+                <section
                   id="what-is-b2b"
                   className="space-y-4 scroll-mt-32"
                 >
@@ -708,7 +708,7 @@ export default function B2BMassageBlogPage() {
                   </p>
 
                 </section>
-                                <section
+                <section
                   id="myths"
                   className="space-y-6 scroll-mt-32"
                 >
@@ -881,7 +881,7 @@ export default function B2BMassageBlogPage() {
                     </Link>
 
                     <a
-                      href="https://api.whatsapp.com/send?phone=919217255113"
+                      href="https://api.whatsapp.com/send?phone=9310xxxxxx"
                       target="_blank"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"
                     >

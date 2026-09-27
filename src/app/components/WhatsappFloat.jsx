@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function WhatsappFloat() {
   return (
     <a
-      href="https://wa.me/919217255113"
+      href="https://wa.me/9310xxxxxx"
       aria-label="Chat on WhatsApp"
       className="fixed bottom-6 left-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:-translate-y-1 animate-ripple"
       target="_blank"
