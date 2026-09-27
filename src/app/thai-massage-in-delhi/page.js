@@ -35,7 +35,7 @@ const faqSchema = {
       name: "Is there a Thai massage spa near me in Delhi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi operates 24+ outlets across Delhi NCR, including a centrally located outlet in Karol Bagh, so you can easily find a Thai massage spa near you.",
+        text: "Yes, Luxury Russian Spa operates 24+ outlets across Delhi NCR, including a centrally located outlet in Karol Bagh, so you can easily find a Thai massage spa near you.",
       },
     },
     {
@@ -50,21 +50,21 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Thai Massage in Delhi - Authentic Spa Near Me | Spa Delhi",
+  title: "Thai Massage in Delhi - Authentic Spa Near Me | Luxury Russian Spa",
   description: "Thai massage in Delhi using authentic traditional techniques by certified therapists. Relaxing, hygienic setting, first visit from ₹1999. Book your session now!",
   keywords: ["thai massage in delhi", "thai massage in delhi near me", "best thai massage in delhi", "thai massage spa delhi", "full body thai massage in delhi", "thai massage price in delhi"],
   openGraph: {
     title: "Thai Massage in Delhi | Best Thai Massage Spa Near Me",
-    description: "Authentic Thai massage in Delhi at Spa Delhi — traditional techniques, certified therapists, relaxing hygienic setting. First visit from ₹1999.",
-    images: ["https://www.spadelhi.com/images/thaimassage.jpg"],
+    description: "Authentic Thai massage in Delhi at Luxury Russian Spa — traditional techniques, certified therapists, relaxing hygienic setting. First visit from ₹1999.",
+    images: ["https://www.luxuryrussianspa.com/images/thaimassage.jpg"],
     type: "website",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/thai-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/thai-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/thaimassage.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/thaimassage.jpg"]
   }
 };
 
@@ -72,8 +72,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Thai Massage in Delhi", item: "https://www.spadelhi.com/thai-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Thai Massage in Delhi", item: "https://www.luxuryrussianspa.com/thai-massage-in-delhi" },
   ],
 };
 
@@ -84,9 +84,9 @@ const serviceSchema = {
   name: "Thai Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:

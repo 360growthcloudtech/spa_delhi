@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Punjabi Bagh Club Road?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Punjabi Bagh Club Road, close to Ring Road and Punjabi Bagh Metro Station, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Punjabi Bagh Club Road, close to Ring Road and Punjabi Bagh Metro Station, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Punjabi Bagh?",
+      name: "What makes Luxury Russian Spa the best spa in Punjabi Bagh?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Punjabi Bagh for residents across West Delhi.",
@@ -77,13 +77,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Punjabi Bagh", item: "https://www.spadelhi.com/spa-in-punjabi-bagh" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Punjabi Bagh", item: "https://www.luxuryrussianspa.com/spa-in-punjabi-bagh" },
   ],
 };
 
 export const metadata = {
-  title: "Best Spa in Punjabi Bagh - Luxury Body Massage on Club Road | Spa Delhi",
+  title: "Best Spa in Punjabi Bagh - Luxury Body Massage on Club Road | Luxury Russian Spa",
   description:
     "Best spa in Punjabi Bagh for luxury body massage & body spa near Club Road. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -107,19 +107,19 @@ export const metadata = {
     "russian spa in punjabi bagh",
   ],
   openGraph: {
-    title: "Best Spa in Punjabi Bagh - Luxury Body Massage on Club Road | Spa Delhi",
+    title: "Best Spa in Punjabi Bagh - Luxury Body Massage on Club Road | Luxury Russian Spa",
     description:
       "Best spa in Punjabi Bagh for luxury body massage & body spa near Club Road. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-punjabi-bagh",
+    url: "https://www.luxuryrussianspa.com/spa-in-punjabi-bagh",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-punjabi-bagh",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-punjabi-bagh",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
   },
 };
 

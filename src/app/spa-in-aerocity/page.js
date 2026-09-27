@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Aerocity", item: "https://www.spadelhi.com/spa-in-aerocity" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Aerocity", item: "https://www.luxuryrussianspa.com/spa-in-aerocity" },
   ],
 };
 
 export const metadata = {
-  title: "Spa in Aerocity - 5-Star Hotel Massage Near Airport | Spa Delhi",
+  title: "Spa in Aerocity - 5-Star Hotel Massage Near Airport | Luxury Russian Spa",
   description: "Spa in Aerocity offering 5-star hotel massage service near Delhi airport. Certified therapists deliver true relaxation and comfort. Book your visit today!",
   keywords: ["spa in aerocity", "massage in aerocity", "hotel spa aerocity", "body massage aerocity"],
   openGraph: {
     title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
     description: "Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",
-    images: ["https://www.spadelhi.com/images/NovotelNewDelhiAerocity.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/NovotelNewDelhiAerocity.webp"],
     type: "website",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-aerocity",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-aerocity",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/NovotelNewDelhiAerocity.webp"]
+    images: ["https://www.luxuryrussianspa.com/images/NovotelNewDelhiAerocity.webp"]
   }
 };
 

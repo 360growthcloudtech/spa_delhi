@@ -11,11 +11,11 @@ import "swiper/css/effect-fade";
 
 const slides = [
   {
-    title: "Welcome to The Spa Delhi — 5 Star Hotel Spa In Delhi",
+    title: "Welcome to Luxury Russian Spa — 5 Star Hotel Spa In Delhi",
     image: "/images/hb1.webp",
   },
   {
-    title: "Explore Spa Delhi With 12+ Spa Outlets in Delhi NCR",
+    title: "Explore Luxury Russian Spa With 12+ Spa Outlets in Delhi NCR",
     image: "/images/hb2.webp",
   },
   {
@@ -111,14 +111,14 @@ export default function HomeBanner() {
         </div>
 
         <div className="relative z-[4] h-full max-w-7xl mx-auto px-5 md:px-12 flex flex-col justify-center">
-          <span className="font-display text-aquamist text-3xl md:text-5xl lg:pl-10 block">Relax &amp; Rejuvenate</span>
+          <span className="font-display text-aquamist text-3xl md:text-5xl lg:pl-10 block">Luxury</span>
 
           <div className="relative my-2 lg:animate-slide-left" aria-hidden="true">
             <p className="font-display text-stroke-white text-6xl sm:text-8xl lg:text-[128px] leading-[1.15] absolute left-2 top-2 lg:left-3 lg:top-3 opacity-50">
-              Spa Delhi
+              Russian Spa
             </p>
             <p className="font-display text-white text-6xl sm:text-8xl lg:text-[128px] leading-[1.15] relative">
-              Spa Delhi
+              Russian Spa
             </p>
           </div>
 

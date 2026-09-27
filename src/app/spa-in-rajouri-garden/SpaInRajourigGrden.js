@@ -58,8 +58,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Rajouri Garden near the mall?", answer: "Yes, Spa Delhi runs a genuine spa in Rajouri Garden, close to City Square Mall and the Rajouri Garden Metro interchange, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Rajouri Garden?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa Rajouri Garden has for residents and visitors across West Delhi." },
+  { question: "Is there a good spa in Rajouri Garden near the mall?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Rajouri Garden, close to City Square Mall and the Rajouri Garden Metro interchange, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Rajouri Garden?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa Rajouri Garden has for residents and visitors across West Delhi." },
   { question: "Do you offer spa in Rajouri Garden Mall or nearby City Square Mall?", answer: "Yes, our outlet is a short walk from Rajouri Garden Mall and City Square Mall, so it's easy to combine shopping with a relaxing massage in Rajouri Garden." },
   { question: "Do you offer massage in Rajouri Garden for both men and women?", answer: "Yes, our massage in Rajouri Garden welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Where can I find the best body massage in Rajouri Garden?", answer: "Our Rajouri Garden outlet delivers the best body massage in Rajouri Garden with certified therapists trained in full body, deep tissue, Swedish, and aromatherapy technique." },
@@ -86,7 +86,7 @@ export default function SpaInRajourigGrden() {
               Best Spa in <span className="text-amber-700">Rajouri Garden</span> Near the Mall
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Rajouri Garden? Spa Delhi is a trusted destination for massage in Rajouri Garden, delivering full body, deep tissue, and B2B massage just minutes from Rajouri Garden Mall and the metro interchange. Every session at our spa in Rajouri Garden mall area is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Rajouri Garden? Luxury Russian Spa is a trusted destination for massage in Rajouri Garden, delivering full body, deep tissue, and B2B massage just minutes from Rajouri Garden Mall and the metro interchange. Every session at our spa in Rajouri Garden mall area is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -188,10 +188,10 @@ export default function SpaInRajourigGrden() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Rajouri Garden — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Rajouri Garden. If you're tired, stressed, or need a refreshing break, our spa near Rajouri Garden Mall is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in Rajouri Garden. If you're tired, stressed, or need a refreshing break, our spa near Rajouri Garden Mall is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near City Square Mall and the Rajouri Garden Metro interchange. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near City Square Mall and the Rajouri Garden Metro interchange. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
             {[
@@ -227,13 +227,13 @@ export default function SpaInRajourigGrden() {
             </h3>
             <div className="mt-5 space-y-4 text-gray-700">
               <p>
-                At Spa Delhi in Rajouri Garden, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Rajouri Garden is known for professional body massage by certified therapists.
+                At Luxury Russian Spa in Rajouri Garden, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Rajouri Garden is known for professional body massage by certified therapists.
               </p>
               <p>
                 Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our massage centre near Rajouri Garden Mall, we focus on hygiene, comfort, and customer care to give you the best experience every time.
               </p>
               <p>
-                If you want a trusted rajouri garden mall spa, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Rajouri Garden ticks all boxes. That's why we're the first choice for the best spa in Rajouri Garden and across West Delhi.
+                If you want a trusted rajouri garden mall spa, look for experienced therapists, transparent pricing, and complete cleanliness — and Luxury Russian Spa in Rajouri Garden ticks all boxes. That's why we're the first choice for the best spa in Rajouri Garden and across West Delhi.
               </p>
             </div>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -268,7 +268,7 @@ export default function SpaInRajourigGrden() {
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Rajouri Garden for guests across Tagore Garden, Subhash Nagar, and Punjabi Bagh — a real massage centre near the mall, not a generic neighbourhood parlour. Our spa in Rajouri Garden mall area covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
+                Luxury Russian Spa is the best spa in Rajouri Garden for guests across Tagore Garden, Subhash Nagar, and Punjabi Bagh — a real massage centre near the mall, not a generic neighbourhood parlour. Our spa in Rajouri Garden mall area covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
@@ -302,7 +302,7 @@ export default function SpaInRajourigGrden() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Rajouri Garden?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Rajouri Garden?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Rajouri Garden outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -370,7 +370,7 @@ export default function SpaInRajourigGrden() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Rajouri Garden`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Rajouri Garden`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

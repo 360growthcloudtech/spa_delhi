@@ -34,10 +34,10 @@ export default function Analytics() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "DaySpa"],
-            name: "Spa Delhi",
-            url: "https://www.spadelhi.com/",
-            logo: "https://www.spadelhi.com/images/spadelhilogo22.webp",
-            image: "https://www.spadelhi.com/images/luxurySpaRoom.jpg",
+            name: "Luxury Russian Spa",
+            url: "https://www.luxuryrussianspa.com/",
+            logo: "https://www.luxuryrussianspa.com/images/luxuryrussianspa-logo.png",
+            image: "https://www.luxuryrussianspa.com/images/luxurySpaRoom.jpg",
             telephone: "+91-9217255113",
             priceRange: "₹₹₹",
             address: {
@@ -88,9 +88,9 @@ export default function Analytics() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Spa Delhi",
-            url: "https://www.spadelhi.com/",
-            logo: "https://www.spadelhi.com/images/spadelhilogo22.webp",
+            name: "Luxury Russian Spa",
+            url: "https://www.luxuryrussianspa.com/",
+            logo: "https://www.luxuryrussianspa.com/images/luxuryrussianspa-logo.png",
             contactPoint: {
               "@type": "ContactPoint",
               telephone: "+91-9217255113",

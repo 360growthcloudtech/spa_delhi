@@ -21,8 +21,8 @@ export default function HomeFaqSection() {
   };
   const faqs = [
       {
-        question: "What services does Spa Delhi provide?",
-        answer: "At Spa Delhi, we offer full-body massage, Thai massage, aromatherapy, B2B massage, sandwich massage, couple massage and more. Our certified Indian and international therapists deliver private, hygienic sessions tailored for relaxation, therapeutic relief, and special-event packages at all major outlets.",
+        question: "What services does Luxury Russian Spa provide?",
+        answer: "At Luxury Russian Spa, we offer full-body massage, Thai massage, aromatherapy, B2B massage, sandwich massage, couple massage and more. Our certified Indian and international therapists deliver private, hygienic sessions tailored for relaxation, therapeutic relief, and special-event packages at all major outlets.",
         icon: <FaSpa className="text-teal-600" />
       },
       {
@@ -31,7 +31,7 @@ export default function HomeFaqSection() {
         icon: <FaLeaf className="text-teal-600" />
       },
       {
-        question: "Is there a first-visit discount at Spa Delhi?",
+        question: "Is there a first-visit discount at Luxury Russian Spa?",
         answer: "Yes, we run first-visit offers periodically, such as introductory full body massage packages starting at ₹1999. Check the homepage deals or contact your preferred outlet for current promotions.",
         icon: <FaHotTub className="text-teal-600" />
       },
@@ -41,7 +41,7 @@ export default function HomeFaqSection() {
         icon: <FaLeaf className="text-teal-600" />
       },
       {
-        question: "Are Spa Delhi therapists certified and experienced?",
+        question: "Are Luxury Russian Spa therapists certified and experienced?",
         answer: "All our therapists are trained and certified in their techniques. We have both Indian and foreign therapists from Thailand, Uzbekistan, Russia and Afghanistan to give you the best massage experience at our 5-star hotel outlets.",
         icon: <FaSpa className="text-teal-600" />
       },

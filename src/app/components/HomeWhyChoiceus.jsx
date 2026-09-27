@@ -13,7 +13,7 @@ const features3 = [
   {
     icon: Clock,
     title: "24/7 Support Available",
-    desc: "We are never off the mark, and our support team is available 24X7 to assist you with all your concerns and ease the booking process for you. At Spa Delhi, you can rest assured that you will get a complete range of full-body massage in Delhi",
+    desc: "We are never off the mark, and our support team is available 24X7 to assist you with all your concerns and ease the booking process for you. At Luxury Russian Spa, you can rest assured that you will get a complete range of full-body massage in Delhi",
   },
   {
     icon: CheckCircle2,
@@ -43,7 +43,7 @@ export default function HomeWhyChoiceus() {
           Why We Are <span className="text-secondary">The Best Massage </span> Centre in Delhi?
         </h2>
         <p className="text-white/75 text-lg md:text-xl leading-relaxed">
-          Spa Delhi is the best Massage centre in Delhi, bringing all visitors luxurious massage experiences at an affordable price. At Spa Delhi, we combine professionalism and indulgence to present the most reliable{" "}
+          Luxury Russian Spa is the best Massage centre in Delhi, bringing all visitors luxurious massage experiences at an affordable price. At Luxury Russian Spa, we combine professionalism and indulgence to present the most reliable{" "}
           <a href="/full-body-massage-in-delhi" className="text-secondary font-medium underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
             full-body massage in Delhi
           </a>

@@ -1,3 +1,4 @@
+import Logo from "./Logo";
 import { FaTelegramPlane, FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import { FiMail, FiMapPin, FiArrowUpRight } from "react-icons/fi";
 
@@ -65,9 +66,8 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">
           {/* Brand & Socials */}
           <div className="min-w-0">
-            <a href="/" className="inline-flex items-baseline gap-2 mb-5">
-              <span className="font-display text-4xl text-secondary">Spa</span>
-              <span className="font-title text-4xl font-bold text-white">Delhi</span>
+            <a href="/" aria-label="Luxury Russian Spa home" className="inline-block mb-5">
+              <Logo light />
             </a>
             <p className="mb-7 leading-relaxed">
               Luxury spa experiences for complete rejuvenation in the heart of Delhi.
@@ -153,7 +153,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-white/50 relative z-10">
-          <p>&copy; {new Date().getFullYear()} Spa Delhi. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Luxury Russian Spa. All rights reserved.</p>
           <p>
             Delhi <span className="text-secondary">•</span> Noida <span className="text-secondary">•</span> Gurgaon <span className="text-secondary">•</span> Ghaziabad
           </p>

@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Massage Service in Delhi", item: "https://www.spadelhi.com/massage-service-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Massage Service in Delhi", item: "https://www.luxuryrussianspa.com/massage-service-in-delhi" },
   ],
 };
 
 export const metadata = {
-  title: "Massage Service in Delhi - By Top Certified Therapists | Spa Delhi",
+  title: "Massage Service in Delhi - By Top Certified Therapists | Luxury Russian Spa",
   description: "Massage service in Delhi at the best spa centre with top certified therapists. Relaxing sessions across Delhi & NCR areas. Check availability and book now!",
   keywords: ["massage service in delhi", "spa and massage service delhi", "top massage therapists delhi", "massage centre in delhi"],
   openGraph: {
     title: "Best Spa & Massage Service in Delhi By Top Therapists",
     description: "Experience top-notch massage service in Delhi at the best spa centre in Delhi. Our top therapists are ready to give you relaxation in Delhi or NCR Areas. Check Out",
-    images: ["https://www.spadelhi.com/images/banner1.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/banner1.jpg"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/massage-service-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/massage-service-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/banner1.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/banner1.jpg"]
   }
 };
 

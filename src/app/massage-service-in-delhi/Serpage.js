@@ -251,7 +251,7 @@ const faqs = [
       icon: <FaSpa className="text-teal-600" />
     },
     {
-          question: "What Spa Treatments Available at Spa Delhi?",
+          question: "What Spa Treatments Available at Luxury Russian Spa?",
           answer: "We offer sandwich massage, couple massage, B2B massage, full-body massage, Thai massage, aromatherapy, nuru and hotel/home spa service in Delhi, plus therapist profiles, session durations and add-ons. Each service includes outlet availability and booking links for convenient scheduling.",
           icon: <FaHotTub className="text-teal-600" />
         },
@@ -333,7 +333,7 @@ const faqs = [
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-          Our massage service in Delhi gives you complete rest from the busy, stressful pace of the city. At Spa Delhi, every session feels like a small holiday with trained staff who use good-quality oils and a mix of traditional and modern techniques, so your body gets full rest and fresh energy for the week ahead.
+          Our massage service in Delhi gives you complete rest from the busy, stressful pace of the city. At Luxury Russian Spa, every session feels like a small holiday with trained staff who use good-quality oils and a mix of traditional and modern techniques, so your body gets full rest and fresh energy for the week ahead.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -561,7 +561,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-amber-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Home Spa</h3>
                 <p className="text-amber-700 mb-6 leading-relaxed">
-                  Want a massage at home in Delhi? We've got you covered. Spa Delhi offers home massage services with trusted, verified therapists who come to your home and deliver a professional massage experience.
+                  Want a massage at home in Delhi? We've got you covered. Luxury Russian Spa offers home massage services with trusted, verified therapists who come to your home and deliver a professional massage experience.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">75-120 min</span>
@@ -586,7 +586,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-amber-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Spa OutLet</h3>
                 <p className="text-amber-700 mb-6 leading-relaxed">
-                  Spa Delhi has 24+ spa outlets across Delhi NCR. Every outlet maintains full privacy and safety during your session, using authentic methods and techniques for your massage service in Delhi.
+                  Luxury Russian Spa has 24+ spa outlets across Delhi NCR. Every outlet maintains full privacy and safety during your session, using authentic methods and techniques for your massage service in Delhi.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">90-150 min</span>

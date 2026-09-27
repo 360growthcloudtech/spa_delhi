@@ -18,7 +18,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Sandwich Massage in Gurgaon - Two-Therapist Session | Spa Delhi",
+  title: "Sandwich Massage in Gurgaon - Two-Therapist Session | Luxury Russian Spa",
   description:
     "Sandwich massage in Gurgaon near Cyber Hub for a unique two-therapist relaxation session. Certified therapists, hygienic setting. Book from ₹2999 today!",
   keywords: [
@@ -32,19 +32,19 @@ export const metadata = {
     "two therapist massage gurgaon",
   ],
   openGraph: {
-    title: "Sandwich Massage in Gurgaon - Two-Therapist Session | Spa Delhi",
+    title: "Sandwich Massage in Gurgaon - Two-Therapist Session | Luxury Russian Spa",
     description:
       "Sandwich massage in Gurgaon near Cyber Hub for a unique two-therapist relaxation session. Certified therapists, hygienic setting. Book from ₹2999 today!",
-    images: ["https://www.spadelhi.com/images/Hyatt_Regency_Gurgaon.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/Hyatt_Regency_Gurgaon.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/sandwich-massage-in-gurgaon",
+    url: "https://www.luxuryrussianspa.com/sandwich-massage-in-gurgaon",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/sandwich-massage-in-gurgaon",
+    canonical: "https://www.luxuryrussianspa.com/sandwich-massage-in-gurgaon",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/Hyatt_Regency_Gurgaon.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/Hyatt_Regency_Gurgaon.jpg"],
   },
 };
 
@@ -52,8 +52,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Sandwich Massage in Gurgaon", item: "https://www.spadelhi.com/sandwich-massage-in-gurgaon" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Sandwich Massage in Gurgaon", item: "https://www.luxuryrussianspa.com/sandwich-massage-in-gurgaon" },
   ],
 };
 
@@ -64,9 +64,9 @@ const serviceSchema = {
   name: "Sandwich Massage in Gurgaon",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Gurgaon",
   description:

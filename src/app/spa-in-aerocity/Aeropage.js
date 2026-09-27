@@ -69,7 +69,7 @@ export default function Aeropage() {
     title: "Lemon Tree Premier Aerocity",
     image: "/images/LemonTreePremierAerocity.jpg",
     description:
-      "Lemon Tree Premier Aerocity combines style with relaxation, and Spa Delhi adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
+      "Lemon Tree Premier Aerocity combines style with relaxation, and Luxury Russian Spa adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
   },
   {
     title: "Novotel New Delhi Aerocity",
@@ -81,31 +81,31 @@ export default function Aeropage() {
     title: "Pride Plaza Hotel",
     image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
     description:
-      "Visit to Pride Plaza Hotel is even more comfortable with Spa Delhi. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
+      "Visit to Pride Plaza Hotel is even more comfortable with Luxury Russian Spa. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
   },
   {
     title: "IBIS New Delhi Aerocity",
     image: "/images/IBISNewDelhiAerocity.jpg",
     description:
-      "IBIS Aerocity is popular due to comfort and practicality, and Spa Delhi is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
+      "IBIS Aerocity is popular due to comfort and practicality, and Luxury Russian Spa is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
   },
   {
     title: "Pullman Aerocity",
     image: "/images/pullmanAerocity.jpg",
     description:
-      "Pullman Aerocity is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Spa Delhi ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
+      "Pullman Aerocity is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Luxury Russian Spa ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
   },
   {
     title: "Jaypee Vasant Aerocity",
     image: "/images/jaypeeVasantAerocity.png",
     description:
-      "At Jaypee Vasant Aerocity, Spa Delhi creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
+      "At Jaypee Vasant Aerocity, Luxury Russian Spa creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
   },
   {
     title: "The Ashok (Chanakyapuri)",
     image: "/images/TheAshok(Chanakyapuri).webp",
     description:
-      "The massage services at Spa Delhi are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
+      "The massage services at Luxury Russian Spa are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
   },
 ];
   const pricingPlans = [
@@ -270,7 +270,7 @@ const SERVICES_LEFT = [
     title: 'Unmatched Luxury and Ambiance',
     subtitle: 'International therapists for authentic treatments',
     desc:
-      "All of the Spa Delhi branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
+      "All of the Luxury Russian Spa branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
@@ -313,7 +313,7 @@ const SERVICES_RIGHT = [
     title: 'Accessible at Delhi’s Top Hotels',
     subtitle: 'Premium in-room & home journeys',
     desc:
-      "Spa Delhi is available in leading hotels in Aerocity, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
+      "Luxury Russian Spa is available in leading hotels in Aerocity, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
     chips: ['JW Marriott Aerocity', 'The Suryaa', 'The Park CP'],
     time: '3-6 hours',
     price: 'From ₹8,500',
@@ -375,11 +375,11 @@ const topSteps = [
             <h2 className="text-4xl md:text-5xl font-light text-gray-800">
               <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
             at Top Hotels in
-              <span className="block mt-2 font-medium">Aerocity – Spa Delhi <span className="text-rose-600">Tranquility</span></span>
+              <span className="block mt-2 font-medium">Aerocity – Luxury Russian Spa <span className="text-rose-600">Tranquility</span></span>
             </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Step into comfort and relaxation with Spa Delhi’s luxury Spa in Aerocity, offering treatments at the finest hotels in the Area. Whether you visit for work, stay on holiday, or seek soothing care during your trip, our expert therapists ensure you enjoy a calm and refreshing experience without ever leaving your hotel.
+            Step into comfort and relaxation with Luxury Russian Spa’s luxury Spa in Aerocity, offering treatments at the finest hotels in the Area. Whether you visit for work, stay on holiday, or seek soothing care during your trip, our expert therapists ensure you enjoy a calm and refreshing experience without ever leaving your hotel.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -516,7 +516,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                      Spa Delhi offers exclusive massage services at some of the most prestigious hotels in Aerocity. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
+                      Luxury Russian Spa offers exclusive massage services at some of the most prestigious hotels in Aerocity. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
                     </motion.p>
                     
                     <motion.div
@@ -611,12 +611,12 @@ const topSteps = [
                                 viewport={{ once: true }}
                               >
                                 Step Into Luxury <span className="relative">
-                                  <span className="text-amber-600 z-10 relative">Wellness at Aerocity with Spa Delhi</span>
+                                  <span className="text-amber-600 z-10 relative">Wellness at Aerocity with Luxury Russian Spa</span>
                                   <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                                 </span>
                               </motion.h2>
                   <p className="text-gray-700 text-lg">
-                    Spa Delhi makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. Make your reservations now and spend a night that is memorable.
+                    Luxury Russian Spa makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. Make your reservations now and spend a night that is memorable.
                   </p>
                   {/* <p className="text-gray-700 text-lg">
                     Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
@@ -666,7 +666,7 @@ const topSteps = [
           >
             Why Choose{" "}
             <span className="text-amber-500">
-              Spa Delhi for Spa Services in Delhi
+              Luxury Russian Spa for Spa Services in Delhi
             </span>
           </motion.h2>
 
@@ -677,7 +677,7 @@ const topSteps = [
             transition={{ delay: 0.3, duration: 0.5 }}
             viewport={{ once: true }}
           >
-            Spa Delhi blends luxury with trusted spa treatments. Enjoy premium
+            Luxury Russian Spa blends luxury with trusted spa treatments. Enjoy premium
             relaxation in high-quality hotels whether you are visiting Delhi for
             work, travel, or complete rejuvenation.
           </motion.p>
@@ -933,7 +933,7 @@ const topSteps = [
           <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Our Massage Services at Hotels in Aerocity</h1>
           <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-           Spa Delhi offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
+           Luxury Russian Spa offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
           </p>
         </motion.div>
 
@@ -1109,7 +1109,7 @@ const topSteps = [
           </motion.h2>
 
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-            Booking a Spa Delhi session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
+            Booking a Luxury Russian Spa session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
           </p>
         </header>
 

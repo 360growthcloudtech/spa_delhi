@@ -58,8 +58,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Faridabad near NIT?", answer: "Yes, Spa Delhi runs a genuine spa in Faridabad, close to NIT Faridabad and Sector 15, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Faridabad?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Faridabad for residents across NCR." },
+  { question: "Is there a good spa in Faridabad near NIT?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Faridabad, close to NIT Faridabad and Sector 15, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Faridabad?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Faridabad for residents across NCR." },
   { question: "Do you offer body massage Faridabad for both men and women?", answer: "Yes, our body massage Faridabad service welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Are there good Faridabad massage centres near Neelam Chowk?", answer: "Yes, our Faridabad massage centre is easy to reach from Neelam Chowk, Ballabhgarh, and NIT Faridabad, with home spa options across all of these areas." },
   { question: "Do you offer a Russian spa in Faridabad?", answer: "Yes, our russian spa in Faridabad packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff — widely regarded as the best body spa in Faridabad for guests wanting genuine variety in technique." },
@@ -86,7 +86,7 @@ export default function FaridabadPage() {
               Best Spa in <span className="text-amber-700">Faridabad</span> — Relax, Recharge &amp; Feel Brand New
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Faridabad? Spa Delhi is a trusted destination for body massage Faridabad residents rely on, delivering full body massage, deep tissue therapy, and B2B massage just minutes from NIT Faridabad and Sector 15. Every body spa Faridabad session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Faridabad? Luxury Russian Spa is a trusted destination for body massage Faridabad residents rely on, delivering full body massage, deep tissue therapy, and B2B massage just minutes from NIT Faridabad and Sector 15. Every body spa Faridabad session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -188,10 +188,10 @@ export default function FaridabadPage() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Faridabad — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Faridabad. If you're tired, stressed, or need a refreshing break, our Faridabad massage centre is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in Faridabad. If you're tired, stressed, or need a refreshing break, our Faridabad massage centre is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near NIT Faridabad and Sector 15. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near NIT Faridabad and Sector 15. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
             {[
@@ -227,13 +227,13 @@ export default function FaridabadPage() {
             </h3>
             <div className="mt-5 space-y-4 text-gray-700">
               <p>
-                At Spa Delhi in Faridabad, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, Noida, and Faridabad, our spa in Faridabad is known for professional body massage by certified therapists.
+                At Luxury Russian Spa in Faridabad, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, Noida, and Faridabad, our spa in Faridabad is known for professional body massage by certified therapists.
               </p>
               <p>
                 Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our Faridabad massage centres, we focus on hygiene, comfort, and customer care to give you the best experience every time.
               </p>
               <p>
-                If you want a trusted body spa Faridabad has to offer, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Faridabad ticks all boxes. That's why we're the first choice for the best spa in Faridabad and across NCR.
+                If you want a trusted body spa Faridabad has to offer, look for experienced therapists, transparent pricing, and complete cleanliness — and Luxury Russian Spa in Faridabad ticks all boxes. That's why we're the first choice for the best spa in Faridabad and across NCR.
               </p>
             </div>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -268,7 +268,7 @@ export default function FaridabadPage() {
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Faridabad for guests across NIT Faridabad, Sector 15, and Ballabhgarh — a real massage centre, not a generic neighbourhood parlour. Our body spa Faridabad service covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
+                Luxury Russian Spa is the best spa in Faridabad for guests across NIT Faridabad, Sector 15, and Ballabhgarh — a real massage centre, not a generic neighbourhood parlour. Our body spa Faridabad service covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
@@ -302,7 +302,7 @@ export default function FaridabadPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Faridabad?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Faridabad?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Faridabad outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -370,7 +370,7 @@ export default function FaridabadPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Faridabad`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Faridabad`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

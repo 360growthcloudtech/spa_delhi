@@ -58,8 +58,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Laxmi Nagar near the metro station?", answer: "Yes, Spa Delhi runs a genuine spa in Laxmi Nagar, close to Laxmi Nagar Metro Station and Vikas Marg, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi." },
-  { question: "What makes Spa Delhi the best spa in Laxmi Nagar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Laxmi Nagar for residents across East Delhi, from Shakarpur to Nirman Vihar." },
+  { question: "Is there a good spa in Laxmi Nagar near the metro station?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Laxmi Nagar, close to Laxmi Nagar Metro Station and Vikas Marg, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi." },
+  { question: "What makes Luxury Russian Spa the best spa in Laxmi Nagar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Laxmi Nagar for residents across East Delhi, from Shakarpur to Nirman Vihar." },
   { question: "Do you offer body massage in Laxmi Nagar for both men and women?", answer: "Yes, our body massage in Laxmi Nagar welcomes both men and women, with male and female therapist options available — just mention your preference when booking your session." },
   { question: "Is your spa listed as spa in Laxminagar or spa laxmi nagar Delhi on Google?", answer: "Yes, guests find us searching both spa in Laxminagar and spa laxmi nagar Delhi — either way, it's the same trusted outlet with certified therapists and transparent pricing near Vikas Marg." },
   { question: "How do I find a spa near Laxmi Nagar for a same-day session?", answer: "Search spa near Laxmi Nagar and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day appointment depending on therapist availability." },
@@ -86,7 +86,7 @@ export default function LaxmiNagarPage() {
               Best Spa in <span className="text-amber-700">Laxmi Nagar</span> Near Vikas Marg
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Laxmi Nagar? Spa Delhi is a trusted spa in Laxmi Nagar Delhi destination for full body massage, deep tissue therapy, and body spa in Laxmi Nagar sessions, just minutes from Laxmi Nagar Metro Station and Vikas Marg. Every massage in Laxmi Nagar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Laxmi Nagar? Luxury Russian Spa is a trusted spa in Laxmi Nagar Delhi destination for full body massage, deep tissue therapy, and body spa in Laxmi Nagar sessions, just minutes from Laxmi Nagar Metro Station and Vikas Marg. Every massage in Laxmi Nagar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <p className="mt-4 max-w-2xl leading-relaxed text-gray-600">
               Whether you work near the DDA Market, live around Shakarpur or Nirman Vihar, or are simply passing through East Delhi, our outlet and our home spa network mean the best spa in Laxmi Nagar experience is never far away.
@@ -191,10 +191,10 @@ export default function LaxmiNagarPage() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Laxmi Nagar — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Laxmi Nagar. If you're tired, stressed, or need a refreshing break, our spa in Laxmi Nagar Delhi outlet is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in Laxmi Nagar. If you're tired, stressed, or need a refreshing break, our spa in Laxmi Nagar Delhi outlet is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near Laxmi Nagar Metro Station and Vikas Marg. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near Laxmi Nagar Metro Station and Vikas Marg. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
             Guests travelling from Shakarpur, Nirman Vihar, and Preet Vihar regularly choose our spa laxmi nagar Delhi outlet because we keep every detail consistent — the same trained hands, the same quality oils, and the same honest pricing on every single visit.
@@ -233,13 +233,13 @@ export default function LaxmiNagarPage() {
             </h3>
             <div className="mt-5 space-y-4 text-gray-700">
               <p>
-                At Spa Delhi in Laxmi Nagar, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Laxminagar is known for professional body massage delivered by certified therapists.
+                At Luxury Russian Spa in Laxmi Nagar, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Laxminagar is known for professional body massage delivered by certified therapists.
               </p>
               <p>
                 Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our outlet, we focus on hygiene, comfort, and customer care to give you the best experience every time you walk in.
               </p>
               <p>
-                If you want a trusted body massage spa laxmi nagar experience, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Laxmi Nagar ticks all boxes. That's why we're the first choice for the best spa in Laxmi Nagar and across East Delhi.
+                If you want a trusted body massage spa laxmi nagar experience, look for experienced therapists, transparent pricing, and complete cleanliness — and Luxury Russian Spa in Laxmi Nagar ticks all boxes. That's why we're the first choice for the best spa in Laxmi Nagar and across East Delhi.
               </p>
             </div>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -274,7 +274,7 @@ export default function LaxmiNagarPage() {
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Laxmi Nagar for guests across Vikas Marg, Shakarpur, and Nirman Vihar — a real spa in Laxmi Nagar Delhi outlet, not a generic neighbourhood parlour. Our body massage spa in Laxmi Nagar Delhi covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
+                Luxury Russian Spa is the best spa in Laxmi Nagar for guests across Vikas Marg, Shakarpur, and Nirman Vihar — a real spa in Laxmi Nagar Delhi outlet, not a generic neighbourhood parlour. Our body massage spa in Laxmi Nagar Delhi covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
@@ -308,7 +308,7 @@ export default function LaxmiNagarPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Laxmi Nagar?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Laxmi Nagar?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Laxmi Nagar outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -376,7 +376,7 @@ export default function LaxmiNagarPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Laxmi Nagar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Laxmi Nagar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

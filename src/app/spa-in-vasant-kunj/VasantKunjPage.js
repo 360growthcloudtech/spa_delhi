@@ -227,7 +227,7 @@ export default function VasantKunjPage() {
               Best Spa in <span className="text-amber-700">Vasant Kunj</span> for Full Body & Couple Massage
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a trusted spa in Vasant Kunj? Spa Delhi brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Vasant Kunj Sector B, Sector C and Sector D, just minutes from Ambience Mall. Every session is performed by certified therapists in a clean, private, and relaxing setting.
+              Looking for a trusted spa in Vasant Kunj? Luxury Russian Spa brings professional full body massage, deep tissue therapy, aromatherapy, and couple spa services to Vasant Kunj Sector B, Sector C and Sector D, just minutes from Ambience Mall. Every session is performed by certified therapists in a clean, private, and relaxing setting.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -290,7 +290,7 @@ export default function VasantKunjPage() {
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-gray-700">
             <p>
-              If you have been searching for a genuine spa in Vasant Kunj, Spa Delhi is here to help you relax, recharge, and relieve everyday stress. We offer a complete range of massage services in Vasant Kunj, including{" "}
+              If you have been searching for a genuine spa in Vasant Kunj, Luxury Russian Spa is here to help you relax, recharge, and relieve everyday stress. We offer a complete range of massage services in Vasant Kunj, including{" "}
               <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>,{" "}
               <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>,{" "}
               <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>,{" "}
@@ -305,10 +305,10 @@ export default function VasantKunjPage() {
               Every therapist at our massage centre in Vasant Kunj is trained and experienced. Our Russian spa in Vasant Kunj packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, so you can choose the style and pace that suits you best. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Vasant Kunj for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
             </p>
             <p>
-              Booking a spa in Vasant Kunj with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a female to male couple massage in Vasant Kunj, Spa Delhi makes it easy to prioritise your wellness close to home.
+              Booking a spa in Vasant Kunj with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a female to male couple massage in Vasant Kunj, Luxury Russian Spa makes it easy to prioritise your wellness close to home.
             </p>
             <p>
-              Many of our regular guests first search for a spa near me in Vasant Kunj before discovering that Spa Delhi offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session — you can read our guide on{" "}
+              Many of our regular guests first search for a spa near me in Vasant Kunj before discovering that Luxury Russian Spa offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session — you can read our guide on{" "}
               <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">whether body to body massage is legal in India</Link> if you have questions before booking. If you are recovering from a long work week, travelling frequently, or simply want a regular self-care routine, our Vasant Kunj team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.
             </p>
           </div>
@@ -340,7 +340,7 @@ export default function VasantKunjPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
             <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Conveniently located near these Vasant Kunj neighbourhoods.</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-              Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Spa Delhi outlets in Delhi NCR</Link>.
+              Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Luxury Russian Spa outlets in Delhi NCR</Link>.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
@@ -424,15 +424,15 @@ export default function VasantKunjPage() {
       {/* Why choose us — additional SEO block */}
       <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
         <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Luxury Russian Spa</p>
           <h2 className="mt-3 text-2xl font-bold text-[#113435] md:text-3xl">The best spa in Vasant Kunj for trusted, professional care.</h2>
           <p className="mt-4 leading-relaxed text-gray-700">
             With more than a decade of experience and{" "}
-            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>, Spa Delhi has become a name that guests in Vasant Kunj and South Delhi trust for genuine, professional massage services. When you search for a massage centre in Vasant Kunj or a body massage near me, you want assurance of safety, hygiene, and skilled hands — and that is exactly what we deliver at every session. Our therapists undergo regular training, our treatment rooms are cleaned and sanitised between every guest, and our pricing stays transparent from the moment you enquire to the moment you book.
+            <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>, Luxury Russian Spa has become a name that guests in Vasant Kunj and South Delhi trust for genuine, professional massage services. When you search for a massage centre in Vasant Kunj or a body massage near me, you want assurance of safety, hygiene, and skilled hands — and that is exactly what we deliver at every session. Our therapists undergo regular training, our treatment rooms are cleaned and sanitised between every guest, and our pricing stays transparent from the moment you enquire to the moment you book.
           </p>
           <p className="mt-4 leading-relaxed text-gray-700">
             Beyond our Vasant Kunj outlet, we also serve nearby areas including Vasant Vihar, Chhatarpur, and Munirka with the same quality of home spa and hotel spa service. Whether you need a spa near Ambience Mall for a quick visit after shopping, or a longer, more indulgent wellness package on the weekend near our{" "}
-            <Link href="/spa-in-mahipalpur" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Mahipalpur</Link> or other Delhi NCR outlets, Spa Delhi is ready to help you feel your best.
+            <Link href="/spa-in-mahipalpur" className="font-medium text-amber-700 underline hover:text-amber-800">spa in Mahipalpur</Link> or other Delhi NCR outlets, Luxury Russian Spa is ready to help you feel your best.
           </p>
         </div>
       </section>

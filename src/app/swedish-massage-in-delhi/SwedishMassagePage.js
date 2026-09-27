@@ -198,7 +198,7 @@ export default function SwedishMassagePage() {
       title: '24+ Outlets Across Delhi NCR',
       subtitle: 'A Swedish massage spa near you, wherever you are',
       desc:
-        "From Karol Bagh to Aerocity and Connaught Place, find a Spa Delhi outlet close to you for a relaxing Swedish massage session.",
+        "From Karol Bagh to Aerocity and Connaught Place, find a Luxury Russian Spa outlet close to you for a relaxing Swedish massage session.",
       chips: ['Central Delhi', 'Easy Metro Access', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
@@ -231,7 +231,7 @@ export default function SwedishMassagePage() {
     {
       icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
       title: 'Call or Connect via Telegram',
-      text: 'Call or send a message on Telegram to the Spa Delhi team to have your time fixed.',
+      text: 'Call or send a message on Telegram to the Luxury Russian Spa team to have your time fixed.',
     },
   ]
 
@@ -274,10 +274,10 @@ export default function SwedishMassagePage() {
               </div>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a gentle, full body massage that melts away stress without intense pressure? At Spa Delhi, our Swedish massage uses long, smooth strokes to relax your muscles, calm your mind, and improve circulation from head to toe.
+                Looking for a gentle, full body massage that melts away stress without intense pressure? At Luxury Russian Spa, our Swedish massage uses long, smooth strokes to relax your muscles, calm your mind, and improve circulation from head to toe.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Searching for a Swedish massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Spa Delhi makes it easy to book a relaxing session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
+                Searching for a Swedish massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Luxury Russian Spa makes it easy to book a relaxing session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -452,7 +452,7 @@ export default function SwedishMassagePage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for the best Swedish massage in Delhi? Welcome to Spa Delhi, where our therapists use long, gliding strokes and gentle kneading to help you fully relax — not just a quick rubdown, but a genuine full body relaxation experience.
+                    Looking for the best Swedish massage in Delhi? Welcome to Luxury Russian Spa, where our therapists use long, gliding strokes and gentle kneading to help you fully relax — not just a quick rubdown, but a genuine full body relaxation experience.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
@@ -782,7 +782,7 @@ export default function SwedishMassagePage() {
               <h2 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Swedish Massage in Delhi for Complete Relaxation</h2>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From trained therapists to hygienic outlets and 24/7 booking support, Spa Delhi blends genuine relaxation with comfort and personal care.
+                From trained therapists to hygienic outlets and 24/7 booking support, Luxury Russian Spa blends genuine relaxation with comfort and personal care.
               </p>
             </motion.div>
 
@@ -897,7 +897,7 @@ export default function SwedishMassagePage() {
                     <div>
                       <h4 className="text-2xl font-bold">Book Your Swedish Massage Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether at our outlet, your hotel, or your home, Spa Delhi's therapists bring genuine, gentle relaxation to you. For anyone tired of daily stress, just call and let our team guide you toward complete calm.
+                        Whether at our outlet, your hotel, or your home, Luxury Russian Spa's therapists bring genuine, gentle relaxation to you. For anyone tired of daily stress, just call and let our team guide you toward complete calm.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -952,7 +952,7 @@ export default function SwedishMassagePage() {
               </motion.h2>
 
               <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                The process of beginning to relax with Spa Delhi is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
+                The process of beginning to relax with Luxury Russian Spa is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
               </p>
             </header>
 

@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Swedish Massage in Delhi - Gentle Full Body Relaxation | Spa Delhi",
+  title: "Swedish Massage in Delhi - Gentle Full Body Relaxation | Luxury Russian Spa",
   description:
     "Swedish massage in Delhi for deep relaxation, better circulation & stress relief. Certified therapists, private hygienic rooms. Book from ₹1999 today!",
   keywords: [
@@ -89,19 +89,19 @@ export const metadata = {
     "swedish massage vs deep tissue massage",
   ],
   openGraph: {
-    title: "Swedish Massage in Delhi - Gentle Full Body Relaxation | Spa Delhi",
+    title: "Swedish Massage in Delhi - Gentle Full Body Relaxation | Luxury Russian Spa",
     description:
       "Swedish massage in Delhi for deep relaxation, better circulation & stress relief. Certified therapists, private hygienic rooms. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/female-therapist-rehabilitation-center-giving-back-massage.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/female-therapist-rehabilitation-center-giving-back-massage.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/swedish-massage-in-delhi",
+    url: "https://www.luxuryrussianspa.com/swedish-massage-in-delhi",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/swedish-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/swedish-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/female-therapist-rehabilitation-center-giving-back-massage.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/female-therapist-rehabilitation-center-giving-back-massage.jpg"],
   },
 };
 
@@ -109,8 +109,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Swedish Massage in Delhi", item: "https://www.spadelhi.com/swedish-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Swedish Massage in Delhi", item: "https://www.luxuryrussianspa.com/swedish-massage-in-delhi" },
   ],
 };
 
@@ -121,9 +121,9 @@ const serviceSchema = {
   name: "Swedish Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:

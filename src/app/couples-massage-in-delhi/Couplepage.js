@@ -107,7 +107,7 @@ const container = {
         },
         {
           question: "Is Couple Massage in Karol Bagh offered in a private room?",
-          answer: "Yes, Spa Delhi offers exquisitely designed individual couple massage rooms to ensure relaxation, privacy, and a level of tranquility.",
+          answer: "Yes, Luxury Russian Spa offers exquisitely designed individual couple massage rooms to ensure relaxation, privacy, and a level of tranquility.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
@@ -121,8 +121,8 @@ const container = {
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "Why is Spa Delhi considered the top couple massage centre in Delhi?",
-          answer: "Experienced therapists, a genuinely private ambience, quality aromatic oils, and honestly priced packages — that combination is why Spa Delhi is a regular first choice for couples across the city.",
+          question: "Why is Luxury Russian Spa considered the top couple massage centre in Delhi?",
+          answer: "Experienced therapists, a genuinely private ambience, quality aromatic oils, and honestly priced packages — that combination is why Luxury Russian Spa is a regular first choice for couples across the city.",
           icon: <FaHandSparkles className="text-teal-600" />
         },
         {
@@ -836,7 +836,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  What Makes Us <span className="text-amber-600">the Best Couple Spa in Delhi</span>
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                 Spa Delhi is recognised as the best couple spa in Delhi NCR for a simple reason — skilled therapists, quality oils, and a genuinely private, luxurious space for every session.
+                                                 Luxury Russian Spa is recognised as the best couple spa in Delhi NCR for a simple reason — skilled therapists, quality oils, and a genuinely private, luxurious space for every session.
                                                </p>
                                              </motion.div>
                                            </div>
@@ -921,7 +921,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      <div>
                                                        <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Experienced and Professional Therapists</h3>
                                                        <p className="text-amber-700">
-                                                         At Spa Delhi, our team of experienced and professional massage therapists is highly trained to provide personalized treatments, ensuring optimum comfort and relaxation.
+                                                         At Luxury Russian Spa, our team of experienced and professional massage therapists is highly trained to provide personalized treatments, ensuring optimum comfort and relaxation.
                                                        </p>
                                                      </div>
                                                    </div>

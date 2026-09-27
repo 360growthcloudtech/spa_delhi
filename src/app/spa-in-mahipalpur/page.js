@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Mahipalpur near IGI Airport?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Mahipalpur, right in the NH8 hotel belt just minutes from IGI Airport Terminal 3, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Mahipalpur, right in the NH8 hotel belt just minutes from IGI Airport Terminal 3, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Mahipalpur?",
+      name: "What makes Luxury Russian Spa the best spa in Mahipalpur?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Mahipalpur for both residents and airport travellers.",
@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Mahipalpur - Massage Near IGI Airport | Spa Delhi",
+  title: "Best Spa in Mahipalpur - Massage Near IGI Airport | Luxury Russian Spa",
   description:
     "Best spa in Mahipalpur for massage, body massage & russian spa near IGI Airport. Certified therapists, hygienic private rooms, hotel & home spa. Book from ₹1999!",
   keywords: [
@@ -99,19 +99,19 @@ export const metadata = {
     "spa near delhi airport",
   ],
   openGraph: {
-    title: "Best Spa in Mahipalpur - Massage Near IGI Airport | Spa Delhi",
+    title: "Best Spa in Mahipalpur - Massage Near IGI Airport | Luxury Russian Spa",
     description:
       "Best spa in Mahipalpur for massage, body massage & russian spa near IGI Airport. Certified therapists, hygienic private rooms, hotel & home spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-mahipalpur",
+    url: "https://www.luxuryrussianspa.com/spa-in-mahipalpur",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-mahipalpur",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-mahipalpur",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
   },
 };
 
@@ -119,8 +119,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Mahipalpur", item: "https://www.spadelhi.com/spa-in-mahipalpur" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Mahipalpur", item: "https://www.luxuryrussianspa.com/spa-in-mahipalpur" },
   ],
 };
 

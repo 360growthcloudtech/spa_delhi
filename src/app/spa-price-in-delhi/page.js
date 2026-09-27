@@ -6,8 +6,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa Price in Delhi", item: "https://www.spadelhi.com/spa-price-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa Price in Delhi", item: "https://www.luxuryrussianspa.com/spa-price-in-delhi" },
   ],
 };
 
@@ -67,7 +67,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Spa Price in Delhi - Full Body Massage From ₹1999 | Spa Delhi",
+  title: "Spa Price in Delhi - Full Body Massage From ₹1999 | Luxury Russian Spa",
   description: "Spa price in Delhi starting from just ₹1999 at our top 5-star outlets across Delhi NCR. Transparent pricing, certified therapists. Check rates and book now!",
   keywords: [
     "spa price in delhi",
@@ -81,17 +81,17 @@ export const metadata = {
     "spa price in noida",
   ],
   openGraph: {
-    title: "Spa Price in Delhi - Full Body Massage From ₹1999 | Spa Delhi",
+    title: "Spa Price in Delhi - Full Body Massage From ₹1999 | Luxury Russian Spa",
     description: "Clear, honest spa pricing in Delhi starting from ₹1999. Certified therapists, 5-star outlets across Delhi, Noida & Gurgaon. Check rates and book now!",
-    images: ["https://www.spadelhi.com/images/PricingBanner.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/PricingBanner.jpg"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/spa-price-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/spa-price-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/PricingBanner.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/PricingBanner.jpg"]
   }
 };
 

@@ -198,7 +198,7 @@ export default function AromatherapyMassagePage() {
       title: '24+ Outlets Across Delhi NCR',
       subtitle: 'An aromatherapy massage spa near you, wherever you are',
       desc:
-        "From Karol Bagh to Aerocity and Connaught Place, find a Spa Delhi outlet close to you for a calming aromatherapy massage session.",
+        "From Karol Bagh to Aerocity and Connaught Place, find a Luxury Russian Spa outlet close to you for a calming aromatherapy massage session.",
       chips: ['Central Delhi', 'Easy Metro Access', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
@@ -231,7 +231,7 @@ export default function AromatherapyMassagePage() {
     {
       icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
       title: 'Call or Connect via Telegram',
-      text: 'Call or send a message on Telegram to the Spa Delhi team to have your time fixed.',
+      text: 'Call or send a message on Telegram to the Luxury Russian Spa team to have your time fixed.',
     },
   ]
 
@@ -274,10 +274,10 @@ export default function AromatherapyMassagePage() {
               </div>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a massage that soothes your senses as much as your muscles? At Spa Delhi, our aromatherapy massage blends gentle Swedish-style strokes with pure essential oils like lavender, eucalyptus, and chamomile for a truly calming experience.
+                Looking for a massage that soothes your senses as much as your muscles? At Luxury Russian Spa, our aromatherapy massage blends gentle Swedish-style strokes with pure essential oils like lavender, eucalyptus, and chamomile for a truly calming experience.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Searching for an aromatherapy massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Spa Delhi makes it easy to book a relaxing session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
+                Searching for an aromatherapy massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Luxury Russian Spa makes it easy to book a relaxing session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -450,7 +450,7 @@ export default function AromatherapyMassagePage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for the best aromatherapy massage in Delhi? Welcome to Spa Delhi, where our therapists pair gentle, flowing massage strokes with pure essential oils to create a genuinely calming, sensory experience — not just a standard rubdown.
+                    Looking for the best aromatherapy massage in Delhi? Welcome to Luxury Russian Spa, where our therapists pair gentle, flowing massage strokes with pure essential oils to create a genuinely calming, sensory experience — not just a standard rubdown.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
@@ -779,7 +779,7 @@ export default function AromatherapyMassagePage() {
               <h2 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Aromatherapy Massage in Delhi for Deep Relaxation</h2>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From trained therapists to hygienic outlets and 24/7 booking support, Spa Delhi blends soothing essential oils with genuine care.
+                From trained therapists to hygienic outlets and 24/7 booking support, Luxury Russian Spa blends soothing essential oils with genuine care.
               </p>
             </motion.div>
 
@@ -894,7 +894,7 @@ export default function AromatherapyMassagePage() {
                     <div>
                       <h4 className="text-2xl font-bold">Book Your Aromatherapy Massage Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether at our outlet, your hotel, or your home, Spa Delhi's therapists bring calming, scent-guided relaxation to you. For anyone tired of everyday stress, just call and let our team guide you toward complete calm.
+                        Whether at our outlet, your hotel, or your home, Luxury Russian Spa's therapists bring calming, scent-guided relaxation to you. For anyone tired of everyday stress, just call and let our team guide you toward complete calm.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -949,7 +949,7 @@ export default function AromatherapyMassagePage() {
               </motion.h2>
 
               <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                The process of beginning to relax with Spa Delhi is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
+                The process of beginning to relax with Luxury Russian Spa is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
               </p>
             </header>
 

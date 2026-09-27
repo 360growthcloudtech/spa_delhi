@@ -227,7 +227,7 @@ export default function Spainkalkaji() {
               Best Spa in <span className="text-amber-700">Kalkaji</span> Near Kalkaji Temple & Nehru Place
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Kalkaji that actually knows what it's doing? Spa Delhi brings full body massage, deep tissue therapy, aromatherapy, and couple spa to Kalkaji, just minutes from Kalkaji Temple, Kalkaji Metro Station, and the Nehru Place business district. Every session is handled by a certified therapist in a clean, private room.
+              Looking for a spa in Kalkaji that actually knows what it's doing? Luxury Russian Spa brings full body massage, deep tissue therapy, aromatherapy, and couple spa to Kalkaji, just minutes from Kalkaji Temple, Kalkaji Metro Station, and the Nehru Place business district. Every session is handled by a certified therapist in a clean, private room.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -290,7 +290,7 @@ export default function Spainkalkaji() {
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-gray-700">
             <p>
-              Kalkaji is one of those South Delhi neighbourhoods that's always on the move — a busy temple, a packed metro station, and Nehru Place's endless stream of office-goers, all within walking distance of each other. In the middle of that, Spa Delhi runs a proper massage centre offering{" "}
+              Kalkaji is one of those South Delhi neighbourhoods that's always on the move — a busy temple, a packed metro station, and Nehru Place's endless stream of office-goers, all within walking distance of each other. In the middle of that, Luxury Russian Spa runs a proper massage centre offering{" "}
               <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>,{" "}
               <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>,{" "}
               <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>,{" "}
@@ -340,7 +340,7 @@ export default function Spainkalkaji() {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
             <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Conveniently located near these Kalkaji neighbourhoods.</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-              Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Spa Delhi outlets in Delhi NCR</Link>.
+              Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Luxury Russian Spa outlets in Delhi NCR</Link>.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
@@ -424,7 +424,7 @@ export default function Spainkalkaji() {
       {/* Why choose us — additional SEO block */}
       <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
         <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Luxury Russian Spa</p>
           <h2 className="mt-3 text-2xl font-bold text-[#113435] md:text-3xl">The best spa in Kalkaji for trusted, professional care.</h2>
           <p className="mt-4 leading-relaxed text-gray-700">
             More than a decade in, and we now run{" "}

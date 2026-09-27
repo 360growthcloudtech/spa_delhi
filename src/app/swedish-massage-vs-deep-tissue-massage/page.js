@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Swedish Massage vs Deep Tissue Massage", item: "https://www.spadelhi.com/swedish-massage-vs-deep-tissue-massage" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Swedish Massage vs Deep Tissue Massage", item: "https://www.luxuryrussianspa.com/swedish-massage-vs-deep-tissue-massage" },
   ],
 };
 
 export const metadata = {
-  title: "Swedish vs Deep Tissue Massage - Which Is Right for You | Spa Delhi",
-  description: "Swedish massage vs deep tissue massage compared - key differences & benefits explained for Delhi readers. Trusted guidance from Spa Delhi's therapists. Read now!",
+  title: "Swedish vs Deep Tissue Massage - Which Is Right for You | Luxury Russian Spa",
+  description: "Swedish massage vs deep tissue massage compared - key differences & benefits explained for Delhi readers. Trusted guidance from Luxury Russian Spa's therapists. Read now!",
   keywords: ["swedish massage vs deep tissue massage", "swedish massage delhi", "difference between swedish and deep tissue massage"],
   openGraph: {
     title: "Swedish Massage vs Deep Tissue Massage | Which One is Right for You",
-    description: "Confused between Swedish massage and deep tissue massage? Learn the key differences, benefits, and which therapy suits your needs best at Spa Delhi.",
-    images: ["https://www.spadelhi.com/images/SpecializedTreatments.jpg"],
+    description: "Confused between Swedish massage and deep tissue massage? Learn the key differences, benefits, and which therapy suits your needs best at Luxury Russian Spa.",
+    images: ["https://www.luxuryrussianspa.com/images/SpecializedTreatments.jpg"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/swedish-massage-vs-deep-tissue-massage",
+    canonical: "https://www.luxuryrussianspa.com/swedish-massage-vs-deep-tissue-massage",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/SpecializedTreatments.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/SpecializedTreatments.jpg"]
   }
 };
 

@@ -5,24 +5,24 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Spa vs Massage - What's the Real Difference? | Spa Delhi",
+    "Spa vs Massage - What's the Real Difference? | Luxury Russian Spa",
   description:
-    "Difference between spa and massage explained simply - services, benefits & how to choose. Trusted advice from Spa Delhi's wellness experts. Read the guide now!",
+    "Difference between spa and massage explained simply - services, benefits & how to choose. Trusted advice from Luxury Russian Spa's wellness experts. Read the guide now!",
   keywords: ["difference between spa and massage", "spa vs massage", "spa massage guide"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/what-is-the-difference-between-spa-and-massage",
+      "https://www.luxuryrussianspa.com/blog/what-is-the-difference-between-spa-and-massage",
   },
   openGraph: {
     title: "What Is the Difference Between Spa and Massage? A Simple Guide",
     description:
       "Learn the difference between a spa and a massage. Understand what each offers, their benefits, and how to choose the right wellness option.",
-    images: ["https://www.spadelhi.com/images/spaservices1.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spaservices1.jpg"],
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/spaservices1.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spaservices1.jpg"],
   },
 };
 
@@ -30,9 +30,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
-    { "@type": "ListItem", position: 3, name: "What Is the Difference Between Spa and Massage", item: "https://www.spadelhi.com/blog/what-is-the-difference-between-spa-and-massage" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
+    { "@type": "ListItem", position: 3, name: "What Is the Difference Between Spa and Massage", item: "https://www.luxuryrussianspa.com/blog/what-is-the-difference-between-spa-and-massage" },
   ],
 };
 
@@ -132,7 +132,7 @@ export default function SpaVsMassageBlogPage() {
                 What Is the Difference Between Spa and Massage? A Simple Guide to Understanding Both
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-                <span>By Spa Delhi Team</span>
+                <span>By Luxury Russian Spa Team</span>
                 <span>•</span>
                 <span>Updated August 25, 2026</span>
                 <span>•</span>

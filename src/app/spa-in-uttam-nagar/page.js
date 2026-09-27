@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Uttam Nagar near the metro?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Uttam Nagar, close to both Uttam Nagar East and West Metro Stations on the Blue Line, offering full body, Thai, and deep tissue massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Uttam Nagar, close to both Uttam Nagar East and West Metro Stations on the Blue Line, offering full body, Thai, and deep tissue massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Uttam Nagar?",
+      name: "What makes Luxury Russian Spa the best spa in Uttam Nagar?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Uttam Nagar for residents across West Delhi.",
@@ -40,7 +40,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What is the Spa Delhi Uttam Nagar spa contact number?",
+      name: "What is the Luxury Russian Spa Uttam Nagar spa contact number?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 92172 55113, available 24/7 to help you book outlet, home, or hotel spa sessions.",
@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Uttam Nagar - Body Massage & Thai Spa | Spa Delhi",
+  title: "Best Spa in Uttam Nagar - Body Massage & Thai Spa | Luxury Russian Spa",
   description:
     "Best spa in Uttam Nagar for body massage, body spa & Thai massage near the metro. Certified therapists, hygienic private rooms, home service. Book from ₹1999!",
   keywords: [
@@ -99,19 +99,19 @@ export const metadata = {
     "night spa in uttam nagar",
   ],
   openGraph: {
-    title: "Best Spa in Uttam Nagar - Body Massage & Thai Spa | Spa Delhi",
+    title: "Best Spa in Uttam Nagar - Body Massage & Thai Spa | Luxury Russian Spa",
     description:
       "Best spa in Uttam Nagar for body massage, body spa & Thai massage near the metro. Certified therapists, hygienic private rooms, home service. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-uttam-nagar",
+    url: "https://www.luxuryrussianspa.com/spa-in-uttam-nagar",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-uttam-nagar",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-uttam-nagar",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982563_side-view-woman-getting-massaged-spa_23-2149871287.jpg"],
   },
 };
 
@@ -119,8 +119,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Uttam Nagar", item: "https://www.spadelhi.com/spa-in-uttam-nagar" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Uttam Nagar", item: "https://www.luxuryrussianspa.com/spa-in-uttam-nagar" },
   ],
 };
 

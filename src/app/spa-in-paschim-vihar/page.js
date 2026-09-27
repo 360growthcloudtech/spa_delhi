@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Paschim Vihar near the metro?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Paschim Vihar, close to Paschim Vihar East and West Metro Stations on the Blue Line, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Paschim Vihar, close to Paschim Vihar East and West Metro Stations on the Blue Line, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Paschim Vihar?",
+      name: "What makes Luxury Russian Spa the best spa in Paschim Vihar?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Paschim Vihar for residents across West Delhi.",
@@ -77,13 +77,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Paschim Vihar", item: "https://www.spadelhi.com/spa-in-paschim-vihar" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Paschim Vihar", item: "https://www.luxuryrussianspa.com/spa-in-paschim-vihar" },
   ],
 };
 
 export const metadata = {
-  title: "Best Spa in Paschim Vihar - Full Body Massage | Spa Delhi",
+  title: "Best Spa in Paschim Vihar - Full Body Massage | Luxury Russian Spa",
   description:
     "Best spa in Paschim Vihar for full body & body massage near the metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -104,19 +104,19 @@ export const metadata = {
     "spa near rani bagh",
   ],
   openGraph: {
-    title: "Best Spa in Paschim Vihar - Full Body Massage | Spa Delhi",
+    title: "Best Spa in Paschim Vihar - Full Body Massage | Luxury Russian Spa",
     description:
       "Best spa in Paschim Vihar for full body & body massage near the metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-paschim-vihar",
+    url: "https://www.luxuryrussianspa.com/spa-in-paschim-vihar",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-paschim-vihar",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-paschim-vihar",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982753_woman-getting-back-massage-from-female-masseur_23-2150461424.jpg"],
   },
 };
 

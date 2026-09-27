@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Faridabad near NIT?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Faridabad, close to NIT Faridabad and Sector 15, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Faridabad, close to NIT Faridabad and Sector 15, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Faridabad?",
+      name: "What makes Luxury Russian Spa the best spa in Faridabad?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Faridabad for residents across NCR.",
@@ -77,13 +77,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Faridabad", item: "https://www.spadelhi.com/spa-in-faridabad" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Faridabad", item: "https://www.luxuryrussianspa.com/spa-in-faridabad" },
   ],
 };
 
 export const metadata = {
-  title: "Best Spa in Faridabad - Body Massage Near NIT | Spa Delhi",
+  title: "Best Spa in Faridabad - Body Massage Near NIT | Luxury Russian Spa",
   description:
     "Best spa in Faridabad for body massage & body spa near NIT. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -106,19 +106,19 @@ export const metadata = {
     "spa near neelam chowk faridabad",
   ],
   openGraph: {
-    title: "Best Spa in Faridabad - Body Massage Near NIT | Spa Delhi",
+    title: "Best Spa in Faridabad - Body Massage Near NIT | Luxury Russian Spa",
     description:
       "Best spa in Faridabad for body massage & body spa near NIT. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-faridabad",
+    url: "https://www.luxuryrussianspa.com/spa-in-faridabad",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-faridabad",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-faridabad",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
   },
 };
 

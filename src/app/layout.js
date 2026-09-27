@@ -28,7 +28,7 @@ const kaushan = Kaushan_Script({
 
 
 export const metadata = {
-  metadataBase: new URL("https://www.spadelhi.com"),
+  metadataBase: new URL("https://www.luxuryrussianspa.com"),
   verification: {
     google: "O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE",
   },

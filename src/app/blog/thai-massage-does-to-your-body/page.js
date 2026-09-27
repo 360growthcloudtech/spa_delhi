@@ -4,22 +4,22 @@ import WhatsappFloat from "../../components/WhatsappFloat";
 import { Breadcrumbs, InfoBox, BenefitCard, FaqAccordion } from "../../components/BlogComponents";
 
 export const metadata = {
-  title: "What Thai Massage Does to Your Body - Benefits | Spa Delhi",
-  description: "Thai massage benefits for your body explained - stress relief, flexibility & pain relief. Backed by Spa Delhi's certified therapists. Read the full guide now!",
+  title: "What Thai Massage Does to Your Body - Benefits | Luxury Russian Spa",
+  description: "Thai massage benefits for your body explained - stress relief, flexibility & pain relief. Backed by Luxury Russian Spa's certified therapists. Read the full guide now!",
   keywords: ["thai massage benefits", "what does thai massage do", "thai massage stress relief"],
   alternates: {
-    canonical: "https://www.spadelhi.com/blog/thai-massage-does-to-your-body",
+    canonical: "https://www.luxuryrussianspa.com/blog/thai-massage-does-to-your-body",
   },
   openGraph: {
     title: "What Does Thai Massage Do to Your Body?",
     description:
       "Learn how Thai massage helps reduce stress, improve flexibility, relieve muscle pain, and support better circulation.",
-    images: ["https://www.spadelhi.com/images/steptodown.com870307.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/steptodown.com870307.webp"],
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/steptodown.com870307.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/steptodown.com870307.webp"],
   },
 };
 
@@ -27,9 +27,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
-    { "@type": "ListItem", position: 3, name: "What Does Thai Massage Do to Your Body", item: "https://www.spadelhi.com/blog/thai-massage-does-to-your-body" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
+    { "@type": "ListItem", position: 3, name: "What Does Thai Massage Do to Your Body", item: "https://www.luxuryrussianspa.com/blog/thai-massage-does-to-your-body" },
   ],
 };
 
@@ -105,7 +105,7 @@ export default function ThaiMassageBlogPage() {
                 What Does Thai Massage Do to Your Body?
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-                <span>By Spa Delhi Team</span>
+                <span>By Luxury Russian Spa Team</span>
                 <span>•</span>
                 <span>Updated July 20, 2026</span>
                 <span>•</span>
@@ -459,7 +459,7 @@ export default function ThaiMassageBlogPage() {
                     If you are looking for a relaxing and professional Thai massage experience in Delhi, choose a spa that has trained therapists, maintains high hygiene standards, and focuses on customer comfort.
                   </p>
                   <p className="text-lg leading-8 text-gray-700">
-                    Spa Delhi offers a dedicated <a href="/thai-massage-in-delhi" className="font-semibold text-amber-700 underline hover:text-amber-800">Thai massage in Delhi</a> service across 24+ outlets, including home and hotel spa options. Book your appointment today and experience the benefits of Thai massage for yourself.
+                    Luxury Russian Spa offers a dedicated <a href="/thai-massage-in-delhi" className="font-semibold text-amber-700 underline hover:text-amber-800">Thai massage in Delhi</a> service across 24+ outlets, including home and hotel spa options. Book your appointment today and experience the benefits of Thai massage for yourself.
                   </p>
                 </section>
 

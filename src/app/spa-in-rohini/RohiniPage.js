@@ -80,7 +80,7 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a spa in Rohini?", answer: "Yes, Spa Delhi runs a genuine spa in Rohini, close to Rohini Metro Station and City Centre Mall, offering full body, B2B, couple, and deep tissue massage in a private, hygienic setting." },
+  { question: "Is there a spa in Rohini?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Rohini, close to Rohini Metro Station and City Centre Mall, offering full body, B2B, couple, and deep tissue massage in a private, hygienic setting." },
   { question: "Is your spa near Rohini Metro Station?", answer: "Yes, our Rohini spa outlet is conveniently located close to Rohini Metro Station on the Red Line, easy to reach from Rohini West, Rohini East, and nearby sectors." },
   { question: "Do you provide home spa service in Rohini?", answer: "Yes, alongside our outlet, we offer home spa in Rohini and across North West Delhi — our therapist arrives with everything needed for a relaxing, hygienic session at your residence." },
   { question: "Can I book a couple massage in Rohini?", answer: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular female to male spa in Rohini option, so two people can relax together comfortably." },
@@ -108,7 +108,7 @@ export default function RohiniPage() {
               Best Spa in <span className="text-amber-700">Rohini</span> Near City Centre Mall
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Rohini? Spa Delhi runs a genuine massage centre in Rohini covering Sector 3, 7, 16, 17 and 24, minutes from Rohini Metro Station and City Centre Mall Rohini, offering full body, B2B, and couple massage in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Rohini? Luxury Russian Spa runs a genuine massage centre in Rohini covering Sector 3, 7, 16, 17 and 24, minutes from Rohini Metro Station and City Centre Mall Rohini, offering full body, B2B, and couple massage in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -201,7 +201,7 @@ export default function RohiniPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Rohini?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Rohini?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Rohini spa center, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -269,7 +269,7 @@ export default function RohiniPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Rohini`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Rohini`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

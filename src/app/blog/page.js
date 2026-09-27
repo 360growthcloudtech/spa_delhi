@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
   ],
 };
 
 export const metadata = {
-  title: "Spa & Massage Blog Delhi - Expert Wellness Guides | Spa Delhi",
-  description: "Spa & massage blog for Delhi NCR readers covering massage types, wellness tips & spa guides. Trusted expert advice from Spa Delhi. Read our latest guides now!",
+  title: "Spa & Massage Blog Delhi - Expert Wellness Guides | Luxury Russian Spa",
+  description: "Spa & massage blog for Delhi NCR readers covering massage types, wellness tips & spa guides. Trusted expert advice from Luxury Russian Spa. Read our latest guides now!",
   keywords: ["spa blog delhi", "massage tips delhi", "wellness blog delhi", "spa guides delhi"],
   openGraph: {
     title: "Spa & Massage Blog Delhi | Tips, Guides & Wellness Insights",
-    description: "Read the Spa Delhi blog for expert guides on massage types, wellness tips, and spa treatments in Delhi NCR to help you choose the right therapy.",
-    images: ["https://www.spadelhi.com/images/banner1.jpg"],
+    description: "Read the Luxury Russian Spa blog for expert guides on massage types, wellness tips, and spa treatments in Delhi NCR to help you choose the right therapy.",
+    images: ["https://www.luxuryrussianspa.com/images/banner1.jpg"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/blog",
+    canonical: "https://www.luxuryrussianspa.com/blog",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/banner1.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/banner1.jpg"]
   }
 };
 

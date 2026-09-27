@@ -327,10 +327,10 @@ Common spa services include:
         {/* BENEFITS OF SWEDISH MASSAGE */}
         <div>
           <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
-            Spa Delhi presence across Delhi NCR
+            Luxury Russian Spa presence across Delhi NCR
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
-           Spa Delhi serves customers across Delhi NCR, including Aerocity, Mahipalpur, Dwarka, Noida, and Gurgaon. The advantage of having multiple outlets is simple: it gives people easier access to a nearby wellness space without long travel time.
+           Luxury Russian Spa serves customers across Delhi NCR, including Aerocity, Mahipalpur, Dwarka, Noida, and Gurgaon. The advantage of having multiple outlets is simple: it gives people easier access to a nearby wellness space without long travel time.
           </p>
           <p className="text-gray-700 leading-8 mb-6">
             This matters because spa visits often happen after work, after a flight, or during a short break in a busy day. A guest staying in Aerocity may want quick access to a premium hotel spa. Someone in Dwarka may want a nearby full body massage without driving across the city. A professional in Noida or Gurgaon may want a quiet session close to home or office.
@@ -339,7 +339,7 @@ Common spa services include:
             For travelers and business guests, Aerocity and Mahipalpur are especially convenient. For residents, Dwarka, Noida, and Gurgaon provide practical access to relaxation without making the experience feel rushed.
           </p>
           <p className="text-gray-700 leading-8 mb-6">
-            Spa Delhi focuses on professional massage services such as:
+            Luxury Russian Spa focuses on professional massage services such as:
           </p>
 
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
@@ -463,7 +463,7 @@ Common spa services include:
           In a city like Delhi, the best spa experiences are the ones that combine relaxation with professionalism. That is true whether you are booking in Aerocity, Mahipalpur, Dwarka, Noida, or Gurgaon. If you want a calm, well-managed massage session, choose a spa that values trust as much as comfort.
             </p>
             <p className="text-gray-800 font-medium mt-4">
-                If you are looking for a luxury spa experience in Delhi NCR, Spa Delhi offers professional massage services designed for real relaxation. Book carefully, ask questions when needed, and choose the spa that makes you feel safe, respected, and refreshed.
+                If you are looking for a luxury spa experience in Delhi NCR, Luxury Russian Spa offers professional massage services designed for real relaxation. Book carefully, ask questions when needed, and choose the spa that makes you feel safe, respected, and refreshed.
                 </p>
         </div>
       </div>

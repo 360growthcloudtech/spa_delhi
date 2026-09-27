@@ -58,8 +58,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Greater Kailash near M Block Market?", answer: "Yes, Spa Delhi runs a genuine spa in Greater Kailash, a short drive from M Block Market and N Block Market GK-1, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Greater Kailash?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Greater Kailash for residents across GK-1 and GK-2." },
+  { question: "Is there a good spa in Greater Kailash near M Block Market?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Greater Kailash, a short drive from M Block Market and N Block Market GK-1, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Greater Kailash?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Greater Kailash for residents across GK-1 and GK-2." },
   { question: "Do you cover both spa in Greater Kailash 1 and spa in Greater Kailash 2?", answer: "Yes, our outlet and home spa service cover both spa GK 1 and spa GK 2, along with nearby Nehru Place, Kalkaji, CR Park, and Alaknanda." },
   { question: "Do you offer body massage in Greater Kailash for both men and women?", answer: "Yes, our body massage in Greater Kailash welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Is home service available for spa GK 2?", answer: "Yes, alongside our outlet, we offer home spa across spa in GK1 and spa in GK 2. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence." },
@@ -86,7 +86,7 @@ export default function SpaInGreaterkailash() {
               Best Spa in <span className="text-amber-700">Greater Kailash</span> — GK-1 &amp; GK-2
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Greater Kailash? Also searched as spa GK, spa GK 1, or spa GK 2, Spa Delhi runs a trusted spa centre covering both Greater Kailash Part 1 and Part 2, a short walk from M Block Market. Certified therapists deliver full body, deep tissue, and B2B massage in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Greater Kailash? Also searched as spa GK, spa GK 1, or spa GK 2, Luxury Russian Spa runs a trusted spa centre covering both Greater Kailash Part 1 and Part 2, a short walk from M Block Market. Certified therapists deliver full body, deep tissue, and B2B massage in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -188,10 +188,10 @@ export default function SpaInGreaterkailash() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Greater Kailash — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in GK. If you're tired, stressed, or need a refreshing break, our body spa in Greater Kailash is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in GK. If you're tired, stressed, or need a refreshing break, our body spa in Greater Kailash is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near M Block Market, GK-1, and GK-2. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near M Block Market, GK-1, and GK-2. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
             {[
@@ -234,7 +234,7 @@ export default function SpaInGreaterkailash() {
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Greater Kailash for guests across both spa GK 1 and spa GK 2 — a real massage centre near M Block Market, not a generic neighbourhood parlour. Our body spa in Greater Kailash covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
+                Luxury Russian Spa is the best spa in Greater Kailash for guests across both spa GK 1 and spa GK 2 — a real massage centre near M Block Market, not a generic neighbourhood parlour. Our body spa in Greater Kailash covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
@@ -268,7 +268,7 @@ export default function SpaInGreaterkailash() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Greater Kailash?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Greater Kailash?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Greater Kailash outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -336,7 +336,7 @@ export default function SpaInGreaterkailash() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Greater Kailash`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Greater Kailash`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

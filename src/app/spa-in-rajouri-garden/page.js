@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Rajouri Garden near the mall?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Rajouri Garden, close to City Square Mall and the Rajouri Garden Metro interchange, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Rajouri Garden, close to City Square Mall and the Rajouri Garden Metro interchange, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Rajouri Garden?",
+      name: "What makes Luxury Russian Spa the best spa in Rajouri Garden?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa Rajouri Garden has for residents and visitors across West Delhi.",
@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Rajouri Garden - Near City Square Mall | Spa Delhi",
+  title: "Best Spa in Rajouri Garden - Near City Square Mall | Luxury Russian Spa",
   description:
     "Best spa in Rajouri Garden for body massage near the mall & metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -97,19 +97,19 @@ export const metadata = {
     "spa near city square mall",
   ],
   openGraph: {
-    title: "Best Spa in Rajouri Garden - Near City Square Mall | Spa Delhi",
+    title: "Best Spa in Rajouri Garden - Near City Square Mall | Luxury Russian Spa",
     description:
       "Best spa in Rajouri Garden for body massage near the mall & metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758981994_female-masseur-preparing-bed-massage-session_23-2150461390.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758981994_female-masseur-preparing-bed-massage-session_23-2150461390.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-rajouri-garden",
+    url: "https://www.luxuryrussianspa.com/spa-in-rajouri-garden",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-rajouri-garden",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-rajouri-garden",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758981994_female-masseur-preparing-bed-massage-session_23-2150461390.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758981994_female-masseur-preparing-bed-massage-session_23-2150461390.jpg"],
   },
 };
 
@@ -117,8 +117,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Rajouri Garden", item: "https://www.spadelhi.com/spa-in-rajouri-garden" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Rajouri Garden", item: "https://www.luxuryrussianspa.com/spa-in-rajouri-garden" },
   ],
 };
 

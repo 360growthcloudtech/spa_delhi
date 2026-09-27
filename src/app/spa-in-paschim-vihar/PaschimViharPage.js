@@ -78,8 +78,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Paschim Vihar near the metro?", answer: "Yes, Spa Delhi runs a genuine spa in Paschim Vihar, close to Paschim Vihar East and West Metro Stations on the Blue Line, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Paschim Vihar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Paschim Vihar for residents across West Delhi." },
+  { question: "Is there a good spa in Paschim Vihar near the metro?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Paschim Vihar, close to Paschim Vihar East and West Metro Stations on the Blue Line, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Paschim Vihar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Paschim Vihar for residents across West Delhi." },
   { question: "Do you offer body massage in Paschim Vihar for both men and women?", answer: "Yes, our body massage in Paschim Vihar welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Is there a massage center in Paschim Vihar near Rani Bagh or Peeragarhi?", answer: "Yes, our massage center in Paschim Vihar is easy to reach from Rani Bagh, Peeragarhi, Meera Bagh, and Madipur, with home spa options across all of these areas." },
   { question: "Do you offer a full body massage in Paschim Vihar at home?", answer: "Yes, alongside our outlet, we offer full body massage in Paschim Vihar as a home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session." },
@@ -106,7 +106,7 @@ export default function PaschimViharPage() {
               Best Spa in <span className="text-amber-700">Paschim Vihar</span> Near the Metro
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Paschim Vihar? Spa Delhi is a trusted destination for massage in Paschim Vihar, delivering full body massage, deep tissue therapy, and B2B massage just minutes from Paschim Vihar Metro Station. Every body spa in Paschim Vihar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Paschim Vihar? Luxury Russian Spa is a trusted destination for massage in Paschim Vihar, delivering full body massage, deep tissue therapy, and B2B massage just minutes from Paschim Vihar Metro Station. Every body spa in Paschim Vihar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -176,7 +176,7 @@ export default function PaschimViharPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Paschim Vihar?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Paschim Vihar?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Paschim Vihar outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -244,7 +244,7 @@ export default function PaschimViharPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Paschim Vihar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Paschim Vihar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

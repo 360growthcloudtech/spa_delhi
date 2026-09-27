@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Page Not Found | Spa Delhi",
+  title: "Page Not Found | Luxury Russian Spa",
   robots: { index: false, follow: true },
 };
 

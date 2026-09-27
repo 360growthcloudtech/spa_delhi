@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Saket near Select Citywalk?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Saket, close to Select Citywalk and Saket District Centre, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Saket, close to Select Citywalk and Saket District Centre, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Saket?",
+      name: "What makes Luxury Russian Spa the best spa in Saket?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Saket and the best massage spa in Saket for guests across South Delhi.",
@@ -77,13 +77,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Saket", item: "https://www.spadelhi.com/spa-in-saket" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Saket", item: "https://www.luxuryrussianspa.com/spa-in-saket" },
   ],
 };
 
 export const metadata = {
-  title: "Spa in Saket - Best Body Massage Near Select Citywalk | Spa Delhi",
+  title: "Spa in Saket - Best Body Massage Near Select Citywalk | Luxury Russian Spa",
   description:
     "Best spa in Saket for full body & body massage near Select Citywalk. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -106,19 +106,19 @@ export const metadata = {
     "spa near saket metro station",
   ],
   openGraph: {
-    title: "Spa in Saket - Best Body Massage Near Select Citywalk | Spa Delhi",
+    title: "Spa in Saket - Best Body Massage Near Select Citywalk | Luxury Russian Spa",
     description:
       "Best spa in Saket for full body & body massage near Select Citywalk. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/steptodown.com800611.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/steptodown.com800611.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-saket",
+    url: "https://www.luxuryrussianspa.com/spa-in-saket",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-saket",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-saket",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/steptodown.com800611.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/steptodown.com800611.jpg"],
   },
 };
 

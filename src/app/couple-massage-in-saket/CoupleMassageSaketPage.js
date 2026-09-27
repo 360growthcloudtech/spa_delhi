@@ -229,7 +229,7 @@ export default function CoupleMassageSaketPage() {
       {/* Why choose us */}
       <section className="mx-auto max-w-5xl px-6 py-16 lg:py-20">
         <div className="rounded-[32px] border border-amber-100 bg-white p-8 shadow-lg md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Spa Delhi</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Luxury Russian Spa</p>
           <h2 className="mt-3 text-2xl font-bold text-[#113435] md:text-3xl">The most trusted couple spa near Select Citywalk.</h2>
           <p className="mt-4 leading-relaxed text-gray-700">
             More than a decade in, with{" "}

@@ -1,7 +1,7 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Best Spa in Delhi - 24+ Outlets, Book From ₹1999 | Spa Delhi",
+  title: "Best Spa in Delhi - 24+ Outlets, Book From ₹1999 | Luxury Russian Spa",
   description:
     "Best spa in Delhi with 24+ outlets across Delhi NCR. Certified therapists, hygienic private rooms, home & hotel spa. Book your session today!",
 
@@ -19,21 +19,21 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.spadelhi.com/",
+    canonical: "https://www.luxuryrussianspa.com/",
   },
 
   openGraph: {
     title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
     description:
       "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
-    url: "https://www.spadelhi.com/",
-    siteName: "Spa Delhi",
+    url: "https://www.luxuryrussianspa.com/",
+    siteName: "Luxury Russian Spa",
     images: [
       {
         url: "/images/luxurySpaRoom.jpg",
         width: 1200,
         height: 630,
-        alt: "Spa Delhi",
+        alt: "Luxury Russian Spa",
       },
     ],
     type: "website",
@@ -41,7 +41,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Spa in Delhi For Complete Relaxation | Spa Delhi",
+    title: "Best Spa in Delhi For Complete Relaxation | Luxury Russian Spa",
     description:
       "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
     images: ["/images/luxurySpaRoom.jpg"],
@@ -54,10 +54,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What services does Spa Delhi provide?",
+      name: "What services does Luxury Russian Spa provide?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "At Spa Delhi, we offer full-body massage, Thai massage, aromatherapy, B2B massage, sandwich massage, couple massage and more. Our certified Indian and international therapists deliver private, hygienic sessions tailored for relaxation, therapeutic relief, and special-event packages at all major outlets.",
+        text: "At Luxury Russian Spa, we offer full-body massage, Thai massage, aromatherapy, B2B massage, sandwich massage, couple massage and more. Our certified Indian and international therapists deliver private, hygienic sessions tailored for relaxation, therapeutic relief, and special-event packages at all major outlets.",
       },
     },
     {
@@ -70,7 +70,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Is there a first-visit discount at Spa Delhi?",
+      name: "Is there a first-visit discount at Luxury Russian Spa?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes, we run first-visit offers periodically, such as introductory full body massage packages starting at ₹1999. Check the homepage deals or contact your preferred outlet for current promotions.",
@@ -86,7 +86,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Are Spa Delhi therapists certified and experienced?",
+      name: "Are Luxury Russian Spa therapists certified and experienced?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "All our therapists are trained and certified in their techniques. We have both Indian and foreign therapists from Thailand, Uzbekistan, Russia and Afghanistan to give you the best massage experience at our 5-star hotel outlets.",

@@ -5,24 +5,24 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Sandwich Massage in Delhi - Complete Booking Guide | Spa Delhi",
+    "Sandwich Massage in Delhi - Complete Booking Guide | Luxury Russian Spa",
   description:
-    "Sandwich massage in Delhi guide covering benefits, process & what to expect. Trusted by certified therapists at Spa Delhi. Read the full guide and book now!",
+    "Sandwich massage in Delhi guide covering benefits, process & what to expect. Trusted by certified therapists at Luxury Russian Spa. Read the full guide and book now!",
   keywords: ["sandwich massage guide", "sandwich massage benefits delhi", "what is sandwich massage"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/sandwich-massage-in-delhi",
+      "https://www.luxuryrussianspa.com/blog/sandwich-massage-in-delhi",
   },
   openGraph: {
     title: "Sandwich Massage in Delhi: Everything You Need to Know Before Booking",
     description:
       "Learn everything about Sandwich Massage in Delhi, its benefits, booking process, and what to expect before your session.",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -30,9 +30,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Sandwich Massage in Delhi", item: "https://www.spadelhi.com/blog/sandwich-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Sandwich Massage in Delhi", item: "https://www.luxuryrussianspa.com/blog/sandwich-massage-in-delhi" },
   ],
 };
 
@@ -130,7 +130,7 @@ export default function SandwichMassageDelhiPage() {
               </h1>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-                <span>By Spa Delhi Team</span>
+                <span>By Luxury Russian Spa Team</span>
                 <span>•</span>
                 <span>Updated July 2026</span>
                 <span>•</span>

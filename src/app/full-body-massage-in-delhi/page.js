@@ -17,7 +17,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Full Body Massage in Delhi - Affordable Luxury | Spa Delhi",
+  title: "Full Body Massage in Delhi - Affordable Luxury | Luxury Russian Spa",
   description:
     "Affordable full body massage in Delhi at 24+ outlets. Luxury full body massage spa options at hotels & home too. Certified therapists. Book from ₹1999 today!",
   keywords: [
@@ -40,19 +40,19 @@ export const metadata = {
     "full body massage in rohini delhi",
   ],
   openGraph: {
-    title: "Full Body Massage in Delhi - Affordable Luxury | Spa Delhi",
+    title: "Full Body Massage in Delhi - Affordable Luxury | Luxury Russian Spa",
     description:
       "Affordable full body massage in Delhi at 24+ outlets. Luxury full body massage spa options at hotels & home too. Certified therapists. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/MassageSession.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/MassageSession.webp"],
     type: "website",
-    url: "https://www.spadelhi.com/full-body-massage-in-delhi",
+    url: "https://www.luxuryrussianspa.com/full-body-massage-in-delhi",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/full-body-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/full-body-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/MassageSession.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/MassageSession.webp"],
   },
 };
 
@@ -60,8 +60,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Full Body Massage in Delhi", item: "https://www.spadelhi.com/full-body-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Full Body Massage in Delhi", item: "https://www.luxuryrussianspa.com/full-body-massage-in-delhi" },
   ],
 };
 
@@ -72,9 +72,9 @@ const serviceSchema = {
   name: "Full Body Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:

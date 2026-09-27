@@ -23,7 +23,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Couple Massage in Saket - Near Select Citywalk | Spa Delhi",
+  title: "Couple Massage in Saket - Near Select Citywalk | Luxury Russian Spa",
   description:
     "Couple massage in Saket near Select Citywalk Mall for a private, relaxing session together. Certified therapists, hygienic setting. Book from ₹3999 today!",
   keywords: [
@@ -37,19 +37,19 @@ export const metadata = {
     "night couple massage saket",
   ],
   openGraph: {
-    title: "Couple Massage in Saket - Near Select Citywalk | Spa Delhi",
+    title: "Couple Massage in Saket - Near Select Citywalk | Luxury Russian Spa",
     description:
       "Couple massage in Saket near Select Citywalk Mall for a private, relaxing session together. Certified therapists, hygienic setting. Book from ₹3999 today!",
-    images: ["https://www.spadelhi.com/images/couple-bathrobes-posing-embraced.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/couple-bathrobes-posing-embraced.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/couple-massage-in-saket",
+    url: "https://www.luxuryrussianspa.com/couple-massage-in-saket",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/couple-massage-in-saket",
+    canonical: "https://www.luxuryrussianspa.com/couple-massage-in-saket",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/couple-bathrobes-posing-embraced.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/couple-bathrobes-posing-embraced.jpg"],
   },
 };
 
@@ -57,8 +57,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Couple Massage in Saket", item: "https://www.spadelhi.com/couple-massage-in-saket" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Couple Massage in Saket", item: "https://www.luxuryrussianspa.com/couple-massage-in-saket" },
   ],
 };
 
@@ -69,9 +69,9 @@ const serviceSchema = {
   name: "Couple Massage in Saket",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Saket",
   description:

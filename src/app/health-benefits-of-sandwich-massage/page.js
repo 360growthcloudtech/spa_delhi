@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Health Benefits of Sandwich Massage", item: "https://www.spadelhi.com/health-benefits-of-sandwich-massage" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Health Benefits of Sandwich Massage", item: "https://www.luxuryrussianspa.com/health-benefits-of-sandwich-massage" },
   ],
 };
 
 export const metadata = {
-  title: "Health Benefits of Sandwich Massage - Deep Relaxation | Spa Delhi",
+  title: "Health Benefits of Sandwich Massage - Deep Relaxation | Luxury Russian Spa",
   description: "Health benefits of sandwich massage in Delhi - deep relaxation, better circulation & pain relief from two therapists in sync. Learn more and book your session!",
   keywords: ["health benefits of sandwich massage", "sandwich massage benefits", "sandwich massage advantages"],
   openGraph: {
-    title: "Health Benefits of Sandwich Massage | Spa Delhi",
-    description: "Discover the health benefits of sandwich massage — deep relaxation, better circulation, and pain relief from two therapists working in sync. Learn more at Spa Delhi.",
-    images: ["https://www.spadelhi.com/images/HelpstoDe-Stress.webp"],
+    title: "Health Benefits of Sandwich Massage | Luxury Russian Spa",
+    description: "Discover the health benefits of sandwich massage — deep relaxation, better circulation, and pain relief from two therapists working in sync. Learn more at Luxury Russian Spa.",
+    images: ["https://www.luxuryrussianspa.com/images/HelpstoDe-Stress.webp"],
     type: "website",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/health-benefits-of-sandwich-massage",
+    canonical: "https://www.luxuryrussianspa.com/health-benefits-of-sandwich-massage",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/HelpstoDe-Stress.webp"]
+    images: ["https://www.luxuryrussianspa.com/images/HelpstoDe-Stress.webp"]
   }
 };
 

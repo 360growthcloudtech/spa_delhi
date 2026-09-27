@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { FaInstagram, FaWhatsapp, FaTelegramPlane, FaPhoneAlt } from "react-icons/fa";
 import { FiChevronDown, FiMail, FiX } from "react-icons/fi";
-import Image from "next/image";
+import Logo from "./Logo";
 
 const WHATSAPP = "https://api.whatsapp.com/send?phone=919217255113";
 
@@ -108,10 +108,8 @@ export default function Navbar() {
       >
         <nav className="max-w-7xl mx-auto flex justify-between items-center px-5 md:px-6 h-[76px] lg:h-[88px]">
           {/* Logo */}
-          <a href="/" aria-label="Spa Delhi home" className={`rounded-2xl transition-all duration-500 ${isScrolled ? "bg-white px-3 py-1.5" : ""}`}>
-            <div className="w-32 h-10 relative">
-              <Image src="/images/spadelhilogo22.webp" alt="Delhi Body Spa Logo" fill className="object-contain" priority />
-            </div>
+          <a href="/" aria-label="Luxury Russian Spa home" className="shrink-0">
+            <Logo light={isScrolled} />
           </a>
 
           {/* Desktop Menu */}
@@ -195,10 +193,8 @@ export default function Navbar() {
               transition={{ type: "tween", duration: 0.45, ease: [0.65, 0, 0.35, 1] }}
             >
               <div className="flex items-center justify-between p-5 border-b border-white/10">
-                <a href="/" className="bg-white rounded-xl px-3 py-1.5">
-                  <div className="w-28 h-9 relative">
-                    <Image src="/images/spadelhilogo22.webp" alt="Delhi Body Spa Logo" fill className="object-contain" />
-                  </div>
+                <a href="/" aria-label="Luxury Russian Spa home">
+                  <Logo light />
                 </a>
                 <button
                   onClick={() => setIsMenuOpen(false)}

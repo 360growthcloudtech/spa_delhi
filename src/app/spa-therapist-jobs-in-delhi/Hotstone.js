@@ -111,7 +111,7 @@ const features = [
         const faqs = [
           {
             question: "How can I apply for Spa jobs in Delhi?",
-            answer: "Apply from spa delhi official website. Send your CV with certifications and experience. Shortlisted candidates receive interview invites and practical assessments tailored to therapist, front-desk or housekeeping roles across outlets.",
+            answer: "Apply from luxury russian spa official website. Send your CV with certifications and experience. Shortlisted candidates receive interview invites and practical assessments tailored to therapist, front-desk or housekeeping roles across outlets.",
             icon: <FaSpa className="text-teal-600" />
           },
           {
@@ -179,14 +179,14 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
         <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Spa Jobs in Delhi</span>
         – Join the Leading
-        <span className="block mt-2 font-medium">Massage & Spa Team <span className="text-rose-600">at Spa Delhi NCR</span></span>
+        <span className="block mt-2 font-medium">Massage & Spa Team <span className="text-rose-600">at Luxury Russian Spa NCR</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-       Need a satisfying spa therapist position in Delhi? Spa Delhi provides luxury offices, good remuneration, and career development in leading 5-star hotels and spas in Delhi, Noida and more.
+       Need a satisfying spa therapist position in Delhi? Luxury Russian Spa provides luxury offices, good remuneration, and career development in leading 5-star hotels and spas in Delhi, Noida and more.
       </p>
       <h2 className="text-2xl md:text-3xl font-light text-gray-800"><span className="block mt-2 font-medium">Our Premium Massage Center in Delhi</span></h2>
-      <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">At Spa Delhi, we offer spa and massage therapist employment opportunities across 5-star hotels and the most lavish spa outlets in the city. Start your career with one of Delhi's most reliable spa brands.</p>
+      <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">At Luxury Russian Spa, we offer spa and massage therapist employment opportunities across 5-star hotels and the most lavish spa outlets in the city. Start your career with one of Delhi's most reliable spa brands.</p>
 
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -421,7 +421,7 @@ View All Cities
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Create excellent branding of Represent Spa Delhi.</span>
+                <span>Create excellent branding of Represent Luxury Russian Spa.</span>
               </li>
             </ul>
           </motion.div>
@@ -525,7 +525,7 @@ View All Cities
               <h3 className="text-2xl font-bold text-amber-800">Available Positions</h3>
             </div>
             <p className="text-gray-700 mb-4">
-              Spa Delhi has vacancies in numerous types of luxury massage spa positions in Delhi and Noida, among them:
+              Luxury Russian Spa has vacancies in numerous types of luxury massage spa positions in Delhi and Noida, among them:
                <strong></strong>
             </p>
             <div className="bg-amber-100 p-4 rounded-lg">
@@ -764,7 +764,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <span className="block">Why Choose <span className="text-amber-600">Spa Delhi for Spa Therapist Jobs in Delhi Hotels?</span></span>
+            <span className="block">Why Choose <span className="text-amber-600">Luxury Russian Spa for Spa Therapist Jobs in Delhi Hotels?</span></span>
           </motion.h2>
           <motion.p
             className="mt-3 max-w-2xl mx-auto text-gray-700"
@@ -773,7 +773,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ delay: 0.15, duration: 0.5 }}
           >
-            In case of your desire to get employed in the top 5-star hotel spa in Delhi or Aerocity, then Spa Delhi presents you with the perfect platform to shine.
+            In case of your desire to get employed in the top 5-star hotel spa in Delhi or Aerocity, then Luxury Russian Spa presents you with the perfect platform to shine.
           </motion.p>
         </div>
 
@@ -875,7 +875,7 @@ View All Cities
               <div>
                 <h4 className="font-semibold text-amber-900">Send and Wait of Confirmation or Offer Letter</h4>
                 <p className="text-sm text-gray-700 mt-1">After the review, you will be sent a confirmation of an interview or job offer in a couple of days.
-Spa Delhi is now hiring for:</p>
+Luxury Russian Spa is now hiring for:</p>
               </div>
             </li>
           </ol>

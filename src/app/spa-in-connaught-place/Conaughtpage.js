@@ -65,50 +65,50 @@ export default function Conaughtpage() {
       title: "Radisson Blu Hotel Connaught Place",
       image: "/images/radissonblu_CP.jpg",
       description:
-        "Spa Delhi offers special body massage in Connaught Place at Radisson Blu. Experienced therapists offer relaxing services such as full-body and B2B massage that cause you to forget the stress and your body and mind are refreshed.",
+        "Luxury Russian Spa offers special body massage in Connaught Place at Radisson Blu. Experienced therapists offer relaxing services such as full-body and B2B massage that cause you to forget the stress and your body and mind are refreshed.",
     },
     {
       title: "The Park Connaught Place",
       image: "/images/thePrak_CP.jpg",
       description:
-        "Visitors at The Park Connaught Place will find a relaxing environment with Spa Delhi. Our female-to-male spa in Connaught Place uses soothing oils and gentle methods to deliver comfort, either alone or with a partner, thanks to the couple’s massages.",
+        "Visitors at The Park Connaught Place will find a relaxing environment with Luxury Russian Spa. Our female-to-male spa in Connaught Place uses soothing oils and gentle methods to deliver comfort, either alone or with a partner, thanks to the couple’s massages.",
     },
     {
       title: "The LaLiT New Delhi Connaught Place",
       image: "/images/theLalit_CP.jpg",
       description:
-        "Relief and recovery are top priorities at The LaLiT. Spa Delhi’s team provides therapies that remove stress and assist muscle healing, using high-end products for a smooth and energizing experience.",
+        "Relief and recovery are top priorities at The LaLiT. Luxury Russian Spa’s team provides therapies that remove stress and assist muscle healing, using high-end products for a smooth and energizing experience.",
     },
     {
       title: "Holiday Inn New Delhi Connaught Place",
       image: "/images/holidayIn_CP.jpg",
       description:
-        "At Holiday Inn Connaught Place, Spa Delhi continues its top-quality service. Options include full-body massages and custom aromatherapy, all designed to create calm and boost energy, so guests feel better quickly.",
+        "At Holiday Inn Connaught Place, Luxury Russian Spa continues its top-quality service. Options include full-body massages and custom aromatherapy, all designed to create calm and boost energy, so guests feel better quickly.",
     },
     {
       title: "Jw Marriott New Delhi Connaught Place",
       image: "/images/JwMarriott_CP.jpg",
       description:
-        "At Spa Delhi of JW Marriott Connaught Place, the guests will be provided with expert skills in Spa with deep tissue and aroma therapy massages. Experts will provide a relaxing environment where all the therapies will favor physical and psychological rejuvenation.",
+        "At Luxury Russian Spa of JW Marriott Connaught Place, the guests will be provided with expert skills in Spa with deep tissue and aroma therapy massages. Experts will provide a relaxing environment where all the therapies will favor physical and psychological rejuvenation.",
     },
     {
       title: "Pullman Connaught Place",
       image: "/images/pullman.jpg",
       description:
-        "Pullman guests can access private, elegant massage sessions arranged by Spa Delhi. Expert hands use luxury oils and smart techniques to reduce tension and support good blood flow.",
+        "Pullman guests can access private, elegant massage sessions arranged by Luxury Russian Spa. Expert hands use luxury oils and smart techniques to reduce tension and support good blood flow.",
     },
     {
       title: "Shangri-La Eros, New Delhi",
       image:
         "/images/shangri-la-s-eros-hotel-connaught-place-delhi-5-star-hotels-2zj8oj1.avif",
       description:
-        "Shangri-La Eros welcomes Spa Delhi’s team for deep tissue and aromatherapy massages. The peaceful atmosphere and expert care help clients recharge in a world-class hotel setting.",
+        "Shangri-La Eros welcomes Luxury Russian Spa’s team for deep tissue and aromatherapy massages. The peaceful atmosphere and expert care help clients recharge in a world-class hotel setting.",
     },
     {
       title: "The Imperial New Delhi",
       image: "/images/theImperial_CP.jpeg",
       description:
-        "There is also Spa Delhi located at The Imperial. Therapists welcome guests to experience relaxing massage techniques which help to relax the body and mind and make every visitor leave with an unforgettable experience.",
+        "There is also Luxury Russian Spa located at The Imperial. Therapists welcome guests to experience relaxing massage techniques which help to relax the body and mind and make every visitor leave with an unforgettable experience.",
     },
   ];
   const pricingPlans = [
@@ -233,7 +233,7 @@ export default function Conaughtpage() {
       id: "body",
       title: "Contact By Phone Or Telegram",
       subtitle: "Mastery across 23 specialised modalities",
-      desc: "Contact the experts at Spa Delhi by making a direct or a safe Telegram call and tell them your favorite hotel and style of treatment.",
+      desc: "Contact the experts at Luxury Russian Spa by making a direct or a safe Telegram call and tell them your favorite hotel and style of treatment.",
       chips: [
         "Thai Herbal Compress",
         "Shiatsu",
@@ -279,7 +279,7 @@ export default function Conaughtpage() {
     {
       icon: <FaHotel className="text-amber-700 text-xl" />,
       title: "Trained International Specialists",
-      text: "Spa Delhi recruits certified therapists all over the world with various massage traditions and professional skills.",
+      text: "Luxury Russian Spa recruits certified therapists all over the world with various massage traditions and professional skills.",
     },
     {
       icon: <FaClock className="text-amber-700 text-xl" />,
@@ -297,7 +297,7 @@ export default function Conaughtpage() {
     {
       icon: <FaSpa className="text-amber-700 text-2xl" />,
       title: "Service At Leading Connaught Place Hotels",
-      text: "Spa Delhi is located within the most preferred hotels within the city, and provides high-quality services to its visitors anywhere.",
+      text: "Luxury Russian Spa is located within the most preferred hotels within the city, and provides high-quality services to its visitors anywhere.",
     },
     {
       icon: <FaCreditCard className="text-amber-700 text-2xl" />,
@@ -338,7 +338,7 @@ export default function Conaughtpage() {
               </h2>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Spa Delhi, the premier spa centre in Connaught Place, offers
+                Luxury Russian Spa, the premier spa centre in Connaught Place, offers
                 absolute comfort, where customers can relax and enjoy the best
                 spa services in renowned hotels in the area.
               </p>
@@ -665,7 +665,7 @@ export default function Conaughtpage() {
                 Welcome to{" "}
                 <span className="relative">
                   <span className="text-amber-600 z-10 relative">
-                    Delhi Body Spa
+                    Luxury Russian Spa
                   </span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                 </span>
@@ -828,7 +828,7 @@ export default function Conaughtpage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                Spa Delhi:{" "}
+                Luxury Russian Spa:{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">
                   Best Spa centre in Connaught Place for Spa Services in Delhi
                 </span>
@@ -928,7 +928,7 @@ export default function Conaughtpage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Spa Delhi is the best destination of massage and{" "}
+                    Luxury Russian Spa is the best destination of massage and{" "}
                     <span className="font-medium text-stone-800">
                       {" "}
                       spa in Delhi
@@ -946,13 +946,13 @@ export default function Conaughtpage() {
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
-                    The Spa Delhi is located in various locations within Delhi -
+                    Luxury Russian Spa is located in various locations within Delhi -
                     <span className="font-medium text-stone-800">
                       Aerocity, Connaught place, Lajpat Nagar, Dwarka, and
                       Noida.
                     </span>{" "}
                     Anyone who desires to take a time-out of the hectic
-                    schedules can rely on Spa Delhi to have the most preferred
+                    schedules can rely on Luxury Russian Spa to have the most preferred
                     spa getaway, in the highest level of luxury.
                     <span className="font-medium text-stone-800"></span>
                     <span className="font-medium text-stone-800"></span>{" "}
@@ -1038,7 +1038,7 @@ export default function Conaughtpage() {
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                 It is easy to book a massage session in the Connaught Place
-                hotels. Spa Delhi ensures that the procedures are fast and
+                hotels. Luxury Russian Spa ensures that the procedures are fast and
                 smooth.
               </p>
             </motion.div>
@@ -1183,9 +1183,9 @@ export default function Conaughtpage() {
                         Book Your Luxury Massage at Connaught Place Today!
                       </h4>
                       <p className="mt-2 opacity-95">
-                        Visit Spa Delhi, as it is one of the finest hotels in
+                        Visit Luxury Russian Spa, as it is one of the finest hotels in
                         Connaught Place. Feel refreshed, feel completely
-                        comfortable, and call Spa Delhi when you're ready for
+                        comfortable, and call Luxury Russian Spa when you're ready for
                         your next pampering experience.
                       </p>
                     </div>
@@ -1234,7 +1234,7 @@ export default function Conaughtpage() {
                 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
               >
                 <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
-                  Why Choose Spa Delhi for Spa Services
+                  Why Choose Luxury Russian Spa for Spa Services
                 </span>
                 <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                   in Connaught Place?
@@ -1242,7 +1242,7 @@ export default function Conaughtpage() {
               </motion.h1>
 
               <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                Spa Delhi offers a mix of comfort, skill, and wellness in
+                Luxury Russian Spa offers a mix of comfort, skill, and wellness in
                 Connaught Place’s top hotels. Treatments focus on helping each
                 client recover, recharge, and{" "}
                 <span className="font-semibold text-amber-700">

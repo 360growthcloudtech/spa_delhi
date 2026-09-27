@@ -371,7 +371,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                   Spa Delhi is known as the best place to avail Sandwich Massage in Delhi with the ultimate luxury and wellness.
+                   Luxury Russian Spa is known as the best place to avail Sandwich Massage in Delhi with the ultimate luxury and wellness.
                   </motion.p>
       <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
     </div>
@@ -856,7 +856,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  Why Choose <span className="text-amber-600"> Spa in Delhi for Sandwich Massage Services Delhi?</span>
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                 Spa Delhi is a place that offers luxurious Sandwich Massage sessions with reasonable <strong className="text-amber-600 font-medium"><a href='/spa-price-in-delhi'>spa price in delhi</a></strong> to give unwinding, refreshing, and an incomparable sensation of relaxation.
+                                                 Luxury Russian Spa is a place that offers luxurious Sandwich Massage sessions with reasonable <strong className="text-amber-600 font-medium"><a href='/spa-price-in-delhi'>spa price in delhi</a></strong> to give unwinding, refreshing, and an incomparable sensation of relaxation.
                                                </p>
                                              </motion.div>
                                            </div>

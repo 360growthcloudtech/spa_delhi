@@ -83,11 +83,11 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Uttam Nagar near the metro?", answer: "Yes, Spa Delhi runs a genuine spa in Uttam Nagar, close to both Uttam Nagar East and West Metro Stations on the Blue Line, offering full body, Thai, and deep tissue massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Uttam Nagar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Uttam Nagar for residents across West Delhi." },
+  { question: "Is there a good spa in Uttam Nagar near the metro?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Uttam Nagar, close to both Uttam Nagar East and West Metro Stations on the Blue Line, offering full body, Thai, and deep tissue massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Uttam Nagar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Uttam Nagar for residents across West Delhi." },
   { question: "Do you offer body massage spa in Uttam Nagar for both men and women?", answer: "Yes, our body massage spa in Uttam Nagar welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Is home service available — spa in Uttam Nagar home service?", answer: "Yes, alongside our outlet, we offer spa in Uttam Nagar home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence." },
-  { question: "What is the Spa Delhi Uttam Nagar spa contact number?", answer: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 92172 55113, available 24/7 to help you book outlet, home, or hotel spa sessions." },
+  { question: "What is the Luxury Russian Spa Uttam Nagar spa contact number?", answer: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 92172 55113, available 24/7 to help you book outlet, home, or hotel spa sessions." },
   { question: "Do you have Thai massage or foreign therapists in Uttam Nagar?", answer: "Yes, thai massage is one of our most requested treatments in Uttam Nagar, delivered by experienced Thai, Russian, and Uzbek therapists alongside our skilled Indian staff." },
   { question: "Can I book a couple massage in Uttam Nagar?", answer: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
   { question: "How much does a body spa in Uttam Nagar cost?", answer: "A body spa in Uttam Nagar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
@@ -111,7 +111,7 @@ export default function UttamNagarPage() {
               Best Spa in <span className="text-amber-700">Uttam Nagar</span> Near the Metro
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Uttam Nagar? Uttam Nagar spa seekers trust Spa Delhi for genuine full body, Thai massage, and body massage spa in Uttam Nagar sessions, just minutes from Uttam Nagar East and West Metro Stations. Every body spa in Uttam Nagar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Uttam Nagar? Uttam Nagar spa seekers trust Luxury Russian Spa for genuine full body, Thai massage, and body massage spa in Uttam Nagar sessions, just minutes from Uttam Nagar East and West Metro Stations. Every body spa in Uttam Nagar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -213,10 +213,10 @@ export default function UttamNagarPage() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Uttam Nagar — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Uttam Nagar. If you're tired, stressed, or need a refreshing break, our body spa in Uttam Nagar is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in Uttam Nagar. If you're tired, stressed, or need a refreshing break, our body spa in Uttam Nagar is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near Uttam Nagar East and West Metro Stations. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near Uttam Nagar East and West Metro Stations. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
             {[
@@ -244,7 +244,7 @@ export default function UttamNagarPage() {
           <h2 className="text-center text-3xl font-bold text-[#113435] md:text-4xl">Uttam Nagar Spa — Your Trusted Wellness Destination</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-gray-700">
             <p>
-              If you've been searching for a genuine spa in Uttam Nagar, Spa Delhi is here to help you relax and recharge. We offer a complete range of treatments, from a relaxing body massage spa in Uttam Nagar to a traditional Thai massage — full body, deep tissue, sandwich, couple, and B2B massage are all available at prices starting from just ₹1999 for your first visit.
+              If you've been searching for a genuine spa in Uttam Nagar, Luxury Russian Spa is here to help you relax and recharge. We offer a complete range of treatments, from a relaxing body massage spa in Uttam Nagar to a traditional Thai massage — full body, deep tissue, sandwich, couple, and B2B massage are all available at prices starting from just ₹1999 for your first visit.
             </p>
             <p>
               Many guests tell us we run the best spa in Uttam Nagar for a reason — every body spa in Uttam Nagar session is performed by certified, experienced hands. Prefer to stay home? Our spa in Uttam Nagar home service brings the same quality treatment straight to your door anywhere in West Delhi.
@@ -258,7 +258,7 @@ export default function UttamNagarPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Uttam Nagar?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Uttam Nagar?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Uttam Nagar outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -326,7 +326,7 @@ export default function UttamNagarPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Uttam Nagar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Uttam Nagar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}
@@ -396,7 +396,7 @@ export default function UttamNagarPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
           <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Conveniently Located Near These Uttam Nagar Neighbourhoods</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-            Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Spa Delhi outlets in Delhi NCR</Link>.
+            Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Luxury Russian Spa outlets in Delhi NCR</Link>.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">

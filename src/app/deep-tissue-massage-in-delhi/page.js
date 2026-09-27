@@ -50,21 +50,21 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Deep Tissue Massage in Delhi - Relief From Chronic Pain | Spa Delhi",
+  title: "Deep Tissue Massage in Delhi - Relief From Chronic Pain | Luxury Russian Spa",
   description: "Deep tissue massage in Delhi for chronic pain & muscle knots. Certified therapists, private hygienic rooms, first visit from ₹1999. Book your session today!",
   keywords: ["deep tissue massage in delhi", "deep tissue massage near me delhi", "deep tissue massage for back pain", "best deep tissue massage in delhi", "deep tissue massage price in delhi", "deep tissue massage benefits delhi"],
   openGraph: {
     title: "Deep Tissue Massage in Delhi | Relief From Chronic Pain",
     description: "Deep tissue massage in Delhi for chronic pain, muscle knots & stiffness. Certified therapists, private rooms, hygienic setting. First visit from ₹1999.",
-    images: ["https://www.spadelhi.com/images/446979.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/446979.jpg"],
     type: "website",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/deep-tissue-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/deep-tissue-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/446979.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/446979.jpg"]
   }
 };
 
@@ -72,8 +72,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Deep Tissue Massage in Delhi", item: "https://www.spadelhi.com/deep-tissue-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Deep Tissue Massage in Delhi", item: "https://www.luxuryrussianspa.com/deep-tissue-massage-in-delhi" },
   ],
 };
 
@@ -84,9 +84,9 @@ const serviceSchema = {
   name: "Deep Tissue Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:

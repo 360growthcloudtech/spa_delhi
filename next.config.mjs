@@ -3,10 +3,24 @@ const nextConfig = {
   reactStrictMode: true,
   async redirects() {
     return [
+      // Canonical host: www.luxuryrussianspa.com
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "luxuryrussianspa.com" }],
+        destination: "https://www.luxuryrussianspa.com/:path*",
+        permanent: true,
+      },
+      // Old domain -> new domain (301 keeps existing search rankings)
       {
         source: "/:path*",
         has: [{ type: "host", value: "spadelhi.com" }],
-        destination: "https://www.spadelhi.com/:path*",
+        destination: "https://www.luxuryrussianspa.com/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.spadelhi.com" }],
+        destination: "https://www.luxuryrussianspa.com/:path*",
         permanent: true,
       },
       {
@@ -27,8 +41,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'spadelhi.com',
-        port: '3001',
+        hostname: 'www.luxuryrussianspa.com',
         pathname: '/**',
       },
       // add more patterns if needed

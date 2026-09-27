@@ -18,7 +18,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Swedish Massage in Rajouri Garden - Gentle Relaxation | Spa Delhi",
+  title: "Swedish Massage in Rajouri Garden - Gentle Relaxation | Luxury Russian Spa",
   description:
     "Swedish massage in Rajouri Garden near City Square Mall for gentle, full body relaxation. Certified therapists, hygienic setting. Book from ₹1999 today!",
   keywords: [
@@ -32,19 +32,19 @@ export const metadata = {
     "gentle massage rajouri garden",
   ],
   openGraph: {
-    title: "Swedish Massage in Rajouri Garden - Gentle Relaxation | Spa Delhi",
+    title: "Swedish Massage in Rajouri Garden - Gentle Relaxation | Luxury Russian Spa",
     description:
       "Swedish massage in Rajouri Garden near City Square Mall for gentle, full body relaxation. Certified therapists, hygienic setting. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/spa-in-Rajouri-Garden.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-in-Rajouri-Garden.webp"],
     type: "website",
-    url: "https://www.spadelhi.com/swedish-massage-in-rajouri-garden",
+    url: "https://www.luxuryrussianspa.com/swedish-massage-in-rajouri-garden",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/swedish-massage-in-rajouri-garden",
+    canonical: "https://www.luxuryrussianspa.com/swedish-massage-in-rajouri-garden",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/spa-in-Rajouri-Garden.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-in-Rajouri-Garden.webp"],
   },
 };
 
@@ -52,8 +52,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Swedish Massage in Rajouri Garden", item: "https://www.spadelhi.com/swedish-massage-in-rajouri-garden" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Swedish Massage in Rajouri Garden", item: "https://www.luxuryrussianspa.com/swedish-massage-in-rajouri-garden" },
   ],
 };
 
@@ -64,9 +64,9 @@ const serviceSchema = {
   name: "Swedish Massage in Rajouri Garden",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Rajouri Garden",
   description:

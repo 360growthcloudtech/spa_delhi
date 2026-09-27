@@ -69,7 +69,7 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a B2B massage spa in Delhi?", answer: "Yes, Spa Delhi operates 24+ B2B massage spa locations across Delhi and Delhi NCR, including Karol Bagh, Connaught Place, Dwarka, and Saket, alongside home and five-star hotel spa options." },
+  { question: "Is there a B2B massage spa in Delhi?", answer: "Yes, Luxury Russian Spa operates 24+ B2B massage spa locations across Delhi and Delhi NCR, including Karol Bagh, Connaught Place, Dwarka, and Saket, alongside home and five-star hotel spa options." },
   { question: "What happens in a body-to-body massage?", answer: "After a short consultation about your preferences, your therapist applies premium oils and uses a full-contact, body-to-body technique with smooth, controlled movements — performed in a private, closed room from start to finish." },
   { question: "Are body-to-body massages legal in India?", answer: "Yes, body-to-body massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards. Read our detailed guide on whether B2B massage is legal in India for the full picture." },
   { question: "What does a body-to-body massage include?", answer: "A standard session includes a consultation, full-contact massage using premium aromatherapy-grade oils, and a private room for the full duration — with optional add-ons like aromatherapy or a facial depending on your package." },
@@ -176,9 +176,9 @@ export default function B2Bpage() {
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="mb-14 text-center">
           <span className="inline-block rounded-full bg-amber-100 px-4 py-1 text-sm font-medium text-amber-800">Premium Wellness Experience</span>
-          <h2 className="mt-4 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi for B2B Massage?</h2>
+          <h2 className="mt-4 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa for B2B Massage?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-700">
-            Spa Delhi is a trusted name for body to body massage in Delhi. We focus on authentic technique, premium ingredients, and personalized care that revitalizes your mind and body.
+            Luxury Russian Spa is a trusted name for body to body massage in Delhi. We focus on authentic technique, premium ingredients, and personalized care that revitalizes your mind and body.
           </p>
         </div>
 
@@ -260,7 +260,7 @@ export default function B2Bpage() {
                 transition={{ duration: 0.45, delay: index * 0.08 }}
                 className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
               >
-                <Image src={t.image} alt={`${t.role} at Spa Delhi`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+                <Image src={t.image} alt={`${t.role} at Luxury Russian Spa`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
                 <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                   <FaStar className="text-amber-500" /> {t.experience}

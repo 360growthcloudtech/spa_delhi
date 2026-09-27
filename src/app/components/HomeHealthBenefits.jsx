@@ -170,7 +170,7 @@ export default function HomeHealthBenefits() {
             {/* Heading */}
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
-                Why Choose Spa Delhi?
+                Why Choose Luxury Russian Spa?
               </h2>
               <p className="text-[#6b6b6b] max-w-2xl mx-auto">
                We made thousands of trusted customers by giving professional massage service in Delhi. We have 24+ luxury spa outlets all over Delhi and the NCR Regions.

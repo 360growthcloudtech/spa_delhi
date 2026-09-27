@@ -6,8 +6,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Couples Massage in Delhi", item: "https://www.spadelhi.com/couples-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Couples Massage in Delhi", item: "https://www.luxuryrussianspa.com/couples-massage-in-delhi" },
   ],
 };
 
@@ -20,7 +20,7 @@ const faqSchema = {
       name: "What is included in a couples massage in Delhi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A couples massage in Delhi at Spa Delhi includes personalised treatment, calming oils, and a private room with two massage tables so you and your partner can relax together.",
+        text: "A couples massage in Delhi at Luxury Russian Spa includes personalised treatment, calming oils, and a private room with two massage tables so you and your partner can relax together.",
       },
     },
     {
@@ -49,10 +49,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best couple spa in Delhi?",
+      name: "What makes Luxury Russian Spa the best couple spa in Delhi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Experienced therapists, genuinely private rooms, quality oils, and transparent pricing make Spa Delhi a consistent choice for the best couple massage in Delhi.",
+        text: "Experienced therapists, genuinely private rooms, quality oils, and transparent pricing make Luxury Russian Spa a consistent choice for the best couple massage in Delhi.",
       },
     },
   ],
@@ -65,9 +65,9 @@ const serviceSchema = {
   name: "Couples Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:
@@ -75,7 +75,7 @@ const serviceSchema = {
 };
 
 export const metadata = {
-  title: "Couples Massage in Delhi - Best Couple Spa From ₹1999 | Spa Delhi",
+  title: "Couples Massage in Delhi - Best Couple Spa From ₹1999 | Luxury Russian Spa",
   description: "Couples massage in Delhi at our best couple spa outlets. Certified therapists, private hygienic rooms, couple spa packages across Delhi NCR. Book your slot now!",
   keywords: [
     "couples massage in delhi",
@@ -92,17 +92,17 @@ export const metadata = {
     "female to male massage delhi",
   ],
   openGraph: {
-    title: "Couples Massage in Delhi - Best Couple Spa From ₹1999 | Spa Delhi",
+    title: "Couples Massage in Delhi - Best Couple Spa From ₹1999 | Luxury Russian Spa",
     description: "Looking for the best couple spa in Delhi? Certified therapists, private rooms, and couple spa packages across Delhi, Gurgaon & Noida.",
-    images: ["https://www.spadelhi.com/images/Couple%20Massage.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/Couple%20Massage.webp"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/couples-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/couples-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/Couple%20Massage.webp"]
+    images: ["https://www.luxuryrussianspa.com/images/Couple%20Massage.webp"]
   }
 };
 

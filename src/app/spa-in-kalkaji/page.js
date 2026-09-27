@@ -82,7 +82,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Spa in Kalkaji - Full Body Massage & Wellness Centre | Spa Delhi",
+  title: "Spa in Kalkaji - Full Body Massage & Wellness Centre | Luxury Russian Spa",
   description:
     "Spa in Kalkaji near Kalkaji Temple & Nehru Place for full body, deep tissue & couple massage. Certified therapists, private hygienic rooms. Book from ₹1999 today!",
   keywords: [
@@ -103,19 +103,19 @@ export const metadata = {
     "spa near kalkaji metro station",
   ],
   openGraph: {
-    title: "Spa in Kalkaji - Full Body Massage & Wellness Centre | Spa Delhi",
+    title: "Spa in Kalkaji - Full Body Massage & Wellness Centre | Luxury Russian Spa",
     description:
       "Spa in Kalkaji near Kalkaji Temple & Nehru Place for full body, deep tissue & couple massage. Certified therapists, private hygienic rooms. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/Reflexology.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/Reflexology.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-kalkaji",
+    url: "https://www.luxuryrussianspa.com/spa-in-kalkaji",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-kalkaji",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-kalkaji",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/Reflexology.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/Reflexology.jpg"],
   },
 };
 
@@ -123,8 +123,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Kalkaji", item: "https://www.spadelhi.com/spa-in-kalkaji" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Kalkaji", item: "https://www.luxuryrussianspa.com/spa-in-kalkaji" },
   ],
 };
 

@@ -79,7 +79,7 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a spa in Paharganj?", answer: "Yes, Spa Delhi runs a genuine spa in Paharganj, right next to New Delhi Railway Station, offering full body, B2B, Thai, and couple massage in a private, hygienic setting." },
+  { question: "Is there a spa in Paharganj?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Paharganj, right next to New Delhi Railway Station, offering full body, B2B, Thai, and couple massage in a private, hygienic setting." },
   { question: "Do you offer a 24 hours spa in Paharganj?", answer: "Yes, our booking desk runs 24 hours — message us on WhatsApp or Telegram anytime and we'll confirm your massage in Paharganj session." },
   { question: "Where can I find a body massage spa in Paharganj?", answer: "Our Paharganj spa center is a short walk from New Delhi Railway Station and Main Bazaar, offering full body, B2B, and Thai spa options." },
   { question: "Do you provide home spa service near Paharganj?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in Central Delhi, including areas around Paharganj." },
@@ -105,7 +105,7 @@ export default function PaharganjPage() {
               Best Spa in <span className="text-amber-700">Paharganj</span> Near New Delhi Station
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Paharganj? Spa Delhi runs a genuine massage spa in Paharganj right next to New Delhi Railway Station, offering full body, B2B, and Thai massage in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Paharganj? Luxury Russian Spa runs a genuine massage spa in Paharganj right next to New Delhi Railway Station, offering full body, B2B, and Thai massage in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -268,7 +268,7 @@ export default function PaharganjPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Paharganj`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Paharganj`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

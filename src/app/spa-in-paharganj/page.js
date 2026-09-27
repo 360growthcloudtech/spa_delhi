@@ -6,7 +6,7 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "Is there a spa in Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, Spa Delhi runs a genuine spa in Paharganj, right next to New Delhi Railway Station, offering full body, B2B, Thai, and couple massage in a private, hygienic setting." } },
+    { "@type": "Question", name: "Is there a spa in Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, Luxury Russian Spa runs a genuine spa in Paharganj, right next to New Delhi Railway Station, offering full body, B2B, Thai, and couple massage in a private, hygienic setting." } },
     { "@type": "Question", name: "Do you offer a 24 hours spa in Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, our booking desk runs 24 hours — message us on WhatsApp or Telegram anytime and we'll confirm your massage in Paharganj session." } },
     { "@type": "Question", name: "Where can I find a body massage spa in Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Our Paharganj spa center is a short walk from New Delhi Railway Station and Main Bazaar, offering full body, B2B, and Thai spa options." } },
     { "@type": "Question", name: "Do you provide home spa service near Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, alongside our outlet, we send a therapist to your home anywhere in Central Delhi, including areas around Paharganj." } },
@@ -16,7 +16,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Paharganj - Near New Delhi Railway Station | Spa Delhi",
+  title: "Best Spa in Paharganj - Near New Delhi Railway Station | Luxury Russian Spa",
   description:
     "Best spa in Paharganj near New Delhi Railway Station & Main Bazaar. 24 hours booking, certified therapists, home & hotel spa available. Book from ₹1999!",
   keywords: [
@@ -36,19 +36,19 @@ export const metadata = {
     "thai spa in paharganj",
   ],
   openGraph: {
-    title: "Best Spa in Paharganj - Near New Delhi Railway Station | Spa Delhi",
+    title: "Best Spa in Paharganj - Near New Delhi Railway Station | Luxury Russian Spa",
     description:
       "Best spa in Paharganj near New Delhi Railway Station & Main Bazaar. 24 hours booking, certified therapists, home & hotel spa available. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-paharganj",
+    url: "https://www.luxuryrussianspa.com/spa-in-paharganj",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-paharganj",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-paharganj",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982849_female-masseur-giving-back-massage-client_23-2150461442.jpg"],
   },
 };
 
@@ -56,8 +56,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Paharganj", item: "https://www.spadelhi.com/spa-in-paharganj" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Paharganj", item: "https://www.luxuryrussianspa.com/spa-in-paharganj" },
   ],
 };
 

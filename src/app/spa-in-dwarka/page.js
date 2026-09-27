@@ -56,7 +56,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Is Spa Delhi in Dwarka convenient for business travellers?",
+      name: "Is Luxury Russian Spa in Dwarka convenient for business travellers?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes, our Dwarka outlet and hotel spa service are popular with business travellers and guests near IGI Airport who want a quick, professional massage before or after their trip.",
@@ -98,7 +98,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Dwarka - Luxury Body Massage Near IGI Airport | Spa Delhi",
+  title: "Best Spa in Dwarka - Luxury Body Massage Near IGI Airport | Luxury Russian Spa",
   description:
     "Best spa in Dwarka for luxury body massage & body spa near IGI Airport. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -124,19 +124,19 @@ export const metadata = {
     "night spa in dwarka",
   ],
   openGraph: {
-    title: "Best Spa in Dwarka - Luxury Body Massage Near IGI Airport | Spa Delhi",
+    title: "Best Spa in Dwarka - Luxury Body Massage Near IGI Airport | Luxury Russian Spa",
     description:
       "Best spa in Dwarka for luxury body massage & body spa near IGI Airport. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-dwarka",
+    url: "https://www.luxuryrussianspa.com/spa-in-dwarka",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-dwarka",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-dwarka",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg"],
   },
 };
 
@@ -144,8 +144,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Dwarka", item: "https://www.spadelhi.com/spa-in-dwarka" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Dwarka", item: "https://www.luxuryrussianspa.com/spa-in-dwarka" },
   ],
 };
 

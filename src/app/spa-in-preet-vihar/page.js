@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Preet Vihar near the metro station?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Preet Vihar, close to Preet Vihar Metro Station, Vikas Marg, and V3S Mall, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Preet Vihar, close to Preet Vihar Metro Station, Vikas Marg, and V3S Mall, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Preet Vihar?",
+      name: "What makes Luxury Russian Spa the best spa in Preet Vihar?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Preet Vihar for residents across East Delhi, from Karkardooma to Nirman Vihar.",
@@ -85,13 +85,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Preet Vihar", item: "https://www.spadelhi.com/spa-in-preet-vihar" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Preet Vihar", item: "https://www.luxuryrussianspa.com/spa-in-preet-vihar" },
   ],
 };
 
 export const metadata = {
-  title: "Best Spa in Preet Vihar - Full Body Massage Near Vikas Marg | Spa Delhi",
+  title: "Best Spa in Preet Vihar - Full Body Massage Near Vikas Marg | Luxury Russian Spa",
   description:
     "Best spa in Preet Vihar for full body & body massage near Vikas Marg Metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -115,19 +115,19 @@ export const metadata = {
     "hotel spa in preet vihar",
   ],
   openGraph: {
-    title: "Best Spa in Preet Vihar - Full Body Massage Near Vikas Marg | Spa Delhi",
+    title: "Best Spa in Preet Vihar - Full Body Massage Near Vikas Marg | Luxury Russian Spa",
     description:
       "Best spa in Preet Vihar for full body & body massage near Vikas Marg Metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982094_exfoliation-with-natural-bristle-brush-dry-brush-massage-preparing-skin-epilation_470400-470.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982094_exfoliation-with-natural-bristle-brush-dry-brush-massage-preparing-skin-epilation_470400-470.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-preet-vihar",
+    url: "https://www.luxuryrussianspa.com/spa-in-preet-vihar",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-preet-vihar",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-preet-vihar",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982094_exfoliation-with-natural-bristle-brush-dry-brush-massage-preparing-skin-epilation_470400-470.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982094_exfoliation-with-natural-bristle-brush-dry-brush-massage-preparing-skin-epilation_470400-470.jpg"],
   },
 };
 

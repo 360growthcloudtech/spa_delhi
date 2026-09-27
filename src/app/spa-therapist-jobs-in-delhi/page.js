@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa Therapist Jobs in Delhi", item: "https://www.spadelhi.com/spa-therapist-jobs-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa Therapist Jobs in Delhi", item: "https://www.luxuryrussianspa.com/spa-therapist-jobs-in-delhi" },
   ],
 };
 
 export const metadata = {
-  title: "Spa Therapist Jobs in Delhi - Part & Full Time | Spa Delhi",
+  title: "Spa Therapist Jobs in Delhi - Part & Full Time | Luxury Russian Spa",
   description: "Spa therapist jobs in Delhi, Noida & Gurgaon with part-time and full-time openings. Join a trusted, growing wellness brand. Contact us to apply today!",
   keywords: ["spa therapist jobs in delhi", "massage therapist jobs delhi", "spa jobs delhi", "part time spa jobs delhi"],
   openGraph: {
     title: "Looking for Spa Therapist jobs in Delhi? Part Time & Full Time",
     description: "Get the best Spa Therapist jobs in Delhi. We have part time and full time spa jobs available. Just contact us and get your spa therapist jobs in Delhi, Noida and Gurgaon. Contact Now",
-    images: ["https://www.spadelhi.com/images/5StarHotelSpa.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/5StarHotelSpa.jpg"],
     type: "website",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-therapist-jobs-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/spa-therapist-jobs-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/5StarHotelSpa.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/5StarHotelSpa.jpg"]
   }
 };
 

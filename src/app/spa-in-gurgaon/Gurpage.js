@@ -62,37 +62,37 @@ export default function Gurpage() {
     title: "The Leela Ambience Gurgaon Hotel & Residences",
     image: "/images/The_Leela_Ambience_Gurgaon_Hotel_&_Residences.jpg",
     description:
-      "The Leela Ambience Gurgaon is surrounded by grandeur, located next to Ambience Mall. Located at this historic site, Spa Delhi offers relaxing whole body massage services, deep tissue treatments, and aromatherapy to ensure that its guests can rest after a tiring meeting or trip. Every experience is designed to provide calmness and replenishment.",
+      "The Leela Ambience Gurgaon is surrounded by grandeur, located next to Ambience Mall. Located at this historic site, Luxury Russian Spa offers relaxing whole body massage services, deep tissue treatments, and aromatherapy to ensure that its guests can rest after a tiring meeting or trip. Every experience is designed to provide calmness and replenishment.",
   },
   {
     title: "Trident, Gurgaon",
     image: "/images/Trident,_Gurgaon.jpg",
     description:
-      "After the delight of harmony with grace at Trident Gurgaon. Our professional therapists will offer you personalized spa experiences that will help you overcome stress and tension. Select between body scrubs, aromatherapy, and reflexology to open your eyes. Spa Delhi promises a guest to feel spoiled, relaxed, and rejuvenated to the depths and breadth.",
+      "After the delight of harmony with grace at Trident Gurgaon. Our professional therapists will offer you personalized spa experiences that will help you overcome stress and tension. Select between body scrubs, aromatherapy, and reflexology to open your eyes. Luxury Russian Spa promises a guest to feel spoiled, relaxed, and rejuvenated to the depths and breadth.",
   },
   {
     title: "The Oberoi, Gurgaon",
     image: "/images/The_Oberoi,_Gurgaon.jpg",
     description:
-      "The Oberoi is an ideal combination of comfort and tranquility and where Spa Delhi takes its own therapies. Our whole body massage and hot stone treatment will provide us with complete relaxation, and all the stress will be relieved. Visitors go away with a more developed sense of balance, and they are able to face life with a new level of confidence.",
+      "The Oberoi is an ideal combination of comfort and tranquility and where Luxury Russian Spa takes its own therapies. Our whole body massage and hot stone treatment will provide us with complete relaxation, and all the stress will be relieved. Visitors go away with a more developed sense of balance, and they are able to face life with a new level of confidence.",
   },
   {
     title: "Taj City Centre, Gurgaon",
     image: "/images/Taj_City_Centre,_Gurgaon.jpg",
     description:
-      "At Taj City Centre, Spa Delhi offers you an experience that you will never forget, as body massages are aimed at curing and rejuvenating the body. Our therapies range in years-old Thai practices and Swedish ecstasy to ensure emotional and physical wellness. Enter the peace, and undergo a refreshing change in feel and calmness.",
+      "At Taj City Centre, Luxury Russian Spa offers you an experience that you will never forget, as body massages are aimed at curing and rejuvenating the body. Our therapies range in years-old Thai practices and Swedish ecstasy to ensure emotional and physical wellness. Enter the peace, and undergo a refreshing change in feel and calmness.",
   },
   {
     title: "Radisson Gurgaon Udyog Vihar",
     image: "/images/Radisson_Gurgaon_Udyog_Vihar.jpg",
     description:
-      "In the very center of the corporate district, Radisson Gurgaon Udyog Vihar provides a haven of relaxation with the help of Spa Delhi. Just like the professionals, we have treatments that eliminate work stress, muscle stiffness, and fatigue- the business needs to be back on track, productive, and at peace with itself easily.",
+      "In the very center of the corporate district, Radisson Gurgaon Udyog Vihar provides a haven of relaxation with the help of Luxury Russian Spa. Just like the professionals, we have treatments that eliminate work stress, muscle stiffness, and fatigue- the business needs to be back on track, productive, and at peace with itself easily.",
   },
   {
     title: "Hyatt Regency Gurgaon",
     image: "/images/Hyatt_Regency_Gurgaon.jpg",
     description:
-      "Spa Delhi at Hyatt Regency is all about wholesome satisfaction. Balinese massage and aromatherapy are our signature therapies to recommend and are used to detoxify your body and relax your mind. Experience the world of luxury where professional hands and scented oils make you travel to a new realm of rest.",
+      "Luxury Russian Spa at Hyatt Regency is all about wholesome satisfaction. Balinese massage and aromatherapy are our signature therapies to recommend and are used to detoxify your body and relax your mind. Experience the world of luxury where professional hands and scented oils make you travel to a new realm of rest.",
   },
   
 ];
@@ -185,7 +185,7 @@ export default function Gurpage() {
     title: 'Foreigner Staff',
     subtitle: 'Experienced and Certified Massage Experts',
     desc:
-      "At Spa Delhi, we pride ourselves in the fact that we have some of the best certified massage therapists in Gurgaon. All of our professionals are trained on different techniques of international and traditional massage, including Swedish, Balinese, Deep Tissue, and Thai massage techniques.",
+      "At Luxury Russian Spa, we pride ourselves in the fact that we have some of the best certified massage therapists in Gurgaon. All of our professionals are trained on different techniques of international and traditional massage, including Swedish, Balinese, Deep Tissue, and Thai massage techniques.",
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
@@ -196,7 +196,7 @@ export default function Gurpage() {
     title: 'Body Treatments',
     subtitle: 'Luxury That Reflects Elegance and Comfort',
     desc:
-      "We bring spa luxury to life. All the experiences that we make are imbued with grace, comfort, and calmness. Whether in our partnered spa lounge or enjoying leisure time in a hotel suite, Spa Delhi will exude an air of peace.",
+      "We bring spa luxury to life. All the experiences that we make are imbued with grace, comfort, and calmness. Whether in our partnered spa lounge or enjoying leisure time in a hotel suite, Luxury Russian Spa will exude an air of peace.",
     chips: [
       'Thai Herbal Compress',
       'Shiatsu',
@@ -216,7 +216,7 @@ const SERVICES_RIGHT = [
     title: 'Top Rated Services',
     subtitle: 'Premium Oils and Natural Products for Complete Rejuvenation',
     desc:
-      "Your skin is worth all the best and at Spa Delhi, we do not sacrifice on quality. We apply only high quality, skin loving oils, organic scrubs and natural ingredients of reliable suppliers. These luxurious combinations are not only relaxing to the muscles but they also nourish the skin and enhance circulation as well as deep hydration.",
+      "Your skin is worth all the best and at Luxury Russian Spa, we do not sacrifice on quality. We apply only high quality, skin loving oils, organic scrubs and natural ingredients of reliable suppliers. These luxurious combinations are not only relaxing to the muscles but they also nourish the skin and enhance circulation as well as deep hydration.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -290,7 +290,7 @@ const SERVICES_RIGHT = [
             </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Get the best massage with Spa Delhi in the most iconic 5-star hotels in Gurgaon. Our professional therapists are united in offering modern relaxation together with ancient healing, providing you with a refreshing getaway from your hectic lifestyle. Experience unparalleled comfort, custom-designed service, and overall well-being, designed to ensure your stay is memorable.
+            Get the best massage with Luxury Russian Spa in the most iconic 5-star hotels in Gurgaon. Our professional therapists are united in offering modern relaxation together with ancient healing, providing you with a refreshing getaway from your hectic lifestyle. Experience unparalleled comfort, custom-designed service, and overall well-being, designed to ensure your stay is memorable.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -428,7 +428,7 @@ const SERVICES_RIGHT = [
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
                       Massage at Top Hotels in Gurgaon
-Gurgaon, with its cosmopolitan atmosphere and corporate perfection, is a place where people can find luxury and calm down as well. Spa Delhi offers a luxurious range of massages and spa treatments introduced to hotels, which are of premium status in the city. It does not matter
+Gurgaon, with its cosmopolitan atmosphere and corporate perfection, is a place where people can find luxury and calm down as well. Luxury Russian Spa offers a luxurious range of massages and spa treatments introduced to hotels, which are of premium status in the city. It does not matter
 whether you are here on business or for recreation; our services transform your relaxation experience.
                     </motion.p>
                     
@@ -525,12 +525,12 @@ whether you are here on business or for recreation; our services transform your 
                                 viewport={{ once: true }}
                               >
                                 Rejuvenate Your Senses <span className="relative">
-                                  <span className="text-amber-600 z-10 relative">with Spa Delhi’s Luxury Massage Services in Gurgaon</span>
+                                  <span className="text-amber-600 z-10 relative">with Luxury Russian Spa’s Luxury Massage Services in Gurgaon</span>
                                   <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                                 </span>
                               </motion.h2>
                   <p className="text-gray-700 text-lg">
-                   Experience the ultimate in relaxation and luxury with the massage parlor in Gurgaon, Spa Delhi. Located in the midst of luxury hotels and business centers, our spa sessions are designed to leave you feeling relaxed and restored. You are a business owner who needs to relax or a traveler who needs to unwind after long, hectic days at work. Our professional therapists will offer therapies that soothe the body and revitalize the mind.
+                   Experience the ultimate in relaxation and luxury with the massage parlor in Gurgaon, Luxury Russian Spa. Located in the midst of luxury hotels and business centers, our spa sessions are designed to leave you feeling relaxed and restored. You are a business owner who needs to relax or a traveler who needs to unwind after long, hectic days at work. Our professional therapists will offer therapies that soothe the body and revitalize the mind.
                   </p>
                   <p className="text-gray-700 text-lg">
                    From full-body massages and aromatherapy to experiences designed specifically for couples, all services are offered using high-quality oils, gentle techniques, and international expertise.
@@ -580,7 +580,7 @@ whether you are here on business or for recreation; our services transform your 
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                      The selected collection of massage therapies by Spa Delhi will make your next business meeting or after a long flight a pleasure. Our offerings will revive your body, rejuvenate your energy and will offer mental tranquility; a conglomeration of science and luxury combined with nature.
+                      The selected collection of massage therapies by Luxury Russian Spa will make your next business meeting or after a long flight a pleasure. Our offerings will revive your body, rejuvenate your energy and will offer mental tranquility; a conglomeration of science and luxury combined with nature.
                     </motion.p>
     </div>
 
@@ -657,7 +657,7 @@ whether you are here on business or for recreation; our services transform your 
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Spa Delhi – <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Best Spa & Massage Centre in Gurgaon for Luxury Wellness Experiences</span>
+                      Luxury Russian Spa – <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Best Spa & Massage Centre in Gurgaon for Luxury Wellness Experiences</span>
                     </motion.h2>
           <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
         </div>
@@ -749,7 +749,7 @@ whether you are here on business or for recreation; our services transform your 
           >
             <div className="max-w-lg">
               <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                We are bringing the world-renowned spa to the heart of Gurgaon, offering therapeutic perfection in a setting of luxurious comfort at the Spa Delhi. As one of the most prominent massage centers in Delhi-NCR, we focus on providing health and wellness treatments that improve the body, enhance mood, and overall well-being. We have an expert team of international and Indian therapists, ensuring that your session is as unique as you need it to be, whether it involves tightening the deep muscles or relaxing the mind through pleasant aromatherapy.
+                We are bringing the world-renowned spa to the heart of Gurgaon, offering therapeutic perfection in a setting of luxurious comfort at the Luxury Russian Spa. As one of the most prominent massage centers in Delhi-NCR, we focus on providing health and wellness treatments that improve the body, enhance mood, and overall well-being. We have an expert team of international and Indian therapists, ensuring that your session is as unique as you need it to be, whether it involves tightening the deep muscles or relaxing the mind through pleasant aromatherapy.
                 <span className="font-medium text-stone-800"></span>
                 
               </p>
@@ -757,7 +757,7 @@ whether you are here on business or for recreation; our services transform your 
               
               
               <p className="text-stone-600 mb-6 leading-relaxed">
-                You can come to us at a five-star hotel, or you can make an appointment to have a post-work relaxation, but Spa Delhi can promise you an unforgettable experience in a spa that will be characterized by professionalism, privacy, and perfection. Wherever you have ultimate rejuvenation in Gurgaon, think Spa Delhi, and your wellness experience starts.
+                You can come to us at a five-star hotel, or you can make an appointment to have a post-work relaxation, but Luxury Russian Spa can promise you an unforgettable experience in a spa that will be characterized by professionalism, privacy, and perfection. Wherever you have ultimate rejuvenation in Gurgaon, think Luxury Russian Spa, and your wellness experience starts.
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-8">
@@ -822,11 +822,11 @@ whether you are here on business or for recreation; our services transform your 
                                                                                     transition={{ duration: 0.6 }}
                                                                                   >
                                                                                     <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                                                                    <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Why Choose Spa Delhi for Spa Services in Gurgaon</h1>
+                                                                                    <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Why Choose Luxury Russian Spa for Spa Services in Gurgaon</h1>
                                                                                     <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
                                                                                     <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                                                                                      This is the reason why people should choose Spa Delhi to get spa services in Gurgaon.
-At a place such as Gurgaon, where business people meet urbanization, leisure is no longer an indulgence, it is a must. Spa Delhi realizes that no human being needs a massage but an experience that would reach the soul, bring one to balance, and rejuvenate energy. Precisely, these are the things we provide therapy that cannot be matched, the relaxing atmosphere and professionalism in the ultimate luxury.
+                                                                                      This is the reason why people should choose Luxury Russian Spa to get spa services in Gurgaon.
+At a place such as Gurgaon, where business people meet urbanization, leisure is no longer an indulgence, it is a must. Luxury Russian Spa realizes that no human being needs a massage but an experience that would reach the soul, bring one to balance, and rejuvenate energy. Precisely, these are the things we provide therapy that cannot be matched, the relaxing atmosphere and professionalism in the ultimate luxury.
 
                                                                                     </p>
                                                                                   </motion.div>
@@ -1003,7 +1003,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                                                          </motion.h2>
                                                                                                                
                                                                                                                          <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                                                                                                                          The best hotels in Gurgaon are associated with the idea of class and sophistication - and that is what we offer. Spa Delhi promises you a relaxing experience of making a reservation, which is discreet, comfortable, and professional.
+                                                                                                                          The best hotels in Gurgaon are associated with the idea of class and sophistication - and that is what we offer. Luxury Russian Spa promises you a relaxing experience of making a reservation, which is discreet, comfortable, and professional.
                                                                                                                            <span className="font-semibold text-amber-700"></span>
                                                                                                                          </p>
                                                                                                                        </header>
@@ -1302,9 +1302,9 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
       {/* 700+ Words Content Block */}
       <div className="bg-white py-14 px-6 md:px-20">
         <div className="max-w-5xl mx-auto space-y-6 text-gray-700 text-lg leading-relaxed">
-          <h2 className="text-2xl font-bold text-amber-700 mb-4 text-center">Reimagine Relaxation with Spa Delhi</h2>
+          <h2 className="text-2xl font-bold text-amber-700 mb-4 text-center">Reimagine Relaxation with Luxury Russian Spa</h2>
           <p>
-           Enter the realm of opulence, calmness and renewal. Reserve your personal spa in the best hotels of Gurgaon with Spa Delhi - where one touch of your body will restore your mind. Live now and feel well redefined.
+           Enter the realm of opulence, calmness and renewal. Reserve your personal spa in the best hotels of Gurgaon with Luxury Russian Spa - where one touch of your body will restore your mind. Live now and feel well redefined.
           </p>
           
           <p className="font-medium text-center text-amber-700">

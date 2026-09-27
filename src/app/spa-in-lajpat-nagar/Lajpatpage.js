@@ -62,25 +62,25 @@ export default function Lajpatpage() {
     title: "Taj Mahal Hotel Lajpat Nagar",
     image: "/images/tajmahalhotel_lajpatnagar.jpg",
     description:
-      "At the Taj Mahal Hotel, Spa Delhi, you are welcomed to a luxurious spa setting. We apply deep oils and light yet firm movements in our methods to provide a deep calmness to both your mind and body.",
+      "At the Taj Mahal Hotel, Luxury Russian Spa, you are welcomed to a luxurious spa setting. We apply deep oils and light yet firm movements in our methods to provide a deep calmness to both your mind and body.",
   },
   {
     title: "The Oberoi Lajpat Nagar",
     image: "/images/TheOberoi_Lajpatnagar.webp",
     description:
-      "The Oberoi is a place for classy comfort, and Spa Delhi adds its own touch with tailored spa sessions. Mixing old ways with modern choices, these therapies help you fully relax.",
+      "The Oberoi is a place for classy comfort, and Luxury Russian Spa adds its own touch with tailored spa sessions. Mixing old ways with modern choices, these therapies help you fully relax.",
   },
   {
     title: "Eros Hotel New Delhi Lajpat Nagar",
     image: "/images/ErosHotel_lajpatnagar.jpg",
     description:
-      "Eros Hotel offers a quiet spot for Spa Delhi’s expert massages. Our employees will assist you in forgetting about stress and increase your mood through a calm attitude that aims at your entire health.",
+      "Eros Hotel offers a quiet spot for Luxury Russian Spa’s expert massages. Our employees will assist you in forgetting about stress and increase your mood through a calm attitude that aims at your entire health.",
   },
   {
     title: "Crowne Plaza Hotel",
     image: "/images/crowne-plaza-lajpatnagar.jpg",
     description:
-      "When you visit Crowne Plaza to have a Spa Delhi massage, then it becomes a serene place to be. All the treatments combat fatigue, make you sleep better, and get you in balance.",
+      "When you visit Crowne Plaza to have a Luxury Russian Spa massage, then it becomes a serene place to be. All the treatments combat fatigue, make you sleep better, and get you in balance.",
   },
 ];
   const pricingPlans = [
@@ -143,7 +143,7 @@ export default function Lajpatpage() {
     },
     {
       title: "B2B Massage",
-      description: "The Body-to-Body Massage spa in Lajpat Nagar at Spa Delhi will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
+      description: "The Body-to-Body Massage spa in Lajpat Nagar at Luxury Russian Spa will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
       icon: "💆‍♂️",
       url: "/b2b-massage-in-delhi",
     },
@@ -204,7 +204,7 @@ const SERVICES_RIGHT = [
     title: 'Top Rated Services',
     subtitle: 'Available at Top Lajpat Nagar Hotels',
     desc:
-      "No matter where you stay among Lajpat Nagar’s best hotels, Spa Delhi makes pampering services easy to reach.",
+      "No matter where you stay among Lajpat Nagar’s best hotels, Luxury Russian Spa makes pampering services easy to reach.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -236,7 +236,7 @@ const SERVICES_RIGHT = [
       {
         icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
         title: 'Call or Connect via Telegram',
-        text: 'Call or send a message at Telegram to the Spa Delhi team to have your time fixed.',
+        text: 'Call or send a message at Telegram to the Luxury Russian Spa team to have your time fixed.',
       },
     ]
   
@@ -279,7 +279,7 @@ const SERVICES_RIGHT = [
             </h2>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Enjoy the luxury at your exclusive spa in Lajpat Nagar at Spa Delhi, the premier massage centre that offers an array of premium relaxation and top-notch wellness services at the best hotels in the Lajpat Nagar area, New Delhi. Whether you are coming on business trips, travelling around or having a quick timeout, Spa Delhi will provide you with relaxing treatments. 
+            Enjoy the luxury at your exclusive spa in Lajpat Nagar at Luxury Russian Spa, the premier massage centre that offers an array of premium relaxation and top-notch wellness services at the best hotels in the Lajpat Nagar area, New Delhi. Whether you are coming on business trips, travelling around or having a quick timeout, Luxury Russian Spa will provide you with relaxing treatments. 
             </p>
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Our team includes trained experts who focus on calming, full-body, and couple massage options. Each service is designed to clear your mind, loosen tight muscles, and help you feel at ease.
@@ -520,10 +520,10 @@ const SERVICES_RIGHT = [
                                 </span>
                               </motion.h2>
                   <p className="text-gray-700 text-lg">
-                   Step into a calm space with Spa Delhi’s massages at Lajpat Nagar. Our spa sessions are placed close to popular hotels like The Oberoi, Eros Hotel and Taj Mahal Hotel so that you can have a blend of intelligent service and comfortable areas in which you can have a rest. 
+                   Step into a calm space with Luxury Russian Spa’s massages at Lajpat Nagar. Our spa sessions are placed close to popular hotels like The Oberoi, Eros Hotel and Taj Mahal Hotel so that you can have a blend of intelligent service and comfortable areas in which you can have a rest. 
                   </p>
                   <p className="text-gray-700 text-lg">
-                    Each guest can find something that will suit strong pressure with deep tissue massage or light oils with aromatherapy session. The therapists at Spa Delhi will never leave without applying the best oils and proven techniques to ensure that you leave each visit feeling better and more relaxed.
+                    Each guest can find something that will suit strong pressure with deep tissue massage or light oils with aromatherapy session. The therapists at Luxury Russian Spa will never leave without applying the best oils and proven techniques to ensure that you leave each visit feeling better and more relaxed.
                   </p>
                 </motion.div>
       
@@ -639,7 +639,7 @@ const SERVICES_RIGHT = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Spa Delhi: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">centre in Lajpat Nagar for Spa Services in Delhi</span>
+                      Luxury Russian Spa: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">centre in Lajpat Nagar for Spa Services in Delhi</span>
                     </motion.h2>
           <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
         </div>
@@ -731,7 +731,7 @@ const SERVICES_RIGHT = [
           >
             <div className="max-w-lg">
               <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Spa Delhi transforms the definition of comfort and style. Being recognized as one of the <span className="font-medium text-stone-800"> Massage centre in Lajpat Nagar</span>, we strive to provide you with services that will not only relax your body but also your mind. 
+                Luxury Russian Spa transforms the definition of comfort and style. Being recognized as one of the <span className="font-medium text-stone-800"> Massage centre in Lajpat Nagar</span>, we strive to provide you with services that will not only relax your body but also your mind. 
                  
                 <span className="font-medium text-stone-800"></span> <span className="font-medium text-stone-800"></span> 
                  <span className="font-medium text-stone-800"></span>
@@ -742,7 +742,7 @@ const SERVICES_RIGHT = [
               <p className="text-stone-600 mb-6 leading-relaxed">
                Our line of treatments encompasses all the B2B massages to Aromatherapy and Deep Tissue services, performed by both domestic and professional personnel. Visit the hotel whether you are going to spend your stay or to have a break, all the services will be tailored to satisfy your desires to achieve the best experience.
 
-Spa Delhi is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so you can relax in some of the finest locations in Delhi.
+Luxury Russian Spa is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so you can relax in some of the finest locations in Delhi.
 
               </p>
               
@@ -805,10 +805,10 @@ Spa Delhi is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so y
                                                                             transition={{ duration: 0.6 }}
                                                                           >
                                                                             <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                                                            <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Why Choose Spa Delhi for Spa Services in Lajpat Nagar</h1>
+                                                                            <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Why Choose Luxury Russian Spa for Spa Services in Lajpat Nagar</h1>
                                                                             <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
                                                                             <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                                                                              The difference is that at Spa Delhi, we blend knowledge, comfort and personal care to all the people who make their way in.
+                                                                              The difference is that at Luxury Russian Spa, we blend knowledge, comfort and personal care to all the people who make their way in.
                                                                             </p>
                                                                           </motion.div>
                                                                   
@@ -928,7 +928,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so y
                                                                                   <div>
                                                                                     <h4 className="text-2xl font-bold">Book Your Luxury Massage at Lajpat Nagar Today!</h4>
                                                                                     <p className="mt-2 opacity-95">
-                                                                                      Try Spa Delhi’s special massages if you are staying in The Oberoi, Taj Mahal Hotel, or Eros. Our careful team offers comfort at every step. For anyone hoping for a peaceful break in the city, just call and let Spa Delhi lead you toward deep relaxation and total wellness.
+                                                                                      Try Luxury Russian Spa’s special massages if you are staying in The Oberoi, Taj Mahal Hotel, or Eros. Our careful team offers comfort at every step. For anyone hoping for a peaceful break in the city, just call and let Luxury Russian Spa lead you toward deep relaxation and total wellness.
                                                                                     </p>
                                                                                   </div>
                                                                                   <div className="flex gap-3">
@@ -985,7 +985,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Lajpat Nagar and Dwarka, so y
                                                 </motion.h2>
                                       
                                                 <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                                                  The process of beginning to relax with Spa Delhi is easy.<span className="font-semibold text-amber-700">Here is how you can do it:</span> 
+                                                  The process of beginning to relax with Luxury Russian Spa is easy.<span className="font-semibold text-amber-700">Here is how you can do it:</span> 
                                                 </p>
                                               </header>
                                       

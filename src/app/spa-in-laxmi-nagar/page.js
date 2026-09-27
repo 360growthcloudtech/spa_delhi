@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Laxmi Nagar near the metro station?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Laxmi Nagar, close to Laxmi Nagar Metro Station and Vikas Marg, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Laxmi Nagar, close to Laxmi Nagar Metro Station and Vikas Marg, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Laxmi Nagar?",
+      name: "What makes Luxury Russian Spa the best spa in Laxmi Nagar?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Laxmi Nagar for residents across East Delhi, from Shakarpur to Nirman Vihar.",
@@ -77,13 +77,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Laxmi Nagar", item: "https://www.spadelhi.com/spa-in-laxmi-nagar" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Laxmi Nagar", item: "https://www.luxuryrussianspa.com/spa-in-laxmi-nagar" },
   ],
 };
 
 export const metadata = {
-  title: "Best Spa in Laxmi Nagar Delhi - Full Body Massage | Spa Delhi",
+  title: "Best Spa in Laxmi Nagar Delhi - Full Body Massage | Luxury Russian Spa",
   description:
     "Best spa in Laxmi Nagar for full body & body spa near Vikas Marg Metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -107,19 +107,19 @@ export const metadata = {
     "hotel spa in laxmi nagar",
   ],
   openGraph: {
-    title: "Best Spa in Laxmi Nagar Delhi - Full Body Massage | Spa Delhi",
+    title: "Best Spa in Laxmi Nagar Delhi - Full Body Massage | Luxury Russian Spa",
     description:
       "Best spa in Laxmi Nagar for full body & body spa near Vikas Marg Metro. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-laxmi-nagar",
+    url: "https://www.luxuryrussianspa.com/spa-in-laxmi-nagar",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-laxmi-nagar",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-laxmi-nagar",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_750_1758779654_happy-pretty-lady-lying-down-massage-bed-wellness-center-beauty-concept_151013-4029.jpg"],
   },
 };
 

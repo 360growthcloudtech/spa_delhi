@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Greater Kailash near M Block Market?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Greater Kailash, a short drive from M Block Market and N Block Market GK-1, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Greater Kailash, a short drive from M Block Market and N Block Market GK-1, offering full body, deep tissue, and B2B massage in a private, hygienic setting.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Greater Kailash?",
+      name: "What makes Luxury Russian Spa the best spa in Greater Kailash?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Greater Kailash for residents across GK-1 and GK-2.",
@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Greater Kailash - GK-1 & GK-2 Body Spa | Spa Delhi",
+  title: "Best Spa in Greater Kailash - GK-1 & GK-2 Body Spa | Luxury Russian Spa",
   description:
     "Best spa in Greater Kailash (spa GK 1 & GK 2) for body massage & body spa near M Block Market. Certified therapists, hygienic private rooms. Book from ₹1999!",
   keywords: [
@@ -105,19 +105,19 @@ export const metadata = {
     "spa near kailash colony metro",
   ],
   openGraph: {
-    title: "Best Spa in Greater Kailash - GK-1 & GK-2 Body Spa | Spa Delhi",
+    title: "Best Spa in Greater Kailash - GK-1 & GK-2 Body Spa | Luxury Russian Spa",
     description:
       "Best spa in Greater Kailash (spa GK 1 & GK 2) for body massage & body spa near M Block Market. Certified therapists, hygienic private rooms. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-greater-kailash",
+    url: "https://www.luxuryrussianspa.com/spa-in-greater-kailash",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-greater-kailash",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-greater-kailash",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg"],
   },
 };
 
@@ -125,8 +125,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Greater Kailash", item: "https://www.spadelhi.com/spa-in-greater-kailash" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Greater Kailash", item: "https://www.luxuryrussianspa.com/spa-in-greater-kailash" },
   ],
 };
 

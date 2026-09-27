@@ -18,7 +18,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Thai Massage in Lajpat Nagar - Stretch Therapy | Spa Delhi",
+  title: "Thai Massage in Lajpat Nagar - Stretch Therapy | Luxury Russian Spa",
   description:
     "Thai massage in Lajpat Nagar near Central Market for traditional stretching & stress relief. Certified therapists. Book from ₹1999 today!",
   keywords: [
@@ -32,19 +32,19 @@ export const metadata = {
     "thai massage near me lajpat nagar",
   ],
   openGraph: {
-    title: "Thai Massage in Lajpat Nagar - Stretch Therapy | Spa Delhi",
+    title: "Thai Massage in Lajpat Nagar - Stretch Therapy | Luxury Russian Spa",
     description:
       "Thai massage in Lajpat Nagar near Central Market for traditional stretching & stress relief. Certified therapists. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/lajpatnagar.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/lajpatnagar.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/thai-massage-in-lajpat-nagar",
+    url: "https://www.luxuryrussianspa.com/thai-massage-in-lajpat-nagar",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/thai-massage-in-lajpat-nagar",
+    canonical: "https://www.luxuryrussianspa.com/thai-massage-in-lajpat-nagar",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/lajpatnagar.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/lajpatnagar.jpg"],
   },
 };
 
@@ -52,8 +52,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Thai Massage in Lajpat Nagar", item: "https://www.spadelhi.com/thai-massage-in-lajpat-nagar" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Thai Massage in Lajpat Nagar", item: "https://www.luxuryrussianspa.com/thai-massage-in-lajpat-nagar" },
   ],
 };
 
@@ -64,9 +64,9 @@ const serviceSchema = {
   name: "Thai Massage in Lajpat Nagar",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Lajpat Nagar",
   description:

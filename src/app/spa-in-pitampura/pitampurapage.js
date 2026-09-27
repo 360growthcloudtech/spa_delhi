@@ -58,8 +58,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Pitampura near NSP?", answer: "Yes, Spa Delhi runs a genuine spa in Pitampura, close to Netaji Subhash Place and Metro Walk Mall, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Pitampura?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Pitampura for residents across North West Delhi." },
+  { question: "Is there a good spa in Pitampura near NSP?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Pitampura, close to Netaji Subhash Place and Metro Walk Mall, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Pitampura?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Pitampura for residents across North West Delhi." },
   { question: "Do you offer body massage in Pitampura for both men and women?", answer: "Yes, our body massage in Pitampura welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Is there a massage center in Pitampura near Rani Bagh or Kohat Enclave?", answer: "Yes, our massage center in Pitampura is easy to reach from Rani Bagh, Kohat Enclave, Shalimar Bagh, and Prashant Vihar, with home spa options across all of these areas." },
   { question: "Do you offer a Russian spa in Pitampura?", answer: "Yes, our russian spa in Pitampura packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff." },
@@ -86,7 +86,7 @@ export default function Pitampurapage() {
               Best Spa in <span className="text-amber-700">Pitampura</span> Near NSP
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Pitampura? Spa Delhi is a trusted luxury spa Pitampura destination for full body massage, deep tissue therapy, and body massage spa in Pitampura sessions, just minutes from Netaji Subhash Place and Metro Walk Mall. Every massage in Pitampura is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Pitampura? Luxury Russian Spa is a trusted luxury spa Pitampura destination for full body massage, deep tissue therapy, and body massage spa in Pitampura sessions, just minutes from Netaji Subhash Place and Metro Walk Mall. Every massage in Pitampura is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -188,10 +188,10 @@ export default function Pitampurapage() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Pitampura — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Pitampura. If you're tired, stressed, or need a refreshing break, our massage center in Pitampura is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in Pitampura. If you're tired, stressed, or need a refreshing break, our massage center in Pitampura is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near Netaji Subhash Place and Metro Walk Mall. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near Netaji Subhash Place and Metro Walk Mall. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
             {[
@@ -227,13 +227,13 @@ export default function Pitampurapage() {
             </h3>
             <div className="mt-5 space-y-4 text-gray-700">
               <p>
-                At Spa Delhi in Pitampura, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Pitampura is known for professional body massage by certified therapists.
+                At Luxury Russian Spa in Pitampura, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Pitampura is known for professional body massage by certified therapists.
               </p>
               <p>
                 Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our massage center in Pitampura, we focus on hygiene, comfort, and customer care to give you the best experience every time.
               </p>
               <p>
-                If you want a trusted body massage spa in Pitampura, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Pitampura ticks all boxes. That's why we're the first choice for the best spa in Pitampura and across North West Delhi.
+                If you want a trusted body massage spa in Pitampura, look for experienced therapists, transparent pricing, and complete cleanliness — and Luxury Russian Spa in Pitampura ticks all boxes. That's why we're the first choice for the best spa in Pitampura and across North West Delhi.
               </p>
             </div>
             <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -268,7 +268,7 @@ export default function Pitampurapage() {
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Pitampura for guests across Rani Bagh, Kohat Enclave, and Shalimar Bagh — a real massage center in Pitampura, not a generic neighbourhood parlour. Our body massage spa in Pitampura covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
+                Luxury Russian Spa is the best spa in Pitampura for guests across Rani Bagh, Kohat Enclave, and Shalimar Bagh — a real massage center in Pitampura, not a generic neighbourhood parlour. Our body massage spa in Pitampura covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
@@ -302,7 +302,7 @@ export default function Pitampurapage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Pitampura?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Pitampura?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Pitampura outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day.
             </p>
@@ -370,7 +370,7 @@ export default function Pitampurapage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Pitampura`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Pitampura`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

@@ -5,24 +5,24 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Best Spa Services in Delhi NCR - How to Choose | Spa Delhi",
+    "Best Spa Services in Delhi NCR - How to Choose | Luxury Russian Spa",
   description:
     "Best spa services in Delhi NCR explained - full body, couple, sandwich & B2B massage. Certified therapists guide your choice. Read the full guide & book today!",
   keywords: ["best spa services in delhi ncr", "spa services delhi ncr", "choosing spa treatment delhi"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/best-spa-service-in-delhi-ncr",
+      "https://www.luxuryrussianspa.com/blog/best-spa-service-in-delhi-ncr",
   },
   openGraph: {
     title: "Best Spa Services in Delhi NCR: What Services Should You Choose?",
     description:
       "Explore the best spa services in Delhi NCR, including Full Body Massage, Couple Massage, Sandwich Massage, and B2B Massage.",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -30,9 +30,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Best Spa Services in Delhi NCR", item: "https://www.spadelhi.com/blog/best-spa-service-in-delhi-ncr" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Best Spa Services in Delhi NCR", item: "https://www.luxuryrussianspa.com/blog/best-spa-service-in-delhi-ncr" },
   ],
 };
 

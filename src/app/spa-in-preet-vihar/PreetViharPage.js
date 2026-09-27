@@ -58,8 +58,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Preet Vihar near the metro station?", answer: "Yes, Spa Delhi runs a genuine spa in Preet Vihar, close to Preet Vihar Metro Station, Vikas Marg, and V3S Mall, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi." },
-  { question: "What makes Spa Delhi the best spa in Preet Vihar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Preet Vihar for residents across East Delhi, from Karkardooma to Nirman Vihar." },
+  { question: "Is there a good spa in Preet Vihar near the metro station?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Preet Vihar, close to Preet Vihar Metro Station, Vikas Marg, and V3S Mall, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across East Delhi." },
+  { question: "What makes Luxury Russian Spa the best spa in Preet Vihar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Preet Vihar for residents across East Delhi, from Karkardooma to Nirman Vihar." },
   { question: "Do you offer body massage in Preet Vihar for both men and women?", answer: "Yes, our massage in Preet Vihar welcomes both men and women, with male and female therapist options available — just mention your preference when booking your session on WhatsApp or Telegram." },
   { question: "Is there a massage center in Preet Vihar near Vikas Marg or Karkardooma?", answer: "Yes, our massage center in Preet Vihar is easy to reach from Vikas Marg, Karkardooma, Nirman Vihar, and Anand Vihar, with home spa options available across all of these nearby areas." },
   { question: "How do I find a spa near Preet Vihar for a same-day session?", answer: "Search spa near Preet Vihar and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day appointment depending on therapist availability." },
@@ -88,7 +88,7 @@ export default function PreetViharPage() {
               Best Spa in <span className="text-amber-700">Preet Vihar</span> Near Vikas Marg
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Preet Vihar? Spa Delhi is a trusted preet vihar spa centre offering full body massage, deep tissue therapy, and body spa in Preet Vihar sessions, just minutes from Preet Vihar Metro Station, Vikas Marg, and V3S Mall. Every massage in Preet Vihar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
+              Looking for a spa in Preet Vihar? Luxury Russian Spa is a trusted preet vihar spa centre offering full body massage, deep tissue therapy, and body spa in Preet Vihar sessions, just minutes from Preet Vihar Metro Station, Vikas Marg, and V3S Mall. Every massage in Preet Vihar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <p className="mt-4 max-w-2xl leading-relaxed text-gray-600">
               Whether you work near Karkardooma Courts, live around Nirman Vihar, or are simply passing through East Delhi, our outlet and our home spa network mean the best spa in Preet Vihar experience is never far away.
@@ -193,10 +193,10 @@ export default function PreetViharPage() {
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">Best Spa in Preet Vihar — Get Full Body Massage at Home &amp; Hotel</h2>
           <p className="mx-auto mt-5 max-w-3xl leading-relaxed text-gray-600">
-            Welcome to Spa Delhi — the best spa in Preet Vihar. If you're tired, stressed, or need a refreshing break, our massage center in Preet Vihar is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
+            Welcome to Luxury Russian Spa — the best spa in Preet Vihar. If you're tired, stressed, or need a refreshing break, our massage center in Preet Vihar is your perfect wellness destination. We offer a clean, luxury, and 100% hygienic ambience with a calm and secure environment for complete relaxation.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
-            With 24+ spa outlets across Delhi NCR, we're right here for you near Preet Vihar Metro Station, Vikas Marg, and V3S Mall. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Spa Delhi ensure a world-class spa experience every time.
+            With 24+ spa outlets across Delhi NCR, we're right here for you near Preet Vihar Metro Station, Vikas Marg, and V3S Mall. Whether you want a quick stress-relief session or a deep muscle relaxation therapy, our certified and professional therapists at Luxury Russian Spa ensure a world-class spa experience every time.
           </p>
           <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-600">
             Guests travelling from Karkardooma, Nirman Vihar, and Anand Vihar regularly choose our massage center in Preet Vihar because we keep every detail consistent — the same trained hands, the same quality oils, and the same honest pricing on every single visit.
@@ -235,13 +235,13 @@ export default function PreetViharPage() {
             </h3>
             <div className="mt-5 space-y-4 text-gray-700">
               <p>
-                At Spa Delhi in Preet Vihar, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Preet Vihar is known for professional body massage delivered by certified therapists.
+                At Luxury Russian Spa in Preet Vihar, we offer a delightful and truly relaxing experience to relieve your body and mind of pain. With 24+ spa outlets across Delhi, Gurgaon, and Noida, our spa in Preet Vihar is known for professional body massage delivered by certified therapists.
               </p>
               <p>
                 Our spa rooms offer a luxurious, hygienic, and peaceful ambience with a wide range of therapies like full body massage, deep tissue massage, B2B massage, and couple massage. At our massage center in Preet Vihar, we focus on hygiene, comfort, and customer care to give you the best experience every time you walk in.
               </p>
               <p>
-                If you want a trusted massage spa in Preet Vihar, look for experienced therapists, transparent pricing, and complete cleanliness — and Spa Delhi in Preet Vihar ticks all boxes. That's why we're the first choice for the best spa in Preet Vihar and across East Delhi.
+                If you want a trusted massage spa in Preet Vihar, look for experienced therapists, transparent pricing, and complete cleanliness — and Luxury Russian Spa in Preet Vihar ticks all boxes. That's why we're the first choice for the best spa in Preet Vihar and across East Delhi.
               </p>
               <p>
                 Many guests also search for a spa near Preet Vihar while commuting along Vikas Marg or after visiting V3S Mall — our outlet's location makes it an easy, unplanned stop whenever you need to unwind.
@@ -279,7 +279,7 @@ export default function PreetViharPage() {
 
             <div>
               <p className="text-gray-700">
-                Spa Delhi is the best spa in Preet Vihar for guests across Vikas Marg, Karkardooma, and Nirman Vihar — a real preet vihar spa centre, not a generic neighbourhood parlour. Our massage in Preet Vihar covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request. We also serve guests searching for a spa near Preet Vihar from as far as Anand Vihar and Laxmi Nagar.
+                Luxury Russian Spa is the best spa in Preet Vihar for guests across Vikas Marg, Karkardooma, and Nirman Vihar — a real preet vihar spa centre, not a generic neighbourhood parlour. Our massage in Preet Vihar covers full body, deep tissue, B2B, and couple massage, with home and hotel spa available on request. We also serve guests searching for a spa near Preet Vihar from as far as Anand Vihar and Laxmi Nagar.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
@@ -313,7 +313,7 @@ export default function PreetViharPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Preet Vihar?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Preet Vihar?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Preet Vihar outlet, we focus on creating a calm, comfortable experience where you can take a proper break from your day, away from the noise of Vikas Marg traffic.
             </p>
@@ -381,7 +381,7 @@ export default function PreetViharPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Preet Vihar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Preet Vihar`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}

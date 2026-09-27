@@ -11,12 +11,12 @@ const faqSchema = {
       name: "Is there a good spa in Hauz Khas Village?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Spa Delhi runs a genuine spa in Hauz Khas Village, close to Hauz Khas Market and Hauz Khas Metro Station, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across South Delhi.",
+        text: "Yes, Luxury Russian Spa runs a genuine spa in Hauz Khas Village, close to Hauz Khas Market and Hauz Khas Metro Station, offering full body, deep tissue, and B2B massage in a private, hygienic setting for guests across South Delhi.",
       },
     },
     {
       "@type": "Question",
-      name: "What makes Spa Delhi the best spa in Hauz Khas?",
+      name: "What makes Luxury Russian Spa the best spa in Hauz Khas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Hauz Khas and the best spa in Hauz Khas Village for residents and visitors alike.",
@@ -85,13 +85,13 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Hauz Khas", item: "https://www.spadelhi.com/spa-in-hauz-khas" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Hauz Khas", item: "https://www.luxuryrussianspa.com/spa-in-hauz-khas" },
   ],
 };
 
 export const metadata = {
-  title: "Best Spa in Hauz Khas Village - Body Massage | Spa Delhi",
+  title: "Best Spa in Hauz Khas Village - Body Massage | Luxury Russian Spa",
   description:
     "Best spa in Hauz Khas Village for full body & body massage near the market. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
   keywords: [
@@ -117,19 +117,19 @@ export const metadata = {
     "spa near green park",
   ],
   openGraph: {
-    title: "Best Spa in Hauz Khas Village - Body Massage | Spa Delhi",
+    title: "Best Spa in Hauz Khas Village - Body Massage | Luxury Russian Spa",
     description:
       "Best spa in Hauz Khas Village for full body & body massage near the market. Certified therapists, hygienic private rooms, home & hotel spa. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-hauz-khas",
+    url: "https://www.luxuryrussianspa.com/spa-in-hauz-khas",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-hauz-khas",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-hauz-khas",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982845_cute-woman-relaxing-massage-spa-salon_118454-10400.jpg"],
   },
 };
 

@@ -180,7 +180,7 @@ const specialFeatures = [
         <span className="block text-xl font-light tracking-widest text-[#85d200] mb-2">
           PREMIUM WELLNESS DESTINATIONS
         </span>
-        24+ Exclusive Spa Delhi Outlets
+        24+ Exclusive Luxury Russian Spa Outlets
       </h2>
       <div className="w-16 h-0.5 bg-[#85d200] mt-6" />
     </div>

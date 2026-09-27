@@ -31,43 +31,43 @@ const hotelOutlets = [
     title: "JW Marriott Hotel Aerocity",
     image: "/images/JW Marriott Hotel Aerocity.jpg",
     description:
-      "Spa Delhi is a hotel where one can indulge in luxurious massage therapies and enjoy the wellness experience in high-end comfort.",
+      "Luxury Russian Spa is a hotel where one can indulge in luxurious massage therapies and enjoy the wellness experience in high-end comfort.",
   },
   {
     title: "Lemon Tree Premier Aerocity",
     image: "/images/LemonTreePremierAerocity.jpg",
     description:
-      "De-Stress and refresh with Spa Delhi expert therapists who provide personalized spa treatments in the luxurious environment of Lemon Tree Premier.",
+      "De-Stress and refresh with Luxury Russian Spa expert therapists who provide personalized spa treatments in the luxurious environment of Lemon Tree Premier.",
   },
   {
     title: "Novotel New Delhi Aerocity",
     image: "/images/NovotelNewDelhiAerocity.webp",
     description:
-      "The ultimate relaxation with Spa Delhi massage therapies, a combination of luxury oils and professional skills in the modern space of Novotel.",
+      "The ultimate relaxation with Luxury Russian Spa massage therapies, a combination of luxury oils and professional skills in the modern space of Novotel.",
   },
   {
     title: "The Grand New Delhi",
     image: "/images/TheGrandNewDelhi.webp",
     description:
-      "Have a splendid experience of the SpA Delhi massage services that are provided at the Grand New Delhi hotel where you can enjoy total relaxation and wellness in the luxurious surroundings of The Grand.",
+      "Have a splendid experience of the Luxury Russian Spa massage services that are provided at the Grand New Delhi hotel where you can enjoy total relaxation and wellness in the luxurious surroundings of The Grand.",
   },
   {
     title: "IBIS New Delhi Aerocity",
     image: "/images/IBISNewDelhiAerocity.jpg",
     description:
-      "Enjoy Spa Delhi. Have a special massage therapy in IBIS, where masterful care is combined with a relaxing environment to get holistic rejuvenation.",
+      "Enjoy Luxury Russian Spa. Have a special massage therapy in IBIS, where masterful care is combined with a relaxing environment to get holistic rejuvenation.",
   },
   {
     title: "The Park Connaught Place",
     image: "/images/TheParkConnaughtPlace.webp",
     description:
-      "Find a pleasant getaway with Spa Delhi luxury massages, which relaxes the body and uplift your senses.",
+      "Find a pleasant getaway with Luxury Russian Spa luxury massages, which relaxes the body and uplift your senses.",
   },
   {
     title: "The Suryaa New Delhi (NFC)",
     image: "/images/TheSuryaaNewDelhi(NFC).webp",
     description:
-      "Experience Spa Delhi specializes in massage services at The Suryaa, where customers receive personalized well-being and ultimate relaxation in the massage salon.",
+      "Experience Luxury Russian Spa specializes in massage services at The Suryaa, where customers receive personalized well-being and ultimate relaxation in the massage salon.",
   },
   {
     title: "The Ashok (Chanakyapuri)",
@@ -130,13 +130,13 @@ const locations = [
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.webp",
-    description: "Spa in Aerocity, in which Spa Delhi provides a wide range of luxury services and well-being to all clients.",
+    description: "Spa in Aerocity, in which Luxury Russian Spa provides a wide range of luxury services and well-being to all clients.",
     link: "/spa-in-aerocity"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.webp",
-    description: "Experience a serene escape in Rohini with Spa Delhi's expertly delivered massage services for body and mind.",
+    description: "Experience a serene escape in Rohini with Luxury Russian Spa's expertly delivered massage services for body and mind.",
     link: "/spa-in-rohini"
   },
   {
@@ -148,13 +148,13 @@ const locations = [
   {
     name: "Pitampura",
     image: "/images/NovotelNewDelhiAerocity.webp",
-    description: "At Spa Delhi, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
+    description: "At Luxury Russian Spa, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
     link: "/spa-in-pitampura"
   },
   {
     name: "Dwarka",
     image: "/images/TheParkConnaughtPlace.webp",
-    description: "Take a break and refuel in Dwarka with Spa Delhi through a special massage session to regain your lost energy.",
+    description: "Take a break and refuel in Dwarka with Luxury Russian Spa through a special massage session to regain your lost energy.",
     link: "/spa-in-dwarka"
   },
   {
@@ -243,7 +243,7 @@ export default function Outpage() {
                   icon: <FaSpa className="text-teal-600" />
                 },
                 {
-                  question: "How do I find the nearest Spa Delhi outlet?",
+                  question: "How do I find the nearest Luxury Russian Spa outlet?",
                   answer: "YYou check our spa outlets in Delhi on the website. We mention our spa outlet locations. Check and book your spa session in the nearest spa to you. Our spa in lajpat nagar, pitampura and top 5 star hotel outlets.",
                   icon: <FaHandSparkles className="text-teal-600" />
                 },
@@ -385,7 +385,7 @@ export default function Outpage() {
           </h1>
 
           <p className="text-gray-600 max-w-md">
-            Enjoy unmatched luxury with expert massage services from Spa Delhi, now available at the best hotel spa outlets in the city, for the ultimate relaxation experience.
+            Enjoy unmatched luxury with expert massage services from Luxury Russian Spa, now available at the best hotel spa outlets in the city, for the ultimate relaxation experience.
           </p>
 
           {/* CTA Buttons */}
@@ -409,7 +409,7 @@ export default function Outpage() {
             href="/"
             className="text-sm text-gray-500 hover:text-amber-600"
           >
-            🌐 www.spadelhi.com
+            🌐 www.luxuryrussianspa.com
           </a>
         </motion.div>
 
@@ -451,7 +451,7 @@ export default function Outpage() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
-      Enjoy the luxury of a premium massage at Spa Delhi, offering high-quality hotel spa treatments and therapeutic massages at the finest spas in Delhi.
+      Enjoy the luxury of a premium massage at Luxury Russian Spa, offering high-quality hotel spa treatments and therapeutic massages at the finest spas in Delhi.
     </motion.p>
   
 
@@ -523,7 +523,7 @@ View All Services
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
-      Spa Delhi offers the world standard of wellness to the highest 5-star hotels making sure that the customers experience a personalized massage in a luxurious and serene environment.
+      Luxury Russian Spa offers the world standard of wellness to the highest 5-star hotels making sure that the customers experience a personalized massage in a luxurious and serene environment.
     </motion.p>
 
     {/* Cards */}
@@ -607,7 +607,7 @@ View All Services
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
                           >
-                            Spa Delhi: <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Best Massage Centre for Hotel Spa in Delhi</span>
+                            Luxury Russian Spa: <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Best Massage Centre for Hotel Spa in Delhi</span>
                           </motion.h2>
                 <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
               </div>
@@ -690,14 +690,14 @@ View All Services
                 >
                   <div className="max-w-lg">
                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                      In Spa Delhi, we re-brand the hotel wellness by offering our best massage services in the most luxurious hotels in Delhi. We have certified therapists including international experts that provide personalized treatments depending on your relaxation need and comfort. Through full-body treatments and B2B massages to couple treatments, all the experiences are aimed at melting away the stress, enhancing circulation, and restoring the vitality.
+                      In Luxury Russian Spa, we re-brand the hotel wellness by offering our best massage services in the most luxurious hotels in Delhi. We have certified therapists including international experts that provide personalized treatments depending on your relaxation need and comfort. Through full-body treatments and B2B massages to couple treatments, all the experiences are aimed at melting away the stress, enhancing circulation, and restoring the vitality.
                        <span className="font-medium text-stone-800"></span>
                     </p>
                     
                     
                     
                     <p className="text-stone-600 mb-6 leading-relaxed">
-                      Every session takes place in a hygienic, peaceful setting with premium oils to elevate the experience. Whether you're here for business, leisure, or a weekend break, Spa Delhi guarantees an elegant, comfortable session — which is why we're a favourite choice for hotel spa services in Delhi.
+                      Every session takes place in a hygienic, peaceful setting with premium oils to elevate the experience. Whether you're here for business, leisure, or a weekend break, Luxury Russian Spa guarantees an elegant, comfortable session — which is why we're a favourite choice for hotel spa services in Delhi.
                     </p>
                     
                     <div className="grid grid-cols-2 gap-4 mb-8">
@@ -829,7 +829,7 @@ View All Services
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
                 >
-                  Luxury spa outlets of Spa Delhi are the best way to treat yourself and they will provide professional massage treatments to the most preferred locations in the city.
+                  Luxury spa outlets of Luxury Russian Spa are the best way to treat yourself and they will provide professional massage treatments to the most preferred locations in the city.
                 </motion.p>
               </div>
       
@@ -995,11 +995,11 @@ View All Services
 
       {/* Description */}
       <p className="text-gray-700 leading-relaxed text-base md:text-lg">
-        Spa Delhi guarantees complete relaxation and restorativeness to all the guests in the top Hotels of Delhi. Our professional therapists use the most sophisticated massage methods, essential oils, and individual therapies to help people relieve stress, enhance blood flow, and boost energy. Every session is designed to offer a total wellness experience, whether it's a full body massage, B2B therapy, or a couple session. <strong></strong>
+        Luxury Russian Spa guarantees complete relaxation and restorativeness to all the guests in the top Hotels of Delhi. Our professional therapists use the most sophisticated massage methods, essential oils, and individual therapies to help people relieve stress, enhance blood flow, and boost energy. Every session is designed to offer a total wellness experience, whether it's a full body massage, B2B therapy, or a couple session. <strong></strong>
       </p>
       <p className="text-gray-700 leading-relaxed text-base md:text-lg">
         
-Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any room within a hotel to a haven of peace and pleasures. Customers leave rejuvenated, renewed and completely engrossed in an unmatched spa experience and Spa Delhi is the recommended name when it comes to luxury hotel massage services in the city.
+Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to convert any room within a hotel to a haven of peace and pleasures. Customers leave rejuvenated, renewed and completely engrossed in an unmatched spa experience and Luxury Russian Spa is the recommended name when it comes to luxury hotel massage services in the city.
 
       </p>
     </motion.div>
@@ -1239,7 +1239,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                           <div>
                                             <h3 className="text-2xl font-bold mb-4">Book Your Luxury Massage Today</h3>
                                             <p className="mb-4 opacity-90">
-                                              Indulge in the finest spa experience with Spa Delhi’s expert therapists delivering personalized massages at your preferred hotel.
+                                              Indulge in the finest spa experience with Luxury Russian Spa’s expert therapists delivering personalized massages at your preferred hotel.
                                             </p>
                                             <p className="opacity-90">
                                               Relax, rejuvenate, and restore balance in the most luxurious setting, ensuring a premium wellness journey that revitalizes both body and mind. Book your appointment now to experience ultimate relaxation and sophistication.

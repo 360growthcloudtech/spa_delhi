@@ -120,7 +120,7 @@ export default function Fullbodypage() {
               Full Body Massage in <span className="text-amber-700">Delhi</span> — Affordable Luxury
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for an affordable full body massage in Delhi? Spa Delhi runs a genuine full body massage spa in Delhi across 24+ outlets — with luxury full body massage options at five-star hotels and home visits anywhere in Delhi NCR, including Mahipalpur, Lajpat Nagar, Saket, and Rohini. A transparent full body massage price in Delhi, certified therapists, private rooms. First visit from ₹1999.
+              Looking for an affordable full body massage in Delhi? Luxury Russian Spa runs a genuine full body massage spa in Delhi across 24+ outlets — with luxury full body massage options at five-star hotels and home visits anywhere in Delhi NCR, including Mahipalpur, Lajpat Nagar, Saket, and Rohini. A transparent full body massage price in Delhi, certified therapists, private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -246,7 +246,7 @@ export default function Fullbodypage() {
           className="overflow-hidden rounded-[32px] bg-gradient-to-br from-[#113435] to-[#346065] p-8 text-white shadow-2xl md:p-12"
         >
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Why Choose Spa Delhi</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Why Choose Luxury Russian Spa</p>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">Delhi's Trusted Full Body Massage Spa</h2>
             <p className="mt-4 leading-relaxed text-white/80">
               More than a decade in, with{" "}

@@ -40,7 +40,7 @@ export default function ThaiMassagePage() {
     },
     {
       question: "Is there a Thai massage spa near me in Delhi?",
-      answer: "Yes, Spa Delhi operates 24+ outlets across Delhi NCR, including a centrally located outlet in Karol Bagh, so you can easily find a Thai massage spa near you.",
+      answer: "Yes, Luxury Russian Spa operates 24+ outlets across Delhi NCR, including a centrally located outlet in Karol Bagh, so you can easily find a Thai massage spa near you.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
@@ -176,7 +176,7 @@ export default function ThaiMassagePage() {
       title: '24+ Outlets Across Delhi NCR',
       subtitle: 'A Thai massage spa near you, wherever you are',
       desc:
-        "From Karol Bagh to Aerocity and Connaught Place, find a Spa Delhi outlet close to you for an authentic Thai massage session.",
+        "From Karol Bagh to Aerocity and Connaught Place, find a Luxury Russian Spa outlet close to you for an authentic Thai massage session.",
       chips: ['Central Delhi', 'Easy Metro Access', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
@@ -209,7 +209,7 @@ export default function ThaiMassagePage() {
     {
       icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
       title: 'Call or Connect via Telegram',
-      text: 'Call or send a message on Telegram to the Spa Delhi team to have your time fixed.',
+      text: 'Call or send a message on Telegram to the Luxury Russian Spa team to have your time fixed.',
     },
   ]
 
@@ -252,10 +252,10 @@ export default function ThaiMassagePage() {
               </div>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Searching for authentic Thai massage in Delhi? At Spa Delhi, our therapists use traditional Thai stretching, acupressure, and rhythmic compression to relieve stress, ease tight muscles, and improve flexibility — a full body Thai massage experience unlike a typical oil massage.
+                Searching for authentic Thai massage in Delhi? At Luxury Russian Spa, our therapists use traditional Thai stretching, acupressure, and rhythmic compression to relieve stress, ease tight muscles, and improve flexibility — a full body Thai massage experience unlike a typical oil massage.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a Thai massage spa near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Spa Delhi makes it easy to book a relaxing Thai massage session near you. Your first visit starts at just ₹1999 — book on WhatsApp today.
+                Looking for a Thai massage spa near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Luxury Russian Spa makes it easy to book a relaxing Thai massage session near you. Your first visit starts at just ₹1999 — book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -428,7 +428,7 @@ export default function ThaiMassagePage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for the best Thai massage in Delhi? Welcome to Spa Delhi, where our therapists blend traditional Thai stretching with acupressure and rhythmic compression to relieve stress, improve flexibility, and boost circulation. It's a more active, therapeutic experience than a typical oil-only massage.
+                    Looking for the best Thai massage in Delhi? Welcome to Luxury Russian Spa, where our therapists blend traditional Thai stretching with acupressure and rhythmic compression to relieve stress, improve flexibility, and boost circulation. It's a more active, therapeutic experience than a typical oil-only massage.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
@@ -509,7 +509,7 @@ export default function ThaiMassagePage() {
                 </span>
               </motion.h2>
               <p className="text-gray-700 text-lg">
-                Looking for the best Thai massage in Delhi with experienced foreign therapists? Welcome to Spa Delhi, where we offer authentic Thai techniques designed to help you relax, recharge, and enjoy a genuine wellness experience. Our team includes skilled Thai, Russian, and Uzbeki therapists trained in traditional stretching and pressure methods.
+                Looking for the best Thai massage in Delhi with experienced foreign therapists? Welcome to Luxury Russian Spa, where we offer authentic Thai techniques designed to help you relax, recharge, and enjoy a genuine wellness experience. Our team includes skilled Thai, Russian, and Uzbeki therapists trained in traditional stretching and pressure methods.
               </p>
               <p className="text-gray-700 text-lg">
                 At our Thai massage spa in Delhi, you can also choose from related treatments like <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve flexibility, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
@@ -678,10 +678,10 @@ export default function ThaiMassagePage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Why Spa Delhi Is the Best Thai Massage Spa in Delhi</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Why Luxury Russian Spa Is the Best Thai Massage Spa in Delhi</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From traditional Thai stretching to hygienic outlets and 24/7 booking support, Spa Delhi blends authenticity, comfort and personal care for every guest.
+                From traditional Thai stretching to hygienic outlets and 24/7 booking support, Luxury Russian Spa blends authenticity, comfort and personal care for every guest.
               </p>
             </motion.div>
 
@@ -796,7 +796,7 @@ export default function ThaiMassagePage() {
                     <div>
                       <h4 className="text-2xl font-bold">Book Your Thai Massage in Delhi Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether at our outlet, your hotel, or your home, Spa Delhi's therapists bring authentic Thai massage to you. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
+                        Whether at our outlet, your hotel, or your home, Luxury Russian Spa's therapists bring authentic Thai massage to you. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -851,7 +851,7 @@ export default function ThaiMassagePage() {
               </motion.h2>
 
               <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                The process of beginning to relax with Spa Delhi is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
+                The process of beginning to relax with Luxury Russian Spa is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
               </p>
             </header>
 

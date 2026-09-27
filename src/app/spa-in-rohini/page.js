@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Spa in Rohini - All Sectors & City Centre Mall | Spa Delhi",
+  title: "Best Spa in Rohini - All Sectors & City Centre Mall | Luxury Russian Spa",
   description:
     "Best spa in Rohini covering Sector 3 to 24 & City Centre Mall. Full body, deep tissue & couple massage near Rohini Metro. Certified therapists. Book from ₹1999!",
   keywords: [
@@ -102,19 +102,19 @@ export const metadata = {
     "night spa in rohini",
   ],
   openGraph: {
-    title: "Best Spa in Rohini - All Sectors & City Centre Mall | Spa Delhi",
+    title: "Best Spa in Rohini - All Sectors & City Centre Mall | Luxury Russian Spa",
     description:
       "Best spa in Rohini covering Sector 3 to 24 & City Centre Mall. Full body, deep tissue & couple massage near Rohini Metro. Certified therapists. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-rohini",
+    url: "https://www.luxuryrussianspa.com/spa-in-rohini",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-rohini",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-rohini",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg"],
   },
 };
 
@@ -122,8 +122,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Rohini", item: "https://www.spadelhi.com/spa-in-rohini" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Rohini", item: "https://www.luxuryrussianspa.com/spa-in-rohini" },
   ],
 };
 

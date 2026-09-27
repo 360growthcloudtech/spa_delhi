@@ -5,24 +5,24 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Spa in Connaught Place - Best Hotels & Massage Guide | Spa Delhi",
+    "Spa in Connaught Place - Best Hotels & Massage Guide | Luxury Russian Spa",
   description:
-    "Spa in Connaught Place guide to top hotel spas & massage options in Central Delhi. Trusted tips from Spa Delhi's wellness experts. Read the guide & book now!",
+    "Spa in Connaught Place guide to top hotel spas & massage options in Central Delhi. Trusted tips from Luxury Russian Spa's wellness experts. Read the guide & book now!",
   keywords: ["best hotels connaught place spa", "connaught place spa guide", "cp massage options"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/spa-in-connaught-place",
+      "https://www.luxuryrussianspa.com/blog/spa-in-connaught-place",
   },
   openGraph: {
     title: "Spa in Connaught Place: Best Hotels, Services, and Massage Options",
     description:
       "Discover the best spa in Connaught Place, hotel spa experiences, massage services, and tips for choosing the right massage centre in Delhi.",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -30,9 +30,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Spa in Connaught Place", item: "https://www.spadelhi.com/blog/spa-in-connaught-place" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
+    { "@type": "ListItem", position: 3, name: "Spa in Connaught Place", item: "https://www.luxuryrussianspa.com/blog/spa-in-connaught-place" },
   ],
 };
 
@@ -130,7 +130,7 @@ export default function SpaInConnaughtPlacePage() {
               </h1>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-                <span>By Spa Delhi Team</span>
+                <span>By Luxury Russian Spa Team</span>
                 <span>•</span>
                 <span>Updated July 2026</span>
                 <span>•</span>

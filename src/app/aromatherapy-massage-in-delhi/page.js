@@ -74,7 +74,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Aromatherapy Massage in Delhi - Stress Relief | Spa Delhi",
+  title: "Aromatherapy Massage in Delhi - Stress Relief | Luxury Russian Spa",
   description:
     "Aromatherapy massage in Delhi with calming essential oils for stress relief & better sleep. Certified therapists, hygienic setting. Book from ₹1999!",
   keywords: [
@@ -89,19 +89,19 @@ export const metadata = {
     "lavender oil massage delhi",
   ],
   openGraph: {
-    title: "Aromatherapy Massage in Delhi - Stress Relief | Spa Delhi",
+    title: "Aromatherapy Massage in Delhi - Stress Relief | Luxury Russian Spa",
     description:
       "Aromatherapy massage in Delhi with calming essential oils for stress relief & better sleep. Certified therapists, hygienic setting. Book from ₹1999!",
-    images: ["https://www.spadelhi.com/images/aromatherapy-featured-jpg.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/aromatherapy-featured-jpg.webp"],
     type: "website",
-    url: "https://www.spadelhi.com/aromatherapy-massage-in-delhi",
+    url: "https://www.luxuryrussianspa.com/aromatherapy-massage-in-delhi",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/aromatherapy-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/aromatherapy-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/aromatherapy-featured-jpg.webp"],
+    images: ["https://www.luxuryrussianspa.com/images/aromatherapy-featured-jpg.webp"],
   },
 };
 
@@ -109,8 +109,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Aromatherapy Massage in Delhi", item: "https://www.spadelhi.com/aromatherapy-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Aromatherapy Massage in Delhi", item: "https://www.luxuryrussianspa.com/aromatherapy-massage-in-delhi" },
   ],
 };
 
@@ -121,9 +121,9 @@ const serviceSchema = {
   name: "Aromatherapy Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:

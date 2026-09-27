@@ -6,7 +6,7 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "Is there a B2B massage spa in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, Spa Delhi operates 24+ B2B massage spa locations across Delhi and Delhi NCR, including Karol Bagh, Connaught Place, Dwarka, and Saket, alongside home and five-star hotel spa options." } },
+    { "@type": "Question", name: "Is there a B2B massage spa in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, Luxury Russian Spa operates 24+ B2B massage spa locations across Delhi and Delhi NCR, including Karol Bagh, Connaught Place, Dwarka, and Saket, alongside home and five-star hotel spa options." } },
     { "@type": "Question", name: "What happens in a body-to-body massage?", acceptedAnswer: { "@type": "Answer", text: "After a short consultation about your preferences, your therapist applies premium oils and uses a full-contact, body-to-body technique with smooth, controlled movements — performed in a private, closed room from start to finish." } },
     { "@type": "Question", name: "Are body-to-body massages legal in India?", acceptedAnswer: { "@type": "Answer", text: "Yes, body-to-body massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards." } },
     { "@type": "Question", name: "What does a body-to-body massage include?", acceptedAnswer: { "@type": "Answer", text: "A standard session includes a consultation, full-contact massage using premium aromatherapy-grade oils, and a private room for the full duration — with optional add-ons like aromatherapy or a facial depending on your package." } },
@@ -18,7 +18,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Best Body to Body Massage in Delhi - 24+ Outlets | Spa Delhi",
+  title: "Best Body to Body Massage in Delhi - 24+ Outlets | Luxury Russian Spa",
   description:
     "Best body to body massage in Delhi at 24+ outlets across Delhi NCR. Certified therapists, private rooms, hotel & home spa available. Book from ₹1999 today!",
   keywords: [
@@ -39,19 +39,19 @@ export const metadata = {
     "body to body massage price in delhi",
   ],
   openGraph: {
-    title: "Best Body to Body Massage in Delhi - 24+ Outlets | Spa Delhi",
+    title: "Best Body to Body Massage in Delhi - 24+ Outlets | Luxury Russian Spa",
     description:
       "Best body to body massage in Delhi at 24+ outlets across Delhi NCR. Certified therapists, private rooms, hotel & home spa available. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/b2b-massage.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/b2b-massage.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/b2b-massage-in-delhi",
+    url: "https://www.luxuryrussianspa.com/b2b-massage-in-delhi",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/b2b-massage-in-delhi",
+    canonical: "https://www.luxuryrussianspa.com/b2b-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/b2b-massage.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/b2b-massage.jpg"],
   },
 };
 
@@ -59,8 +59,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "B2B Massage in Delhi", item: "https://www.spadelhi.com/b2b-massage-in-delhi" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "B2B Massage in Delhi", item: "https://www.luxuryrussianspa.com/b2b-massage-in-delhi" },
   ],
 };
 
@@ -71,9 +71,9 @@ const serviceSchema = {
   name: "B2B Massage in Delhi",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Delhi",
   description:

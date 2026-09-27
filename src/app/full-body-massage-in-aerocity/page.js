@@ -18,7 +18,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Full Body Massage in Aerocity - Near IGI Airport | Spa Delhi",
+  title: "Full Body Massage in Aerocity - Near IGI Airport | Luxury Russian Spa",
   description:
     "Full body massage in Aerocity near IGI Airport Terminal 3 for complete relaxation. Certified therapists, hotel & outlet options. Book from ₹1999 today!",
   keywords: [
@@ -32,19 +32,19 @@ export const metadata = {
     "night full body massage aerocity",
   ],
   openGraph: {
-    title: "Full Body Massage in Aerocity - Near IGI Airport | Spa Delhi",
+    title: "Full Body Massage in Aerocity - Near IGI Airport | Luxury Russian Spa",
     description:
       "Full body massage in Aerocity near IGI Airport Terminal 3 for complete relaxation. Certified therapists, hotel & outlet options. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/full-body-massage-in-aerocity",
+    url: "https://www.luxuryrussianspa.com/full-body-massage-in-aerocity",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/full-body-massage-in-aerocity",
+    canonical: "https://www.luxuryrussianspa.com/full-body-massage-in-aerocity",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
   },
 };
 
@@ -52,8 +52,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Full Body Massage in Aerocity", item: "https://www.spadelhi.com/full-body-massage-in-aerocity" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Full Body Massage in Aerocity", item: "https://www.luxuryrussianspa.com/full-body-massage-in-aerocity" },
   ],
 };
 
@@ -64,9 +64,9 @@ const serviceSchema = {
   name: "Full Body Massage in Aerocity",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Aerocity",
   description:

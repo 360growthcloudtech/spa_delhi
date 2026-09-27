@@ -28,7 +28,7 @@ export default function AboutSection() {
             transition={{ delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <span className="mr-2">✦</span> About Our Spa Delhi{" "}
+            <span className="mr-2">✦</span> About Our Luxury Russian Spa{" "}
           </motion.div>
           <motion.h1
             className="text-3xl md:text-3xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
@@ -59,7 +59,7 @@ export default function AboutSection() {
               <strong className="text-amber-600 font-medium">
                 spa in Delhi
               </strong>
-              ? Spa Delhi is a trusted B2B spa offering genuine relaxation and
+              ? Luxury Russian Spa is a trusted B2B spa offering genuine relaxation and
               care. Choose from popular treatments like{" "}
               <a href="/b2b-massage-in-delhi" className="text-amber-700 underline font-medium">
                 B2B massage
@@ -197,7 +197,7 @@ export default function AboutSection() {
               <Image
                 loading="lazy"
                 src="/images/3777.webp"
-                alt="Luxury spa interior at Spa Delhi"
+                alt="Luxury spa interior at Luxury Russian Spa"
                 fill
                 className="object-cover rounded-[2.5rem] z-0"
               />{" "}

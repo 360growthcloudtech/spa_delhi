@@ -23,7 +23,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "B2B Massage in Connaught Place - Near Rajiv Chowk | Spa Delhi",
+  title: "B2B Massage in Connaught Place - Near Rajiv Chowk | Luxury Russian Spa",
   description:
     "B2B massage in Connaught Place near Rajiv Chowk Metro for genuine body to body therapy. Certified therapists, private hygienic rooms. Book from ₹2999 today!",
   keywords: [
@@ -37,19 +37,19 @@ export const metadata = {
     "b2b massage hotels near connaught place",
   ],
   openGraph: {
-    title: "B2B Massage in Connaught Place - Near Rajiv Chowk | Spa Delhi",
+    title: "B2B Massage in Connaught Place - Near Rajiv Chowk | Luxury Russian Spa",
     description:
       "B2B massage in Connaught Place near Rajiv Chowk Metro for genuine body to body therapy. Certified therapists, private hygienic rooms. Book from ₹2999 today!",
-    images: ["https://www.spadelhi.com/images/b2b_therapy.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/b2b_therapy.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/b2b-massage-in-connaught-place",
+    url: "https://www.luxuryrussianspa.com/b2b-massage-in-connaught-place",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/b2b-massage-in-connaught-place",
+    canonical: "https://www.luxuryrussianspa.com/b2b-massage-in-connaught-place",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/b2b_therapy.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/b2b_therapy.jpg"],
   },
 };
 
@@ -57,8 +57,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "B2B Massage in Connaught Place", item: "https://www.spadelhi.com/b2b-massage-in-connaught-place" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "B2B Massage in Connaught Place", item: "https://www.luxuryrussianspa.com/b2b-massage-in-connaught-place" },
   ],
 };
 
@@ -69,9 +69,9 @@ const serviceSchema = {
   name: "B2B Massage in Connaught Place",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Connaught Place",
   description:

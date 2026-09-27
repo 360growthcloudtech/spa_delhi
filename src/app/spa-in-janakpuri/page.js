@@ -82,7 +82,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Spa in Janakpuri - Full Body Massage Near Metro | Spa Delhi",
+  title: "Spa in Janakpuri - Full Body Massage Near Metro | Luxury Russian Spa",
   description:
     "Spa in Janakpuri for full body, deep tissue & couple massage near Janakpuri West Metro. Certified therapists, hygienic private rooms. Book today!",
   keywords: [
@@ -102,19 +102,19 @@ export const metadata = {
     "spa near janakpuri district centre",
   ],
   openGraph: {
-    title: "Spa in Janakpuri - Full Body Massage Near Metro | Spa Delhi",
+    title: "Spa in Janakpuri - Full Body Massage Near Metro | Luxury Russian Spa",
     description:
       "Spa in Janakpuri for full body, deep tissue & couple massage near Janakpuri West Metro. Certified therapists, hygienic private rooms. Book today!",
-    images: ["https://www.spadelhi.com/images/pexels-pavel-danilyuk-9119782.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/pexels-pavel-danilyuk-9119782.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-janakpuri",
+    url: "https://www.luxuryrussianspa.com/spa-in-janakpuri",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-janakpuri",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-janakpuri",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/pexels-pavel-danilyuk-9119782.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/pexels-pavel-danilyuk-9119782.jpg"],
   },
 };
 
@@ -122,8 +122,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Janakpuri", item: "https://www.spadelhi.com/spa-in-janakpuri" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Janakpuri", item: "https://www.luxuryrussianspa.com/spa-in-janakpuri" },
   ],
 };
 

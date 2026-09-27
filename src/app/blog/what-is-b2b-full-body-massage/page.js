@@ -7,24 +7,24 @@ import {
 
 export const metadata = {
   title:
-    "What Is a B2B Full Body Massage - Beginner's Guide | Spa Delhi",
+    "What Is a B2B Full Body Massage - Beginner's Guide | Luxury Russian Spa",
   description:
-    "B2B full body massage explained for beginners - how it works, benefits & safety tips. Trusted guide from Spa Delhi's certified therapists. Read now & book!",
+    "B2B full body massage explained for beginners - how it works, benefits & safety tips. Trusted guide from Luxury Russian Spa's certified therapists. Read now & book!",
   keywords: ["what is b2b full body massage", "b2b massage guide", "b2b massage beginners guide"],
   alternates: {
     canonical:
-      "https://www.spadelhi.com/blog/what-is-b2b-full-body-massage",
+      "https://www.luxuryrussianspa.com/blog/what-is-b2b-full-body-massage",
   },
   openGraph: {
     title: "What is a B2B Full Body Massage? Complete Beginner's Guide",
     description:
       "Learn what a B2B full body massage is, how it works, its benefits, safety tips, and everything beginners should know.",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/spa-treatments.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
   },
 };
 
@@ -32,9 +32,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.spadelhi.com/blog" },
-    { "@type": "ListItem", position: 3, name: "What is a B2B Full Body Massage", item: "https://www.spadelhi.com/blog/what-is-b2b-full-body-massage" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
+    { "@type": "ListItem", position: 3, name: "What is a B2B Full Body Massage", item: "https://www.luxuryrussianspa.com/blog/what-is-b2b-full-body-massage" },
   ],
 };
 
@@ -163,7 +163,7 @@ export default function B2BMassageBlogPage() {
               </h1>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-                <span>By Spa Delhi Team</span>
+                <span>By Luxury Russian Spa Team</span>
                 <span>•</span>
                 <span>Updated July 2026</span>
                 <span>•</span>

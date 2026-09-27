@@ -1,5 +1,5 @@
 # ==============================
-# Robots.txt for https://www.spadelhi.com/
+# Robots.txt for https://www.luxuryrussianspa.com/
 # Next.js Compatible Version
 # ==============================
 
@@ -21,4 +21,4 @@ Disallow: /private/
 # Disallow: /*?*
 
 # Sitemap Location
-Sitemap: https://www.spadelhi.com/sitemap_index.xml
+Sitemap: https://www.luxuryrussianspa.com/sitemap_index.xml

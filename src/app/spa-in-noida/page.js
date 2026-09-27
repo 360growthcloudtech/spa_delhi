@@ -20,7 +20,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Massage Spa in Noida - Luxury Spa Centre | Spa Delhi",
+  title: "Massage Spa in Noida - Luxury Spa Centre | Luxury Russian Spa",
   description:
     "Best massage spa in Noida covering Sector 18 & Greater Noida. Certified therapists, private rooms, hotel & home spa available. Book your session from ₹1999!",
   keywords: [
@@ -42,19 +42,19 @@ export const metadata = {
     "hotel spa in noida",
   ],
   openGraph: {
-    title: "Massage Spa in Noida - Luxury Spa Centre | Spa Delhi",
+    title: "Massage Spa in Noida - Luxury Spa Centre | Luxury Russian Spa",
     description:
       "Best massage spa in Noida covering Sector 18 & Greater Noida. Certified therapists, private rooms, hotel & home spa available. Book your session from ₹1999!",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-noida",
+    url: "https://www.luxuryrussianspa.com/spa-in-noida",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-noida",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-noida",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/fpkdl.com_960_1758982527_side-view-woman-getting-massaged-spa_23-2149871279.jpg"],
   },
 };
 
@@ -62,8 +62,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Noida", item: "https://www.spadelhi.com/spa-in-noida" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Noida", item: "https://www.luxuryrussianspa.com/spa-in-noida" },
   ],
 };
 

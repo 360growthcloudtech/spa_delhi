@@ -81,8 +81,8 @@ const pricingPlans = [
 ];
 
 const faqs = [
-  { question: "Is there a good spa in Mahipalpur near IGI Airport?", answer: "Yes, Spa Delhi runs a genuine spa in Mahipalpur, right in the NH8 hotel belt just minutes from IGI Airport Terminal 3, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
-  { question: "What makes Spa Delhi the best spa in Mahipalpur?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Mahipalpur for both residents and airport travellers." },
+  { question: "Is there a good spa in Mahipalpur near IGI Airport?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Mahipalpur, right in the NH8 hotel belt just minutes from IGI Airport Terminal 3, offering full body, deep tissue, and B2B massage in a private, hygienic setting." },
+  { question: "What makes Luxury Russian Spa the best spa in Mahipalpur?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Mahipalpur for both residents and airport travellers." },
   { question: "Do you offer a Russian spa in Mahipalpur?", answer: "Yes, our russian spa in Mahipalpur packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff — widely regarded as the best russian spa in Mahipalpur for guests wanting a genuine russian body spa mahipalpur experience." },
   { question: "How much does a body massage in Mahipalpur cost?", answer: "A body massage in Mahipalpur at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
   { question: "Do you provide hotel spa service in Mahipalpur?", answer: "Yes, hotel spa is one of our most popular services in Mahipalpur given the dense concentration of hotels here — our therapist arrives with everything needed for a relaxing, hygienic session at your room." },
@@ -109,7 +109,7 @@ export default function MahipalpurPage() {
               Best Spa in <span className="text-amber-700">Mahipalpur</span> Near IGI Airport
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for a spa in Mahipalpur close to IGI Airport? Spa Delhi brings professional full body massage, body massage in Mahipalpur, deep tissue therapy, and hotel spa services to Mahipalpur's hotel belt. Our russian spa in Mahipalpur packages are especially popular with airport travellers wanting a genuine russian body spa mahipalpur experience with certified foreign therapists. First visit from ₹1999.
+              Looking for a spa in Mahipalpur close to IGI Airport? Luxury Russian Spa brings professional full body massage, body massage in Mahipalpur, deep tissue therapy, and hotel spa services to Mahipalpur's hotel belt. Our russian spa in Mahipalpur packages are especially popular with airport travellers wanting a genuine russian body spa mahipalpur experience with certified foreign therapists. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://api.whatsapp.com/send?phone=919217255113" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -165,7 +165,7 @@ export default function MahipalpurPage() {
           <h2 className="text-center text-3xl font-bold text-[#113435] md:text-4xl">Massage in Mahipalpur — Your Trusted Spa Destination</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-gray-700">
             <p>
-              If you've been searching for a genuine spa in Mahipalpur, Spa Delhi is here to help you relax and recharge. We offer a complete range of treatments, from a relaxing body massage in Mahipalpur to a specialised B2B massage session — full body, deep tissue, sandwich, couple, and aromatherapy massage in Mahipalpur are all available at prices starting from just ₹1999 for your first visit.
+              If you've been searching for a genuine spa in Mahipalpur, Luxury Russian Spa is here to help you relax and recharge. We offer a complete range of treatments, from a relaxing body massage in Mahipalpur to a specialised B2B massage session — full body, deep tissue, sandwich, couple, and aromatherapy massage in Mahipalpur are all available at prices starting from just ₹1999 for your first visit.
             </p>
             <p>
               Many guests tell us we run the best spa Mahipalpur has to offer, and it's easy to see why — every massage in Mahipalpur is performed by certified, experienced hands. Whether you want a quick body massage in Mahipalpur before a flight or the best massage in Mahipalpur for deeper muscle recovery, our therapists tailor pressure, duration, and technique to your comfort level.
@@ -179,7 +179,7 @@ export default function MahipalpurPage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Spa Delhi in Mahipalpur?</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa in Mahipalpur?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
               Choosing a spa is about more than booking a massage. At our Mahipalpur outlet, we focus on creating a calm, comfortable experience where you can take a break from travel or your day.
             </p>
@@ -247,7 +247,7 @@ export default function MahipalpurPage() {
               transition={{ duration: 0.45, delay: index * 0.08 }}
               className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
             >
-              <Image src={t.image} alt={`${t.role} at Spa Delhi Mahipalpur`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src={t.image} alt={`${t.role} at Luxury Russian Spa Mahipalpur`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
               <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                 <FaStar className="text-amber-500" /> {t.experience}
@@ -317,7 +317,7 @@ export default function MahipalpurPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Areas We Serve</p>
           <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Conveniently Located Near These Mahipalpur Neighbourhoods</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-600">
-            Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Spa Delhi outlets in Delhi NCR</Link>.
+            Prefer another part of the city? Browse <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">all Luxury Russian Spa outlets in Delhi NCR</Link>.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">

@@ -237,7 +237,7 @@ export default function KarolBaghPage() {
     {
       icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
       title: 'Call or Connect via Telegram',
-      text: 'Call or send a message on Telegram to the Spa Delhi team to have your time fixed.',
+      text: 'Call or send a message on Telegram to the Luxury Russian Spa team to have your time fixed.',
     },
   ]
 
@@ -281,7 +281,7 @@ export default function KarolBaghPage() {
 
   
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a spa in Karol Bagh that genuinely relaxes your body? At Spa Delhi, we offer premium massage services in Karol Bagh, including B2B massage, full body massage, sandwich massage, Thai massage, and aromatherapy to help you ease stress and body pain. With 24+ spa outlets across Delhi NCR, we provide reliable massage service anytime and anywhere.
+                Looking for a spa in Karol Bagh that genuinely relaxes your body? At Luxury Russian Spa, we offer premium massage services in Karol Bagh, including B2B massage, full body massage, sandwich massage, Thai massage, and aromatherapy to help you ease stress and body pain. With 24+ spa outlets across Delhi NCR, we provide reliable massage service anytime and anywhere.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                 Our spa in Karol Bagh is located close to Karol Bagh Metro Station, making it easy to visit after work or on weekends. Whether you want a deep tissue massage, Thai therapy, or body to body massage, our trained therapists ensure complete privacy and a relaxing experience. Your first visit starts at just ₹1499. Book on WhatsApp today.
@@ -459,7 +459,7 @@ export default function KarolBaghPage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for a trusted massage centre in Karol Bagh? Welcome to Spa Delhi, where you can enjoy professional spa services including body massage, deep tissue massage, aromatherapy, hotel spa, and home spa services. Our relaxing spa experience is designed to help you reduce stress, relieve body pain, and feel refreshed after a long day.
+                    Looking for a trusted massage centre in Karol Bagh? Welcome to Luxury Russian Spa, where you can enjoy professional spa services including body massage, deep tissue massage, aromatherapy, hotel spa, and home spa services. Our relaxing spa experience is designed to help you reduce stress, relieve body pain, and feel refreshed after a long day.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
@@ -540,7 +540,7 @@ export default function KarolBaghPage() {
                 </span>
               </motion.h2>
               <p className="text-gray-700 text-lg">
-                Looking for the best spa in Karol Bagh with experienced foreign therapists? Welcome to Spa Delhi, where we offer premium spa and massage services designed to help you relax, recharge, and enjoy a luxurious wellness experience. Our team includes skilled Russian, Thai, and Uzbeki therapists who are trained in different massage styles to provide a soothing and memorable spa session.
+                Looking for the best spa in Karol Bagh with experienced foreign therapists? Welcome to Luxury Russian Spa, where we offer premium spa and massage services designed to help you relax, recharge, and enjoy a luxurious wellness experience. Our team includes skilled Russian, Thai, and Uzbeki therapists who are trained in different massage styles to provide a soothing and memorable spa session.
               </p>
               <p className="text-gray-700 text-lg">
                 At our massage centre in Karol Bagh, you can choose from a wide range of treatments including <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/swedish-massage-vs-deep-tissue-massage" className="text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>, aromatherapy, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, <Link href="/blog/thai-massage-does-to-your-body" className="text-amber-700 underline hover:text-amber-800">Thai massage</Link>, and <Link href="/sandwich-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve blood circulation, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
@@ -598,7 +598,7 @@ export default function KarolBaghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
               >
-                Conveniently located in Central Delhi, our Karol Bagh spa is easy to reach from these nearby neighbourhoods. Prefer another part of the city? Browse <Link href="/outlets" className="text-amber-700 underline hover:text-amber-800 font-medium">all Spa Delhi outlets in Delhi NCR</Link>.
+                Conveniently located in Central Delhi, our Karol Bagh spa is easy to reach from these nearby neighbourhoods. Prefer another part of the city? Browse <Link href="/outlets" className="text-amber-700 underline hover:text-amber-800 font-medium">all Luxury Russian Spa outlets in Delhi NCR</Link>.
               </motion.p>
 
               <motion.div
@@ -732,7 +732,7 @@ export default function KarolBaghPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Spa in Karol Bagh for Body Massage & Relaxing Spa Treatments</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From full body massage to couple spa and home spa in Karol Bagh, Spa Delhi blends skilled therapists, hygienic settings and personal care for every guest who walks in.
+                From full body massage to couple spa and home spa in Karol Bagh, Luxury Russian Spa blends skilled therapists, hygienic settings and personal care for every guest who walks in.
               </p>
             </motion.div>
 
@@ -847,7 +847,7 @@ export default function KarolBaghPage() {
                     <div>
                       <h4 className="text-2xl font-bold">Book Your Massage in Karol Bagh Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether you are near Karol Bagh Market, Rajendra Place, or Patel Nagar, Spa Delhi brings comfort at every step. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
+                        Whether you are near Karol Bagh Market, Rajendra Place, or Patel Nagar, Luxury Russian Spa brings comfort at every step. For anyone hoping for a peaceful break in the city, just call and let our team guide you toward deep relaxation and total wellness.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -902,7 +902,7 @@ export default function KarolBaghPage() {
               </motion.h2>
 
               <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                The process of beginning to relax with Spa Delhi is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
+                The process of beginning to relax with Luxury Russian Spa is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
               </p>
             </header>
 

@@ -121,7 +121,7 @@ export default function HomeOutlet() {
                  whileInView={{ opacity: 1, y: 0 }}
                  transition={{ delay: 0.4, duration: 0.5 }}
                >
-                 Our exclusive spa Delhi outlets offer world-class therapies In 5 Star <a href="/outlets">Hotels Spa In Delhi</a>
+                 Our exclusive Luxury Russian Spa outlets offer world-class therapies In 5 Star <a href="/outlets">Hotels Spa In Delhi</a>
                </motion.p>
                
                <motion.div

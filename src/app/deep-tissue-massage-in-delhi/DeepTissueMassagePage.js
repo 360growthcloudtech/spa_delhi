@@ -183,7 +183,7 @@ export default function DeepTissueMassagePage() {
       title: '24+ Outlets Across Delhi NCR',
       subtitle: 'A deep tissue massage spa near you, wherever you are',
       desc:
-        "From Karol Bagh to Aerocity and Connaught Place, find a Spa Delhi outlet close to you for a focused deep tissue session.",
+        "From Karol Bagh to Aerocity and Connaught Place, find a Luxury Russian Spa outlet close to you for a focused deep tissue session.",
       chips: ['Central Delhi', 'Easy Metro Access', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
@@ -216,7 +216,7 @@ export default function DeepTissueMassagePage() {
     {
       icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
       title: 'Call or Connect via Telegram',
-      text: 'Call or send a message on Telegram to the Spa Delhi team to have your time fixed.',
+      text: 'Call or send a message on Telegram to the Luxury Russian Spa team to have your time fixed.',
     },
   ]
 
@@ -259,10 +259,10 @@ export default function DeepTissueMassagePage() {
               </div>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Living with back pain, stiff shoulders, or muscle knots that never seem to go away? At Spa Delhi, our deep tissue massage uses slow, firm pressure to work into the deeper muscle layers — a more targeted approach than a typical relaxation massage.
+                Living with back pain, stiff shoulders, or muscle knots that never seem to go away? At Luxury Russian Spa, our deep tissue massage uses slow, firm pressure to work into the deeper muscle layers — a more targeted approach than a typical relaxation massage.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Looking for a deep tissue massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Spa Delhi makes it easy to book a session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
+                Looking for a deep tissue massage near me? With 24+ outlets across Delhi NCR, including a central outlet in Karol Bagh, Luxury Russian Spa makes it easy to book a session close to you. Your first visit starts at just ₹1999 — book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -437,7 +437,7 @@ export default function DeepTissueMassagePage() {
               >
                 <div className="max-w-lg">
                   <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                    Looking for the best deep tissue massage in Delhi? Welcome to Spa Delhi, where our therapists use slow, focused pressure to reach the muscle layers behind chronic back pain, tight shoulders, and stubborn knots — not just a surface-level rubdown.
+                    Looking for the best deep tissue massage in Delhi? Welcome to Luxury Russian Spa, where our therapists use slow, focused pressure to reach the muscle layers behind chronic back pain, tight shoulders, and stubborn knots — not just a surface-level rubdown.
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
@@ -687,7 +687,7 @@ export default function DeepTissueMassagePage() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Deep Tissue Massage in Delhi for Chronic Pain Relief</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                From trained therapists to hygienic outlets and 24/7 booking support, Spa Delhi blends real pain relief with comfort and personal care.
+                From trained therapists to hygienic outlets and 24/7 booking support, Luxury Russian Spa blends real pain relief with comfort and personal care.
               </p>
             </motion.div>
 
@@ -802,7 +802,7 @@ export default function DeepTissueMassagePage() {
                     <div>
                       <h4 className="text-2xl font-bold">Book Your Deep Tissue Massage Today!</h4>
                       <p className="mt-2 opacity-95">
-                        Whether at our outlet, your hotel, or your home, Spa Delhi's therapists bring real, focused pain relief to you. For anyone tired of muscle knots that just won't quit, just call and let our team guide you toward lasting relief.
+                        Whether at our outlet, your hotel, or your home, Luxury Russian Spa's therapists bring real, focused pain relief to you. For anyone tired of muscle knots that just won't quit, just call and let our team guide you toward lasting relief.
                       </p>
                     </div>
                     <div className="flex gap-3">
@@ -857,7 +857,7 @@ export default function DeepTissueMassagePage() {
               </motion.h2>
 
               <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-                The process of beginning to relax with Spa Delhi is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
+                The process of beginning to relax with Luxury Russian Spa is easy. <span className="font-semibold text-amber-700">Here is how you can do it:</span>
               </p>
             </header>
 

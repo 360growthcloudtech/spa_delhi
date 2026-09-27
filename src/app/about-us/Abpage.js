@@ -38,13 +38,13 @@ import {
   const faqs = [
     
     {
-      question: "What makes SpaDelhi different from other massage services in Delhi?",
-      answer: "The remarkable difference is that at spaDelhi, we have integrated luxury, professionalism and personalization. We provide our services in high-end hotels only, so the atmosphere is world-class with complete relaxation.",
+      question: "What makes Luxury Russian Spa different from other massage services in Delhi?",
+      answer: "The remarkable difference is that at Luxury Russian Spa, we have integrated luxury, professionalism and personalization. We provide our services in high-end hotels only, so the atmosphere is world-class with complete relaxation.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
       question: "Can I book a couple massage at my hotel room in Delhi?",
-      answer: "Absolutely! Spa Delhi offers a couple massages that are delivered right in your hotel room to produce the ideal marital and refreshing experience.",
+      answer: "Absolutely! Luxury Russian Spa offers a couple massages that are delivered right in your hotel room to produce the ideal marital and refreshing experience.",
       icon: <FaHandSparkles className="text-teal-600" />
     },
     
@@ -55,7 +55,7 @@ import {
     },
     {
       question: "Do you offer late-night massage services in hotels in Delhi?",
-      answer: "Yes, Spa Delhi offers convenient opening and closing times, including late-night sessions, allowing travelers and guests can relax at unusual times.",
+      answer: "Yes, Luxury Russian Spa offers convenient opening and closing times, including late-night sessions, allowing travelers and guests can relax at unusual times.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
@@ -64,8 +64,8 @@ import {
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-              question: "Need Luxury massage in SpaDelhi? Book Today?",
-              answer: "We revisit the concept of relaxation at SpaDelhi by incorporating a luxurious, comfortable and professional approach. You are there to do business, have fun, or fall in love; our services will provide you with a memorable experience of wellness in Delhi. It is not too late and you can book your massage therapy and enjoy the reason why Spa Delhi is the No.1 Massage Brand in Delhi.",
+              question: "Need Luxury massage in Luxury Russian Spa? Book Today?",
+              answer: "We revisit the concept of relaxation at Luxury Russian Spa by incorporating a luxurious, comfortable and professional approach. You are there to do business, have fun, or fall in love; our services will provide you with a memorable experience of wellness in Delhi. It is not too late and you can book your massage therapy and enjoy the reason why Luxury Russian Spa is the No.1 Massage Brand in Delhi.",
               icon: <FaSpa className="text-teal-600" />
             },
   ];
@@ -146,19 +146,19 @@ const featuresData = [
   {
     title: "Wide Range of Luxurious Services",
     description:
-      "SpaDelhi offers a wide range of massage treatments, carefully selected to suit each individual's mood, lifestyle, and requirements. Since a Full-Body Massage can be so invigorating, our B2B Massage and couples ' massages are designed to uplift your physical and emotional well-being. Every session is designed to offer the utmost relaxation, and each visit becomes a journey of comfort to remember.",
+      "Luxury Russian Spa offers a wide range of massage treatments, carefully selected to suit each individual's mood, lifestyle, and requirements. Since a Full-Body Massage can be so invigorating, our B2B Massage and couples ' massages are designed to uplift your physical and emotional well-being. Every session is designed to offer the utmost relaxation, and each visit becomes a journey of comfort to remember.",
     image: "/images/HelpstoDe-Stress.webp",
   },
   {
     title: "Highly Skilled & Professional Therapists",
     description:
-      "In our opinion, the competence of therapists significantly influences the quality of a spa. We have a team of certified, trained and highly skilled therapists at SpaDelhi who know the art of healing touch. They are not only interested in relaxation but also in providing high-quality personalised care, which helps reduce stress and enhances the state of well-being by improving blood flow and circulation.",
+      "In our opinion, the competence of therapists significantly influences the quality of a spa. We have a team of certified, trained and highly skilled therapists at Luxury Russian Spa who know the art of healing touch. They are not only interested in relaxation but also in providing high-quality personalised care, which helps reduce stress and enhances the state of well-being by improving blood flow and circulation.",
     image: "/images/improvebloodflow.webp",
   },
   {
     title: " Luxurious Ambience & Top Hotels Partnership",
     description:
-      "The difference that makes SpaDelhi special is that we provide our exclusive services in 5-star hotels in Delhi NCR only, in places like Connaught Place, Dwarka, Aerocity, Noida and Gurgaon. Through these alliances, we can offer massages in five-star hotel environments, with a blend of both luxury and peace. The calmness, modernity and professionalism have guaranteed you the best spa experience in Delhi.",
+      "The difference that makes Luxury Russian Spa special is that we provide our exclusive services in 5-star hotels in Delhi NCR only, in places like Connaught Place, Dwarka, Aerocity, Noida and Gurgaon. Through these alliances, we can offer massages in five-star hotel environments, with a blend of both luxury and peace. The calmness, modernity and professionalism have guaranteed you the best spa experience in Delhi.",
     image: "/images/SkinMoreRadiant.jpeg",
   },
 ];
@@ -312,12 +312,12 @@ export default function Abpage({
           <h1 className="text-4xl md:text-5xl font-light text-gray-800">
              
             <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Welcome</span>
-            To Spa Delhi
+            To Luxury Russian Spa
             <span className="block mt-2 font-medium"> Luxury Spa <span className="text-rose-600">Services Across NCR</span></span>
           </h1>
           
           <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At SpaDelhi, we are not only a massage centre, but also your entire companion in relaxation, rejuvenation, and overall well-being. Premium services include spa therapies designed to restore your body, mind, and spirit, and are offered at the city's most prestigious hotels in Delhi.
+            At Luxury Russian Spa, we are not only a massage centre, but also your entire companion in relaxation, rejuvenation, and overall well-being. Premium services include spa therapies designed to restore your body, mind, and spirit, and are offered at the city's most prestigious hotels in Delhi.
           </p>
           
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -404,7 +404,7 @@ export default function Abpage({
                           transition={{ delay: 0.2 }}
                           viewport={{ once: true }}
                         >
-                          <span className="mr-2">✦</span> About Our Spa Delhi
+                          <span className="mr-2">✦</span> About Our Luxury Russian Spa
                         </motion.div>
             
                         <motion.h2
@@ -420,13 +420,13 @@ export default function Abpage({
                           </span>
                         </motion.h2>
             <p className="text-gray-700 text-lg">
-              Spa Delhi is not just another massage and wellness spa it is a place where luxury, relaxation, and holistic healing collide. We are very proud to have re-engineered the concept of body wellness by incorporating the old massage therapy with modern spa ideas. Having launched with the aim of offering a stress-free holiday resort to working professionals, couples, and travellers, spa Delhi has emerged to be one of the most reliable and most demanded wellness resorts in the Delhi NCR.
+              Luxury Russian Spa is not just another massage and wellness spa it is a place where luxury, relaxation, and holistic healing collide. We are very proud to have re-engineered the concept of body wellness by incorporating the old massage therapy with modern spa ideas. Having launched with the aim of offering a stress-free holiday resort to working professionals, couples, and travellers, Luxury Russian Spa has emerged to be one of the most reliable and most demanded wellness resorts in the Delhi NCR.
             </p>
             <p className="text-gray-700 text-lg">
-             Our exceptionally trained therapists, top of the world spa facilities, keen concern towards hygiene and comfort assure our all the guests a memorable relaxing experience. Unlike other spas, Spa Delhi believes in designing a personalized therapy that can do best to your body needs, be it the need to relax and unwind after a hectic day, revitalize your body after a busy day, or even to have a spa date with your loved one.
+             Our exceptionally trained therapists, top of the world spa facilities, keen concern towards hygiene and comfort assure our all the guests a memorable relaxing experience. Unlike other spas, Luxury Russian Spa believes in designing a personalized therapy that can do best to your body needs, be it the need to relax and unwind after a hectic day, revitalize your body after a busy day, or even to have a spa date with your loved one.
             </p>
             <p className="text-gray-700 text-lg">
-              We have established an image over the years not only of providing quality services but also of an environment that is safe, luxurious, and customer-centric. Spa Delhi is renowned today as the premier body massage service in Delhi, offering a diverse range of services that include full-body therapies, Ayurvedic treatments, couples' massages, and B2B massages.
+              We have established an image over the years not only of providing quality services but also of an environment that is safe, luxurious, and customer-centric. Luxury Russian Spa is renowned today as the premier body massage service in Delhi, offering a diverse range of services that include full-body therapies, Ayurvedic treatments, couples' massages, and B2B massages.
             </p>
             
             {/* <p className="text-gray-700 text-lg">
@@ -633,7 +633,7 @@ export default function Abpage({
             </h2>
 
             <p className="mt-4 text-gray-700 max-w-xl">
-             We have also had the honour of collaborating with some of the most esteemed hotels to provide in-room massage and <a href='/spa-in-aerocity'><span className="text-amber-600"> spa in Aerocity</span></a>, Connaught Place (CP),  Noida, Gurgaon or Dwarka, SpaDelhi will bring its spa to your door.
+             We have also had the honour of collaborating with some of the most esteemed hotels to provide in-room massage and <a href='/spa-in-aerocity'><span className="text-amber-600"> spa in Aerocity</span></a>, Connaught Place (CP),  Noida, Gurgaon or Dwarka, Luxury Russian Spa will bring its spa to your door.
             </p>
 
             {/* three highlight chips */}
@@ -853,7 +853,7 @@ export default function Abpage({
           >
             <p className="text-sm font-medium text-amber-600 uppercase">Our Promise</p>
             <h3 className="mt-3 text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">
-              Why Choose Spa Delhi for Relaxation & Wellness
+              Why Choose Luxury Russian Spa for Relaxation & Wellness
             </h3>
             <p className="mt-4 text-gray-700 max-w-xl">
               A sanctuary crafted for deep relaxation — curated therapies, expert therapists, 
@@ -941,7 +941,7 @@ export default function Abpage({
             </div>
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Values</h3>
             <p className="text-sm text-gray-600">
-              We are of the opinion that trust forms the basis of any wellness endeavour. This is the reason why Spa Delhi ensures the hygiene, privacy, as well as professionalism. All therapists receive specialized training and each session will be quality checked to maintain a safe, comfortable environment among all of our guests.
+              We are of the opinion that trust forms the basis of any wellness endeavour. This is the reason why Luxury Russian Spa ensures the hygiene, privacy, as well as professionalism. All therapists receive specialized training and each session will be quality checked to maintain a safe, comfortable environment among all of our guests.
             </p>
           </article>
         </div>
@@ -1133,7 +1133,7 @@ export default function Abpage({
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Foreign Certified Staff <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">best for Thai spa & B2B Therapy  in Spa Delhi</span>
+                      Foreign Certified Staff <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">best for Thai spa & B2B Therapy  in Luxury Russian Spa</span>
                     </motion.h2>
                     
                     <motion.p
@@ -1142,7 +1142,7 @@ export default function Abpage({
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                      We take pride in the fact that at SpaDelhi we are the first in luxury experience in massage and spa in Delhi. Much of our reputation is based on a flawless combination of professionalism, relaxation and high-quality hospitality. You are either in need of a deep-seated relaxation after a hard-working day or a luxurious weekend getaway, or you need a solution to your stress issues and body pains, SpaDelhi provides the best experience ever.
+                      We take pride in the fact that at Luxury Russian Spa we are the first in luxury experience in massage and spa in Delhi. Much of our reputation is based on a flawless combination of professionalism, relaxation and high-quality hospitality. You are either in need of a deep-seated relaxation after a hard-working day or a luxurious weekend getaway, or you need a solution to your stress issues and body pains, Luxury Russian Spa provides the best experience ever.
                     </motion.p>
                     
                     <motion.div

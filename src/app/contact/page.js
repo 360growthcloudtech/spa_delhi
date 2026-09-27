@@ -6,27 +6,27 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.spadelhi.com/contact" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.luxuryrussianspa.com/contact" },
   ],
 };
 
 export const metadata = {
-  title: "Contact Spa Delhi - Book Luxury Body & Thai Massage | Spa Delhi",
-  description: "Contact Spa Delhi for luxury body & Thai massage across Delhi NCR. Certified therapists, hygienic private rooms, quick response. Call or book your session today!",
-  keywords: ["contact spa delhi", "book spa delhi", "spa delhi phone number", "spa delhi booking"],
+  title: "Contact Luxury Russian Spa - Book Luxury Body & Thai Massage | Luxury Russian Spa",
+  description: "Contact Luxury Russian Spa for luxury body & Thai massage across Delhi NCR. Certified therapists, hygienic private rooms, quick response. Call or book your session today!",
+  keywords: ["contact luxury russian spa", "book luxury russian spa", "luxury russian spa phone number", "luxury russian spa booking"],
   openGraph: {
     title: "Contact Us | Best Luxury Spa in Delhi for Body & Thai Massage",
-    description: "Get in touch with Spa Delhi for soothing body massages, Thai therapy, and relaxation treatments. Call or visit us today for your spa session.",
-    images: ["https://www.spadelhi.com/images/contectusbanner.jpg"],
+    description: "Get in touch with Luxury Russian Spa for soothing body massages, Thai therapy, and relaxation treatments. Call or visit us today for your spa session.",
+    images: ["https://www.luxuryrussianspa.com/images/contectusbanner.jpg"],
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/contact",
+    canonical: "https://www.luxuryrussianspa.com/contact",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/contectusbanner.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/contectusbanner.jpg"]
   }
 };
 

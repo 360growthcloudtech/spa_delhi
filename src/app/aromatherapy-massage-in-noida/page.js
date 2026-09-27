@@ -18,7 +18,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Aromatherapy Massage in Noida - Essential Oil Relief | Spa Delhi",
+  title: "Aromatherapy Massage in Noida - Essential Oil Relief | Luxury Russian Spa",
   description:
     "Aromatherapy massage in Noida near Sector 18 for essential oil stress relief & relaxation. Certified therapists, hygienic setting. Book from ₹1999 today!",
   keywords: [
@@ -32,19 +32,19 @@ export const metadata = {
     "aromatherapy massage near me noida",
   ],
   openGraph: {
-    title: "Aromatherapy Massage in Noida - Essential Oil Relief | Spa Delhi",
+    title: "Aromatherapy Massage in Noida - Essential Oil Relief | Luxury Russian Spa",
     description:
       "Aromatherapy massage in Noida near Sector 18 for essential oil stress relief & relaxation. Certified therapists, hygienic setting. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/noidahotel.jpeg"],
+    images: ["https://www.luxuryrussianspa.com/images/noidahotel.jpeg"],
     type: "website",
-    url: "https://www.spadelhi.com/aromatherapy-massage-in-noida",
+    url: "https://www.luxuryrussianspa.com/aromatherapy-massage-in-noida",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/aromatherapy-massage-in-noida",
+    canonical: "https://www.luxuryrussianspa.com/aromatherapy-massage-in-noida",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/noidahotel.jpeg"],
+    images: ["https://www.luxuryrussianspa.com/images/noidahotel.jpeg"],
   },
 };
 
@@ -52,8 +52,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Aromatherapy Massage in Noida", item: "https://www.spadelhi.com/aromatherapy-massage-in-noida" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Aromatherapy Massage in Noida", item: "https://www.luxuryrussianspa.com/aromatherapy-massage-in-noida" },
   ],
 };
 
@@ -64,9 +64,9 @@ const serviceSchema = {
   name: "Aromatherapy Massage in Noida",
   provider: {
     "@type": "LocalBusiness",
-    name: "Spa Delhi",
+    name: "Luxury Russian Spa",
     telephone: "+91-9217255113",
-    url: "https://www.spadelhi.com/",
+    url: "https://www.luxuryrussianspa.com/",
   },
   areaServed: "Noida",
   description:

@@ -82,7 +82,7 @@ const faqSchema = {
 };
 
 export const metadata = {
-  title: "Spa in Vasant Kunj - Luxury Full Body Massage | Spa Delhi",
+  title: "Spa in Vasant Kunj - Luxury Full Body Massage | Luxury Russian Spa",
   description:
     "Spa in Vasant Kunj for full body, deep tissue & couple massage near Ambience Mall. Certified therapists, hygienic rooms. Book from ₹1999 today!",
   keywords: [
@@ -102,19 +102,19 @@ export const metadata = {
     "spa in vasant kunj sector d",
   ],
   openGraph: {
-    title: "Spa in Vasant Kunj - Luxury Full Body Massage | Spa Delhi",
+    title: "Spa in Vasant Kunj - Luxury Full Body Massage | Luxury Russian Spa",
     description:
       "Spa in Vasant Kunj for full body, deep tissue & couple massage near Ambience Mall. Certified therapists, hygienic rooms. Book from ₹1999 today!",
-    images: ["https://www.spadelhi.com/images/pexels-olly-3673941.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/pexels-olly-3673941.jpg"],
     type: "website",
-    url: "https://www.spadelhi.com/spa-in-vasant-kunj",
+    url: "https://www.luxuryrussianspa.com/spa-in-vasant-kunj",
   },
   alternates: {
-    canonical: "https://www.spadelhi.com/spa-in-vasant-kunj",
+    canonical: "https://www.luxuryrussianspa.com/spa-in-vasant-kunj",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.spadelhi.com/images/pexels-olly-3673941.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/pexels-olly-3673941.jpg"],
   },
 };
 
@@ -122,8 +122,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.spadelhi.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa in Vasant Kunj", item: "https://www.spadelhi.com/spa-in-vasant-kunj" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
+    { "@type": "ListItem", position: 2, name: "Spa in Vasant Kunj", item: "https://www.luxuryrussianspa.com/spa-in-vasant-kunj" },
   ],
 };
 
