@@ -1,6 +1,6 @@
 import Logo from "./Logo";
 import { FaTelegramPlane, FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
-import { FiMail, FiMapPin, FiArrowUpRight } from "react-icons/fi";
+import { FiMail, FiChevronDown } from "react-icons/fi";
 
 const socials = [
   { name: "Telegram", icon: FaTelegramPlane, link: "https://t.me/+a5Bu6FBPN9FlOWM9" },
@@ -24,54 +24,52 @@ const quickLinks = [
   { name: "Contact", link: "/contact" },
 ];
 
-const marqueeItems = [
-  "Sandwich Massage",
-  "B2B Massage",
-  "Full Body Massage",
-  "Couples Massage",
-  "Deep Tissue Massage",
-  "Thai Massage",
-  "Aromatherapy",
-  "Swedish Massage",
+// "Find a spa in your area" (Avataar's city finder), all real location pages
+const areas = [
+  { name: "Aerocity", link: "/spa-in-aerocity" },
+  { name: "Connaught Place", link: "/spa-in-connaught-place" },
+  { name: "Dwarka", link: "/spa-in-dwarka" },
+  { name: "Faridabad", link: "/spa-in-faridabad" },
+  { name: "Greater Kailash", link: "/spa-in-greater-kailash" },
+  { name: "Gurgaon", link: "/spa-in-gurgaon" },
+  { name: "Hauz Khas", link: "/spa-in-hauz-khas" },
+  { name: "Janakpuri", link: "/spa-in-janakpuri" },
+  { name: "Kalkaji", link: "/spa-in-kalkaji" },
+  { name: "Karol Bagh", link: "/spa-in-karol-bagh" },
+  { name: "Lajpat Nagar", link: "/spa-in-lajpat-nagar" },
+  { name: "Laxmi Nagar", link: "/spa-in-laxmi-nagar" },
+  { name: "Mahipalpur", link: "/spa-in-mahipalpur" },
+  { name: "Noida", link: "/spa-in-noida" },
+  { name: "Paharganj", link: "/spa-in-paharganj" },
+  { name: "Paschim Vihar", link: "/spa-in-paschim-vihar" },
+  { name: "Pitampura", link: "/spa-in-pitampura" },
+  { name: "Preet Vihar", link: "/spa-in-preet-vihar" },
+  { name: "Punjabi Bagh", link: "/spa-in-punjabi-bagh" },
+  { name: "Rajouri Garden", link: "/spa-in-rajouri-garden" },
+  { name: "Rohini", link: "/spa-in-rohini" },
+  { name: "Saket", link: "/spa-in-saket" },
+  { name: "Uttam Nagar", link: "/spa-in-uttam-nagar" },
+  { name: "Vasant Kunj", link: "/spa-in-vasant-kunj" },
 ];
 
 function Heading({ children }) {
-  return (
-    <h4 className="font-title text-2xl font-semibold text-white mb-6 relative pb-3 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-10 after:h-0.5 after:bg-secondary after:rounded">
-      {children}
-    </h4>
-  );
+  return <p className="font-title text-lg font-semibold text-ink mb-4">{children}</p>;
 }
 
 export default function Footer() {
   return (
-    <footer className="relative mt-10">
-      {/* Marquee band */}
-      <div className="relative z-10 -mb-8 mx-4 lg:mx-8 rounded-3xl bg-secondary overflow-hidden py-5 shadow-xl">
-        <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
-          {[...marqueeItems, ...marqueeItems].map((item, i) => (
-            <span key={i} className="flex items-center font-title text-2xl md:text-3xl font-semibold text-dark whitespace-nowrap px-6">
-              {item}
-              <span className="ml-12 text-primary" aria-hidden="true">✦</span>
-            </span>
-          ))}
-        </div>
-      </div>
-
-      <div className="bg-dark text-white/70 rounded-t-[40px] pt-24 pb-8 px-6 md:px-16 relative overflow-hidden">
-        {/* Decorative rotating ring */}
-        <div className="pointer-events-none absolute -right-40 -top-40 size-[420px] rounded-full border border-white/10 animate-rotate-slow after:content-[''] after:absolute after:size-3 after:rounded-full after:bg-secondary after:left-10 after:top-1/3" aria-hidden="true" />
-        <div className="pointer-events-none absolute -left-24 bottom-10 size-60 rounded-full bg-primary/40 blur-3xl" aria-hidden="true" />
-
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">
+    <footer className="bg-mist text-bodycolor">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 pt-14 pb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand & Socials */}
           <div className="min-w-0">
             <a href="/" aria-label="Luxury Russian Spa home" className="inline-block mb-5">
-              <Logo light />
+              <Logo />
             </a>
-            <p className="mb-7 leading-relaxed">
+            <p className="text-sm leading-relaxed mb-6">
               Luxury spa experiences for complete rejuvenation in the heart of Delhi.
             </p>
+            <p className="font-title text-lg font-semibold text-ink mb-3">Follow Us</p>
             <div className="flex flex-wrap items-center gap-3">
               {socials.map(({ name, icon: Icon, link }) => (
                 <a
@@ -80,7 +78,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={name}
-                  className="inline-flex items-center justify-center size-11 rounded-full bg-white/10 text-white text-lg transition duration-500 hover:bg-secondary hover:text-dark hover:-translate-y-1"
+                  className="inline-flex items-center justify-center size-10 rounded-full bg-white text-ink shadow-[0_4px_12px_rgba(0,0,0,0.06)] transition duration-300 hover:bg-primary hover:text-white hover:-translate-y-0.5"
                 >
                   <Icon />
                 </a>
@@ -91,29 +89,27 @@ export default function Footer() {
           {/* Our Locations */}
           <div className="min-w-0">
             <Heading>Our Locations</Heading>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5 text-sm">
               {locations.map((loc) => (
                 <li key={loc.link}>
-                  <a href={loc.link} className="group inline-flex items-center gap-2 hover:text-secondary transition-colors">
-                    <FiMapPin className="text-secondary shrink-0" />
-                    <span className="transition-transform duration-300 group-hover:translate-x-1">{loc.name}</span>
+                  <a href={loc.link} className="hover:text-primary transition-colors">
+                    {loc.name}
                   </a>
                 </li>
               ))}
             </ul>
-            <a href="/outlets" className="mt-5 inline-flex items-center gap-1 font-semibold text-secondary hover:text-white transition-colors">
-              View All Outlets <FiArrowUpRight />
+            <a href="/outlets" className="mt-4 inline-block text-sm font-semibold text-primary hover:underline underline-offset-4">
+              View All Outlets →
             </a>
           </div>
 
           {/* Quick Links */}
           <div className="min-w-0">
             <Heading>Quick Links</Heading>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5 text-sm">
               {quickLinks.map((item) => (
                 <li key={item.link}>
-                  <a href={item.link} className="group inline-flex items-center gap-2 hover:text-secondary transition-colors">
-                    <span className="h-px w-3 bg-secondary transition-all duration-300 group-hover:w-6" />
+                  <a href={item.link} className="hover:text-primary transition-colors">
                     {item.name}
                   </a>
                 </li>
@@ -124,38 +120,53 @@ export default function Footer() {
           {/* Contact Us */}
           <div className="min-w-0">
             <Heading>Contact Us</Heading>
-            <ul className="space-y-5">
+            <ul className="space-y-4 text-sm">
               <li>
-                <a href="tel:+919217255113" className="flex items-center gap-4 group">
-                  <span className="size-12 shrink-0 rounded-full bg-primary text-white flex items-center justify-center transition group-hover:bg-secondary group-hover:text-dark">
-                    <FaPhoneAlt />
+                <a href="tel:+919217255113" className="flex items-center gap-3 hover:text-primary transition-colors">
+                  <span className="size-9 shrink-0 rounded-full bg-cream text-primary flex items-center justify-center">
+                    <FaPhoneAlt size={13} />
                   </span>
-                  <span>
-                    <span className="block text-xs uppercase tracking-widest text-white/50">Call Us</span>
-                    <span className="font-title text-xl text-white">+91 9217255113</span>
-                  </span>
+                  +91 9217255113
                 </a>
               </li>
               <li>
-                <a href="mailto:dmspadelhi@gmail.com" className="flex items-center gap-4 group">
-                  <span className="size-12 shrink-0 rounded-full bg-primary text-white flex items-center justify-center transition group-hover:bg-secondary group-hover:text-dark">
-                    <FiMail />
+                <a href="mailto:dmspadelhi@gmail.com" className="flex items-center gap-3 hover:text-primary transition-colors">
+                  <span className="size-9 shrink-0 rounded-full bg-cream text-primary flex items-center justify-center">
+                    <FiMail size={15} />
                   </span>
-                  <span className="min-w-0">
-                    <span className="block text-xs uppercase tracking-widest text-white/50">Email</span>
-                    <span className="text-white break-all">dmspadelhi@gmail.com</span>
-                  </span>
+                  <span className="break-all">dmspadelhi@gmail.com</span>
                 </a>
               </li>
             </ul>
+            <a href="https://api.whatsapp.com/send?phone=919217255113" className="site-button mt-6 !py-3">
+              Book a Session
+            </a>
           </div>
         </div>
 
+        {/* Find a spa in your area */}
+        <details className="group mt-12 rounded-xl bg-[#e9e9e9] open:bg-white open:shadow-[0_4px_24px_rgba(0,0,0,0.05)] transition-colors">
+          <summary className="flex cursor-pointer list-none items-center justify-center gap-2 py-3.5 text-ink [&::-webkit-details-marker]:hidden">
+            Find a Spa in Your Area
+            <FiChevronDown className="transition-transform duration-300 group-open:rotate-180" />
+          </summary>
+          <ul className="flex flex-wrap justify-center gap-2 px-4 pb-5">
+            {areas.map((a) => (
+              <li key={a.link}>
+                <a href={a.link} className="block rounded-full bg-cream px-4 py-1.5 text-sm text-[#37312e] transition-colors hover:bg-primary hover:text-white">
+                  Spa in {a.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
+
         {/* Copyright */}
-        <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-white/50 relative z-10">
+        <div className="mt-10 border-t border-black/10 pt-6 text-center text-xs text-bodycolor/80 space-y-1.5">
           <p>&copy; {new Date().getFullYear()} Luxury Russian Spa. All rights reserved.</p>
           <p>
-            Delhi <span className="text-secondary">•</span> Noida <span className="text-secondary">•</span> Gurgaon <span className="text-secondary">•</span> Ghaziabad
+            Mail <a href="mailto:dmspadelhi@gmail.com" className="hover:text-primary">dmspadelhi@gmail.com</a> | Phone{" "}
+            <a href="tel:+919217255113" className="hover:text-primary">+91 9217255113</a>
           </p>
         </div>
       </div>

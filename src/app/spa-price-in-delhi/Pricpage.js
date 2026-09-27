@@ -1041,7 +1041,7 @@ const teamMembers = [
             </section>
             {/* End outlate */}
             {/* Our Therapy Experts */}
-                  <section className="py-16 px-4 bg-gradient-to-br from-[#f5fdfc] via-[#fcf5e9] to-[#f9f1e2]">
+                  <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
                     <div className="max-w-7xl mx-auto">
                       
                       <div className="text-center mb-16">

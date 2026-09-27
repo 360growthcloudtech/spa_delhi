@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { Hotel, Clock, CheckCircle2, Globe } from "lucide-react";
-import { TitleSeparator } from "./SectionTitle";
 
 const features3 = [
   {
@@ -29,53 +28,53 @@ const features3 = [
 
 export default function HomeWhyChoiceus() {
   return (
-    <section className="relative py-24 px-6 bg-dark overflow-hidden">
-      {/* Orbit rings */}
-      <div className="pointer-events-none absolute -left-60 top-1/2 -translate-y-1/2 size-[600px]" aria-hidden="true">
-        <span className="block size-full rounded-full border border-white/10 animate-rotate-slow relative after:content-[''] after:absolute after:size-3 after:rounded-full after:bg-secondary after:right-16 after:top-1/4" />
-      </div>
-      <div className="pointer-events-none absolute -right-40 -bottom-40 size-[500px] rounded-full bg-primary/40 blur-3xl" aria-hidden="true" />
+    <section className="bg-cream px-4 py-16 md:px-10 md:py-24 lg:px-20">
+      {/* Espresso panel (Avataar CTA block) */}
+      <div className="relative max-w-7xl mx-auto overflow-hidden rounded-3xl bg-dark px-6 py-12 md:px-14 md:py-14">
+        <div className="pointer-events-none absolute -right-32 -top-32 size-80 rounded-full bg-primary/40 blur-3xl" aria-hidden="true" />
 
-      {/* Heading */}
-      <div className="relative text-center mb-16 max-w-4xl mx-auto">
-        <span className="font-display text-2xl md:text-3xl text-secondary block mb-2">Premium Spa Services</span>
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-          Why We Are <span className="text-secondary">The Best Massage </span> Centre in Delhi?
-        </h2>
-        <p className="text-white/75 text-lg md:text-xl leading-relaxed">
-          Luxury Russian Spa is the best Massage centre in Delhi, bringing all visitors luxurious massage experiences at an affordable price. At Luxury Russian Spa, we combine professionalism and indulgence to present the most reliable{" "}
-          <a href="/full-body-massage-in-delhi" className="text-secondary font-medium underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
-            full-body massage in Delhi
-          </a>
-          . Our experienced massage therapists utilize effective massage techniques to address your custom massage expectations.
-        </p>
-        <TitleSeparator className="mt-6 !text-white" />
-      </div>
+        <div className="relative text-center mb-12 max-w-4xl mx-auto">
+          <span className="font-display italic font-semibold text-xl md:text-2xl text-sand block mb-2">Premium Spa Services</span>
+          <h2 className="text-3xl md:text-[40px] font-medium leading-tight text-white mb-5">
+            Why We Are <span className="italic text-secondary">The Best Massage </span> Centre in Delhi?
+          </h2>
+          <p className="text-white/70 text-base md:text-lg leading-relaxed">
+            Luxury Russian Spa is the best Massage centre in Delhi, bringing all visitors luxurious massage experiences at an affordable price. At Luxury Russian Spa, we combine professionalism and indulgence to present the most reliable{" "}
+            <a href="/full-body-massage-in-delhi" className="text-secondary font-medium underline decoration-secondary/40 underline-offset-4 hover:decoration-secondary">
+              full-body massage in Delhi
+            </a>
+            . Our experienced massage therapists utilize effective massage techniques to address your custom massage expectations.
+          </p>
+        </div>
 
-      <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-        {features3.map((feature, index) => {
-          const Icon = feature.icon;
-          return (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.15 }}
-            >
-              <div className="group h-full rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm p-8 text-center trv-card hover:bg-white/10 hover:border-secondary/50">
-                <div className="relative mx-auto mb-6 size-20">
-                  <span className="absolute inset-0 rounded-full border-2 border-dashed border-secondary/60 animate-rotate-slow" aria-hidden="true" />
-                  <span className="absolute inset-2 rounded-full bg-primary flex items-center justify-center text-white transition-colors duration-500 group-hover:bg-secondary group-hover:text-dark">
-                    <Icon className="w-8 h-8" />
+        <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          {features3.map((feature, index) => {
+            const Icon = feature.icon;
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <div className="group h-full rounded-2xl border border-white/20 bg-white/[0.08] p-6 backdrop-blur-md transition-colors duration-300 hover:bg-white/[0.14]">
+                  <span className="mb-5 flex size-12 items-center justify-center rounded-xl bg-cream text-primary transition-transform duration-300 group-hover:-translate-y-1">
+                    <Icon className="size-6" strokeWidth={1.6} />
                   </span>
+                  <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
+                  <p className="text-white/65 text-sm leading-relaxed">{feature.desc}</p>
                 </div>
-                <h3 className="text-2xl font-semibold text-white mb-3">{feature.title}</h3>
-                <p className="text-white/65 text-sm leading-relaxed">{feature.desc}</p>
-              </div>
-            </motion.div>
-          );
-        })}
+              </motion.div>
+            );
+          })}
+        </div>
+
+        <div className="relative mt-10 text-center">
+          <a href="https://api.whatsapp.com/send?phone=919217255113" className="site-button light">
+            Book Your Session
+          </a>
+        </div>
       </div>
     </section>
   );

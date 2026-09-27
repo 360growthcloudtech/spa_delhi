@@ -101,7 +101,7 @@ export default function SandwichMassageDelhiPage() {
         }
       `}</style>
 
-      <main className="bg-[#f5fdfc] text-gray-800">
+      <main className="bg-[#fffaf5] text-gray-800">
 
         <section className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
 

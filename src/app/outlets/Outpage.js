@@ -754,14 +754,14 @@ View All Services
   <div className="relative z-10 max-w-6xl mx-auto text-[#FAF3E9]">
     {/* Elegant heading with decorative elements */}
     <div className="flex flex-col items-center mb-12">
-      <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-[#85d200] to-transparent mb-8" />
-      <h2 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-4 text-[#b6f0ec] tracking-wide">
-        <span className="block text-xl font-light tracking-widest text-[#85d200] mb-2">
+      <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-[#fdc28c] to-transparent mb-8" />
+      <h2 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-4 text-[#fdc28c] tracking-wide">
+        <span className="block text-xl font-light tracking-widest text-[#fdc28c] mb-2">
           PREMIUM WELLNESS DESTINATIONS
         </span>
         24+ Exclusive Body Spa Outlets
       </h2>
-      <div className="w-16 h-0.5 bg-[#85d200] mt-6" />
+      <div className="w-16 h-0.5 bg-[#fdc28c] mt-6" />
     </div>
 
     {/* Refined description */}
@@ -773,9 +773,9 @@ View All Services
     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto">
       {specialFeatures.map((item, index) => (
         <li key={index}>
-          <div className="flex items-start gap-3 p-5 rounded-xl border border-[#85d200]/30 bg-gradient-to-b from-[#2D1B0F]/60 to-[#1A1109]/60 backdrop-blur-sm hover:border-[#85d200]/60 transition-all duration-300 group hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-black/20">
+          <div className="flex items-start gap-3 p-5 rounded-xl border border-[#fdc28c]/30 bg-gradient-to-b from-[#2D1B0F]/60 to-[#1A1109]/60 backdrop-blur-sm hover:border-[#fdc28c]/60 transition-all duration-300 group hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-black/20">
             <svg
-              className="flex-shrink-0 w-5 h-5 mt-0.5 text-[#85d200] group-hover:scale-110 transition-transform"
+              className="flex-shrink-0 w-5 h-5 mt-0.5 text-[#fdc28c] group-hover:scale-110 transition-transform"
               fill="currentColor"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
@@ -787,7 +787,7 @@ View All Services
                 9.997 26.206 0 36.204l-294.4 294.401c-9.998 
                 9.997-26.207 9.997-36.204-.001z"/>
             </svg>
-            <span className="text-left font-light text-[#FAF3E9] group-hover:text-[#b6f0ec] transition-colors">
+            <span className="text-left font-light text-[#FAF3E9] group-hover:text-[#fdc28c] transition-colors">
               {item}
             </span>
           </div>
@@ -796,17 +796,17 @@ View All Services
     </ul>
 
     {/* Decorative corner elements */}
-    <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[#85d200]/50" />
-    <div className="absolute top-6 right-6 w-8 h-8 border-t border-r border-[#85d200]/50" />
-    <div className="absolute bottom-6 left-6 w-8 h-8 border-b border-l border-[#85d200]/50" />
-    <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[#85d200]/50" />
+    <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[#fdc28c]/50" />
+    <div className="absolute top-6 right-6 w-8 h-8 border-t border-r border-[#fdc28c]/50" />
+    <div className="absolute bottom-6 left-6 w-8 h-8 border-b border-l border-[#fdc28c]/50" />
+    <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[#fdc28c]/50" />
   </div>
       </section>
           {/* end 18+ section */}
 {/* end 18+ section */}
 
 {/* Massage center */}
-<div className="min-h-screen bg-gradient-to-b from-[#f8f5f2] to-[#f7fcfc]">
+<div className="min-h-screen bg-gradient-to-b from-[#f8f5f2] to-[#fffaf5]">
       
       
       {/* Locations Section */}
@@ -1030,7 +1030,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
 </section>
 
             {/* content section */}
-                                 <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-20 px-6 md:px-16">
+                                 <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
                                     <div className="max-w-6xl mx-auto">
                                       {/* Section Header */}
                                       <motion.div 
@@ -1041,7 +1041,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                         transition={{ duration: 0.6 }}
                                       >
                                         <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                        <h2 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-6">What We Offer At Our Premium Spa Outlets in Delhi</h2>
+                                        <h2 className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-4 mb-6">What We Offer At Our Premium Spa Outlets in Delhi</h2>
                                         <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
                                       </motion.div>
             
@@ -1050,7 +1050,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                         <div>
                                           {/* Facial Treatments */}
                                           <motion.div 
-                                            className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#cdeceb]"
+                                            className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
                                             initial={{ opacity: 0, x: 30 }}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
@@ -1092,7 +1092,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
             
                                           {/* Body Treatments */}
                                           <motion.div 
-                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#cdeceb]"
+                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
                                             initial={{ opacity: 0, x: -30 }}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
@@ -1140,7 +1140,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
             
                                           {/* Massage Therapy */}
                                           <motion.div 
-                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#cdeceb]"
+                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
                                             initial={{ opacity: 0, x: -30 }}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
@@ -1185,7 +1185,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                           </motion.div>
                                           {/* Wellness Packages */}
                                           <motion.div 
-                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#cdeceb]"
+                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
                                             initial={{ opacity: 0, x: 30 }}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
@@ -1197,7 +1197,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                                                 </svg>
                                               </div>
-                                              <h2 className="text-2xl font-bold text-[#113435]">Home & Hotel Spa</h2>
+                                              <h2 className="text-2xl font-bold text-[#1f1a17]">Home & Hotel Spa</h2>
                                             </div>
                                             <p className="text-gray-600 leading-relaxed mb-6">
                                              Enjoy luxury spa services in Delhi from the comfort of your home or hotel. Our home spa services in Delhi are perfect for people who want privacy, convenience, and a professional spa experience without traveling.
@@ -1262,7 +1262,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                   </section>
                                 {/* end */}
         {/* Our Therapy Experts */}
-      <section className="py-16 px-4 bg-gradient-to-br from-[#f5fdfc] via-[#fcf5e9] to-[#f9f1e2]">
+      <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
         <div className="max-w-7xl mx-auto">
           
           <div className="text-center mb-16">

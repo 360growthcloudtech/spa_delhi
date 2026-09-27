@@ -674,7 +674,7 @@ export default function DeepTissueMassagePage() {
         {/* End Related Services */}
 
         {/* content section */}
-        <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-20 px-6 md:px-16">
+        <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
           <div className="max-w-6xl mx-auto">
             <motion.div
               className="text-center mb-12"
@@ -684,7 +684,7 @@ export default function DeepTissueMassagePage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Deep Tissue Massage in Delhi for Chronic Pain Relief</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-4 mb-4 font-serif">Best Deep Tissue Massage in Delhi for Chronic Pain Relief</h1>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                 From trained therapists to hygienic outlets and 24/7 booking support, Luxury Russian Spa blends real pain relief with comfort and personal care.
@@ -696,7 +696,7 @@ export default function DeepTissueMassagePage() {
                 {SERVICES_LEFT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
                     initial={{ opacity: 0, x: 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -716,7 +716,7 @@ export default function DeepTissueMassagePage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>
@@ -746,7 +746,7 @@ export default function DeepTissueMassagePage() {
                 {SERVICES_RIGHT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -766,7 +766,7 @@ export default function DeepTissueMassagePage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>

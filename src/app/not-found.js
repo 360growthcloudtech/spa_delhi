@@ -7,9 +7,9 @@ export const metadata = {
 
 export default function NotFound() {
   return (
-    <main className="flex min-h-[70vh] flex-col items-center justify-center bg-[#f5fdfc] px-6 text-center text-[#113435]">
+    <main className="flex min-h-[70vh] flex-col items-center justify-center bg-[#fffaf5] px-6 text-center text-[#1f1a17]">
       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">404</p>
-      <h1 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">This page couldn't be found</h1>
+      <h1 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">This page couldn't be found</h1>
       <p className="mt-4 max-w-md text-gray-600">
         The page you're looking for doesn't exist or may have moved. Try one of these instead:
       </p>

@@ -83,7 +83,7 @@ export default function B2Bpage() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <main className="min-h-screen bg-[#f5fdfc] text-[#113435]">
+    <main className="min-h-screen bg-[#fffaf5] text-[#1f1a17]">
       {/* Hero */}
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.18),_transparent_30%),linear-gradient(135deg,_#fef7ed_0%,_#fffaf5_45%,_#fef3f2_100%)]">
         <div className="absolute left-8 top-8 h-24 w-24 rounded-full bg-amber-200/30 blur-3xl" />
@@ -93,7 +93,7 @@ export default function B2Bpage() {
             <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-amber-200 bg-white/90 px-4 py-2 text-sm font-semibold text-amber-700 shadow-sm">
               <FaStar className="text-amber-500" /> SIGNATURE TREATMENT
             </div>
-            <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#113435] md:text-5xl lg:text-5xl">
+            <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#1f1a17] md:text-5xl lg:text-5xl">
               Best Body to Body Massage in <span className="text-amber-700">Delhi</span>
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
@@ -138,13 +138,13 @@ export default function B2Bpage() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Advantages</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">What Makes Our B2B Massage in Delhi Different?</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">What Makes Our B2B Massage in Delhi Different?</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
             <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50">{item.icon}</div>
-              <h3 className="text-lg font-semibold text-[#113435]">{item.title}</h3>
+              <h3 className="text-lg font-semibold text-[#1f1a17]">{item.title}</h3>
               <p className="mt-2 leading-relaxed text-gray-600">{item.desc}</p>
             </motion.div>
           ))}
@@ -152,9 +152,9 @@ export default function B2Bpage() {
       </section>
 
       {/* Simple about section */}
-      <section className="bg-[#e6f7f6] py-16">
+      <section className="bg-[#fff3e8] py-16">
         <div className="mx-auto max-w-4xl px-6">
-          <h2 className="text-center text-3xl font-bold text-[#113435] md:text-4xl">Delhi's Trusted B2B Massage Spa</h2>
+          <h2 className="text-center text-3xl font-bold text-[#1f1a17] md:text-4xl">Delhi's Trusted B2B Massage Spa</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-gray-700">
             <p>
               A body to body massage in Delhi is a full-contact technique using premium oils and controlled, smooth movements — built for genuine deep relaxation, not a rushed rubdown. Book at any of our{" "}
@@ -176,7 +176,7 @@ export default function B2Bpage() {
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="mb-14 text-center">
           <span className="inline-block rounded-full bg-amber-100 px-4 py-1 text-sm font-medium text-amber-800">Premium Wellness Experience</span>
-          <h2 className="mt-4 text-3xl font-bold text-[#113435] md:text-4xl">Why Choose Luxury Russian Spa for B2B Massage?</h2>
+          <h2 className="mt-4 text-3xl font-bold text-[#1f1a17] md:text-4xl">Why Choose Luxury Russian Spa for B2B Massage?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-700">
             Luxury Russian Spa is a trusted name for body to body massage in Delhi. We focus on authentic technique, premium ingredients, and personalized care that revitalizes your mind and body.
           </p>
@@ -188,7 +188,7 @@ export default function B2Bpage() {
               <div className="mb-5 flex items-start gap-4">
                 <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-xl bg-amber-50 text-2xl text-amber-700"><FaUser /></div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#113435]">Expert Therapists</h3>
+                  <h3 className="text-xl font-bold text-[#1f1a17]">Expert Therapists</h3>
                   <p className="mt-1 text-amber-700">Trained hands, genuine care, every session.</p>
                 </div>
               </div>
@@ -215,7 +215,7 @@ export default function B2Bpage() {
               <div className="mb-5 flex items-start gap-4">
                 <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-xl bg-amber-50 text-2xl text-amber-700"><FaInfoCircle /></div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#113435]">Premium Oils &amp; Blends</h3>
+                  <h3 className="text-xl font-bold text-[#1f1a17]">Premium Oils &amp; Blends</h3>
                   <p className="mt-1 text-amber-700">Aromatherapy-grade, chosen for you.</p>
                 </div>
               </div>
@@ -238,11 +238,11 @@ export default function B2Bpage() {
       </section>
 
       {/* Meet Our Therapists */}
-      <section className="bg-[#edf9f8] py-16">
+      <section className="bg-[#fff6ee] py-16">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Trained Hands Behind Every Session</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Trained Hands Behind Every Session</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -261,7 +261,7 @@ export default function B2Bpage() {
                 className="group relative h-80 overflow-hidden rounded-[24px] shadow-lg"
               >
                 <Image src={t.image} alt={`${t.role} at Luxury Russian Spa`} fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1c0f09] via-[#1c0f09]/40 to-transparent" />
                 <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-amber-700 shadow-sm">
                   <FaStar className="text-amber-500" /> {t.experience}
                 </div>
@@ -279,12 +279,12 @@ export default function B2Bpage() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Our Services</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Explore Our Massage Services in Delhi</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Explore Our Massage Services in Delhi</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <motion.div key={service.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-[#113435]">{service.title}</h3>
+              <h3 className="text-lg font-semibold text-[#1f1a17]">{service.title}</h3>
               <p className="mt-2 text-gray-600">{service.desc}</p>
               <Link href={service.href} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-amber-700 hover:underline">
                 Learn more <FaArrowRight className="text-xs" />
@@ -295,9 +295,9 @@ export default function B2Bpage() {
       </section>
 
       {/* Hygiene & Amenities */}
-      <section className="bg-[#e6f7f6] py-16">
+      <section className="bg-[#fff3e8] py-16">
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h2 className="text-3xl font-bold text-[#113435] md:text-4xl">100% Hygienic &amp; Professional Spa in Delhi — Your Safety First</h2>
+          <h2 className="text-3xl font-bold text-[#1f1a17] md:text-4xl">100% Hygienic &amp; Professional Spa in Delhi — Your Safety First</h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-600">
             From a hot shower to a full steam bath, these are the small details that turn a massage into a complete spa visit.
           </p>
@@ -313,7 +313,7 @@ export default function B2Bpage() {
                 <div className="relative flex h-[100px] w-[100px] items-center justify-center rounded-full border border-amber-200 bg-white shadow-sm">
                   <Image src={item.image} alt={item.label} fill className="object-contain p-5" />
                 </div>
-                <p className="mt-3 text-sm font-medium text-[#113435]">{item.label}</p>
+                <p className="mt-3 text-sm font-medium text-[#1f1a17]">{item.label}</p>
               </motion.div>
             ))}
           </div>
@@ -328,7 +328,7 @@ export default function B2Bpage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Delhi's Top Locations</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">B2B Massage Across Delhi's Top Locations</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">B2B Massage Across Delhi's Top Locations</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">We serve outlets, homes, and hotels across every major Delhi location — wherever you're staying, we can reach you.</p>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
@@ -345,7 +345,7 @@ export default function B2Bpage() {
                 className="group relative block h-32 overflow-hidden rounded-2xl shadow-lg"
               >
                 <Image src={loc.image} alt={`B2B massage in ${loc.name}, Delhi`} fill className="object-cover transition duration-500 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0b2526] via-[#0b2526]/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1c0f09] via-[#1c0f09]/30 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-3">
                   <p className="text-sm font-bold uppercase tracking-wide text-white">{loc.name}</p>
                 </div>
@@ -361,18 +361,18 @@ export default function B2Bpage() {
       </section>
 
       {/* Pricing */}
-      <section id="Pricing" className="bg-[#e6f7f6] py-16">
+      <section id="Pricing" className="bg-[#fff3e8] py-16">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Pricing options</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">B2B Massage in Delhi Pricing — Transparent &amp; Affordable</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">B2B Massage in Delhi Pricing — Transparent &amp; Affordable</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#effffe] to-[#f5fdfc]" : "border-amber-100 bg-white"}`}>
+              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff3e8] to-[#fffaf5]" : "border-amber-100 bg-white"}`}>
                 <div className={`absolute right-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${plan.highlight ? "bg-amber-600 text-white" : "bg-amber-100 text-amber-700"}`}>{plan.badge}</div>
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50">{plan.icon}</div>
-                <h3 className="text-2xl font-semibold text-[#113435]">{plan.title}</h3>
+                <h3 className="text-2xl font-semibold text-[#1f1a17]">{plan.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-gray-600">{plan.desc}</p>
                 <div className="mt-6 flex items-end gap-2">
                   <span className="text-4xl font-bold text-amber-700">{plan.price}</span>
@@ -398,13 +398,13 @@ export default function B2Bpage() {
       <section className="mx-auto max-w-4xl px-6 py-16">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Frequently Asked Questions</p>
-          <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Your B2B Massage Questions, Answered</h2>
+          <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Your B2B Massage Questions, Answered</h2>
         </div>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-white p-5">
               <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
-                <span className="text-lg font-semibold text-[#113435]">{faq.question}</span>
+                <span className="text-lg font-semibold text-[#1f1a17]">{faq.question}</span>
                 <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />
               </button>
               <AnimatePresence initial={false}>
@@ -420,11 +420,11 @@ export default function B2Bpage() {
       </section>
 
       {/* More Services */}
-      <section className="bg-[#edf9f8] py-16">
+      <section className="bg-[#fff6ee] py-16">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Explore More</p>
-            <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">More Massage Services in Delhi</h2>
+            <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">More Massage Services in Delhi</h2>
             <p className="mx-auto mt-3 max-w-2xl text-gray-600">Looking for something specific? Explore our other massage services across Delhi NCR.</p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
@@ -454,7 +454,7 @@ export default function B2Bpage() {
 
       {/* CTA */}
       <section className="mx-auto max-w-7xl px-6 py-16">
-        <div className="rounded-[32px] bg-gradient-to-r from-[#113435] to-[#346065] p-8 text-white shadow-2xl md:p-10">
+        <div className="rounded-[32px] bg-gradient-to-r from-[#1f1a17] to-[#4b4541] p-8 text-white shadow-2xl md:p-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-300">Book your session</p>
@@ -462,7 +462,7 @@ export default function B2Bpage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk into any of our 24+ outlets, or have us come to your hotel or home anywhere in Delhi NCR.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#113435] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://api.whatsapp.com/send?phone=919217255113" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

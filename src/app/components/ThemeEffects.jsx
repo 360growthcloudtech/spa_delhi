@@ -1,12 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
+const ENQUIRE_URL = "https://api.whatsapp.com/send?phone=919217255113";
+
 /**
- * Site-wide Travlla theme effects:
- *  - scroll reveal for page sections and grid cards
- *  - two-part custom cursor (desktop / fine pointer only)
+ * Site-wide theme effects:
+ *  - gentle scroll reveal for section headings and grid cards
+ *  - Avataar-style vertical "Enquire" tab pinned to the right edge
  *  - back-to-top button with a scroll-progress ring
  *
  * Everything is progressive: content is only hidden after JS tags it, and
@@ -15,10 +17,7 @@ import { usePathname } from "next/navigation";
  */
 export default function ThemeEffects() {
   const pathname = usePathname();
-  const cursorRef = useRef(null);
-  const cursor2Ref = useRef(null);
   const [progress, setProgress] = useState(0);
-  const [enableCursor, setEnableCursor] = useState(false);
 
   // Scroll reveal
   useEffect(() => {
@@ -56,7 +55,7 @@ export default function ThemeEffects() {
         section.querySelectorAll(".grid").forEach((grid) => {
           Array.from(grid.children)
             .slice(0, 12)
-            .forEach((child, idx) => tag(child, (idx % 4) * 90));
+            .forEach((child, idx) => tag(child, (idx % 4) * 80));
         });
       });
     };
@@ -87,63 +86,37 @@ export default function ThemeEffects() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Custom cursor
-  useEffect(() => {
-    const fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!fine || reduce) return;
-    setEnableCursor(true);
-
-    let raf;
-    const onMove = (e) => {
-      cancelAnimationFrame(raf);
-      raf = requestAnimationFrame(() => {
-        const t = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
-        if (cursorRef.current) cursorRef.current.style.transform = t;
-        if (cursor2Ref.current) cursor2Ref.current.style.transform = t;
-      });
-    };
-    const onOver = (e) => {
-      const hit = e.target.closest?.("a, button, [role='button'], input, select, textarea");
-      cursor2Ref.current?.classList.toggle("is-hover", Boolean(hit));
-    };
-    window.addEventListener("mousemove", onMove, { passive: true });
-    window.addEventListener("mouseover", onOver, { passive: true });
-    return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener("mousemove", onMove);
-      window.removeEventListener("mouseover", onOver);
-    };
-  }, []);
-
   const r = 22;
   const c = 2 * Math.PI * r;
 
   return (
     <>
-      {enableCursor && (
-        <>
-          <div ref={cursorRef} className="trv-cursor" aria-hidden="true" />
-          <div ref={cursor2Ref} className="trv-cursor2" aria-hidden="true" />
-        </>
-      )}
+      {/* Vertical Enquire tab (Avataar) */}
+      <a
+        href={ENQUIRE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed right-0 top-1/2 z-40 hidden md:block -translate-y-1/2 rounded-l-lg bg-black px-2.5 py-4 text-xs font-semibold uppercase tracking-[0.15em] text-white shadow-lg transition-colors duration-300 hover:bg-primary [writing-mode:vertical-rl] rotate-180"
+      >
+        Enquire
+      </a>
 
       <button
         type="button"
         aria-label="Back to top"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className={`fixed bottom-6 right-6 z-50 size-14 rounded-full bg-white shadow-xl shadow-black/10 flex items-center justify-center text-primary transition-all duration-500 hover:bg-primary hover:text-white ${
+        className={`fixed bottom-6 right-6 z-50 size-14 rounded-full bg-white shadow-xl shadow-black/10 flex items-center justify-center text-ink transition-all duration-500 hover:bg-primary hover:text-white ${
           progress > 0.04 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6 pointer-events-none"
         }`}
       >
         <svg className="absolute inset-0 -rotate-90" viewBox="0 0 56 56" aria-hidden="true">
-          <circle cx="28" cy="28" r={r} fill="none" stroke="currentColor" strokeOpacity="0.15" strokeWidth="3" />
+          <circle cx="28" cy="28" r={r} fill="none" stroke="currentColor" strokeOpacity="0.12" strokeWidth="3" />
           <circle
             cx="28"
             cy="28"
             r={r}
             fill="none"
-            stroke="#85d200"
+            stroke="#9c5232"
             strokeWidth="3"
             strokeLinecap="round"
             strokeDasharray={c}

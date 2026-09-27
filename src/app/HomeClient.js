@@ -62,64 +62,59 @@ export default function HomeClient() {
 </Suspense>
 
       {/* Content Section */}
-      <section className="relative bg-lightturquoise py-24 overflow-hidden">
-        <div className="pointer-events-none absolute -right-32 top-20 size-80 rounded-full border-2 border-dashed border-primary/15 animate-rotate-slow" aria-hidden="true" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="bg-white py-16 md:py-24 px-4 md:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto space-y-10 md:space-y-14">
           {/* First Row */}
-          <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div className="relative">
-              <div className="trv-card overflow-hidden rounded-[40px] shadow-2xl shadow-primary/20">
-                <div className="trv-card-media overflow-hidden">
-                  <Image src="/images/80535.webp" alt="Luxury Spa in Delhi" width={600} height={400} loading="lazy" className="w-full h-auto" />
-                </div>
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-14 items-center rounded-3xl bg-cream p-5 md:p-10">
+            <div className="trv-card relative overflow-hidden rounded-[20px]">
+              <div className="trv-card-media relative aspect-[4/3] overflow-hidden bg-blush">
+                <Image src="/images/80535.webp" alt="Luxury Spa in Delhi" fill sizes="(max-width:768px) 100vw, 50vw" loading="lazy" className="object-cover" />
               </div>
-              <span className="absolute -bottom-6 -right-4 md:-right-6 rounded-3xl bg-secondary px-6 py-4 font-title text-dark shadow-xl animate-smooth-up-down2">
-                <span className="block text-3xl font-bold leading-none">24+</span>
-                <span className="text-sm font-semibold uppercase tracking-wider">Outlets</span>
+              <span className="absolute bottom-4 left-4 rounded-2xl bg-white px-4 py-2.5 shadow-[0_4px_12px_rgba(0,0,0,0.08)]">
+                <span className="block font-semibold text-primary text-lg leading-none">24+</span>
+                <span className="text-[11px] text-gray-500">Spa Outlets</span>
               </span>
             </div>
             <div>
-              <span className="font-display text-2xl text-amber-500 block mb-2">Deep Relaxation</span>
-              <h2 className="text-3xl md:text-5xl font-bold text-dark leading-tight mb-6">
+              <span className="font-display italic font-semibold text-xl text-primary block mb-2">Deep Relaxation</span>
+              <h2 className="text-3xl md:text-[40px] font-semibold text-ink leading-tight mb-5">
                 Visit Our Massage Centre{" "}
-                <span className="text-primary">in Delhi for Deep Relaxation</span>
+                <span className="italic text-primary">in Delhi for Deep Relaxation</span>
               </h2>
-              <p className="text-bodycolor text-lg leading-relaxed">
-                Our massage centre in Delhi offers a wide range of premium massage services to help you relax after a long, stressful day. Our team of Indian and international therapists is trained to deliver B2B massage, full body massage, and <span className="font-semibold text-primary"><a href="/couples-massage-in-delhi" className="underline decoration-secondary underline-offset-4">couples massage in Delhi</a></span> at an affordable price without compromising on quality. From hotel massage to home massage, we&apos;re ready to serve you wherever you are. Contact us today and experience the relaxation you&apos;ve been looking for.
+              <p className="text-bodycolor leading-relaxed">
+                Our massage centre in Delhi offers a wide range of premium massage services to help you relax after a long, stressful day. Our team of Indian and international therapists is trained to deliver B2B massage, full body massage, and <span className="font-semibold text-primary"><a href="/couples-massage-in-delhi" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary">couples massage in Delhi</a></span> at an affordable price without compromising on quality. From hotel massage to home massage, we&apos;re ready to serve you wherever you are. Contact us today and experience the relaxation you&apos;ve been looking for.
               </p>
+              <a href="/couples-massage-in-delhi" className="site-button mt-7">Book a Session</a>
             </div>
           </div>
 
           {/* Second Row */}
-          <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mt-24">
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-14 items-center rounded-3xl bg-white p-5 md:p-10 shadow-[0_4px_24px_rgba(0,0,0,0.05)] border border-black/5">
             <div className="order-2 md:order-1">
-              <span className="font-display text-2xl text-amber-500 block mb-2">Top Rated</span>
-              <h2 className="text-3xl md:text-5xl font-bold text-dark leading-tight mb-6">
+              <span className="font-display italic font-semibold text-xl text-primary block mb-2">Top Rated</span>
+              <h2 className="text-3xl md:text-[40px] font-semibold text-ink leading-tight mb-5">
                 Get Top-Rated Full Body{" "}
-                <span className="text-primary">Massage At Spa in Connaught Place</span>
+                <span className="italic text-primary">Massage At Spa in Connaught Place</span>
               </h2>
-              <p className="text-bodycolor text-lg leading-relaxed">
-                Our full-body massage at <span className="font-semibold text-primary"><a href="/spa-in-connaught-place" className="underline decoration-secondary underline-offset-4">spa in Connaught Place</a></span> is the perfect way to relax and refresh. We combine modern massage techniques with traditional healing practices to create therapy plans that suit your body and lifestyle. Since we started, our goal has been simple: offer peace, comfort, and the best massage experience to everyone who visits. With professional therapists, quality oils, and customized treatments, we&apos;re known as one of the most trusted spas in Delhi. Come by and enjoy a relaxing session that leaves you fully rejuvenated.
+              <p className="text-bodycolor leading-relaxed">
+                Our full-body massage at <span className="font-semibold text-primary"><a href="/spa-in-connaught-place" className="underline decoration-primary/40 underline-offset-4 hover:decoration-primary">spa in Connaught Place</a></span> is the perfect way to relax and refresh. We combine modern massage techniques with traditional healing practices to create therapy plans that suit your body and lifestyle. Since we started, our goal has been simple: offer peace, comfort, and the best massage experience to everyone who visits. With professional therapists, quality oils, and customized treatments, we&apos;re known as one of the most trusted spas in Delhi. Come by and enjoy a relaxing session that leaves you fully rejuvenated.
               </p>
-              <a href="/spa-in-connaught-place" className="site-button mt-8">Explore Connaught Place</a>
+              <a href="/spa-in-connaught-place" className="site-button mt-7">Explore Connaught Place</a>
             </div>
-            <div className="order-1 md:order-2 relative">
-              <div className="trv-card overflow-hidden rounded-[40px] shadow-2xl shadow-primary/20">
-                <div className="trv-card-media overflow-hidden">
-                  <Image src="/images/453.webp" alt="Full Body Massage in Connaught Place" width={600} height={400} loading="lazy" className="w-full h-auto" />
-                </div>
+            <div className="order-1 md:order-2 trv-card overflow-hidden rounded-[20px]">
+              <div className="trv-card-media relative aspect-[4/3] overflow-hidden bg-blush">
+                <Image src="/images/453.webp" alt="Full Body Massage in Connaught Place" fill sizes="(max-width:768px) 100vw, 50vw" loading="lazy" className="object-cover" />
               </div>
-              <span className="pointer-events-none absolute -top-6 -left-6 size-24 rounded-full border-2 border-dashed border-secondary animate-rotate-slow" aria-hidden="true" />
             </div>
           </div>
         </div>
       </section>
 
       {/* From Our Blog - real server-rendered links so every guide stays reachable from the homepage */}
-      <section className="bg-white py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="bg-cream py-16 md:py-24 px-4 md:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto">
           <SectionTitle eyebrow="Read & Relax" highlight="Spa & Massage" title="Guides" />
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               { title: "Best Spa Services in Delhi NCR", href: "/blog/best-spa-service-in-delhi-ncr" },
               { title: "Sandwich Massage in Delhi", href: "/blog/sandwich-massage-in-delhi" },
@@ -127,19 +122,17 @@ export default function HomeClient() {
               { title: "What Does Thai Massage Do to Your Body?", href: "/blog/thai-massage-does-to-your-body" },
               { title: "What is a B2B Full Body Massage?", href: "/blog/what-is-b2b-full-body-massage" },
               { title: "Difference Between Spa and Massage", href: "/blog/what-is-the-difference-between-spa-and-massage" },
-            ].map((item, i) => (
+            ].map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="group relative flex items-center justify-between gap-4 overflow-hidden rounded-3xl border border-primary/10 bg-lightturquoise p-6 font-title text-xl font-semibold text-dark trv-card"
+                className="group flex items-center justify-between gap-4 rounded-2xl bg-white p-5 md:p-6 shadow-[0_4px_24px_rgba(0,0,0,0.04)] trv-card"
               >
-                <span className="absolute inset-0 bg-primary origin-left scale-x-0 transition-transform duration-500 group-hover:scale-x-100" aria-hidden="true" />
-                <span className="relative flex items-center gap-4 transition-colors duration-500 group-hover:text-white">
-                  <span className="text-3xl font-bold text-primary/30 transition-colors duration-500 group-hover:text-secondary">0{i + 1}</span>
+                <span className="font-title text-lg font-semibold text-ink transition-colors duration-300 group-hover:text-primary">
                   {item.title}
                 </span>
-                <span className="relative shrink-0 size-10 rounded-full bg-secondary text-dark flex items-center justify-center transition-transform duration-500 group-hover:rotate-45" aria-hidden="true">
-                  ↗
+                <span className="shrink-0 size-9 rounded-lg bg-cream text-primary flex items-center justify-center transition-colors duration-300 group-hover:bg-primary group-hover:text-white" aria-hidden="true">
+                  →
                 </span>
               </a>
             ))}

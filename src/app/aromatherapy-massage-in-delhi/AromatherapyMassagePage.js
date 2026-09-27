@@ -558,11 +558,11 @@ export default function AromatherapyMassagePage() {
         </section>
 
         {/* Long-form SEO content — scannable card layout */}
-        <section className="bg-[#e6f7f6] py-16 lg:py-20">
+        <section className="bg-[#fff3e8] py-16 lg:py-20">
           <div className="mx-auto max-w-6xl px-6">
             <div className="mb-12 text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Complete Guide</p>
-              <h2 className="mt-3 text-3xl font-bold text-[#113435] md:text-4xl">Aromatherapy Massage in Delhi — Oils, Benefits & How to Choose It</h2>
+              <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Aromatherapy Massage in Delhi — Oils, Benefits & How to Choose It</h2>
               <p className="mx-auto mt-4 max-w-2xl text-gray-600">
                 Everything you'd ask before booking an aromatherapy massage near me in Delhi, in four quick sections.
               </p>
@@ -577,7 +577,7 @@ export default function AromatherapyMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaLeaf /></div>
-                <h3 className="text-lg font-semibold text-[#113435]">Real Essential Oils, Chosen With Intent</h3>
+                <h3 className="text-lg font-semibold text-[#1f1a17]">Real Essential Oils, Chosen With Intent</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Not every spa uses genuine oils. We blend pure lavender, eucalyptus, rosemary, chamomile, and peppermint — each picked for a specific effect — so your therapist can tailor the blend to how you want to feel afterward.
                 </p>
@@ -591,7 +591,7 @@ export default function AromatherapyMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#113435]">How It Differs From a Regular Massage</h3>
+                <h3 className="text-lg font-semibold text-[#1f1a17]">How It Differs From a Regular Massage</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   The technique is close to a Swedish massage — long, gliding strokes to relax the muscles and calm the nervous system. What's different is the therapeutic-grade oils, absorbed through the skin and inhaled throughout the session.
                 </p>
@@ -605,7 +605,7 @@ export default function AromatherapyMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHotTub /></div>
-                <h3 className="text-lg font-semibold text-[#113435]">Who It's Really For</h3>
+                <h3 className="text-lg font-semibold text-[#1f1a17]">Who It's Really For</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   A popular pick for everyday anxiety, sleep trouble, and mental fatigue from work or travel. Lavender and chamomile support sleep; peppermint and eucalyptus help with tension headaches and a refreshing lift.
                 </p>
@@ -619,7 +619,7 @@ export default function AromatherapyMassagePage() {
                 className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm"
               >
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaCheckCircle /></div>
-                <h3 className="text-lg font-semibold text-[#113435]">Hygiene & Safety First</h3>
+                <h3 className="text-lg font-semibold text-[#1f1a17]">Hygiene & Safety First</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   We always check for allergies or skin sensitivities before your session, so your therapist can pick oils that are genuinely safe — or adjust the treatment entirely if needed.
                 </p>
@@ -766,7 +766,7 @@ export default function AromatherapyMassagePage() {
         {/* End Related Services */}
 
         {/* content section */}
-        <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-20 px-6 md:px-16">
+        <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
           <div className="max-w-6xl mx-auto">
             <motion.div
               className="text-center mb-12"
@@ -776,7 +776,7 @@ export default function AromatherapyMassagePage() {
               transition={{ duration: 0.6 }}
             >
               <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-              <h2 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-4 font-serif">Best Aromatherapy Massage in Delhi for Deep Relaxation</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-4 mb-4 font-serif">Best Aromatherapy Massage in Delhi for Deep Relaxation</h2>
               <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
               <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                 From trained therapists to hygienic outlets and 24/7 booking support, Luxury Russian Spa blends soothing essential oils with genuine care.
@@ -788,7 +788,7 @@ export default function AromatherapyMassagePage() {
                 {SERVICES_LEFT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
                     initial={{ opacity: 0, x: 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -808,7 +808,7 @@ export default function AromatherapyMassagePage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>
@@ -838,7 +838,7 @@ export default function AromatherapyMassagePage() {
                 {SERVICES_RIGHT.map((s, idx) => (
                   <motion.div
                     key={s.id}
-                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#cdeceb] overflow-hidden"
+                    className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -858,7 +858,7 @@ export default function AromatherapyMassagePage() {
                           {s.chips.slice(0, 6).map((c, i) => (
                             <span
                               key={i}
-                              className="bg-[#edf9f8] text-amber-800 px-3 py-1 rounded-full text-sm"
+                              className="bg-[#fff6ee] text-amber-800 px-3 py-1 rounded-full text-sm"
                             >
                               {c}
                             </span>

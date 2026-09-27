@@ -1,43 +1,32 @@
 /**
- * Travlla-style section heading: script eyebrow, two-tone title and a
- * decorative wave/leaf separator.
+ * Avataar-style section heading: italic serif eyebrow, centred Playfair
+ * title with an italic copper highlight, and a short copper rule.
  */
 export function TitleSeparator({ className = "" }) {
   return (
-    <svg
-      className={`mx-auto h-6 w-48 text-primary ${className}`}
-      viewBox="0 0 200 24"
-      fill="none"
-      aria-hidden="true"
-    >
-      <path
-        d="M2 12c12 0 12-8 24-8s12 8 24 8 12-8 24-8M126 4c12 0 12 8 24 8s12-8 24-8 12 8 24 8"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        opacity="0.45"
-      />
-      <path d="M100 2c-6 4-8 10-2 20 6-10 4-16 2-20z" fill="#85d200" />
-      <path d="M92 8c-2 5 0 10 6 13-1-6-2-10-6-13zM108 8c2 5 0 10-6 13 1-6 2-10 6-13z" fill="currentColor" />
-    </svg>
+    <span className={`mx-auto flex w-24 items-center justify-center gap-2 text-primary ${className}`} aria-hidden="true">
+      <span className="h-px flex-1 bg-current opacity-40" />
+      <span className="size-1.5 rotate-45 bg-current" />
+      <span className="h-px flex-1 bg-current opacity-40" />
+    </span>
   );
 }
 
 export default function SectionTitle({ eyebrow, highlight, title, text, align = "center", light = false, as: Tag = "h2" }) {
   const center = align === "center";
   return (
-    <div className={`${center ? "text-center mx-auto" : ""} max-w-3xl mb-12 md:mb-16`}>
+    <div className={`${center ? "text-center mx-auto" : ""} max-w-3xl mb-10 md:mb-14`}>
       {eyebrow && (
-        <span className={`font-display text-2xl md:text-3xl block mb-2 ${light ? "text-secondary" : "text-amber-500"}`}>
+        <span className={`font-display italic font-semibold text-xl md:text-2xl block mb-2 ${light ? "text-secondary" : "text-primary"}`}>
           {eyebrow}
         </span>
       )}
-      <Tag className={`text-3xl md:text-5xl font-bold leading-tight mb-4 ${light ? "text-white" : "text-dark"}`}>
-        {highlight && <span className={light ? "text-secondary" : "text-primary"}>{highlight} </span>}
+      <Tag className={`text-3xl md:text-[40px] font-semibold leading-tight mb-4 ${light ? "text-white" : "text-ink"}`}>
+        {highlight && <span className={`italic ${light ? "text-secondary" : "text-primary"}`}>{highlight} </span>}
         {title}
       </Tag>
-      {text && <p className={`text-lg ${light ? "text-white/75" : "text-bodycolor"}`}>{text}</p>}
-      <TitleSeparator className={center ? "mt-3" : "mt-3 !mx-0"} />
+      {text && <p className={`text-base md:text-lg ${light ? "text-white/75" : "text-bodycolor"}`}>{text}</p>}
+      <TitleSeparator className={center ? "mt-4" : "mt-4 !mx-0"} />
     </div>
   );
 }

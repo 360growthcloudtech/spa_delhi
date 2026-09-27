@@ -52,7 +52,7 @@ export default function Healthbenefits() {
                      ];
                 
   return (
-    <main className="bg-[#f5fdfc] min-h-screen text-gray-800">
+    <main className="bg-[#fffaf5] min-h-screen text-gray-800">
       {/* Banner Section */}
       <section className="relative h-[60vh] w-full">
         <Image
@@ -98,7 +98,7 @@ export default function Healthbenefits() {
       </section> */}
 
       {/* /// */}
-       <section className="w-full bg-[#f2fbfa] py-16 px-4">
+       <section className="w-full bg-[#fff8f1] py-16 px-4">
       <div className="max-w-5xl mx-auto">
 
         {/* FEATURED IMAGE */}
@@ -113,7 +113,7 @@ export default function Healthbenefits() {
         </div>
 
         {/* TITLE */}
-        {/* <h1 className="text-3xl md:text-4xl font-semibold text-[#066168] mb-6 leading-snug">
+        {/* <h1 className="text-3xl md:text-4xl font-semibold text-[#9c5232] mb-6 leading-snug">
           Swedish Massage vs Deep Tissue Massage: Which Massage Should You Choose?
         </h1> */}
 
@@ -126,7 +126,7 @@ export default function Healthbenefits() {
         </p>
 
         {/* SWEDISH MASSAGE */}
-        <h2 className="text-3xl font-semibold text-[#066168] mb-4">
+        <h2 className="text-3xl font-semibold text-[#9c5232] mb-4">
           What Is a Sandwich Massage?
         </h2>
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
@@ -187,7 +187,7 @@ export default function Healthbenefits() {
                 </p>
 
         {/* DEEP TISSUE */}
-        <h2 className="text-3xl font-semibold text-[#066168] mb-4">
+        <h2 className="text-3xl font-semibold text-[#9c5232] mb-4">
           Effects on the Nervous System and Mood
         </h2>
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
@@ -207,7 +207,7 @@ export default function Healthbenefits() {
           Unlike a Swedish massage, where you tend to lie still under the towel for most of the time, deep tissue work can be slower because the strokes are targeted toward the areas they are trying to improve.
         </p>
         <p className="text-gray-700 leading-8 mb-6">
-          Looking for the best <a href="/spa-in-lajpat-nagar" className="text-[#066168] hover:underline">spa in Lajpat Nagar</a>? Unwind with premium Swedish massage and deep tissue massage for total relaxation and pain relief.
+          Looking for the best <a href="/spa-in-lajpat-nagar" className="text-[#9c5232] hover:underline">spa in Lajpat Nagar</a>? Unwind with premium Swedish massage and deep tissue massage for total relaxation and pain relief.
         </p> */}
         <p className="text-gray-700 text-bold leading-8 mb-6">
             This leads to:
@@ -248,13 +248,13 @@ export default function Healthbenefits() {
         </div>
 
         {/* DIFFERENCE */}
-        {/* <h2 className="text-2xl font-semibold text-[#066168] mb-6">
+        {/* <h2 className="text-2xl font-semibold text-[#9c5232] mb-6">
           Key Differences: Swedish vs Deep Tissue Massage
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
           <div className="bg-white p-6 rounded shadow-sm">
-            <h3 className="text-lg font-semibold text-[#066168] mb-3">
+            <h3 className="text-lg font-semibold text-[#9c5232] mb-3">
               Swedish Massage
             </h3>
             <ul className="space-y-2 text-gray-700">
@@ -266,7 +266,7 @@ export default function Healthbenefits() {
           </div>
 
           <div className="bg-white p-6 rounded shadow-sm">
-            <h3 className="text-lg font-semibold text-[#066168] mb-3">
+            <h3 className="text-lg font-semibold text-[#9c5232] mb-3">
               Deep Tissue Massage
             </h3>
             <ul className="space-y-2 text-gray-700">
@@ -288,7 +288,7 @@ export default function Healthbenefits() {
 
         {/* BENEFITS OF SWEDISH MASSAGE */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#9c5232] mb-4">
             Posture And Alignment Benefits
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -310,7 +310,7 @@ export default function Healthbenefits() {
 
         {/* BENEFITS OF DEEP TISSUE */}
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#9c5232] mb-4">
             Immune System Support
           </h2>
           <p className="text-gray-700 leading-8 mb-6">
@@ -341,8 +341,8 @@ export default function Healthbenefits() {
         </div>
 
         {/* WHICH MASSAGE SHOULD YOU CHOOSE */}
-        <div className="bg-[#f2fbfa] p-8 rounded-xl">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-6">
+        <div className="bg-[#fff8f1] p-8 rounded-xl">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#9c5232] mb-6">
             The sandwich massage is perfect for just about anyone:
           </h2>
 
@@ -382,7 +382,7 @@ export default function Healthbenefits() {
         </div>
 
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#066168] mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#9c5232] mb-6">
             How Often Can You Get a Sandwich Massage?
           </h2>
 
@@ -424,7 +424,7 @@ export default function Healthbenefits() {
         </div>
 
         {/* CAUTION */}
-        <div className="bg-[#fff3e8] border-l-4 border-[#066168] p-6 rounded">
+        <div className="bg-[#fff3e8] border-l-4 border-[#9c5232] p-6 rounded">
           <h3 className="text-xl font-semibold mb-3 text-gray-800">
             What Happens During the Process of Sandwich Massage?
           </h3>
@@ -447,14 +447,14 @@ export default function Healthbenefits() {
         {/* FINAL CTA */}
         {/* <div className="text-center pt-6">
           <p className="text-lg font-medium text-gray-800">
-            Searching for the best <a href="/" className="text-[#066168] hover:underline">spa in Delhi</a>? Experience expert massage
+            Searching for the best <a href="/" className="text-[#9c5232] hover:underline">spa in Delhi</a>? Experience expert massage
             therapy that melts stress, eases muscle tension, and leaves you
             refreshed.
           </p>
         </div> */}
 
          {/* WHICH ONE */}
-        <h2 className="text-2xl font-semibold text-[#066168] mb-4">
+        <h2 className="text-2xl font-semibold text-[#9c5232] mb-4">
           Final Thoughts
         </h2>
         <p className="text-gray-700 leading-8 mb-10">
@@ -462,7 +462,7 @@ export default function Healthbenefits() {
         </p>
 
         {/* CTA */}
-        <div className="bg-[#fff3e8] border-l-4 border-[#066168] p-6 rounded">
+        <div className="bg-[#fff3e8] border-l-4 border-[#9c5232] p-6 rounded">
           <p className="text-gray-800 font-medium">
            In a world that is stressful and body straining, sandwich massage therapy offers natural relief that combat internal blockages and relieve everyday stress. If your body aches, mind races or you just want to reach ultimate bliss and relaxation - sandwich massage could change how your body feels.
           </p>

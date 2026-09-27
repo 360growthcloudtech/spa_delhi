@@ -717,7 +717,7 @@ const faqs = [
               </section>
               {/* End Our Signature Treatments */}
               {/* icon section */}
-              <section className="relative bg-gradient-to-br from-[#f5fdfc] to-[#f8f0eb] py-24 px-6 lg:px-16 overflow-hidden">
+              <section className="relative bg-gradient-to-br from-[#fffaf5] to-[#f8f0eb] py-24 px-6 lg:px-16 overflow-hidden">
                     {/* Decorative elements */}
                     <div className="absolute top-0 right-0 w-64 h-64 bg-[#f5e4d7] rounded-full mix-blend-multiply filter blur-3xl opacity-30 transform translate-x-1/2 -translate-y-1/2"></div>
                     <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#e8d1c5] rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform -translate-x-1/2 translate-y-1/2"></div>
@@ -737,7 +737,7 @@ const faqs = [
                             </motion.span>
                             
                             <motion.h2 
-                              className="text-4xl md:text-5xl font-bold text-[#113435] mt-2 mb-6 leading-tight"
+                              className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-2 mb-6 leading-tight"
                               initial={{ opacity: 0, y: 20 }}
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.5, delay: 0.2 }}
@@ -759,7 +759,7 @@ const faqs = [
                             {features2.map((item, index) => (
                               <motion.div 
                                 key={index}
-                                className="bg-white bg-opacity-70 backdrop-blur-sm rounded-2xl p-5 border border-[#cdeceb] shadow-sm hover:shadow-md transition-all"
+                                className="bg-white bg-opacity-70 backdrop-blur-sm rounded-2xl p-5 border border-[#f0dccb] shadow-sm hover:shadow-md transition-all"
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.3 + (index * 0.1) }}
@@ -776,7 +776,7 @@ const faqs = [
                                     />
                                   </div>
                                   <div>
-                                    <h3 className="text-lg font-semibold text-[#113435] mb-1">{item.title}</h3>
+                                    <h3 className="text-lg font-semibold text-[#1f1a17] mb-1">{item.title}</h3>
                                     <p className="text-sm text-[#7d6b62]">{item.description}</p>
                                   </div>
                                 </div>
@@ -864,7 +864,7 @@ const faqs = [
                   </section>
               {/* ENd icon section */}
               {/* About Section */}
-                    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#f5fdfc] to-[#f5fdfc] relative overflow-hidden">
+                    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fffaf5] to-[#fffaf5] relative overflow-hidden">
                       {/* Decorative Elements */}
                       <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
                       <div className="absolute top-20 right-10 w-80 h-80 rounded-full bg-amber-200/30 blur-3xl"></div>
@@ -1360,7 +1360,7 @@ const faqs = [
               </div>
             </section>
              {/* content section */}
-                  <section className="bg-gradient-to-b from-[#f5fdfc] to-[#f8f0eb] py-18 px-4 md:px-14">
+                  <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-18 px-4 md:px-14">
                                                    <div className="max-w-6xl mx-auto">
                                                      {/* Section Header */}
                                                      {/* <motion.div 
@@ -1371,7 +1371,7 @@ const faqs = [
                                                        transition={{ duration: 0.6 }}
                                                      >
                                                        <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                                       <h1 className="text-4xl md:text-5xl font-bold text-[#113435] mt-4 mb-6">Top Rated Body Spa Services in Delhi for Complete Relaxation</h1>
+                                                       <h1 className="text-4xl md:text-5xl font-bold text-[#1f1a17] mt-4 mb-6">Top Rated Body Spa Services in Delhi for Complete Relaxation</h1>
                                                        <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
                                                      </motion.div> */}
                            
@@ -1380,7 +1380,7 @@ const faqs = [
                                                        <div>
                                                          
                                                          {/* <motion.div 
-                                                           className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#cdeceb]"
+                                                           className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
                                                            initial={{ opacity: 0, x: 30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1422,7 +1422,7 @@ const faqs = [
                            
                                                          {/* Body Treatments */}
                                                          {/* <motion.div 
-                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#cdeceb]"
+                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
                                                            initial={{ opacity: 0, x: -30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1468,7 +1468,7 @@ const faqs = [
                            
                                                          {/* Massage Therapy */}
                                                          {/* <motion.div 
-                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#cdeceb]"
+                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
                                                            initial={{ opacity: 0, x: -30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1513,7 +1513,7 @@ const faqs = [
                                                          </motion.div> */}
                                                          {/* Wellness Packages */}
                                                          {/* <motion.div 
-                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#cdeceb]"
+                                                           className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
                                                            initial={{ opacity: 0, x: 30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
@@ -1525,7 +1525,7 @@ const faqs = [
                                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                                                                </svg>
                                                              </div>
-                                                             <h2 className="text-2xl font-bold text-[#113435]">Home & Hotel Spa</h2>
+                                                             <h2 className="text-2xl font-bold text-[#1f1a17]">Home & Hotel Spa</h2>
                                                            </div>
                                                            <p className="text-gray-600 leading-relaxed mb-6">
                                                              Our commitment extends beyond individual wellness to planetary health. We're proud to be the first Carbon Neutral spa in our region, with initiatives including:
@@ -1682,7 +1682,7 @@ const faqs = [
 
               
               {/* Our Therapy Experts */}
-                    <section className="py-16 px-4 bg-gradient-to-br from-[#f5fdfc] via-[#fcf5e9] to-[#f9f1e2]">
+                    <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
                       <div className="max-w-7xl mx-auto">
                         
                         <div className="text-center mb-16">

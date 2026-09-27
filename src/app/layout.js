@@ -1,4 +1,4 @@
-import { Afacad, Figtree, Kaushan_Script } from 'next/font/google'
+import { Montserrat, Playfair_Display, Cormorant_Garamond } from 'next/font/google'
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -6,23 +6,25 @@ import TopBar from "./components/TopBar";
 import Analytics from "./components/Analytics";
 import ThemeEffects from "./components/ThemeEffects";
 
-// Travlla theme typography: Figtree (body), Afacad (titles), Kaushan Script (display accents)
-const figtree = Figtree({
+// Avataar theme typography: Montserrat (body), Playfair Display (headings), Cormorant Garamond italic (accents)
+const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-figtree',
+  variable: '--font-montserrat',
   display: 'swap',
 })
 
-const afacad = Afacad({
+const playfair = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-afacad',
+  style: ['normal', 'italic'],
+  variable: '--font-playfair',
   display: 'swap',
 })
 
-const kaushan = Kaushan_Script({
+const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: '400',
-  variable: '--font-kaushan',
+  weight: ['500', '600'],
+  style: ['italic'],
+  variable: '--font-cormorant',
   display: 'swap',
 })
 
@@ -41,7 +43,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${figtree.variable} ${afacad.variable} ${kaushan.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${playfair.variable} ${cormorant.variable}`}>
       <body className="font-sans">
          <Analytics />
         {/* <TopBar /> */}

@@ -45,7 +45,7 @@ export default function HomeLocation2() {
             <Link
               key={index}
               href={location.link}
-              className="bg-primary hover:bg-secondary hover:text-dark hover:-translate-y-1 text-white text-center font-title text-lg font-medium py-4 px-3 rounded-2xl shadow-sm transition-all duration-500"
+              className="bg-white border border-black/5 hover:bg-primary hover:text-white hover:-translate-y-0.5 text-ink text-center text-sm font-semibold py-4 px-3 rounded-xl shadow-[0_4px_12px_rgba(0,0,0,0.05)] transition-all duration-300"
             >
               {location.name}
             </Link>

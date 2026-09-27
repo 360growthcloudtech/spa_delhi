@@ -92,7 +92,7 @@ export default function ThaiMassageBlogPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <style>{`html { scroll-behavior: smooth; }`}</style>
-      <main className="bg-[#f5fdfc] text-gray-800">
+      <main className="bg-[#fffaf5] text-gray-800">
         <section className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "Thai Massage" }]} />
         </section>
