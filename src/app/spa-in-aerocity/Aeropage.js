@@ -232,8 +232,8 @@ const services = [
     price: '₹3,499 - ₹4,999',
     icon: (
       <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-        <path d="M7 7a4 4 0 018 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M3 20a9 9 0 0118 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M7 7a4 4 0 0 1 8 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M3 20a9 9 0 0 1 18 0" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
   },
@@ -386,8 +386,8 @@ const topSteps = [
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0 0 10 9.87v4.263a1 1 0 0 0 1.555.832l3.197-2.132a1 1 0 0 0 0-1.664z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <span className="text-sm text-gray-700">Airport</span>
@@ -395,7 +395,7 @@ const topSteps = [
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 0 1 2-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 0 0 -2 2zm9-13.5V9" />
                   </svg>
                 </div>
                 <span className="text-sm text-gray-700">Mahipalpure</span>
@@ -403,7 +403,7 @@ const topSteps = [
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 0 1 -2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3l-4 4z" />
                   </svg>
                 </div>
                 <span className="text-sm text-gray-700">Aerocity</span>
@@ -411,7 +411,7 @@ const topSteps = [
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                   </svg>
                 </div>
                 <span className="text-sm text-gray-700">Gurugram</span>
@@ -430,7 +430,7 @@ const topSteps = [
               <a href='https://api.whatsapp.com/send?phone=919217255113'>
                 <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                 </svg>
                 <span>Book Appointment</span>
               </button>
@@ -485,15 +485,15 @@ const topSteps = [
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Title */}
           <motion.div 
-                    className="text-center mb-20"
-                    initial={{ opacity: 0, y: 20 }}
+                    className="text-center mb-10 md:mb-12"
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
                   >
                     <motion.div
                       className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                      initial={{ opacity: 0, scale: 0.9 }}
+                      initial={false}
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ delay: 0.2, duration: 0.5 }}
                     >
@@ -503,7 +503,7 @@ const topSteps = [
                     
                     <motion.h2
                       className="text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
@@ -512,7 +512,7 @@ const topSteps = [
                     
                     <motion.p
                       className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
@@ -521,7 +521,7 @@ const topSteps = [
                     
                     <motion.div
                       className="flex justify-center mt-10"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.5, duration: 0.5 }}
                     >
@@ -535,7 +535,7 @@ const topSteps = [
               <motion.div
                 key={index}
                 className="bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-                initial={{ opacity: 0, y: 30 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
@@ -588,14 +588,14 @@ const topSteps = [
               <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
                 
                 <motion.div
-                  initial={{ opacity: 0, y: 40 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6 }}
                   className="space-y-6"
                 >
                   <motion.div
                                 className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.2 }}
                                 viewport={{ once: true }}
@@ -605,7 +605,7 @@ const topSteps = [
                   
                               <motion.h2
                                 className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.3 }}
                                 viewport={{ once: true }}
@@ -625,7 +625,7 @@ const topSteps = [
                 </motion.div>
       
                 <motion.div
-                  initial={{ opacity: 0, y: 40 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="grid grid-cols-2 gap-4"
@@ -646,10 +646,10 @@ const topSteps = [
     >
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-10 md:mb-12">
           <motion.p
             className="text-amber-500 uppercase font-semibold tracking-wider mb-4"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
@@ -659,7 +659,7 @@ const topSteps = [
 
           <motion.h2
             className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
@@ -672,7 +672,7 @@ const topSteps = [
 
           <motion.p
             className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.5 }}
             viewport={{ once: true }}
@@ -689,7 +689,7 @@ const topSteps = [
             <motion.div
               key={service.title}
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
-              initial={{ opacity: 0, y: 50 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
@@ -722,7 +722,7 @@ const topSteps = [
                 >
                   <path
                     fillRule="evenodd"
-                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
                     clipRule="evenodd"
                   />
                 </svg>
@@ -751,10 +751,10 @@ const topSteps = [
       
       <div className="max-w-[95%] mx-auto">
         {/* Section header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-12">
           <motion.div
                       className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                      initial={{ opacity: 0, scale: 0.9 }}
+                      initial={false}
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ delay: 0.2, duration: 0.5 }}
                     >
@@ -764,7 +764,7 @@ const topSteps = [
                     
                     <motion.h2
                       className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
@@ -919,12 +919,12 @@ const topSteps = [
     {/* content section */}
                          
                           {/* /// */}
-                              <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
+                              <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-16 px-6 md:px-16">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div
           className="text-center mb-12"
-          initial={{ opacity: 0, y: 18 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -944,7 +944,7 @@ const topSteps = [
               <motion.div
                 key={s.id}
                 className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
-                initial={{ opacity: 0, x: 30 }}
+                initial={false}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: idx * 0.08 }}
@@ -997,7 +997,7 @@ const topSteps = [
               <motion.div
                 key={s.id}
                 className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
-                initial={{ opacity: 0, x: -30 }}
+                initial={false}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: idx * 0.08 }}
@@ -1044,7 +1044,7 @@ const topSteps = [
             {/* Promo / Additional info block */}
             <motion.div
               className="bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-6 text-white shadow-xl"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.12 }}
@@ -1074,7 +1074,7 @@ const topSteps = [
         {/* Footer CTA */}
         <motion.div
           className="mt-12 text-center"
-          initial={{ opacity: 0, y: 12 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.08 }}
@@ -1090,12 +1090,12 @@ const topSteps = [
     </section>
                         {/* end */}
                         {/* how to book Aerocity spa outlets */}
-                        <section className="w-full py-20 bg-gradient-to-b from-white to-amber-50">
+                        <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-14">
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
@@ -1118,7 +1118,7 @@ const topSteps = [
           {topSteps.map((s, idx) => (
             <motion.article
               
-              initial={{ opacity: 0, y: 16 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 text-center hover:shadow-xl hover:-translate-y-1 transition"
@@ -1137,7 +1137,7 @@ const topSteps = [
           {bottomSteps.map((s, idx) => (
             <motion.article
               key={idx}
-              initial={{ opacity: 0, y: 16 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 flex items-start gap-4 hover:shadow-xl transition"
@@ -1175,10 +1175,10 @@ const topSteps = [
             
             <div className="max-w-7xl mx-auto relative z-10">
               {/* Heading */}
-              <div className="text-center mb-16">
+              <div className="text-center mb-10 md:mb-12">
                 <motion.div
                   className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
@@ -1187,7 +1187,7 @@ const topSteps = [
                 </motion.div>
                 <motion.h2
                   className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1 }}
@@ -1196,7 +1196,7 @@ const topSteps = [
                 </motion.h2>
                 <motion.p
                   className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
@@ -1205,7 +1205,7 @@ const topSteps = [
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
-                   initial={{ opacity: 0, y: 20 }}
+                   initial={false}
                    whileInView={{ opacity: 1, y: 0 }}
                    transition={{ delay: 0.5, duration: 0.5 }}
                  >
@@ -1219,7 +1219,7 @@ const topSteps = [
                   <motion.div
                     key={index}
                     className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
-                    initial={{ opacity: 0, y: 50 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -1292,14 +1292,14 @@ const topSteps = [
               {/* Additional information */}
               {/* <motion.div 
                 className="mt-16 bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-200 rounded-2xl p-6 md:p-8 text-center"
-                initial={{ opacity: 0, y: 30 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                   <div className="bg-amber-200 w-16 h-16 rounded-full flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <div>
@@ -1319,15 +1319,15 @@ const topSteps = [
                                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                                    {/* Section Header */}
                          <motion.div 
-                           className="text-center mb-20"
-                           initial={{ opacity: 0, y: 20 }}
+                           className="text-center mb-10 md:mb-12"
+                           initial={false}
                            whileInView={{ opacity: 1, y: 0 }}
                            viewport={{ once: true, margin: "-100px" }}
                            transition={{ duration: 0.8 }}
                          >
                            <motion.div
                              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                             initial={{ opacity: 0, scale: 0.9 }}
+                             initial={false}
                              whileInView={{ opacity: 1, scale: 1 }}
                              transition={{ delay: 0.2, duration: 0.5 }}
                            >
@@ -1337,7 +1337,7 @@ const topSteps = [
                            
                            <motion.h2
                              className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                             initial={{ opacity: 0, y: 20 }}
+                             initial={false}
                              whileInView={{ opacity: 1, y: 0 }}
                              transition={{ delay: 0.3, duration: 0.6 }}
                            >
@@ -1346,7 +1346,7 @@ const topSteps = [
                            
                            {/* <motion.p
                              className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                             initial={{ opacity: 0, y: 20 }}
+                             initial={false}
                              whileInView={{ opacity: 1, y: 0 }}
                              transition={{ delay: 0.4, duration: 0.5 }}
                            >
@@ -1355,7 +1355,7 @@ const topSteps = [
                            
                            <motion.div
                              className="flex justify-center mt-10"
-                             initial={{ opacity: 0, y: 20 }}
+                             initial={false}
                              whileInView={{ opacity: 1, y: 0 }}
                              transition={{ delay: 0.5, duration: 0.5 }}
                            >
@@ -1369,7 +1369,7 @@ const topSteps = [
                                        <motion.div
                                          key={index}
                                          className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
-                                         initial={{ opacity: 0, y: 40 }}
+                                         initial={false}
                                          whileInView={{ opacity: 1, y: 0 }}
                                          viewport={{ once: true }}
                                          transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -1435,7 +1435,7 @@ const topSteps = [
       <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
                             <div className="max-w-5xl mx-auto px-4">
                               <motion.div
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6 }}
                                 viewport={{ once: true }}
@@ -1443,7 +1443,7 @@ const topSteps = [
                               >
                                 <motion.div
                                   className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                                  initial={{ opacity: 0, y: 20 }}
+                                  initial={false}
                                   whileInView={{ opacity: 1, y: 0 }}
                                   viewport={{ once: true }}
                                 >
@@ -1466,7 +1466,7 @@ const topSteps = [
                                 {faqs.map((faq, index) => (
                                   <motion.div
                                     key={index}
-                                    initial={{ opacity: 0, y: 20 }}
+                                    initial={false}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.4, delay: index * 0.1 }}
                                     viewport={{ once: true }}
@@ -1524,7 +1524,7 @@ const topSteps = [
                     
                               {/* CTA Box */}
                               {/* <motion.div
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.4 }}
                                 viewport={{ once: true }}

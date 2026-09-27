@@ -53,12 +53,12 @@ export default function HomeFaqSection() {
     ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-amber-50 to-white">
+    <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
       <div className="max-w-5xl mx-auto px-4">
         
         {/* Heading */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
@@ -91,7 +91,7 @@ export default function HomeFaqSection() {
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
                 duration: 0.4,

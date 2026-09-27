@@ -277,7 +277,7 @@ export default function DeepTissueMassagePage() {
                 <a href='https://api.whatsapp.com/send?phone=919217255113'>
                   <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                     </svg>
                     <span>Book Appointment</span>
                   </button>
@@ -335,10 +335,10 @@ export default function DeepTissueMassagePage() {
           </div>
 
           <div className="max-w-[95%] mx-auto">
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-12">
               <motion.div
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={false}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
@@ -348,7 +348,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.h2
                 className="text-4xl md:text-5xl lg:text-4xl font-bold text-amber-900 mb-6 font-serif"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
@@ -490,14 +490,14 @@ export default function DeepTissueMassagePage() {
         <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
             <motion.div
-              initial={{ opacity: 0, y: 40 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               className="space-y-6"
             >
               <motion.div
                 className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
                 viewport={{ once: true }}
@@ -507,7 +507,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.h2
                 className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
@@ -526,7 +526,7 @@ export default function DeepTissueMassagePage() {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, y: 40 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="grid grid-cols-2 gap-4"
@@ -545,15 +545,15 @@ export default function DeepTissueMassagePage() {
         <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
-              className="text-center mb-20"
-              initial={{ opacity: 0, y: 20 }}
+              className="text-center mb-10 md:mb-12"
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8 }}
             >
               <motion.div
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={false}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
@@ -563,7 +563,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.h2
                 className="text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
@@ -572,7 +572,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.p
                 className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
               >
@@ -581,7 +581,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.div
                 className="flex justify-center mt-10"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
@@ -594,7 +594,7 @@ export default function DeepTissueMassagePage() {
                 <motion.div
                   key={index}
                   className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50"
-                  initial={{ opacity: 0, y: 30 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   viewport={{ once: true }}
@@ -612,10 +612,10 @@ export default function DeepTissueMassagePage() {
         {/* Related Services Section */}
         <section id="services" className="py-10 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-20">
+            <div className="text-center mb-10 md:mb-12">
               <motion.p
                 className="text-amber-500 uppercase font-semibold tracking-wider mb-4"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
@@ -624,7 +624,7 @@ export default function DeepTissueMassagePage() {
               </motion.p>
               <motion.h2
                 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
@@ -638,7 +638,7 @@ export default function DeepTissueMassagePage() {
                 <motion.div
                   key={index}
                   className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
@@ -661,7 +661,7 @@ export default function DeepTissueMassagePage() {
                     >
                       <path
                         fillRule="evenodd"
-                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                        d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
                         clipRule="evenodd"
                       />
                     </svg>
@@ -674,11 +674,11 @@ export default function DeepTissueMassagePage() {
         {/* End Related Services */}
 
         {/* content section */}
-        <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
+        <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-16 px-6 md:px-16">
           <div className="max-w-6xl mx-auto">
             <motion.div
               className="text-center mb-12"
-              initial={{ opacity: 0, y: 18 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
@@ -697,7 +697,7 @@ export default function DeepTissueMassagePage() {
                   <motion.div
                     key={s.id}
                     className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
-                    initial={{ opacity: 0, x: 30 }}
+                    initial={false}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: idx * 0.08 }}
@@ -747,7 +747,7 @@ export default function DeepTissueMassagePage() {
                   <motion.div
                     key={s.id}
                     className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-[#f0dccb] overflow-hidden"
-                    initial={{ opacity: 0, x: -30 }}
+                    initial={false}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: idx * 0.08 }}
@@ -793,7 +793,7 @@ export default function DeepTissueMassagePage() {
 
                 <motion.div
                   className="bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-6 text-white shadow-xl"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 0.12 }}
@@ -822,7 +822,7 @@ export default function DeepTissueMassagePage() {
 
             <motion.div
               className="mt-12 text-center"
-              initial={{ opacity: 0, y: 12 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.08 }}
@@ -839,11 +839,11 @@ export default function DeepTissueMassagePage() {
         {/* end */}
 
         {/* how to book */}
-        <section className="w-full py-20 bg-gradient-to-b from-white to-amber-50">
+        <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
           <div className="max-w-6xl mx-auto px-6">
             <header className="text-center mb-14">
               <motion.h2
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
@@ -865,7 +865,7 @@ export default function DeepTissueMassagePage() {
               {topSteps.map((s, idx) => (
                 <motion.article
                   key={idx}
-                  initial={{ opacity: 0, y: 16 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
                   className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 text-center hover:shadow-xl hover:-translate-y-1 transition"
@@ -883,7 +883,7 @@ export default function DeepTissueMassagePage() {
               {bottomSteps.map((s, idx) => (
                 <motion.article
                   key={idx}
-                  initial={{ opacity: 0, y: 16 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
                   className="bg-white rounded-2xl shadow-lg p-6 border border-amber-100 flex items-start gap-4 hover:shadow-xl transition"
@@ -919,10 +919,10 @@ export default function DeepTissueMassagePage() {
           <div className="absolute bottom-20 right-0 w-32 h-32 rounded-full bg-amber-200 opacity-15 blur-3xl"></div>
 
           <div className="max-w-7xl mx-auto relative z-10">
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-12">
               <motion.div
                 className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
@@ -931,7 +931,7 @@ export default function DeepTissueMassagePage() {
               </motion.div>
               <motion.h2
                 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
@@ -940,7 +940,7 @@ export default function DeepTissueMassagePage() {
               </motion.h2>
               <motion.p
                 className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
@@ -949,7 +949,7 @@ export default function DeepTissueMassagePage() {
               </motion.p>
               <motion.div
                 className="flex justify-center mt-10"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
@@ -962,7 +962,7 @@ export default function DeepTissueMassagePage() {
                 <motion.div
                   key={index}
                   className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -1027,15 +1027,15 @@ export default function DeepTissueMassagePage() {
         <section className="w-full py-10 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
-              className="text-center mb-20"
-              initial={{ opacity: 0, y: 20 }}
+              className="text-center mb-10 md:mb-12"
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8 }}
             >
               <motion.div
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={false}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
@@ -1045,7 +1045,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.h2
                 className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
@@ -1054,7 +1054,7 @@ export default function DeepTissueMassagePage() {
 
               <motion.div
                 className="flex justify-center mt-10"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
@@ -1067,7 +1067,7 @@ export default function DeepTissueMassagePage() {
                 <motion.div
                   key={index}
                   className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
-                  initial={{ opacity: 0, y: 40 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -1101,7 +1101,7 @@ export default function DeepTissueMassagePage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="max-w-5xl mx-auto px-4">
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
@@ -1109,7 +1109,7 @@ export default function DeepTissueMassagePage() {
             >
               <motion.div
                 className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
@@ -1131,7 +1131,7 @@ export default function DeepTissueMassagePage() {
               {faqs.map((faq, index) => (
                 <motion.div
                   key={index}
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   viewport={{ once: true }}

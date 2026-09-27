@@ -24,7 +24,7 @@ const services = [
 
 export default function HomeServicesSection() {
   return (
-    <section id="services" className="bg-ornament py-16 md:py-24 px-4 md:px-10 lg:px-20">
+    <section id="services" className="bg-ornament py-16 md:py-16 px-4 md:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
           <span className="font-display italic font-semibold text-xl md:text-2xl text-primary block mb-2">
@@ -40,7 +40,7 @@ export default function HomeServicesSection() {
           {services.map((service, index) => (
             <motion.div
               key={service.link}
-              initial={{ opacity: 0, y: 30 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: (index % 4) * 0.08 }}
               viewport={{ once: true }}

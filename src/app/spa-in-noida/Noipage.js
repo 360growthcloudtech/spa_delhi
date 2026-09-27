@@ -151,7 +151,7 @@ export default function Noipage() {
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
-            <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <motion.div key={item.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50">{item.icon}</div>
               <h3 className="text-lg font-semibold text-[#1f1a17]">{item.title}</h3>
               <p className="mt-2 leading-relaxed text-gray-600">{item.desc}</p>
@@ -177,7 +177,7 @@ export default function Noipage() {
             { sector: "Spa in Noida Sector 104", desc: "Near the Noida Expressway, with quick home spa booking to your exact address." },
             { sector: "Spa in Greater Noida", desc: "Serving Crowne Plaza, Jaypee Greens, and homes across Greater Noida West." },
           ].map((item) => (
-            <motion.div key={item.sector} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
+            <motion.div key={item.sector} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
               <h3 className="text-base font-semibold text-[#1f1a17]">{item.sector}</h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">{item.desc}</p>
             </motion.div>
@@ -188,7 +188,7 @@ export default function Noipage() {
       {/* Sector 18 spotlight — image collage + signature treatments */}
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="grid gap-10 overflow-hidden rounded-[32px] border border-amber-100 bg-white p-6 shadow-lg lg:grid-cols-2 lg:items-center lg:p-10">
-          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="relative min-h-[420px]">
+          <motion.div initial={false} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="relative min-h-[420px]">
             <div className="absolute left-0 top-0 z-10 w-40">
               <p className="font-serif text-lg text-[#1f1a17]">Luxury Spa with</p>
               <p className="font-serif text-3xl italic text-amber-700">Luxury Hotel</p>
@@ -208,7 +208,7 @@ export default function Noipage() {
             <div className="absolute bottom-4 right-0 text-5xl text-amber-200/70" aria-hidden="true">✿</div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="mt-6 lg:mt-0">
+          <motion.div initial={false} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="mt-6 lg:mt-0">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">1st Visit @ ₹1999</p>
             <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Best Massage Spa in Noida Sector 18</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
@@ -250,7 +250,7 @@ export default function Noipage() {
       {/* Why choose us */}
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
+          <motion.div initial={false} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Why Choose Us</p>
             <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Why Choose Luxury Russian Spa in Noida?</h2>
             <p className="mt-4 leading-relaxed text-gray-700">
@@ -274,22 +274,22 @@ export default function Noipage() {
           </motion.div>
 
           <div className="grid grid-cols-2 gap-4">
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
+            <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
               <FaLeaf className="mx-auto text-3xl" />
               <h4 className="mt-3 font-semibold">Experienced Therapists</h4>
               <p className="mt-2 text-sm text-white/85">Skilled therapists deliver personalised massage with expert care for complete relaxation.</p>
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
+            <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
               <FaRupeeSign className="mx-auto text-3xl" />
               <h4 className="mt-3 font-semibold">₹1999 First Visit Offer</h4>
               <p className="mt-2 text-sm text-white/85">Enjoy our first-visit offer with premium spa therapies and exceptional value.</p>
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
+            <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
               <FaClock className="mx-auto text-3xl" />
               <h4 className="mt-3 font-semibold">24x7 Booking</h4>
               <p className="mt-2 text-sm text-white/85">Available 24x7 for outlet, home, and hotel spa bookings.</p>
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
+            <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.15 }} className="mt-8 overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a17] to-[#4b4541] p-6 text-center text-white shadow-lg">
               <FaHeart className="mx-auto text-3xl" />
               <h4 className="mt-3 font-semibold">Private &amp; Hygienic Rooms</h4>
               <p className="mt-2 text-sm text-white/85">Every session ensures complete hygiene, comfort, and privacy for every guest.</p>
@@ -314,7 +314,7 @@ export default function Noipage() {
           ].map((t, index) => (
             <motion.div
               key={t.role}
-              initial={{ opacity: 0, y: 24 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: index * 0.08 }}
@@ -343,7 +343,7 @@ export default function Noipage() {
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
-              <motion.div key={service.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+              <motion.div key={service.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <h3 className="text-lg font-semibold text-[#1f1a17]">{service.title}</h3>
                 <p className="mt-2 text-gray-600">{service.desc}</p>
                 <Link href={service.href} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-amber-700 hover:underline">
@@ -370,7 +370,7 @@ export default function Noipage() {
               { label: "Steam Bath", image: "/images/icons8-spa-care-64.webp" },
               { label: "Sauna", image: "/images/icons8-sauna-64.webp" },
             ].map((item) => (
-              <motion.div key={item.label} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex flex-col items-center">
+              <motion.div key={item.label} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex flex-col items-center">
                 <div className="relative flex h-[100px] w-[100px] items-center justify-center rounded-full border border-amber-200 bg-white shadow-sm">
                   <Image src={item.image} alt={item.label} fill className="object-contain p-5" />
                 </div>
@@ -396,7 +396,7 @@ export default function Noipage() {
             {luxuryHotels.map((hotel) => (
               <motion.div
                 key={hotel.name}
-                initial={{ opacity: 0, y: 24 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.45 }}
@@ -425,7 +425,7 @@ export default function Noipage() {
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff3e8] to-[#fffaf5]" : "border-amber-100 bg-white"}`}>
+              <motion.div key={plan.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff3e8] to-[#fffaf5]" : "border-amber-100 bg-white"}`}>
                 <div className={`absolute right-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${plan.highlight ? "bg-amber-600 text-white" : "bg-amber-100 text-amber-700"}`}>{plan.badge}</div>
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50">{plan.icon}</div>
                 <h3 className="text-2xl font-semibold text-[#1f1a17]">{plan.title}</h3>
@@ -458,7 +458,7 @@ export default function Noipage() {
         </div>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-white p-5">
+            <motion.div key={faq.question} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-white p-5">
               <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
                 <span className="text-lg font-semibold text-[#1f1a17]">{faq.question}</span>
                 <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />

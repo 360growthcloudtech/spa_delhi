@@ -240,7 +240,7 @@ const teamMembers = [
     <div className="w-full overflow-x-hidden bg-white relative">
       {/* End Banner */}
 
-    <section id="services-section" className="relative w-full py-24 overflow-hidden bg-gradient-to-b from-amber-50 to-white" >
+    <section id="services-section" className="relative w-full py-16 overflow-hidden bg-gradient-to-b from-amber-50 to-white" >
       
       {/* Decorative Background (applies to full page) */}
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
@@ -314,7 +314,7 @@ const teamMembers = [
         <section className="relative z-10 mt-16 max-w-3xl mx-auto px-4">
           <motion.ul
             className="space-y-8"
-            initial={{ opacity: 0, y: 40 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
@@ -375,10 +375,10 @@ const teamMembers = [
                 
                 <div className="max-w-7xl mx-auto relative z-10">
                   {/* Heading */}
-                  <div className="text-center mb-16">
+                  <div className="text-center mb-10 md:mb-12">
                     <motion.div
                       className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                     >
@@ -387,7 +387,7 @@ const teamMembers = [
                     </motion.div>
                     <motion.h2
                       className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
@@ -396,7 +396,7 @@ const teamMembers = [
                     </motion.h2>
                     <motion.p
                       className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
@@ -405,7 +405,7 @@ const teamMembers = [
                     </motion.p>
                     <motion.div
                        className="flex justify-center mt-10"
-                       initial={{ opacity: 0, y: 20 }}
+                       initial={false}
                        whileInView={{ opacity: 1, y: 0 }}
                        transition={{ delay: 0.5, duration: 0.5 }}
                      >
@@ -419,7 +419,7 @@ const teamMembers = [
                       <motion.div
                         key={index}
                         className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -483,14 +483,14 @@ const teamMembers = [
                   {/* Additional information */}
                   {/* <motion.div 
                     className="mt-16 bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-200 rounded-2xl p-6 md:p-8 text-center"
-                    initial={{ opacity: 0, y: 30 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                   >
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                       <div className="bg-amber-200 w-16 h-16 rounded-full flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                         </svg>
                       </div>
                       <div>
@@ -522,10 +522,10 @@ const teamMembers = [
             
             <div className="max-w-[95%] mx-auto">
               {/* Section header */}
-              <div className="text-center mb-16">
+              <div className="text-center mb-10 md:mb-12">
                 <motion.div
                             className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                            initial={{ opacity: 0, scale: 0.9 }}
+                            initial={false}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 0.2, duration: 0.5 }}
                           >
@@ -535,7 +535,7 @@ const teamMembers = [
                           
                           <motion.h2
                             className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
                           >
@@ -689,10 +689,10 @@ const teamMembers = [
             {/* //// */}
      <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 text-center">
-         <div className="text-center mb-16">
+         <div className="text-center mb-10 md:mb-12">
                     <motion.div
                       className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                     >
@@ -701,7 +701,7 @@ const teamMembers = [
                     </motion.div>
                     <motion.h2
                       className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
@@ -710,7 +710,7 @@ const teamMembers = [
                     </motion.h2>
                     <motion.p
                       className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
@@ -719,7 +719,7 @@ const teamMembers = [
                     </motion.p>
                     <motion.div
                        className="flex justify-center mt-10"
-                       initial={{ opacity: 0, y: 20 }}
+                       initial={false}
                        whileInView={{ opacity: 1, y: 0 }}
                        transition={{ delay: 0.5, duration: 0.5 }}
                      >
@@ -762,12 +762,12 @@ const teamMembers = [
             {/* //// */}
       
             {/* /////? */}
-    <section className="relative bg-white py-24 px-6 md:px-16">
+    <section className="relative bg-white py-16 px-6 md:px-16">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         {/* Left Side Content */}
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
@@ -817,7 +817,7 @@ const teamMembers = [
 
         {/* Right Side Image */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
+          initial={false}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
@@ -844,15 +844,15 @@ const teamMembers = [
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   {/* Section Header */}
         <motion.div 
-          className="text-center mb-20"
-          initial={{ opacity: 0, y: 20 }}
+          className="text-center mb-10 md:mb-12"
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
           <motion.div
             className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={false}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
@@ -862,7 +862,7 @@ const teamMembers = [
           
           <motion.h2
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
@@ -871,7 +871,7 @@ const teamMembers = [
           
           {/* <motion.p
             className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
@@ -880,7 +880,7 @@ const teamMembers = [
           
           <motion.div
             className="flex justify-center mt-10"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
@@ -894,7 +894,7 @@ const teamMembers = [
                       <motion.div
                         key={index}
                         className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
-                        initial={{ opacity: 0, y: 40 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -933,7 +933,7 @@ const teamMembers = [
             <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
               <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
                 <motion.div
-                  initial={{ opacity: 0, y: 40 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6 }}
                   className="space-y-6"
@@ -953,7 +953,7 @@ const teamMembers = [
                 </motion.div>
       
                 <motion.div
-                  initial={{ opacity: 0, y: 40 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="grid grid-cols-2 gap-4"
@@ -971,10 +971,10 @@ const teamMembers = [
             <section className="py-10 px-4 sm:px-6 lg:px-16 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
               <div className="max-w-7xl mx-auto">
                 {/* Section Title */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-10 md:mb-12">
                   <motion.h2
                     className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                   >
@@ -982,7 +982,7 @@ const teamMembers = [
                   </motion.h2>
                   <motion.p
                     className="text-gray-600 max-w-2xl mx-auto text-lg"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
                     viewport={{ once: true }}
@@ -996,7 +996,7 @@ const teamMembers = [
                   {outlets.map((outlet, index) => (
                     <motion.div
                       key={index}
-                      initial={{ opacity: 0, y: 30 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5 }}
                       className="bg-white rounded-3xl shadow-xl overflow-hidden group"
@@ -1044,10 +1044,10 @@ const teamMembers = [
                   <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
                     <div className="max-w-7xl mx-auto">
                       
-                      <div className="text-center mb-16">
+                      <div className="text-center mb-10 md:mb-12">
                       <motion.p
                         className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
                         viewport={{ once: true }}
@@ -1057,7 +1057,7 @@ const teamMembers = [
                       
                       <motion.h2
                         className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                       >
@@ -1066,7 +1066,7 @@ const teamMembers = [
                       
                       <motion.p
                         className="text-gray-600 max-w-2xl mx-auto text-lg"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.1 }}
                         viewport={{ once: true }}
@@ -1112,7 +1112,7 @@ const teamMembers = [
       <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
                             <div className="max-w-5xl mx-auto px-4">
                               <motion.div
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6 }}
                                 viewport={{ once: true }}
@@ -1120,7 +1120,7 @@ const teamMembers = [
                               >
                                 <motion.div
                                   className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                                  initial={{ opacity: 0, y: 20 }}
+                                  initial={false}
                                   whileInView={{ opacity: 1, y: 0 }}
                                   viewport={{ once: true }}
                                 >
@@ -1143,7 +1143,7 @@ const teamMembers = [
                                 {faqs.map((faq, index) => (
                                   <motion.div
                                     key={index}
-                                    initial={{ opacity: 0, y: 20 }}
+                                    initial={false}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.4, delay: index * 0.1 }}
                                     viewport={{ once: true }}
@@ -1201,7 +1201,7 @@ const teamMembers = [
                     
                               {/* CTA Box */}
                               {/* <motion.div
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.4 }}
                                 viewport={{ once: true }}

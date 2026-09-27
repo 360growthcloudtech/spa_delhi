@@ -58,13 +58,13 @@ const LuxuryHotelPartners = () => {
   };
 
   return (
-    <section className="relative py-20 px-4 bg-gradient-to-br from-amber-50 via-white to-amber-50 overflow-hidden">
+    <section className="relative py-16 px-4 bg-gradient-to-br from-amber-50 via-white to-amber-50 overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-10 left-0 w-72 h-72 rounded-full bg-amber-200/20 blur-3xl -z-0"></div>
       <div className="absolute bottom-20 right-0 w-96 h-96 rounded-full bg-amber-100/30 blur-3xl -z-0"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-12">
           <motion.span 
             className="inline-block text-amber-600 font-bold tracking-wider uppercase mb-3"
             initial={{ opacity: 0, y: 20 }}
@@ -273,8 +273,8 @@ export default LuxuryHotelPartners;
   //     description: "A luxurious beachfront retreat with panoramic ocean views and our signature spa treatments.",
   //     icon: (
   //       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-amber-600">
-  //         <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-  //         <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+  //         <path d="M11.47 3.84a.75.75 0 0 1 1 .06 0l8.69 8.69a.75.75 0 1 0 1 .06-1.06l-8.689-8.69a2.25 2.25 0 0 0 -3.182 0l-8.69 8.69a.75.75 0 001.06 1 1 .06l8.69-8.69z" />
+  //         <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 0 1 -1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.43z" />
   //       </svg>
   //     )
   //   },
@@ -286,7 +286,7 @@ export default LuxuryHotelPartners;
   //     description: "Stunning cliffside villas with infinity pools and exclusive access to our premium spa services.",
   //     icon: (
   //       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-amber-600">
-  //         <path fillRule="evenodd" d="M10.5 3.798v5.02a3 3 0 01-.879 2.121l-2.377 2.377a9.845 9.845 0 015.091 1.013 8.315 8.315 0 005.713.636l.285-.071-3.954-3.955a3 3 0 01-.879-2.121v-5.02a23.614 23.614 0 00-3 0zm4.5.138a.75.75 0 00.093-1.495A24.837 24.837 0 0012 2.25a25.048 25.048 0 00-3.093.191A.75.75 0 009 3.936v4.882a1.5 1.5 0 01-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0115 8.818V4.064z" clipRule="evenodd" />
+  //         <path fillRule="evenodd" d="M10.5 3.798v5.02a3 3 0 0 1 -.879 2.121l-2.377 2.377a9.845 9.845 0 0 1 5.091 1.013 8.315 8.315 0 005.713.636l.285-.071-3.954-3.955a3 3 0 0 1 -.879-2.121v-5.02a23.614 23.614 0 0 0 -3 0zm4.5.138a.75.75 0 00.093-1.495A24.837 24.837 0 0 0 12 2.25a25.048 25.048 0 0 0 -3.093.191A.75.75 0 009 3.936v4.882a1.5 1.5 0 0 1 -.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0 1 15 8.818V4.064z" clipRule="evenodd" />
   //       </svg>
   //     )
   //   },
@@ -299,7 +299,7 @@ export default LuxuryHotelPartners;
   //     icon: (
   //       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-amber-600">
   //         <path d="M19.006 3.705a.75.75 0 00-.512-1.41L6 6.838V3a.75.75 0 00-.75-.75h-1.5A.75.75 0 003 3v4.93l-1.006.365a.75.75 0 00.512 1.41l16.5-6z" />
-  //         <path fillRule="evenodd" d="M3.019 11.115L18 5.667V9.09l4.006 1.456a.75.75 0 11-.512 1.41l-.494-.18v8.475h.75a.75.75 0 010 1.5H2.25a.75.75 0 010-1.5H3v-9.129l.019-.006zM18 20.25v-9.565l1.5.545v9.02H18zm-9-6a.75.75 0 00-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75H9z" clipRule="evenodd" />
+  //         <path fillRule="evenodd" d="M3.019 11.115L18 5.667V9.09l4.006 1.456a.75.75 0 11-.512 1.41l-.494-.18v8.475h.75a.75.75 0 01 0 1 .5H2.25a.75.75 0 0 1 0 -1.5H3v-9.129l.019-.006zM18 20.25v-9.565l1.5.545v9.02H18zm-9-6a.75.75 0 00-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75H9z" clipRule="evenodd" />
   //       </svg>
   //     )
   //   },
@@ -311,7 +311,7 @@ export default LuxuryHotelPartners;
   //     description: "Mountain chalet retreat offering panoramic alpine views and our exclusive wellness programs.",
   //     icon: (
   //       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 text-amber-600">
-  //         <path fillRule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clipRule="evenodd" />
+  //         <path fillRule="evenodd" d="M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-9a3 3 0 0 1 -3-3v-9z" clipRule="evenodd" />
   //       </svg>
   //     )
   //   }
@@ -409,7 +409,7 @@ export default LuxuryHotelPartners;
   //               <div className="mt-4 flex justify-center">
   //                 <span className="text-amber-300 text-sm flex items-center">
   //                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 mr-2">
-  //                     <path fillRule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+  //                     <path fillRule="evenodd" d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1 -1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1 -3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 0 0 1 .14-.094l3.75-5.25z" clipRule="evenodd" />
   //                   </svg>
   //                   Complimentary access for hotel guests
   //                 </span>
@@ -427,22 +427,22 @@ export default LuxuryHotelPartners;
   //     </div>
   //   </section>
   {/* demo 2 */}
-        <section className="bg-gradient-to-b from-[#f9f6f2] to-[#f0eae3] py-20 px-4 overflow-hidden">
+        <section className="bg-gradient-to-b from-[#f9f6f2] to-[#f0eae3] py-16 px-4 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-16 relative">
+          <div className="text-center mb-10 md:mb-12 relative">
             {/* <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-40 h-1 bg-[#c5a491]"></div> */}
   
             <motion.div 
-            className="text-center mb-20"
-            initial={{ opacity: 0, y: 20 }}
+            className="text-center mb-10 md:mb-12"
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
             <motion.div
               className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={false}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
@@ -452,7 +452,7 @@ export default LuxuryHotelPartners;
             
             <motion.h2
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
@@ -461,7 +461,7 @@ export default LuxuryHotelPartners;
             
             <motion.p
               className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
@@ -470,7 +470,7 @@ export default LuxuryHotelPartners;
             
             <motion.div
               className="flex justify-center mt-10"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.5 }}
             >
@@ -489,7 +489,7 @@ export default LuxuryHotelPartners;
                   <div className="flex items-center mb-6">
                     <div className="bg-[#f0eae3] p-3 rounded-lg mr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#9d7c6c]" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 000 16zm1-11a1 1 0 1 0 -2 0v2H7a1 1 0 1 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2V7z" clipRule="evenodd" />
                       </svg>
                     </div>
                     <h2 className="text-2xl md:text-3xl font-playfair font-bold text-amber-800">Our Journey</h2>
@@ -519,7 +519,7 @@ export default LuxuryHotelPartners;
                   <div className="flex items-center mb-6">
                     <div className="bg-[#f0eae3] p-3 rounded-lg mr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#9d7c6c]" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0 1 12 2v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 8 18v-5H4a1 1 0 0 1 -.82-1.573l7-10a1 1 0 0 1 1.12-.38z" clipRule="evenodd" />
                       </svg>
                     </div>
                     <h2 className="text-2xl md:text-3xl font-playfair font-bold text-amber-800">Healing Philosophy</h2>
@@ -554,7 +554,7 @@ export default LuxuryHotelPartners;
                   <div className="flex items-center mb-6">
                     <div className="bg-[#f0eae3] p-3 rounded-lg mr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#9d7c6c]" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M10 9a3 3 0 1 0 0-6 3 3 0 000 6zm-7 9a7 7 0 1 1 14 0H3z" clipRule="evenodd" />
                       </svg>
                     </div>
                     <h2 className="text-2xl md:text-3xl font-playfair font-bold text-amber-800">Our Healers</h2>
@@ -587,7 +587,7 @@ export default LuxuryHotelPartners;
                   <div className="flex items-center mb-6">
                     <div className="bg-[#f0eae3] p-3 rounded-lg mr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#9d7c6c]" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M4 2a2 2 0 0 0 -2 2v11a3 3 0 1 0 6 0V4a2 2 0 0 0 -2-2H4zm1 14a1 1 0 1 0 0-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 0 0 0-2.828L13.485 5.1a2 2 0 0 0 -2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2z" clipRule="evenodd" />
                       </svg>
                     </div>
                     <h2 className="text-2xl md:text-3xl font-playfair font-bold text-amber-800">Sustainable Wellness</h2>
@@ -636,7 +636,7 @@ export default LuxuryHotelPartners;
                         <div className="flex">
                           {[...Array(5)].map((_, i) => (
                             <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-300" viewBox="0 0 20 20" fill="currentColor">
-                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0 -.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0 -1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0 -.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
                             </svg>
                           ))}
                         </div>

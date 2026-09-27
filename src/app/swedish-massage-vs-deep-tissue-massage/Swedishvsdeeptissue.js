@@ -262,7 +262,7 @@ export default function Swedishvsdeeptissue() {
       </div>
     </section>
     {/* // */}
-    <section className="w-full bg-white py-20 px-4">
+    <section className="w-full bg-white py-16 px-4">
       <div className="max-w-5xl mx-auto space-y-14">
 
         {/* BENEFITS OF SWEDISH MASSAGE */}
@@ -463,7 +463,7 @@ export default function Swedishvsdeeptissue() {
             <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
                                   <div className="max-w-5xl mx-auto px-4">
                                     <motion.div
-                                      initial={{ opacity: 0, y: 20 }}
+                                      initial={false}
                                       whileInView={{ opacity: 1, y: 0 }}
                                       transition={{ duration: 0.6 }}
                                       viewport={{ once: true }}
@@ -471,7 +471,7 @@ export default function Swedishvsdeeptissue() {
                                     >
                                       <motion.div
                                         className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                                        initial={{ opacity: 0, y: 20 }}
+                                        initial={false}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                       >
@@ -494,7 +494,7 @@ export default function Swedishvsdeeptissue() {
                                       {faqs.map((faq, index) => (
                                         <motion.div
                                           key={index}
-                                          initial={{ opacity: 0, y: 20 }}
+                                          initial={false}
                                           whileInView={{ opacity: 1, y: 0 }}
                                           transition={{ duration: 0.4, delay: index * 0.1 }}
                                           viewport={{ once: true }}
@@ -552,7 +552,7 @@ export default function Swedishvsdeeptissue() {
                           
                                     {/* CTA Box */}
                                     {/* <motion.div
-                                      initial={{ opacity: 0, y: 20 }}
+                                      initial={false}
                                       whileInView={{ opacity: 1, y: 0 }}
                                       transition={{ duration: 0.6, delay: 0.4 }}
                                       viewport={{ once: true }}

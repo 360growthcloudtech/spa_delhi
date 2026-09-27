@@ -142,7 +142,7 @@ export default function B2Bpage() {
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item) => (
-            <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <motion.div key={item.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50">{item.icon}</div>
               <h3 className="text-lg font-semibold text-[#1f1a17]">{item.title}</h3>
               <p className="mt-2 leading-relaxed text-gray-600">{item.desc}</p>
@@ -183,7 +183,7 @@ export default function B2Bpage() {
         </div>
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-          <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="flex flex-col">
+          <motion.div initial={false} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="flex flex-col">
             <div className="rounded-2xl border border-amber-100 bg-white p-8 shadow-sm">
               <div className="mb-5 flex items-start gap-4">
                 <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-xl bg-amber-50 text-2xl text-amber-700"><FaUser /></div>
@@ -207,7 +207,7 @@ export default function B2Bpage() {
             </div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="flex flex-col">
+          <motion.div initial={false} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="flex flex-col">
             <div className="relative h-64 overflow-hidden rounded-2xl shadow-sm">
               <Image src="/images/staff3.jpg" alt="Premium oils used for body to body massage in Delhi" fill className="object-cover" />
             </div>
@@ -254,7 +254,7 @@ export default function B2Bpage() {
             ].map((t, index) => (
               <motion.div
                 key={t.role}
-                initial={{ opacity: 0, y: 24 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.45, delay: index * 0.08 }}
@@ -283,7 +283,7 @@ export default function B2Bpage() {
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
-            <motion.div key={service.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <motion.div key={service.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-[#1f1a17]">{service.title}</h3>
               <p className="mt-2 text-gray-600">{service.desc}</p>
               <Link href={service.href} className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-amber-700 hover:underline">
@@ -309,7 +309,7 @@ export default function B2Bpage() {
               { label: "Steam Bath", image: "/images/icons8-spa-care-64.webp" },
               { label: "Sauna", image: "/images/icons8-sauna-64.webp" },
             ].map((item) => (
-              <motion.div key={item.label} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex flex-col items-center">
+              <motion.div key={item.label} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4 }} className="flex flex-col items-center">
                 <div className="relative flex h-[100px] w-[100px] items-center justify-center rounded-full border border-amber-200 bg-white shadow-sm">
                   <Image src={item.image} alt={item.label} fill className="object-contain p-5" />
                 </div>
@@ -338,7 +338,7 @@ export default function B2Bpage() {
                 href="https://api.whatsapp.com/send?phone=919217255113"
                 target="_blank"
                 rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 24 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.45 }}
@@ -369,7 +369,7 @@ export default function B2Bpage() {
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             {pricingPlans.map((plan) => (
-              <motion.div key={plan.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff3e8] to-[#fffaf5]" : "border-amber-100 bg-white"}`}>
+              <motion.div key={plan.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45 }} className={`relative overflow-hidden rounded-[28px] border p-7 shadow-lg transition hover:-translate-y-1 hover:shadow-2xl ${plan.highlight ? "border-amber-400 bg-gradient-to-br from-[#fff3e8] to-[#fffaf5]" : "border-amber-100 bg-white"}`}>
                 <div className={`absolute right-4 top-4 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${plan.highlight ? "bg-amber-600 text-white" : "bg-amber-100 text-amber-700"}`}>{plan.badge}</div>
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50">{plan.icon}</div>
                 <h3 className="text-2xl font-semibold text-[#1f1a17]">{plan.title}</h3>
@@ -402,7 +402,7 @@ export default function B2Bpage() {
         </div>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-white p-5">
+            <motion.div key={faq.question} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35 }} className="rounded-2xl border border-amber-100 bg-white p-5">
               <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
                 <span className="text-lg font-semibold text-[#1f1a17]">{faq.question}</span>
                 <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />

@@ -273,7 +273,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
             {/* Muscle Relief / Healing Hand Icon */}
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16c0-1.1.9-2 2-2h2v-5a2 2 0 114 0v5h2a2 2 0 110 4h-1l-1 3-1-3H6a2 2 0 01-2-2z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16c0-1.1.9-2 2-2h2v-5a2 2 0 1 1 4 0v5h2a2 2 0 1 1 0 4h-1l-1 3-1-3H6a2 2 0 0 1 -2-2z" />
             </svg>
           </div>
           <span className="text-sm text-gray-700">Deep Muscle Relief</span>
@@ -282,7 +282,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
             </svg>
           </div>
           <span className="text-sm text-gray-700">Romantic Spa Ambience</span>
@@ -300,7 +300,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         </a>
         <button className=" text-blue-500 rounded-sm  hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                         </svg>
                         <a 
                                                 href="https://t.me/+a5Bu6FBPN9FlOWM9" 
@@ -362,7 +362,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       
                   <motion.h2
                     className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
@@ -371,7 +371,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   </motion.h2>
                   {/* <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
@@ -415,12 +415,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         <luxuryhotelpartners />
 
       {/* Benefits Section */}
-        <section className="py-20 bg-amber-50">
+        <section className="py-16 bg-amber-50">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-12">
               <motion.h2
                     className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
@@ -429,7 +429,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
@@ -499,15 +499,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
              <div className="max-w-[95%] mx-auto">
                {/* Section Header */}
                     <motion.div 
-                      className="text-center mb-20"
-                      initial={{ opacity: 0, y: 20 }}
+                      className="text-center mb-10 md:mb-12"
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.8 }}
                     >
                       <motion.div
                         className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                        initial={{ opacity: 0, scale: 0.9 }}
+                        initial={false}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.2, duration: 0.5 }}
                       >
@@ -517,7 +517,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       
                       <motion.h2
                         className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
@@ -526,7 +526,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
                       <motion.p
                         className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
@@ -535,7 +535,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       
                       <motion.div
                         className="flex justify-center mt-10"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.5, duration: 0.5 }}
                       >
@@ -695,15 +695,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                        {/* Section Header */}
                     <motion.div 
-                      className="text-center mb-20"
-                      initial={{ opacity: 0, y: 20 }}
+                      className="text-center mb-10 md:mb-12"
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.8 }}
                     >
                       <motion.div
                         className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                        initial={{ opacity: 0, scale: 0.9 }}
+                        initial={false}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 0.2, duration: 0.5 }}
                       >
@@ -713,7 +713,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       
                       <motion.h2
                         className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
@@ -722,7 +722,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
                       <motion.p
                         className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
@@ -731,7 +731,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       
                       <motion.div
                         className="flex justify-center mt-10"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.5, duration: 0.5 }}
                       >
@@ -743,7 +743,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                        <motion.div 
                          className="grid grid-cols-1 lg:grid-cols-2 gap-16"
                          variants={container}
-                         initial="hidden"
+                         initial={false}
                          whileInView="show"
                          viewport={{ once: true, margin: "-100px" }}
                        >
@@ -787,10 +787,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                  </div>
                                  
                                  <div>
-                                   {/* <a 
-                                     href="tel:+919217255113" 
-                                     className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg"
-                                   >
+                                   {/* <div className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg">
                                      <a 
                                                      href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                                                      target="_blank"
@@ -801,9 +798,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      Meet Our Team
                                                    </a>
                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                                       <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                                       <path fillRule="evenodd" d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z" clipRule="evenodd" />
                                      </svg>
-                                   </a> */}
+                                   </div> */}
                                  </div>
                                </div>
                              </div>
@@ -815,16 +812,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                            </section>
                            {/* End Our Signature Treatments */}
                            {/* Why Choose Us Section */}
-                                   <section className="py-24 relative overflow-hidden bg-gradient-to-b from-amber-50 to-white">
+                                   <section className="py-16 relative overflow-hidden bg-gradient-to-b from-amber-50 to-white">
                                          {/* Decorative elements */}
                                          <div className="absolute top-20 left-0 w-72 h-72 rounded-full bg-amber-200 opacity-20 blur-3xl -z-0"></div>
                                          <div className="absolute bottom-20 right-0 w-80 h-80 rounded-full bg-amber-300 opacity-15 blur-3xl -z-0"></div>
                                          
                                          <div className="container mx-auto px-4 relative z-10">
                                            {/* Header */}
-                                           <div className="text-center max-w-3xl mx-auto mb-20">
+                                           <div className="text-center max-w-3xl mx-auto mb-10 md:mb-12">
                                              <motion.div
-                                               initial={{ opacity: 0, y: 20 }}
+                                               initial={false}
                                                whileInView={{ opacity: 1, y: 0 }}
                                                viewport={{ once: true }}
                                                transition={{ duration: 0.5 }}
@@ -846,7 +843,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              {/* Left Column - Expert Therapists */}
                                              <motion.div 
                                                className="flex flex-col"
-                                               initial={{ opacity: 0, x: -30 }}
+                                               initial={false}
                                                whileInView={{ opacity: 1, x: 0 }}
                                                viewport={{ once: true }}
                                                transition={{ duration: 0.6 }}
@@ -856,7 +853,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    <div className="flex items-start mb-6">
                                                      <div className="bg-amber-100 p-3 rounded-lg mr-4 flex-shrink-0">
                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" viewBox="0 0 20 20" fill="currentColor">
-                                                         <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                                                         <path fillRule="evenodd" d="M10 9a3 3 0 1 0 0-6 3 3 0 000 6zm-7 9a7 7 0 1 1 14 0H3z" clipRule="evenodd" />
                                                        </svg>
                                                      </div>
                                                      <div>
@@ -895,7 +892,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              {/* Right Column - Premium Oils */}
                                              <motion.div 
                                                className="flex flex-col"
-                                               initial={{ opacity: 0, x: 30 }}
+                                               initial={false}
                                                whileInView={{ opacity: 1, x: 0 }}
                                                viewport={{ once: true }}
                                                transition={{ duration: 0.6 }}
@@ -915,7 +912,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    <div className="flex items-start mb-6">
                                                      <div className="bg-amber-100 p-3 rounded-lg mr-4 flex-shrink-0">
                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" viewBox="0 0 20 20" fill="currentColor">
-                                                         <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                                                         <path fillRule="evenodd" d="M18 10a8 8 0 1 1 -16 0 8 8 0 0116 0zm-7-4a1 1 0 1 1 -2 0 1 1 0 012 0zM9 9a1 1 0 0 0 0 2v3a1 1 0 0 0 1 1h1a1 1 0 1 0 0-2v-3a1 1 0 0 0 -1-1H9z" clipRule="evenodd" />
                                                        </svg>
                                                      </div>
                                                      <div>
@@ -949,7 +946,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                            {/* Testimonial Section */}
                                            {/* <motion.div 
                                              className="mt-20 bg-gradient-to-r from-amber-700 to-amber-800 rounded-3xl overflow-hidden shadow-2xl"
-                                             initial={{ opacity: 0, y: 30 }}
+                                             initial={false}
                                              whileInView={{ opacity: 1, y: 0 }}
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.7 }}
@@ -960,7 +957,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    <div className="flex mb-4">
                                                      {[...Array(5)].map((_, i) => (
                                                        <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-300" viewBox="0 0 20 20" fill="currentColor">
-                                                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0 -.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0 -1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0 -.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
                                                        </svg>
                                                      ))}
                                                    </div>
@@ -1006,7 +1003,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                            {/* Benefits Section */}
                                            <motion.div 
                                              className="mt-20"
-                                             initial={{ opacity: 0, y: 30 }}
+                                             initial={false}
                                              whileInView={{ opacity: 1, y: 0 }}
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.6, delay: 0.2 }}
@@ -1031,7 +1028,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    description: "The therapists will first discuss with you what your preferences are and make the couple massage a personal and effective experience.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                                                      </svg>
                                                    )
                                                  },
@@ -1040,7 +1037,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    description: "We offer rooms designed compassionately with a calming atmosphere, giving privacy and a tranquil environment to both partners.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 0 1 -5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                                                      </svg>
                                                    )
                                                  }
@@ -1063,7 +1060,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                            {/* CTA */}
                                            <motion.div 
                                              className="text-center mt-20"
-                                             initial={{ opacity: 0 }}
+                                             initial={false}
                                              whileInView={{ opacity: 1 }}
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.8, delay: 0.3 }}
@@ -1072,7 +1069,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                               <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                                                Book Your Rejuvenating Experience
                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
-                                                 <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                                                 <path fillRule="evenodd" d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z" clipRule="evenodd" />
                                                </svg>
                                              </button>
                                             </a>
@@ -1089,7 +1086,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         {sections.map((section, index) => (
   <section
     key={index}
-    className="relative py-24 bg-gradient-to-br from-amber-50/70 to-white overflow-hidden"
+    className="relative py-16 bg-gradient-to-br from-amber-50/70 to-white overflow-hidden"
   >
    
     <div className="absolute -top-20 -right-20 w-96 h-96 bg-amber-200/20 rounded-full blur-3xl"></div>
@@ -1171,21 +1168,21 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
         
         {/* Why Choose Us Section */}
-                <section className="py-20 relative">
+                <section className="py-16 relative">
                   <div className="absolute inset-0 bg-amber-800 opacity-5"></div>
                   <div className="container mx-auto px-4 relative">
                     
                     {/* Section Header */}
                 <motion.div 
-                  className="text-center mb-20"
-                  initial={{ opacity: 0, y: 20 }}
+                  className="text-center mb-10 md:mb-12"
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.8 }}
                 >
                   <motion.div
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                    initial={{ opacity: 0, scale: 0.9 }}
+                    initial={false}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                   >
@@ -1195,7 +1192,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   
                   <motion.h2
                     className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
@@ -1204,7 +1201,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
                   <motion.p
                     className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
@@ -1213,7 +1210,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   
                   <motion.div
                     className="flex justify-center mt-10"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                   >
@@ -1291,10 +1288,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               
               <div className="max-w-7xl mx-auto relative z-10">
                 {/* Heading */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-10 md:mb-12">
                   <motion.div
                     className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                   >
@@ -1303,7 +1300,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   </motion.div>
                   <motion.h2
                     className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
@@ -1312,7 +1309,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
@@ -1327,7 +1324,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     <motion.div
                       key={index}
                       className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
-                      initial={{ opacity: 0, y: 50 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -1391,14 +1388,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 {/* Additional information */}
                 {/* <motion.div 
                   className="mt-16 bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-200 rounded-2xl p-6 md:p-8 text-center"
-                  initial={{ opacity: 0, y: 30 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
                   <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                     <div className="bg-amber-200 w-16 h-16 rounded-full flex items-center justify-center">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
                     <div>
@@ -1415,12 +1412,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             {/* End Pricing Section */}
             <LuxuryHotelShowcase service="Couple Massage" serviceHref="/couples-massage-in-delhi" serviceLower="couple massage" />
         {/* Testimonials */}
-        <section className="py-20 bg-amber-50">
+        <section className="py-16 bg-amber-50">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-12">
                             <motion.h2
                     className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
@@ -1429,7 +1426,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
@@ -1480,7 +1477,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             viewBox="0 0 20 20"
             fill="currentColor"
           >
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0 -.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0 -1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0 -.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
           </svg>
         ))}
       </div>
@@ -1491,7 +1488,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         </section>        
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-amber-700 to-amber-800 text-white">
+        <section className="py-16 bg-gradient-to-r from-amber-700 to-amber-800 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Your Time Together Starts With One Message</h2>
             <p className="text-amber-100 max-w-2xl mx-auto mb-10 text-lg">
@@ -1518,7 +1515,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
       </div>
       {/* Call to Action Section */}
-{/* <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+{/* <section className="relative py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
   <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-amber-50/80 to-rose-50/50 z-0"></div>
   <div className="absolute -bottom-32 -right-32 w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-amber-200/30 z-0"></div>
   <div className="absolute -top-32 -left-32 w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-amber-100/40 z-0"></div>
@@ -1526,7 +1523,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   <div className="relative z-10 max-w-4xl mx-auto text-center">
     <motion.h2
       className="text-3xl sm:text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4 leading-tight"
-      initial={{ opacity: 0, y: 20 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: 0.1 }}
@@ -1570,7 +1567,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
         <div className="max-w-5xl mx-auto px-4">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
@@ -1578,7 +1575,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           >
             <motion.div
               className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
@@ -1601,7 +1598,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             {faqs.map((faq, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 viewport={{ once: true }}
@@ -1659,7 +1656,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
           {/* CTA Box */}
           {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}

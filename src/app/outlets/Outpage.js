@@ -336,7 +336,7 @@ export default function Outpage() {
             className="flex items-center gap-2 hover:text-amber-100 transition-colors"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.498 4.493a1 1 0 0 1 -.502 1.21l-2.257 1.13a11.042 11.042 0 0 0 5.516 5.516l1.13-2.257a1 1 0 0 1 1.21-.502l4.493 1.498a1 1 0 0 1 .684.949V19a2 2 0 0 1 -2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
             +00123456789
           </a>
@@ -348,7 +348,7 @@ export default function Outpage() {
             className="flex items-center gap-2 hover:text-amber-100 transition-colors"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 0 1 -9 9m9-9a9 9 0 0 0 -9-9m9 9H3m9 9a9 9 0 0 1 -9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 0 1 9-9" />
             </svg>
             www.website.com
           </a>
@@ -367,7 +367,7 @@ export default function Outpage() {
         
         {/* Left Content */}
         <motion.div
-          initial={{ opacity: 0, x: -40 }}
+          initial={false}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           className="space-y-6"
@@ -415,7 +415,7 @@ export default function Outpage() {
 
         {/* Right Image */}
         <motion.div
-          initial={{ opacity: 0, x: 40 }}
+          initial={false}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           className="relative"
@@ -437,7 +437,7 @@ export default function Outpage() {
 <div className="max-w-7xl mx-auto px-6">
    <motion.h2
       className="text-4xl md:text-5xl font-bold text-center text-amber-900 font-serif mb-6"
-      initial={{ opacity: 0, y: 20 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
@@ -447,7 +447,7 @@ export default function Outpage() {
     {/* Description */}
     <motion.p
       className="text-center text-amber-800 max-w-3xl mx-auto mb-12 text-base md:text-lg font-medium"
-      initial={{ opacity: 0 }}
+      initial={false}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
@@ -509,7 +509,7 @@ View All Services
     {/* Title */}
     <motion.h2
       className="text-4xl md:text-5xl font-bold text-center text-amber-900 font-serif mb-6"
-      initial={{ opacity: 0, y: 20 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
@@ -519,7 +519,7 @@ View All Services
     {/* Description */}
     <motion.p
       className="text-center text-amber-800 max-w-3xl mx-auto mb-12 text-base md:text-lg font-medium"
-      initial={{ opacity: 0 }}
+      initial={false}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
@@ -532,7 +532,7 @@ View All Services
         <motion.div
           key={index}
           className="bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-          initial={{ opacity: 0, y: 30 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: index * 0.1 }}
         >
@@ -590,10 +590,10 @@ View All Services
             
             <div className="max-w-[95%] mx-auto">
               {/* Section header */}
-              <div className="text-center mb-16">
+              <div className="text-center mb-10 md:mb-12">
                 <motion.div
                             className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                            initial={{ opacity: 0, scale: 0.9 }}
+                            initial={false}
                             whileInView={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 0.2, duration: 0.5 }}
                           >
@@ -603,7 +603,7 @@ View All Services
                           
                           <motion.h2
                             className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
                           >
@@ -745,7 +745,7 @@ View All Services
             {/* end content */}
 {/* 18+ Section */}
           <section 
-  className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
+  className="relative py-16 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
   style={{ backgroundImage: "url('/images/luxurySpaRoom.jpg')" }}
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
@@ -816,7 +816,7 @@ View All Services
               <div className="text-center mb-12">
                 <motion.h2
                   className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
@@ -824,7 +824,7 @@ View All Services
                 </motion.h2>
                 <motion.p
                   className="text-gray-600 max-w-2xl mx-auto text-lg"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
@@ -839,7 +839,7 @@ View All Services
                   <motion.div
                     key={index}
                     className="bg-white rounded-2xl shadow-lg relative overflow-hidden group"
-                    initial={{ opacity: 0, y: 50 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
@@ -888,9 +888,9 @@ View All Services
              {/*End Locations Section */}
       
       {/* Testimonial Section */}
-      {/* <section className="py-16 md:py-24 px-4 bg-[#f8f5f2]">
+      {/* <section className="py-16 md:py-16 px-4 bg-[#f8f5f2]">
         <div className="max-w-7xl mx-auto">
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-10 md:mb-12">
             <h2 className="text-3xl md:text-4xl font-serif font-light text-[#2a3b47] mb-6">
               Client <span className="font-medium text-[#5d7a68]">Experiences</span>
             </h2>
@@ -901,7 +901,7 @@ View All Services
             {[1, 2, 3].map((item) => (
               <motion.div
                 key={item}
-                initial={{ opacity: 0, y: 30 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: item * 0.1 }}
                 viewport={{ once: true }}
@@ -967,7 +967,7 @@ View All Services
     
     {/* Left: Text and Icon */}
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       className="space-y-6"
@@ -1006,7 +1006,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
 
     {/* Right: Images */}
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.2 }}
       className="grid grid-cols-2 gap-4"
@@ -1030,12 +1030,12 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
 </section>
 
             {/* content section */}
-                                 <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
+                                 <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-16 px-6 md:px-16">
                                     <div className="max-w-6xl mx-auto">
                                       {/* Section Header */}
                                       <motion.div 
-                                        className="text-center mb-16"
-                                        initial={{ opacity: 0, y: 20 }}
+                                        className="text-center mb-10 md:mb-12"
+                                        initial={false}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ duration: 0.6 }}
@@ -1051,7 +1051,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                           {/* Facial Treatments */}
                                           <motion.div 
                                             className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
-                                            initial={{ opacity: 0, x: 30 }}
+                                            initial={false}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
                                             transition={{ duration: 0.7 }}
@@ -1059,7 +1059,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                             <div className="flex items-center gap-4 mb-6">
                                               <div className="bg-amber-100 p-3 rounded-xl">
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                                                 </svg>
                                               </div>
                                               <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1093,7 +1093,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                           {/* Body Treatments */}
                                           <motion.div 
                                             className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
-                                            initial={{ opacity: 0, x: -30 }}
+                                            initial={false}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
                                             transition={{ duration: 0.7, delay: 0.1 }}
@@ -1101,7 +1101,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                             <div className="flex items-center gap-4 mb-6">
                                               <div className="bg-amber-100 p-3 rounded-xl">
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                                                 </svg>
                                               </div>
                                               <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1141,7 +1141,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                           {/* Massage Therapy */}
                                           <motion.div 
                                             className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
-                                            initial={{ opacity: 0, x: -30 }}
+                                            initial={false}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
                                             transition={{ duration: 0.7 }}
@@ -1149,7 +1149,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                             <div className="flex items-center gap-4 mb-6">
                                               <div className="bg-amber-100 p-3 rounded-xl">
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 0 1 -5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                                                 </svg>
                                               </div>
                                               <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1186,7 +1186,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                           {/* Wellness Packages */}
                                           <motion.div 
                                             className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
-                                            initial={{ opacity: 0, x: 30 }}
+                                            initial={false}
                                             whileInView={{ opacity: 1, x: 0 }}
                                             viewport={{ once: true }}
                                             transition={{ duration: 0.7, delay: 0.1 }}
@@ -1194,7 +1194,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                             <div className="flex items-center gap-4 mb-6">
                                               <div className="bg-amber-100 p-3 rounded-xl">
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m-6 8a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4" />
                                                 </svg>
                                               </div>
                                               <h2 className="text-2xl font-bold text-[#1f1a17]">Home & Hotel Spa</h2>
@@ -1230,7 +1230,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                       {/* Additional Information */}
                                       <motion.div 
                                         className="mt-16 bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-8 text-white shadow-xl"
-                                        initial={{ opacity: 0, y: 30 }}
+                                        initial={false}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ duration: 0.7 }}
@@ -1265,10 +1265,10 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
       <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
         <div className="max-w-7xl mx-auto">
           
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-12">
           <motion.p
             className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
@@ -1278,7 +1278,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
           
           <motion.h2
             className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
@@ -1287,7 +1287,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
           
           <motion.p
             className="text-gray-600 max-w-2xl mx-auto text-lg"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
@@ -1335,7 +1335,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
       <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
                             <div className="max-w-5xl mx-auto px-4">
                               <motion.div
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6 }}
                                 viewport={{ once: true }}
@@ -1343,7 +1343,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                               >
                                 <motion.div
                                   className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                                  initial={{ opacity: 0, y: 20 }}
+                                  initial={false}
                                   whileInView={{ opacity: 1, y: 0 }}
                                   viewport={{ once: true }}
                                 >
@@ -1366,7 +1366,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                 {faqs.map((faq, index) => (
                                   <motion.div
                                     key={index}
-                                    initial={{ opacity: 0, y: 20 }}
+                                    initial={false}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.4, delay: index * 0.1 }}
                                     viewport={{ once: true }}
@@ -1424,7 +1424,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                     
                               {/* CTA Box */}
                               {/* <motion.div
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.4 }}
                                 viewport={{ once: true }}
@@ -1866,7 +1866,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* About Us Section */}
-//       <section id="about" className="py-24 relative">
+//       <section id="about" className="py-16 relative">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 //           <div className="grid lg:grid-cols-2 gap-16 items-center">
 //             <div className="relative">
@@ -1937,9 +1937,9 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* Services Section */}
-//       <section id="services" className="py-24 bg-white/50 backdrop-blur-sm">
+//       <section id="services" className="py-16 bg-white/50 backdrop-blur-sm">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Our <span className="text-gradient">Services</span>
 //             </h2>
@@ -1973,10 +1973,10 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* Process Section */}
-//       <section id="process" className="py-24 relative">
+//       <section id="process" className="py-16 relative">
 //         <div className="absolute inset-0 bg-gradient-to-r from-emerald-50/50 to-teal-50/50"></div>
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Our <span className="text-gradient">Process</span>
 //             </h2>
@@ -2009,9 +2009,9 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* Enhanced Pricing Section */}
-//       <section id="pricing" className="py-24 bg-white/30 backdrop-blur-sm">
+//       <section id="pricing" className="py-16 bg-white/30 backdrop-blur-sm">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Luxury <span className="text-gradient">Packages</span>
 //             </h2>
@@ -2077,9 +2077,9 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* Outlets Section */}
-//       <section id="locations" className="py-24 relative">
+//       <section id="locations" className="py-16 relative">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Our <span className="text-gradient">Locations</span>
 //             </h2>
@@ -2143,9 +2143,9 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* Testimonials Section */}
-//       <section className="py-24 bg-white/50 backdrop-blur-sm">
+//       <section className="py-16 bg-white/50 backdrop-blur-sm">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Client <span className="text-gradient">Testimonials</span>
 //             </h2>
@@ -2185,9 +2185,9 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* FAQ Section */}
-//       <section className="py-24 relative">
+//       <section className="py-16 relative">
 //         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Frequently Asked <span className="text-gradient">Questions</span>
 //             </h2>
@@ -2224,9 +2224,9 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
 //       </section>
 
 //       {/* Blog Section */}
-//       <section className="py-24 bg-white/30 backdrop-blur-sm">
+//       <section className="py-16 bg-white/30 backdrop-blur-sm">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//           <div className="text-center mb-20">
+//           <div className="text-center mb-10 md:mb-12">
 //             <h2 className="text-5xl font-bold text-gray-900 mb-6 font-playfair">
 //               Blog & <span className="text-gradient">Articles</span>
 //             </h2>

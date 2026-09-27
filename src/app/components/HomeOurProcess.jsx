@@ -29,15 +29,15 @@ export default function HomeOurProcess() {
   ];
 
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-white via-amber-50/50 to-white relative overflow-hidden">
+    <section className="w-full py-16 bg-gradient-to-b from-white via-amber-50/50 to-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-72 h-72 bg-amber-200/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-rose-200/20 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: 30 }}
+          className="text-center mb-10 md:mb-12"
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
@@ -67,7 +67,7 @@ export default function HomeOurProcess() {
             <motion.div
               key={index}
               className="group relative bg-white rounded-3xl p-8 pt-16 shadow-lg hover:shadow-2xl transition-all duration-500 border border-amber-100"
-              initial={{ opacity: 0, y: 40 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{

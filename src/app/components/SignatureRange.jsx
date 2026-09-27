@@ -32,7 +32,7 @@ export default function SignatureRange() {
   const [active, setActive] = useState(1);
 
   return (
-    <section className="bg-white py-16 md:py-24 px-4 md:px-10 lg:px-20">
+    <section className="bg-white py-16 md:py-16 px-4 md:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-10 md:mb-14 flex items-center justify-center gap-3 text-center text-3xl md:text-[44px] font-bold text-black">
           Our Signature Range

@@ -51,7 +51,7 @@ export default function HomeOutlet() {
 ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-amber-50">
+    <section className="py-16 bg-gradient-to-b from-white to-amber-50">
      {/* Decorative background elements */}
            <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
              <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-r from-amber-100/20 to-transparent rounded-full filter blur-[100px]"></div>
@@ -90,15 +90,15 @@ export default function HomeOutlet() {
            <div className="max-w-7xl mx-auto relative z-10">
              {/* Section Header */}
              <motion.div 
-               className="text-center mb-20"
-               initial={{ opacity: 0, y: 20 }}
+               className="text-center mb-10 md:mb-12"
+               initial={false}
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true, margin: "-100px" }}
                transition={{ duration: 0.8 }}
              >
                <motion.div
                  className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                 initial={{ opacity: 0, scale: 0.9 }}
+                 initial={false}
                  whileInView={{ opacity: 1, scale: 1 }}
                  transition={{ delay: 0.2, duration: 0.5 }}
                >
@@ -108,7 +108,7 @@ export default function HomeOutlet() {
                
                <motion.h2
                  className="text-3xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                 initial={{ opacity: 0, y: 20 }}
+                 initial={false}
                  whileInView={{ opacity: 1, y: 0 }}
                  transition={{ delay: 0.3, duration: 0.6 }}
                >
@@ -117,7 +117,7 @@ export default function HomeOutlet() {
                
                <motion.p
                  className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                 initial={{ opacity: 0, y: 20 }}
+                 initial={false}
                  whileInView={{ opacity: 1, y: 0 }}
                  transition={{ delay: 0.4, duration: 0.5 }}
                >
@@ -126,7 +126,7 @@ export default function HomeOutlet() {
                
                <motion.div
                  className="flex justify-center mt-10"
-                 initial={{ opacity: 0, y: 20 }}
+                 initial={false}
                  whileInView={{ opacity: 1, y: 0 }}
                  transition={{ delay: 0.5, duration: 0.5 }}
                >
@@ -139,7 +139,7 @@ export default function HomeOutlet() {
   {outlets.map((outlet, index) => (
     <motion.div
       key={index}
-      initial={{ opacity: 0, y: 30 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
@@ -193,7 +193,7 @@ export default function HomeOutlet() {
              {/* View all button */}
              <motion.div 
                className="text-center mt-16"
-               initial={{ opacity: 0, y: 20 }}
+               initial={false}
                whileInView={{ opacity: 1, y: 0 }}
                transition={{ delay: 0.4 }}
                viewport={{ once: true }}

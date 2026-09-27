@@ -321,14 +321,14 @@ export default function Abpage({
           </p>
           
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a href='/spa-price-in-delhi'>
-               <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-              <span><a >Our Prices</a></span>
+            <a
+              href="/spa-price-in-delhi"
+              className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center justify-center space-x-2"
+            >
+              <span>Our Prices</span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
-            </button>
-
             </a>
            
             <a 
@@ -392,14 +392,14 @@ export default function Abpage({
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
           
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
             <motion.div
                           className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                          initial={{ opacity: 0, y: 20 }}
+                          initial={false}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.2 }}
                           viewport={{ once: true }}
@@ -409,7 +409,7 @@ export default function Abpage({
             
                         <motion.h2
                           className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                          initial={{ opacity: 0, y: 20 }}
+                          initial={false}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.3 }}
                           viewport={{ once: true }}
@@ -435,7 +435,7 @@ export default function Abpage({
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="grid grid-cols-2 gap-4"
@@ -450,19 +450,19 @@ export default function Abpage({
         </div>
       </section>
     {/* luxury spa content section */}
-        <section className="bg-gray-50 py-20">
+        <section className="bg-gray-50 py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <motion.div 
-                  className="text-center mb-20"
-                  initial={{ opacity: 0, y: 20 }}
+                  className="text-center mb-10 md:mb-12"
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.8 }}
                 >
                   <motion.div
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                    initial={{ opacity: 0, scale: 0.9 }}
+                    initial={false}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                   >
@@ -472,7 +472,7 @@ export default function Abpage({
                   
                   <motion.h2
                     className="text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
@@ -481,7 +481,7 @@ export default function Abpage({
                   
                   <motion.p
                     className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
@@ -490,7 +490,7 @@ export default function Abpage({
                   
                   <motion.div
                     className="flex justify-center mt-10"
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                   >
@@ -501,7 +501,7 @@ export default function Abpage({
         <div className="grid md:grid-cols-2 gap-10 items-center mt-14">
           {/* Image */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
@@ -516,14 +516,14 @@ export default function Abpage({
 
           {/* Text */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="bg-white shadow-lg p-8 rounded-xl"
           >
             <motion.h2
                                       className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                                      initial={{ opacity: 0, y: 20 }}
+                                      initial={false}
                                       whileInView={{ opacity: 1, y: 0 }}
                                       transition={{ delay: 0.3 }}
                                       viewport={{ once: true }}
@@ -543,14 +543,14 @@ export default function Abpage({
         <div className="grid md:grid-cols-2 gap-10 items-center mt-16">
           {/* Text */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="bg-white shadow-lg p-8 rounded-xl order-2 md:order-1"
           >
             <motion.h2
                                       className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                                      initial={{ opacity: 0, y: 20 }}
+                                      initial={false}
                                       whileInView={{ opacity: 1, y: 0 }}
                                       transition={{ delay: 0.3 }}
                                       viewport={{ once: true }}
@@ -567,7 +567,7 @@ export default function Abpage({
 
           {/* Image */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="order-1 md:order-2"
@@ -717,7 +717,7 @@ export default function Abpage({
           {/* IMAGE COLUMN */}
           <motion.div
             className="order-1 lg:order-2 rounded-2xl overflow-hidden shadow-xl bg-white"
-            initial={{ opacity: 0, x: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -734,7 +734,7 @@ export default function Abpage({
               ) : (
                 <div className="w-full h-full flex items-center justify-center bg-amber-50 text-amber-700">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-24 h-24 opacity-40" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1110 0c0 2.96-3.5 6.96-5 8.93C10.5 15.96 7 11.96 7 9z" />
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1 1 10 0c0 2.96-3.5 6.96-5 8.93C10.5 15.96 7 11.96 7 9z" />
                   </svg>
                 </div>
               )}
@@ -750,7 +750,7 @@ export default function Abpage({
           {/* TEXT COLUMN */}
           <motion.div
             className="order-2 lg:order-1"
-            initial={{ opacity: 0, x: -20 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -826,7 +826,7 @@ export default function Abpage({
 
           {/* Left Image */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
+            initial={false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -845,7 +845,7 @@ export default function Abpage({
 
           {/* Right Content */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -987,18 +987,18 @@ export default function Abpage({
       {/* new content */}
        
             {/* icon uytlet */}
-    <section className="py-24 bg-gradient-to-b from-amber-50 to-white">
+    <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
-          className="text-center mb-20"
-          initial={{ opacity: 0, y: 20 }}
+          className="text-center mb-10 md:mb-12"
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
           <motion.div
             className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={false}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
@@ -1008,7 +1008,7 @@ export default function Abpage({
           
           <motion.h2
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
@@ -1017,7 +1017,7 @@ export default function Abpage({
           
           <motion.p
             className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
@@ -1026,7 +1026,7 @@ export default function Abpage({
           
           <motion.div
             className="flex justify-center mt-10"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
@@ -1039,7 +1039,7 @@ export default function Abpage({
           {outlets.map((outlet, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ 
                 duration: 0.6, 
@@ -1111,15 +1111,15 @@ export default function Abpage({
         <div className="absolute inset-0 bg-gradient-to-br from-white/30 to-yellow-100/50 backdrop-blur-sm -z-10" />
         <div className="max-w-7xl mx-auto px-6">
           <motion.div 
-                    className="text-center mb-20"
-                    initial={{ opacity: 0, y: 20 }}
+                    className="text-center mb-10 md:mb-12"
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
                   >
                     <motion.div
                       className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                      initial={{ opacity: 0, scale: 0.9 }}
+                      initial={false}
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ delay: 0.2, duration: 0.5 }}
                     >
@@ -1129,7 +1129,7 @@ export default function Abpage({
                     
                     <motion.h2
                       className="text-4xl md:text-5xl lg:text-5xl font-bold text-amber-900 mb-6 font-serif"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
@@ -1138,7 +1138,7 @@ export default function Abpage({
                     
                     <motion.p
                       className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
@@ -1147,7 +1147,7 @@ export default function Abpage({
                     
                     <motion.div
                       className="flex justify-center mt-10"
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.5, duration: 0.5 }}
                     >
@@ -1160,7 +1160,7 @@ export default function Abpage({
             {featuresData.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
                 className="bg-white rounded-xl shadow-xl overflow-hidden"
@@ -1188,12 +1188,12 @@ export default function Abpage({
       </section>
       {/* content */}
       {/* content section */}
-     {/* <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-20 px-6 md:px-16">
+     {/* <section className="bg-gradient-to-b from-[#fffaf5] to-[#f8f0eb] py-16 px-6 md:px-16">
                                       <div className="max-w-6xl mx-auto">
                                         
                                         <motion.div 
-                                          className="text-center mb-16"
-                                          initial={{ opacity: 0, y: 20 }}
+                                          className="text-center mb-10 md:mb-12"
+                                          initial={false}
                                           whileInView={{ opacity: 1, y: 0 }}
                                           viewport={{ once: true }}
                                           transition={{ duration: 0.6 }}
@@ -1209,7 +1209,7 @@ export default function Abpage({
                                             
                                             <motion.div 
                                               className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
-                                              initial={{ opacity: 0, x: 30 }}
+                                              initial={false}
                                               whileInView={{ opacity: 1, x: 0 }}
                                               viewport={{ once: true }}
                                               transition={{ duration: 0.7 }}
@@ -1217,7 +1217,7 @@ export default function Abpage({
                                               <div className="flex items-center gap-4 mb-6">
                                                 <div className="bg-amber-100 p-3 rounded-xl">
                                                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                                                   </svg>
                                                 </div>
                                                 <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1249,7 +1249,7 @@ export default function Abpage({
                                             
                                             <motion.div 
                                               className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
-                                              initial={{ opacity: 0, x: -30 }}
+                                              initial={false}
                                               whileInView={{ opacity: 1, x: 0 }}
                                               viewport={{ once: true }}
                                               transition={{ duration: 0.7, delay: 0.1 }}
@@ -1257,7 +1257,7 @@ export default function Abpage({
                                               <div className="flex items-center gap-4 mb-6">
                                                 <div className="bg-amber-100 p-3 rounded-xl">
                                                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                                                   </svg>
                                                 </div>
                                                 <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1292,7 +1292,7 @@ export default function Abpage({
                                             
                                             <motion.div 
                                               className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
-                                              initial={{ opacity: 0, x: -30 }}
+                                              initial={false}
                                               whileInView={{ opacity: 1, x: 0 }}
                                               viewport={{ once: true }}
                                               transition={{ duration: 0.7 }}
@@ -1300,7 +1300,7 @@ export default function Abpage({
                                               <div className="flex items-center gap-4 mb-6">
                                                 <div className="bg-amber-100 p-3 rounded-xl">
                                                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 0 1 -5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                                                   </svg>
                                                 </div>
                                                 <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1338,7 +1338,7 @@ export default function Abpage({
                                             
                                             <motion.div 
                                               className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
-                                              initial={{ opacity: 0, x: 30 }}
+                                              initial={false}
                                               whileInView={{ opacity: 1, x: 0 }}
                                               viewport={{ once: true }}
                                               transition={{ duration: 0.7, delay: 0.1 }}
@@ -1346,7 +1346,7 @@ export default function Abpage({
                                               <div className="flex items-center gap-4 mb-6">
                                                 <div className="bg-amber-100 p-3 rounded-xl">
                                                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m-6 8a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4" />
                                                   </svg>
                                                 </div>
                                                 <h2 className="text-2xl font-bold text-[#1f1a17]">Home & Hotel Spa</h2>
@@ -1380,7 +1380,7 @@ export default function Abpage({
               
                                         <motion.div 
                                           className="mt-16 bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-8 text-white shadow-xl"
-                                          initial={{ opacity: 0, y: 30 }}
+                                          initial={false}
                                           whileInView={{ opacity: 1, y: 0 }}
                                           viewport={{ once: true }}
                                           transition={{ duration: 0.7 }}
@@ -1416,7 +1416,7 @@ export default function Abpage({
       
                     {/* 18+ Exclusive Section */}
       <section 
-  className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
+  className="relative py-16 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
   style={{ backgroundImage: "url('/images/luxurySpaRoom.jpg')" }}
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
@@ -1478,7 +1478,7 @@ export default function Abpage({
                 <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
                   <div className="max-w-5xl mx-auto px-4">
                     <motion.div
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6 }}
                       viewport={{ once: true }}
@@ -1486,7 +1486,7 @@ export default function Abpage({
                     >
                       <motion.div
                         className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={false}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                       >
@@ -1509,7 +1509,7 @@ export default function Abpage({
                       {faqs.map((faq, index) => (
                         <motion.div
                           key={index}
-                          initial={{ opacity: 0, y: 20 }}
+                          initial={false}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.4, delay: index * 0.1 }}
                           viewport={{ once: true }}
@@ -1567,7 +1567,7 @@ export default function Abpage({
           
                     {/* CTA Box */}
                     {/* <motion.div
-                      initial={{ opacity: 0, y: 20 }}
+                      initial={false}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.4 }}
                       viewport={{ once: true }}

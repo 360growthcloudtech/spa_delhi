@@ -193,8 +193,8 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.752 11.168l-3.197-2.132A1 1 0 0 0 10 9.87v4.263a1 1 0 0 0 1.555.832l3.197-2.132a1 1 0 0 0 0-1.664z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
             </svg>
           </div>
           <span className="text-sm text-gray-700">Spa Therapist (Female)</span>
@@ -202,7 +202,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21v-4m0 0V5a2 2 0 0 1 2-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 0 0 -2 2zm9-13.5V9" />
             </svg>
           </div>
           <span className="text-sm text-gray-700">Massage Therapist (Male and Female)</span>
@@ -210,7 +210,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 0 1 -2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3l-4 4z" />
             </svg>
           </div>
           <span className="text-sm text-gray-700">Body Spa Therapist</span>
@@ -218,7 +218,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
             </svg>
           </div>
           <span className="text-sm text-gray-700">Friendly & Safe Work Environment</span>
@@ -237,7 +237,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
         <a href='https://api.whatsapp.com/send?phone=919217255113'>
           <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
           </svg>
           <span>Apply Now</span>
         </button>
@@ -290,7 +290,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 <div className="max-w-7xl mx-auto px-6">
    <motion.h2
       className="text-4xl md:text-5xl font-bold text-center text-amber-900 font-serif mb-6"
-      initial={{ opacity: 0, y: 20 }}
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
@@ -300,7 +300,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
     {/* Description */}
     <motion.p
       className="text-center text-amber-800 max-w-3xl mx-auto mb-12 text-base md:text-lg font-medium"
-      initial={{ opacity: 0 }}
+      initial={false}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
@@ -360,11 +360,11 @@ View All Cities
 
       {/* //// */}
  <div className="bg-white text-gray-800">
-      <section className="py-20 px-4">
+      <section className="py-16 px-4">
         <div className="text-center mb-14">
           <motion.h2
             className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
@@ -373,7 +373,7 @@ View All Cities
           </motion.h2>
           <motion.p
             className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
@@ -387,7 +387,7 @@ View All Cities
           {/* Responsibilities Card */}
           <motion.div
             className="bg-amber-50 rounded-xl p-6 shadow-lg border border-amber-100"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
@@ -429,7 +429,7 @@ View All Cities
           {/* Requirements Card */}
           <motion.div
             className="bg-amber-50 rounded-xl p-6 shadow-lg border border-amber-100"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
@@ -471,7 +471,7 @@ View All Cities
           {/* Benefits Card */}
           <motion.div
             className="bg-amber-50 rounded-xl p-6 shadow-lg border border-amber-100"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
@@ -513,7 +513,7 @@ View All Cities
           {/* Positions Card */}
           <motion.div
             className="bg-amber-50 rounded-xl p-6 shadow-lg border border-amber-100"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.6 }}
@@ -553,7 +553,7 @@ View All Cities
           {/* Locations Card */}
           <motion.div
             className="bg-amber-50 rounded-xl p-6 shadow-lg border border-amber-100"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.7 }}
@@ -598,7 +598,7 @@ View All Cities
           {/* Contact Card */}
           <motion.div
             className="bg-amber-800 text-white rounded-xl p-6 shadow-lg"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.8 }}
@@ -643,7 +643,7 @@ View All Cities
       <div className="max-w-5xl mx-auto">
         <motion.div
           className="text-center mb-12"
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
@@ -661,7 +661,7 @@ View All Cities
           {/* Left Content */}
           <motion.div
             className="space-y-6"
-            initial={{ opacity: 0, x: -20 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -698,7 +698,7 @@ View All Cities
           {/* Right Content */}
           <motion.div
             className="space-y-6"
-            initial={{ opacity: 0, x: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -734,7 +734,7 @@ View All Cities
 
             <motion.div
               className="text-center mt-6"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.6 }}
@@ -759,7 +759,7 @@ View All Cities
         <div className="text-center mb-10">
           <motion.h2
             className="text-3xl md:text-4xl font-bold text-amber-900"
-            initial={{ opacity: 0, y: 12 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
@@ -768,7 +768,7 @@ View All Cities
           </motion.h2>
           <motion.p
             className="mt-3 max-w-2xl mx-auto text-gray-700"
-            initial={{ opacity: 0, y: 12 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.15, duration: 0.5 }}
@@ -779,7 +779,7 @@ View All Cities
 
         <motion.div
           className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
-          initial="hidden"
+          initial={false}
           whileInView="show"
           viewport={{ once: true }}
           variants={{
@@ -791,7 +791,7 @@ View All Cities
             <motion.article
               key={f.id}
               className="relative bg-white rounded-2xl p-6 shadow-lg border border-amber-100 hover:shadow-xl transition-transform transform hover:-translate-y-1"
-              initial={{ opacity: 0, y: 12 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.08 * i, duration: 0.45 }}
@@ -831,7 +831,7 @@ View All Cities
 
         {/* Left: How to Apply steps */}
         <motion.div
-          initial={{ opacity: 0, x: -20 }}
+          initial={false}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
@@ -894,7 +894,7 @@ Luxury Russian Spa is now hiring for:</p>
 
         {/* Right: Contact & CTA */}
         <motion.div
-          initial={{ opacity: 0, x: 20 }}
+          initial={false}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
@@ -957,7 +957,7 @@ Luxury Russian Spa is now hiring for:</p>
           <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
             <div className="max-w-5xl mx-auto px-4">
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
@@ -965,7 +965,7 @@ Luxury Russian Spa is now hiring for:</p>
               >
                 <motion.div
                   className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
@@ -988,7 +988,7 @@ Luxury Russian Spa is now hiring for:</p>
                 {faqs.map((faq, index) => (
                   <motion.div
                     key={index}
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     viewport={{ once: true }}
@@ -1046,7 +1046,7 @@ Luxury Russian Spa is now hiring for:</p>
     
               {/* CTA Box */}
               {/* <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 viewport={{ once: true }}

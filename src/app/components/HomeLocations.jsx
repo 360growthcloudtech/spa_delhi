@@ -89,13 +89,13 @@ const specialFeatures = [
 
   return (
     <>
-    <section className="py-20 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
+    <section className="py-16 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
               {/* Section Title */}
               <div className="text-center mb-12">
                 <motion.h2
                   className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
@@ -103,7 +103,7 @@ const specialFeatures = [
                 </motion.h2>
                 <motion.p
                   className="text-gray-600 max-w-2xl mx-auto text-lg"
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
@@ -118,7 +118,7 @@ const specialFeatures = [
                   <motion.div
                     key={index}
                     className="bg-white rounded-2xl shadow-lg relative overflow-hidden group"
-                    initial={{ opacity: 0, y: 50 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
@@ -166,7 +166,7 @@ const specialFeatures = [
     </section>
    {/* 18+ */}
           <section 
-  className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
+  className="relative py-16 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
   style={{ backgroundImage: "url('/images/18+bodyspa.webp')" }}
 >
   {/* Enhanced gradient overlay with subtle grain texture */}

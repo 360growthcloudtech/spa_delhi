@@ -55,10 +55,10 @@ const LuxuryHotelShowcase = ({
   ];
 
   return (
-    <section className="relative py-20 px-4 overflow-hidden bg-gradient-to-b from-amber-50 to-white">
+    <section className="relative py-16 px-4 overflow-hidden bg-gradient-to-b from-amber-50 to-white">
       <div className="absolute bottom-10 right-0 w-80 h-80 bg-amber-300/10 rounded-full blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-12">
           <div className="inline-block bg-amber-100 text-amber-700 px-4 py-1.5 rounded-full text-sm font-bold mb-4">
             Exclusive Partnerships
           </div>
@@ -136,8 +136,8 @@ const LuxuryHotelShowcase = ({
                 <div className="flex">
                   <div className="bg-amber-100 p-3 rounded-xl mr-5">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 text-amber-700">
-                      <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-                      <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                      <path d="M11.47 3.84a.75.75 0 0 1 1 .06 0l8.69 8.69a.75.75 0 1 0 1 .06-1.06l-8.689-8.69a2.25 2.25 0 0 0 -3.182 0l-8.69 8.69a.75.75 0 001.06 1 1 .06l8.69-8.69z" />
+                      <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 0 1 -1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.43z" />
                     </svg>
                   </div>
                   <div>
@@ -164,7 +164,7 @@ const LuxuryHotelShowcase = ({
                     {hotel.features.slice(0, 2).map((feature, idx) => (
                       <div key={idx} className="flex items-center text-sm text-gray-700">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 mr-2 text-amber-600">
-                          <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z" clipRule="evenodd" />
+                          <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 0 1 1 .06-1.06l5.353 5.353 8.493-12.739a.75.75 0 0 1 1 .04-.208z" clipRule="evenodd" />
                         </svg>
                         {feature}
                       </div>
@@ -181,7 +181,7 @@ const LuxuryHotelShowcase = ({
             <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 group">
             Book Your {service} Today!
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor">
-              <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd" />
+              <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 0 0 0 -1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 00 0 1 .5h5.69l-1.72 1.72a.75.75 0 1 0 1 .06 1.06l3-3z" clipRule="evenodd" />
             </svg>
           </button>
           </a>

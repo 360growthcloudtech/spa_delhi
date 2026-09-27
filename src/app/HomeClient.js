@@ -64,7 +64,7 @@ export default function HomeClient() {
 </Suspense>
 
       {/* Content Section */}
-      <section className="bg-white py-16 md:py-24 px-4 md:px-10 lg:px-20">
+      <section className="bg-white py-16 md:py-16 px-4 md:px-10 lg:px-20">
         <div className="max-w-7xl mx-auto space-y-10 md:space-y-14">
           {/* First Row */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-14 items-center rounded-3xl bg-cream p-5 md:p-10">
@@ -113,7 +113,7 @@ export default function HomeClient() {
       </section>
 
       {/* From Our Blog - real server-rendered links so every guide stays reachable from the homepage */}
-      <section className="bg-cream py-16 md:py-24 px-4 md:px-10 lg:px-20">
+      <section className="bg-cream py-16 md:py-16 px-4 md:px-10 lg:px-20">
         <div className="max-w-7xl mx-auto">
           <SectionTitle eyebrow="Read & Relax" highlight="Spa & Massage" title="Guides" />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

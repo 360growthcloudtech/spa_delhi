@@ -272,7 +272,7 @@ export default function JanakpuriPage() {
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {highlights.map((item, index) => (
-            <motion.div key={item.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.08 }} className="rounded-3xl border border-amber-100 bg-white p-6 shadow-sm">
+            <motion.div key={item.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.08 }} className="rounded-3xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50">{item.icon}</div>
               <h3 className="text-xl font-semibold text-[#1f1a17]">{item.title}</h3>
               <p className="mt-3 leading-relaxed text-gray-600">{item.desc}</p>
@@ -322,7 +322,7 @@ export default function JanakpuriPage() {
         </div>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service, index) => (
-            <motion.div key={service.title} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.06 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
+            <motion.div key={service.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.06 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-3 text-xl">{service.icon}</div>
               <h3 className="text-lg font-semibold text-[#1f1a17]">{service.title}</h3>
               <p className="mt-2 text-gray-600">{service.desc}</p>
@@ -345,7 +345,7 @@ export default function JanakpuriPage() {
           </div>
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {nearbyAreas.map((area, index) => (
-              <motion.div key={area.title} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.08 }} className="group overflow-hidden rounded-[24px] border border-amber-100 bg-white shadow-sm">
+              <motion.div key={area.title} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.08 }} className="group overflow-hidden rounded-[24px] border border-amber-100 bg-white shadow-sm">
                 <div className="relative h-48 overflow-hidden">
                   <Image src={area.image} alt={`Spa near ${area.title}`} fill className="object-cover transition duration-500 group-hover:scale-105" />
                 </div>
@@ -372,7 +372,7 @@ export default function JanakpuriPage() {
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {processSteps.map((step, index) => (
-            <motion.div key={step.number} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.1 }} className="rounded-[24px] border border-amber-100 bg-white p-6 shadow-sm">
+            <motion.div key={step.number} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.45, delay: index * 0.1 }} className="rounded-[24px] border border-amber-100 bg-white p-6 shadow-sm">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-amber-50 text-xl font-semibold text-amber-700">{step.number}</div>
               <div className="mb-3 text-amber-700">{step.icon}</div>
               <h3 className="text-xl font-semibold text-[#1f1a17]">{step.title}</h3>
@@ -392,7 +392,7 @@ export default function JanakpuriPage() {
             {pricingPlans.map((plan, index) => (
               <motion.div
                 key={plan.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.45, delay: index * 0.08 }}
@@ -445,7 +445,7 @@ export default function JanakpuriPage() {
           </div>
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <motion.div key={faq.question} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35, delay: index * 0.05 }} className="rounded-2xl border border-amber-100 bg-[#fffaf5] p-5">
+              <motion.div key={faq.question} initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35, delay: index * 0.05 }} className="rounded-2xl border border-amber-100 bg-[#fffaf5] p-5">
                 <button onClick={() => setActiveIndex(activeIndex === index ? -1 : index)} className="flex w-full items-center justify-between text-left">
                   <span className="text-lg font-semibold text-[#1f1a17]">{faq.question}</span>
                   <FaArrowRight className={`text-amber-700 transition ${activeIndex === index ? "rotate-90" : ""}`} />

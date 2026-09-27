@@ -97,7 +97,7 @@ export default function Conpage() {
     <div className="text-center mb-12">
       <motion.h2
         className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-        initial={{ opacity: 0, y: 20 }}
+        initial={false}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
@@ -105,7 +105,7 @@ export default function Conpage() {
       </motion.h2>
       <motion.p
         className="text-gray-600 max-w-2xl mx-auto text-lg"
-        initial={{ opacity: 0, y: 20 }}
+        initial={false}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
         viewport={{ once: true }}
@@ -120,7 +120,7 @@ export default function Conpage() {
         <motion.div
           key={index}
           className="bg-white rounded-2xl shadow-lg relative overflow-hidden group"
-          initial={{ opacity: 0, y: 50 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.1 }}
           viewport={{ once: true }}

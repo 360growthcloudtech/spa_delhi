@@ -358,7 +358,7 @@ const faqs = [
                 <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   {/* Muscle Relief / Healing Hand Icon */}
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16c0-1.1.9-2 2-2h2v-5a2 2 0 114 0v5h2a2 2 0 110 4h-1l-1 3-1-3H6a2 2 0 01-2-2z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16c0-1.1.9-2 2-2h2v-5a2 2 0 1 1 4 0v5h2a2 2 0 1 1 0 4h-1l-1 3-1-3H6a2 2 0 0 1 -2-2z" />
             </svg>
                 </div>
                 <span className="text-sm text-gray-700">Home Spa</span>
@@ -366,7 +366,7 @@ const faqs = [
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                   </svg>
                 </div>
                 <span className="text-sm text-gray-700">Delhi NCR</span>
@@ -382,7 +382,7 @@ const faqs = [
               </button>
               <button className=" text-blue-500 rounded-sm  hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                 </svg>
                 <a 
                                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
@@ -440,7 +440,7 @@ const faqs = [
       {/* End Banner */}
 
       {/* Services Section */}
-      <section id="services-section" className="relative w-full py-24 overflow-hidden bg-gradient-to-b from-amber-50 to-white">
+      <section id="services-section" className="relative w-full py-16 overflow-hidden bg-gradient-to-b from-amber-50 to-white">
 
         {/* Decorative background elements */}
         <div className="absolute inset-0 z-0 opacity-20">
@@ -450,31 +450,35 @@ const faqs = [
         </div>
         {/* Floral decorative elements */}
         <div className="absolute inset-0 z-0 overflow-hidden">
-          {[...Array(15)].map((_, i) => (
+          {[...Array(15)].map((_, i) => {
+            // Deterministic pseudo-random values so server and client render the same markup
+            const rnd = (n) => ((Math.sin((i + 1) * 12.9898 + n * 78.233) * 43758.5453) % 1 + 1) % 1;
+            return (
             <motion.div
               key={i}
               className="absolute text-amber-200"
               style={{
-                top: `${Math.random() * 100}%`,
-                left: `${Math.random() * 100}%`,
-                fontSize: `${Math.random() * 24 + 16}px`,
-                rotate: `${Math.random() * 360}deg`,
+                top: `${(rnd(1) * 100).toFixed(2)}%`,
+                left: `${(rnd(2) * 100).toFixed(2)}%`,
+                fontSize: `${(rnd(3) * 24 + 16).toFixed(1)}px`,
+                rotate: `${Math.round(rnd(4) * 360)}deg`,
               }}
               animate={{
                 y: [0, 40, 0],
-                x: [0, Math.random() * 30 - 15, 0],
+                x: [0, rnd(5) * 30 - 15, 0],
                 opacity: [0.2, 0.8, 0.2],
                 scale: [1, 1.1, 1]
               }}
               transition={{
-                duration: Math.random() * 8 + 6,
+                duration: rnd(6) * 8 + 6,
                 repeat: Infinity,
-                delay: Math.random() * 3
+                delay: rnd(7) * 3
               }}
             >
               ✿
             </motion.div>
-          ))}
+            );
+          })}
         </div>
         {/* Gold geometric patterns */}
         <div className="absolute inset-0 z-0 pointer-events-none">
@@ -606,9 +610,9 @@ const faqs = [
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section header */}
-          <div className="text-center mb-20">
+          <div className="text-center mb-10 md:mb-12">
             <motion.div 
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="inline-block px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
@@ -616,7 +620,7 @@ const faqs = [
               Relax & Rejuvenate
             </motion.div>
             <motion.h2 
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
@@ -625,7 +629,7 @@ const faqs = [
               Our Top-Notch Massage service in Delhi
             </motion.h2>
             <motion.p 
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
@@ -639,7 +643,7 @@ const faqs = [
           <motion.div 
             className="grid grid-cols-1 lg:grid-cols-2 gap-16"
             variants={container}
-            initial="hidden"
+            initial={false}
             whileInView="show"
             viewport={{ once: true, margin: "-100px" }}
           >
@@ -689,10 +693,7 @@ const faqs = [
                     </div>
                     
                     <div>
-                      <a 
-                        href="tel:+919217255113" 
-                        className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg"
-                      >
+                      <div className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg">
                         <a 
                                         href="https://t.me/+a5Bu6FBPN9FlOWM9"
                                         target="_blank"
@@ -703,9 +704,9 @@ const faqs = [
                                         Meet Our Team
                                       </a>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                          <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                          <path fillRule="evenodd" d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z" clipRule="evenodd" />
                         </svg>
-                      </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -717,7 +718,7 @@ const faqs = [
               </section>
               {/* End Our Signature Treatments */}
               {/* icon section */}
-              <section className="relative bg-gradient-to-br from-[#fffaf5] to-[#f8f0eb] py-24 px-6 lg:px-16 overflow-hidden">
+              <section className="relative bg-gradient-to-br from-[#fffaf5] to-[#f8f0eb] py-16 px-6 lg:px-16 overflow-hidden">
                     {/* Decorative elements */}
                     <div className="absolute top-0 right-0 w-64 h-64 bg-[#f5e4d7] rounded-full mix-blend-multiply filter blur-3xl opacity-30 transform translate-x-1/2 -translate-y-1/2"></div>
                     <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#e8d1c5] rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform -translate-x-1/2 translate-y-1/2"></div>
@@ -851,7 +852,7 @@ const faqs = [
                               <div className="flex">
                                 {[...Array(5)].map((_, i) => (
                                   <svg key={i} className="w-5 h-5 text-amber-200" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0 -.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0 -1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0 -.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
                                   </svg>
                                 ))}
                               </div>
@@ -864,7 +865,7 @@ const faqs = [
                   </section>
               {/* ENd icon section */}
               {/* About Section */}
-                    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fffaf5] to-[#fffaf5] relative overflow-hidden">
+                    <section className="py-16 px-4 md:px-8 bg-gradient-to-b from-[#fffaf5] to-[#fffaf5] relative overflow-hidden">
                       {/* Decorative Elements */}
                       <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
                       <div className="absolute top-20 right-10 w-80 h-80 rounded-full bg-amber-200/30 blur-3xl"></div>
@@ -877,14 +878,14 @@ const faqs = [
                         {/* Right Text Section with Enhanced Styling */}
                         <motion.div
                           className="flex flex-col justify-between h-full"
-                          initial={{ opacity: 0, x: 50 }}
+                          initial={false}
                           whileInView={{ opacity: 1, x: 0 }}
                           transition={{ duration: 0.8 }}
                           viewport={{ once: true }}
                         >
                           <motion.div
                             className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.2 }}
                             viewport={{ once: true }}
@@ -894,7 +895,7 @@ const faqs = [
               
                           <motion.h2
                             className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3 }}
                             viewport={{ once: true }}
@@ -907,7 +908,7 @@ const faqs = [
               
                           <motion.div
                             className="space-y-6 mb-8"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.4 }}
                             viewport={{ once: true }}
@@ -924,7 +925,7 @@ const faqs = [
                           {/* Feature Grid with Hover Effects */}
                         <motion.div
                             className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.5 }}
                             viewport={{ once: true }}
@@ -957,7 +958,7 @@ const faqs = [
                           {/* Action Buttons with Animation */}
                           <motion.div
                             className="flex flex-wrap gap-4"
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.6 }}
                             viewport={{ once: true }}
@@ -973,13 +974,12 @@ const faqs = [
                               <span className="relative z-10 flex items-center gap-2">
                                 Learn More About Us
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
-                                  <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                                  <path fillRule="evenodd" d="M12.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L14.586 11H3a1 1 0 1 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414z" clipRule="evenodd" />
                                 </svg>
                               </span>
                             </motion.a>
               
-                            <motion.a
-                              href="#"
+                            <motion.div
                               className="px-8 py-4 rounded-full font-medium border-2 border-amber-500 text-amber-600 hover:bg-amber-50 transition-colors relative overflow-hidden group"
                               whileHover={{ scale: 1.05 }}
                               whileTap={{ scale: 0.95 }}
@@ -987,17 +987,17 @@ const faqs = [
                               <a href="/spa-price-in-delhi" className="relative z-10 flex items-center gap-2 cursor-pointer">
                                 View Pricing
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
-                                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 000-1.676.62C6.602" />
+                                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 0 1 -.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 0 1 -.567.267z" />
+                                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd" />
                                 </svg>
                               </a>
-                            </motion.a>
+                            </motion.div>
                           </motion.div>
                         </motion.div>
                         {/* Left Image with Modern Frame & Parallax Effect */}
                             <motion.div
                               className="relative"
-                              initial={{ opacity: 0, y: 50 }}
+                              initial={false}
                               whileInView={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.8, ease: "easeOut" }}
                               viewport={{ once: true, margin: "-100px" }}
@@ -1064,7 +1064,7 @@ const faqs = [
                               {/* Floating testimonials */}
                               {/* <motion.div 
                                 className="absolute -bottom-6 right-10 bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-4 w-64 border border-white/50"
-                                initial={{ opacity: 0, y: 30 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.5, duration: 0.6 }}
                                 viewport={{ once: true }}
@@ -1088,16 +1088,16 @@ const faqs = [
                     
               
                           {/* Why Choose Us Section */}
-        <section className="py-24 relative overflow-hidden bg-gradient-to-b from-amber-50 to-white">
+        <section className="py-16 relative overflow-hidden bg-gradient-to-b from-amber-50 to-white">
               {/* Decorative elements */}
               <div className="absolute top-20 left-0 w-72 h-72 rounded-full bg-amber-200 opacity-20 blur-3xl -z-0"></div>
               <div className="absolute bottom-20 right-0 w-80 h-80 rounded-full bg-amber-300 opacity-15 blur-3xl -z-0"></div>
               
               <div className="container mx-auto px-4 relative z-10">
                 {/* Header */}
-                <div className="text-center max-w-3xl mx-auto mb-20">
+                <div className="text-center max-w-3xl mx-auto mb-10 md:mb-12">
                   <motion.div
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
@@ -1119,7 +1119,7 @@ const faqs = [
                   {/* Left Column - Expert Therapists */}
                   <motion.div 
                     className="flex flex-col"
-                    initial={{ opacity: 0, x: -30 }}
+                    initial={false}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
@@ -1129,7 +1129,7 @@ const faqs = [
                         <div className="flex items-start mb-6">
                           <div className="bg-amber-100 p-3 rounded-lg mr-4 flex-shrink-0">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" viewBox="0 0 20 20" fill="currentColor">
-                              <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                              <path fillRule="evenodd" d="M10 9a3 3 0 1 0 0-6 3 3 0 000 6zm-7 9a7 7 0 1 1 14 0H3z" clipRule="evenodd" />
                             </svg>
                           </div>
                           <div>
@@ -1171,7 +1171,7 @@ const faqs = [
                   {/* Right Column - Premium Oils */}
                   <motion.div 
                     className="flex flex-col"
-                    initial={{ opacity: 0, x: 30 }}
+                    initial={false}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
@@ -1191,7 +1191,7 @@ const faqs = [
                         <div className="flex items-start mb-6">
                           <div className="bg-amber-100 p-3 rounded-lg mr-4 flex-shrink-0">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" viewBox="0 0 20 20" fill="currentColor">
-                              <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                              <path fillRule="evenodd" d="M18 10a8 8 0 1 1 -16 0 8 8 0 0116 0zm-7-4a1 1 0 1 1 -2 0 1 1 0 012 0zM9 9a1 1 0 0 0 0 2v3a1 1 0 0 0 1 1h1a1 1 0 1 0 0-2v-3a1 1 0 0 0 -1-1H9z" clipRule="evenodd" />
                             </svg>
                           </div>
                           <div>
@@ -1226,7 +1226,7 @@ const faqs = [
                 {/* Testimonial Section */}
                 {/* <motion.div 
                   className="mt-20 bg-gradient-to-r from-amber-700 to-amber-800 rounded-3xl overflow-hidden shadow-2xl"
-                  initial={{ opacity: 0, y: 30 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.7 }}
@@ -1237,7 +1237,7 @@ const faqs = [
                         <div className="flex mb-4">
                           {[...Array(5)].map((_, i) => (
                             <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-amber-300" viewBox="0 0 20 20" fill="currentColor">
-                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 0 0 .95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 0 0 -.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 0 0 -1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 0 0 -.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 0 0 .951-.69l1.07-3.292z" />
                             </svg>
                           ))}
                         </div>
@@ -1283,7 +1283,7 @@ const faqs = [
                 {/* Benefits Section */}
                 <motion.div 
                   className="mt-20"
-                  initial={{ opacity: 0, y: 30 }}
+                  initial={false}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 0.2 }}
@@ -1308,7 +1308,7 @@ const faqs = [
                         description: "Therapies that restore physical vitality and promote healing at the cellular level",
                         icon: (
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                           </svg>
                         )
                       },
@@ -1317,7 +1317,7 @@ const faqs = [
                         description: "Practices that align your energy centers and connect you with your inner self",
                         icon: (
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 0 1 -5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                           </svg>
                         )
                       }
@@ -1340,7 +1340,7 @@ const faqs = [
                 {/* CTA */}
                 <motion.div 
                   className="text-center mt-20"
-                  initial={{ opacity: 0 }}
+                  initial={false}
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: 0.3 }}
@@ -1349,7 +1349,7 @@ const faqs = [
                   <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                     Book Your Spa Session Now
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                      <path fillRule="evenodd" d="M10.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L12.586 11H5a1 1 0 1 1 0-2h7.586l-2.293-2.293a1 1 0 0 1 0-1.414z" clipRule="evenodd" />
                     </svg>
                   </button>
                   </a>
@@ -1364,8 +1364,8 @@ const faqs = [
                                                    <div className="max-w-6xl mx-auto">
                                                      {/* Section Header */}
                                                      {/* <motion.div 
-                                                       className="text-center mb-16"
-                                                       initial={{ opacity: 0, y: 20 }}
+                                                       className="text-center mb-10 md:mb-12"
+                                                       initial={false}
                                                        whileInView={{ opacity: 1, y: 0 }}
                                                        viewport={{ once: true }}
                                                        transition={{ duration: 0.6 }}
@@ -1381,7 +1381,7 @@ const faqs = [
                                                          
                                                          {/* <motion.div 
                                                            className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
-                                                           initial={{ opacity: 0, x: 30 }}
+                                                           initial={false}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
                                                            transition={{ duration: 0.7 }}
@@ -1389,7 +1389,7 @@ const faqs = [
                                                            <div className="flex items-center gap-4 mb-6">
                                                              <div className="bg-amber-100 p-3 rounded-xl">
                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                                                                </svg>
                                                              </div>
                                                              <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1423,7 +1423,7 @@ const faqs = [
                                                          {/* Body Treatments */}
                                                          {/* <motion.div 
                                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
-                                                           initial={{ opacity: 0, x: -30 }}
+                                                           initial={false}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
                                                            transition={{ duration: 0.7, delay: 0.1 }}
@@ -1431,7 +1431,7 @@ const faqs = [
                                                            <div className="flex items-center gap-4 mb-6">
                                                              <div className="bg-amber-100 p-3 rounded-xl">
                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 0 0 0 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0 -6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0 -6.364 0z" />
                                                                </svg>
                                                              </div>
                                                              <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1469,7 +1469,7 @@ const faqs = [
                                                          {/* Massage Therapy */}
                                                          {/* <motion.div 
                                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#f0dccb]"
-                                                           initial={{ opacity: 0, x: -30 }}
+                                                           initial={false}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
                                                            transition={{ duration: 0.7 }}
@@ -1477,7 +1477,7 @@ const faqs = [
                                                            <div className="flex items-center gap-4 mb-6">
                                                              <div className="bg-amber-100 p-3 rounded-xl">
                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 0 1 -5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
                                                                </svg>
                                                              </div>
                                                              <h2 className="text-3xl font-bold text-amber-800 mb-6">
@@ -1514,7 +1514,7 @@ const faqs = [
                                                          {/* Wellness Packages */}
                                                          {/* <motion.div 
                                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#f0dccb]"
-                                                           initial={{ opacity: 0, x: 30 }}
+                                                           initial={false}
                                                            whileInView={{ opacity: 1, x: 0 }}
                                                            viewport={{ once: true }}
                                                            transition={{ duration: 0.7, delay: 0.1 }}
@@ -1522,7 +1522,7 @@ const faqs = [
                                                            <div className="flex items-center gap-4 mb-6">
                                                              <div className="bg-amber-100 p-3 rounded-xl">
                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 1 0 0 4m0-4a2 2 0 1 1 0 4m-6 8a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 1 0 0-4m0 4a2 2 0 1 1 0-4m0 4v2m0-6V4" />
                                                                </svg>
                                                              </div>
                                                              <h2 className="text-2xl font-bold text-[#1f1a17]">Home & Hotel Spa</h2>
@@ -1558,7 +1558,7 @@ const faqs = [
                                                      {/* Additional Information */}
                                                      <motion.div 
                                                        className="mt-16 bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl p-8 text-white shadow-xl"
-                                                       initial={{ opacity: 0, y: 30 }}
+                                                       initial={false}
                                                        whileInView={{ opacity: 1, y: 0 }}
                                                        viewport={{ once: true }}
                                                        transition={{ duration: 0.7 }}
@@ -1593,15 +1593,15 @@ const faqs = [
                                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                                          {/* Section Header */}
                                <motion.div 
-                                 className="text-center mb-20"
-                                 initial={{ opacity: 0, y: 20 }}
+                                 className="text-center mb-10 md:mb-12"
+                                 initial={false}
                                  whileInView={{ opacity: 1, y: 0 }}
                                  viewport={{ once: true, margin: "-100px" }}
                                  transition={{ duration: 0.8 }}
                                >
                                  <motion.div
                                    className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                                   initial={{ opacity: 0, scale: 0.9 }}
+                                   initial={false}
                                    whileInView={{ opacity: 1, scale: 1 }}
                                    transition={{ delay: 0.2, duration: 0.5 }}
                                  >
@@ -1611,7 +1611,7 @@ const faqs = [
                                  
                                  <motion.h2
                                    className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                                   initial={{ opacity: 0, y: 20 }}
+                                   initial={false}
                                    whileInView={{ opacity: 1, y: 0 }}
                                    transition={{ delay: 0.3, duration: 0.6 }}
                                  >
@@ -1620,7 +1620,7 @@ const faqs = [
                                  
                                  {/* <motion.p
                                    className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                                   initial={{ opacity: 0, y: 20 }}
+                                   initial={false}
                                    whileInView={{ opacity: 1, y: 0 }}
                                    transition={{ delay: 0.4, duration: 0.5 }}
                                  >
@@ -1629,7 +1629,7 @@ const faqs = [
                                  
                                  <motion.div
                                    className="flex justify-center mt-10"
-                                   initial={{ opacity: 0, y: 20 }}
+                                   initial={false}
                                    whileInView={{ opacity: 1, y: 0 }}
                                    transition={{ delay: 0.5, duration: 0.5 }}
                                  >
@@ -1643,7 +1643,7 @@ const faqs = [
                                              <motion.div
                                                key={index}
                                                className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
-                                               initial={{ opacity: 0, y: 40 }}
+                                               initial={false}
                                                whileInView={{ opacity: 1, y: 0 }}
                                                viewport={{ once: true }}
                                                transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -1685,10 +1685,10 @@ const faqs = [
                     <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
                       <div className="max-w-7xl mx-auto">
                         
-                        <div className="text-center mb-16">
+                        <div className="text-center mb-10 md:mb-12">
                         <motion.p
                           className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-                          initial={{ opacity: 0, y: 20 }}
+                          initial={false}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.5 }}
                           viewport={{ once: true }}
@@ -1698,7 +1698,7 @@ const faqs = [
                         
                         <motion.h2
                           className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-                          initial={{ opacity: 0, y: 20 }}
+                          initial={false}
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true }}
                         >
@@ -1707,7 +1707,7 @@ const faqs = [
                         
                         <motion.p
                           className="text-gray-600 max-w-2xl mx-auto text-lg"
-                          initial={{ opacity: 0, y: 20 }}
+                          initial={false}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.1 }}
                           viewport={{ once: true }}
@@ -1791,7 +1791,7 @@ const faqs = [
             {/* Heading and Subheading */}
             <motion.h2
               className="text-4xl md:text-5xl font-bold text-white leading-tight mb-6 font-serif"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
@@ -1801,7 +1801,7 @@ const faqs = [
 
             <motion.p
               className="text-amber-300 uppercase font-semibold tracking-wider mb-12"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
@@ -1858,7 +1858,7 @@ const faqs = [
                       <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
                         <div className="max-w-5xl mx-auto px-4">
                           <motion.div
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
                             viewport={{ once: true }}
@@ -1866,7 +1866,7 @@ const faqs = [
                           >
                             <motion.div
                               className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-                              initial={{ opacity: 0, y: 20 }}
+                              initial={false}
                               whileInView={{ opacity: 1, y: 0 }}
                               viewport={{ once: true }}
                             >
@@ -1889,7 +1889,7 @@ const faqs = [
                             {faqs.map((faq, index) => (
                               <motion.div
                                 key={index}
-                                initial={{ opacity: 0, y: 20 }}
+                                initial={false}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: index * 0.1 }}
                                 viewport={{ once: true }}
@@ -1947,7 +1947,7 @@ const faqs = [
                 
                           {/* CTA Box */}
                           {/* <motion.div
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.4 }}
                             viewport={{ once: true }}

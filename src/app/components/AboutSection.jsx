@@ -6,7 +6,7 @@ import { FaTelegram } from "react-icons/fa";
 
 export default function AboutSection() {
   return (
-    <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fffaf5] to-[#fffaf5] relative overflow-hidden">
+    <section className="py-16 px-4 md:px-8 bg-gradient-to-b from-[#fffaf5] to-[#fffaf5] relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
       <div className="absolute top-20 right-10 w-80 h-80 rounded-full bg-amber-200/30 blur-3xl"></div>
       <div className="absolute bottom-20 left-10 w-60 h-60 rounded-full bg-amber-100/40 blur-3xl"></div>
@@ -16,14 +16,14 @@ export default function AboutSection() {
         {/* Right Text Section with Enhanced Styling */}
         <motion.div
           className="flex flex-col justify-between h-full"
-          initial={{ opacity: 0, x: 50 }}
+          initial={false}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <motion.div
             className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
             viewport={{ once: true }}
@@ -32,7 +32,7 @@ export default function AboutSection() {
           </motion.div>
           <motion.h1
             className="text-3xl md:text-3xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
             viewport={{ once: true }}
@@ -48,7 +48,7 @@ export default function AboutSection() {
           </motion.h1>
           <motion.div
             className="space-y-6 mb-8"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
             viewport={{ once: true }}
@@ -82,7 +82,7 @@ export default function AboutSection() {
           {/* Feature Grid with Hover Effects */}
           <motion.div
             className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
             viewport={{ once: true }}
@@ -134,7 +134,7 @@ export default function AboutSection() {
           {/* Action Buttons with Animation */}
           <motion.div
             className="flex flex-wrap gap-4"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
             viewport={{ once: true }}
@@ -159,7 +159,7 @@ export default function AboutSection() {
                   {" "}
                   <path
                     fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    d="M12.293 5.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1 -1.414-1.414L14.586 11H3a1 1 0 1 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414z"
                     clipRule="evenodd"
                   />{" "}
                 </svg>{" "}
@@ -179,7 +179,7 @@ export default function AboutSection() {
         {/* Left Image with Modern Frame & Parallax Effect */}{" "}
         <motion.div
           className="relative"
-          initial={{ opacity: 0, y: 50 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true, margin: "-100px" }}

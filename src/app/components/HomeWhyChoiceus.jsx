@@ -28,7 +28,7 @@ const features3 = [
 
 export default function HomeWhyChoiceus() {
   return (
-    <section className="bg-cream px-4 py-16 md:px-10 md:py-24 lg:px-20">
+    <section className="bg-cream px-4 py-16 md:px-10 md:py-16 lg:px-20">
       {/* Espresso panel (Avataar CTA block) */}
       <div className="relative max-w-7xl mx-auto overflow-hidden rounded-3xl bg-dark px-6 py-12 md:px-14 md:py-14">
         <div className="pointer-events-none absolute -right-32 -top-32 size-80 rounded-full bg-primary/40 blur-3xl" aria-hidden="true" />
@@ -53,7 +53,7 @@ export default function HomeWhyChoiceus() {
             return (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}

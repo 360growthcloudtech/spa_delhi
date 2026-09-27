@@ -164,11 +164,11 @@ export default function HomeHealthBenefits() {
       </div>
     </section>
     {/* end */}
-          <section className="w-full bg-[#f8f6f3] py-20 px-4">
+          <section className="w-full bg-[#f8f6f3] py-16 px-4">
           <div className="max-w-7xl mx-auto">
     
             {/* Heading */}
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-12">
               <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
                 Why Choose Luxury Russian Spa?
               </h2>
