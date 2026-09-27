@@ -43,12 +43,31 @@ const badges = [
   { icon: Sparkles, line1: "Premium", line2: "Oils" },
 ];
 
+function Mandala({ className = "" }) {
+  const petals = Array.from({ length: 16 }, (_, i) => i * 22.5);
+  return (
+    <svg className={className} viewBox="0 0 200 200" fill="none" stroke="currentColor" aria-hidden="true">
+      <circle cx="100" cy="100" r="96" strokeWidth="1" />
+      <circle cx="100" cy="100" r="88" strokeWidth="0.6" strokeDasharray="2 4" />
+      <circle cx="100" cy="100" r="30" strokeWidth="1" />
+      <circle cx="100" cy="100" r="12" strokeWidth="1" />
+      {petals.map((deg) => (
+        <g key={deg} transform={`rotate(${deg} 100 100)`}>
+          <path d="M100 30c10 14 10 30 0 44-10-14-10-30 0-44z" strokeWidth="1" />
+          <path d="M100 8c6 8 6 16 0 22-6-6-6-14 0-22z" strokeWidth="0.8" />
+          <circle cx="100" cy="80" r="2" fill="currentColor" stroke="none" />
+        </g>
+      ))}
+    </svg>
+  );
+}
+
 export default function HomeBanner() {
   const [active, setActive] = useState(0);
 
   return (
     <>
-      <section className="relative w-full overflow-hidden bg-black h-[560px] md:h-[640px] lg:h-[680px]">
+      <section className="relative w-full overflow-hidden bg-black h-[640px] md:h-[720px] lg:h-screen lg:min-h-[720px] lg:max-h-[940px]">
         {/* Background slider */}
         <Swiper
           loop
@@ -81,7 +100,11 @@ export default function HomeBanner() {
         {/* Left-to-right dark gradient (Avataar hero) */}
         <div className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-r from-black/85 via-black/55 to-black/0" aria-hidden="true" />
 
-        <div className="relative z-[2] h-full max-w-7xl mx-auto px-5 md:px-16 flex flex-col justify-center">
+        {/* Gold mandala ornaments (Avataar festive corners) */}
+        <Mandala className="pointer-events-none absolute -bottom-24 -left-24 z-[1] size-72 md:size-96 text-[#c9a27a] opacity-60 animate-[spin_80s_linear_infinite]" />
+        <Mandala className="pointer-events-none absolute -top-28 -right-28 z-[1] hidden lg:block size-80 text-[#c9a27a] opacity-30 animate-[spin_120s_linear_infinite_reverse]" />
+
+        <div className="relative z-[2] h-full max-w-7xl mx-auto px-5 md:px-16 pt-[72px] lg:pt-[92px] flex flex-col justify-center">
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-secondary/70 bg-black/15 px-5 py-1.5 mb-5 font-display italic font-semibold text-lg text-sand animate-fade-in-up">
               <Sparkles className="size-4" /> Relax. Restore. Rejuvenate.
@@ -116,6 +139,25 @@ export default function HomeBanner() {
               <a href="/massage-service-in-delhi" className="site-button outline sm:w-[230px]">
                 Explore Services
               </a>
+            </div>
+
+            {/* Trust row */}
+            <div className="mt-8 hidden sm:flex items-center gap-5 text-white animate-fade-in-up [animation-delay:360ms]">
+              <div className="flex items-center gap-3">
+                <Hotel className="size-8 text-secondary" strokeWidth={1.4} />
+                <span className="text-sm leading-tight">
+                  <span className="block text-lg font-semibold">24+ Outlets</span>
+                  in 5-star hotels
+                </span>
+              </div>
+              <span className="h-10 w-px bg-white/40" aria-hidden="true" />
+              <div className="flex items-center gap-3">
+                <UserCheck className="size-8 text-secondary" strokeWidth={1.4} />
+                <span className="text-sm leading-tight">
+                  <span className="block text-lg font-semibold">Certified</span>
+                  Indian &amp; international therapists
+                </span>
+              </div>
             </div>
           </div>
         </div>

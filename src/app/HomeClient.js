@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import HomeBanner from "./components/HomeBanner";
 import AboutSection from "./components/AboutSection";
 import HomeServicesSection from "./components/HomeServicesSection";
+import SignatureRange from "./components/SignatureRange";
 import HomeWhyChoiceus from "./components/HomeWhyChoiceus";
 import SectionTitle from "./components/SectionTitle";
 
@@ -52,6 +53,7 @@ export default function HomeClient() {
       <HomeBanner />
       <AboutSection />
       <HomeServicesSection />
+      <SignatureRange />
       <HomeWhyChoiceus />
 
       {/* Other Sections */}
