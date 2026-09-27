@@ -76,7 +76,7 @@ export default function HomeOurProcess() {
               }}
             >
               {/* Step Number */}
-              <div className="absolute top-5 left-5 text-5xl font-bold text-amber-100">
+              <div className="absolute top-5 left-6 font-title text-5xl font-bold italic text-primary/30">
                 {step.number}
               </div>
 

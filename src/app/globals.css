@@ -242,21 +242,6 @@
   overflow: hidden;
 }
 
-/* ---------------------------------------------------------------------
-   Scroll reveal (driven by ThemeEffects.jsx). Elements are only moved
-   once JS has tagged them, so content is always visible without JS and
-   for crawlers.
-   --------------------------------------------------------------------- */
-.trv-reveal {
-  /* Motion only: content is never hidden, it just settles into place. */
-  transform: translate3d(0, 28px, 0);
-  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
-  will-change: transform;
-}
-.trv-reveal.is-visible {
-  transform: none;
-}
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -267,10 +252,6 @@
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-  }
-  .trv-reveal {
-    opacity: 1;
-    transform: none;
   }
 }
 
