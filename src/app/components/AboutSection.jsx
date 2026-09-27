@@ -196,8 +196,8 @@ export default function AboutSection() {
               {/* <div className="bg-gradient-to-tr from-amber-200 to-rose-100 w-full h-full animate-pulse"></div> */}{" "}
               <Image
                 loading="lazy"
-                src="/images/3777.webp"
-                alt="Luxury spa interior at Luxury Russian Spa"
+                src="/images/about-luxury-russian-spa.jpg"
+                alt="About Our Luxury Russian Spa - Premium Massage in Delhi"
                 fill
                 className="object-cover rounded-[2.5rem] z-0"
               />{" "}

@@ -20,42 +20,41 @@ const LuxuryHotelPartners = () => {
   const hotels = [
     {
       id: 1,
-      name: "The Serenity Resort",
-      location: "Bali, Indonesia",
+      name: "Andaz Delhi",
+      location: "Aerocity, New Delhi",
+      image: "/images/hotel-andaz-delhi.jpg",
       rating: 4.9,
-      description: "A luxurious beachfront retreat with panoramic ocean views and our signature spa treatments.",
-      features: ["Infinity Pool", "Private Beach", "Spa Villas", "Fine Dining"]
+      description: "A luxurious retreat near IGI Airport offering high-level ambiance and signature hotel spa therapy.",
+      features: ["In-Room Spa", "Russian Therapist", "Private Suites", "Discreet Service"]
     },
     {
       id: 2,
-      name: "Azure Heights",
-      location: "Santorini, Greece",
+      name: "The Park Hotel",
+      location: "Connaught Place, New Delhi",
+      image: "/images/hotel-resort-pool.jpg",
       rating: 4.8,
-      description: "Stunning cliffside villas with infinity pools and exclusive access to our premium spa services.",
-      features: ["Caldera Views", "Wine Cellar", "Rooftop Spa", "Helipad"]
+      description: "Experience premium relaxation in Central Delhi with private therapist sessions delivered to your room.",
+      features: ["Couple Massage", "Aromatherapy", "Sandwich Massage", "24/7 Booking"]
     },
     {
       id: 3,
-      name: "Emerald Bay Resort",
-      location: "Phuket, Thailand",
+      name: "The Suryaa",
+      location: "New Friends Colony, New Delhi",
+      image: "/images/hotel-grand-palace.jpg",
       rating: 4.7,
-      description: "Tropical paradise with private villas surrounded by lush gardens and our award-winning spa.",
-      features: ["Lagoon Pool", "Thai Cooking Classes", "Private Yacht", "Jungle Spa"]
+      description: "Quiet, calm surroundings with exceptional full-body and Thai wellness therapies delivered right to your suite.",
+      features: ["Full Body Therapy", "Swedish Massage", "Private Setting", "Certified Staff"]
     },
     {
       id: 4,
-      name: "Alpine Sanctuary",
-      location: "Swiss Alps, Switzerland",
+      name: "Welcomhotel by ITC",
+      location: "Dwarka, New Delhi",
+      image: "/images/hotel-grand-vista.jpg",
       rating: 4.9,
-      description: "Mountain chalet retreat offering panoramic alpine views and our exclusive wellness programs.",
-      features: ["Ski-in/Ski-out", "Indoor Glacier Pool", "Mountain Spa", "Wine Library"]
+      description: "Grand 5-star luxury and serene hospitality with on-demand room spa sessions across West & South Delhi.",
+      features: ["VIP Privilege", "Deep Tissue", "B2B Massage", "Foreign Therapists"]
     }
   ];
-
-  // Generate random image URLs with nature themes
-  const getRandomImage = (seed) => {
-    return `https://source.unsplash.com/random/800x600/?luxury-hotel,resort,spa,${seed}`;
-  };
 
   return (
     <section className="relative py-16 px-4 bg-gradient-to-br from-amber-50 via-white to-amber-50 overflow-hidden">
@@ -153,7 +152,7 @@ const LuxuryHotelPartners = () => {
             {/* Background image */}
             <div 
               className="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out"
-              style={{ backgroundImage: `url(${getRandomImage(hotels[activeHotel].name)})` }}
+              style={{ backgroundImage: `url(${hotels[activeHotel].image})` }}
             >
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90"></div>
             </div>

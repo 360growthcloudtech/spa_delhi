@@ -26,26 +26,26 @@ const luxuryHotels = [
   {
     name: "Andaz Delhi",
     location: "Aerocity, New Delhi",
-    image: "/images/Andazhat.jpg",
+    image: "/images/hotel-andaz-delhi.jpg",
     desc: "Staying at Andaz Delhi? We send a therapist straight to your room for a private full body massage, no need to travel to our outlet.",
   },
   {
     name: "The Park, Connaught Place",
     location: "Connaught Place, New Delhi",
-    image: "/images/TheParkConnaughtPlace.webp",
+    image: "/images/hotel-resort-pool.jpg",
     desc: "A short walk from The Park — hotel spa bookings available if you'd rather have your full body massage right in your room.",
   },
   {
-    name: "Radisson Blu, Connaught Place",
-    location: "Connaught Place, New Delhi",
-    image: "/images/radissonblu_CP.jpg",
-    desc: "Guests at Radisson Blu can book our outlet nearby or request a therapist directly to their room for a genuine session.",
+    name: "The Suryaa, NFC",
+    location: "New Friends Colony, New Delhi",
+    image: "/images/hotel-grand-palace.jpg",
+    desc: "Guests at The Suryaa can book our outlet nearby or request a therapist directly to their room for a genuine session.",
   },
   {
-    name: "JW Marriott, Aerocity",
+    name: "JW Marriott / Grand Vista, Aerocity",
     location: "Aerocity, New Delhi",
-    image: "/images/JW Marriott Hotel Aerocity.jpg",
-    desc: "Close to JW Marriott Aerocity, with discreet, private hotel spa sessions available for guests on request.",
+    image: "/images/hotel-grand-vista.jpg",
+    desc: "Close to luxury 5-star hotels in Aerocity, with discreet, private hotel spa sessions available for guests on request.",
   },
 ];
 

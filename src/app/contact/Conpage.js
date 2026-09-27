@@ -35,25 +35,25 @@ export default function Conpage() {
   const locations = [
     {
       name: "Lajpat Nagar",
-      image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
+      image: "/images/hotel-aurea-tower.jpg",
       description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
       link: "https://wa.me/9310xxxxxx"
     },
     {
       name: "Aerocity",
-      image: "/images/NovotelNewDelhiAerocity.webp",
+      image: "/images/hotel-andaz-delhi.jpg",
       description: "Relax and unwind with our premium services at Aerocity.",
       link: "https://wa.me/9310xxxxxx"
     },
     {
       name: "Paschim Vihar",
-      image: "/images/TheParkConnaughtPlace.webp",
+      image: "/images/hotel-resort-pool.jpg",
       description: "Experience rejuvenation at our elegant Paschim Vihar location.",
       link: "https://wa.me/9310xxxxxx"
     },
     {
       name: "Rohini",
-      image: "/images/TheGrandNewDelhi.webp",
+      image: "/images/hotel-grand-vista.jpg",
       description: "Escape to serenity at our luxurious spa in Rohini.",
       link: "https://wa.me/9310xxxxxx"
     }

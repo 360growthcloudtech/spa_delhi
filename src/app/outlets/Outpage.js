@@ -59,19 +59,19 @@ const hotelOutlets = [
   },
   {
     title: "The Park Connaught Place",
-    image: "/images/TheParkConnaughtPlace.webp",
+    image: "/images/hotel-resort-pool.jpg",
     description:
       "Find a pleasant getaway with Luxury Russian Spa luxury massages, which relaxes the body and uplift your senses.",
   },
   {
     title: "The Suryaa New Delhi (NFC)",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp",
+    image: "/images/hotel-grand-palace.jpg",
     description:
       "Experience Luxury Russian Spa specializes in massage services at The Suryaa, where customers receive personalized well-being and ultimate relaxation in the massage salon.",
   },
   {
     title: "The Ashok (Chanakyapuri)",
-    image: "/images/TheAshok(Chanakyapuri).webp",
+    image: "/images/hotel-grand-vista.jpg",
     description:
       "Relax your body and mind with high-quality spa services at The Ashok, which combines luxurious experiences with a professional approach.",
   },
@@ -123,43 +123,43 @@ const hotelOutlets = [
 const locations = [
   {
     name: "Lajpat Nagar",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp",
+    image: "/images/hotel-aurea-tower.jpg",
     description: "Lajpat Nagar the city is regarded to be the place of the most excellent massage treatments with professional attention and relaxing environment.",
     link: "/spa-in-lajpat-nagar"
   },
   {
     name: "Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
+    image: "/images/hotel-andaz-delhi.jpg",
     description: "Spa in Aerocity, in which Luxury Russian Spa provides a wide range of luxury services and well-being to all clients.",
     link: "/spa-in-aerocity"
   },
   {
     name: "Rohini",
-    image: "/images/TheGrandNewDelhi.webp",
+    image: "/images/hotel-grand-vista.jpg",
     description: "Experience a serene escape in Rohini with Luxury Russian Spa's expertly delivered massage services for body and mind.",
     link: "/spa-in-rohini"
   },
   {
     name: "Paharganj",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp",
+    image: "/images/hotel-grand-palace.jpg",
     description: "Get the high-quality spa in Paharganj, which are stress reliever and soothing.",
     link: "/spa-in-paharganj"
   },
   {
     name: "Pitampura",
-    image: "/images/NovotelNewDelhiAerocity.webp",
+    image: "/images/hotel-qamishli.jpg",
     description: "At Luxury Russian Spa, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
     link: "/spa-in-pitampura"
   },
   {
     name: "Dwarka",
-    image: "/images/TheParkConnaughtPlace.webp",
+    image: "/images/hotel-shane-avadh.jpg",
     description: "Take a break and refuel in Dwarka with Luxury Russian Spa through a special massage session to regain your lost energy.",
     link: "/spa-in-dwarka"
   },
   {
     name: "Noida",
-    image: "/images/TheParkConnaughtPlace.webp",
+    image: "/images/hotel-resort-pool.jpg",
     description: "Experience rejuvenation at our elegant spa in Noida, covering Sector 18 and Greater Noida.",
     link: "/spa-in-noida"
   },

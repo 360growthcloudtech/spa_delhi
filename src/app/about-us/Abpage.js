@@ -440,11 +440,11 @@ export default function Abpage({
             transition={{ duration: 0.6, delay: 0.2 }}
             className="grid grid-cols-2 gap-4"
           >
-            <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/152804.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
+            <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/5] relative">
+              <Image src="/images/about-luxury-russian-spa.jpg" alt="About Our Luxury Russian Spa" fill className="object-cover" />
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/staff12.jpg" alt="Massage Session" className="w-full h-full object-cover" />
+            <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/5] relative">
+              <Image src="/images/hotel-andaz-delhi.jpg" alt="Luxury Hotel Spa in Delhi" fill className="object-cover" />
             </div>
           </motion.div>
         </div>

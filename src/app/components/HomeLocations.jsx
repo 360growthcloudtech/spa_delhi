@@ -8,7 +8,7 @@ export default function HomeLocations() {
   const locations = [
   {
     name: "Lajpat Nagar",
-    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
+    image: "/images/hotel-aurea-tower.jpg",
    description: (
   <>
     We have a Luxury{" "}
@@ -26,7 +26,7 @@ export default function HomeLocations() {
   },
   {
     name: "Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
+    image: "/images/hotel-andaz-delhi.jpg",
     description: (
   <>
     Visit 5 star{" "}
@@ -43,7 +43,7 @@ export default function HomeLocations() {
   },
   {
     name: "Connaught Place",
-    image: "/images/TheParkConnaughtPlace.webp",
+    image: "/images/hotel-resort-pool.jpg",
     description: ( <>
     Looking for a spa in central Delhi? We have a 
     {" "}
@@ -60,7 +60,7 @@ export default function HomeLocations() {
   },
   {
     name: "Rohini",
-    image: "/images/TheGrandNewDelhi.webp",
+    image: "/images/hotel-grand-vista.jpg",
     description: (
   <>
     We have a massage outlet available at our Rohini location. Explore all our{" "}

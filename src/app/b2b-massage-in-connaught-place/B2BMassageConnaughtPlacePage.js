@@ -51,23 +51,23 @@ const benefits = [
 const nearbyAreas = [
   {
     title: "Radisson Blu, C.P.",
-    image: "/images/radissonblu_CP.jpg",
+    image: "/images/hotel-andaz-delhi.jpg",
     description: "Staying at Radisson Blu? We can send a therapist straight to your room for a private B2B session.",
   },
   {
-    title: "Holiday Inn, C.P.",
-    image: "/images/holidayIn_CP.jpg",
-    description: "A short walk from Holiday Inn — hotel spa bookings available if you'd rather not travel to our outlet.",
+    title: "The Park Hotel, C.P.",
+    image: "/images/hotel-resort-pool.jpg",
+    description: "A short walk from The Park — hotel spa bookings available if you'd rather not travel to our outlet.",
   },
   {
-    title: "JW Marriott, C.P.",
-    image: "/images/JwMarriott_CP.jpg",
-    description: "Guests at JW Marriott can book our outlet or request a therapist directly to their room.",
+    title: "The Lalit / Luxury Suites, C.P.",
+    image: "/images/hotel-grand-palace.jpg",
+    description: "Guests at 5-star hotels around C.P. can book our outlet or request a therapist directly to their room.",
   },
   {
-    title: "The Park, C.P.",
-    image: "/images/TheParkConnaughtPlace.webp",
-    description: "Close to The Park hotel, with discreet, private hotel spa sessions available on request.",
+    title: "The Imperial / Grand Vista, C.P.",
+    image: "/images/hotel-grand-vista.jpg",
+    description: "Close to premier CP hotels, with discreet, private hotel spa sessions available on request.",
   },
 ];
 
