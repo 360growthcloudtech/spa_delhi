@@ -189,7 +189,7 @@ export default function Sandpage() {
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
       highlight: false,
-      ctaLink: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      ctaLink: "https://api.whatsapp.com/send?phone=+91 8799716197",
       icon: <FaSpa className="text-amber-500" />
     },
     {
@@ -198,7 +198,7 @@ export default function Sandpage() {
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      ctaLink: "https://api.whatsapp.com/send?phone=+91 8799716197",
       icon: <FaHotel className="text-amber-500" />
     },
     {
@@ -207,7 +207,7 @@ export default function Sandpage() {
       description: "Comprehensive spa experience with added treatments",
       features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
       highlight: false,
-      ctaLink: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      ctaLink: "https://api.whatsapp.com/send?phone=+91 8799716197",
       icon: <FaCrown className="text-amber-500" />
     }
   ];
@@ -300,7 +300,7 @@ export default function Sandpage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                   </svg>
                   <a
-                    href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                    href="https://t.me/+yulqEcJa2dxhM2I9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -413,7 +413,7 @@ export default function Sandpage() {
             </div>
             <div className="mt-16 flex justify-center">
               <a
-                href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                href="https://t.me/+yulqEcJa2dxhM2I9"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -618,7 +618,7 @@ export default function Sandpage() {
                              Book Now
                            </button> */}
                         <a
-                          href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                          href="https://t.me/+yulqEcJa2dxhM2I9"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -689,7 +689,7 @@ export default function Sandpage() {
                         View packages
                       </button>
                     </a>
-                    <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+                    <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -809,7 +809,7 @@ export default function Sandpage() {
                       <div>
                         {/* <div className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg">
                                      <a 
-                                                     href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                                                     href="https://t.me/+yulqEcJa2dxhM2I9" 
                                                      target="_blank"
                                                      rel="noopener noreferrer"
                                                      className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1083,7 +1083,7 @@ export default function Sandpage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+              <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
                 <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                   Book Your Appointment Now
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -1138,7 +1138,7 @@ export default function Sandpage() {
                   </div>
 
                   <div className="flex flex-wrap gap-4 mb-8">
-                    <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+                    <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
                       <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
                         Book Now
                       </button>
@@ -1500,7 +1500,7 @@ export default function Sandpage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                href="https://t.me/+yulqEcJa2dxhM2I9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1509,7 +1509,7 @@ export default function Sandpage() {
                 Chat On Telegram
               </a>
               <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
-                Call: +91 9217255113
+                Call: +91 8799716197
               </button>
             </div>
           </div>
@@ -1539,7 +1539,7 @@ export default function Sandpage() {
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-      <a href="https://api.whatsapp.com/send?phone=9310xxxxxx">
+      <a href="https://api.whatsapp.com/send?phone=+91 8799716197">
         <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-medium py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 group">
           Book Your Session
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

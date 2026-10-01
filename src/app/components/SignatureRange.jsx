@@ -5,26 +5,31 @@ import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
 
 // Avataar "Korean Range" style: tall numbered cards, the active one widens.
+// Homepage visitors could be anywhere in Delhi NCR, so cards link to the city-wide service pages.
 const items = [
   {
-    title: "Sandwich Massage in Gurgaon",
+    title: "Sandwich Massage",
+    tagline: "Two therapists, one session",
     image: "/images/sandwich-massage-2.jpg",
-    link: "/sandwich-massage-in-gurgaon",
+    link: "/sandwich-massage-in-delhi",
   },
   {
-    title: "Couple Massage in Saket",
+    title: "Couple Massage",
+    tagline: "Side by side, in a private room",
     image: "/images/couple-bathrobes-posing-embraced.jpg",
-    link: "/couple-massage-in-saket",
+    link: "/couples-massage-in-delhi",
   },
   {
-    title: "Thai Massage in Lajpat Nagar",
+    title: "Thai Massage",
+    tagline: "Stretch out stiffness and tension",
     image: "/images/fpkdl.com_960_1758980524_tranquil-oasis-with-plush-massage-table-adorned-with_1126694-2523.jpg",
-    link: "/thai-massage-in-lajpat-nagar",
+    link: "/thai-massage-in-delhi",
   },
   {
-    title: "Deep Tissue Massage in Karol Bagh",
+    title: "Deep Tissue Massage",
+    tagline: "Firm pressure for knots and back pain",
     image: "/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg",
-    link: "/deep-tissue-massage-in-karol-bagh",
+    link: "/deep-tissue-massage-in-delhi",
   },
 ];
 
@@ -57,7 +62,7 @@ export default function SignatureRange() {
               >
                 <Image
                   src={item.image}
-                  alt={item.title}
+                  alt={`${item.title} in Delhi`}
                   fill
                   sizes="(max-width:768px) 80vw, 40vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -67,6 +72,7 @@ export default function SignatureRange() {
                   <p className={`leading-tight transition-[font-size] duration-500 text-2xl ${isActive ? "md:text-[28px]" : "md:text-xl"}`}>
                     <span className="block">{i + 1}.</span>
                     {item.title}
+                    <span className="mt-2 block text-sm font-normal text-white/80">{item.tagline}</span>
                   </p>
                   <span
                     className={`hidden h-14 w-28 shrink-0 items-center justify-center rounded-full bg-white/25 backdrop-blur-md animate-fade-in ${

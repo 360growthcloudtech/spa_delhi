@@ -87,7 +87,7 @@ const faqs = [
   { question: "What makes Luxury Russian Spa the best spa in Uttam Nagar?", answer: "Certified therapists, transparent pricing, hygienic private rooms, and flexible outlet, home, and hotel spa options make us the best spa in Uttam Nagar for residents across West Delhi." },
   { question: "Do you offer body massage spa in Uttam Nagar for both men and women?", answer: "Yes, our body massage spa in Uttam Nagar welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Is home service available — spa in Uttam Nagar home service?", answer: "Yes, alongside our outlet, we offer spa in Uttam Nagar home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence." },
-  { question: "What is the Luxury Russian Spa Uttam Nagar spa contact number?", answer: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 92172 55113, available 24/7 to help you book outlet, home, or hotel spa sessions." },
+  { question: "What is the Luxury Russian Spa Uttam Nagar spa contact number?", answer: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 8799716197, available 24/7 to help you book outlet, home, or hotel spa sessions." },
   { question: "Do you have Thai massage or foreign therapists in Uttam Nagar?", answer: "Yes, thai massage is one of our most requested treatments in Uttam Nagar, delivered by experienced Thai, Russian, and Uzbek therapists alongside our skilled Indian staff." },
   { question: "Can I book a couple massage in Uttam Nagar?", answer: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
   { question: "How much does a body spa in Uttam Nagar cost?", answer: "A body spa in Uttam Nagar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
@@ -114,10 +114,10 @@ export default function UttamNagarPage() {
               Looking for a spa in Uttam Nagar? Uttam Nagar spa seekers trust Luxury Russian Spa for genuine full body, Thai massage, and body massage spa in Uttam Nagar sessions, just minutes from Uttam Nagar East and West Metro Stations. Every body spa in Uttam Nagar session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
                 <FaTelegram /> Meet Our Team
               </a>
             </div>
@@ -201,7 +201,7 @@ export default function UttamNagarPage() {
                 </li>
               ))}
             </ul>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
               <FaTelegram /> Join Telegram Channel
             </a>
           </motion.div>
@@ -274,7 +274,7 @@ export default function UttamNagarPage() {
               <li><span className="font-semibold text-[#1f1a17]">Spa in Uttam Nagar Home Service</span> — Same quality treatment delivered to your residence across West Delhi.</li>
               <li><span className="font-semibold text-[#1f1a17]">₹1999 First-Visit Offer</span> — Selected spa treatments available with our first-visit offer.</li>
             </ul>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#1f1a17] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#1f1a17]">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#1f1a17] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#1f1a17]">
               <FaTelegram /> See Available Staff
             </a>
           </motion.div>
@@ -445,7 +445,7 @@ export default function UttamNagarPage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -522,8 +522,8 @@ export default function UttamNagarPage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk in near the metro, or connect with us for a home or hotel spa booking anywhere in Uttam Nagar and West Delhi.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>
         </div>

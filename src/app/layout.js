@@ -32,7 +32,8 @@ const cormorant = Cormorant_Garamond({
 export const metadata = {
   metadataBase: new URL("https://www.luxuryrussianspa.com"),
   verification: {
-    google: "O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE",
+    // Both Search Console verification codes; they must sit in <head> to count.
+    google: ["O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE", "urWTsZ4VUiaWDY0gtPaGZ2YFOFrW4fQxFwqYn8lovLs"],
   },
 };
 

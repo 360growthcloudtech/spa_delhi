@@ -881,7 +881,7 @@ export default function B2BMassageBlogPage() {
                     </Link>
 
                     <a
-                      href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                      href="https://api.whatsapp.com/send?phone=+91 8799716197"
                       target="_blank"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"
                     >

@@ -454,7 +454,7 @@ export default function Conaughtpage() {
                     </svg>
                   </button>
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=9310xxxxxx">
+                <a href="https://api.whatsapp.com/send?phone=+91 8799716197">
                   <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -620,7 +620,7 @@ export default function Conaughtpage() {
                     BOOK NOW
                   </a> */}
                     <a
-                      href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                      href="https://t.me/+yulqEcJa2dxhM2I9"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -901,7 +901,7 @@ export default function Conaughtpage() {
                       Book Now
                     </button> */}
                         <a
-                          href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                          href="https://t.me/+yulqEcJa2dxhM2I9"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1005,7 +1005,7 @@ export default function Conaughtpage() {
                         View Packages
                       </button>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=9310xxxxxx">
+                    <a href="https://api.whatsapp.com/send?phone=+91 8799716197">
                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -1094,7 +1094,7 @@ export default function Conaughtpage() {
                             {s.time} • {s.price}
                           </span>
                           <a
-                            href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                            href="https://api.whatsapp.com/send?phone=+91 8799716197"
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
@@ -1156,7 +1156,7 @@ export default function Conaughtpage() {
                             {s.time} • {s.price}
                           </span>
                           <a
-                            href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                            href="https://api.whatsapp.com/send?phone=+91 8799716197"
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
@@ -1191,7 +1191,7 @@ export default function Conaughtpage() {
                     </div>
                     <div className="flex gap-3">
                       <a
-                        href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                        href="https://t.me/+yulqEcJa2dxhM2I9"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full font-medium shadow-sm transition"
@@ -1302,7 +1302,7 @@ export default function Conaughtpage() {
             {/* CTA */}
             <div className="mt-12 text-center">
               <a
-                href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                href="https://api.whatsapp.com/send?phone=+91 8799716197"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"
@@ -1432,7 +1432,7 @@ export default function Conaughtpage() {
                           Book Now
                         </a> */}
                       <a
-                        href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                        href="https://t.me/+yulqEcJa2dxhM2I9"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"

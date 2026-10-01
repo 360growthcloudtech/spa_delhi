@@ -3,8 +3,8 @@ import { FaTelegramPlane, FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icon
 import { FiMail, FiChevronDown } from "react-icons/fi";
 
 const socials = [
-  { name: "Telegram", icon: FaTelegramPlane, link: "https://t.me/+a5Bu6FBPN9FlOWM9" },
-  { name: "WhatsApp", icon: FaWhatsapp, link: "https://api.whatsapp.com/send?phone=9310xxxxxx" },
+  { name: "Telegram", icon: FaTelegramPlane, link: "https://t.me/+yulqEcJa2dxhM2I9" },
+  { name: "WhatsApp", icon: FaWhatsapp, link: "https://api.whatsapp.com/send?phone=+91 8799716197" },
   { name: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/delhi.luxury_spa/" },
 ];
 
@@ -122,11 +122,11 @@ export default function Footer() {
             <Heading>Contact Us</Heading>
             <ul className="space-y-4 text-sm">
               <li>
-                <a href="tel:+9310xxxxxx" className="flex items-center gap-3 hover:text-primary transition-colors">
+                <a href="tel:++91 8799716197" className="flex items-center gap-3 hover:text-primary transition-colors">
                   <span className="size-9 shrink-0 rounded-full bg-cream text-primary flex items-center justify-center">
                     <FaPhoneAlt size={13} />
                   </span>
-                  +91 9217255113
+                  +91 8799716197
                 </a>
               </li>
               <li>
@@ -138,7 +138,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="site-button mt-6 !py-3">
+            <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="site-button mt-6 !py-3">
               Book a Session
             </a>
           </div>
@@ -159,6 +159,11 @@ export default function Footer() {
               </li>
             ))}
           </ul>
+          <div className="pb-5 text-center">
+            <a href="/outlets" className="text-sm font-semibold text-primary hover:underline underline-offset-4">
+              View All Outlets →
+            </a>
+          </div>
         </details>
 
         {/* Copyright */}
@@ -166,7 +171,7 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} Luxury Russian Spa. All rights reserved.</p>
           <p>
             Mail <a href="mailto:dmspadelhi@gmail.com" className="hover:text-primary">dmspadelhi@gmail.com</a> | Phone{" "}
-            <a href="tel:+9310xxxxxx" className="hover:text-primary">+91 9217255113</a>
+            <a href="tel:++91 8799716197" className="hover:text-primary">+91 8799716197</a>
           </p>
         </div>
       </div>

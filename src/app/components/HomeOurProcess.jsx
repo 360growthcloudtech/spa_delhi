@@ -13,6 +13,7 @@ import {
   CalendarCheck
 } from "lucide-react";
 import { FaWhatsapp, FaTelegram } from "react-icons/fa";
+import { PHONE_LINK, PHONE_LABEL } from "./siteContact";
 
 export default function HomeOurProcess() {
   const processSteps = [
@@ -187,13 +188,13 @@ export default function HomeOurProcess() {
               Book Your Session in 60 Seconds
             </h4>
             <p className="text-white/75 text-sm mt-1">
-              Available 24/7 across all 24+ Delhi outlets and 5-star partner hotels.
+              Available 24/7, even for late-night sessions, across all 24+ Delhi outlets and 5-star partner hotels.
             </p>
           </div>
 
           <div className="relative z-10 flex flex-wrap items-center justify-center gap-3 shrink-0">
             <a
-              href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+              href="https://api.whatsapp.com/send?phone=+91 8799716197"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
@@ -203,7 +204,15 @@ export default function HomeOurProcess() {
             </a>
 
             <a
-              href="https://t.me/+a5Bu6FBPN9FlOWM9"
+              href={PHONE_LINK}
+              className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-white text-amber-800 font-semibold text-sm transition-all duration-300 hover:scale-105"
+            >
+              <PhoneCall className="size-4" />
+              <span>{PHONE_LABEL}</span>
+            </a>
+
+            <a
+              href="https://t.me/+yulqEcJa2dxhM2I9"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold text-sm backdrop-blur-sm transition-all duration-300 hover:scale-105"

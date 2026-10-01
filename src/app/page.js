@@ -62,10 +62,34 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do you have hotel and home spa options in Delhi?",
+      name: "What is the price of a full body massage in Delhi?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our hotel spa services include in-hotel treatments, room setups, full-service packages and trained international therapists at 5-star hotels. We also offer spa services at home across Delhi NCR.",
+        text: "A full body massage at our Delhi outlets starts at ₹1,999 for 60 minutes. An in-room session at a 5-star hotel is ₹15,000 for 90 minutes, and our VIP session with Russian and international therapists is ₹20,000 for 120 minutes. All prices are fixed, with no hidden charges.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can male guests book a female therapist?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Male guests can choose a female therapist, and female guests can choose a male or female therapist. Just share your preference when you book on WhatsApp or call and we'll confirm who is available at your outlet.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Luxury Russian Spa a Russian body massage centre?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Alongside our Indian therapists, we have trained therapists from Russia, Uzbekistan and Thailand who offer Russian-style full body massage at our outlets across Delhi NCR and at partner 5-star hotels.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Luxury Russian Spa open 24/7 for late-night massage?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Luxury Russian Spa is open 24/7, so you can book a massage late at night or early in the morning. Message us on WhatsApp or call anytime and we'll confirm your session, price and therapist before you arrive.",
       },
     },
     {
@@ -78,26 +102,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Can I book a safe home spa service?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, we offer spa at home across Delhi and the NCR region. You don't need to step out — just contact us and we'll arrange a certified therapist for your home spa session.",
-      },
-    },
-    {
-      "@type": "Question",
       name: "Are Luxury Russian Spa therapists certified and experienced?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "All our therapists are trained and certified in their techniques. We have both Indian and foreign therapists from Thailand, Uzbekistan, Russia and Afghanistan to give you the best massage experience at our 5-star hotel outlets.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Can I request a male or female therapist?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Absolutely. You can share your therapist preference at the time of booking and we'll do our best to accommodate it.",
       },
     },
   ],

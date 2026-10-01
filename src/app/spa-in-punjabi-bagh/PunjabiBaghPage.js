@@ -89,10 +89,10 @@ export default function PunjabiBaghPage() {
               Looking for a spa in Punjabi Bagh? Luxury Russian Spa is a trusted luxury spa in Punjabi Bagh destination for full body massage, deep tissue therapy, and body massage spa in Punjabi Bagh sessions, just minutes from Club Road, Ring Road, and Punjabi Bagh Metro Station. Every body massage in Punjabi Bagh session is performed by certified therapists in a clean, private setting. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
                 <FaTelegram /> Meet Our Team
               </a>
             </div>
@@ -176,7 +176,7 @@ export default function PunjabiBaghPage() {
                 </li>
               ))}
             </ul>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
               <FaTelegram /> Join Telegram Channel
             </a>
           </motion.div>
@@ -236,7 +236,7 @@ export default function PunjabiBaghPage() {
                 If you want a trusted body massage spa in Punjabi Bagh, look for experienced therapists, transparent pricing, and complete cleanliness — and Luxury Russian Spa in Punjabi Bagh ticks all boxes. That's why we're the first choice for the best spa in Punjabi Bagh and across West Delhi.
               </p>
             </div>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
               <FaTelegram /> Join Telegram Channel
             </a>
           </motion.div>
@@ -318,7 +318,7 @@ export default function PunjabiBaghPage() {
               <li><span className="font-semibold text-[#1f1a17]">Body Massage Spa in Punjabi Bagh Home Service</span> — Same quality treatment delivered to your residence nearby.</li>
               <li><span className="font-semibold text-[#1f1a17]">₹1999 First-Visit Offer</span> — Selected spa treatments available with our first-visit offer.</li>
             </ul>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#1f1a17] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#1f1a17]">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#1f1a17] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#1f1a17]">
               <FaTelegram /> See Available Staff
             </a>
           </motion.div>
@@ -459,7 +459,7 @@ export default function PunjabiBaghPage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -556,8 +556,8 @@ export default function PunjabiBaghPage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk in near Club Road, or connect with us for a home or hotel spa booking anywhere in Punjabi Bagh and West Delhi.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>
         </div>

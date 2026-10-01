@@ -3,11 +3,18 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
-import { FiChevronDown, FiX } from "react-icons/fi";
+import { FaWhatsapp, FaPhoneAlt, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FiChevronDown, FiMail, FiX } from "react-icons/fi";
 import Logo from "./Logo";
+import { WHATSAPP_URL, TELEGRAM_URL, PHONE_LINK, PHONE_LABEL } from "./siteContact";
 
-const WHATSAPP = "https://api.whatsapp.com/send?phone=9310xxxxxx";
+const EMAIL = "dmspadelhi@gmail.com";
+
+const socials = [
+  { name: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/delhi.luxury_spa/" },
+  { name: "WhatsApp", icon: FaWhatsapp, link: WHATSAPP_URL },
+  { name: "Telegram", icon: FaTelegramPlane, link: TELEGRAM_URL },
+];
 
 const servicesDropdown = [
   { name: "Sandwich Massage", href: "/sandwich-massage-in-delhi" },
@@ -27,12 +34,12 @@ const outletDropdown = [
 
 const menu = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about-us" },
-  { name: "Services", href: "/massage-service-in-delhi", children: servicesDropdown },
-  { name: "Pricing", href: "/spa-price-in-delhi" },
-  { name: "Outlets", href: "/outlets", children: outletDropdown },
-  { name: "Blog", href: "/blog" },
+  { name: "Our Services", href: "/massage-service-in-delhi", children: servicesDropdown },
+  { name: "Our Pricing", href: "/spa-price-in-delhi" },
   { name: "Gallery", href: "/gallery" },
+  { name: "Outlets", href: "/outlets", children: outletDropdown },
+  { name: "About", href: "/about-us" },
+  { name: "Blogs", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -63,55 +70,61 @@ export default function Navbar() {
     };
   }, [isMenuOpen]);
 
-  const isHome = pathname === "/";
-  const transparent = isHome && !isScrolled && !isMenuOpen;
-
   const isActive = (href) => (href === "/" ? pathname === "/" : pathname?.startsWith(href));
 
   return (
     <>
-      {/* Spacer: on inner pages the fixed header must not cover content.
-          On the home page the header floats over the hero instead. */}
-      {!isHome && <div className="h-[72px] lg:h-[92px]" aria-hidden="true" />}
+      {/* Top contact bar: scrolls away, only the main bar below stays pinned */}
+      <div className="hidden md:block bg-cream text-sm text-ink">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-6 px-5 md:px-8 h-11">
+          <div className="flex items-center gap-7">
+            <a href={PHONE_LINK} className="flex items-center gap-2 hover:text-primary transition-colors">
+              <FaPhoneAlt size={12} className="text-primary" /> {PHONE_LABEL}
+            </a>
+            <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 hover:text-primary transition-colors">
+              <FiMail size={14} className="text-primary" /> {EMAIL}
+            </a>
+          </div>
+          <div className="flex items-center gap-3">
+            {socials.map(({ name, icon: Icon, link }) => (
+              <a
+                key={name}
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={name}
+                className="size-8 rounded-full bg-white text-primary flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+              >
+                <Icon size={14} />
+              </a>
+            ))}
+            <a
+              href={PHONE_LINK}
+              className="ml-2 rounded-full bg-primary px-5 py-1.5 text-sm font-semibold text-white hover:bg-ink transition-colors"
+            >
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
 
-      {/* Main Header: transparent over the home hero, white once scrolled (Avataar) */}
+      {/* Main Header: stays pinned to the top while scrolling */}
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-[background-color,box-shadow] duration-300 ${transparent ? "bg-transparent" : "bg-white shadow-[0_2px_16px_rgba(0,0,0,0.06)]"
-          }`}
+        className={`sticky top-0 z-50 w-full bg-white transition-shadow duration-300 ${isScrolled ? "shadow-[0_2px_16px_rgba(0,0,0,0.08)]" : "border-b border-black/5"}`}
       >
-        <nav className="max-w-7xl mx-auto flex justify-between items-center gap-6 px-5 md:px-8 h-[72px] lg:h-[92px]">
+        <nav className="max-w-7xl mx-auto flex justify-between items-center gap-6 px-5 md:px-8 h-[72px] lg:h-[84px]">
           <a href="/" aria-label="Luxury Russian Spa home" className="shrink-0">
-            <Logo light={transparent} />
+            <Logo />
           </a>
 
-          <div className="flex items-center gap-5 xl:gap-7">
-            <a
-              href={WHATSAPP}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Chat on WhatsApp"
-              className={`hidden sm:block transition-colors duration-300 ${transparent ? "text-white hover:text-secondary" : "text-ink hover:text-primary"}`}
-            >
-              <FaWhatsapp size={26} />
-            </a>
-            <a
-              href="tel:+9310xxxxxx"
-              aria-label="Call +91-9217255113"
-              className={`hidden sm:block transition-colors duration-300 ${transparent ? "text-white hover:text-secondary" : "text-ink hover:text-primary"}`}
-            >
-              <FaPhoneAlt size={19} />
-            </a>
-
+          <div className="flex items-center gap-5 xl:gap-8">
             {/* Desktop Menu */}
-            <ul className="hidden xl:flex items-center gap-6">
-              {menu.filter((item) => item.href !== "/").map((item) => (
+            <ul className="hidden xl:flex items-center gap-7">
+              {menu.map((item) => (
                 <li key={item.name} className="relative group">
                   <a
                     href={item.href}
-                    className={`nav-link flex items-center gap-1 text-[15px] uppercase tracking-[0.02em] transition-colors duration-300 ${transparent
-                        ? "text-white hover:text-secondary"
-                        : isActive(item.href) ? "text-primary" : "text-ink hover:text-primary"
-                      }`}
+                    className={`nav-link flex items-center gap-1 py-2 text-[15px] font-medium tracking-[0.02em] transition-colors duration-300 ${isActive(item.href) ? "text-primary" : "text-ink hover:text-primary"}`}
                   >
                     {item.name}
                     {item.children && <FiChevronDown className="transition-transform duration-300 group-hover:rotate-180" />}
@@ -137,26 +150,26 @@ export default function Navbar() {
               ))}
             </ul>
 
-            {/* CTA: white box on the hero, black box once scrolled */}
             <a
-              href={WHATSAPP}
-              className={`hidden sm:inline-flex items-center rounded-[3px] px-5 py-3 text-[15px] uppercase tracking-[0.02em] transition-colors duration-300 ${transparent ? "bg-white text-black hover:bg-cream" : "bg-black text-white hover:bg-primary"
-                }`}
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:inline-flex items-center px-7 py-3.5 bg-primary text-[15px] font-semibold uppercase tracking-[0.08em] text-white transition-colors duration-300 hover:bg-ink"
             >
-              Book a Session
+              Book Now
             </a>
 
             {/* Mobile Menu Toggle */}
             <button
               onClick={() => setIsMenuOpen(true)}
-              className={`xl:hidden relative size-11 rounded-lg border cursor-pointer ${transparent ? "border-white/40" : "border-black/10"}`}
+              className="xl:hidden relative size-11 rounded-lg border border-black/10 cursor-pointer"
               aria-label="Open menu"
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"
             >
-              <span className={`block absolute left-3 top-3.5 h-0.5 w-5 rounded ${transparent ? "bg-white" : "bg-ink"}`} />
-              <span className={`block absolute left-3 top-5 h-0.5 w-5 rounded ${transparent ? "bg-white" : "bg-ink"}`} />
-              <span className={`block absolute left-3 top-6.5 h-0.5 w-3.5 rounded ${transparent ? "bg-white" : "bg-ink"}`} />
+              <span className="block absolute left-3 top-3.5 h-0.5 w-5 rounded bg-ink" />
+              <span className="block absolute left-3 top-5 h-0.5 w-5 rounded bg-ink" />
+              <span className="block absolute left-3 top-6.5 h-0.5 w-3.5 rounded bg-ink" />
             </button>
           </div>
         </nav>
@@ -238,14 +251,20 @@ export default function Navbar() {
               </ul>
 
               <div className="p-5 space-y-4">
-                <a href={WHATSAPP} className="site-button w-full">
-                  <FaWhatsapp /> Book a Session
+                <a href={WHATSAPP_URL} className="site-button w-full">
+                  <FaWhatsapp /> Book Now
                 </a>
-                <a href="tel:+9310xxxxxx" className="flex items-center gap-3 text-sm text-ink">
+                <a href={PHONE_LINK} className="flex items-center gap-3 text-sm text-ink">
                   <span className="size-10 rounded-full bg-cream text-primary flex items-center justify-center">
                     <FaPhoneAlt size={13} />
                   </span>
-                  +91-9217255113
+                  {PHONE_LABEL}
+                </a>
+                <a href={`mailto:${EMAIL}`} className="flex items-center gap-3 text-sm text-ink">
+                  <span className="size-10 rounded-full bg-cream text-primary flex items-center justify-center">
+                    <FiMail size={15} />
+                  </span>
+                  {EMAIL}
                 </a>
               </div>
             </motion.aside>

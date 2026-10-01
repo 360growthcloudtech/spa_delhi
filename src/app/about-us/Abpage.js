@@ -332,7 +332,7 @@ export default function Abpage({
               </a>
 
               <a
-                href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                href="https://t.me/+yulqEcJa2dxhM2I9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -691,7 +691,7 @@ export default function Abpage({
               {/* CTA row */}
               <div className="mt-8 flex items-center gap-4">
                 <a
-                  href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                  href="https://api.whatsapp.com/send?phone=+91 8799716197"
                   className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
                 >
                   Book a Session
@@ -1397,7 +1397,7 @@ export default function Abpage({
                                             </div>
                                             <div className="flex justify-center">
                                               <a 
-                                                  href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                                                  href="https://t.me/+yulqEcJa2dxhM2I9" 
                                                   target="_blank"
                                                   rel="noopener noreferrer"
                                                   className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"

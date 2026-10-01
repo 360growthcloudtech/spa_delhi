@@ -81,42 +81,42 @@ const hotelOutlets = [
       id: 1,
       title: "Spa in Lajpat Nagar",
       location: "Central Market, Lajpat Nagar Metro Gate No. 1",
-      phone: "+91 9217255113",
+      phone: "+91 8799716197",
        image: "/images/spa-in-lajpat-nagar.webp",
     },
     {
       id: 2,
       title: "Spa in Rajouri Garden",
       location: "Rajouri Garden Metro Gate No. 1",
-      phone: "+91 9217255113",
+      phone: "+91 8799716197",
        image: "/images/spa-treatments.jpg",
     },
     {
       id: 3,
       title: "Spa in Connaught Place",
       location: "Connaught Place, Metro Gate No. 1",
-      phone: "+91 9217255113",
+      phone: "+91 8799716197",
        image: "/images/steptodown.com800611.jpg",
     },
     {
       id: 4,
       title: "Spa in Noida",
       location: " Noida Sec 18, Noida sec 16, Electronic City, Noida City Center.",
-      phone: "+91 9217255113",
+      phone: "+91 8799716197",
       image: "/images/SkincareTreatments.jpg",
     },
     {
       id: 5,
       title: "Spa in Greater Kailash",
       location: "Greater Kailash, New Delhi. ",
-      phone: "+91 9217255113",
+      phone: "+91 8799716197",
       image: "/images/pricebanner.jpeg",
     },
     {
       id: 6,
       title: "Spa in Kalka Ji",
       location: "Kalka Ji, New delhi.",
-      phone: "+91 9217255113",
+      phone: "+91 8799716197",
       image: "/images/MassageSession.webp",
     }
   ];
@@ -176,7 +176,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -186,7 +186,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -196,7 +196,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -206,7 +206,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -391,14 +391,14 @@ export default function Outpage() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:+9310xxxxxx"
+              href="tel:++91 8799716197"
               className="flex items-center gap-2 text-amber-800 hover:text-amber-600 transition"
             >
-              📞 +91 9217255113
+              📞 +91 8799716197
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+              href="https://api.whatsapp.com/send?phone=+91 8799716197"
               className="px-6 py-3 rounded-xl bg-amber-600 text-white font-medium shadow-md hover:bg-amber-700 transition"
             >
               Book Now
@@ -557,7 +557,7 @@ View All Services
 
             {/* Book Now Button */}
             <a
-              href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+              href="https://api.whatsapp.com/send?phone=+91 8799716197"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-auto px-5 py-2 rounded-full bg-amber-500 text-white text-sm font-semibold hover:bg-amber-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -667,7 +667,7 @@ View All Services
                               <span className="text-stone-700">Aromatherapy</span>
                             </li>
                           </ul>
-                          <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                          <a href='https://api.whatsapp.com/send?phone=+91 8799716197'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             Book Now
                           </button></a>
                           
@@ -729,7 +729,7 @@ View All Services
                         Our Packages
                       </button>
                       </a>
-                      <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+                      <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
                         <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -871,7 +871,7 @@ View All Services
                         View Spa in {location.name} →
                       </a>
                       <a
-                              href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                              href="https://t.me/+yulqEcJa2dxhM2I9"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1247,7 +1247,7 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                                           </div>
                                           <div className="flex justify-center">
                                             <a 
-                                                href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                                                href="https://t.me/+yulqEcJa2dxhM2I9" 
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"

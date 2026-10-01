@@ -37,25 +37,25 @@ export default function Conpage() {
       name: "Lajpat Nagar",
       image: "/images/hotel-aurea-tower.jpg",
       description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-      link: "https://wa.me/9310xxxxxx"
+      link: "https://wa.me/+91 8799716197"
     },
     {
       name: "Aerocity",
       image: "/images/hotel-andaz-delhi.jpg",
       description: "Relax and unwind with our premium services at Aerocity.",
-      link: "https://wa.me/9310xxxxxx"
+      link: "https://wa.me/+91 8799716197"
     },
     {
       name: "Paschim Vihar",
       image: "/images/hotel-resort-pool.jpg",
       description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-      link: "https://wa.me/9310xxxxxx"
+      link: "https://wa.me/+91 8799716197"
     },
     {
       name: "Rohini",
       image: "/images/hotel-grand-vista.jpg",
       description: "Escape to serenity at our luxurious spa in Rohini.",
-      link: "https://wa.me/9310xxxxxx"
+      link: "https://wa.me/+91 8799716197"
     }
   ];
 
@@ -82,7 +82,7 @@ export default function Conpage() {
           </p>
 
           <a
-            href="tel:+9310xxxxxx"
+            href="tel:++91 8799716197"
             className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
           >
             Book Your Session Now
@@ -197,7 +197,7 @@ export default function Conpage() {
           <div className="flex flex-col items-center text-center">
             <FaPhoneAlt className="text-amber-600 text-3xl mb-4" />
             <h3 className="text-xl font-semibold text-amber-800 mb-2">Contact</h3>
-            <p className="text-gray-600">+91-9217255113</p>
+            <p className="text-gray-600">+91-8799716197</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <FaEnvelope className="text-amber-600 text-3xl mb-4" />

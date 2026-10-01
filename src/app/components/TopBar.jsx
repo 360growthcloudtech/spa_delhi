@@ -8,7 +8,7 @@ export default function TopBar() {
       
       {/* Left: Phone */}
       <div>
-        <p className="font-medium">📞 +91-9217255113</p>
+        <p className="font-medium">📞 +91-8799716197</p>
       </div>
 
       {/* Center: Appointment Info */}

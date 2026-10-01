@@ -20,12 +20,6 @@ export default function Analytics() {
           `}
         </Script>
 
-      {/* ✅ Google Site Verification */}
-      <meta
-        name="google-site-verification"
-        content="urWTsZ4VUiaWDY0gtPaGZ2YFOFrW4fQxFwqYn8lovLs"
-      />
-
       {/* LocalBusiness + DaySpa Schema (server-rendered so search engines see it without running JS) */}
       <script
         id="localbusiness-schema"
@@ -38,7 +32,7 @@ export default function Analytics() {
             url: "https://www.luxuryrussianspa.com/",
             logo: "https://www.luxuryrussianspa.com/images/luxuryrussianspa-logo.png",
             image: "https://www.luxuryrussianspa.com/images/luxurySpaRoom.jpg",
-            telephone: "+91-9217255113",
+            telephone: "+91-8799716197",
             priceRange: "₹₹₹",
             address: {
               "@type": "PostalAddress",
@@ -73,8 +67,8 @@ export default function Analytics() {
                 "Saturday",
                 "Sunday",
               ],
-              opens: "10:00",
-              closes: "22:00",
+              opens: "00:00",
+              closes: "23:59",
             },
           }),
         }}
@@ -93,7 +87,7 @@ export default function Analytics() {
             logo: "https://www.luxuryrussianspa.com/images/luxuryrussianspa-logo.png",
             contactPoint: {
               "@type": "ContactPoint",
-              telephone: "+91-9217255113",
+              telephone: "+91-8799716197",
               contactType: "customer support",
               areaServed: "IN",
               availableLanguage: ["English", "Hindi"],

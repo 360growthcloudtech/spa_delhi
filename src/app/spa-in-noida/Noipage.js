@@ -113,10 +113,10 @@ export default function Noipage() {
               Looking for a genuine massage spa in Noida? Luxury Russian Spa runs a trusted spa centre in Noida covering Sector 18, Sector 62, Greater Noida, and every major hotel in between — plus home spa options anywhere in the city. Certified therapists, private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
                 <FaTelegram /> Meet Our Team
               </a>
             </div>
@@ -225,7 +225,7 @@ export default function Noipage() {
                 </li>
               ))}
             </ul>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
               <FaTelegram /> Join Telegram Channel
             </a>
           </motion.div>
@@ -268,7 +268,7 @@ export default function Noipage() {
               <li><span className="font-semibold text-[#1f1a17]">Home Spa in Noida</span> — Same quality treatment delivered to your address anywhere in the city.</li>
               <li><span className="font-semibold text-[#1f1a17]">₹1999 First-Visit Offer</span> — Selected spa treatments available with our first-visit offer.</li>
             </ul>
-            <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#1f1a17] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#1f1a17]">
+            <a href="https://t.me/+yulqEcJa2dxhM2I9" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#1f1a17] px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-[#1f1a17]">
               <FaTelegram /> See Available Staff
             </a>
           </motion.div>
@@ -441,7 +441,7 @@ export default function Noipage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -518,8 +518,8 @@ export default function Noipage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk into our outlet, or have us come to your hotel or home anywhere in Noida and Greater Noida.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>
         </div>

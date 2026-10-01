@@ -123,10 +123,10 @@ export default function Fullbodypage() {
               Looking for an affordable full body massage in Delhi? Luxury Russian Spa runs a genuine full body massage spa in Delhi across 24+ outlets — with luxury full body massage options at five-star hotels and home visits anywhere in Delhi NCR, including Mahipalpur, Lajpat Nagar, Saket, and Rohini. A transparent full body massage price in Delhi, certified therapists, private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
                 <FaTelegram /> Meet Our Team
               </a>
             </div>
@@ -411,7 +411,7 @@ export default function Fullbodypage() {
                   <p className="mt-1 text-xs font-medium uppercase tracking-wide text-amber-600">{hotel.location}</p>
                   <p className="mt-3 text-sm leading-relaxed text-gray-600">{hotel.desc}</p>
                   <a
-                    href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                    href="https://api.whatsapp.com/send?phone=+91 8799716197"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-amber-600 to-amber-700 px-6 py-3 font-medium text-white shadow-lg transition-all hover:from-amber-700 hover:to-amber-800"
@@ -497,7 +497,7 @@ export default function Fullbodypage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -567,8 +567,8 @@ export default function Fullbodypage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk into any of our 24+ outlets, or have us come to your hotel or home anywhere in Delhi NCR.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
-              <a href="https://t.me/+a5Bu6FBPN9FlOWM9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>
         </div>

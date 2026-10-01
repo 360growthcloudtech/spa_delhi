@@ -43,7 +43,7 @@ const faqSchema = {
       name: "What is the Luxury Russian Spa Uttam Nagar spa contact number?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 92172 55113, available 24/7 to help you book outlet, home, or hotel spa sessions.",
+        text: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 8799716197, available 24/7 to help you book outlet, home, or hotel spa sessions.",
       },
     },
     {

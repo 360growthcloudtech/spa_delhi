@@ -5,11 +5,8 @@ import {
   Building2, 
   Clock, 
   Sparkles, 
-  Globe2, 
-  ShieldCheck, 
-  Star, 
+  Globe2,
   ArrowRight,
-  Award
 } from "lucide-react";
 import { FaWhatsapp, FaTelegram } from "react-icons/fa";
 
@@ -48,10 +45,11 @@ const features = [
   },
 ];
 
-const trustBadges = [
-  { label: "Rated 4.9/5 by 12,000+ Guests", icon: Star },
-  { label: "100% Private & Discreet Suites", icon: ShieldCheck },
-  { label: "Certified Luxury Therapists", icon: Award },
+const stats = [
+  { value: "24+", label: "Spa Outlets", note: "Premium outlets across top locations" },
+  { value: "5★", label: "Hotel Partners", note: "Collaborations with luxury five-star hotels" },
+  { value: "20k+", label: "Happy Clients", note: "Thousands trust us for relaxation & wellness" },
+  { value: "4.9/5", label: "Guest Rating", note: "Loved for privacy, hygiene & expert care" },
 ];
 
 export default function HomeWhyChoiceus() {
@@ -163,26 +161,16 @@ export default function HomeWhyChoiceus() {
           })}
         </div>
 
-        {/* Trust Badges Bar */}
-        <motion.div
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-12 py-5 px-6 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-md flex flex-wrap items-center justify-center gap-6 md:gap-12"
-        >
-          {trustBadges.map((badge, idx) => {
-            const Icon = badge.icon;
-            return (
-              <div key={idx} className="flex items-center gap-2.5 text-white/80 text-sm font-medium">
-                <div className="size-7 rounded-full bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
-                  <Icon className="size-3.5 fill-amber-400/30" />
-                </div>
-                <span>{badge.label}</span>
-              </div>
-            );
-          })}
-        </motion.div>
+        {/* Stats */}
+        <dl className="mt-12 grid grid-cols-2 gap-y-8 rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-8 backdrop-blur-md lg:grid-cols-4">
+          {stats.map((s) => (
+            <div key={s.label} className="flex flex-col px-2 text-center lg:border-l lg:border-white/10 lg:first:border-l-0">
+              <dt className="mt-1 text-sm font-semibold uppercase tracking-wider text-white">{s.label}</dt>
+              <dd className="order-first font-serif text-4xl md:text-5xl font-bold text-amber-300">{s.value}</dd>
+              <dd className="mt-1 text-xs text-white/55">{s.note}</dd>
+            </div>
+          ))}
+        </dl>
 
         {/* Action Buttons */}
         <motion.div
@@ -193,7 +181,7 @@ export default function HomeWhyChoiceus() {
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
           <a
-            href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+            href="https://api.whatsapp.com/send?phone=+91 8799716197"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 text-white font-bold text-base shadow-[0_10px_25px_rgba(245,158,11,0.35)] hover:shadow-[0_15px_35px_rgba(245,158,11,0.5)] transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden"
@@ -204,7 +192,7 @@ export default function HomeWhyChoiceus() {
           </a>
 
           <a
-            href="https://t.me/+a5Bu6FBPN9FlOWM9"
+            href="https://t.me/+yulqEcJa2dxhM2I9"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white/10 hover:bg-white/15 text-white font-semibold text-base border border-white/20 backdrop-blur-md transition-all duration-300 hover:scale-105 active:scale-95"

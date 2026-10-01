@@ -25,7 +25,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -35,7 +35,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -45,7 +45,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -55,7 +55,7 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.webp",
     socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=9310xxxxxx",
+      WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
       // twitter: "https://twitter.com",
     },
@@ -385,7 +385,7 @@ export default function Serpage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 0 0 -5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1 -6 0 3 3 0 016 0zm6 3a2 2 0 1 1 -4 0 2 2 0 014 0zM7 10a2 2 0 1 1 -4 0 2 2 0 014 0z" />
                   </svg>
                   <a
-                    href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                    href="https://t.me/+yulqEcJa2dxhM2I9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -544,7 +544,7 @@ export default function Serpage() {
                   </p>
                   <div className="flex items-center justify-between mt-8">
                     <span className="text-amber-600 font-medium">60-90 min</span>
-                    <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+                    <a href='https://api.whatsapp.com/send?phone=+91 8799716197'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
                       Book Now
                     </button></a>
                   </div>
@@ -569,7 +569,7 @@ export default function Serpage() {
                   </p>
                   <div className="flex items-center justify-between mt-8">
                     <span className="text-amber-600 font-medium">75-120 min</span>
-                    <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+                    <a href='https://api.whatsapp.com/send?phone=+91 8799716197'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
                       Book Now
                     </button></a>
                   </div>
@@ -594,7 +594,7 @@ export default function Serpage() {
                   </p>
                   <div className="flex items-center justify-between mt-8">
                     <span className="text-amber-600 font-medium">90-150 min</span>
-                    <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+                    <a href='https://api.whatsapp.com/send?phone=+91 8799716197'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
                       Book Now
                     </button></a>
                   </div>
@@ -695,7 +695,7 @@ export default function Serpage() {
                         <div>
                           <div className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg">
                             <a
-                              href="https://t.me/+a5Bu6FBPN9FlOWM9"
+                              href="https://t.me/+yulqEcJa2dxhM2I9"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -797,7 +797,7 @@ export default function Serpage() {
                       whileTap={{ scale: 0.98 }}
                     >
                       <a
-                        href="https://api.whatsapp.com/send?phone=9310xxxxxx"
+                        href="https://api.whatsapp.com/send?phone=+91 8799716197"
 
                       >
                         Book Your Spa Session
@@ -1345,7 +1345,7 @@ export default function Serpage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
-                <a href='https://api.whatsapp.com/send?phone=9310xxxxxx'>
+                <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
                   <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                     Book Your Spa Session Now
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -1574,7 +1574,7 @@ export default function Serpage() {
                   <div className="flex justify-center">
 
                     <a
-                      href='https://api.whatsapp.com/send?phone=9310xxxxxx'
+                      href='https://api.whatsapp.com/send?phone=+91 8799716197'
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1774,7 +1774,7 @@ export default function Serpage() {
                 ))}
               </ul>
 
-              <a href="https://api.whatsapp.com/send?phone=9310xxxxxx" className="bg-amber-600 text-white px-8 py-4 rounded-full font-medium text-sm hover:bg-amber-700 transition shadow-md">
+              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="bg-amber-600 text-white px-8 py-4 rounded-full font-medium text-sm hover:bg-amber-700 transition shadow-md">
                 Book an Appointment
               </a>
             </div>
@@ -1812,10 +1812,10 @@ export default function Serpage() {
               {/* CTA Buttons */}
               <div className="grid md:grid-cols-3 gap-6 justify-center items-center">
                 <a
-                  href="tel:+9310xxxxxx"
+                  href="tel:++91 8799716197"
                   className="bg-white text-amber-700 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-100 transition-all duration-300"
                 >
-                  📞 Call to Book: +91 9217255113
+                  📞 Call to Book: +91 8799716197
                 </a>
                 <a
                   href="/contact"
