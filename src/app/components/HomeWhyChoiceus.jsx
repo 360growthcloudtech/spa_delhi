@@ -97,14 +97,15 @@ export default function HomeWhyChoiceus() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-white/75 text-base md:text-lg leading-relaxed max-w-3xl mx-auto"
           >
-            Luxury Russian Spa combines timeless European wellness traditions with modern 5-star comfort. Discover why discerning guests, couples, and travelers choose our{" "}
+            Why do people pick us? Some come straight from the airport, some come as a couple, and some just need a
+            break after work. What they all want is a good{" "}
             <a
               href="/full-body-massage-in-delhi"
               className="text-amber-400 font-medium underline decoration-amber-400/40 underline-offset-4 hover:text-amber-300 hover:decoration-amber-300 transition-colors"
             >
               full-body massage in Delhi
             </a>{" "}
-            for complete physical restoration and absolute peace of mind.
+            in a quiet room, from a therapist who knows the job. Here&apos;s what you can expect.
           </motion.p>
         </div>
 

@@ -11,7 +11,7 @@ const outlets = [
   {
     title: "Spa in Aerocity",
     description:
-      "Enjoy the best spa in Aerocity with relaxing body massage at 5-star hotels like Lemon Tree, Andaz, IBIS and more. Just minutes from Delhi airport, with foreign therapists from all across the world.",
+      "Our Russian spa in Aerocity works with 5-star hotels like Lemon Tree, Andaz and IBIS, just minutes from Delhi airport. Handy if you've just landed after a long flight, or have a few hours to kill before the next one.",
     image: "/images/hotel-andaz-delhi.jpg",
     pageLink: "/spa-in-aerocity",
     premium: true,
@@ -19,21 +19,22 @@ const outlets = [
   {
     title: "Spa in Lajpat Nagar",
     description:
-      "Experience complete relaxation at our spa in Lajpat Nagar with expert body massage therapies and professional female therapists. Staying nearby or at home? We offer spa and home massage service too.",
+      "Shopping in Central Market or living close by? Our luxury spa in Lajpat Nagar has professional female therapists and quiet private rooms, so you can step out of the crowd and properly switch off for an hour.",
     image: "/images/hotel-aurea-tower.jpg",
     pageLink: "/spa-in-lajpat-nagar",
     premium: true,
   },
   {
-    title: "Spa in Defence Colony",
+    title: "Spa in Mahipalpur",
     description:
-      "Relax at our spa in Defence Colony with expert body massage services to refresh your mind and body, serving hotel guests in NFC at places like The Suryaa for complete comfort and relaxation.",
+      "Lots of travellers stay in Mahipalpur, and our Russian spa in Mahipalpur is set up for them: open 24/7, close to IGI Airport, with trained therapists for a proper Russian body massage after a tiring trip.",
     image: "/images/hotel-grand-palace.jpg",
+    pageLink: "/spa-in-mahipalpur",
   },
   {
     title: "Spa in Dwarka",
     description:
-      "Feel at ease with our spa in Dwarka. Professional massage therapists come to your hotel room for an on-demand hotel spa, so your stay stays calm and relaxing.",
+      "Our Russian spa in Dwarka brings trained therapists to your hotel room on demand, so you get a relaxing session without stepping out. Popular with guests at Welcomhotel by ITC Dwarka.",
     image: "/images/hotel-grand-vista.jpg",
     pageLink: "/spa-in-dwarka",
   },
@@ -60,15 +61,15 @@ export default function HomeLocations() {
         <HomeHeading
           id="home-locations-title"
           eyebrow="Premium Locations"
-          title="Our 5-Star"
-          highlight="Hotel Spa in Delhi"
+          title="Our"
+          highlight="5 Star Spa in Delhi"
           after="& Outlets Near You"
           text={
             <>
-              Find the perfect outlet near you, from our{" "}
-              <a href="/spa-in-aerocity" className={linkClass}>spa in Aerocity</a> to our{" "}
-              <a href="/spa-in-lajpat-nagar" className={linkClass}>spa in Lajpat Nagar</a>. Our exclusive outlets offer
-              world-class therapies in <a href="/outlets" className={linkClass}>5-star hotel spas in Delhi</a>.
+              Staying near the airport? Our <a href="/spa-in-aerocity" className={linkClass}>Russian spa in Aerocity</a> and{" "}
+              <a href="/spa-in-mahipalpur" className={linkClass}>Russian spa in Mahipalpur</a> are just minutes from IGI.
+              In South Delhi, head to our <a href="/spa-in-lajpat-nagar" className={linkClass}>luxury spa in Lajpat Nagar</a>.
+              Or see every <a href="/outlets" className={linkClass}>5-star hotel spa in Delhi</a> we work with.
             </>
           }
         />

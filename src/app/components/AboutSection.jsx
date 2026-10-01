@@ -18,7 +18,7 @@ export default function AboutSection() {
           id="about-spa-title"
           eyebrow="About Our Luxury Russian Spa"
           title="Experience the Best"
-          highlight="Spa in Delhi"
+          highlight="Luxury Spa in Delhi"
           after="for Total Relaxation"
           text="Professional massage services, trained therapists and a calm, private space, so you can switch off and walk out feeling brand new."
         />
@@ -32,13 +32,22 @@ export default function AboutSection() {
             </h3>
 
             <p className="mt-5 text-[15px] leading-relaxed text-bodycolor">
-              Looking for a relaxing <strong className="font-semibold text-amber-700">spa in Delhi</strong>?
-              Luxury Russian Spa gives you genuine care without the fuss. Pick from popular therapies like{" "}
-              <a href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">B2B massage</a>,{" "}
-              <a href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">sandwich massage</a>,{" "}
+              Ever had a massage where you could tell the therapist was in a hurry? We don&apos;t do that. You get a
+              room to yourself and fresh sheets, and before starting, your therapist will check where it hurts and
+              whether you like soft or firm pressure. That&apos;s
+              the kind of <strong className="font-semibold text-amber-700">luxury spa in New Delhi</strong> we want to
+              be. Many guests come to us for a <strong className="font-semibold text-amber-700">Russian massage in Delhi</strong>,
+              and you&apos;re free to pick a Russian or an Indian therapist.
+            </p>
+
+            <p className="mt-4 text-[15px] leading-relaxed text-bodycolor">
+              Not sure what to book? A{" "}
+              <a href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">sandwich massage</a>{" "}
+              gives you two therapists at once. A{" "}
               <a href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">couples massage</a>{" "}
-              and Thai spa. Whether it&apos;s everyday stress or a stiff back, our therapists know exactly
-              how to help you unwind.
+              works well if you&apos;re coming with your partner, and Thai is good for a stiff back or tight hips. Our{" "}
+              <a href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">B2B massage</a>{" "}
+              is the full body signature. Still can&apos;t decide? Message us and we&apos;ll help.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-4">

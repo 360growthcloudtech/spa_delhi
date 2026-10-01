@@ -15,12 +15,13 @@ const blocks = [
     badge: { value: "24+", label: "Luxury Outlets", sub: "Across Delhi NCR" },
     body: [
       <>
-        Our massage centre in Delhi offers a wide range of premium massage services to help you relax after a long,
-        stressful day. Our team of Indian and international therapists is trained to deliver B2B massage, full body
-        massage, and{" "}
-        <a href="/couples-massage-in-delhi" className={linkClass}>couples massage in Delhi</a> at an affordable price
-        without compromising on quality. From hotel massage to home massage, we&apos;re ready to serve you wherever you
-        are.
+        Some days take more out of you than others. That&apos;s what our massage centre in Delhi is for. Tell us
+        what&apos;s bothering you, a stiff neck from the laptop or legs that are done after a day on your feet, and our
+        Indian and international therapists will suggest what actually helps. Most guests go for a full body massage or a
+        B2B massage. Coming with your partner? Our{" "}
+        <a href="/couples-massage-in-delhi" className={linkClass}>couples massage in Delhi</a> lets you both unwind in
+        the same room. Sessions start at ₹1,999, and if you&apos;d rather not travel, we can come to your hotel room or
+        home.
       </>,
     ],
     primary: { label: "Book a Session", href: WHATSAPP_URL, icon: "whatsapp", external: true },
@@ -34,19 +35,19 @@ const blocks = [
     alt: "Relaxing body to body massage in Delhi with a female therapist",
     body: [
       <>
-        Want a full body to body massage in Delhi? Book the best spa in Delhi with professional female therapists for
-        deep relaxation. Our therapists focus on 100% safety and privacy during your session, and with 24+ spa outlets,
-        including 5-star hotels in Delhi, there&apos;s always one close by whenever you feel stressed and want some
-        time for yourself.
+        If you&apos;re looking for a body to body massage in Delhi, your first worry is probably privacy. Fair enough.
+        You get a closed room here, and no one comes in during your session. Want a female therapist? Just mention it
+        on WhatsApp before you come. We have 24+ outlets, some inside 5-star hotels, so one near you is rarely a
+        problem.
       </>,
       <>
-        Looking to ease tension and anxiety and improve circulation? Our therapists blend traditional and modern
-        techniques for an amazing body-to-body massage. From the moment you walk in, you&apos;ll be greeted with warm
-        hospitality and a session that restores your energy and clears your head.
+        The massage covers your whole body, from the shoulders down to your feet. It&apos;s good for tight muscles, and
+        for those days when your head just won&apos;t switch off. Pressure too light or too hard? Tell your therapist.
+        They&apos;ll change it right away.
       </>,
       <>
-        Every session is designed for your complete comfort and satisfaction, and we maintain proper hygiene and
-        cleanliness in every room.
+        We clean the room and put out fresh towels before every guest. Your number and booking details are never
+        shared with anyone.
       </>,
     ],
     primary: { label: "Book Via WhatsApp", href: WHATSAPP_URL, icon: "whatsapp", external: true },
@@ -61,11 +62,11 @@ const blocks = [
     badge: { value: "C.P.", label: "Connaught Place", sub: "Heart of Delhi" },
     body: [
       <>
-        Our full-body massage at our{" "}
-        <a href="/spa-in-connaught-place" className={linkClass}>spa in Connaught Place</a> is the perfect way to relax
-        and refresh. We combine modern massage techniques with traditional healing practices to create therapy plans
-        that suit your body and lifestyle. With professional therapists, quality oils and customised treatments, enjoy a
-        rejuvenating session right in the heart of Delhi.
+        Work in CP, or just done with a long day of shopping at Janpath? Come over. Our{" "}
+        <a href="/spa-in-connaught-place" className={linkClass}>spa in Connaught Place</a> is only a few minutes on
+        foot from Rajiv Chowk Metro (Gate 1). First time here? Try the full body massage. Before it starts, your
+        therapist will ask where you&apos;re feeling sore, then choose the oil and how hard to press. Think of it as an
+        easy hour off in the middle of the city.
       </>,
       <>
         We also serve guests at top Connaught Place hotels like Radisson Blu, The Lalit and The Park, so you can

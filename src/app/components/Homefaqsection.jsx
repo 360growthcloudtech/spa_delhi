@@ -27,7 +27,12 @@ const faqs = [
   {
     question: "Is Luxury Russian Spa a Russian body massage centre?",
     answer:
-      "Yes. Alongside our Indian therapists, we have trained therapists from Russia, Uzbekistan and Thailand who offer Russian-style full body massage at our outlets across Delhi NCR and at partner 5-star hotels.",
+      "Yes. Alongside our Indian therapists, we have trained therapists from Russia, Uzbekistan and Thailand. Most guests looking for the best Russian spa in Delhi come to us for the Russian-style full body massage, which you can book at our outlets across Delhi NCR or at a partner 5-star hotel.",
+  },
+  {
+    question: "Do you have a Russian spa in Mahipalpur or Aerocity?",
+    answer:
+      "Yes. Both are only a few minutes from IGI Airport. Our Mahipalpur outlet is open 24/7 for a Russian massage after a late flight, and in Aerocity our therapists can come to your hotel room. Message us on WhatsApp and we'll tell you who's available.",
   },
   {
     question: "Is Luxury Russian Spa open 24/7 for late-night massage?",

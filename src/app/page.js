@@ -1,21 +1,21 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Best Spa in Delhi - 24+ Outlets, Book From ₹1999 | Luxury Russian Spa",
+  title: "Luxury Spa in Delhi | Russian Spa in Delhi From ₹1999",
   description:
-    "Best spa in Delhi with 24+ outlets across Delhi NCR. Certified therapists, hygienic private rooms, home & hotel spa. Book your session today!",
+    "Looking for a luxury spa or Russian spa in Delhi? Russian & Indian therapists at 24+ outlets and 5-star hotels, incl. Aerocity & Mahipalpur. From ₹1999.",
 
   keywords: [
-    "spa in delhi",
-    "best spa in delhi",
-    "massage in delhi",
-    "massage parlour in delhi",
-    "top rated spa delhi",
-    "hotel spa in delhi",
-    "home spa in delhi",
-    "body massage in delhi",
     "luxury spa in delhi",
-    "spa near me delhi",
+    "russian spa in delhi",
+    "luxury spa in delhi ncr",
+    "best luxury spa in delhi",
+    "5 star spa in delhi",
+    "best russian spa delhi",
+    "russian spa in aerocity",
+    "russian spa in mahipalpur",
+    "russian massage delhi",
+    "luxury spa in lajpat nagar",
   ],
 
   alternates: {
@@ -23,9 +23,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
+    title: "Luxury Spa in Delhi | Russian Spa in Aerocity & Mahipalpur",
     description:
-      "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
+      "Russian and Indian therapists, private rooms and 5-star hotel sessions across Delhi NCR. First visit from ₹1999.",
     url: "https://www.luxuryrussianspa.com/",
     siteName: "Luxury Russian Spa",
     images: [
@@ -41,9 +41,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Best Spa in Delhi For Complete Relaxation | Luxury Russian Spa",
+    title: "Luxury Spa in Delhi | Russian Spa in Aerocity & Mahipalpur",
     description:
-      "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
+      "Russian and Indian therapists, private rooms and 5-star hotel sessions across Delhi NCR. First visit from ₹1999.",
     images: ["/images/luxurySpaRoom.jpg"],
   },
 };
@@ -81,7 +81,15 @@ const faqSchema = {
       name: "Is Luxury Russian Spa a Russian body massage centre?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Alongside our Indian therapists, we have trained therapists from Russia, Uzbekistan and Thailand who offer Russian-style full body massage at our outlets across Delhi NCR and at partner 5-star hotels.",
+        text: "Yes. Alongside our Indian therapists, we have trained therapists from Russia, Uzbekistan and Thailand. Most guests looking for the best Russian spa in Delhi come to us for the Russian-style full body massage, which you can book at our outlets across Delhi NCR or at a partner 5-star hotel.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you have a Russian spa in Mahipalpur or Aerocity?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Both are only a few minutes from IGI Airport. Our Mahipalpur outlet is open 24/7 for a Russian massage after a late flight, and in Aerocity our therapists can come to your hotel room. Message us on WhatsApp and we'll tell you who's available.",
       },
     },
     {

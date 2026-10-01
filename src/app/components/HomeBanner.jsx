@@ -73,9 +73,9 @@ export default function HomeBanner() {
           </p>
 
           <p className="mt-5 max-w-2xl text-sm sm:text-base lg:text-lg leading-relaxed text-white/85 animate-fade-in-up [animation-delay:280ms]">
-            Long day? Let our certified Indian and Russian therapists take the stress away. Choose from
-            Swedish, deep tissue, Thai and aromatherapy massage in private, spotless rooms at 24+ outlets
-            across Delhi, Noida and Gurgaon. Sessions start at just ₹1999.
+            Long day? Our Indian and Russian therapists will take it from here. As a luxury spa in Delhi NCR
+            with 24+ outlets and partner 5-star hotels, there&apos;s usually one close to you. Swedish, deep
+            tissue, Thai or aromatherapy, in a private room, from just ₹1999.
           </p>
 
           <div className="mt-9 flex w-full flex-col sm:w-auto sm:flex-row gap-4 animate-fade-in-up [animation-delay:360ms]">

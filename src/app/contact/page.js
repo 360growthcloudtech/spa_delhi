@@ -16,7 +16,7 @@ export const metadata = {
   description: "Contact Luxury Russian Spa for luxury body & Thai massage across Delhi NCR. Certified therapists, hygienic private rooms, quick response. Call or book your session today!",
   keywords: ["contact luxury russian spa", "book luxury russian spa", "luxury russian spa phone number", "luxury russian spa booking"],
   openGraph: {
-    title: "Contact Us | Best Luxury Spa in Delhi for Body & Thai Massage",
+    title: "Contact Luxury Russian Spa | Book Body & Thai Massage in Delhi",
     description: "Get in touch with Luxury Russian Spa for soothing body massages, Thai therapy, and relaxation treatments. Call or visit us today for your spa session.",
     images: ["https://www.luxuryrussianspa.com/images/contectusbanner.jpg"],
     type: "website",
