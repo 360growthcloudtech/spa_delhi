@@ -182,7 +182,7 @@ export default function HomeWhyChoiceus() {
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
           <a
-            href="https://api.whatsapp.com/send?phone=+91 8799716197"
+            href="https://wa.link/gdjc65"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 via-amber-600 to-amber-700 text-white font-bold text-base shadow-[0_10px_25px_rgba(245,158,11,0.35)] hover:shadow-[0_15px_35px_rgba(245,158,11,0.5)] transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden"

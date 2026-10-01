@@ -37,25 +37,25 @@ export default function Conpage() {
       name: "Lajpat Nagar",
       image: "/images/hotel-aurea-tower.jpg",
       description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-      link: "https://wa.me/+91 8799716197"
+      link: "https://wa.link/gdjc65"
     },
     {
       name: "Aerocity",
       image: "/images/hotel-andaz-delhi.jpg",
       description: "Relax and unwind with our premium services at Aerocity.",
-      link: "https://wa.me/+91 8799716197"
+      link: "https://wa.link/gdjc65"
     },
     {
       name: "Paschim Vihar",
       image: "/images/hotel-resort-pool.jpg",
       description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-      link: "https://wa.me/+91 8799716197"
+      link: "https://wa.link/gdjc65"
     },
     {
       name: "Rohini",
       image: "/images/hotel-grand-vista.jpg",
       description: "Escape to serenity at our luxurious spa in Rohini.",
-      link: "https://wa.me/+91 8799716197"
+      link: "https://wa.link/gdjc65"
     }
   ];
 

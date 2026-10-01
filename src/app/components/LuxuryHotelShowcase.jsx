@@ -117,7 +117,7 @@ const LuxuryHotelShowcase = ({
                 </div>
               </div>
               <a
-                href="https://api.whatsapp.com/send?phone=+91 8799716197"
+                href="https://wa.link/gdjc65"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-10 block text-center w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
@@ -188,7 +188,7 @@ const LuxuryHotelShowcase = ({
         </div>
 
         <div className="mt-16 text-center">
-          <a href="https://api.whatsapp.com/send?phone=+91 8799716197" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.link/gdjc65" target="_blank" rel="noopener noreferrer">
             <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 group">
               Book Your {service} Today!
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor">

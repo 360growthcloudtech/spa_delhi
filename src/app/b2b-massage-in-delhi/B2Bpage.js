@@ -100,7 +100,7 @@ export default function B2Bpage() {
               Looking for the best body to body massage in Delhi? Also known as B2B massage, our full-contact technique is available at 24+ outlets across Delhi NCR — from Connaught Place to Dwarka, Saket, and near IGI Airport — plus body to body massage at home and five-star hotel spa options. Certified therapists, premium oils, fully private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://wa.link/gdjc65" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
@@ -335,7 +335,7 @@ export default function B2Bpage() {
             {topDelhiLocations.map((loc) => (
               <motion.a
                 key={loc.name}
-                href="https://api.whatsapp.com/send?phone=+91 8799716197"
+                href="https://wa.link/gdjc65"
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={false}
@@ -385,7 +385,7 @@ export default function B2Bpage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://wa.link/gdjc65" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -462,7 +462,7 @@ export default function B2Bpage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk into any of our 24+ outlets, or have us come to your hotel or home anywhere in Delhi NCR.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://wa.link/gdjc65" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

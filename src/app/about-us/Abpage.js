@@ -76,7 +76,7 @@ const pricingPlans = [
     description: "Perfect for individual relaxation sessions",
     features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
     highlight: false,
-    ctaLink: "http://wa.link/njldxn",
+    ctaLink: "https://wa.link/gdjc65",
     icon: <FaSpa className="text-amber-500" />
   },
   {
@@ -85,7 +85,7 @@ const pricingPlans = [
     description: "Premium experience with luxury amenities",
     features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
     highlight: true,
-    ctaLink: "http://wa.link/u061wi",
+    ctaLink: "https://wa.link/gdjc65",
     icon: <FaHotel className="text-amber-500" />
   },
   {
@@ -691,7 +691,7 @@ export default function Abpage({
               {/* CTA row */}
               <div className="mt-8 flex items-center gap-4">
                 <a
-                  href="https://api.whatsapp.com/send?phone=+91 8799716197"
+                  href="https://wa.link/gdjc65"
                   className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
                 >
                   Book a Session

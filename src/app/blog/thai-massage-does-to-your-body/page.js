@@ -470,7 +470,7 @@ export default function ThaiMassageBlogPage() {
                   </p>
                   <div className="mt-6 flex flex-wrap gap-4">
                     <a href="/thai-massage-in-delhi" className="rounded-full bg-white px-6 py-3 font-semibold text-amber-700 transition hover:bg-amber-50">View Thai Massage Service</a>
-                    <a href="https://api.whatsapp.com/send?phone=+91 8799716197" className="rounded-full border border-white/60 px-6 py-3 font-semibold transition hover:bg-white/10">Book on WhatsApp</a>
+                    <a href="https://wa.link/gdjc65" className="rounded-full border border-white/60 px-6 py-3 font-semibold transition hover:bg-white/10">Book on WhatsApp</a>
                   </div>
                 </section>
               </article>

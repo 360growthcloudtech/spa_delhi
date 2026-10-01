@@ -86,7 +86,7 @@ export default function Pricpage() {
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
       highlight: false,
-      ctaLink: "https://api.whatsapp.com/send?phone=+91 8799716197",
+      ctaLink: "https://wa.link/gdjc65",
       icon: <FaSpa className="text-amber-500" />
     },
     {
@@ -95,7 +95,7 @@ export default function Pricpage() {
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "https://api.whatsapp.com/send?phone=+91 8799716197",
+      ctaLink: "https://wa.link/gdjc65",
       icon: <FaHotel className="text-amber-500" />
     },
     {
@@ -104,7 +104,7 @@ export default function Pricpage() {
       description: "Comprehensive spa experience with added treatments",
       features: ["Massage + Steam", "Aromatherapy", "Facial Session", "60 min Session"],
       highlight: false,
-      ctaLink: "https://api.whatsapp.com/send?phone=+91 8799716197",
+      ctaLink: "https://wa.link/gdjc65",
       icon: <FaCrown className="text-amber-500" />
     }
   ];
@@ -113,28 +113,28 @@ export default function Pricpage() {
       title: 'Aerocity',
       description: 'Our Aerocity outlet lists every Thai massage, couple spa, and full-body session with clear, upfront pricing — no surprises. Set inside luxury hotels near IGI Airport, we run 24×7 with sessions starting at ₹1,999, including a complimentary steam and shower.',
       image: '/images/RoseateHouse.jpg',
-      link: 'https://api.whatsapp.com/send?phone=+91 8799716197',
+      link: 'https://wa.link/gdjc65',
       pageLink: '/spa-in-aerocity',
     },
     {
       title: 'New Friends Colony (NFC)',
       description: 'Our New Friends Colony centre publishes its full body-spa, Swedish, and couple massage pricing online, so there\'s nothing to guess before you arrive. Expect hotel-style rooms, organic oils, and late-night slots, with full body massage starting from ₹1,799.',
       image: '/images/fpkdl.com_960_1758981740_exterior-view-bellagio-caesars-palace-hotel-las-vegas-nevada-march-6-2024_943860-2321.jpg',
-      link: 'https://api.whatsapp.com/send?phone=+91 8799716197',
+      link: 'https://wa.link/gdjc65',
       pageLink: null,
     },
     {
       title: 'Connaught Place',
       description: 'Right on Janpath, our Connaught Place outlet welcomes shoppers and office-goers with clear, upfront pricing. Book a Thai massage or a couple spa session from ₹2,099, both including a shower, steam, and complimentary foot ritual. Sessions run 60 to 120 minutes, daily.',
       image: '/images/pexels-pavel-danilyuk-9119782.jpg',
-      link: 'https://api.whatsapp.com/send?phone=+91 8799716197',
+      link: 'https://wa.link/gdjc65',
       pageLink: '/spa-in-connaught-place',
     },
     {
       title: 'Grand Vasant Kunj',
       description: 'Tucked inside premium malls in Vasant Kunj, we publish every full-body massage rate online — no hidden costs. Solo and couple packages start from ₹1,899, with Himalayan salt rooms, Thai therapists, and free pickup within 5 km.',
       image: '/images/lajpatnagar.jpg',
-      link: 'https://api.whatsapp.com/send?phone=+91 8799716197',
+      link: 'https://wa.link/gdjc65',
       pageLink: '/spa-in-vasant-kunj',
     },
   ];
@@ -144,7 +144,7 @@ export default function Pricpage() {
       designation: "Spa Therapist",
       image: "/images/spamodel.webp",
       socials: {
-        WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
+        WhatsApp: "https://wa.link/gdjc65",
         instagram: "https://www.instagram.com/delhi.luxury_spa/",
         // twitter: "https://twitter.com",
       },
@@ -154,7 +154,7 @@ export default function Pricpage() {
       designation: "Spa Therapist",
       image: "/images/spaExper2.webp",
       socials: {
-        WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
+        WhatsApp: "https://wa.link/gdjc65",
         instagram: "https://www.instagram.com/delhi.luxury_spa/",
         // twitter: "https://twitter.com",
       },
@@ -164,7 +164,7 @@ export default function Pricpage() {
       designation: "Spa Therapist",
       image: "/images/spamodel2.webp",
       socials: {
-        WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
+        WhatsApp: "https://wa.link/gdjc65",
         instagram: "https://www.instagram.com/delhi.luxury_spa/",
         // twitter: "https://twitter.com",
       },
@@ -174,7 +174,7 @@ export default function Pricpage() {
       designation: "Spa Therapist",
       image: "/images/spaExpert4.webp",
       socials: {
-        WhatsApp: "https://api.whatsapp.com/send?phone=+91 8799716197",
+        WhatsApp: "https://wa.link/gdjc65",
         instagram: "https://www.instagram.com/delhi.luxury_spa/",
         // twitter: "https://twitter.com",
       },
@@ -598,7 +598,7 @@ export default function Pricpage() {
                           <span className="text-stone-700">Aromatherapy</span>
                         </li>
                       </ul>
-                      <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
+                      <a href='https://wa.link/gdjc65'>
                         <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                           Book Now
                         </button>
@@ -670,7 +670,7 @@ export default function Pricpage() {
                       View Treatments
                     </button>
                   </a>
-                  <a href='https://api.whatsapp.com/send?phone=+91 8799716197'>
+                  <a href='https://wa.link/gdjc65'>
                     <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                       Book Appointment
                     </button>

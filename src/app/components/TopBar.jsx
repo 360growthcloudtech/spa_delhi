@@ -29,7 +29,7 @@ export default function TopBar() {
           <FaInstagram size={20} />
         </a>
         <a
-          href="http://wa.link/gt55qd"
+          href="https://wa.link/gdjc65"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-green-500 transition"

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const ENQUIRE_URL = "https://api.whatsapp.com/send?phone=+91 8799716197";
+const ENQUIRE_URL = "https://wa.link/gdjc65";
 
 /**
  * Site-wide theme effects:

@@ -194,7 +194,7 @@ export default function HomeOurProcess() {
 
           <div className="relative z-10 flex flex-wrap items-center justify-center gap-3 shrink-0">
             <a
-              href="https://api.whatsapp.com/send?phone=+91 8799716197"
+              href="https://wa.link/gdjc65"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
