@@ -33,7 +33,11 @@ export const metadata = {
   metadataBase: new URL("https://www.luxuryrussianspa.com"),
   verification: {
     // Both Search Console verification codes; they must sit in <head> to count.
-    google: ["O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE", "urWTsZ4VUiaWDY0gtPaGZ2YFOFrW4fQxFwqYn8lovLs"],
+    google: [
+      "O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE",
+      "urWTsZ4VUiaWDY0gtPaGZ2YFOFrW4fQxFwqYn8lovLs",
+      "jjG9CJGWtQ9GFiVMB6g7y6y3QCtEo9vEP6cD_pVrmZI",
+    ],
   },
 };
 
