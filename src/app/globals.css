@@ -116,6 +116,36 @@
   }
 }
 
+/* Skip rendering work for off-screen sections until they near the viewport.
+   "auto 900px" reserves a placeholder height, then remembers the real one once rendered. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+
+/* Home hero crossfade: slide 1 stays underneath, slides 2 and 3 fade in over it in turn (18s loop) */
+.hero-slide-2,
+.hero-slide-3 {
+  opacity: 0;
+  animation: 18s ease-in-out infinite;
+}
+.hero-slide-2 { animation-name: hero-slide-2; }
+.hero-slide-3 { animation-name: hero-slide-3; }
+@keyframes hero-slide-2 {
+  0%, 30% { opacity: 0; }
+  36%, 63% { opacity: 1; }
+  69%, 100% { opacity: 0; }
+}
+@keyframes hero-slide-3 {
+  0%, 63% { opacity: 0; }
+  69%, 94% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide-2,
+  .hero-slide-3 { animation: none; }
+}
+
 /* Legacy font helpers still referenced by some pages */
 .font-montserrat { font-family: var(--font-sans); }
 .font-playfair { font-family: var(--font-title); }

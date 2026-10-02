@@ -1,6 +1,10 @@
 import { FiArrowRight } from "react-icons/fi";
 import HomeHeading from "./HomeHeading";
 
+// Posters go through the Next.js image optimizer (640px AVIF/WebP) instead of the raw files,
+// which were up to 428 KB each and competed with the hero image on mobile.
+const posterSrc = (src) => `/_next/image?url=${encodeURIComponent(src)}&w=640&q=70`;
+
 // Videos use preload="none" so they cost nothing until a visitor presses play.
 export default function HomeVideoShowcase() {
   return (
@@ -20,7 +24,7 @@ export default function HomeVideoShowcase() {
             <video
               className="aspect-[4/5] w-full object-cover"
               src="/images/spavideo.mp4"
-              poster="/images/spaservices1.jpg"
+              poster={posterSrc("/images/spaservices1.jpg")}
               controls
               playsInline
               preload="none"
@@ -32,7 +36,7 @@ export default function HomeVideoShowcase() {
             <video
               className="aspect-[4/5] w-full object-cover"
               src="/images/spavideo3.mp4"
-              poster="/images/spa-treatment_outlet.png"
+              poster={posterSrc("/images/spa-treatment_outlet.png")}
               controls
               playsInline
               preload="none"
@@ -44,7 +48,7 @@ export default function HomeVideoShowcase() {
             <video
               className="aspect-[4/5] w-full object-cover"
               src="/images/spavideo2.mp4"
-              poster="/images/spaservices4.jpg"
+              poster={posterSrc("/images/spaservices4.jpg")}
               controls
               playsInline
               preload="none"

@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { AnimatePresence, motion } from "framer-motion";
 import { FaWhatsapp, FaPhoneAlt, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { FiChevronDown, FiMail, FiX } from "react-icons/fi";
 import Logo from "./Logo";
@@ -175,24 +174,17 @@ export default function Navbar() {
         </nav>
       </header>
 
-      {/* Mobile Drawer */}
-      <AnimatePresence>
-        {isMenuOpen && (
-          <>
-            <motion.div
-              className="fixed inset-0 z-[60] bg-black/40 xl:hidden"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setIsMenuOpen(false)}
-            />
-            <motion.aside
+      {/* Mobile Drawer: always rendered, slid in and out with CSS transitions */}
+      <div
+        className={`fixed inset-0 z-[60] bg-black/40 transition-opacity duration-300 xl:hidden ${isMenuOpen ? "opacity-100" : "pointer-events-none opacity-0"}`}
+        onClick={() => setIsMenuOpen(false)}
+        aria-hidden="true"
+      />
+            <aside
               id="mobile-menu"
-              className="fixed top-0 right-0 bottom-0 z-[70] w-[86%] max-w-sm bg-white text-ink overflow-y-auto xl:hidden"
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100%" }}
-              transition={{ type: "tween", duration: 0.35, ease: [0.4, 0, 0.2, 1] }}
+              aria-hidden={!isMenuOpen}
+              inert={isMenuOpen ? undefined : ""}
+              className={`fixed top-0 right-0 bottom-0 z-[70] w-[86%] max-w-sm bg-white text-ink overflow-y-auto transition-transform duration-[350ms] ease-[cubic-bezier(0.4,0,0.2,1)] xl:hidden ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
             >
               <div className="flex items-center justify-between px-5 h-[72px] border-b border-black/5">
                 <a href="/" aria-label="Luxury Russian Spa home">
@@ -228,24 +220,25 @@ export default function Navbar() {
                         </button>
                       )}
                     </div>
-                    <AnimatePresence initial={false}>
-                      {item.children && openMobile === item.name && (
-                        <motion.ul
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: "auto", opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          className="overflow-hidden mb-3 rounded-xl bg-cream px-4"
-                        >
-                          {item.children.map((child) => (
-                            <li key={child.name}>
-                              <a href={child.href} className="block py-2.5 text-sm text-bodycolor hover:text-primary">
-                                {child.name}
-                              </a>
-                            </li>
-                          ))}
-                        </motion.ul>
-                      )}
-                    </AnimatePresence>
+                    {item.children && (
+                      <div
+                        className={`grid transition-[grid-template-rows,opacity] duration-300 ${openMobile === item.name ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+                      >
+                        <ul className="overflow-hidden">
+                          <li className="mb-3 rounded-xl bg-cream px-4">
+                            <ul>
+                              {item.children.map((child) => (
+                                <li key={child.name}>
+                                  <a href={child.href} className="block py-2.5 text-sm text-bodycolor hover:text-primary">
+                                    {child.name}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -267,10 +260,7 @@ export default function Navbar() {
                   {EMAIL}
                 </a>
               </div>
-            </motion.aside>
-          </>
-        )}
-      </AnimatePresence>
+            </aside>
     </>
   );
 }

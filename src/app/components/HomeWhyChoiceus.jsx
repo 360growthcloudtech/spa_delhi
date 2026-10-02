@@ -1,6 +1,4 @@
-"use client";
 
-import { motion } from "framer-motion";
 import { 
   Building2, 
   Clock, 
@@ -65,22 +63,14 @@ export default function HomeWhyChoiceus() {
       <div className="relative max-w-7xl mx-auto z-10">
         {/* Header section */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <motion.div
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-amber-500/15 via-amber-500/25 to-amber-500/15 border border-amber-500/30 text-amber-300 text-xs md:text-sm font-semibold tracking-wider uppercase mb-5 backdrop-blur-md shadow-[0_0_20px_rgba(245,158,11,0.15)]"
           >
             <Sparkles className="size-4 text-amber-400 animate-pulse" />
             <span>The Luxury Russian Spa Difference</span>
-          </motion.div>
+          </div>
 
-          <motion.h2
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+          <h2
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-white tracking-tight leading-[1.15] mb-6"
           >
             Why We Are{" "}
@@ -88,13 +78,9 @@ export default function HomeWhyChoiceus() {
               The Best Massage Centre
             </span>{" "}
             in Delhi
-          </motion.h2>
+          </h2>
 
-          <motion.p
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+          <p
             className="text-white/75 text-base md:text-lg leading-relaxed max-w-3xl mx-auto"
           >
             Why do people pick us? Some come straight from the airport, some come as a couple, and some just need a
@@ -106,7 +92,7 @@ export default function HomeWhyChoiceus() {
               full-body massage in Delhi
             </a>{" "}
             in a quiet room, from a therapist who knows the job. Here&apos;s what you can expect.
-          </motion.p>
+          </p>
         </div>
 
         {/* 4 Feature Cards Grid */}
@@ -114,12 +100,8 @@ export default function HomeWhyChoiceus() {
           {features.map((item, index) => {
             const Icon = item.icon;
             return (
-              <motion.div
+              <div
                 key={index}
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="group relative flex flex-col justify-between rounded-3xl bg-gradient-to-b from-white/[0.08] via-white/[0.04] to-transparent p-7 backdrop-blur-xl border border-white/10 hover:border-amber-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6),0_0_30px_rgba(245,158,11,0.15)]"
               >
                 {/* Top glow accent */}
@@ -157,7 +139,7 @@ export default function HomeWhyChoiceus() {
                   <span>✦ {item.tag}</span>
                   <ArrowRight className="size-3.5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 text-amber-400" />
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>
@@ -174,11 +156,7 @@ export default function HomeWhyChoiceus() {
         </dl>
 
         {/* Action Buttons */}
-        <motion.div
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.5 }}
+        <div
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
           <a
@@ -201,7 +179,7 @@ export default function HomeWhyChoiceus() {
             <FaTelegram className="text-xl text-sky-400" />
             <span>View Available Therapists</span>
           </a>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

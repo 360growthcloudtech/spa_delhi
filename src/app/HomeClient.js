@@ -38,28 +38,31 @@ export default function HomeClient() {
       <HomeBanner />
       <AboutSection />
 
+      {/* Below-the-fold sections are wrapped in .cv-auto (content-visibility: auto) so the browser skips
+          their style/layout/paint until they scroll near the viewport. Content stays in the HTML for SEO. */}
+
       {/* 2. What we offer */}
-      <HomeServicesSection />
-      <SignatureRange />
-      <HomeVideoShowcase />
-      <HomeSplitFeatures />
+      <div className="cv-auto"><HomeServicesSection /></div>
+      <div className="cv-auto"><SignatureRange /></div>
+      <div className="cv-auto"><HomeVideoShowcase /></div>
+      <div className="cv-auto"><HomeSplitFeatures /></div>
 
       {/* 3. Why us & where */}
-      <HomeWhyChoiceus />
-      <HomeLocations />
-      <HomeAmenities />
+      <div className="cv-auto"><HomeWhyChoiceus /></div>
+      <div className="cv-auto"><HomeLocations /></div>
+      <div className="cv-auto"><HomeAmenities /></div>
 
       {/* 4. Price, booking & team */}
-      <HomePricing />
-      <HomeOurProcess />
-      <HomeTherapyest />
-      <HomeHealthBenefits />
+      <div className="cv-auto"><HomePricing /></div>
+      <div className="cv-auto"><HomeOurProcess /></div>
+      <div className="cv-auto"><HomeTherapyest /></div>
+      <div className="cv-auto"><HomeHealthBenefits /></div>
 
       {/* 5. Trust & answers */}
-      <HomeTestimonials />
+      <div className="cv-auto"><HomeTestimonials /></div>
 
       {/* From Our Blog - real server-rendered links so every guide stays reachable from the homepage */}
-      <section aria-labelledby="home-guides-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="home-guides-title" className="cv-auto bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading id="home-guides-title" eyebrow="Read & Relax" title="Spa & Massage" highlight="Guides" />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -84,7 +87,7 @@ export default function HomeClient() {
         </div>
       </section>
 
-      <HomeFaqSection />
+      <div className="cv-auto"><HomeFaqSection /></div>
       <WhatsappFloat />
     </main>
   );

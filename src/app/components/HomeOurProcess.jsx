@@ -1,7 +1,5 @@
-"use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { 
   Sparkles, 
   PhoneCall, 
@@ -66,12 +64,8 @@ export default function HomeOurProcess() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         {/* Section Header */}
-        <motion.div
+        <div
           className="text-center max-w-3xl mx-auto mb-16"
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
         >
           <div className="inline-flex items-center gap-2 bg-amber-100/80 border border-amber-200/80 px-4 py-1.5 rounded-full mb-4 shadow-sm backdrop-blur-sm">
             <span className="size-2 bg-amber-600 rounded-full animate-pulse" />
@@ -90,19 +84,15 @@ export default function HomeOurProcess() {
           <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
             Booking your rejuvenating session takes less than two minutes. Experience discreet, high-end hospitality from first message to final relaxation.
           </p>
-        </motion.div>
+        </div>
 
         {/* Process Cards Grid */}
         <div className="relative grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
           {processSteps.map((step, index) => {
             const Icon = step.icon;
             return (
-              <motion.div
+              <div
                 key={index}
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.15 }}
                 className="group relative flex flex-col justify-between rounded-3xl bg-white border border-amber-100/80 p-6 md:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_45px_rgba(217,119,6,0.12)] hover:border-amber-300 transition-all duration-500 hover:-translate-y-2"
               >
                 {/* Step pill & Number Header */}
@@ -164,17 +154,13 @@ export default function HomeOurProcess() {
                     </div>
                   ))}
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>
 
         {/* Bottom CTA action strip */}
-        <motion.div
-          initial={false}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+        <div
           className="mt-14 rounded-3xl bg-gradient-to-r from-amber-900 via-[#3b2214] to-amber-900 p-8 md:p-10 shadow-2xl text-white relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6"
         >
           {/* Ambient lighting */}
@@ -221,7 +207,7 @@ export default function HomeOurProcess() {
               <span>Available Staff on Telegram</span>
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
