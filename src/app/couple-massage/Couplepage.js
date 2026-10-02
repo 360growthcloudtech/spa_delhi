@@ -6,9 +6,10 @@ import {
   CalendarCheck,
   Check,
   Clock,
-  Droplets,
   Flower2,
+  Heart,
   HeartPulse,
+  Home,
   Hotel,
   Leaf,
   MapPin,
@@ -29,53 +30,58 @@ import { PHONE_LABEL, PHONE_LINK, TELEGRAM_URL, WHATSAPP_URL } from "../componen
 // Also used for the FAQPage schema in ./page.js, so the page and schema never drift apart.
 export const faqs = [
   {
-    question: "What is a sandwich massage?",
+    question: "What is a couple massage?",
     answer:
-      "It's a full body massage done by two therapists at the same time, one on each side of you. They time their strokes together, so it feels like one long, even wave instead of two separate massages. Most people find they relax a lot faster than with a single therapist.",
+      "It's a massage you and your partner get at the same time, in the same room, on two tables placed side by side. Each of you has your own therapist, and you can pick a different style and pressure from your partner. You get to relax together without having to take turns.",
   },
   {
-    question: "How much does a sandwich massage cost in Delhi?",
+    question: "How much does a couple massage cost in Delhi?",
     answer:
-      "At our outlets, a sandwich massage starts at ₹1,999 for 60 minutes. A 90-minute session in a hotel suite is ₹15,000, and the 120-minute 5-star package with foreign therapists is ₹20,000. We confirm the price on WhatsApp before you come, so there are no surprises.",
+      "At our outlets, a couple massage starts at ₹1,999. A 90-minute session in a hotel suite is ₹15,000, and the 120-minute 5-star package with foreign therapists is ₹20,000. We confirm the exact price for both of you on WhatsApp before you come, so there are no surprises.",
   },
   {
-    question: "Where can I find a sandwich massage near me in Delhi?",
+    question: "Where can I find the best couples massage near me in Delhi?",
     answer:
-      "We have 24+ outlets across Delhi NCR, including Aerocity, Connaught Place, Karol Bagh, Lajpat Nagar, Saket and Dwarka, plus Noida and Gurgaon. Send us your location on WhatsApp and we'll tell you which one is closest.",
+      "We have 24+ outlets across Delhi NCR, including Aerocity, Connaught Place, Karol Bagh, Lajpat Nagar, Saket and Dwarka, plus Noida and Gurgaon. Send us your location on WhatsApp and we'll tell you which couple spa is closest to you.",
   },
   {
-    question: "How long does a sandwich massage take?",
+    question: "Do you offer couple massage at home in Delhi?",
     answer:
-      "Usually 60 to 90 minutes, which gives both therapists enough time to cover your whole body without rushing. If you want longer, our 5-star package runs for 120 minutes.",
+      "Yes. Share your address on WhatsApp and two therapists come to you with fresh sheets, warm oils and everything else needed. It's a good choice if you'd rather not travel or want complete privacy. Booking a few hours ahead helps us get you a slot the same day.",
   },
   {
-    question: "Is a sandwich massage safe for everyone?",
+    question: "Can my partner and I choose different massages?",
     answer:
-      "For most healthy adults, yes. If you're pregnant, recovering from an injury or have a medical condition, check with your doctor first and tell us before the session so the therapists can adjust.",
+      "Of course. One of you can have a soft, romantic aromatherapy massage while the other gets a firm back massage for a stiff neck. Just tell us what each of you wants when you book.",
   },
   {
-    question: "Can I get a sandwich massage in a 5-star hotel?",
+    question: "How long does a couple massage take?",
     answer:
-      "Yes. Our therapists work with hotels like Andaz, The Park, The Suryaa and Welcomhotel by ITC Dwarka. If you're staying at one of them, we can set up the session in your room.",
+      "Most couples book 60 or 90 minutes. Our 5-star hotel package runs for 120 minutes. If you're planning a full couples spa day, ask us and we'll suggest what to add.",
   },
   {
-    question: "How do I book a sandwich massage?",
+    question: "Is a couple massage a good gift for an anniversary or birthday?",
     answer:
-      "Message us on WhatsApp or call +91 87997 16197. Tell us the time, the outlet or hotel you prefer, and whether you'd like Russian or Indian therapists, and we'll confirm your booking.",
+      "It's one of the most popular ones. Tell us it's a special occasion when you book and we'll make the room a little more romantic, with candles and the oil scent of your choice.",
+  },
+  {
+    question: "How do I book a couple massage?",
+    answer:
+      "Message us on WhatsApp or call +91 87997 16197. Tell us the time, the outlet, hotel or home address, and the massage each of you wants, and we'll confirm your booking.",
   },
 ];
 
 const linkClass = "font-semibold text-amber-700 underline decoration-amber-700/40 underline-offset-4 hover:decoration-amber-700";
 
 const heroChips = [
-  { icon: Users, label: "Two Therapists" },
-  { icon: Droplets, label: "Warm Herbal Oils" },
-  { icon: Hotel, label: "5-Star Hotel Sessions" },
+  { icon: BedDouble, label: "Side-by-Side Tables" },
+  { icon: Heart, label: "Private Room for Two" },
+  { icon: Home, label: "At Home or in Your Hotel" },
   { icon: Clock, label: "Open 24/7" },
 ];
 
 const quickFacts = [
-  { value: "2", label: "Therapists", note: "Working together" },
+  { value: "2", label: "Tables, 1 Room", note: "Just the two of you" },
   { value: "60–120", label: "Minutes", note: "Pick your session" },
   { value: "₹1,999", label: "Starting Price", note: "No hidden charges" },
   { value: "24+", label: "Outlets", note: "Across Delhi NCR" },
@@ -83,88 +89,89 @@ const quickFacts = [
 
 const highlights = [
   {
-    icon: BedDouble,
-    title: "Your own room, door closed",
+    icon: Heart,
+    title: "A room that's only yours",
     description:
-      "The lights are kept low and the table is wide enough to lie on comfortably. Once you're in, the door stays shut till you're done.",
-    points: ["Fresh towels every time", "Warm, dim lights", "A light scent in the air"],
+      "Once you're inside, the door stays shut and nobody will come in to hurry you. Talk if you want to, or hold hands. Most couples end up falling asleep.",
+    points: ["Two tables side by side", "Candles and dim lights", "Fresh towels for both"],
   },
   {
     icon: Users,
-    title: "Therapists who match each other's pace",
+    title: "Two therapists, one pace",
     description:
-      "Two people massaging you at once only works if they're in step. Ours are trained to work as a pair, so you won't feel one set of hands rushing ahead of the other.",
-    points: ["Russian & Indian therapists", "Pressure adjusted for you", "Trained in multi-layer massage"],
+      "It's a bit awkward when your partner is done and waiting while you've still got ten minutes left. So our therapists start at the same time and keep pace with each other, and you both get up together.",
+    points: ["Russian & Indian therapists", "Separate pressure for each", "Same start, same finish"],
   },
 ];
 
+// The four styles cover the most searched couples spa treatments.
 const techniques = [
   {
-    title: "We Warm the Oil First",
-    image: "/images/spaservices1.jpg",
+    title: "Romantic Couples Massage",
+    image: "/images/couple-bathrobes-posing-embraced.jpg",
     description:
-      "Nobody likes cold oil on their back. We heat it a little before we start. Warm oil helps your muscles let go quicker, and your skin won't feel dry later.",
+      "Think candles, quiet music in the background and oil that's been warmed up first. The therapists take their time here, nothing quick or hard. This is the one most lovers book for a date night or an anniversary. It's less about fixing knots and more about switching off together.",
   },
   {
-    title: "One Soft, One Firm",
-    image: "/images/sandwich-massage-2.jpg",
+    title: "Couples Back Massage",
+    image: "/images/spaservices4.jpg",
     description:
-      "Usually one therapist keeps the pressure light while the other works a bit deeper on the stiff bits. You get the relief, and it never starts to hurt.",
+      "If both of you sit at a desk all day, start here. The therapists spend most of the time on your neck, shoulders and lower back, with pressure as firm as each of you likes.",
   },
   {
-    title: "Pick a Smell You Like",
-    image: "/images/hb3.webp",
+    title: "Couples Body Massage",
+    image: "/images/Couple Massage.webp",
     description:
-      "Lavender helps a lot of people unwind. Eucalyptus is nice when your muscles ache. Or just go for sandalwood if you like how it smells. We'll mix it into the oil for you.",
+      "Head to toe for both of you, from the shoulders down to the feet. This is our most booked couple body massage, and a good pick if it's your first time at a couple massage spa.",
   },
   {
-    title: "Head to Toe, Nothing Missed",
-    image: "/images/MassageSession.webp",
+    title: "Couple Hot Massage",
+    image: "/images/137.jpg",
     description:
-      "With four hands working, every part gets its turn: back, shoulders, arms, legs, even your feet. No more walking out with one shoulder still stiff.",
+      "Here we use heated oil, or put warm stones along your back if you'd like. Tight muscles loosen up quicker when they're warm. Try it on a cold winter evening in Delhi and you'll see why people love it.",
   },
 ];
 
 const benefits = [
   {
-    icon: HeartPulse,
-    title: "Looser Muscles",
-    description: "Desk job? Then you probably know that tight spot between your shoulders. Two therapists can work it loose much sooner than one.",
+    icon: Heart,
+    title: "Time Together, Phones Away",
+    description: "No screens, no work calls, no chores. An hour where the only plan is the two of you lying next to each other and relaxing.",
   },
   {
     icon: Leaf,
-    title: "Less Stress",
-    description: "Somewhere around ten minutes in, your breathing slows down. If you start snoring, don't worry. We take it as a compliment.",
+    title: "Less Stress for Both",
+    description: "It's easier to unwind when the person next to you is unwinding too. Most couples say they're both calmer by the time it ends.",
   },
   {
-    icon: Droplets,
-    title: "Better Circulation",
-    description: "Ever got out of a long cab ride with heavy, tingly legs? Here the strokes move up your body, towards the heart. It gets things flowing again.",
+    icon: HeartPulse,
+    title: "Looser Muscles",
+    description: "Stiff neck from the laptop, sore legs from the gym. Each therapist works on what your body needs, not what your partner's needs.",
   },
   {
     icon: Sparkles,
-    title: "Softer Skin",
-    description: "Warm oil, worked in slowly. Your skin feels soft after. And no, your clothes won't stick to you.",
+    title: "A Nice First Spa Visit",
+    description: "Never been to a spa and feeling a bit shy? It's much easier when your partner is right there on the next table. And after, you can both talk about which part you liked best.",
   },
   {
     icon: Flower2,
-    title: "Fresh Energy",
-    description: "Some massages leave you groggy. This one doesn't. Want to go out for dinner after? Go ahead.",
+    title: "Something to Remember",
+    description: "Dinner and a movie is nice. A couples spa day is the date you'll actually talk about for a while.",
   },
   {
     icon: Moon,
-    title: "Deeper Sleep",
-    description: "Try to come in the evening. You'll go home loose and calm, and chances are you'll be asleep before you know it.",
+    title: "Better Sleep That Night",
+    description: "Book an evening slot. You'll both go home loose and sleepy, and probably be in bed earlier than usual.",
   },
 ];
 
-const idealFor = [
-  "Office workers with a stiff neck and back",
-  "Travellers staying at Aerocity and 5-star hotels",
-  "Anyone with tired, heavy legs after a long day",
-  "Gym-goers who want their muscles to recover faster",
-  "First-timers who want to try something different",
-  "Anyone looking for a proper treat on a day off",
+const occasions = [
+  "Anniversaries and birthdays",
+  "Date nights and weekend plans",
+  "Honeymooners staying in Delhi",
+  "Couples in Aerocity and 5-star hotels",
+  "Partners who both work long hours",
+  "Anyone planning a surprise for their partner",
 ];
 
 const pricingPlans = [
@@ -172,15 +179,15 @@ const pricingPlans = [
     title: "Spa Outlet",
     price: "₹1,999",
     period: "60 min",
-    description: "A good place to start for your first sandwich massage",
-    features: ["Oil, Cream or Dry Massage", "Two Therapists", "Private Room", "Quick Consultation", "Shower After"],
+    description: "A good place to start for your first couple massage",
+    features: ["Oil, Cream or Dry Massage", "Two Therapists", "Private Couple Room", "Quick Consultation", "Shower After"],
     icon: Leaf,
   },
   {
     title: "Hotel Outlet",
     price: "₹15,000",
     period: "90 min",
-    description: "A longer session in a hotel suite",
+    description: "A longer, more romantic session in a hotel suite",
     features: ["Oil, Cream or Dry Massage", "Two Therapists", "Private Suite", "Complimentary Refreshments", "90 min Session"],
     icon: Hotel,
     popular: true,
@@ -189,40 +196,47 @@ const pricingPlans = [
     title: "5 Star Hotel Spa",
     price: "₹20,000",
     period: "120 min",
-    description: "The full experience with foreign therapists",
+    description: "The full couples spa day with foreign therapists",
     features: ["Foreign Therapists", "5-Star Property", "Private Suite", "Aromatherapy Oils", "120 min Session"],
     icon: Star,
   },
 ];
 
-// Internal links to the outlet (location) pages, for "sandwich massage near me" searches.
+// Internal links to the outlet (location) pages, for "couples massage near me" searches.
 // Cards are titled by outlet because they open the general outlet page.
 const nearbyOutlets = [
   { area: "Aerocity", note: "Near IGI Airport", href: "/spa-in-aerocity" },
   { area: "Connaught Place", note: "Near Rajiv Chowk Metro", href: "/spa-in-connaught-place" },
   { area: "Karol Bagh", note: "Central Delhi", href: "/spa-in-karol-bagh" },
   { area: "Lajpat Nagar", note: "South Delhi", href: "/spa-in-lajpat-nagar" },
-  { area: "Saket", note: "South Delhi", href: "/spa-in-saket" },
   { area: "Dwarka", note: "West Delhi", href: "/spa-in-dwarka" },
+  { area: "Rajouri Garden", note: "West Delhi", href: "/spa-in-rajouri-garden" },
   { area: "Mahipalpur", note: "Near IGI Airport", href: "/spa-in-mahipalpur" },
   { area: "Noida", note: "Delhi NCR", href: "/spa-in-noida" },
   { area: "Gurgaon", note: "Delhi NCR", href: "/spa-in-gurgaon" },
 ];
 
+const homePoints = [
+  "Two therapists come to your home or hotel room",
+  "Fresh sheets, towels and warm oils come with them",
+  "Your bedroom, your music, nobody else around",
+  "Book a few hours ahead for a same-day slot",
+];
+
 const steps = [
   {
     title: "Send Us a Message",
-    text: "WhatsApp, Telegram or a quick call. Tell us the time and the outlet or hotel that suits you.",
+    text: "WhatsApp, Telegram or a quick call. Tell us the time, the place and what each of you would like.",
     image: "/images/317.webp",
   },
   {
     title: "Walk Into a Ready Room",
-    text: "Fresh towels, warm oil and soft lighting are set up before you arrive. Change and get comfortable.",
+    text: "Two tables, warm oil and soft lighting are set up before you arrive. Change and get comfortable.",
     image: "/images/453.webp",
   },
   {
-    title: "Relax for the Next Hour",
-    text: "Two therapists start together and keep the same rhythm till the end. All you have to do is breathe.",
+    title: "Relax Together",
+    text: "Both therapists start at the same time and finish at the same time. All you two have to do is breathe.",
     image: "/images/hb2.webp",
   },
 ];
@@ -230,58 +244,58 @@ const steps = [
 const whyChoose = [
   {
     icon: Hotel,
-    title: "Outlets and 5-star hotels",
+    title: "Outlets, hotels or your home",
     text: (
       <>
-        Book at one of our outlets, or in a partner <a href="/outlets" className={linkClass}>hotel spa in Delhi</a> if
-        you&apos;d like a bigger suite and a longer session.
+        Book at one of our outlets, in a partner <a href="/outlets" className={linkClass}>hotel spa in Delhi</a>, or
+        have the therapists come to you. Same care, wherever you are.
       </>
     ),
   },
   {
     icon: Users,
     title: "You choose your therapists",
-    text: "Prefer Russian or Indian therapists? Just say so when you book and we'll arrange it.",
+    text: "Prefer Russian or Indian therapists, or a female therapist for both? Just say so when you book and we'll arrange it.",
   },
   {
     icon: ShieldCheck,
     title: "Clean rooms, no surprises",
-    text: "We clean the room after every guest. Your details stay with us. And the bill? It's the price we told you on WhatsApp, nothing extra.",
+    text: "We clean the room after every couple. Your details stay with us. And the bill? It's the price we told you on WhatsApp, nothing extra.",
   },
 ];
 
 const related = [
-  { title: "B2B Massage", text: "Our full body signature massage.", href: "/b2b-massage-in-delhi" },
-  { title: "Couples Massage", text: "Side by side with your partner.", href: "/couple-massage" },
+  { title: "Sandwich Massage", text: "Two therapists, one person.", href: "/sandwich-massage" },
   { title: "Full Body Massage", text: "One therapist, head to toe.", href: "/full-body-massage-in-delhi" },
-  { title: "Thai Massage", text: "Stretching for stiff backs and hips.", href: "/thai-massage-in-delhi" },
-  { title: "Deep Tissue Massage", text: "Firm pressure for stubborn knots.", href: "/deep-tissue-massage-in-delhi" },
+  { title: "Aromatherapy Massage", text: "Scented oils for a calm mind.", href: "/aromatherapy-massage-in-delhi" },
   { title: "Swedish Massage", text: "Gentle, slow strokes to switch off.", href: "/swedish-massage-in-delhi" },
+  { title: "Deep Tissue Massage", text: "Firm pressure for stubborn knots.", href: "/deep-tissue-massage-in-delhi" },
+  { title: "Thai Massage", text: "Stretching for stiff backs and hips.", href: "/thai-massage-in-delhi" },
 ];
 
 const guides = [
-  { title: "Health Benefits of Sandwich Massage", href: "/health-benefits-of-sandwich-massage" },
-  { title: "What to Expect From Your First Sandwich Massage", href: "/blog/sandwich-massage-in-delhi" },
+  { title: "How Hot Stone Massage Works", href: "/how-hot-stone-massage-works-in-delhi-spa" },
+  { title: "Difference Between Spa and Massage", href: "/blog/what-is-the-difference-between-spa-and-massage" },
 ];
 
 const testimonials = [
   {
-    name: "Rahul Mehta",
-    role: "Regular Client",
+    name: "Rohit Malhotra",
+    role: "Software Engineer",
     review:
-      "Had a wonderful experience at Luxury Russian Spa. The sandwich massage was relaxing, and the overall atmosphere was clean, peaceful, and comfortable. The staff was professional and welcoming. Highly recommended!",
+      "I booked a massage after a long week at work. The therapist understood exactly where the pain was. After the session, my back felt much lighter. Very peaceful place and good service.",
   },
   {
-    name: "Rahul Singh",
-    role: "Fitness Enthusiast",
+    name: "Neha Verma",
+    role: "HR Manager",
     review:
-      "One of the most relaxing spa experiences I've had. The sandwich massage service was smooth and the ambiance felt truly premium. Great hospitality and attention to detail. Would definitely visit again!",
+      "We really enjoyed our couple massage session. The staff was welcoming, the environment was clean, and the overall experience felt premium. It was a lovely way to spend quality time together.",
   },
   {
-    name: "Arjun Kapoor",
-    role: "Working Professional",
+    name: "Karan Arora",
+    role: "Business Owner",
     review:
-      "Luxury Russian Spa offers a premium wellness experience. I really enjoyed the sandwich massage and appreciated the comfortable environment and professional service. A great place to unwind and relax in Delhi.",
+      "Luxury Russian Spa offers a relaxing and premium wellness experience. Our couple massage was enjoyable, with excellent hospitality and a comfortable atmosphere. Would love to visit again.",
   },
 ];
 
@@ -307,14 +321,14 @@ function WhatsAppButton({ children = "Book on WhatsApp", className = "" }) {
   );
 }
 
-export default function Sandpage() {
+export default function Couplepage() {
   return (
     <main className="font-sans overflow-hidden">
       {/* 1. Hero */}
-      <section aria-labelledby="sandwich-hero-title" className="relative bg-dark">
+      <section aria-labelledby="couple-hero-title" className="relative bg-dark">
         <Image
-          src="/images/447701.jpg"
-          alt="Sandwich massage in Delhi at Luxury Russian Spa"
+          src="/images/446979.jpg"
+          alt="Couple massage in Delhi at Luxury Russian Spa"
           fill
           priority
           sizes="100vw"
@@ -329,29 +343,30 @@ export default function Sandpage() {
             <span className="mx-2">/</span>
             <a href="/massage-service-in-delhi" className="hover:text-secondary">Services</a>
             <span className="mx-2">/</span>
-            <span className="text-white">Sandwich Massage</span>
+            <span className="text-white">Couple Massage</span>
           </nav>
 
           <span className="inline-flex items-center gap-2 rounded-full border border-secondary/60 bg-black/30 px-5 py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-white">
-            <Sparkles className="size-3.5 text-secondary" /> Signature Four-Hand Massage <Sparkles className="size-3.5 text-secondary" />
+            <Sparkles className="size-3.5 text-secondary" /> Romantic Couples Spa <Sparkles className="size-3.5 text-secondary" />
           </span>
 
           <h1
-            id="sandwich-hero-title"
+            id="couple-hero-title"
             className="mt-6 font-title font-bold text-[40px] leading-[1.1] sm:text-6xl lg:text-7xl bg-gradient-to-b from-[#fff3e8] via-[#f6d2b4] to-[#e8a57a] bg-clip-text text-transparent drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]"
           >
-            Sandwich Massage in Delhi
+            Couple Massage in Delhi
           </h1>
 
           <p className="mt-5 font-title text-lg sm:text-2xl text-white">
-            Two Therapists <span className="text-secondary" aria-hidden="true">·</span> One Session{" "}
+            Two Tables <span className="text-secondary" aria-hidden="true">·</span> One Room{" "}
             <span className="text-secondary" aria-hidden="true">·</span> From ₹1,999
           </p>
 
           <p className="mt-5 mx-auto max-w-2xl text-sm sm:text-base leading-relaxed text-white/85">
-            Ever wished you had more than two hands working out the knots? That&apos;s a sandwich massage. Two
-            therapists, one on each side, moving together. Our sandwich spa in Delhi has outlets across the city and
-            partner 5-star hotels, so you won&apos;t have to travel far.
+            When did the two of you last do nothing together? A couple massage is exactly that. You lie next to each
+            other, each with your own therapist, in a room where nobody&apos;s going to knock. You&apos;ll find our
+            couple spa in Delhi in most parts of the city, and in a few 5-star hotels too. Or we can just come to your
+            place. Whatever&apos;s easier.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
@@ -391,14 +406,14 @@ export default function Sandpage() {
         </dl>
       </div>
 
-      {/* 2. What is a sandwich massage */}
-      <section aria-labelledby="sandwich-intro-title" className="bg-white py-16 md:py-24 px-4 md:px-8">
+      {/* 2. What is a couple massage */}
+      <section aria-labelledby="couple-intro-title" className="bg-white py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-6xl mx-auto grid gap-14 lg:grid-cols-2 lg:items-center">
           <div className="relative pb-16 pr-10 sm:pr-20">
             <div className="relative aspect-square overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
               <Image
-                src="/images/Sandwich Massage.webp"
-                alt="Two therapists giving a sandwich massage at our sandwich massage centre in Delhi"
+                src="/images/Couple Massage.webp"
+                alt="Couple in spa getting a side-by-side couple massage in Delhi"
                 fill
                 sizes="(max-width:1024px) 90vw, 45vw"
                 className="object-cover"
@@ -406,37 +421,38 @@ export default function Sandpage() {
             </div>
             <div className="absolute bottom-0 right-0 w-[48%] aspect-[4/5] overflow-hidden rounded-3xl border-[6px] border-white shadow-xl">
               <Image
-                src="/images/spaservices4.jpg"
-                alt="Sandwich massage therapists working in sync"
+                src="/images/447701.jpg"
+                alt="Private couple massage spa room with two tables"
                 fill
                 sizes="(max-width:1024px) 45vw, 22vw"
                 className="object-cover"
               />
             </div>
             <span className="absolute left-5 top-5 rounded-full bg-white/90 px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary shadow">
-              4 Hands · 1 Rhythm
+              2 Tables · 1 Room
             </span>
           </div>
 
           <div>
             <HomeHeading
-              id="sandwich-intro-title"
+              id="couple-intro-title"
               align="left"
-              eyebrow="Two Therapists, One Goal"
+              eyebrow="Relax Side by Side"
               title="What Is a"
-              highlight="Sandwich Massage?"
+              highlight="Couple Massage?"
               className="!mb-6"
             />
             <p className="leading-relaxed text-bodycolor">
-              So what is a sandwich massage? Think of a normal full body massage, but with two therapists instead of
-              one. One stands on your left, one on your right, and you&apos;re the filling in the middle. That&apos;s
-              where the name comes from. They move at the same pace, so after a minute or two you stop noticing
-              there are four hands. It just feels like one long, slow massage.
+              A couple massage is pretty simple. You and your partner lie on two tables next to each other, and you
+              each get your own therapist. You don&apos;t have to want the same thing either. If you like it firm and
+              your partner likes it gentle, just tell us. People search for it as couples massage therapy, or even a
+              lovers massage, but really it&apos;s an hour you get to spend together without having to make
+              conversation.
             </p>
             <p className="mt-4 leading-relaxed text-bodycolor">
-              Honestly, whether it turns out to be the best sandwich massage you&apos;ve had or just an okay one comes
-              down to the two therapists. If one is quick and the other slow, it gets distracting. We pair ours up so
-              that doesn&apos;t happen.
+              It&apos;s the small stuff people remember. Is the room really private? Does your massage end when your
+              partner&apos;s does? Is the oil warm, or is it freezing? We pay attention to all of it. Honestly,
+              that&apos;s why a lot of couples come back and tell their friends we&apos;re the best couple spa in Delhi.
             </p>
 
             <div className="mt-8 space-y-5">
@@ -463,15 +479,15 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 3. Techniques */}
-      <section aria-labelledby="sandwich-techniques-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      {/* 3. Massage styles */}
+      <section aria-labelledby="couple-styles-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-techniques-title"
-            eyebrow="Inside the Session"
-            title="How Our Therapists Do a"
-            highlight="Sandwich Massage"
-            text="No fixed script. These are the four things that make the session work, and your therapists adjust each one for you."
+            id="couple-styles-title"
+            eyebrow="Choose Your Style"
+            title="Couples Massage"
+            highlight="Options We Offer"
+            text="Four styles couples ask for the most. You don't have to pick the same one as your partner. Each of you can choose your own."
           />
           <div className="grid gap-6 md:grid-cols-2">
             {techniques.map((t, i) => (
@@ -482,7 +498,7 @@ export default function Sandpage() {
                 <div className="relative h-56 shrink-0 overflow-hidden sm:h-auto sm:w-[42%]">
                   <Image
                     src={t.image}
-                    alt={`${t.title} during a sandwich massage`}
+                    alt={`${t.title} at our couple spa in Delhi`}
                     fill
                     sizes="(max-width:640px) 100vw, 25vw"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -506,23 +522,21 @@ export default function Sandpage() {
               </article>
             ))}
           </div>
+          <p className="mt-8 text-center text-sm text-bodycolor">
+            Want a couples facial too? Ask us when you book and we&apos;ll add one after your massage.
+          </p>
         </div>
       </section>
 
       {/* 4. Benefits */}
-      <section aria-labelledby="sandwich-benefits-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="couple-benefits-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-benefits-title"
-            eyebrow="Why People Love It"
+            id="couple-benefits-title"
+            eyebrow="Why Couples Love It"
             title="Benefits of a"
-            highlight="Sandwich Massage"
-            text={
-              <>
-                Here&apos;s what guests usually notice after a session. Want the longer version? Read our guide on the{" "}
-                <a href="/health-benefits-of-sandwich-massage" className={linkClass}>health benefits of sandwich massage</a>.
-              </>
-            }
+            highlight="Couple Massage"
+            text="Here's what couples usually tell us after a session. Some of it is about the body, and some of it is just about spending proper time together."
           />
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {benefits.map(({ icon: Icon, title, description }) => (
@@ -541,35 +555,35 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 5. Who it's for */}
-      <section aria-labelledby="sandwich-ideal-title" className="bg-cream py-16 md:py-20 px-4 md:px-8">
+      {/* 5. Occasions */}
+      <section aria-labelledby="couple-occasions-title" className="bg-cream py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)] lg:order-last">
             <Image
-              src="/images/hb1.webp"
-              alt="Guest relaxing during a sandwich massage session in Delhi"
+              src="/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg"
+              alt="Candle-lit romantic massage spa room set up for a couples spa day"
               fill
               sizes="(max-width:1024px) 90vw, 45vw"
               className="object-cover"
             />
             <div className="absolute inset-x-5 bottom-5 rounded-2xl bg-white/95 p-5 shadow-xl">
-              <p className="font-title text-lg font-bold text-amber-900">Not sure it&apos;s for you?</p>
-              <p className="mt-1 text-sm text-bodycolor">Message us. We&apos;ll tell you honestly if another massage suits you better.</p>
+              <p className="font-title text-lg font-bold text-amber-900">Planning a surprise?</p>
+              <p className="mt-1 text-sm text-bodycolor">Tell us on WhatsApp. We&apos;ll keep it quiet and get the room ready before you both arrive.</p>
             </div>
           </div>
 
           <div>
             <HomeHeading
-              id="sandwich-ideal-title"
+              id="couple-occasions-title"
               align="left"
-              eyebrow="Is It For You?"
-              title="Who Should Book a"
-              highlight="Sandwich Massage?"
-              text="Pretty much anyone who needs a proper break. It's especially good if you're one of these:"
+              eyebrow="Make It Special"
+              title="A Couples Spa Day for"
+              highlight="Every Occasion"
+              text="You don't need a reason to book a romantic couples massage. But if you have one, here are the ones we see the most:"
               className="!mb-8"
             />
             <ul className="grid gap-3 sm:grid-cols-2">
-              {idealFor.map((item) => (
+              {occasions.map((item) => (
                 <li key={item} className="flex items-start gap-3 rounded-2xl bg-white p-4 shadow-[0_4px_16px_rgba(43,24,16,0.05)]">
                   <span className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-primary text-white">
                     <Check className="size-3.5" strokeWidth={3} />
@@ -578,23 +592,23 @@ export default function Sandpage() {
                 </li>
               ))}
             </ul>
-            <WhatsAppButton className="mt-8">Ask Us on WhatsApp</WhatsAppButton>
+            <WhatsAppButton className="mt-8">Plan It on WhatsApp</WhatsAppButton>
           </div>
         </div>
       </section>
 
       {/* 6. Pricing */}
-      <section id="pricing" aria-labelledby="sandwich-pricing-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      <section id="pricing" aria-labelledby="couple-pricing-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-pricing-title"
-            eyebrow="Clear Prices"
-            title="Sandwich Massage"
+            id="couple-pricing-title"
+            eyebrow="Couples Packages"
+            title="Couple Massage"
             highlight="Price in Delhi"
             text={
               <>
-                Three options, all with two therapists. The price we quote on WhatsApp is the price you pay. Comparing
-                other treatments? See all our <a href="/spa-price-in-delhi" className={linkClass}>spa prices in Delhi</a>.
+                Three couples packages, all in a private room. The price we quote on WhatsApp is the price you pay.
+                Comparing other treatments? See all our <a href="/spa-price-in-delhi" className={linkClass}>spa prices in Delhi</a>.
               </>
             }
           />
@@ -647,14 +661,20 @@ export default function Sandpage() {
       </section>
 
       {/* 7. Near me: internal links to area pages */}
-      <section aria-labelledby="sandwich-near-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="couple-near-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-near-title"
-            eyebrow="Sandwich Massage Near Me"
-            title="Find a Sandwich Massage"
-            highlight="Centre Near You"
-            text="Searching for a sandwich massage near me? Pick your area below to see the outlet details, or send us your location on WhatsApp and we'll point you to the closest one."
+            id="couple-near-title"
+            eyebrow="Couples Massage Near Me"
+            title="Find a Couple Spa"
+            highlight="Near You"
+            text={
+              <>
+                Looking for the best couples massage near me? Pick your area below to see the outlet, or send us your
+                location on WhatsApp and we&apos;ll point you to the closest one. In South Delhi? Try our{" "}
+                <a href="/couple-massage-in-saket" className={linkClass}>couple massage in Saket</a>.
+              </>
+            }
           />
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {nearbyOutlets.map(({ area, note, href }) => (
@@ -676,18 +696,18 @@ export default function Sandpage() {
             ))}
           </ul>
           <p className="mt-8 text-center text-sm text-bodycolor">
-            Can&apos;t see your area? <a href="/outlets" className={linkClass}>View all 24+ outlets</a>.
+            Can&apos;t see your area? We cover all of Delhi NCR. <a href="/outlets" className={linkClass}>View all 24+ outlets</a>.
           </p>
         </div>
       </section>
 
-      {/* 8. Oils */}
-      <section aria-labelledby="sandwich-oil-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      {/* 8. At home */}
+      <section aria-labelledby="couple-home-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="relative aspect-[5/4] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
             <Image
-              src="/images/137.jpg"
-              alt="Warm oil therapy during a Delhi sandwich massage"
+              src="/images/luxurySpaRoom.jpg"
+              alt="Couple massage at home in Delhi with candles and warm oils"
               fill
               sizes="(max-width:1024px) 90vw, 45vw"
               className="object-cover"
@@ -695,26 +715,67 @@ export default function Sandpage() {
           </div>
           <div>
             <HomeHeading
-              id="sandwich-oil-title"
+              id="couple-home-title"
               align="left"
-              eyebrow="The Little Things"
-              title="The Oils We Use"
-              highlight="and Why"
+              eyebrow="Stay In Tonight"
+              title="Couple Massage"
+              highlight="at Home in Delhi"
               className="!mb-6"
             />
             <p className="leading-relaxed text-bodycolor">
-              Most people don&apos;t think about the oil, but you&apos;d notice if it was wrong. If it&apos;s too thin,
-              it dries up in five minutes. If it&apos;s too heavy, you feel sticky for the rest of the day. So for a Delhi
-              sandwich massage, we use a light oil. We warm it a bit first so it isn&apos;t cold on your skin. You can
-              add lavender, eucalyptus, sandalwood or rosemary if you like. Just ask.
+              Don&apos;t feel like getting dressed and sitting in traffic? Fair enough. Our therapists can bring the
+              couple massage to you, whether that&apos;s your flat in Delhi or your hotel room in Aerocity. They set up
+              everything, and they pack it all away when they leave.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {homePoints.map((p) => (
+                <li key={p} className="flex items-start gap-3 text-sm text-amber-900">
+                  <Check className="mt-0.5 size-4 shrink-0 text-primary" strokeWidth={3} />
+                  {p}
+                </li>
+              ))}
+            </ul>
+            <WhatsAppButton className="mt-8">Book a Home Visit</WhatsAppButton>
+          </div>
+        </div>
+      </section>
+
+      {/* 9. Oils and setup */}
+      <section aria-labelledby="couple-oil-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-2 lg:items-center">
+          <div className="lg:order-last relative aspect-[5/4] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
+            <Image
+              src="/images/137.jpg"
+              alt="Warm aroma oil for a romantic body massage"
+              fill
+              sizes="(max-width:1024px) 90vw, 45vw"
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <HomeHeading
+              id="couple-oil-title"
+              align="left"
+              eyebrow="The Little Things"
+              title="Setting the Mood"
+              highlight="for Two"
+              className="!mb-6"
+            />
+            <p className="leading-relaxed text-bodycolor">
+              A romantic body massage isn&apos;t only about the hands. Half of it is the room, if we&apos;re
+              being honest. So by the time you two get there, the lights are already down and the candles are on. The music stays low enough that you
+              can barely hear it. It ends up feeling a little sensual, in a calm way. We also warm the oil first. Cold
+              oil on your back is the quickest way to kill the mood, trust us.
             </p>
             <p className="mt-4 leading-relaxed text-bodycolor">
-              Allergic to something, or have sensitive skin? Tell us before the session and we&apos;ll use a plain, unscented oil, or
-              do a cream or dry massage instead. If you&apos;d like to see everything else we offer, have a look at our{" "}
-              <a href="/massage-service-in-delhi" className={linkClass}>massage services in Delhi</a>.
+              You two get to choose the smell. Couples usually go for jasmine or rose. If one of you is stressed out,
+              lavender is a good idea. Can&apos;t decide? Sandalwood is a safe bet, almost everyone likes it. And if
+              your skin gets irritated easily, just let us know and we&apos;ll use plain oil with no scent. Want to
+              look at our other treatments? They&apos;re on the{" "}
+              <a href="/massage-service-in-delhi" className={linkClass}>massage services in Delhi</a> page.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
-              {["Lavender", "Eucalyptus", "Sandalwood", "Rosemary"].map((oil) => (
+              {["Jasmine", "Rose", "Lavender", "Sandalwood"].map((oil) => (
                 <span key={oil} className="rounded-full bg-amber-200/70 px-4 py-1.5 text-xs font-semibold text-amber-800">
                   {oil}
                 </span>
@@ -724,13 +785,13 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 9. How to book: 3 steps */}
-      <section aria-labelledby="sandwich-steps-title" className="bg-cream py-16 md:py-20 px-4 md:px-8">
+      {/* 10. How to book: 3 steps */}
+      <section aria-labelledby="couple-steps-title" className="bg-cream py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-steps-title"
+            id="couple-steps-title"
             eyebrow="Simple Booking"
-            title="Book Your Sandwich Massage in"
+            title="Book Your Couple Massage in"
             highlight="3 Easy Steps"
           />
           <ol className="relative grid gap-10 md:grid-cols-3">
@@ -753,19 +814,19 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 10. Why choose us */}
-      <section aria-labelledby="sandwich-why-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      {/* 11. Why choose us */}
+      <section aria-labelledby="couple-why-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
           <div>
             <HomeHeading
-              id="sandwich-why-title"
+              id="couple-why-title"
               align="left"
               eyebrow="Why Book With Us"
-              title="A Sandwich Massage Spa in Delhi"
-              highlight="That Keeps It Simple"
+              title="The Best Couple Massage Spa in Delhi"
+              highlight="Without the Fuss"
               text={
                 <>
-                  No long menus, no upselling, just a good massage at a fair{" "}
+                  No long menus, no upselling, just a good couples massage and spa experience at a fair{" "}
                   <a href="/spa-price-in-delhi" className={linkClass}>spa price in Delhi</a>. Here&apos;s what you
                   can count on.
                 </>
@@ -790,7 +851,7 @@ export default function Sandpage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.2)]">
               <Image
                 src="/images/spaExper2.webp"
-                alt="Sandwich massage therapist at Luxury Russian Spa, Delhi"
+                alt="Couple massage therapist at Luxury Russian Spa, Delhi"
                 fill
                 sizes="(max-width:1024px) 90vw, 40vw"
                 className="object-cover"
@@ -804,14 +865,14 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 11. Partner hotels (shared component) */}
-      <LuxuryHotelShowcase service="Sandwich Massage" serviceHref="/sandwich-massage" serviceLower="sandwich massage" />
+      {/* 12. Partner hotels (shared component) */}
+      <LuxuryHotelShowcase service="Couple Massage" serviceHref="/couple-massage" serviceLower="couple massage" />
 
-      {/* 12. Testimonials */}
-      <section aria-labelledby="sandwich-reviews-title" className="bg-[#fdf3ee] py-16 md:py-20 px-4 md:px-8">
+      {/* 13. Testimonials */}
+      <section aria-labelledby="couple-reviews-title" className="bg-[#fdf3ee] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-reviews-title"
+            id="couple-reviews-title"
             eyebrow="Client Experiences"
             title="What Our"
             highlight="Guests Say"
@@ -838,11 +899,11 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 13. Related massages + guides (internal linking) */}
-      <section aria-labelledby="sandwich-related-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      {/* 14. Related massages + guides (internal linking) */}
+      <section aria-labelledby="couple-related-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="sandwich-related-title"
+            id="couple-related-title"
             eyebrow="Explore More"
             title="Other Massages"
             highlight="You Might Like"
@@ -876,13 +937,13 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 14. FAQ (native <details>, works without JavaScript) */}
-      <section aria-labelledby="sandwich-faq-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      {/* 15. FAQ (native <details>, works without JavaScript) */}
+      <section aria-labelledby="couple-faq-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           <HomeHeading
-            id="sandwich-faq-title"
+            id="couple-faq-title"
             eyebrow="Questions? We're Here To Help"
-            title="Sandwich Massage"
+            title="Couple Massage"
             highlight="FAQs"
           />
           <div className="space-y-4">
@@ -908,17 +969,17 @@ export default function Sandpage() {
         </div>
       </section>
 
-      {/* 15. Final CTA */}
-      <section aria-labelledby="sandwich-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
+      {/* 16. Final CTA */}
+      <section aria-labelledby="couple-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
         <Image src="/images/453.webp" alt="" fill sizes="100vw" className="object-cover opacity-20" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto text-center">
           <HomeHeading
             light
-            id="sandwich-cta-title"
+            id="couple-cta-title"
             eyebrow="Book Today"
             title="Ready for Your"
-            highlight="Sandwich Massage?"
-            text="Tell us when and where, at an outlet or in your hotel room, and we'll set it up. We're available 24/7."
+            highlight="Couple Massage?"
+            text="Tell us when and where, at an outlet, in your hotel room or at home, and we'll set it up for both of you. We're available 24/7."
             className="!mb-8"
           />
           <div className="flex flex-col sm:flex-row justify-center gap-4">

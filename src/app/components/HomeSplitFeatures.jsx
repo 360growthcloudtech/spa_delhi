@@ -19,13 +19,13 @@ const blocks = [
         what&apos;s bothering you, a stiff neck from the laptop or legs that are done after a day on your feet, and our
         Indian and international therapists will suggest what actually helps. Most guests go for a full body massage or a
         B2B massage. Coming with your partner? Our{" "}
-        <a href="/couples-massage-in-delhi" className={linkClass}>couples massage in Delhi</a> lets you both unwind in
+        <a href="/couple-massage" className={linkClass}>couples massage in Delhi</a> lets you both unwind in
         the same room. Sessions start at ₹1,999, and if you&apos;d rather not travel, we can come to your hotel room or
         home.
       </>,
     ],
     primary: { label: "Book a Session", href: WHATSAPP_URL, icon: "whatsapp", external: true },
-    secondary: { label: "Explore Therapies", href: "/couples-massage-in-delhi" },
+    secondary: { label: "Explore Therapies", href: "/couple-massage" },
   },
   {
     eyebrow: "Exclusive Body Spa Outlets",

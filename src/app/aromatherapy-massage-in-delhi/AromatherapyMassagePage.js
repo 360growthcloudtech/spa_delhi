@@ -100,7 +100,7 @@ export default function AromatherapyMassagePage() {
       title: "Couple Massage",
       description: "Enjoy a relaxing aromatherapy-style session together in a private, comfortable room.",
       icon: "👫",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
       linkText: "Explore Couples Massage in Delhi",
     },
     {

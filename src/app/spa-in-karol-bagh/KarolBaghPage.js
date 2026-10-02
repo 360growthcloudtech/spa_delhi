@@ -154,7 +154,7 @@ export default function KarolBaghPage() {
       title: "Couple Massage",
       description: "Get closer and unwind together with our Couple Massage, designed to let two people relax in the same room and enjoy a peaceful session.",
       icon: "👫",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
       linkText: "Explore Couples Massage in Delhi",
     },
     {

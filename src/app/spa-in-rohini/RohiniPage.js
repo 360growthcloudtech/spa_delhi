@@ -43,7 +43,7 @@ const highlights = [
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Rohini that eases muscle tension and leaves you feeling refreshed head to toe.", href: "/full-body-massage-in-delhi" },
   { title: "B2B Massage", desc: "A specialised, full-contact body to body therapy performed with premium oils for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
-  { title: "Couple Massage", desc: "Our couple massage in Rohini gives two people a shared, private session in one comfortable room.", href: "/couples-massage-in-delhi" },
+  { title: "Couple Massage", desc: "Our couple massage in Rohini gives two people a shared, private session in one comfortable room.", href: "/couple-massage" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots and stiffness in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
   { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes to relax the mind and refresh the senses.", href: "/aromatherapy-massage-in-delhi" },

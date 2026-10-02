@@ -157,7 +157,7 @@ export default function Lajpatpage() {
       title: "Couple Massage",
       description: "Get closer and take a rest together with our Couple Massage, designed to allow two individuals to relax in the same room and enjoy a relaxing moment.",
       icon: "👫",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
     },
     {
       title: "Thai Massage",

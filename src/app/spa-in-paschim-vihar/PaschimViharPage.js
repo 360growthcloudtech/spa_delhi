@@ -44,7 +44,7 @@ const services = [
   { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "Thai Massage", desc: "Traditional stretching and pressure-point technique for deep, active relaxation.", href: "/thai-massage-in-delhi" },
-  { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couples-massage-in-delhi" },
+  { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
 ];
 

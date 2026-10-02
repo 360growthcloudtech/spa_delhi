@@ -45,7 +45,7 @@ const services = [
   { title: "B2B Massage", desc: "Our B2B spa Paharganj session is a full-contact, full-body therapy for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Thai Massage", desc: "A traditional Thai spa in Paharganj session using stretching and pressure to ease stiffness.", href: "/thai-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couples-massage-in-delhi" },
+  { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
 ];
 
@@ -230,7 +230,7 @@ export default function PaharganjPage() {
             { title: "B2B Massage in Delhi", icon: <FaHandSparkles />, href: "/b2b-massage-in-delhi" },
             { title: "Thai Massage in Delhi", icon: <FaHotTub />, href: "/thai-massage-in-delhi" },
             { title: "Deep Tissue Massage in Delhi", icon: <FaCheckCircle />, href: "/deep-tissue-massage-in-delhi" },
-            { title: "Couples Massage in Delhi", icon: <FaHeart />, href: "/couples-massage-in-delhi" },
+            { title: "Couples Massage in Delhi", icon: <FaHeart />, href: "/couple-massage" },
             { title: "Sandwich Massage in Delhi", icon: <FaSpa />, href: "/sandwich-massage" },
             { title: "Aromatherapy Massage in Delhi", icon: <FaLeaf />, href: "/aromatherapy-massage-in-delhi" },
             { title: "Spa Price in Delhi", icon: <FaRupeeSign />, href: "/spa-price-in-delhi" },

@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const LuxuryHotelShowcase = ({
   service = "Couple Massage",
-  serviceHref = "/couples-massage-in-delhi",
+  serviceHref = "/couple-massage",
   serviceLower = "couple massage",
 }) => {
   const [activeHotel, setActiveHotel] = useState(0);

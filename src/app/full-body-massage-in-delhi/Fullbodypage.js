@@ -313,7 +313,7 @@ export default function Fullbodypage() {
             <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHeart /></div>
             <h3 className="text-lg font-semibold text-[#1f1a17]">vs. Couples Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
-              <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Couples massage</Link>{" "}
+              <Link href="/couple-massage" className="font-medium text-amber-700 underline hover:text-amber-800">Couples massage</Link>{" "}
               is a shared, side-by-side session for two — a better pick for a date or anniversary than a solo session.
             </p>
           </div>
@@ -543,7 +543,7 @@ export default function Fullbodypage() {
           {[
             { title: "B2B Massage in Delhi", href: "/b2b-massage-in-delhi" },
             { title: "Deep Tissue Massage in Delhi", href: "/deep-tissue-massage-in-delhi" },
-            { title: "Couples Massage in Delhi", href: "/couples-massage-in-delhi" },
+            { title: "Couples Massage in Delhi", href: "/couple-massage" },
             { title: "Thai Massage in Delhi", href: "/thai-massage-in-delhi" },
             { title: "Swedish Massage in Delhi", href: "/swedish-massage-in-delhi" },
             { title: "Sandwich Massage in Delhi", href: "/sandwich-massage" },

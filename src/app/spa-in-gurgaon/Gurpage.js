@@ -164,7 +164,7 @@ export default function Gurpage() {
       title: "Hot Stone Massage",
       description: "Hot stones are gently rubbed over specific areas of tension to promote deep muscle relaxation. This treatment helps ease stress, promotes better sleep, and fosters a balance in your body.",
       icon: "🪨",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
     },
     {
       title: "Thai Massage",

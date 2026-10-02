@@ -173,7 +173,7 @@ export default function Aeropage() {
       description:
         "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
       icon: "👫",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
     },
     {
       title: "Aromatherapy",

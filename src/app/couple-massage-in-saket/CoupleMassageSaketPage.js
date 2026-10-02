@@ -179,7 +179,7 @@ export default function CoupleMassageSaketPage() {
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHeart /></div>
                 <h3 className="text-lg font-semibold text-[#1f1a17]">Actually Shared, Not Just Side-by-Side</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  One room, two therapists working together — our <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link> is a genuinely shared experience.
+                  One room, two therapists working together — our <Link href="/couple-massage" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link> is a genuinely shared experience.
                 </p>
               </motion.div>
 
@@ -427,7 +427,7 @@ export default function CoupleMassageSaketPage() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { title: "Spa in Saket", href: "/spa-in-saket" },
-            { title: "Couples Massage in Delhi", href: "/couples-massage-in-delhi" },
+            { title: "Couples Massage in Delhi", href: "/couple-massage" },
             { title: "Sandwich Massage", href: "/sandwich-massage" },
             { title: "Aromatherapy Massage", href: "/aromatherapy-massage-in-delhi" },
           ].map((item) => (

@@ -85,7 +85,7 @@ export default function ThaiMassagePage() {
       title: "Couple Massage",
       description: "Relax together in the same room with our Couple Massage, designed for two people to unwind side by side.",
       icon: "👫",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
       linkText: "Explore Couples Massage in Delhi",
     },
   ];

@@ -43,7 +43,7 @@ const services = [
   { title: "Full Body Massage", desc: "A classic head-to-toe session using smooth, flowing strokes — the most-booked treatment at our Noida spa centre.", href: "/full-body-massage-in-delhi" },
   { title: "B2B Massage", desc: "A specialised, full-contact therapy performed with premium oils for genuinely deep relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Aromatherapy Massage", desc: "Scented essential oils paired with massage technique for a calmer, more sensory session.", href: "/aromatherapy-massage-in-noida" },
-  { title: "Couples Massage", desc: "One private room, two therapists — a genuinely shared spa experience for two.", href: "/couples-massage-in-delhi" },
+  { title: "Couples Massage", desc: "One private room, two therapists — a genuinely shared spa experience for two.", href: "/couple-massage" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
 ];

@@ -17,7 +17,7 @@ const items = [
     title: "Couple Massage",
     tagline: "Side by side, in a private room",
     image: "/images/couple-bathrobes-posing-embraced.jpg",
-    link: "/couples-massage-in-delhi",
+    link: "/couple-massage",
   },
   {
     title: "Thai Massage",

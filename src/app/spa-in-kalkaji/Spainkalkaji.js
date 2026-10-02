@@ -56,7 +56,7 @@ const services = [
     title: "Couple Massage in Kalkaji",
     desc: "A shared wellness experience in a private, comfortable room where two people can relax together in complete peace.",
     icon: <FaHeart className="text-rose-500" />,
-    href: "/couples-massage-in-delhi",
+    href: "/couple-massage",
   },
   {
     title: "Sandwich Massage",
@@ -295,7 +295,7 @@ export default function Spainkalkaji() {
               <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>,{" "}
               <Link href="/sandwich-massage" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>,{" "}
               <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>,{" "}
-              <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>, and{" "}
+              <Link href="/couple-massage" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>, and{" "}
               <Link href="/aromatherapy-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">aromatherapy massage</Link>. Whichever brought you to Kalkaji today, a first session starts at ₹1999.
             </p>
             <p>
@@ -473,7 +473,7 @@ export default function Spainkalkaji() {
             { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
             { title: "Sandwich Massage", href: "/sandwich-massage" },
             { title: "B2B Massage", href: "/b2b-massage-in-delhi" },
-            { title: "Couples Massage", href: "/couples-massage-in-delhi" },
+            { title: "Couples Massage", href: "/couple-massage" },
             { title: "Spa in Greater Kailash", href: "/spa-in-greater-kailash" },
             { title: "Spa in Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
             { title: "Spa in Saket", href: "/spa-in-saket" },

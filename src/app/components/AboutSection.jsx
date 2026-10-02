@@ -44,7 +44,7 @@ export default function AboutSection() {
               Not sure what to book? A{" "}
               <a href="/sandwich-massage" className="font-medium text-amber-700 underline underline-offset-4">sandwich massage</a>{" "}
               gives you two therapists at once. A{" "}
-              <a href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">couples massage</a>{" "}
+              <a href="/couple-massage" className="font-medium text-amber-700 underline underline-offset-4">couples massage</a>{" "}
               works well if you&apos;re coming with your partner, and Thai is good for a stiff back or tight hips. Our{" "}
               <a href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">B2B massage</a>{" "}
               is the full body signature. Still can&apos;t decide? Message us and we&apos;ll help.

@@ -29,6 +29,12 @@ const nextConfig = {
         destination: "/sandwich-massage",
         permanent: true,
       },
+      // Couple massage page moved so the URL leads with the primary keyword
+      {
+        source: "/couples-massage-in-delhi",
+        destination: "/couple-massage",
+        permanent: true,
+      },
       {
         source: "/hotel-and-home-spa",
         destination: "/massage-service-in-delhi",

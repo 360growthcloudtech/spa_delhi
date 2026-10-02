@@ -31,7 +31,7 @@ const services = [
   {
     title: "Couples Massage",
     image: "/images/Couple Massage.webp",
-    link: "/couples-massage-in-delhi",
+    link: "/couple-massage",
     icon: "💞",
     tags: ["Private Suite", "For Two"],
     desc: "Side-by-side sessions in a shared private suite. A lovely way to spend an anniversary, birthday or date day.",

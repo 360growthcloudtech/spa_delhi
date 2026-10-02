@@ -17,7 +17,7 @@ const socials = [
 
 const servicesDropdown = [
   { name: "Sandwich Massage", href: "/sandwich-massage" },
-  { name: "Couple Massage", href: "/couples-massage-in-delhi" },
+  { name: "Couple Massage", href: "/couple-massage" },
   { name: "B2B Massage", href: "/b2b-massage-in-delhi" },
   { name: "Full Body Massage", href: "/full-body-massage-in-delhi" },
   { name: "Deep Tissue Massage", href: "/deep-tissue-massage-in-delhi" },

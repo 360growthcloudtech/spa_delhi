@@ -212,7 +212,7 @@ export default function Conaughtpage() {
       description:
         "Enjoy relaxing together with a Couple Massage—for those who want to bond in a peaceful, cozy space. It is an experience that is shared and serves as an important experience both physically and emotionally.",
       icon: "👫",
-      url: "/couples-massage-in-delhi",
+      url: "/couple-massage",
     },
   ];
   {

@@ -56,7 +56,7 @@ const highlights = [
 const services = [
   { title: "Full Body Massage", desc: "A classic head-to-toe session using smooth, flowing strokes for complete relaxation.", href: "/full-body-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots and stiffness in tight muscles.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couples-massage-in-delhi" },
+  { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
   { title: "Thai Massage", desc: "Traditional stretching and pressure-point technique for deep, active relaxation.", href: "/thai-massage-in-delhi" },
   { title: "Swedish Massage", desc: "Long, gliding strokes designed to ease tension and improve circulation.", href: "/swedish-massage-in-delhi" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
@@ -431,7 +431,7 @@ export default function B2Bpage() {
             {[
               { title: "Full Body Massage in Delhi", href: "/full-body-massage-in-delhi" },
               { title: "Deep Tissue Massage in Delhi", href: "/deep-tissue-massage-in-delhi" },
-              { title: "Couples Massage in Delhi", href: "/couples-massage-in-delhi" },
+              { title: "Couples Massage in Delhi", href: "/couple-massage" },
               { title: "Thai Massage in Delhi", href: "/thai-massage-in-delhi" },
               { title: "Swedish Massage in Delhi", href: "/swedish-massage-in-delhi" },
               { title: "Sandwich Massage in Delhi", href: "/sandwich-massage" },
