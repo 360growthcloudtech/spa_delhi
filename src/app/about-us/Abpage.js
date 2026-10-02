@@ -76,7 +76,7 @@ const pricingPlans = [
     description: "Perfect for individual relaxation sessions",
     features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
     highlight: false,
-    ctaLink: "https://wa.link/gdjc65",
+    ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
     icon: <FaSpa className="text-amber-500" />
   },
   {
@@ -85,7 +85,7 @@ const pricingPlans = [
     description: "Premium experience with luxury amenities",
     features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
     highlight: true,
-    ctaLink: "https://wa.link/gdjc65",
+    ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
     icon: <FaHotel className="text-amber-500" />
   },
   {
@@ -691,7 +691,7 @@ export default function Abpage({
               {/* CTA row */}
               <div className="mt-8 flex items-center gap-4">
                 <a
-                  href="https://wa.link/gdjc65"
+                  href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                   className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
                 >
                   Book a Session

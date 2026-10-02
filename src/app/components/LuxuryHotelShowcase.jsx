@@ -117,7 +117,7 @@ const LuxuryHotelShowcase = ({
                 </div>
               </div>
               <a
-                href="https://wa.link/gdjc65"
+                href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-10 block text-center w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
@@ -188,7 +188,7 @@ const LuxuryHotelShowcase = ({
         </div>
 
         <div className="mt-16 text-center">
-          <a href="https://wa.link/gdjc65" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." target="_blank" rel="noopener noreferrer">
             <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 group">
               Book Your {service} Today!
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor">

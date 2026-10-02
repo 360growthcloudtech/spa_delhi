@@ -4,7 +4,7 @@ import { FiMail, FiChevronDown } from "react-icons/fi";
 
 const socials = [
   { name: "Telegram", icon: FaTelegramPlane, link: "https://t.me/+yulqEcJa2dxhM2I9" },
-  { name: "WhatsApp", icon: FaWhatsapp, link: "https://wa.link/gdjc65" },
+  { name: "WhatsApp", icon: FaWhatsapp, link: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." },
   { name: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/delhi.luxury_spa/" },
 ];
 
@@ -138,7 +138,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <a href="https://wa.link/gdjc65" className="site-button mt-6 !py-3">
+            <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="site-button mt-6 !py-3">
               Book a Session
             </a>
           </div>

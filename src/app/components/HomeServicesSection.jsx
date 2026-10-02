@@ -15,7 +15,7 @@ const services = [
   {
     title: "Sandwich Massage",
     image: "/images/Sandwich Massage.webp",
-    link: "/sandwich-massage-in-delhi",
+    link: "/sandwich-massage",
     icon: "✨",
     tags: ["Two Therapists", "Best Seller"],
     desc: "Two therapists work in sync from both sides, so the relaxation goes twice as deep, from head to toe.",

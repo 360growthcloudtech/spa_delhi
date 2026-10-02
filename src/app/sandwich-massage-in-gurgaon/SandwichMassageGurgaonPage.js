@@ -98,7 +98,7 @@ export default function SandwichMassageGurgaonPage() {
               Our sandwich massage in Gurgaon brings a genuinely different kind of relaxation to the city's corporate district — two therapists working in sync, minutes from Cyber Hub and MG Road. First visit from ₹2999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
@@ -157,7 +157,7 @@ export default function SandwichMassageGurgaonPage() {
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaSpa /></div>
                 <h3 className="text-lg font-semibold text-[#1f1a17]">Two Therapists, Twice the Depth</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
-                  Our <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link> is built for people who want a genuinely deeper session without sitting twice as long.
+                  Our <Link href="/sandwich-massage" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link> is built for people who want a genuinely deeper session without sitting twice as long.
                 </p>
               </motion.div>
 
@@ -341,7 +341,7 @@ export default function SandwichMassageGurgaonPage() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { title: "Spa in Gurgaon", href: "/spa-in-gurgaon" },
-            { title: "Sandwich Massage in Delhi", href: "/sandwich-massage-in-delhi" },
+            { title: "Sandwich Massage in Delhi", href: "/sandwich-massage" },
             { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
             { title: "B2B Massage", href: "/b2b-massage-in-delhi" },
           ].map((item) => (
@@ -361,7 +361,7 @@ export default function SandwichMassageGurgaonPage() {
               <p className="mt-3 leading-relaxed text-white/80">Book our outlet, or have two therapists come straight to your home or hotel.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

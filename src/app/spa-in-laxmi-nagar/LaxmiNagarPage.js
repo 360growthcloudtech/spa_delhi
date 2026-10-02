@@ -47,7 +47,7 @@ const services = [
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders built up from long hours at a desk.", href: "/deep-tissue-massage-in-delhi" },
   { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation and a deeper release of physical stress.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared couple massage experience designed for two people to unwind together.", href: "/couples-massage-in-delhi" },
-  { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief than a standard single-therapist massage.", href: "/sandwich-massage-in-delhi" },
+  { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief than a standard single-therapist massage.", href: "/sandwich-massage" },
   { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes to relax the mind, ease anxiety, and refresh the senses.", href: "/aromatherapy-massage-in-delhi" },
 ];
 
@@ -92,7 +92,7 @@ export default function LaxmiNagarPage() {
               Whether you work near the DDA Market, live around Shakarpur or Nirman Vihar, or are simply passing through East Delhi, our outlet and our home spa network mean the best spa in Laxmi Nagar experience is never far away.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
@@ -465,7 +465,7 @@ export default function LaxmiNagarPage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://wa.link/gdjc65" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -562,7 +562,7 @@ export default function LaxmiNagarPage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk in near Vikas Marg, or connect with us for a home or hotel spa booking anywhere in Laxmi Nagar and East Delhi.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

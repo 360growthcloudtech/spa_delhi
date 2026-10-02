@@ -441,7 +441,7 @@ export default function Swedishvsdeeptissue() {
         {/* CTA */}
         <div className="bg-[#fff3e8] border-l-4 border-[#9c5232] p-6 rounded">
           <p className="text-gray-800 font-medium">
-            Ready to book? Explore our dedicated <a href="/deep-tissue-massage-in-delhi" className="text-[#9c5232] hover:underline">deep tissue massage in Delhi</a> service for chronic pain relief, or our <a href="/sandwich-massage-in-delhi" className="text-[#9c5232] hover:underline">Swedish-style sandwich massage</a> for full-body relaxation.
+            Ready to book? Explore our dedicated <a href="/deep-tissue-massage-in-delhi" className="text-[#9c5232] hover:underline">deep tissue massage in Delhi</a> service for chronic pain relief, or our <a href="/sandwich-massage" className="text-[#9c5232] hover:underline">Swedish-style sandwich massage</a> for full-body relaxation.
           </p>
         </div>
 

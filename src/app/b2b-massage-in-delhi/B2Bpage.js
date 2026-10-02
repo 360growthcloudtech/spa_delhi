@@ -59,7 +59,7 @@ const services = [
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couples-massage-in-delhi" },
   { title: "Thai Massage", desc: "Traditional stretching and pressure-point technique for deep, active relaxation.", href: "/thai-massage-in-delhi" },
   { title: "Swedish Massage", desc: "Long, gliding strokes designed to ease tension and improve circulation.", href: "/swedish-massage-in-delhi" },
-  { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage-in-delhi" },
+  { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
 ];
 
 const pricingPlans = [
@@ -100,7 +100,7 @@ export default function B2Bpage() {
               Looking for the best body to body massage in Delhi? Also known as B2B massage, our full-contact technique is available at 24+ outlets across Delhi NCR — from Connaught Place to Dwarka, Saket, and near IGI Airport — plus body to body massage at home and five-star hotel spa options. Certified therapists, premium oils, fully private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
@@ -335,7 +335,7 @@ export default function B2Bpage() {
             {topDelhiLocations.map((loc) => (
               <motion.a
                 key={loc.name}
-                href="https://wa.link/gdjc65"
+                href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={false}
@@ -385,7 +385,7 @@ export default function B2Bpage() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://wa.link/gdjc65" className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
+                <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="mt-6 block rounded-full bg-amber-600 py-3 text-center font-semibold text-white transition hover:bg-amber-700">
                   Book Now
                 </a>
               </motion.div>
@@ -434,7 +434,7 @@ export default function B2Bpage() {
               { title: "Couples Massage in Delhi", href: "/couples-massage-in-delhi" },
               { title: "Thai Massage in Delhi", href: "/thai-massage-in-delhi" },
               { title: "Swedish Massage in Delhi", href: "/swedish-massage-in-delhi" },
-              { title: "Sandwich Massage in Delhi", href: "/sandwich-massage-in-delhi" },
+              { title: "Sandwich Massage in Delhi", href: "/sandwich-massage" },
               { title: "Aromatherapy Massage in Delhi", href: "/aromatherapy-massage-in-delhi" },
               { title: "B2B Massage in Connaught Place", href: "/b2b-massage-in-connaught-place" },
               { title: "Spa Price in Delhi", href: "/spa-price-in-delhi" },
@@ -462,7 +462,7 @@ export default function B2Bpage() {
               <p className="mt-3 leading-relaxed text-white/80">Walk into any of our 24+ outlets, or have us come to your hotel or home anywhere in Delhi NCR.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

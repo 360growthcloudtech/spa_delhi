@@ -23,6 +23,12 @@ const nextConfig = {
         destination: "https://www.luxuryrussianspa.com/:path*",
         permanent: true,
       },
+      // Sandwich massage page moved so the URL leads with the primary keyword
+      {
+        source: "/sandwich-massage-in-delhi",
+        destination: "/sandwich-massage",
+        permanent: true,
+      },
       {
         source: "/hotel-and-home-spa",
         destination: "/massage-service-in-delhi",

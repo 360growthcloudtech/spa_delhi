@@ -192,7 +192,7 @@ export default function Couplepage() {
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
       highlight: false,
-      ctaLink: "https://wa.link/gdjc65",
+      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       icon: <FaSpa className="text-amber-500" />
     },
     {
@@ -201,7 +201,7 @@ export default function Couplepage() {
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "https://wa.link/gdjc65",
+      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       icon: <FaHotel className="text-amber-500" />
     },
     {
@@ -210,7 +210,7 @@ export default function Couplepage() {
       description: "Comprehensive spa experience with added treatments",
       features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
       highlight: false,
-      ctaLink: "https://wa.link/gdjc65",
+      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       icon: <FaCrown className="text-amber-500" />
     }
   ];
@@ -290,7 +290,7 @@ export default function Couplepage() {
               </div>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href='/sandwich-massage-in-delhi'>
+                <a href='/sandwich-massage'>
                   <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
                     <span>Explore Sandwich Massage</span>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -673,7 +673,7 @@ export default function Couplepage() {
                         View Treatments
                       </button>
                     </a>
-                    <a href='https://wa.link/gdjc65'>
+                    <a href='https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.'>
                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -1503,7 +1503,7 @@ export default function Couplepage() {
                 <FaTelegram className="text-xl mr-3" />
                 Chat On Telegram
               </a>
-              <a href='https://wa.link/gdjc65'>
+              <a href='https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.'>
                 <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
                   Call: +91 8799716197
                 </button>
@@ -1536,7 +1536,7 @@ export default function Couplepage() {
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-      <a href="https://wa.link/gdjc65">
+      <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.">
         <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-medium py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 group">
           Book Your Session
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

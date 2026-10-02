@@ -470,7 +470,7 @@ export default function ThaiMassageBlogPage() {
                   </p>
                   <div className="mt-6 flex flex-wrap gap-4">
                     <a href="/thai-massage-in-delhi" className="rounded-full bg-white px-6 py-3 font-semibold text-amber-700 transition hover:bg-amber-50">View Thai Massage Service</a>
-                    <a href="https://wa.link/gdjc65" className="rounded-full border border-white/60 px-6 py-3 font-semibold transition hover:bg-white/10">Book on WhatsApp</a>
+                    <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="rounded-full border border-white/60 px-6 py-3 font-semibold transition hover:bg-white/10">Book on WhatsApp</a>
                   </div>
                 </section>
               </article>

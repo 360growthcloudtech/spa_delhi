@@ -62,7 +62,7 @@ const services = [
     title: "Sandwich Massage",
     desc: "A unique two-therapist session that delivers deeper relaxation and faster stress relief for guests wanting something extra.",
     icon: <FaSpa className="text-amber-600" />,
-    href: "/sandwich-massage-in-delhi",
+    href: "/sandwich-massage",
   },
   {
     title: "B2B Massage",
@@ -230,7 +230,7 @@ export default function Spainkalkaji() {
               Looking for a spa in Kalkaji that actually knows what it's doing? Luxury Russian Spa brings full body massage, deep tissue therapy, aromatherapy, and couple spa to Kalkaji, just minutes from Kalkaji Temple, Kalkaji Metro Station, and the Nehru Place business district. Every session is handled by a certified therapist in a clean, private room.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
                 <FaWhatsapp /> Book on WhatsApp
               </a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="inline-flex items-center gap-2 rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
@@ -293,7 +293,7 @@ export default function Spainkalkaji() {
               Kalkaji is one of those South Delhi neighbourhoods that's always on the move — a busy temple, a packed metro station, and Nehru Place's endless stream of office-goers, all within walking distance of each other. In the middle of that, Luxury Russian Spa runs a proper massage centre offering{" "}
               <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>,{" "}
               <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>,{" "}
-              <Link href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>,{" "}
+              <Link href="/sandwich-massage" className="font-medium text-amber-700 underline hover:text-amber-800">sandwich massage</Link>,{" "}
               <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>,{" "}
               <Link href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">couple massage</Link>, and{" "}
               <Link href="/aromatherapy-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">aromatherapy massage</Link>. Whichever brought you to Kalkaji today, a first session starts at ₹1999.
@@ -471,7 +471,7 @@ export default function Spainkalkaji() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { title: "Full Body Massage", href: "/full-body-massage-in-delhi" },
-            { title: "Sandwich Massage", href: "/sandwich-massage-in-delhi" },
+            { title: "Sandwich Massage", href: "/sandwich-massage" },
             { title: "B2B Massage", href: "/b2b-massage-in-delhi" },
             { title: "Couples Massage", href: "/couples-massage-in-delhi" },
             { title: "Spa in Greater Kailash", href: "/spa-in-greater-kailash" },
@@ -499,7 +499,7 @@ export default function Spainkalkaji() {
               <p className="mt-3 leading-relaxed text-white/80">Walk in with your comfort in mind, or connect with us for a personalised home spa or hotel spa booking anywhere in Kalkaji and South Delhi.</p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="https://wa.link/gdjc65" className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
+              <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="rounded-full bg-white px-6 py-3 font-semibold text-[#1f1a17] transition hover:bg-amber-50">WhatsApp Booking</a>
               <a href="https://t.me/+yulqEcJa2dxhM2I9" className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Join Telegram</a>
             </div>
           </div>

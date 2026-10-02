@@ -42,7 +42,7 @@ export default function AboutSection() {
 
             <p className="mt-4 text-[15px] leading-relaxed text-bodycolor">
               Not sure what to book? A{" "}
-              <a href="/sandwich-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">sandwich massage</a>{" "}
+              <a href="/sandwich-massage" className="font-medium text-amber-700 underline underline-offset-4">sandwich massage</a>{" "}
               gives you two therapists at once. A{" "}
               <a href="/couples-massage-in-delhi" className="font-medium text-amber-700 underline underline-offset-4">couples massage</a>{" "}
               works well if you&apos;re coming with your partner, and Thai is good for a stiff back or tight hips. Our{" "}

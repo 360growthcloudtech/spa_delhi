@@ -4,19 +4,19 @@ import WhatsappFloat from "../../components/WhatsappFloat";
 import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
-  title:
-    "Sandwich Massage in Delhi - Complete Booking Guide | Luxury Russian Spa",
+  // Informational guide: kept off "Sandwich Massage in Delhi" so it doesn't compete with the /sandwich-massage service page.
+  title: "What to Expect From a Sandwich Massage: First-Timer's Guide",
   description:
-    "Sandwich massage in Delhi guide covering benefits, process & what to expect. Trusted by certified therapists at Luxury Russian Spa. Read the full guide and book now!",
+    "Never had a sandwich massage? What happens in the session, who it suits, how to pick a good spa and what to check before you book. A simple guide for first-timers.",
   keywords: ["sandwich massage guide", "sandwich massage benefits delhi", "what is sandwich massage"],
   alternates: {
     canonical:
       "https://www.luxuryrussianspa.com/blog/sandwich-massage-in-delhi",
   },
   openGraph: {
-    title: "Sandwich Massage in Delhi: Everything You Need to Know Before Booking",
+    title: "What to Expect From a Sandwich Massage: First-Timer's Guide",
     description:
-      "Learn everything about Sandwich Massage in Delhi, its benefits, booking process, and what to expect before your session.",
+      "What happens in a sandwich massage, who it suits and what to check before you book. A simple guide for first-timers.",
     images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
     type: "article",
   },
@@ -126,7 +126,7 @@ export default function SandwichMassageDelhiPage() {
               </p>
 
               <h1 className="text-3xl font-bold leading-tight text-amber-900 sm:text-4xl lg:text-5xl">
-                Sandwich Massage in Delhi: Everything You Need to Know Before Booking
+                What to Expect From Your First Sandwich Massage
               </h1>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
@@ -904,7 +904,7 @@ export default function SandwichMassageDelhiPage() {
                     </Link>
 
                     <a
-                      href="https://wa.link/gdjc65"
+                      href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-full border border-white px-7 py-3 font-semibold hover:bg-white/10"

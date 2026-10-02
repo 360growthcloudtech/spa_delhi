@@ -663,7 +663,7 @@ export default function SpaVsMassageBlogPage() {
                   <div className="space-y-4">
                     <div className="rounded-2xl border border-amber-100 bg-white p-4 shadow-sm">
                       <p className="font-semibold text-amber-900">Do I want only a massage?</p>
-                      <p className="mt-1 text-gray-700">If yes, look for the massage type that matches your needs (e.g. <Link href="/full-body-massage-in-delhi" className="text-amber-800 underline hover:text-amber-600">Full Body Massage</Link> or <Link href="/sandwich-massage-in-delhi" className="text-amber-800 underline hover:text-amber-600">Sandwich Massage</Link>).</p>
+                      <p className="mt-1 text-gray-700">If yes, look for the massage type that matches your needs (e.g. <Link href="/full-body-massage-in-delhi" className="text-amber-800 underline hover:text-amber-600">Full Body Massage</Link> or <Link href="/sandwich-massage" className="text-amber-800 underline hover:text-amber-600">Sandwich Massage</Link>).</p>
                     </div>
 
                     <div className="rounded-2xl border border-amber-100 bg-white p-4 shadow-sm">
@@ -747,7 +747,7 @@ export default function SpaVsMassageBlogPage() {
                       Contact Us
                     </Link>
                     <a
-                      href="https://wa.link/gdjc65"
+                      href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-full border border-white/60 px-6 py-3 font-semibold transition hover:bg-white/10"

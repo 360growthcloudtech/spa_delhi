@@ -123,7 +123,7 @@ export default function Conaughtpage() {
         "30 min Consultation",
       ],
       highlight: false,
-      ctaLink: "https://wa.link/gdjc65",
+      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       icon: <FaSpa className="text-amber-500" />,
     },
     {
@@ -139,7 +139,7 @@ export default function Conaughtpage() {
         "90 min Session",
       ],
       highlight: true,
-      ctaLink: "https://wa.link/gdjc65",
+      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       icon: <FaHotel className="text-amber-500" />,
     },
     {
@@ -198,7 +198,7 @@ export default function Conaughtpage() {
       description:
         "Swedish Massage remains to be well-known and popular because of its soft pressure and simple movements. It helps in supporting relaxed muscles, improved blood circulation and a calm mind.",
       icon: "💆‍♂️",
-      url: "/sandwich-massage-in-delhi",
+      url: "/sandwich-massage",
     },
     {
       title: "Full Body Massage",
@@ -454,7 +454,7 @@ export default function Conaughtpage() {
                     </svg>
                   </button>
                 </a>
-                <a href="https://wa.link/gdjc65">
+                <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.">
                   <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -612,7 +612,7 @@ export default function Conaughtpage() {
 
                     {/* Book Now Button */}
                     {/* <a
-                    href="https://wa.link/gdjc65"
+                    href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-auto px-5 py-2 rounded-full bg-amber-500 text-white text-sm font-semibold hover:bg-amber-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -1005,7 +1005,7 @@ export default function Conaughtpage() {
                         View Packages
                       </button>
                     </a>
-                    <a href="https://wa.link/gdjc65">
+                    <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.">
                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -1094,7 +1094,7 @@ export default function Conaughtpage() {
                             {s.time} • {s.price}
                           </span>
                           <a
-                            href="https://wa.link/gdjc65"
+                            href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
@@ -1156,7 +1156,7 @@ export default function Conaughtpage() {
                             {s.time} • {s.price}
                           </span>
                           <a
-                            href="https://wa.link/gdjc65"
+                            href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
@@ -1302,7 +1302,7 @@ export default function Conaughtpage() {
             {/* CTA */}
             <div className="mt-12 text-center">
               <a
-                href="https://wa.link/gdjc65"
+                href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"

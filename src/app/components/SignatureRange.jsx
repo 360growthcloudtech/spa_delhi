@@ -11,7 +11,7 @@ const items = [
     title: "Sandwich Massage",
     tagline: "Two therapists, one session",
     image: "/images/sandwich-massage-2.jpg",
-    link: "/sandwich-massage-in-delhi",
+    link: "/sandwich-massage",
   },
   {
     title: "Couple Massage",
