@@ -75,7 +75,7 @@ const faqs = [
   {
     question: "What does B2B stand for in massage?",
     answer:
-      "B2B stands for Body-to-Body Massage, a massage style that uses smooth body movements along with traditional massage techniques to promote relaxation.",
+      "B2B stands for B2B Massage, a massage style that uses smooth body movements along with traditional massage techniques to promote relaxation.",
   },
   {
     question: "Is B2B massage good for stress?",
@@ -192,7 +192,7 @@ export default function B2BMassageBlogPage() {
 
                   <p className="text-lg leading-8 text-gray-700">
                     A B2B Full Body Massage stands for
-                    Body-to-Body Massage. It is a massage
+                    B2B Massage. It is a massage
                     style where the therapist uses not only the hands but also
                     smooth body movements to create a relaxing wellness
                     experience.
@@ -259,7 +259,7 @@ export default function B2BMassageBlogPage() {
 
                   <p className="text-lg leading-8 text-gray-700">
                     A B2B Full Body Massage stands for
-                    Body-to-Body Massage. It is a massage
+                    B2B Massage. It is a massage
                     style where the therapist uses not only their hands but also
                     other parts of their body, such as the forearms or torso, to
                     create smooth, flowing massage movements.

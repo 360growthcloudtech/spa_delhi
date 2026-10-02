@@ -45,7 +45,7 @@ const highlights = [
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Rajouri Garden that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised B2B therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
   { title: "Swedish Massage", desc: "Long, gliding strokes for genuine relaxation, close to Rajouri Garden Mall.", href: "/swedish-massage-in-rajouri-garden" },
   { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes to relax the mind and refresh the senses.", href: "/aromatherapy-massage-in-delhi" },
@@ -64,7 +64,7 @@ const faqs = [
   { question: "Do you offer massage in Rajouri Garden for both men and women?", answer: "Yes, our massage in Rajouri Garden welcomes both men and women, with male and female therapist options — just mention your preference when booking your session." },
   { question: "Where can I find the best body massage in Rajouri Garden?", answer: "Our Rajouri Garden outlet delivers the best body massage in Rajouri Garden with certified therapists trained in full body, deep tissue, Swedish, and aromatherapy technique." },
   { question: "Do you offer home spa near Rajouri Garden?", answer: "Yes, alongside our outlet, we offer home spa near Rajouri Garden and nearby Tagore Garden, Subhash Nagar, and Punjabi Bagh." },
-  { question: "Can I book a couple massage in Rajouri Garden?", answer: "Yes, our Rajouri Garden outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
+  { question: "Can I book a couple massage in Rajouri Garden?", answer: "Yes, our Rajouri Garden outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
   { question: "How much does a full body massage in Rajouri Garden cost?", answer: "A full body massage in Rajouri Garden at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
 ];
 
@@ -279,7 +279,7 @@ export default function SpaInRajourigGrden() {
                 <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg text-amber-600"><FaLeaf /></div>
                   <h3 className="text-base font-semibold text-[#1f1a17]">Certified Therapists</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-gray-600">Trained Indian and foreigner therapists deliver every massage in Rajouri Garden session with care.</p>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">Trained Indian and international therapists deliver every massage in Rajouri Garden session with care.</p>
                 </motion.div>
                 <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.1 }} className="rounded-2xl border border-amber-100 bg-white p-5 shadow-sm">
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-lg text-amber-600"><FaHotel /></div>
@@ -311,7 +311,7 @@ export default function SpaInRajourigGrden() {
             </p>
             <h3 className="mt-6 font-semibold text-[#1f1a17]">Why guests choose us:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
-              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
+              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including international therapists, with attention to your comfort and preferences.</li>
               <li><span className="font-semibold text-[#1f1a17]">Range of Massage Therapies</span> — Full body, B2B, deep tissue, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#1f1a17]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
               <li><span className="font-semibold text-[#1f1a17]">Convenient Location</span> — Minutes from Rajouri Garden Mall and the metro interchange.</li>
@@ -353,13 +353,13 @@ export default function SpaInRajourigGrden() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Meet Our Expert Massage Therapists in Rajouri Garden</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff1.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff3.jpg" },
+            { role: "International Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff3.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff12.jpg" },
           ].map((t, index) => (
             <motion.div

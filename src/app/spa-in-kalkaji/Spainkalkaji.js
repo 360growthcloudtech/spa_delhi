@@ -66,7 +66,7 @@ const services = [
   },
   {
     title: "B2B Massage",
-    desc: "A specialised body to body therapy performed with premium oils and smooth, controlled movements for complete relaxation.",
+    desc: "A specialised B2B therapy performed with premium oils and smooth, controlled movements for complete relaxation.",
     icon: <FaLeaf className="text-emerald-600" />,
     href: "/b2b-massage-in-delhi",
   },
@@ -186,7 +186,7 @@ const faqs = [
   {
     question: "Can I book a couple massage in Kalkaji?",
     answer:
-      "Yes, our Kalkaji outlet has private rooms for couple massage, including our popular female to male couple massage, so two people can relax together comfortably.",
+      "Yes, our Kalkaji outlet has private rooms for couple massage, including our popular couple massage with female therapists, so two people can relax together comfortably.",
   },
   {
     question: "Do you have Russian or other foreign therapists available in Kalkaji?",
@@ -305,7 +305,7 @@ export default function Spainkalkaji() {
               Every therapist at our massage centre in Kalkaji has actually been trained, not just handed a job title. Our Russian spa in Kalkaji packages bring in Russian, Thai, and Uzbek therapists alongside our experienced Indian staff, so you're not stuck with a one-size-fits-all approach. Hygiene is non-negotiable — fresh towels, sanitised rooms, and proper oils for every guest, whether you're stopping by for a quick body massage near me in Kalkaji or booking a longer session to properly unwind.
             </p>
             <p>
-              Booking takes a couple of minutes on WhatsApp or Telegram, no hidden charges once you're in the room. We run flexible timings across the week, and if you need something later, evening and night spa appointments can be arranged in advance through our 24/7 help desk — handy if you're finishing up work at Nehru Place and want to unwind before heading home. From a solo session to a female to male couple massage in Kalkaji, we try to keep the whole process simple.
+              Booking takes a couple of minutes on WhatsApp or Telegram, no hidden charges once you're in the room. We run flexible timings across the week, and if you need something later, evening and night spa appointments can be arranged in advance through our 24/7 help desk — handy if you're finishing up work at Nehru Place and want to unwind before heading home. From a solo session to a couple massage with female therapists in Kalkaji, we try to keep the whole process simple.
             </p>
             <p>
               A lot of people search for a spa near me in Kalkaji assuming they'll get a small, no-frills setup, and are pleasantly surprised by how much we actually offer — sandwich massage with two therapists working together, B2B massage for a more thorough session, and more. If you've got questions about whether B2B massage is{" "}

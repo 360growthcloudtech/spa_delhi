@@ -66,7 +66,7 @@ const services = [
   },
   {
     title: "B2B Massage",
-    desc: "A specialised body to body therapy performed with premium oils and smooth, controlled movements for complete relaxation.",
+    desc: "A specialised B2B therapy performed with premium oils and smooth, controlled movements for complete relaxation.",
     icon: <FaLeaf className="text-emerald-600" />,
     href: "/b2b-massage-in-delhi",
   },
@@ -181,7 +181,7 @@ const faqs = [
   {
     question: "Can I book a couple massage in Janakpuri?",
     answer:
-      "Yes, our Janakpuri outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+      "Yes, our Janakpuri outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, allowing two people to relax together in a comfortable, peaceful setting.",
   },
   {
     question: "Do you have Russian or other foreign therapists available in Janakpuri?",
@@ -305,11 +305,11 @@ export default function JanakpuriPage() {
               Every therapist at our massage centre in Janakpuri is trained and experienced. Our Russian spa in Janakpuri packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, so you can choose the style and pace that suits you best. We follow strict hygiene protocols at every outlet, using fresh towels, sanitised rooms, and premium massage oils for each guest. Whether you are looking for a body massage near me in Janakpuri for quick stress relief or a longer wellness package for deeper relaxation, our team adjusts pressure, duration, and technique to match your comfort level.
             </p>
             <p>
-              Booking a spa in Janakpuri with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a female to male couple massage in Janakpuri, Luxury Russian Spa makes it easy to prioritise your wellness close to home.
+              Booking a spa in Janakpuri with us is simple and transparent — there are no hidden charges, and you can confirm your appointment directly over WhatsApp or Telegram. We offer flexible timings throughout the week, including evening and night spa appointments booked in advance through our 24/7 help desk, plus same-day bookings when slots are available and clear pricing across our outlet, home spa, and hotel spa packages. From a relaxing solo session to a couple massage with female therapists in Janakpuri, Luxury Russian Spa makes it easy to prioritise your wellness close to home.
             </p>
             <p>
-              Many of our regular guests first search for a spa near me in Janakpuri before discovering that Luxury Russian Spa offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing, full-contact session — you can read our guide on{" "}
-              <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">whether body to body massage is legal in India</Link> if you have questions before booking. If you are recovering from a long work week, travelling frequently, or simply want a regular self-care routine, our Janakpuri team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.
+              Many of our regular guests first search for a spa near me in Janakpuri before discovering that Luxury Russian Spa offers far more variety than a typical neighbourhood parlour. Alongside classic full body massage and deep tissue therapy, we also offer specialised treatments such as sandwich massage, where two therapists work in sync for faster relief, and B2B massage for guests who want a deeply relaxing full body session — you can read our guide on{" "}
+              <Link href="/is-b2b-massage-legal-in-india" className="font-medium text-amber-700 underline hover:text-amber-800">whether B2B massage is legal in India</Link> if you have questions before booking. If you are recovering from a long work week, travelling frequently, or simply want a regular self-care routine, our Janakpuri team can recommend the right combination of treatments and packages to suit your goals, budget, and available time.
             </p>
           </div>
         </div>

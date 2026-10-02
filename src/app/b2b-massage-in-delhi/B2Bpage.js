@@ -39,7 +39,7 @@ const highlights = [
   {
     icon: <FaSpa className="text-2xl text-amber-600" />,
     title: "Stress Relief & Relaxation",
-    desc: "Our body to body massage in Delhi reduces stress and anxiety the natural way — gentle, controlled strokes that calm the nervous system.",
+    desc: "Our B2B massage in Delhi reduces stress and anxiety the natural way — gentle, controlled strokes that calm the nervous system.",
   },
   {
     icon: <FaHandSparkles className="text-2xl text-emerald-600" />,
@@ -63,20 +63,20 @@ const services = [
 ];
 
 const pricingPlans = [
-  { title: "Spa Outlet", price: "₹1999", desc: "A private body to body massage session at any of our 24+ Delhi NCR outlets.", features: ["Full Body-to-Body Technique", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home B2B Spa", price: "₹15000", desc: "Genuine body to body massage at home in Delhi, delivered anywhere across Delhi NCR.", features: ["Full Body-to-Body Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Spa Outlet", price: "₹1999", desc: "A private B2B massage session at any of our 24+ Delhi NCR outlets.", features: ["Signature B2B Technique", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
+  { title: "Home B2B Spa", price: "₹15000", desc: "Genuine B2B massage at home in Delhi, delivered anywhere across Delhi NCR.", features: ["Signature B2B Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
   { title: "5 Star Hotel B2B Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel — popular with guests staying at Delhi's five-star properties.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
   { question: "Is there a B2B massage spa in Delhi?", answer: "Yes, Luxury Russian Spa operates 24+ B2B massage spa locations across Delhi and Delhi NCR, including Karol Bagh, Connaught Place, Dwarka, and Saket, alongside home and five-star hotel spa options." },
-  { question: "What happens in a body-to-body massage?", answer: "After a short consultation about your preferences, your therapist applies premium oils and uses a full-contact, body-to-body technique with smooth, controlled movements — performed in a private, closed room from start to finish." },
-  { question: "Are body-to-body massages legal in India?", answer: "Yes, body-to-body massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards. Read our detailed guide on whether B2B massage is legal in India for the full picture." },
-  { question: "What does a body-to-body massage include?", answer: "A standard session includes a consultation, full-contact massage using premium aromatherapy-grade oils, and a private room for the full duration — with optional add-ons like aromatherapy or a facial depending on your package." },
-  { question: "How much does a body to body massage cost in Delhi?", answer: "A body to body massage at our Delhi outlets starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and five-star hotel spa from ₹20,000, depending on duration and location." },
-  { question: "Do you provide body to body massage at hotels in Delhi?", answer: "Yes, we regularly serve guests at five-star hotels across Delhi, including Andaz, The Park, The Suryaa, and JW Marriott — just share your hotel and room details when booking." },
-  { question: "Do you have Russian or other foreign therapists for body to body massage?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available for B2B sessions alongside our experienced Indian staff, depending on the package you choose." },
-  { question: "Do you offer female to male body to body massage in Delhi?", answer: "Yes, female to male body to body massage in Delhi is available at all our outlets, along with male and female therapist options — just mention your preference when booking." },
+  { question: "What happens in a B2B massage?", answer: "After a short consultation about your preferences, your therapist applies premium oils and uses a signature full body technique with smooth, controlled movements — performed in a private, closed room from start to finish." },
+  { question: "Are B2B massages legal in India?", answer: "Yes, B2B massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards. Read our detailed guide on whether B2B massage is legal in India for the full picture." },
+  { question: "What does a B2B massage include?", answer: "A standard session includes a consultation, full body massage using premium aromatherapy-grade oils, and a private room for the full duration — with optional add-ons like aromatherapy or a facial depending on your package." },
+  { question: "How much does a B2B massage cost in Delhi?", answer: "A B2B massage at our Delhi outlets starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and five-star hotel spa from ₹20,000, depending on duration and location." },
+  { question: "Do you provide B2B massage at hotels in Delhi?", answer: "Yes, we regularly serve guests at five-star hotels across Delhi, including Andaz, The Park, The Suryaa, and JW Marriott — just share your hotel and room details when booking." },
+  { question: "Do you have Russian or other foreign therapists for B2B massage?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available for B2B sessions alongside our experienced Indian staff, depending on the package you choose." },
+  { question: "Do you offer full body massage by a female therapist in Delhi?", answer: "Yes, full body massage by a female therapist in Delhi is available at all our outlets, along with male and female therapist options — just mention your preference when booking." },
 ];
 
 export default function B2Bpage() {
@@ -94,10 +94,10 @@ export default function B2Bpage() {
               <FaStar className="text-amber-500" /> SIGNATURE TREATMENT
             </div>
             <h1 className="max-w-2xl text-4xl font-bold leading-tight text-[#1f1a17] md:text-5xl lg:text-5xl">
-              Best Body to Body Massage in <span className="text-amber-700">Delhi</span>
+              Best B2B Massage in <span className="text-amber-700">Delhi</span>
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Looking for the best body to body massage in Delhi? Also known as B2B massage, our full-contact technique is available at 24+ outlets across Delhi NCR — from Connaught Place to Dwarka, Saket, and near IGI Airport — plus body to body massage at home and five-star hotel spa options. Certified therapists, premium oils, fully private rooms. First visit from ₹1999.
+              Looking for the best B2B massage in Delhi? Our signature technique is available at 24+ outlets across Delhi NCR — from Connaught Place to Dwarka, Saket, and near IGI Airport — plus B2B massage at home and five-star hotel spa options. Certified therapists, premium oils, fully private rooms. First visit from ₹1999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -123,7 +123,7 @@ export default function B2Bpage() {
           <motion.div initial={{ opacity: 0, x: 24 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="relative flex items-center">
             <div className="w-full rounded-[32px] border border-amber-100 bg-white p-3 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
               <div className="relative h-[410px] overflow-hidden rounded-[24px]">
-                <Image src="/images/fpkdl.com_960_1758982727_woman-getting-back-massage-from-female-masseur_23-2150461428.jpg" alt="Therapist giving a body to body massage in Delhi" fill className="object-cover" />
+                <Image src="/images/fpkdl.com_960_1758982727_woman-getting-back-massage-from-female-masseur_23-2150461428.jpg" alt="Therapist giving a B2B massage in Delhi" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-amber-200 bg-white/95 px-4 py-3 shadow-lg">
@@ -157,7 +157,7 @@ export default function B2Bpage() {
           <h2 className="text-center text-3xl font-bold text-[#1f1a17] md:text-4xl">Delhi's Trusted B2B Massage Spa</h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-gray-700">
             <p>
-              A body to body massage in Delhi is a full-contact technique using premium oils and controlled, smooth movements — built for genuine deep relaxation, not a rushed rubdown. Book at any of our{" "}
+              A B2B massage in Delhi is a signature technique using premium oils and controlled, smooth movements — built for genuine deep relaxation, not a rushed rubdown. Book at any of our{" "}
               <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ outlets across Delhi NCR</Link>{" "}
               — Karol Bagh, Connaught Place, Dwarka, Saket, or near IGI Airport.
             </p>
@@ -178,7 +178,7 @@ export default function B2Bpage() {
           <span className="inline-block rounded-full bg-amber-100 px-4 py-1 text-sm font-medium text-amber-800">Premium Wellness Experience</span>
           <h2 className="mt-4 text-3xl font-bold text-[#1f1a17] md:text-4xl">Why Choose Luxury Russian Spa for B2B Massage?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-gray-700">
-            Luxury Russian Spa is a trusted name for body to body massage in Delhi. We focus on authentic technique, premium ingredients, and personalized care that revitalizes your mind and body.
+            Luxury Russian Spa is a trusted name for B2B massage in Delhi. We focus on authentic technique, premium ingredients, and personalized care that revitalizes your mind and body.
           </p>
         </div>
 
@@ -193,11 +193,11 @@ export default function B2Bpage() {
                 </div>
               </div>
               <p className="text-gray-700">
-                Our therapists are trained in authentic body to body technique with over 10 years of experience across our{" "}
-                <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ Delhi NCR outlets</Link>. Every session is performed with proper hygiene and full-contact control, so it feels genuinely relaxing rather than rushed. We respect your comfort and privacy at every step, from consultation to checkout.
+                Our therapists are trained in authentic B2B technique with over 10 years of experience across our{" "}
+                <Link href="/outlets" className="font-medium text-amber-700 underline hover:text-amber-800">24+ Delhi NCR outlets</Link>. Every session is performed with proper hygiene and careful control, so it feels genuinely relaxing rather than rushed. We respect your comfort and privacy at every step, from consultation to checkout.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                {["10+ Years Experience", "Full-Contact Technique", "Certified Therapists"].map((tag) => (
+                {["10+ Years Experience", "Signature Technique", "Certified Therapists"].map((tag) => (
                   <span key={tag} className="rounded-full bg-amber-50 px-4 py-2 text-sm font-medium text-amber-800">{tag}</span>
                 ))}
               </div>
@@ -209,7 +209,7 @@ export default function B2Bpage() {
 
           <motion.div initial={false} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="flex flex-col">
             <div className="relative h-64 overflow-hidden rounded-2xl shadow-sm">
-              <Image src="/images/staff3.jpg" alt="Premium oils used for body to body massage in Delhi" fill className="object-cover" />
+              <Image src="/images/staff3.jpg" alt="Premium oils used for B2B massage in Delhi" fill className="object-cover" />
             </div>
             <div className="mt-6 flex-1 rounded-2xl border border-amber-100 bg-white p-8 shadow-sm">
               <div className="mb-5 flex items-start gap-4">
@@ -220,7 +220,7 @@ export default function B2Bpage() {
                 </div>
               </div>
               <p className="text-gray-700">
-                We use premium, aromatherapy-grade massage oils selected for skin comfort and smooth movement — your therapist can adjust based on any preference or sensitivity. The right blend makes every body to body massage in Delhi feel more complete, not just physically but as a proper reset.
+                We use premium, aromatherapy-grade massage oils selected for skin comfort and smooth movement — your therapist can adjust based on any preference or sensitivity. The right blend makes every B2B massage in Delhi feel more complete, not just physically but as a proper reset.
               </p>
               <div className="mt-6">
                 <h4 className="mb-3 text-sm font-semibold text-amber-800">Signature Oil Blends</h4>
@@ -243,12 +243,12 @@ export default function B2Bpage() {
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
             <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Trained Hands Behind Every Session</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {[
-              { role: "Senior B2B Therapist", specialty: "Full-Contact Technique", experience: "10+ yrs", image: "/images/staff7.jpg" },
-              { role: "Foreigner Therapist", specialty: "Russian & Thai Style", experience: "6+ yrs", image: "/images/staff12.jpg" },
+              { role: "Senior B2B Therapist", specialty: "Signature Technique", experience: "10+ yrs", image: "/images/staff7.jpg" },
+              { role: "International Therapist", specialty: "Russian & Thai Style", experience: "6+ yrs", image: "/images/staff12.jpg" },
               { role: "Full Body Specialist", specialty: "Deep Tissue & Swedish", experience: "8+ yrs", image: "/images/staff2.jpg" },
               { role: "Wellness Therapist", specialty: "Aromatherapy Blends", experience: "5+ yrs", image: "/images/staff3.jpg" },
             ].map((t, index) => (

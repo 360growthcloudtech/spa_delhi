@@ -23,7 +23,7 @@ const teamMembers = [
   {
     name: "Chelsea Foster",
     designation: "Spa Therapist",
-    image: "/images/spamodel.webp",
+    image: "/images/spa-therapist-uniform.webp",
     socials: {
       WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -43,7 +43,7 @@ const teamMembers = [
   {
     name: "Haven West",
     designation: "Spa Therapist",
-    image: "/images/spamodel2.webp",
+    image: "/images/spa-therapist-delhi.webp",
     socials: {
       WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -98,13 +98,13 @@ const services = [
   },
   {
     title: "Couple Massage",
-    image: "/images/Couple Massage.webp",
+    image: "/images/couple-massage-delhi.webp",
     description: "A couples massage at our Delhi luxury spa allows you and your partner or family member to enjoy a relaxing massage together in the same room.",
     duration: "90 min"
   },
   {
     title: "Sandwich Massage",
-    image: "/images/Sandwich Massage.webp",
+    image: "/images/sandwich-massage-delhi.webp",
     description: "Rebalance your energy with our soothing Sandwich Massage therapy. A layered, deeply relaxing treatment for full-body stress relief.",
     duration: "60 min"
   },
@@ -116,7 +116,7 @@ const services = [
     url: "/thai-massage-in-delhi",
   },
   {
-    title: "Female To Male Massage",
+    title: "Female Therapist Massage",
     image: "/images/potliMassage.jpg",
     description: "Our luxury spa in Delhi offers the ancient Indian technique known as Potli massage. This treatment uses herbal pouches, warmed up and filled with spices and herbs,.",
     duration: "60 min"
@@ -128,7 +128,7 @@ const services = [
     duration: "60 min"
   },
   {
-    title: "Nuru Massage",
+    title: "Specialised Treatments",
     image: "/images/SpecializedTreatments.jpg",
     description: "While this is not all that can be had, a massage is the crown jewel at Luxury Spa in Delhi where we do have a variety of special treatments that can suit all your wellness needs.",
     duration: "60 min"
@@ -136,7 +136,7 @@ const services = [
   {
     title: "B2B Massage",
     image: "/images/SkincareTreatments.jpg",
-    description: "B2B massage in Delhi spa is special skin-to-skin therapy for business friends. Our trained girls use warm oil and soft body slides to take away all office tension. Private rooms, safe place, good rate. Book quickly, feel super light and happy again.",
+    description: "Our signature B2B massage in Delhi uses warm oil and long, flowing strokes to ease the stiffness that builds up after long office hours. Trained therapists, private rooms and clear prices. Most guests say they walk out feeling much lighter.",
     duration: "90-120 min"
   },
   {
@@ -235,8 +235,8 @@ const faqs = [
     icon: <FaSpa className="text-teal-600" />
   },
   {
-    question: "Can I book a Female to Male  Massage Service in Delhi online?",
-    answer: "Yes, you can easily book Female to Male Massage Service in Delhi From our official website or by Contact Us. Our trained therapists provide genuine services across Rajouri Garden, Rohini, Noida, and Aerocity to make your spa journey smooth, private, and stress-free.",
+    question: "Can I book a Female therapists  Massage Service in Delhi online?",
+    answer: "Yes, you can easily book Female therapist massage service in Delhi From our official website or by Contact Us. Our trained therapists provide genuine services across Rajouri Garden, Rohini, Noida, and Aerocity to make your spa journey smooth, private, and stress-free.",
     icon: <FaHandSparkles className="text-teal-600" />
   },
 
@@ -252,7 +252,7 @@ const faqs = [
   },
   {
     question: "What Spa Treatments Available at Luxury Russian Spa?",
-    answer: "We offer sandwich massage, couple massage, B2B massage, full-body massage, Thai massage, aromatherapy, nuru and hotel/home spa service in Delhi, plus therapist profiles, session durations and add-ons. Each service includes outlet availability and booking links for convenient scheduling.",
+    answer: "We offer sandwich massage, couple massage, B2B massage, full-body massage, Thai massage, aromatherapy and hotel/home spa service in Delhi, plus therapist profiles, session durations and add-ons. Each service includes outlet availability and booking links for convenient scheduling.",
     icon: <FaHotTub className="text-teal-600" />
   },
   {
@@ -329,7 +329,7 @@ export default function Serpage() {
               <h1 className="text-4xl md:text-5xl font-light text-gray-800">
                 <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Book</span>
                 Massage Service in Delhi
-                <span className="block mt-2 font-medium">With <span className="text-rose-600"> Foreigner Therapists</span></span>
+                <span className="block mt-2 font-medium">With <span className="text-rose-600"> International Therapists</span></span>
               </h1>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -931,9 +931,9 @@ export default function Serpage() {
                   viewport={{ once: true }}
                 >
                   {[
-                    { title: "Foreigner Therapist", icon: "🌏" },
-                    { title: "Female To Male Massage", icon: "💆‍♂️" },
-                    { title: "Best Body To Body Spa", icon: "✨" },
+                    { title: "International Therapist", icon: "🌏" },
+                    { title: "Female Therapist Massage", icon: "💆‍♂️" },
+                    { title: "Best B2B Spa", icon: "✨" },
                     { title: "Couple Massage", icon: "👩‍❤️‍👨" }
                   ].map((feature, index) => (
                     <motion.div
@@ -1158,7 +1158,7 @@ export default function Serpage() {
 
                     <div className="relative h-96">
                       <Image
-                        src="/images/446979.jpg"
+                        src="/images/couple-massage-candle-lit-spa.jpg"
                         alt="Expert therapist performing massage"
                         layout="fill"
                         objectFit="cover"
@@ -1267,7 +1267,7 @@ export default function Serpage() {
                     
                     <div className="relative h-full min-h-[400px]">
                       <Image 
-                        src="/images/137.jpg"
+                        src="/images/shoulder-massage-warm-oil.jpg"
                         alt="Spa treatment"
                         layout="fill"
                         objectFit="cover"
@@ -1393,7 +1393,7 @@ export default function Serpage() {
                                                                </svg>
                                                              </div>
                                                              <h2 className="text-3xl font-bold text-amber-800 mb-6">
-                                                               Foreigner Staff
+                                                               International Staff
                                                              </h2>
                                                            </div>
                                                             <p className="text-gray-600 leading-relaxed mb-6">
@@ -1493,7 +1493,7 @@ export default function Serpage() {
                                                                {icon: '♻️', text: 'Thai Massage'},
                                                                {icon: '🌱', text: 'B2B Massage'},
                                                                {icon: '💧', text: 'Couple Massage'},
-                                                               {icon: '🌎', text: 'Female To Male Massage'},
+                                                               {icon: '🌎', text: 'Female Therapist Massage'},
                                                                // {icon: '🏺', text: 'Handcrafted Products'}
                                                              ].map((item, index) => (
                                                                <span key={index} className="bg-[#f0eae3] text-amber-800 px-4 py-2 rounded-full flex items-center">
@@ -1812,7 +1812,7 @@ export default function Serpage() {
               {/* CTA Buttons */}
               <div className="grid md:grid-cols-3 gap-6 justify-center items-center">
                 <a
-                  href="tel:++91 8799716197"
+                  href="tel:+918799716197"
                   className="bg-white text-amber-700 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-100 transition-all duration-300"
                 >
                   📞 Call to Book: +91 8799716197

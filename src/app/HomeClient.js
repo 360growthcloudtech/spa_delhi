@@ -23,7 +23,7 @@ const WhatsappFloat = dynamic(() => import("./components/WhatsappFloat"));
 
 const guides = [
   { title: "Best Spa Services in Delhi NCR", href: "/blog/best-spa-service-in-delhi-ncr" },
-  { title: "Sandwich Massage in Delhi", href: "/blog/sandwich-massage-in-delhi" },
+  { title: "Your First Sandwich Massage", href: "/blog/first-sandwich-massage-what-to-expect" },
   { title: "Spa in Connaught Place", href: "/blog/spa-in-connaught-place" },
   { title: "What Does Thai Massage Do to Your Body?", href: "/blog/thai-massage-does-to-your-body" },
   { title: "What is a B2B Full Body Massage?", href: "/blog/what-is-b2b-full-body-massage" },

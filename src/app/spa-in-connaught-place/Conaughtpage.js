@@ -71,7 +71,7 @@ export default function Conaughtpage() {
       title: "The Park Connaught Place",
       image: "/images/thePrak_CP.jpg",
       description:
-        "Visitors at The Park Connaught Place will find a relaxing environment with Luxury Russian Spa. Our female-to-male spa in Connaught Place uses soothing oils and gentle methods to deliver comfort, either alone or with a partner, thanks to the couple’s massages.",
+        "Visitors at The Park Connaught Place will find a relaxing environment with Luxury Russian Spa. Our spa with female therapists in Connaught Place uses soothing oils and gentle methods to deliver comfort, either alone or with a partner, thanks to the couple’s massages.",
     },
     {
       title: "The LaLiT New Delhi Connaught Place",
@@ -147,7 +147,7 @@ export default function Conaughtpage() {
       price: "₹20000/-",
       description: "Comprehensive spa experience with added treatments",
       features: [
-        "Foreigner Therapist",
+        "International Therapist",
         "5 Start Property",
         "Private Sweets",
         "Aromatherapy",
@@ -189,7 +189,7 @@ export default function Conaughtpage() {
     {
       title: "B2B Massage",
       description:
-        "Our Body-to-Body massage allows the guests to relax to the greatest extent possible because the professionals apply rich oils and tried techniques to combat fatigue, relax nervousness, and increase your energy levels throughout the body.",
+        "Our B2B massage allows the guests to relax to the greatest extent possible because the professionals apply rich oils and tried techniques to combat fatigue, relax nervousness, and increase your energy levels throughout the body.",
       icon: "🌸",
       url: "/b2b-massage-in-connaught-place",
     },
@@ -227,7 +227,7 @@ export default function Conaughtpage() {
       chips: ["Russian Therapist", "Afgani Therapist", "Uzbeki Therapist"],
       time: "60-90 min",
       price: "From ₹2,800",
-      image: "/images/spamodel.webp",
+      image: "/images/spa-therapist-uniform.webp",
     },
     {
       id: "body",
@@ -262,7 +262,7 @@ export default function Conaughtpage() {
       ],
       time: "60-120 min",
       price: "From ₹2,500",
-      image: "/images/Sandwich Massage.webp",
+      image: "/images/sandwich-massage-delhi.webp",
     },
     {
       id: "packages",

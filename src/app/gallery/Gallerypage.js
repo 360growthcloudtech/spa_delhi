@@ -6,9 +6,9 @@ import Image from "next/image";
 const galleryImages = [
   "/images/thaimassage.jpg",
   "/images/SpecializedTreatments.jpg",
-  "/images/Sandwich Massage.webp",
+  "/images/sandwich-massage-delhi.webp",
   "/images/SkincareTreatments.jpg",
-  "/images/453.webp",
+  "/images/private-spa-room-delhi.webp",
   "/images/potliMassage.jpg",
   "/images/outletsBanner.jpeg",
   "/images/aboutusbanner.jpg",

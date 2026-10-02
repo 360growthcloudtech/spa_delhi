@@ -45,7 +45,7 @@ const highlights = [
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Laxmi Nagar that eases muscle tension and leaves you feeling genuinely refreshed from head to toe.", href: "/full-body-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders built up from long hours at a desk.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation and a deeper release of physical stress.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised B2B therapy performed with premium oils for complete relaxation and a deeper release of physical stress.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared couple massage experience designed for two people to unwind together.", href: "/couple-massage" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief than a standard single-therapist massage.", href: "/sandwich-massage" },
   { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes to relax the mind, ease anxiety, and refresh the senses.", href: "/aromatherapy-massage-in-delhi" },
@@ -64,7 +64,7 @@ const faqs = [
   { question: "Is your spa listed as spa in Laxminagar or spa laxmi nagar Delhi on Google?", answer: "Yes, guests find us searching both spa in Laxminagar and spa laxmi nagar Delhi — either way, it's the same trusted outlet with certified therapists and transparent pricing near Vikas Marg." },
   { question: "How do I find a spa near Laxmi Nagar for a same-day session?", answer: "Search spa near Laxmi Nagar and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day appointment depending on therapist availability." },
   { question: "Do you offer a body spa in Laxmi Nagar Delhi at home?", answer: "Yes, alongside our outlet, we offer body spa in Laxmi Nagar Delhi as a home service across East Delhi. Our therapist arrives fully equipped for a relaxing, hygienic session at your residence." },
-  { question: "Can I book a couple massage in Laxmi Nagar?", answer: "Yes, our Laxmi Nagar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
+  { question: "Can I book a couple massage in Laxmi Nagar?", answer: "Yes, our Laxmi Nagar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
   { question: "How much does a body massage in Laxmi Nagar Delhi cost?", answer: "A body massage in Laxmi Nagar Delhi at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
 ];
 
@@ -359,13 +359,13 @@ export default function LaxmiNagarPage() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Meet Our Expert Massage Therapists in Laxmi Nagar</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff1.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff3.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff6.jpg" },
+            { role: "International Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff3.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff6.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff12.jpg" },
           ].map((t, index) => (
             <motion.div

@@ -51,7 +51,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Mahipalpur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Mahipalpur outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort.",
+        text: "Yes, our Mahipalpur outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort.",
       },
     },
     {
@@ -94,7 +94,7 @@ export const metadata = {
     "home spa in mahipalpur",
     "hotel spa in mahipalpur",
     "couple massage in mahipalpur",
-    "female to male spa in mahipalpur",
+    "spa with female therapists in mahipalpur",
     "night spa in mahipalpur",
     "spa near delhi airport",
   ],

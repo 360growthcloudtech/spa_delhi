@@ -176,7 +176,7 @@ export default function DeepTissueKarolBaghPage() {
               transition={{ duration: 0.5 }}
               className="relative h-72 overflow-hidden rounded-[28px] shadow-lg lg:h-full lg:min-h-[420px]"
             >
-              <Image src="/images/446979.jpg" alt="Deep tissue massage technique in Karol Bagh" fill className="object-cover" />
+              <Image src="/images/couple-massage-candle-lit-spa.jpg" alt="Deep tissue massage technique in Karol Bagh" fill className="object-cover" />
             </motion.div>
 
             <div className="grid gap-5 sm:grid-cols-2">

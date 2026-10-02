@@ -41,7 +41,7 @@ const highlights = [
 
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Paschim Vihar that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised B2B therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "Thai Massage", desc: "Traditional stretching and pressure-point technique for deep, active relaxation.", href: "/thai-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
@@ -84,7 +84,7 @@ const faqs = [
   { question: "Is there a massage center in Paschim Vihar near Rani Bagh or Peeragarhi?", answer: "Yes, our massage center in Paschim Vihar is easy to reach from Rani Bagh, Peeragarhi, Meera Bagh, and Madipur, with home spa options across all of these areas." },
   { question: "Do you offer a full body massage in Paschim Vihar at home?", answer: "Yes, alongside our outlet, we offer full body massage in Paschim Vihar as a home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session." },
   { question: "How do I find a body spa in Paschim Vihar for a quick session?", answer: "Search body spa in Paschim Vihar and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day slot." },
-  { question: "Can I book a couple massage in Paschim Vihar?", answer: "Yes, our Paschim Vihar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
+  { question: "Can I book a couple massage in Paschim Vihar?", answer: "Yes, our Paschim Vihar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
   { question: "How much does a full body massage in Paschim Vihar cost?", answer: "A full body massage in Paschim Vihar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
 ];
 
@@ -185,7 +185,7 @@ export default function PaschimViharPage() {
             </p>
             <h3 className="mt-6 font-semibold text-[#1f1a17]">Why guests choose us:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
-              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
+              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including international therapists, with attention to your comfort and preferences.</li>
               <li><span className="font-semibold text-[#1f1a17]">Range of Massage Therapies</span> — Full body, B2B, deep tissue, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#1f1a17]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
               <li><span className="font-semibold text-[#1f1a17]">Convenient Location</span> — Minutes from Paschim Vihar East and West Metro Stations.</li>
@@ -227,13 +227,13 @@ export default function PaschimViharPage() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Meet Our Expert Massage Therapists in Paschim Vihar</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff4.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff8.jpg" },
+            { role: "International Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff8.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff2.jpg" },
           ].map((t, index) => (
             <motion.div

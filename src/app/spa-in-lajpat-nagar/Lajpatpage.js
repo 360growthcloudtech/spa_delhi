@@ -106,7 +106,7 @@ export default function Lajpatpage() {
       title: "5 Star Hotel Spa",
       price: "₹20000/-",
       description: "Comprehensive spa experience with added treatments",
-      features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,
       ctaLink: "#",
       icon: <FaCrown className="text-amber-500" />
@@ -143,7 +143,7 @@ export default function Lajpatpage() {
     },
     {
       title: "B2B Massage",
-      description: "The Body-to-Body Massage spa in Lajpat Nagar at Luxury Russian Spa will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
+      description: "The B2B Massage spa in Lajpat Nagar at Luxury Russian Spa will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
       icon: "💆‍♂️",
       url: "/b2b-massage-in-delhi",
     },
@@ -176,7 +176,7 @@ export default function Lajpatpage() {
       chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'body',
@@ -208,7 +208,7 @@ export default function Lajpatpage() {
       chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
       time: '60-120 min',
       price: 'From ₹2,500',
-      image: '/images/Sandwich Massage.webp',
+      image: '/images/sandwich-massage-delhi.webp',
     },
     {
       id: 'packages',

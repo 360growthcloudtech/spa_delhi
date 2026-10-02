@@ -91,8 +91,8 @@ const relatedBlogs = [
     image: "/images/thaimassage1.png",
   },
   {
-    title: "Sandwich Massage in Delhi",
-    href: "/blog/sandwich-massage-in-delhi",
+    title: "Your First Sandwich Massage",
+    href: "/blog/first-sandwich-massage-what-to-expect",
     image: "/images/sandwich-massage.png",
   },
 ];

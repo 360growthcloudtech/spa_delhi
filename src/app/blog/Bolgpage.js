@@ -38,7 +38,7 @@ const blogs = [
     title: "Is B2B Massage Legal in India?",
     description:
       "The short answer is: there is no simple nationwide “yes” or “no” for B2B massage in India, because the legality depends on how the service is offered, marketed, staffed, and operated.",
-    image: "/images/18+bodyspa.webp",
+    image: "/images/full-body-massage-spa.webp",
     link: "/is-b2b-massage-legal-in-india",
   },
   {
@@ -60,7 +60,7 @@ const blogs = [
   description:
     "Discover Sandwich Massage in Delhi, its benefits, professional massage therapy, booking process, what to expect, and tips for choosing the best spa services in Delhi.",
   image: "/images/sandwich-massage.png",
-  link: "/blog/sandwich-massage-in-delhi",
+  link: "/blog/first-sandwich-massage-what-to-expect",
 },
 {
   title: "Spa in Connaught Place: Best Hotels, Services, and Massage Options",
@@ -112,7 +112,7 @@ export default function Bolgpage() {
     {
       question: "Can I learn about specific massage therapies on your blog?",
       answer:
-        "Yes! Our blog provides in-depth articles on different types of massage therapies offered at our spa, including Couple Massages, Full Body Massages, and specialized treatments like Female-to-Male Spa services. We guide you on which therapies suit your needs and how they benefit your health and well-being.",
+        "Yes! Our blog provides in-depth articles on different types of massage therapies offered at our spa, including Couple Massages, Full Body Massages, and specialized treatments like Female therapist services. We guide you on which therapies suit your needs and how they benefit your health and well-being.",
       icon: <FaLeaf className="text-teal-600" />,
     },
     {

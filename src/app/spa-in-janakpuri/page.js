@@ -43,7 +43,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Janakpuri?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Janakpuri outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Janakpuri outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, allowing two people to relax together in a comfortable, peaceful setting.",
       },
     },
     {
@@ -97,7 +97,7 @@ export const metadata = {
     "couple massage in janakpuri",
     "best spa in janakpuri",
     "russian spa in janakpuri",
-    "female to male spa in janakpuri",
+    "spa with female therapists in janakpuri",
     "night spa in janakpuri",
     "spa near janakpuri district centre",
   ],

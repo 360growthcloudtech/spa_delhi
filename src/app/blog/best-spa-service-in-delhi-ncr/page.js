@@ -76,8 +76,8 @@ const relatedBlogs = [
     image: "/images/b2b-full-body-massage.jpg",
   },
   {
-    title: "Sandwich Massage in Delhi",
-    href: "/blog/sandwich-massage-in-delhi",
+    title: "Your First Sandwich Massage",
+    href: "/blog/first-sandwich-massage-what-to-expect",
     image: "/images/sandwich-massage.png",
   },
   {
@@ -428,7 +428,7 @@ export default function BestSpaServicesDelhiNCR() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/Sandwich Massage.webp"
+                    src="/images/sandwich-massage-delhi.webp"
                     alt="Sandwich Massage in Delhi"
                     fill
                     className="object-cover"
@@ -475,7 +475,7 @@ export default function BestSpaServicesDelhiNCR() {
                 {/* <div className="relative h-[320px] overflow-hidden rounded-[20px]">
 
                   <Image
-                    src="/images/Couple Massage.webp"
+                    src="/images/couple-massage-delhi.webp"
                     alt="Couple Massage in Delhi"
                     fill
                     className="object-cover"

@@ -41,7 +41,7 @@ const highlights = [
 
 const services = [
   { title: "Full Body Massage", desc: "A classic head-to-toe session using smooth, flowing strokes — the most-booked treatment at our Noida spa centre.", href: "/full-body-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised, full-contact therapy performed with premium oils for genuinely deep relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised full body therapy performed with premium oils for genuinely deep relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Aromatherapy Massage", desc: "Scented essential oils paired with massage technique for a calmer, more sensory session.", href: "/aromatherapy-massage-in-noida" },
   { title: "Couples Massage", desc: "One private room, two therapists — a genuinely shared spa experience for two.", href: "/couple-massage" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
@@ -261,7 +261,7 @@ export default function Noipage() {
             </p>
             <h3 className="mt-6 font-semibold text-[#1f1a17]">Why guests choose us:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
-              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
+              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including international therapists, with attention to your comfort and preferences.</li>
               <li><span className="font-semibold text-[#1f1a17]">Range of Massage Therapies</span> — Full body, B2B, deep tissue, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#1f1a17]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
               <li><span className="font-semibold text-[#1f1a17]">Citywide Coverage</span> — From Sector 18 to Greater Noida, the same certified team and standard.</li>
@@ -303,13 +303,13 @@ export default function Noipage() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Meet Our Expert Massage Therapists in Noida</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff4.jpg" },
-            { role: "Foreigner Therapist", specialty: "Aromatherapy & Thai", experience: "6+ yrs", image: "/images/staff9.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff7.jpg" },
+            { role: "International Therapist", specialty: "Aromatherapy & Thai", experience: "6+ yrs", image: "/images/staff9.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff7.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff12.jpg" },
           ].map((t, index) => (
             <motion.div

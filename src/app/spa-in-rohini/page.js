@@ -35,7 +35,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Rohini?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, allowing two people to relax together in a comfortable, peaceful setting.",
       },
     },
     {
@@ -98,7 +98,7 @@ export const metadata = {
     "spa near rohini",
     "spa in city centre mall rohini",
     "russian spa in rohini",
-    "female to male spa in rohini",
+    "spa with female therapists in rohini",
     "night spa in rohini",
   ],
   openGraph: {

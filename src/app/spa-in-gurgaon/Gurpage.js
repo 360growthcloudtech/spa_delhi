@@ -47,8 +47,8 @@ export default function Gurpage() {
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "Can I book a session at female to male spa in gurgaonn?",
-      answer: "You can book a female to male spa in gurgaon with us. We have top certified Female therapists to provide you comfort and relaxation at very affordable prices. You can choose your female therapists as per your preference.",
+      question: "Can I book a session at spa with female therapists in gurgaonn?",
+      answer: "You can book a spa with female therapists in gurgaon with us. We have top certified Female therapists to provide you comfort and relaxation at very affordable prices. You can choose your female therapists as per your preference.",
       icon: <FaHotTub className="text-teal-600" />
     },
     {
@@ -119,7 +119,7 @@ export default function Gurpage() {
       title: "5 Star Hotel Spa",
       price: "₹20000/-",
       description: "Comprehensive spa experience with added treatments",
-      features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,
       ctaLink: "#",
       icon: <FaCrown className="text-amber-500" />
@@ -182,14 +182,14 @@ export default function Gurpage() {
   const SERVICES_LEFT = [
     {
       id: 'foreigner',
-      title: 'Foreigner Staff',
+      title: 'International Staff',
       subtitle: 'Experienced and Certified Massage Experts',
       desc:
         "At Luxury Russian Spa, we pride ourselves in the fact that we have some of the best certified massage therapists in Gurgaon. All of our professionals are trained on different techniques of international and traditional massage, including Swedish, Balinese, Deep Tissue, and Thai massage techniques.",
       chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'body',
@@ -220,7 +220,7 @@ export default function Gurpage() {
       chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
       time: '60-120 min',
       price: 'From ₹2,500',
-      image: '/images/Sandwich Massage.webp',
+      image: '/images/sandwich-massage-delhi.webp',
     },
     {
       id: 'packages',

@@ -59,7 +59,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Rajouri Garden?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Rajouri Garden outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort.",
+        text: "Yes, our Rajouri Garden outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort.",
       },
     },
     {

@@ -34,7 +34,7 @@ export default function HomeOurProcess() {
       subtitle: "WhatsApp or Telegram Confirmation",
       description:
         "Connect directly with our 24/7 booking desk. Receive live therapist catalogs, room availability, and immediate confirmation with zero hidden charges.",
-      image: "/images/317.webp",
+      image: "/images/spa-booking-consultation.webp",
       icon: PhoneCall,
       time: "Instant Confirmation",
       highlights: ["24/7 Live Concierge", "Discreet & Private", "Zero Advance Needed"],

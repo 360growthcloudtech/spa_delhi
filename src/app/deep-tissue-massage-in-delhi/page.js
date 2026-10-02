@@ -56,7 +56,7 @@ export const metadata = {
   openGraph: {
     title: "Deep Tissue Massage in Delhi | Relief From Chronic Pain",
     description: "Deep tissue massage in Delhi for chronic pain, muscle knots & stiffness. Certified therapists, private rooms, hygienic setting. First visit from ₹1999.",
-    images: ["https://www.luxuryrussianspa.com/images/446979.jpg"],
+    images: ["https://www.luxuryrussianspa.com/images/couple-massage-candle-lit-spa.jpg"],
     type: "website",
   },
   alternates: {
@@ -64,7 +64,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.luxuryrussianspa.com/images/446979.jpg"]
+    images: ["https://www.luxuryrussianspa.com/images/couple-massage-candle-lit-spa.jpg"]
   }
 };
 

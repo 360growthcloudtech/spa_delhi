@@ -131,7 +131,7 @@ export default function Aeropage() {
       title: "5 Star Hotel Spa",
       price: "₹20000/-",
       description: "Comprehensive spa experience with added treatments",
-      features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,
       ctaLink: "#",
       icon: <FaCrown className="text-amber-500" />
@@ -274,7 +274,7 @@ export default function Aeropage() {
       chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'body',
@@ -302,11 +302,11 @@ export default function Aeropage() {
       title: 'Wide Range of Premium Treatments',
       subtitle: 'Sustainable + award-winning',
       desc:
-        "With many therapies like full-body massage, couple massage, aromatherapy, and body-to-body, our menu adapts to everyone’s needs.",
+        "With many therapies like full-body massage, couple massage, aromatherapy, and B2B, our menu adapts to everyone’s needs.",
       chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
       time: '60-120 min',
       price: 'From ₹2,500',
-      image: '/images/Sandwich Massage.webp',
+      image: '/images/sandwich-massage-delhi.webp',
     },
     {
       id: 'packages',
@@ -880,7 +880,7 @@ export default function Aeropage() {
                     </div>
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                       <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
-                      <h4 className="font-medium text-stone-800">Nuru Massage</h4>
+                      <h4 className="font-medium text-stone-800">Steam &amp; Sauna</h4>
                       <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                     </div>
                     <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">

@@ -118,7 +118,7 @@ export default function DeepTissueMassagePage() {
       title: "5 Star Hotel Deep Tissue Spa",
       price: "₹20000/-",
       description: "Luxury deep tissue massage experience with added treatments",
-      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,
       icon: <FaCrown className="text-amber-500" />
     }
@@ -155,7 +155,7 @@ export default function DeepTissueMassagePage() {
       chips: ['Russian Therapist', 'Thai Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'technique',
@@ -288,7 +288,7 @@ export default function DeepTissueMassagePage() {
             <div className="relative h-80 md:h-96 lg:h-[450px]">
               <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
                 <img
-                  src="/images/446979.jpg"
+                  src="/images/couple-massage-candle-lit-spa.jpg"
                   alt="Deep Tissue Massage Therapy in Delhi"
                   className="w-full h-full object-cover"
                 />
@@ -532,7 +532,7 @@ export default function DeepTissueMassagePage() {
               className="grid grid-cols-2 gap-4"
             >
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img src="/images/447701.jpg" alt="Deep Tissue Massage Oils in Delhi" className="w-full h-full object-cover" />
+                <img src="/images/oil-massage-candle-lit-spa-delhi.jpg" alt="Deep Tissue Massage Oils in Delhi" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <img src="/images/MassageSession.webp" alt="Deep Tissue Massage Session in Delhi" className="w-full h-full object-cover" />

@@ -59,7 +59,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Greater Kailash?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Greater Kailash outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort.",
+        text: "Yes, our Greater Kailash outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort.",
       },
     },
     {
@@ -100,7 +100,7 @@ export const metadata = {
     "hotel spa in greater kailash",
     "couple massage in greater kailash",
     "russian spa in greater kailash",
-    "female to male spa in greater kailash",
+    "spa with female therapists in greater kailash",
     "night spa in greater kailash",
     "spa near kailash colony metro",
   ],

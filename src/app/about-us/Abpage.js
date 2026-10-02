@@ -92,7 +92,7 @@ const pricingPlans = [
     title: "5 Star Hotel Spa",
     price: "₹20000/-",
     description: "Comprehensive spa experience with added treatments",
-    features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
+    features: ["International Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
     highlight: false,
     ctaLink: "#",
     icon: <FaCrown className="text-amber-500" />
@@ -191,7 +191,7 @@ const specialFeatures = [
 
   "5 Star Hotels",
   "Female Therapist",
-  "Foreigner Therapist",
+  "International Therapist",
 ];
 
 {/* Our Process */ }
@@ -506,7 +506,7 @@ export default function Abpage({
               transition={{ duration: 0.6 }}
             >
               <Image
-                src="/images/instamodels.jpg"
+                src="/images/spa-therapist-team.jpg"
                 alt="Luxury Spa in Delhi"
                 width={600}
                 height={400}
@@ -641,7 +641,7 @@ export default function Abpage({
                 <div className="flex items-center gap-3 bg-amber-50 border border-amber-100 rounded-lg px-4 py-2">
                   <div className="w-8 h-8 rounded-md bg-amber-600/10 grid place-items-center text-amber-700 font-semibold">✓</div>
                   <div>
-                    <p className="text-sm font-semibold text-amber-900">Foreigner Therapists</p>
+                    <p className="text-sm font-semibold text-amber-900">International Therapists</p>
                     <p className="text-xs text-gray-600">Trained by hospitality pros</p>
                   </div>
                 </div>
@@ -867,7 +867,7 @@ export default function Abpage({
                     <FaLeaf className="w-3 h-3" />
                   </div>
                   <h4 className="text-lg font-semibold text-amber-900">Holistic Therapies</h4>
-                  <p className="text-sm text-gray-600 mt-1">We are providing a team of highly experienced <span className="text-sm text-amber-600 mt-1 font-bold">foreigner therapists, Thai therapists, and Indian therapists,</span> all professionally trained in luxury spa treatments.</p>
+                  <p className="text-sm text-gray-600 mt-1">We are providing a team of highly experienced <span className="text-sm text-amber-600 mt-1 font-bold">international therapists, Thai therapists, and Indian therapists,</span> all professionally trained in luxury spa treatments.</p>
                 </div>
 
                 <div className="relative pl-2">
@@ -1221,7 +1221,7 @@ export default function Abpage({
                                                   </svg>
                                                 </div>
                                                 <h2 className="text-3xl font-bold text-amber-800 mb-6">
-                                                  Foreigner Staff
+                                                  International Staff
                                                 </h2>
                                               </div>
                                                <p className="text-gray-600 leading-relaxed mb-6">

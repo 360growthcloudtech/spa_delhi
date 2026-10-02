@@ -42,7 +42,7 @@ const highlights = [
 
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Rohini that eases muscle tension and leaves you feeling refreshed head to toe.", href: "/full-body-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised, full-contact body to body therapy performed with premium oils for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised B2B therapy performed with premium oils for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Couple Massage", desc: "Our couple massage in Rohini gives two people a shared, private session in one comfortable room.", href: "/couple-massage" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots and stiffness in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
@@ -83,7 +83,7 @@ const faqs = [
   { question: "Is there a spa in Rohini?", answer: "Yes, Luxury Russian Spa runs a genuine spa in Rohini, close to Rohini Metro Station and City Centre Mall, offering full body, B2B, couple, and deep tissue massage in a private, hygienic setting." },
   { question: "Is your spa near Rohini Metro Station?", answer: "Yes, our Rohini spa outlet is conveniently located close to Rohini Metro Station on the Red Line, easy to reach from Rohini West, Rohini East, and nearby sectors." },
   { question: "Do you provide home spa service in Rohini?", answer: "Yes, alongside our outlet, we offer home spa in Rohini and across North West Delhi — our therapist arrives with everything needed for a relaxing, hygienic session at your residence." },
-  { question: "Can I book a couple massage in Rohini?", answer: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular female to male spa in Rohini option, so two people can relax together comfortably." },
+  { question: "Can I book a couple massage in Rohini?", answer: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular spa with female therapists in Rohini option, so two people can relax together comfortably." },
   { question: "Do you have Russian or other foreign therapists in Rohini?", answer: "Yes, our Russian spa in Rohini packages include experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, giving you real variety in massage style." },
   { question: "How much does a full body massage cost in Rohini?", answer: "A full body massage at our Rohini outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages start from ₹15,000, depending on duration." },
   { question: "Do you offer spa Rohini Sector 16 or near City Centre Mall Rohini?", answer: "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 16, 17, and 24, and is a short distance from City Centre Mall Rohini." },
@@ -252,14 +252,14 @@ export default function RohiniPage() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Trained Hands Behind Every Session</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff1.jpg" },
             { role: "Couple Massage Specialist", specialty: "Shared Relaxation Sessions", experience: "6+ yrs", image: "/images/staff4.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "5+ yrs", image: "/images/staff6.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff10.jpg" },
+            { role: "International Therapist", specialty: "Russian & Aromatherapy", experience: "5+ yrs", image: "/images/staff6.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff10.jpg" },
           ].map((t, index) => (
             <motion.div
               key={t.role}

@@ -18,44 +18,40 @@ const LuxuryHotelShowcase = ({
       name: 'Andaz Delhi',
       location: 'Aerocity, New Delhi',
       image: '/images/hotel-andaz-delhi.jpg',
-      rating: 4.9,
       description:
         `Andaz offers a premium in-room ${serviceLower} experience with high-level ambiance and luxury service guaranteed to leave you fully revitalized.`,
-      features: ['special B2B Therapy', 'Couple Massage', 'Sandwich Massage', 'Female-to-Male'],
-      tags: ['Foreigner Therapist', 'Luxury', 'Russian Model'],
+      features: ['Aromatherapy', 'Couple Massage', 'Sandwich Massage', 'Female Therapists'],
+      tags: ['International Therapists', 'In-Room Service', 'Luxury'],
     },
     {
       id: 2,
       name: 'The Park',
       location: 'Connaught Place, New Delhi',
       image: '/images/hotel-resort-pool.jpg',
-      rating: 4.8,
       description:
         `Experience the full luxury of a ${serviceLower} session at The Park, where elegance and comfort come together for complete relaxation.`,
-      features: ['Sandwich Massage', 'Female-to-Male', 'special B2B Therapy', 'Couple Massage'],
-      tags: ['Foreigner Therapist', 'Romantic', 'Luxury'],
+      features: ['Sandwich Massage', 'Female Therapists', 'Aromatherapy', 'Couple Massage'],
+      tags: ['International Therapists', 'Central Delhi', 'Luxury'],
     },
     {
       id: 3,
-      name: 'The Surya in NFC',
+      name: 'The Suryaa, NFC',
       location: 'NFC, New Delhi',
       image: '/images/hotel-grand-palace.jpg',
-      rating: 4.7,
       description:
-        `Discover an exceptional ${serviceLower} experience at The Surya, offering high-quality service in quiet, calm surroundings.`,
-      features: ['Full Body Massage', 'Thai Massage', 'Female-to-Male', 'special B2B Therapy'],
-      tags: ['Tropical', 'Private', 'Exclusive'],
+        `Discover an exceptional ${serviceLower} experience at The Suryaa, offering high-quality service in quiet, calm surroundings.`,
+      features: ['Full Body Massage', 'Thai Massage', 'Female Therapists', 'Aromatherapy'],
+      tags: ['Private', 'Quiet Rooms', 'South Delhi'],
     },
     {
       id: 4,
-      name: 'Welcomehotel by ITC in Dwarka',
+      name: 'Welcomhotel by ITC Hotels, Dwarka',
       location: 'Dwarka, New Delhi',
       image: '/images/hotel-grand-vista.jpg',
-      rating: 4.9,
       description:
         `Staying at Welcomhotel by ITC Dwarka? Our therapists visit your hotel to deliver a premium ${serviceLower} session, built around real relaxation and comfort.`,
-      features: ['special B2B Therapy', 'Couple Massage', 'Sandwich Massage', 'Female-to-Male'],
-      tags: ['Mountain', 'Alpine', 'Wellness'],
+      features: ['Aromatherapy', 'Couple Massage', 'Sandwich Massage', 'Female Therapists'],
+      tags: ['In-Room Service', 'West Delhi', 'Wellness'],
     },
   ];
 
@@ -71,7 +67,8 @@ const LuxuryHotelShowcase = ({
             Luxury Hotel Spa for {service} in Delhi
           </h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            We provide <strong className="text-amber-600 font-medium"><a href={serviceHref}>{serviceLower} in Delhi</a></strong> at luxurious hotels right at your doorstep. Here's our list of luxury hotels where we bring you the best {serviceLower} in Delhi:
+            {/* Pass serviceHref={null} on the service's own page so it doesn't link to itself. */}
+            We provide <strong className="text-amber-600 font-medium">{serviceHref ? <a href={serviceHref}>{serviceLower} in Delhi</a> : `${serviceLower} in Delhi`}</strong> at luxurious hotels right at your doorstep. Here's our list of luxury hotels where we bring you the best {serviceLower} in Delhi:
           </p>
         </div>
 
@@ -94,9 +91,6 @@ const LuxuryHotelShowcase = ({
                     <div className="text-amber-300 text-sm font-medium mb-2">Featured Location</div>
                     <h3 className="text-3xl font-bold text-white">{hotels[activeHotel].name}</h3>
                     <p className="text-amber-200 mt-1">{hotels[activeHotel].location}</p>
-                  </div>
-                  <div className="flex items-center bg-amber-600 text-white px-4 py-2 rounded-full shadow">
-                    <span className="text-xl font-bold">{hotels[activeHotel].rating}</span>
                   </div>
                 </div>
                 <p className="text-amber-100 text-lg mb-8">{hotels[activeHotel].description}</p>
@@ -155,9 +149,6 @@ const LuxuryHotelShowcase = ({
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white px-2 py-0.5 rounded text-xs font-bold">
-                    ★ {hotel.rating}
-                  </div>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 group-hover:text-amber-700 transition-colors">{hotel.name}</h3>

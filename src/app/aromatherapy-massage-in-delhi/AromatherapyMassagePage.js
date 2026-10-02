@@ -133,7 +133,7 @@ export default function AromatherapyMassagePage() {
       title: "5 Star Hotel Aromatherapy Spa",
       price: "₹20000/-",
       description: "Luxury aromatherapy massage experience with added treatments",
-      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,
       icon: <FaCrown className="text-amber-500" />
     }
@@ -170,7 +170,7 @@ export default function AromatherapyMassagePage() {
       chips: ['Russian Therapist', 'Thai Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'oils',

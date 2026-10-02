@@ -42,7 +42,7 @@ const highlights = [
 
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Paharganj that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
-  { title: "B2B Massage", desc: "Our B2B spa Paharganj session is a full-contact, full-body therapy for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "Our B2B spa Paharganj session is a signature full body therapy for genuine deep relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Thai Massage", desc: "A traditional Thai spa in Paharganj session using stretching and pressure to ease stiffness.", href: "/thai-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
@@ -183,7 +183,7 @@ export default function PaharganjPage() {
             </p>
             <h3 className="mt-6 font-semibold text-[#1f1a17]">What you can expect:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
-              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
+              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including international therapists, with attention to your comfort and preferences.</li>
               <li><span className="font-semibold text-[#1f1a17]">Range of Massage Therapies</span> — Full body, B2B, Thai, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#1f1a17]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
               <li><span className="font-semibold text-[#1f1a17]">Convenient Location</span> — Minutes from New Delhi Railway Station and Main Bazaar.</li>
@@ -251,13 +251,13 @@ export default function PaharganjPage() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Trained Hands Behind Every Session</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff5.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "6+ yrs", image: "/images/staff8.jpg" },
-            { role: "Foreigner Therapist", specialty: "Thai & Aromatherapy", experience: "5+ yrs", image: "/images/staff9.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "6+ yrs", image: "/images/staff8.jpg" },
+            { role: "International Therapist", specialty: "Thai & Aromatherapy", experience: "5+ yrs", image: "/images/staff9.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "7+ yrs", image: "/images/staff11.jpg" },
           ].map((t, index) => (
             <motion.div

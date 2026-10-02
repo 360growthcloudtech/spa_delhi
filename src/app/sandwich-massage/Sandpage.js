@@ -196,7 +196,7 @@ const pricingPlans = [
 ];
 
 // Internal links to the outlet (location) pages, for "sandwich massage near me" searches.
-// Cards are titled by outlet because they open the general outlet page.
+// Cards use "Spa in {area}" as anchor text to match the keyword each outlet page targets.
 const nearbyOutlets = [
   { area: "Aerocity", note: "Near IGI Airport", href: "/spa-in-aerocity" },
   { area: "Connaught Place", note: "Near Rajiv Chowk Metro", href: "/spa-in-connaught-place" },
@@ -213,12 +213,12 @@ const steps = [
   {
     title: "Send Us a Message",
     text: "WhatsApp, Telegram or a quick call. Tell us the time and the outlet or hotel that suits you.",
-    image: "/images/317.webp",
+    image: "/images/spa-booking-consultation.webp",
   },
   {
     title: "Walk Into a Ready Room",
     text: "Fresh towels, warm oil and soft lighting are set up before you arrive. Change and get comfortable.",
-    image: "/images/453.webp",
+    image: "/images/private-spa-room-delhi.webp",
   },
   {
     title: "Relax for the Next Hour",
@@ -261,7 +261,7 @@ const related = [
 
 const guides = [
   { title: "Health Benefits of Sandwich Massage", href: "/health-benefits-of-sandwich-massage" },
-  { title: "What to Expect From Your First Sandwich Massage", href: "/blog/sandwich-massage-in-delhi" },
+  { title: "What to Expect From Your First Sandwich Massage", href: "/blog/first-sandwich-massage-what-to-expect" },
 ];
 
 const testimonials = [
@@ -313,7 +313,7 @@ export default function Sandpage() {
       {/* 1. Hero */}
       <section aria-labelledby="sandwich-hero-title" className="relative bg-dark">
         <Image
-          src="/images/447701.jpg"
+          src="/images/oil-massage-candle-lit-spa-delhi.jpg"
           alt="Sandwich massage in Delhi at Luxury Russian Spa"
           fill
           priority
@@ -397,7 +397,7 @@ export default function Sandpage() {
           <div className="relative pb-16 pr-10 sm:pr-20">
             <div className="relative aspect-square overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
               <Image
-                src="/images/Sandwich Massage.webp"
+                src="/images/sandwich-massage-delhi.webp"
                 alt="Two therapists giving a sandwich massage at our sandwich massage centre in Delhi"
                 fill
                 sizes="(max-width:1024px) 90vw, 45vw"
@@ -667,7 +667,7 @@ export default function Sandpage() {
                     <MapPin className="size-5" />
                   </span>
                   <span className="flex-1">
-                    <span className="block font-title text-lg font-bold text-amber-900">Our {area} Outlet</span>
+                    <span className="block font-title text-lg font-bold text-amber-900">Spa in {area}</span>
                     <span className="text-xs text-bodycolor">{note}</span>
                   </span>
                   <ArrowRight className="size-4 text-primary transition-transform group-hover:translate-x-1" />
@@ -686,7 +686,7 @@ export default function Sandpage() {
         <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="relative aspect-[5/4] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
             <Image
-              src="/images/137.jpg"
+              src="/images/shoulder-massage-warm-oil.jpg"
               alt="Warm oil therapy during a Delhi sandwich massage"
               fill
               sizes="(max-width:1024px) 90vw, 45vw"
@@ -805,7 +805,7 @@ export default function Sandpage() {
       </section>
 
       {/* 11. Partner hotels (shared component) */}
-      <LuxuryHotelShowcase service="Sandwich Massage" serviceHref="/sandwich-massage" serviceLower="sandwich massage" />
+      <LuxuryHotelShowcase service="Sandwich Massage" serviceHref={null} serviceLower="sandwich massage" />
 
       {/* 12. Testimonials */}
       <section aria-labelledby="sandwich-reviews-title" className="bg-[#fdf3ee] py-16 md:py-20 px-4 md:px-8">
@@ -910,7 +910,7 @@ export default function Sandpage() {
 
       {/* 15. Final CTA */}
       <section aria-labelledby="sandwich-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
-        <Image src="/images/453.webp" alt="" fill sizes="100vw" className="object-cover opacity-20" aria-hidden="true" />
+        <Image src="/images/private-spa-room-delhi.webp" alt="" fill sizes="100vw" className="object-cover opacity-20" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto text-center">
           <HomeHeading
             light

@@ -51,7 +51,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Kalkaji?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Kalkaji outlet has private rooms for couple massage, including our popular female to male couple massage, so two people can relax together comfortably.",
+        text: "Yes, our Kalkaji outlet has private rooms for couple massage, including our popular couple massage with female therapists, so two people can relax together comfortably.",
       },
     },
     {
@@ -98,7 +98,7 @@ export const metadata = {
     "couple massage in kalkaji",
     "best spa in kalkaji",
     "russian spa in kalkaji",
-    "female to male spa in kalkaji",
+    "spa with female therapists in kalkaji",
     "night spa in kalkaji",
     "spa near kalkaji metro station",
   ],

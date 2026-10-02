@@ -40,7 +40,7 @@ const highlights = [
 ];
 
 const benefits = [
-  { title: "Deep Relaxation", desc: "Full-contact technique that helps release tension more completely than a standard massage, especially after a physically and mentally draining week." },
+  { title: "Deep Relaxation", desc: "Signature technique that helps release tension more completely than a standard massage, especially after a physically and mentally draining week." },
   { title: "Improved Circulation", desc: "The warmth and pressure of B2B massage encourages healthy blood flow throughout the session, leaving your whole body feeling looser afterward." },
   { title: "Stress Relief for Professionals", desc: "A popular choice for C.P.'s office crowd looking for genuine stress relief after back-to-back meetings and long client calls." },
   { title: "Muscle Recovery", desc: "Helps ease the physical fatigue that builds up from long working hours, travel, or simply too many hours in a desk chair." },
@@ -78,22 +78,22 @@ const processSteps = [
 ];
 
 const pricingPlans = [
-  { title: "B2B Outlet", price: "₹2999", desc: "A private session at our Connaught Place outlet, close to Rajiv Chowk.", features: ["Full Body-to-Body Technique", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home B2B Spa", price: "₹18000", desc: "The same service delivered to your home anywhere near C.P. and Central Delhi.", features: ["Full Body-to-Body Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "B2B Outlet", price: "₹2999", desc: "A private session at our Connaught Place outlet, close to Rajiv Chowk.", features: ["Signature B2B Technique", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
+  { title: "Home B2B Spa", price: "₹18000", desc: "The same service delivered to your home anywhere near C.P. and Central Delhi.", features: ["Signature B2B Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
   { title: "5 Star Hotel B2B Spa", price: "₹22000", desc: "A longer, more thorough session at your hotel near Connaught Place.", features: ["Foreign Therapist", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
   { question: "What is the first visit offer for B2B massage in Connaught Place?", answer: "Our B2B massage in Connaught Place starts at ₹2999 for a first-visit outlet session, close to Rajiv Chowk Metro." },
   { question: "Is your B2B massage spa near Rajiv Chowk Metro Station?", answer: "Yes, our Connaught Place outlet is a short walk from Rajiv Chowk Metro Station, the Blue and Yellow Line interchange." },
-  { question: "Is body to body massage legal in India?", answer: "Body to body massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards. Read our detailed guide for the full picture." },
-  { question: "What is B2B massage and how is it different from a regular massage?", answer: "B2B massage is a specialised, full-contact therapy performed with premium oils and smooth, controlled movements, designed for deeper relaxation than a standard massage." },
+  { question: "Is B2B massage legal in India?", answer: "B2B massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards. Read our detailed guide for the full picture." },
+  { question: "What is B2B massage and how is it different from a regular massage?", answer: "B2B massage is a specialised full body therapy performed with premium oils and smooth, controlled movements, designed for deeper relaxation than a standard massage." },
   { question: "Do you have Russian or other foreign therapists for B2B massage in Connaught Place?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available for B2B sessions alongside our experienced Indian staff, from ₹2,800 depending on the package." },
   { question: "Can I book a night B2B massage appointment in Connaught Place?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
   { question: "Do you offer B2B massage at hotels near Connaught Place?", answer: "Yes, we regularly serve guests staying at hotels around C.P. — just share your hotel and room details when booking." },
   { question: "How much does a B2B massage cost in Connaught Place?", answer: "A B2B massage at our Connaught Place outlet starts from ₹2999 for the first visit. Home and hotel packages start from ₹18,000 depending on duration." },
   { question: "How long does a B2B massage session last?", answer: "Our standard B2B massage session runs 60 minutes at the outlet, with 90-minute home spa and 120-minute hotel spa options available for a longer, more thorough session." },
-  { question: "What is the difference between B2B massage and a full body massage?", answer: "B2B massage is a full-contact, body-to-body technique focused on deep relaxation, while a full body massage is a broader head-to-toe session using hands-only technique. Both are available at our Connaught Place outlet." },
+  { question: "What is the difference between B2B massage and a full body massage?", answer: "B2B massage is a signature full body technique focused on deep relaxation, while a full body massage is a broader head-to-toe session using hands-only technique. Both are available at our Connaught Place outlet." },
   { question: "What oils are used during a B2B massage session?", answer: "We use premium, aromatherapy-grade massage oils selected for skin comfort and smooth, controlled movement throughout the session — your therapist can adjust based on any preference or sensitivity." },
   { question: "Is B2B massage available for corporate or business travellers near Connaught Place?", answer: "Yes — a large share of our C.P. bookings are corporate professionals and business travellers looking for genuine stress relief between meetings, which is why we keep flexible daytime and evening slots available." },
   { question: "Do I need to book in advance for a B2B massage in Connaught Place?", answer: "Same-day appointments are usually possible, but we recommend booking a couple of hours ahead over WhatsApp or Telegram, especially for evening and night slots, to guarantee your preferred time." },
@@ -116,7 +116,7 @@ export default function B2BMassageConnaughtPlacePage() {
               B2B Massage in <span className="text-amber-700">Connaught Place</span> Near Rajiv Chowk
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-700">
-              Our B2B massage in Connaught Place brings genuine body to body therapy to Central Delhi's busiest district — a short walk from Rajiv Chowk Metro, performed by trained therapists in a fully private room. First visit from ₹2999.
+              Our B2B massage in Connaught Place brings genuine B2B therapy to Central Delhi's busiest district — a short walk from Rajiv Chowk Metro, performed by trained therapists in a fully private room. First visit from ₹2999.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href="https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer." className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
@@ -195,7 +195,7 @@ export default function B2BMassageConnaughtPlacePage() {
 
               <motion.div initial={false} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: 0.05 }} className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
                 <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-amber-50 text-xl text-amber-600"><FaHandSparkles /></div>
-                <h3 className="text-lg font-semibold text-[#1f1a17]">A Specialised, Full-Contact Therapy</h3>
+                <h3 className="text-lg font-semibold text-[#1f1a17]">A Specialised Full Body Therapy</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
                   Premium oils and controlled, smooth movements for genuine deep relaxation — not just a rubdown. From ₹2999.
                 </p>
@@ -242,7 +242,7 @@ export default function B2BMassageConnaughtPlacePage() {
             covers everything from full body to couple massage.
           </p>
           <p className="mt-4 leading-relaxed text-gray-700">
-            We're a licensed wellness centre, not a one-off pop-up — every therapist on our Connaught Place team goes through structured training in body-to-body technique, oil selection, and client comfort before they're ever paired with a guest. That's part of why corporate professionals in C.P. keep coming back for post-meeting relaxation instead of trying a new place each time: consistency matters when you're booking a service like this.
+            We're a licensed wellness centre, not a one-off pop-up — every therapist on our Connaught Place team goes through structured training in B2B technique, oil selection, and client comfort before they're ever paired with a guest. That's part of why corporate professionals in C.P. keep coming back for post-meeting relaxation instead of trying a new place each time: consistency matters when you're booking a service like this.
           </p>
         </div>
       </section>
@@ -259,7 +259,7 @@ export default function B2BMassageConnaughtPlacePage() {
             <h3 className="text-lg font-semibold text-[#1f1a17]">vs. Full Body Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
               A <Link href="/full-body-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">full body massage</Link>{" "}
-              is a broader, gentler head-to-toe session — a good fit if you want general relaxation without the full-contact B2B format.
+              is a broader, gentler head-to-toe session — a good fit if you want general relaxation without the B2B format.
             </p>
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">
@@ -267,7 +267,7 @@ export default function B2BMassageConnaughtPlacePage() {
             <h3 className="text-lg font-semibold text-[#1f1a17]">vs. Deep Tissue Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
               <Link href="/deep-tissue-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">Deep tissue massage</Link>{" "}
-              targets stiff muscles and knots with firm pressure — better suited to physical recovery than the B2B format's full-contact relaxation.
+              targets stiff muscles and knots with firm pressure — better suited to physical recovery than the B2B format's deep relaxation.
             </p>
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">

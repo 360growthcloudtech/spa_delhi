@@ -42,7 +42,7 @@ const pricingPlans = [
   },
   {
     title: "VIP Presidential Spa",
-    tagline: "Exclusive Russian & Foreigner Therapists",
+    tagline: "Exclusive Russian & International Therapists",
     price: "₹20,000",
     period: "luxury VIP / 120 min",
     duration: "120 Min",

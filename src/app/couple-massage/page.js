@@ -1,7 +1,7 @@
 import Couplepage, { faqs } from "./Couplepage";
 
 const PAGE_URL = "https://www.luxuryrussianspa.com/couple-massage";
-const IMAGE_URL = "https://www.luxuryrussianspa.com/images/Couple%20Massage.webp";
+const IMAGE_URL = "https://www.luxuryrussianspa.com/images/couple-massage-delhi.webp";
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -51,28 +51,6 @@ export const metadata = {
   title: "Couple Massage in Delhi - Couples Spa From ₹1999 | Luxury Russian Spa",
   description:
     "Book a couple massage in Delhi side by side with your partner. Private couples spa rooms, romantic packages, home visits and 5-star hotel sessions across Delhi NCR.",
-  keywords: [
-    "couple massage",
-    "couple massage in delhi",
-    "couples massage near me",
-    "best couples massage near me",
-    "couples spa",
-    "couple spa in delhi",
-    "best couple spa in delhi",
-    "best couple massage spa in delhi",
-    "couple spa in delhi ncr",
-    "best couple spa in delhi ncr",
-    "couple massage at home in delhi",
-    "romantic couples massage",
-    "couples spa day",
-    "couple massage spa",
-    "couples massage and spa",
-    "couples packages",
-    "couples body massage",
-    "couples back massage",
-    "couple hot massage",
-    "couples facial",
-  ],
   alternates: {
     canonical: PAGE_URL,
   },

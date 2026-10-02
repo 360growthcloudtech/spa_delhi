@@ -29,13 +29,13 @@ const blocks = [
   },
   {
     eyebrow: "Exclusive Body Spa Outlets",
-    title: "Relaxing Body to Body Massage in Delhi With Female Therapists",
+    title: "Relaxing B2B Massage in Delhi With Female Therapists",
     accent: "100% Safety & Privacy",
     image: "/images/haboutus.webp",
-    alt: "Relaxing body to body massage in Delhi with a female therapist",
+    alt: "Relaxing B2B massage in Delhi with a female therapist",
     body: [
       <>
-        If you&apos;re looking for a body to body massage in Delhi, your first worry is probably privacy. Fair enough.
+        If you&apos;re looking for a B2B massage in Delhi, your first worry is probably privacy. Fair enough.
         You get a closed room here, and no one comes in during your session. Want a female therapist? Just mention it
         on WhatsApp before you come. We have 24+ outlets, some inside 5-star hotels, so one near you is rarely a
         problem.
@@ -57,7 +57,7 @@ const blocks = [
     eyebrow: "Top-Rated Central Delhi",
     title: "Get Top-Rated Full Body Massage At Spa in Connaught Place",
     accent: "Central Delhi Flagship",
-    image: "/images/453.webp",
+    image: "/images/private-spa-room-delhi.webp",
     alt: "Full body massage at our spa in Connaught Place",
     badge: { value: "C.P.", label: "Connaught Place", sub: "Heart of Delhi" },
     body: [

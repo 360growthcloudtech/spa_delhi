@@ -30,7 +30,7 @@ const features = [
     icon: Sparkles,
     badge: "Bespoke Therapies",
     title: "Signature Russian & B2B Spa",
-    desc: "Experience world-class Body-to-Body, Sandwich, Couples, and Swedish therapies designed to release deep-seated stress, rejuvenate muscles, and calm the mind.",
+    desc: "Experience world-class B2B, Sandwich, Couples, and Swedish therapies designed to release deep-seated stress, rejuvenate muscles, and calm the mind.",
     tag: "100% Private & Hygienic",
   },
   {

@@ -45,7 +45,7 @@ const highlights = [
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Saket that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised B2B therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
   { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes to relax the mind and refresh the senses.", href: "/aromatherapy-massage-in-delhi" },
@@ -64,7 +64,7 @@ const faqs = [
   { question: "Is there a massage center in Saket near Malviya Nagar or Pushp Vihar?", answer: "Yes, our massage center in Saket is easy to reach from Malviya Nagar, Pushp Vihar, Saidulajab, and Saket Metro Station, with home spa options across all of these areas." },
   { question: "Do you offer a full body massage in Saket at home?", answer: "Yes, alongside our Saket spa centre, we offer full body massage in Saket as a home service across South Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session." },
   { question: "How do I find a spa near Saket for a quick session?", answer: "Search spa near Saket and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day slot." },
-  { question: "Can I book a couple massage in Saket?", answer: "Yes, our Saket outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
+  { question: "Can I book a couple massage in Saket?", answer: "Yes, our Saket outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
   { question: "How much does a full body massage in Saket cost?", answer: "A full body massage in Saket at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
 ];
 
@@ -358,8 +358,8 @@ export default function SpaInSaket() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff10.jpg" },
-            { role: "Foreigner Therapist", specialty: "Aromatherapy & Relaxation", experience: "6+ yrs", image: "/images/staff9.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff7.jpg" },
+            { role: "International Therapist", specialty: "Aromatherapy & Relaxation", experience: "6+ yrs", image: "/images/staff9.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff7.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff11.jpg" },
           ].map((t, index) => (
             <motion.div

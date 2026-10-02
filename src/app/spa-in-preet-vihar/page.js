@@ -59,7 +59,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Preet Vihar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Preet Vihar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in complete comfort.",
+        text: "Yes, our Preet Vihar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in complete comfort.",
       },
     },
     {

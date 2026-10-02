@@ -122,7 +122,7 @@ export default function Footer() {
             <Heading>Contact Us</Heading>
             <ul className="space-y-4 text-sm">
               <li>
-                <a href="tel:++91 8799716197" className="flex items-center gap-3 hover:text-primary transition-colors">
+                <a href="tel:+918799716197" className="flex items-center gap-3 hover:text-primary transition-colors">
                   <span className="size-9 shrink-0 rounded-full bg-cream text-primary flex items-center justify-center">
                     <FaPhoneAlt size={13} />
                   </span>
@@ -171,7 +171,7 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} Luxury Russian Spa. All rights reserved.</p>
           <p>
             Mail <a href="mailto:dmspadelhi@gmail.com" className="hover:text-primary">dmspadelhi@gmail.com</a> | Phone{" "}
-            <a href="tel:++91 8799716197" className="hover:text-primary">+91 8799716197</a>
+            <a href="tel:+918799716197" className="hover:text-primary">+91 8799716197</a>
           </p>
         </div>
       </div>

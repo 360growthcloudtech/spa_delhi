@@ -28,7 +28,7 @@ export default function Isb2bmassagelegal() {
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Is body to body massage legal in India?",
+                    question: "Is B2B massage legal in India?",
                     answer: " The legality depends on how the service is conducted and advertised. If it is a legitimate wellness treatment in a proper spa setting, it may fall under legal spa services. If it is connected to sexual activity or illegal solicitation, it is not lawful.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
@@ -65,7 +65,7 @@ export default function Isb2bmassagelegal() {
       {/* Banner Section */}
       <section className="relative h-[60vh] w-full">
         <Image
-          src="/images/18+bodyspa.webp"
+          src="/images/full-body-massage-spa.webp"
           alt="Blog Banner"
           fill
           className="object-cover"
@@ -106,7 +106,7 @@ export default function Isb2bmassagelegal() {
          The question “Is B2B massage legal in India?” comes up often, and for good reason. The term itself is widely used in the spa industry, but it can mean different things depending on the provider, the setting, and the way a service is advertised. That is where confusion begins.
         </p>
         <p className="text-gray-700 leading-8 mb-10">
-           If you are simply trying to understand whether a body-to-body style massage is legal in India, the honest answer is this: the legality depends on what exactly is being offered, how the service is conducted, and whether the spa is operating within the law. In other words, the label alone does not tell the full story.  
+           If you are simply trying to understand whether a B2B-style massage is legal in India, the honest answer is this: the legality depends on what exactly is being offered, how the service is conducted, and whether the spa is operating within the law. In other words, the label alone does not tell the full story.  
         </p>
         <p className="text-gray-700 leading-8 mb-10">
           In Delhi, where wellness demand is high and spa options are everywhere, customers should be careful about professionalism, hygiene, consent, and the legitimacy of the spa business. A good spa should focus on relaxation, privacy, trained therapists, and proper business practices—not ambiguity. 
@@ -135,7 +135,7 @@ export default function Isb2bmassagelegal() {
            A professional spa massage is generally a wellness service. It is meant to relieve stress, loosen tight muscles, improve circulation, and support relaxation. In many cases, people use terms like full body massage, deep tissue massage, Swedish massage, Thai massage, or aromatherapy in a legitimate spa setting.
             </p>
             <p className="text-gray-700 leading-8 mb-6">
-            However, the phrase “b2b massage” or “body to body massage” is often marketed in a way that creates confusion. In India, there is no single national law that specifically says “B2B massage is legal” or “B2B massage is illegal” as a standalone phrase. Instead, legality depends on broader laws relating to:
+            However, the phrase “b2b massage” or “B2B massage” is often marketed in a way that creates confusion. In India, there is no single national law that specifically says “B2B massage is legal” or “B2B massage is illegal” as a standalone phrase. Instead, legality depends on broader laws relating to:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
           <li>public decency and obscenity</li>
@@ -146,7 +146,7 @@ export default function Isb2bmassagelegal() {
           <li>business registration and taxation</li>
         </ul>
         <p className="text-gray-700 leading-8 mb-6">
-          So, if someone asks, “Is body to body massage legal in India?” the practical answer is: a legitimate wellness massage in a licensed spa is different from any service that is sexual, exploitative, or marketed as a cover for illegal activity. That distinction matters a lot.
+          So, if someone asks, “Is B2B massage legal in India?” the practical answer is: a legitimate wellness massage in a licensed spa is different from any service that is sexual, exploitative, or marketed as a cover for illegal activity. That distinction matters a lot.
         </p>
         <p className="text-gray-700 leading-8 mb-6">
           This is why reputable spa business laws in India should always be respected by spa owners and checked by customers. A trustworthy spa will be clear about its services, maintain professional boundaries, and operate with proper hygiene and consent.

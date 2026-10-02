@@ -110,7 +110,7 @@ const techniques = [
     title: "Romantic Couples Massage",
     image: "/images/couple-bathrobes-posing-embraced.jpg",
     description:
-      "Think candles, quiet music in the background and oil that's been warmed up first. The therapists take their time here, nothing quick or hard. This is the one most lovers book for a date night or an anniversary. It's less about fixing knots and more about switching off together.",
+      "Think candles, quiet music in the background and oil that's been warmed up first. The therapists take their time here, nothing quick or hard. This is the one most couples book for a date night or an anniversary. It's less about fixing knots and more about switching off together.",
   },
   {
     title: "Couples Back Massage",
@@ -120,13 +120,13 @@ const techniques = [
   },
   {
     title: "Couples Body Massage",
-    image: "/images/Couple Massage.webp",
+    image: "/images/couple-massage-delhi.webp",
     description:
       "Head to toe for both of you, from the shoulders down to the feet. This is our most booked couple body massage, and a good pick if it's your first time at a couple massage spa.",
   },
   {
     title: "Couple Hot Massage",
-    image: "/images/137.jpg",
+    image: "/images/shoulder-massage-warm-oil.jpg",
     description:
       "Here we use heated oil, or put warm stones along your back if you'd like. Tight muscles loosen up quicker when they're warm. Try it on a cold winter evening in Delhi and you'll see why people love it.",
   },
@@ -203,7 +203,7 @@ const pricingPlans = [
 ];
 
 // Internal links to the outlet (location) pages, for "couples massage near me" searches.
-// Cards are titled by outlet because they open the general outlet page.
+// Cards use "Spa in {area}" as anchor text to match the keyword each outlet page targets.
 const nearbyOutlets = [
   { area: "Aerocity", note: "Near IGI Airport", href: "/spa-in-aerocity" },
   { area: "Connaught Place", note: "Near Rajiv Chowk Metro", href: "/spa-in-connaught-place" },
@@ -219,7 +219,7 @@ const nearbyOutlets = [
 const homePoints = [
   "Two therapists come to your home or hotel room",
   "Fresh sheets, towels and warm oils come with them",
-  "Your bedroom, your music, nobody else around",
+  "Your own place, your playlist, no travel",
   "Book a few hours ahead for a same-day slot",
 ];
 
@@ -227,12 +227,12 @@ const steps = [
   {
     title: "Send Us a Message",
     text: "WhatsApp, Telegram or a quick call. Tell us the time, the place and what each of you would like.",
-    image: "/images/317.webp",
+    image: "/images/spa-booking-consultation.webp",
   },
   {
     title: "Walk Into a Ready Room",
     text: "Two tables, warm oil and soft lighting are set up before you arrive. Change and get comfortable.",
-    image: "/images/453.webp",
+    image: "/images/private-spa-room-delhi.webp",
   },
   {
     title: "Relax Together",
@@ -327,7 +327,7 @@ export default function Couplepage() {
       {/* 1. Hero */}
       <section aria-labelledby="couple-hero-title" className="relative bg-dark">
         <Image
-          src="/images/446979.jpg"
+          src="/images/couple-massage-candle-lit-spa.jpg"
           alt="Couple massage in Delhi at Luxury Russian Spa"
           fill
           priority
@@ -412,7 +412,7 @@ export default function Couplepage() {
           <div className="relative pb-16 pr-10 sm:pr-20">
             <div className="relative aspect-square overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
               <Image
-                src="/images/Couple Massage.webp"
+                src="/images/couple-massage-delhi.webp"
                 alt="Couple in spa getting a side-by-side couple massage in Delhi"
                 fill
                 sizes="(max-width:1024px) 90vw, 45vw"
@@ -421,7 +421,7 @@ export default function Couplepage() {
             </div>
             <div className="absolute bottom-0 right-0 w-[48%] aspect-[4/5] overflow-hidden rounded-3xl border-[6px] border-white shadow-xl">
               <Image
-                src="/images/447701.jpg"
+                src="/images/oil-massage-candle-lit-spa-delhi.jpg"
                 alt="Private couple massage spa room with two tables"
                 fill
                 sizes="(max-width:1024px) 45vw, 22vw"
@@ -445,14 +445,14 @@ export default function Couplepage() {
             <p className="leading-relaxed text-bodycolor">
               A couple massage is pretty simple. You and your partner lie on two tables next to each other, and you
               each get your own therapist. You don&apos;t have to want the same thing either. If you like it firm and
-              your partner likes it gentle, just tell us. People search for it as couples massage therapy, or even a
-              lovers massage, but really it&apos;s an hour you get to spend together without having to make
-              conversation.
+              your partner likes it gentle, just tell us. Some people call it couples massage therapy, but really
+              it&apos;s an hour you get to spend together without having to make conversation.
             </p>
             <p className="mt-4 leading-relaxed text-bodycolor">
               It&apos;s the small stuff people remember. Is the room really private? Does your massage end when your
-              partner&apos;s does? Is the oil warm, or is it freezing? We pay attention to all of it. Honestly,
-              that&apos;s why a lot of couples come back and tell their friends we&apos;re the best couple spa in Delhi.
+              partner&apos;s does? Is the oil warm, or is it freezing? We pay attention to all of it at{" "}
+              <a href="/" className={linkClass}>Luxury Russian Spa</a>. Honestly, that&apos;s why a lot of couples
+              come back and tell their friends we&apos;re the best couple spa in Delhi.
             </p>
 
             <div className="mt-8 space-y-5">
@@ -487,7 +487,13 @@ export default function Couplepage() {
             eyebrow="Choose Your Style"
             title="Couples Massage"
             highlight="Options We Offer"
-            text="Four styles couples ask for the most. You don't have to pick the same one as your partner. Each of you can choose your own."
+            text={
+              <>
+                Four styles couples ask for the most. You don&apos;t have to pick the same one as your partner. Each of
+                you can choose your own. Looking for something else? Have a look at all our{" "}
+                <a href="/" className={linkClass}>massage services in Delhi</a>.
+              </>
+            }
           />
           <div className="grid gap-6 md:grid-cols-2">
             {techniques.map((t, i) => (
@@ -560,7 +566,7 @@ export default function Couplepage() {
         <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)] lg:order-last">
             <Image
-              src="/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg"
+              src="/images/private-spa-room-delhi.webp"
               alt="Candle-lit romantic massage spa room set up for a couples spa day"
               fill
               sizes="(max-width:1024px) 90vw, 45vw"
@@ -671,8 +677,7 @@ export default function Couplepage() {
             text={
               <>
                 Looking for the best couples massage near me? Pick your area below to see the outlet, or send us your
-                location on WhatsApp and we&apos;ll point you to the closest one. In South Delhi? Try our{" "}
-                <a href="/couple-massage-in-saket" className={linkClass}>couple massage in Saket</a>.
+                location on WhatsApp and we&apos;ll point you to the closest one.
               </>
             }
           />
@@ -687,7 +692,7 @@ export default function Couplepage() {
                     <MapPin className="size-5" />
                   </span>
                   <span className="flex-1">
-                    <span className="block font-title text-lg font-bold text-amber-900">Our {area} Outlet</span>
+                    <span className="block font-title text-lg font-bold text-amber-900">Spa in {area}</span>
                     <span className="text-xs text-bodycolor">{note}</span>
                   </span>
                   <ArrowRight className="size-4 text-primary transition-transform group-hover:translate-x-1" />
@@ -745,7 +750,7 @@ export default function Couplepage() {
         <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="lg:order-last relative aspect-[5/4] overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
             <Image
-              src="/images/137.jpg"
+              src="/images/shoulder-massage-warm-oil.jpg"
               alt="Warm aroma oil for a romantic body massage"
               fill
               sizes="(max-width:1024px) 90vw, 45vw"
@@ -764,7 +769,7 @@ export default function Couplepage() {
             <p className="leading-relaxed text-bodycolor">
               A romantic body massage isn&apos;t only about the hands. Half of it is the room, if we&apos;re
               being honest. So by the time you two get there, the lights are already down and the candles are on. The music stays low enough that you
-              can barely hear it. It ends up feeling a little sensual, in a calm way. We also warm the oil first. Cold
+              can barely hear it. The whole room ends up feeling cosy and a bit romantic. We also warm the oil first. Cold
               oil on your back is the quickest way to kill the mood, trust us.
             </p>
             <p className="mt-4 leading-relaxed text-bodycolor">
@@ -866,7 +871,7 @@ export default function Couplepage() {
       </section>
 
       {/* 12. Partner hotels (shared component) */}
-      <LuxuryHotelShowcase service="Couple Massage" serviceHref="/couple-massage" serviceLower="couple massage" />
+      <LuxuryHotelShowcase service="Couple Massage" serviceHref={null} serviceLower="couple massage" />
 
       {/* 13. Testimonials */}
       <section aria-labelledby="couple-reviews-title" className="bg-[#fdf3ee] py-16 md:py-20 px-4 md:px-8">
@@ -924,7 +929,12 @@ export default function Couplepage() {
               </li>
             ))}
           </ul>
-          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <p className="mt-8 text-center text-sm text-bodycolor">
+            Still deciding? Compare every treatment on our{" "}
+            <a href="/massage-service-in-delhi" className={linkClass}>massage services in Delhi</a> page, or head back to
+            the <a href="/" className={linkClass}>Luxury Russian Spa homepage</a> to see what&apos;s new.
+          </p>
+          <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <span className="flex items-center gap-2 text-sm font-semibold text-amber-900">
               <BookOpen className="size-4 text-primary" /> Read more:
             </span>
@@ -971,7 +981,7 @@ export default function Couplepage() {
 
       {/* 16. Final CTA */}
       <section aria-labelledby="couple-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
-        <Image src="/images/453.webp" alt="" fill sizes="100vw" className="object-cover opacity-20" aria-hidden="true" />
+        <Image src="/images/private-spa-room-delhi.webp" alt="" fill sizes="100vw" className="object-cover opacity-20" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto text-center">
           <HomeHeading
             light

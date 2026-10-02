@@ -43,7 +43,7 @@ const highlights = [
 const services = [
   { title: "Full Body Massage", desc: "A complete full body massage in Mahipalpur that eases muscle tension and leaves you feeling refreshed.", href: "/full-body-massage-in-delhi" },
   { title: "Deep Tissue Massage", desc: "Firm, focused pressure that targets chronic knots in the back, neck, and shoulders.", href: "/deep-tissue-massage-in-delhi" },
-  { title: "B2B Massage", desc: "A specialised body to body therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
+  { title: "B2B Massage", desc: "A specialised B2B therapy performed with premium oils for complete relaxation.", href: "/b2b-massage-in-delhi" },
   { title: "Couples Massage", desc: "One private room, two therapists — a shared spa experience for two.", href: "/couple-massage" },
   { title: "Sandwich Massage", desc: "A two-therapist session that delivers deeper relaxation and faster stress relief.", href: "/sandwich-massage" },
   { title: "Aromatherapy Massage", desc: "Calming essential oils combined with gentle massage strokes, perfect after a long flight.", href: "/aromatherapy-massage-in-delhi" },
@@ -86,7 +86,7 @@ const faqs = [
   { question: "Do you offer a Russian spa in Mahipalpur?", answer: "Yes, our russian spa in Mahipalpur packages pair you with experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff — widely regarded as the best russian spa in Mahipalpur for guests wanting a genuine russian body spa mahipalpur experience." },
   { question: "How much does a body massage in Mahipalpur cost?", answer: "A body massage in Mahipalpur at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
   { question: "Do you provide hotel spa service in Mahipalpur?", answer: "Yes, hotel spa is one of our most popular services in Mahipalpur given the dense concentration of hotels here — our therapist arrives with everything needed for a relaxing, hygienic session at your room." },
-  { question: "Can I book a couple massage in Mahipalpur?", answer: "Yes, our Mahipalpur outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort." },
+  { question: "Can I book a couple massage in Mahipalpur?", answer: "Yes, our Mahipalpur outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
   { question: "What are your spa timings in Mahipalpur? Do you offer night appointments?", answer: "Our Mahipalpur outlet and hotel spa booking support run with flexible daily timings, including evening and night appointments booked in advance through our 24/7 help desk — ideal for guests with late-night flights." },
   { question: "Is massage in Mahipalpur available for both men and women?", answer: "Yes, massage in Mahipalpur is available for men and women with male and female therapist options — just mention your preference when booking your session." },
 ];
@@ -188,7 +188,7 @@ export default function MahipalpurPage() {
             </p>
             <h3 className="mt-6 font-semibold text-[#1f1a17]">Why guests choose us:</h3>
             <ul className="mt-3 space-y-2 text-gray-700">
-              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including foreigner therapists, with attention to your comfort and preferences.</li>
+              <li><span className="font-semibold text-[#1f1a17]">Experienced Therapists</span> — Professional care, including international therapists, with attention to your comfort and preferences.</li>
               <li><span className="font-semibold text-[#1f1a17]">Russian Body Spa Specialists</span> — Widely regarded as the best russian spa in Mahipalpur, with Russian, Thai, and Uzbek therapists available.</li>
               <li><span className="font-semibold text-[#1f1a17]">Range of Massage Therapies</span> — Full body, deep tissue, B2B, and more, suited to different relaxation needs.</li>
               <li><span className="font-semibold text-[#1f1a17]">Clean &amp; Private Spaces</span> — Comfortable treatment rooms for a peaceful spa experience.</li>
@@ -230,13 +230,13 @@ export default function MahipalpurPage() {
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-700">Meet Our Therapists</p>
           <h2 className="mt-3 text-3xl font-bold text-[#1f1a17] md:text-4xl">Meet Our Expert Massage Therapists in Mahipalpur</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and foreigner therapists, so you get real variety in technique.</p>
+          <p className="mx-auto mt-3 max-w-2xl text-gray-600">A mix of skilled Indian and international therapists, so you get real variety in technique.</p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {[
             { role: "Senior Massage Therapist", specialty: "Full Body & Deep Tissue", experience: "8+ yrs", image: "/images/staff8.jpg" },
-            { role: "Foreigner Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
-            { role: "B2B Massage Specialist", specialty: "Full-Contact Technique", experience: "7+ yrs", image: "/images/staff1.jpg" },
+            { role: "International Therapist", specialty: "Russian & Aromatherapy", experience: "6+ yrs", image: "/images/staff6.jpg" },
+            { role: "B2B Massage Specialist", specialty: "Signature Technique", experience: "7+ yrs", image: "/images/staff1.jpg" },
             { role: "Wellness Therapist", specialty: "Foot & Body Relief", experience: "5+ yrs", image: "/images/staff11.jpg" },
           ].map((t, index) => (
             <motion.div

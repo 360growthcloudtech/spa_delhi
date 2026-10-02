@@ -43,7 +43,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Dwarka?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Dwarka outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Dwarka outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, allowing two people to relax together in a comfortable, peaceful setting.",
       },
     },
     {

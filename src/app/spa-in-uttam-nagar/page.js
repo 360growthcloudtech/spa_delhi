@@ -59,7 +59,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Uttam Nagar?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular female to male couple massage, so two people can relax together in comfort.",
+        text: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort.",
       },
     },
     {
@@ -95,7 +95,7 @@ export const metadata = {
     "home spa in uttam nagar",
     "hotel spa in uttam nagar",
     "couple massage in uttam nagar",
-    "female to male spa in uttam nagar",
+    "spa with female therapists in uttam nagar",
     "night spa in uttam nagar",
   ],
   openGraph: {

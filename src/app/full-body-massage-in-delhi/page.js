@@ -11,7 +11,7 @@ const faqSchema = {
     { "@type": "Question", name: "What is the difference between body massage and full body massage in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Body massage is often used loosely to mean any massage service, while a full body massage in Delhi specifically covers every major muscle group — not just one targeted area." } },
     { "@type": "Question", name: "What is the full body massage price in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Our full body massage price in Delhi starts from ₹1999 at the outlet, ₹15,000 for home spa, and ₹20,000 for luxury hotel spa, depending on duration and location." } },
     { "@type": "Question", name: "What is the full body massage at home in Delhi price?", acceptedAnswer: { "@type": "Answer", text: "Full body massage at home in Delhi starts from ₹15,000 for a 90-minute session, with the same certified therapists and premium oils used at our outlets." } },
-    { "@type": "Question", name: "Do you offer female to male body massage in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, female to male body massage in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." } },
+    { "@type": "Question", name: "Do you offer full body massage by a female therapist in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, full body massage by a female therapist in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." } },
     { "@type": "Question", name: "Can I book a full body massage at a hotel in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, we regularly serve guests staying at hotels across Delhi, including Roseate House, The Oberoi, and The Suryaa — just share your hotel and room details when booking." } },
   ],
 };
@@ -31,7 +31,7 @@ export const metadata = {
     "full body massage price in delhi",
     "full body massage in delhi price",
     "full body massage at home in delhi price",
-    "female to male body massage delhi",
+    "full body massage by a female therapist delhi",
     "russian body spa mahipalpur",
     "body massage mahipalpur",
     "body massage in lajpat nagar",

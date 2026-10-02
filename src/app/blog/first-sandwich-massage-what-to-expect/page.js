@@ -11,7 +11,7 @@ export const metadata = {
   keywords: ["sandwich massage guide", "sandwich massage benefits delhi", "what is sandwich massage"],
   alternates: {
     canonical:
-      "https://www.luxuryrussianspa.com/blog/sandwich-massage-in-delhi",
+      "https://www.luxuryrussianspa.com/blog/first-sandwich-massage-what-to-expect",
   },
   openGraph: {
     title: "What to Expect From a Sandwich Massage: First-Timer's Guide",
@@ -32,7 +32,7 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
     { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Sandwich Massage in Delhi", item: "https://www.luxuryrussianspa.com/blog/sandwich-massage-in-delhi" },
+    { "@type": "ListItem", position: 3, name: "Your First Sandwich Massage", item: "https://www.luxuryrussianspa.com/blog/first-sandwich-massage-what-to-expect" },
   ],
 };
 
@@ -109,7 +109,7 @@ export default function SandwichMassageDelhiPage() {
             items={[
               { label: "Home", href: "/" },
               { label: "Blog", href: "/blog" },
-              { label: "Sandwich Massage in Delhi" },
+              { label: "Your First Sandwich Massage" },
             ]}
           />
 
@@ -836,6 +836,14 @@ export default function SandwichMassageDelhiPage() {
 
                   <p className="text-lg leading-8 text-gray-700">
                     A sandwich massage in Delhi can be a relaxing wellness experience for those looking to reduce stress, refresh their body, and enjoy professional care. Choosing a trusted spa with experienced therapists and quality facilities ensures a comfortable and satisfying session.
+                  </p>
+
+                  <p className="text-lg leading-8 text-gray-700">
+                    Ready to book? See prices and outlets for our{" "}
+                    <Link href="/sandwich-massage" className="font-semibold text-amber-700 underline underline-offset-4">
+                      sandwich massage in Delhi
+                    </Link>
+                    .
                   </p>
 
                   <p className="text-lg leading-8 text-gray-700">

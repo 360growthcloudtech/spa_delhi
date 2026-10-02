@@ -23,7 +23,7 @@ const specialFeatures = [
 
   "5 Star Hotels",
   "Female Therapist",
-  "Foreigner Therapist",
+  "International Therapist",
 ];
 
 const hotelOutlets = [
@@ -174,7 +174,7 @@ const teamMembers = [
   {
     name: "Chelsea Foster",
     designation: "Spa Therapist",
-    image: "/images/spamodel.webp",
+    image: "/images/spa-therapist-uniform.webp",
     socials: {
       WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -194,7 +194,7 @@ const teamMembers = [
   {
     name: "Haven West",
     designation: "Spa Therapist",
-    image: "/images/spamodel2.webp",
+    image: "/images/spa-therapist-delhi.webp",
     socials: {
       WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -332,13 +332,13 @@ export default function Outpage() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 md:gap-10 text-lg">
           <a 
-            href="tel:+00123456789" 
+            href="tel:+918799716197" 
             className="flex items-center gap-2 hover:text-amber-100 transition-colors"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 0 1 2-2h3.28a1 1 0 0 1 .948.684l1.498 4.493a1 1 0 0 1 -.502 1.21l-2.257 1.13a11.042 11.042 0 0 0 5.516 5.516l1.13-2.257a1 1 0 0 1 1.21-.502l4.493 1.498a1 1 0 0 1 .684.949V19a2 2 0 0 1 -2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            +00123456789
+            +91 87997 16197
           </a>
           
           <a 
@@ -391,7 +391,7 @@ export default function Outpage() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:++91 8799716197"
+              href="tel:+918799716197"
               className="flex items-center gap-2 text-amber-800 hover:text-amber-600 transition"
             >
               📞 +91 8799716197
@@ -1063,7 +1063,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                                 </svg>
                                               </div>
                                               <h2 className="text-3xl font-bold text-amber-800 mb-6">
-                                                Foreigner Staff
+                                                International Staff
                                               </h2>
                                             </div>
                                              <p className="text-gray-600 leading-relaxed mb-6">
@@ -1082,7 +1082,7 @@ Through luxury, hygiene, and competent nursing, Luxury Russian Spa is able to co
                                                 ))}
                                               </div>
                                               <p className="text-gray-600 leading-relaxed">
-                                               Our foreigner staff follows a holistic approach that gives results beyond temporary relaxation. Clients often report better sleep, reduced anxiety, improved energy levels, and long-term pain relief after our signature therapies.
+                                               Our international staff follows a holistic approach that gives results beyond temporary relaxation. Clients often report better sleep, reduced anxiety, improved energy levels, and long-term pain relief after our signature therapies.
                                               </p>
                                             <div className="mt-6">
                                               <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">60-90 min | From ₹2,800</span>

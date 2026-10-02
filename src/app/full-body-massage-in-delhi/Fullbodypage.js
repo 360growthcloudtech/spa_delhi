@@ -99,7 +99,7 @@ const faqs = [
   { question: "What is the difference between body massage and full body massage in Delhi?", answer: "Body massage is often used loosely to mean any massage service, while a full body massage in Delhi specifically covers every major muscle group — not just one targeted area." },
   { question: "What is the full body massage price in Delhi?", answer: "Our full body massage price in Delhi starts from ₹1999 at the outlet, ₹15,000 for home spa, and ₹20,000 for luxury hotel spa, depending on duration and location." },
   { question: "What is the full body massage at home in Delhi price?", answer: "Full body massage at home in Delhi starts from ₹15,000 for a 90-minute session, with the same certified therapists and premium oils used at our outlets." },
-  { question: "Do you offer female to male body massage in Delhi?", answer: "Yes, female to male body massage in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." },
+  { question: "Do you offer full body massage by a female therapist in Delhi?", answer: "Yes, full body massage by a female therapist in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." },
   { question: "Can I book a full body massage at a hotel in Delhi?", answer: "Yes, we regularly serve guests staying at hotels across Delhi, including Roseate House, The Oberoi, and The Suryaa — just share your hotel and room details when booking." },
 ];
 
@@ -298,7 +298,7 @@ export default function Fullbodypage() {
             <h3 className="text-lg font-semibold text-[#1f1a17]">vs. B2B Massage</h3>
             <p className="mt-2 leading-relaxed text-gray-600">
               <Link href="/b2b-massage-in-delhi" className="font-medium text-amber-700 underline hover:text-amber-800">B2B massage</Link>{" "}
-              is a full-contact, body-to-body technique — a different, more intensive format than the hands-only full body session.
+              is a signature full body technique — a different, more intensive format than the hands-only full body session.
             </p>
           </div>
           <div className="rounded-2xl border border-amber-100 bg-white p-6 shadow-sm">

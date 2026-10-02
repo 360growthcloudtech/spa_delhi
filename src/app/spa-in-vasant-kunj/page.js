@@ -43,7 +43,7 @@ const faqSchema = {
       name: "Can I book a couple massage in Vasant Kunj?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, our Vasant Kunj outlet has private rooms designed for couple massage, including our popular female to male couple massage, allowing two people to relax together in a comfortable, peaceful setting.",
+        text: "Yes, our Vasant Kunj outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, allowing two people to relax together in a comfortable, peaceful setting.",
       },
     },
     {
@@ -97,7 +97,7 @@ export const metadata = {
     "couple massage in vasant kunj",
     "best spa in vasant kunj",
     "russian spa in vasant kunj",
-    "female to male spa in vasant kunj",
+    "spa with female therapists in vasant kunj",
     "night spa in vasant kunj",
     "spa in vasant kunj sector d",
   ],

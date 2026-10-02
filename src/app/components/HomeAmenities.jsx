@@ -14,7 +14,7 @@ export default function HomeAmenities() {
     <section
       aria-labelledby="home-amenities-title"
       className="relative overflow-hidden bg-dark bg-cover bg-center px-4 py-16 md:py-20 md:px-8"
-      style={{ backgroundImage: "url('/images/18+bodyspa.webp')" }}
+      style={{ backgroundImage: "url('/images/full-body-massage-spa.webp')" }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3a2415]/85 to-black/90" aria-hidden="true" />
 

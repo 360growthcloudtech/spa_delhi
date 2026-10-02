@@ -100,7 +100,7 @@ export default function KarolBaghPage() {
       title: "5 Star Hotel Spa",
       price: "₹20000/-",
       description: "Comprehensive spa experience with added treatments",
-      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Aromatherapy", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Star Property", "Private Suite", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,
       ctaLink: "#",
       icon: <FaCrown className="text-amber-500" />
@@ -138,7 +138,7 @@ export default function KarolBaghPage() {
     },
     {
       title: "B2B Massage",
-      description: "The Body-to-Body Massage at our spa in Karol Bagh helps you relax fully. This treatment is ideal for tiredness, using fine oils and skilled moves to refresh your senses.",
+      description: "The B2B Massage at our spa in Karol Bagh helps you relax fully. This treatment is ideal for tiredness, using fine oils and skilled moves to refresh your senses.",
       icon: "💆‍♂️",
       url: "/b2b-massage-in-delhi",
       linkText: "Explore B2B Massage in Delhi",
@@ -176,7 +176,7 @@ export default function KarolBaghPage() {
       chips: ['Russian Therapist', 'Thai Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'body',
@@ -208,7 +208,7 @@ export default function KarolBaghPage() {
       chips: ['Blue Line Metro', 'Central Delhi', 'Easy Parking'],
       time: '60-120 min',
       price: 'From ₹2,500',
-      image: '/images/Sandwich Massage.webp',
+      image: '/images/sandwich-massage-delhi.webp',
     },
     {
       id: 'packages',
@@ -284,7 +284,7 @@ export default function KarolBaghPage() {
                 Looking for a spa in Karol Bagh that genuinely relaxes your body? At Luxury Russian Spa, we offer premium massage services in Karol Bagh, including B2B massage, full body massage, sandwich massage, Thai massage, and aromatherapy to help you ease stress and body pain. With 24+ spa outlets across Delhi NCR, we provide reliable massage service anytime and anywhere.
               </p>
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Our spa in Karol Bagh is located close to Karol Bagh Metro Station, making it easy to visit after work or on weekends. Whether you want a deep tissue massage, Thai therapy, or body to body massage, our trained therapists ensure complete privacy and a relaxing experience. Your first visit starts at just ₹1499. Book on WhatsApp today.
+                Our spa in Karol Bagh is located close to Karol Bagh Metro Station, making it easy to visit after work or on weekends. Whether you want a deep tissue massage, Thai therapy, or B2B massage, our trained therapists ensure complete privacy and a relaxing experience. Your first visit starts at just ₹1499. Book on WhatsApp today.
               </p>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -463,7 +463,7 @@ export default function KarolBaghPage() {
                   </p>
 
                   <p className="text-stone-600 mb-6 leading-relaxed">
-                    Our spa in Karol Bagh is conveniently located near Karol Bagh Metro Station, making it easy to visit from nearby areas like Rajendra Place, Patel Nagar, Jhandewalan, and Paharganj. Whether you prefer a deep tissue massage, a soothing aromatherapy session, or a relaxing body to body massage, our trained therapists provide each service with care, privacy, and professional technique.
+                    Our spa in Karol Bagh is conveniently located near Karol Bagh Metro Station, making it easy to visit from nearby areas like Rajendra Place, Patel Nagar, Jhandewalan, and Paharganj. Whether you prefer a deep tissue massage, a soothing aromatherapy session, or a relaxing B2B massage, our trained therapists provide each service with care, privacy, and professional technique.
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 mb-8">
@@ -543,7 +543,7 @@ export default function KarolBaghPage() {
                 Looking for the best spa in Karol Bagh with experienced foreign therapists? Welcome to Luxury Russian Spa, where we offer premium spa and massage services designed to help you relax, recharge, and enjoy a luxurious wellness experience. Our team includes skilled Russian, Thai, and Uzbeki therapists who are trained in different massage styles to provide a soothing and memorable spa session.
               </p>
               <p className="text-gray-700 text-lg">
-                At our massage centre in Karol Bagh, you can choose from a wide range of treatments including <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/swedish-massage-vs-deep-tissue-massage" className="text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>, aromatherapy, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, <Link href="/blog/thai-massage-does-to-your-body" className="text-amber-700 underline hover:text-amber-800">Thai massage</Link>, and <Link href="/sandwich-massage" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve blood circulation, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
+                At our massage centre in Karol Bagh, you can choose from a wide range of treatments including <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/swedish-massage-vs-deep-tissue-massage" className="text-amber-700 underline hover:text-amber-800">deep tissue massage</Link>, aromatherapy, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">B2B massage</Link>, <Link href="/blog/thai-massage-does-to-your-body" className="text-amber-700 underline hover:text-amber-800">Thai massage</Link>, and <Link href="/sandwich-massage" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve blood circulation, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
               </p>
             </motion.div>
 

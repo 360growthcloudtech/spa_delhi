@@ -4,9 +4,9 @@ import HomeHeading from "./HomeHeading";
 import { TELEGRAM_URL, WHATSAPP_URL } from "./siteContact";
 
 const teamMembers = [
-  { name: "Chelsea Foster", designation: "Spa Therapist", image: "/images/spamodel.webp" },
+  { name: "Chelsea Foster", designation: "Spa Therapist", image: "/images/spa-therapist-uniform.webp" },
   { name: "Lane Parsons", designation: "Spa Therapist", image: "/images/spaExper2.webp" },
-  { name: "Haven West", designation: "Spa Therapist", image: "/images/spamodel2.webp" },
+  { name: "Haven West", designation: "Spa Therapist", image: "/images/spa-therapist-delhi.webp" },
   { name: "Avery Grace", designation: "Spa Therapist", image: "/images/spaExpert4.webp" },
 ];
 

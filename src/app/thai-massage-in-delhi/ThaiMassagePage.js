@@ -69,7 +69,7 @@ export default function ThaiMassagePage() {
     },
     {
       title: "B2B Massage",
-      description: "Body-to-body massage using fine oils and skilled strokes to help you relax fully after a tiring day.",
+      description: "B2B massage using fine oils and skilled strokes to help you relax fully after a tiring day.",
       icon: "💆‍♂️",
       url: "/b2b-massage-in-delhi",
       linkText: "Explore B2B Massage in Delhi",
@@ -111,7 +111,7 @@ export default function ThaiMassagePage() {
       title: "5 Star Hotel Thai Spa",
       price: "₹20000/-",
       description: "Luxury Thai massage experience with added treatments",
-      features: ["Foreigner Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
+      features: ["International Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,
       icon: <FaCrown className="text-amber-500" />
     }
@@ -148,7 +148,7 @@ export default function ThaiMassagePage() {
       chips: ['Thai Therapist', 'Russian Therapist', 'Uzbeki Therapist'],
       time: '60-90 min',
       price: 'From ₹2,800',
-      image: '/images/spamodel.webp',
+      image: '/images/spa-therapist-uniform.webp',
     },
     {
       id: 'body',
@@ -512,7 +512,7 @@ export default function ThaiMassagePage() {
                 Looking for the best Thai massage in Delhi with experienced foreign therapists? Welcome to Luxury Russian Spa, where we offer authentic Thai techniques designed to help you relax, recharge, and enjoy a genuine wellness experience. Our team includes skilled Thai, Russian, and Uzbeki therapists trained in traditional stretching and pressure methods.
               </p>
               <p className="text-gray-700 text-lg">
-                At our Thai massage spa in Delhi, you can also choose from related treatments like <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">body to body massage</Link>, and <Link href="/sandwich-massage" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve flexibility, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
+                At our Thai massage spa in Delhi, you can also choose from related treatments like <Link href="/full-body-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">full body massage</Link>, <Link href="/b2b-massage-in-delhi" className="text-amber-700 underline hover:text-amber-800">B2B massage</Link>, and <Link href="/sandwich-massage" className="text-amber-700 underline hover:text-amber-800">sandwich massage</Link>. Whether you want to release stress, improve flexibility, or simply enjoy a calming escape, our therapists ensure every session is performed with care, comfort, and professionalism.
               </p>
               <p className="text-gray-700 text-lg">
                 Based near Central Market? Our <Link href="/thai-massage-in-lajpat-nagar" className="text-amber-700 underline hover:text-amber-800">Thai massage in Lajpat Nagar</Link> outlet is a short walk from the metro, ideal after a long day of shopping.

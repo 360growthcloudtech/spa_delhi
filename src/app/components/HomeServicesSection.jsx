@@ -10,11 +10,11 @@ const services = [
     link: "/b2b-massage-in-delhi",
     icon: "💆",
     tags: ["Private Room", "Female Therapist"],
-    desc: "A deeply relaxing body-to-body therapy in a private room, given by a trained therapist with full care and comfort.",
+    desc: "A deeply relaxing B2B therapy in a private room, given by a trained therapist with full care and comfort.",
   },
   {
     title: "Sandwich Massage",
-    image: "/images/Sandwich Massage.webp",
+    image: "/images/sandwich-massage-delhi.webp",
     link: "/sandwich-massage",
     icon: "✨",
     tags: ["Two Therapists", "Best Seller"],
@@ -30,7 +30,7 @@ const services = [
   },
   {
     title: "Couples Massage",
-    image: "/images/Couple Massage.webp",
+    image: "/images/couple-massage-delhi.webp",
     link: "/couple-massage",
     icon: "💞",
     tags: ["Private Suite", "For Two"],

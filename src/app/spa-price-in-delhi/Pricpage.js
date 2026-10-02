@@ -142,7 +142,7 @@ export default function Pricpage() {
     {
       name: "Chelsea Foster",
       designation: "Spa Therapist",
-      image: "/images/spamodel.webp",
+      image: "/images/spa-therapist-uniform.webp",
       socials: {
         WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
         instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -162,7 +162,7 @@ export default function Pricpage() {
     {
       name: "Haven West",
       designation: "Spa Therapist",
-      image: "/images/spamodel2.webp",
+      image: "/images/spa-therapist-delhi.webp",
       socials: {
         WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
         instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -649,7 +649,7 @@ export default function Pricpage() {
                   </div>
                   <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                     <div className="text-amber-600 text-2xl mb-2">🙎🏼‍♀️</div>
-                    <h4 className="font-medium text-stone-800">Foreigner Therapist</h4>
+                    <h4 className="font-medium text-stone-800">International Therapist</h4>
                     <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                   </div>
                   <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">

@@ -1,7 +1,7 @@
 import Sandpage, { faqs } from "./Sandpage";
 
 const PAGE_URL = "https://www.luxuryrussianspa.com/sandwich-massage";
-const IMAGE_URL = "https://www.luxuryrussianspa.com/images/Sandwich%20Massage.webp";
+const IMAGE_URL = "https://www.luxuryrussianspa.com/images/sandwich-massage-delhi.webp";
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -51,17 +51,6 @@ export const metadata = {
   title: "Sandwich Massage in Delhi - Price From ₹1999 | Luxury Russian Spa",
   description:
     "Best sandwich massage in Delhi by two trained therapists. See the sandwich massage price, find a sandwich massage centre near you and book on WhatsApp.",
-  keywords: [
-    "sandwich massage",
-    "sandwich massage in delhi",
-    "sandwich massage near me",
-    "sandwich massage price",
-    "best sandwich massage",
-    "sandwich massage centre",
-    "delhi sandwich massage",
-    "sandwich massage spa in delhi",
-    "sandwich spa in delhi",
-  ],
   alternates: {
     canonical: PAGE_URL,
   },
