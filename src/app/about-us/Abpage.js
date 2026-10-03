@@ -697,7 +697,7 @@ export default function Abpage({
                   Book a Session
                 </a>
 
-                <a href="/massage-service-in-delhi" className="text-amber-900 font-medium hover:underline">Explore Services</a>
+                <a href="/massage-in-delhi" className="text-amber-900 font-medium hover:underline">Explore Services</a>
               </div>
             </div>
           </div>

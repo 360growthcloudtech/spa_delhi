@@ -230,7 +230,7 @@ export default function Pricpage() {
           </p>
 
           <a
-            href="/massage-service-in-delhi"
+            href="/massage-in-delhi"
             className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
           >
             View Our Services
@@ -665,7 +665,7 @@ export default function Pricpage() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href='/massage-service-in-delhi'>
+                  <a href='/massage-in-delhi'>
                     <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                       View Treatments
                     </button>

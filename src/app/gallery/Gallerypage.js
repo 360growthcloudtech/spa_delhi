@@ -110,7 +110,7 @@ export default function Gallerypage() {
       <section className="max-w-4xl mx-auto px-6 pb-16 text-center">
         <p className="text-gray-700 text-lg leading-relaxed">
           Liked what you saw? Explore our{" "}
-          <a href="/massage-service-in-delhi" className="text-amber-700 font-semibold underline">
+          <a href="/massage-in-delhi" className="text-amber-700 font-semibold underline">
             spa & massage services
           </a>
           , check our{" "}

@@ -35,6 +35,12 @@ const nextConfig = {
         destination: "/blog/first-sandwich-massage-what-to-expect",
         permanent: true,
       },
+      // Services page moved so the URL matches the primary keyword "massage in delhi"
+      {
+        source: "/massage-service-in-delhi",
+        destination: "/massage-in-delhi",
+        permanent: true,
+      },
       // Saket couple page removed; send its visitors and link value to the main couple page
       {
         source: "/couple-massage-in-saket",
@@ -49,12 +55,12 @@ const nextConfig = {
       },
       {
         source: "/hotel-and-home-spa",
-        destination: "/massage-service-in-delhi",
+        destination: "/massage-in-delhi",
         permanent: true,
       },
       {
         source: "/hotel-and-home-spa/",
-        destination: "/massage-service-in-delhi",
+        destination: "/massage-in-delhi",
         permanent: true,
       },
     ];

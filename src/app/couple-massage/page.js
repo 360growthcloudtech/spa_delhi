@@ -19,7 +19,7 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
-    { "@type": "ListItem", position: 2, name: "Massage Services", item: "https://www.luxuryrussianspa.com/massage-service-in-delhi" },
+    { "@type": "ListItem", position: 2, name: "Massage Services", item: "https://www.luxuryrussianspa.com/massage-in-delhi" },
     { "@type": "ListItem", position: 3, name: "Couple Massage in Delhi", item: PAGE_URL },
   ],
 };

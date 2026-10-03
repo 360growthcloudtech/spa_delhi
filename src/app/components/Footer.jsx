@@ -18,7 +18,7 @@ const locations = [
 
 const quickLinks = [
   { name: "Home", link: "/" },
-  { name: "All Services", link: "/massage-service-in-delhi" },
+  { name: "All Services", link: "/massage-in-delhi" },
   { name: "Outlets", link: "/outlets" },
   { name: "Pricing", link: "/spa-price-in-delhi" },
   { name: "Contact", link: "/contact" },

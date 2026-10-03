@@ -278,7 +278,7 @@ export default function Fullbodypage() {
           </div>
 
           <div className="mt-8 text-center">
-            <Link href="/massage-service-in-delhi" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+            <Link href="/massage-in-delhi" className="inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
               See All Delhi NCR Services <FaArrowRight className="text-sm" />
             </Link>
           </div>

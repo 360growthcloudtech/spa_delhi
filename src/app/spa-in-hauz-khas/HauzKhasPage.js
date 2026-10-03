@@ -435,7 +435,7 @@ export default function HauzKhasPage() {
               </motion.div>
             ))}
           </div>
-          <Link href="/massage-service-in-delhi" className="mt-10 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+          <Link href="/massage-in-delhi" className="mt-10 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
             Explore All Services
           </Link>
         </div>

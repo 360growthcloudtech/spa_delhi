@@ -33,7 +33,7 @@ const outletDropdown = [
 
 const menu = [
   { name: "Home", href: "/" },
-  { name: "Our Services", href: "/massage-service-in-delhi", children: servicesDropdown },
+  { name: "Our Services", href: "/massage-in-delhi", children: servicesDropdown },
   { name: "Our Pricing", href: "/spa-price-in-delhi" },
   { name: "Gallery", href: "/gallery" },
   { name: "Outlets", href: "/outlets", children: outletDropdown },

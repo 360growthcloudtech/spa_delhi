@@ -327,7 +327,7 @@ export default function Sandpage() {
           <nav aria-label="Breadcrumb" className="mb-6 text-xs text-white/70">
             <a href="/" className="hover:text-secondary">Home</a>
             <span className="mx-2">/</span>
-            <a href="/massage-service-in-delhi" className="hover:text-secondary">Services</a>
+            <a href="/massage-in-delhi" className="hover:text-secondary">Services</a>
             <span className="mx-2">/</span>
             <span className="text-white">Sandwich Massage</span>
           </nav>
@@ -711,7 +711,7 @@ export default function Sandpage() {
             <p className="mt-4 leading-relaxed text-bodycolor">
               Allergic to something, or have sensitive skin? Tell us before the session and we&apos;ll use a plain, unscented oil, or
               do a cream or dry massage instead. If you&apos;d like to see everything else we offer, have a look at our{" "}
-              <a href="/massage-service-in-delhi" className={linkClass}>massage services in Delhi</a>.
+              <a href="/massage-in-delhi" className={linkClass}>massage services in Delhi</a>.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {["Lavender", "Eucalyptus", "Sandalwood", "Rosemary"].map((oil) => (

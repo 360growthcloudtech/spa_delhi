@@ -17,7 +17,7 @@ export default function NotFound() {
         <Link href="/" className="rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
           Back to Home
         </Link>
-        <Link href="/massage-service-in-delhi" className="rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
+        <Link href="/massage-in-delhi" className="rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">
           All Services
         </Link>
         <Link href="/outlets" className="rounded-full border border-amber-300 bg-white px-6 py-3 font-semibold text-amber-700 shadow-sm transition hover:bg-amber-50">

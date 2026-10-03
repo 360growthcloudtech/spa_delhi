@@ -341,7 +341,7 @@ export default function Couplepage() {
           <nav aria-label="Breadcrumb" className="mb-6 text-xs text-white/70">
             <a href="/" className="hover:text-secondary">Home</a>
             <span className="mx-2">/</span>
-            <a href="/massage-service-in-delhi" className="hover:text-secondary">Services</a>
+            <a href="/massage-in-delhi" className="hover:text-secondary">Services</a>
             <span className="mx-2">/</span>
             <span className="text-white">Couple Massage</span>
           </nav>
@@ -777,7 +777,7 @@ export default function Couplepage() {
               lavender is a good idea. Can&apos;t decide? Sandalwood is a safe bet, almost everyone likes it. And if
               your skin gets irritated easily, just let us know and we&apos;ll use plain oil with no scent. Want to
               look at our other treatments? They&apos;re on the{" "}
-              <a href="/massage-service-in-delhi" className={linkClass}>massage services in Delhi</a> page.
+              <a href="/massage-in-delhi" className={linkClass}>massage services in Delhi</a> page.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {["Jasmine", "Rose", "Lavender", "Sandalwood"].map((oil) => (
@@ -931,7 +931,7 @@ export default function Couplepage() {
           </ul>
           <p className="mt-8 text-center text-sm text-bodycolor">
             Still deciding? Compare every treatment on our{" "}
-            <a href="/massage-service-in-delhi" className={linkClass}>massage services in Delhi</a> page, or head back to
+            <a href="/massage-in-delhi" className={linkClass}>massage services in Delhi</a> page, or head back to
             the <a href="/" className={linkClass}>Luxury Russian Spa homepage</a> to see what&apos;s new.
           </p>
           <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">

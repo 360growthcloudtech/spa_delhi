@@ -271,7 +271,7 @@ export default function Outpage() {
               ];
   // Features for the 18+ section  
   const cities = [
-{ name: 'DELHI', img: '/images/hotel3.webp', href: '/massage-service-in-delhi' },
+{ name: 'DELHI', img: '/images/hotel3.webp', href: '/massage-in-delhi' },
 { name: 'LAJPAT NAGAR', img: '/images/lajpatnagahotel.avif', href: '/spa-in-lajpat-nagar' },
 { name: 'AEROCITY', img: '/images/RoseateHouse.jpg', href: '/spa-in-aerocity' },
 { name: 'CONNAUGHT PLACE', img: '/images/JwMarriott_CP.jpg', href: '/spa-in-connaught-place' },
@@ -490,7 +490,7 @@ className="group-hover:scale-105 transition-transform duration-500"
 
 <div className="flex justify-center mt-10">
 <a
-href="/massage-service-in-delhi"
+href="/massage-in-delhi"
 className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
 >
 View All Services

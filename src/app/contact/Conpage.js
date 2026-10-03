@@ -169,7 +169,7 @@ export default function Conpage() {
           </p>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Not sure what to book? Browse our{" "}
-            <a href="/massage-service-in-delhi" className="text-amber-700 font-semibold underline">
+            <a href="/massage-in-delhi" className="text-amber-700 font-semibold underline">
               spa & massage services
             </a>
             , check{" "}

@@ -1,6 +1,6 @@
 import Serpage, { faqs } from "./Serpage";
 
-const PAGE_URL = "https://www.luxuryrussianspa.com/massage-service-in-delhi";
+const PAGE_URL = "https://www.luxuryrussianspa.com/massage-in-delhi";
 const IMAGE_URL = "https://www.luxuryrussianspa.com/images/banner1.jpg";
 
 const faqSchema = {
@@ -75,17 +75,17 @@ export default function page() {
   return (
     <>
       <script
-        id="breadcrumb-schema-massage-service-in-delhi"
+        id="breadcrumb-schema-massage-in-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
-        id="service-schema-massage-service-in-delhi"
+        id="service-schema-massage-in-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
-        id="faq-schema-massage-service-in-delhi"
+        id="faq-schema-massage-in-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />

@@ -180,7 +180,7 @@ export default function Aeropage() {
       description:
         "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
       icon: "🌸",
-      url: "/massage-service-in-delhi",
+      url: "/massage-in-delhi",
     },
     {
       title: "Hot Stone Therapy",
@@ -419,7 +419,7 @@ export default function Aeropage() {
               </div>
 
               <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href='/massage-service-in-delhi'>
+                <a href='/massage-in-delhi'>
                   <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
                     <span>View All Services</span>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

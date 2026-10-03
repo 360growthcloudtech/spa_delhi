@@ -317,7 +317,7 @@ export default function B2Bpage() {
               </motion.div>
             ))}
           </div>
-          <Link href="/massage-service-in-delhi" className="mt-10 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
+          <Link href="/massage-in-delhi" className="mt-10 inline-flex items-center gap-2 rounded-full bg-amber-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-amber-700">
             Explore All Services
           </Link>
         </div>
@@ -438,7 +438,7 @@ export default function B2Bpage() {
               { title: "Aromatherapy Massage in Delhi", href: "/aromatherapy-massage-in-delhi" },
               { title: "B2B Massage in Connaught Place", href: "/b2b-massage-in-connaught-place" },
               { title: "Spa Price in Delhi", href: "/spa-price-in-delhi" },
-              { title: "All Massage Services in Delhi", href: "/massage-service-in-delhi" },
+              { title: "All Massage Services in Delhi", href: "/massage-in-delhi" },
             ].map((item) => (
               <Link
                 key={item.href}
