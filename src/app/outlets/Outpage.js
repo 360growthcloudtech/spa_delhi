@@ -29,19 +29,19 @@ const specialFeatures = [
 const hotelOutlets = [
   {
     title: "JW Marriott Hotel Aerocity",
-    image: "/images/JW Marriott Hotel Aerocity.jpg",
+    image: "/images/jw-marriott-hotel-aerocity.jpg",
     description:
       "Luxury Russian Spa is a hotel where one can indulge in luxurious massage therapies and enjoy the wellness experience in high-end comfort.",
   },
   {
     title: "Lemon Tree Premier Aerocity",
-    image: "/images/LemonTreePremierAerocity.jpg",
+    image: "/images/lemon-tree-premier-aerocity.jpg",
     description:
       "De-Stress and refresh with Luxury Russian Spa expert therapists who provide personalized spa treatments in the luxurious environment of Lemon Tree Premier.",
   },
   {
     title: "Novotel New Delhi Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
+    image: "/images/novotel-new-delhi-aerocity.webp",
     description:
       "The ultimate relaxation with Luxury Russian Spa massage therapies, a combination of luxury oils and professional skills in the modern space of Novotel.",
   },
@@ -53,7 +53,7 @@ const hotelOutlets = [
   },
   {
     title: "IBIS New Delhi Aerocity",
-    image: "/images/IBISNewDelhiAerocity.jpg",
+    image: "/images/ibis-new-delhi-aerocity.jpg",
     description:
       "Enjoy Luxury Russian Spa. Have a special massage therapy in IBIS, where masterful care is combined with a relaxing environment to get holistic rejuvenation.",
   },
@@ -280,7 +280,7 @@ export default function Outpage() {
 { name: 'KALKAJI', img: '/images/tajmahalhotel_lajpatnagar.jpg', href: '/spa-in-kalkaji' },
 { name: 'KAROL BAGH', img: '/images/paschimvihar.jpg', href: '/spa-in-karol-bagh' },
 { name: 'MAHIPALPUR', img: '/images/hotel2.jpg', href: '/spa-in-mahipalpur' },
-{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg', href: '/spa-in-rohini' },
+{ name: 'ROHINI', img: '/images/pullman-new-delhi-aerocity.jpg', href: '/spa-in-rohini' },
 { name: 'GREATER KAILASH', img: '/images/jwmarriott.jpeg', href: '/spa-in-greater-kailash' },
 { name: 'DWARKA', img: '/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg', href: '/spa-in-dwarka' },
 { name: 'PITAMPURA', img: '/images/spa-in-pitampura.png', href: '/spa-in-pitampura' },

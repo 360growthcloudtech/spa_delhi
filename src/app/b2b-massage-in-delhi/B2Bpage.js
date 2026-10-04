@@ -27,7 +27,7 @@ const topDelhiLocations = [
   { name: "Rohini", image: "/images/fpkdl.com_960_1758981900_woman-getting-back-massage-from-masseur_23-2150461404.jpg" },
   { name: "Dwarka", image: "/images/fpkdl.com_960_1758983028_inviting-spa-room-designed-ultimate-relaxation_1079150-61092.jpg" },
   { name: "Saket", image: "/images/Reflexology.jpg" },
-  { name: "Aerocity", image: "/images/IBISNewDelhiAerocity.jpg" },
+  { name: "Aerocity", image: "/images/ibis-new-delhi-aerocity.jpg" },
   { name: "Lajpat Nagar", image: "/images/spa-in-lajpat-nagar.webp" },
   { name: "Rajouri Garden", image: "/images/spa-in-Rajouri-Garden.webp" },
   { name: "Vasant Kunj", image: "/images/pexels-olly-3673941.jpg" },

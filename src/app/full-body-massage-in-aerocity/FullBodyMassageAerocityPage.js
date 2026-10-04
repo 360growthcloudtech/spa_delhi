@@ -52,22 +52,22 @@ const benefits = [
 const nearbyAreas = [
   {
     title: "Pullman Aerocity",
-    image: "/images/pullmanAerocity.jpg",
+    image: "/images/pullman-new-delhi-aerocity.jpg",
     description: "Staying at Pullman? We can send a therapist straight to your room for an in-room full body massage.",
   },
   {
     title: "Novotel Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.webp",
+    image: "/images/novotel-new-delhi-aerocity.webp",
     description: "A few minutes from Novotel — hotel spa bookings available if you'd rather not travel before your flight.",
   },
   {
     title: "IBIS Aerocity",
-    image: "/images/IBISNewDelhiAerocity.jpg",
+    image: "/images/ibis-new-delhi-aerocity.jpg",
     description: "Guests at IBIS can book our outlet or request a therapist directly to their room.",
   },
   {
     title: "Lemon Tree Premier",
-    image: "/images/LemonTreePremierAerocity.jpg",
+    image: "/images/lemon-tree-premier-aerocity.jpg",
     description: "Close to Lemon Tree Premier, with hotel spa sessions available on request for guests on tight schedules.",
   },
 ];
