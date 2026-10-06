@@ -45,7 +45,7 @@ export default function DeepTissueMassagePage() {
     },
     {
       question: "What does a deep tissue massage cost in Delhi?",
-      answer: "Our deep tissue massage in Delhi starts at ₹1999 for a first-visit outlet session, with home spa and hotel spa packages available from ₹15,000 depending on duration and setting.",
+      answer: "Our deep tissue massage in Delhi starts at ₹1999 for a first-visit outlet session, with home spa and hotel spa packages available from ₹14,999 depending on duration and setting.",
       icon: <FaSpa className="text-teal-600" />
     },
   ];
@@ -108,7 +108,7 @@ export default function DeepTissueMassagePage() {
     },
     {
       title: "Home Deep Tissue Spa",
-      price: "₹15000/-",
+      price: "₹14999/-",
       description: "Premium deep tissue massage at your own location",
       features: ["Firm Pressure Technique", "Private Setting", "Aromatherapy Add-on", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
@@ -116,7 +116,7 @@ export default function DeepTissueMassagePage() {
     },
     {
       title: "5 Star Hotel Deep Tissue Spa",
-      price: "₹20000/-",
+      price: "₹19999/-",
       description: "Luxury deep tissue massage experience with added treatments",
       features: ["International Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,

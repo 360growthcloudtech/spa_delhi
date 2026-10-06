@@ -42,8 +42,8 @@ const serviceSchema = {
   areaServed: ["Delhi", "New Delhi", "Delhi NCR", "Noida", "Gurgaon"],
   offers: [
     { "@type": "Offer", name: "Spa Outlet – 60 min", price: "1999", priceCurrency: "INR" },
-    { "@type": "Offer", name: "Hotel Outlet – 90 min", price: "15000", priceCurrency: "INR" },
-    { "@type": "Offer", name: "5 Star Hotel Spa – 120 min", price: "20000", priceCurrency: "INR" },
+    { "@type": "Offer", name: "Hotel Outlet – 90 min", price: "14999", priceCurrency: "INR" },
+    { "@type": "Offer", name: "5 Star Hotel Spa – 120 min", price: "19999", priceCurrency: "INR" },
   ],
 };
 

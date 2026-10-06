@@ -37,7 +37,7 @@ export const faqs = [
   {
     question: "What is the full body massage price in Delhi?",
     answer:
-      "A 60-minute full body massage at our outlets starts at ₹1,999. If you want longer, 90 minutes in a hotel suite is ₹15,000 and our 120-minute 5-star package is ₹20,000. We'll confirm the price on WhatsApp before you come.",
+      "A 60-minute full body massage at our outlets starts at ₹1,999. If you want longer, 90 minutes in a hotel suite is ₹14,999 and our 120-minute 5-star package is ₹19,999. We'll confirm the price on WhatsApp before you come.",
   },
   {
     question: "Do you have a home massage service in Delhi?",
@@ -231,7 +231,7 @@ const pricingPlans = [
   },
   {
     title: "Hotel Outlet",
-    price: "₹15,000",
+    price: "₹14,999",
     period: "90 min",
     description: "90 minutes in a private hotel suite",
     features: ["Oil, Cream or Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
@@ -240,7 +240,7 @@ const pricingPlans = [
   },
   {
     title: "5 Star Hotel Spa",
-    price: "₹20,000",
+    price: "₹19,999",
     period: "120 min",
     description: "Two full hours with international therapists",
     features: ["International Therapists", "5-Star Property", "Aromatherapy Oils", "120 min Session"],

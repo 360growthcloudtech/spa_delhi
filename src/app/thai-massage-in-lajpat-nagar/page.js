@@ -13,7 +13,7 @@ const faqSchema = {
     { "@type": "Question", name: "Do you have Russian or other foreign therapists trained in Thai technique?", acceptedAnswer: { "@type": "Answer", text: "Yes, our Russian, Thai, and Uzbek therapists are trained in traditional Thai stretching alongside our experienced Indian staff, with sessions available from ₹2,800." } },
     { "@type": "Question", name: "Can I book a night Thai massage appointment in Lajpat Nagar?", acceptedAnswer: { "@type": "Answer", text: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." } },
     { "@type": "Question", name: "Do you offer home Thai massage near Lajpat Nagar?", acceptedAnswer: { "@type": "Answer", text: "Yes, alongside our outlet, we send a therapist to your home anywhere in and around Lajpat Nagar for the same traditional technique." } },
-    { "@type": "Question", name: "How much does a Thai massage cost in Lajpat Nagar?", acceptedAnswer: { "@type": "Answer", text: "A Thai massage at our Lajpat Nagar outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." } },
+    { "@type": "Question", name: "How much does a Thai massage cost in Lajpat Nagar?", acceptedAnswer: { "@type": "Answer", text: "A Thai massage at our Lajpat Nagar outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹14,999 depending on duration." } },
   ],
 };
 

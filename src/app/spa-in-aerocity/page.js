@@ -33,7 +33,7 @@ const spaSchema = {
   url: PAGE_URL,
   image: IMAGE_URL,
   telephone: "+91-8799716197",
-  priceRange: "₹1999 - ₹20000",
+  priceRange: "₹1999 - ₹19999",
   address: { "@type": "PostalAddress", ...AEROCITY_ADDRESS, addressCountry: "IN" },
   areaServed: ["Aerocity", "Mahipalpur", "IGI Airport", "Dwarka", "Vasant Kunj", "New Delhi"],
   openingHoursSpecification: {

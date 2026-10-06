@@ -10,7 +10,7 @@ const faqSchema = {
     { "@type": "Question", name: "Do you offer a 24 hours spa in Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, our booking desk runs 24 hours — message us on WhatsApp or Telegram anytime and we'll confirm your massage in Paharganj session." } },
     { "@type": "Question", name: "Where can I find a body massage spa in Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Our Paharganj spa center is a short walk from New Delhi Railway Station and Main Bazaar, offering full body, B2B, and Thai spa options." } },
     { "@type": "Question", name: "Do you provide home spa service near Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, alongside our outlet, we send a therapist to your home anywhere in Central Delhi, including areas around Paharganj." } },
-    { "@type": "Question", name: "How much does a body spa in Paharganj cost?", acceptedAnswer: { "@type": "Answer", text: "A session at our Paharganj outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000." } },
+    { "@type": "Question", name: "How much does a body spa in Paharganj cost?", acceptedAnswer: { "@type": "Answer", text: "A session at our Paharganj outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999." } },
     { "@type": "Question", name: "Do you provide spa services at hotels near Paharganj?", acceptedAnswer: { "@type": "Answer", text: "Yes, we regularly serve guests staying at hotels around Paharganj and Connaught Place — just share your hotel and room details when booking." } },
   ],
 };

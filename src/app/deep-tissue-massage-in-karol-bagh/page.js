@@ -13,7 +13,7 @@ const faqSchema = {
     { "@type": "Question", name: "Do you have Russian or other foreign therapists trained in deep tissue technique?", acceptedAnswer: { "@type": "Answer", text: "Yes, our Russian, Thai, and Uzbek therapists are trained in deep tissue work alongside our experienced Indian staff, with sessions available from ₹2,800." } },
     { "@type": "Question", name: "Can I book a night deep tissue massage appointment in Karol Bagh?", acceptedAnswer: { "@type": "Answer", text: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, subject to therapist availability." } },
     { "@type": "Question", name: "Do you offer home deep tissue massage near Karol Bagh?", acceptedAnswer: { "@type": "Answer", text: "Yes, alongside our outlet, we send a therapist to your home anywhere in and around Karol Bagh for the same firm, focused technique." } },
-    { "@type": "Question", name: "How much does a deep tissue massage cost in Karol Bagh?", acceptedAnswer: { "@type": "Answer", text: "A deep tissue massage at our Karol Bagh outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." } },
+    { "@type": "Question", name: "How much does a deep tissue massage cost in Karol Bagh?", acceptedAnswer: { "@type": "Answer", text: "A deep tissue massage at our Karol Bagh outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹14,999 depending on duration." } },
   ],
 };
 

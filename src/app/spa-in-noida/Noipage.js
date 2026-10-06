@@ -77,8 +77,8 @@ const luxuryHotels = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage session at our Noida spa centre.", features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa in Noida", price: "₹15000", desc: "The same genuine massage delivered to your home anywhere in Noida.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel in Noida or Greater Noida.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Spa in Noida", price: "₹14999", desc: "The same genuine massage delivered to your home anywhere in Noida.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent session at your hotel in Noida or Greater Noida.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -86,7 +86,7 @@ const faqs = [
   { question: "Is there a spa in Greater Noida?", answer: "Yes, our spa in Greater Noida serves hotels like Crowne Plaza and Jaypee Greens, along with home spa bookings across the area." },
   { question: "Do you offer spa services in Noida Sector 18?", answer: "Yes, our spa in Noida Sector 18 is available by female and male therapists, offering top-notch massage service in a private, hygienic room." },
   { question: "What is included in a body spa in Noida?", answer: "A body spa in Noida session includes a consultation, full body massage using premium oils, and a private room for the full duration — with optional add-ons like aromatherapy." },
-  { question: "How much does a massage spa in Noida cost?", answer: "Sessions at our spa centre in Noida start from ₹1999 for the first visit. Home spa starts from ₹15,000 and five-star hotel spa from ₹20,000, depending on duration." },
+  { question: "How much does a massage spa in Noida cost?", answer: "Sessions at our spa centre in Noida start from ₹1999 for the first visit. Home spa starts from ₹14,999 and five-star hotel spa from ₹19,999, depending on duration." },
   { question: "Do you provide home spa service in Noida?", answer: "Yes, we offer home spa in Noida at affordable prices with certified, well-trained therapists visiting your address." },
   { question: "Which hotels in Noida offer your spa service?", answer: "We're available at Radisson Blu, Sandal Suites by Lemon Tree, Crowne Plaza Greater Noida, and Jaypee Greens Golf & Spa Resort, among others." },
   { question: "Can I book a night appointment at your massage spa in Noida?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },

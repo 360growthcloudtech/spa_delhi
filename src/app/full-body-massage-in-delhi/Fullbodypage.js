@@ -89,16 +89,16 @@ const processSteps = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private full body massage session at any of our 24+ Delhi NCR outlets.", features: ["Head-to-Toe Coverage", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Massage Spa", price: "₹15000", desc: "Our full body massage at home in Delhi price, delivered anywhere in Delhi NCR — same technique, same hygiene standard.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "Luxury Hotel Spa", price: "₹20000", desc: "A longer, more indulgent luxury full body massage in Delhi at your five-star hotel.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Massage Spa", price: "₹14999", desc: "Our full body massage at home in Delhi price, delivered anywhere in Delhi NCR — same technique, same hygiene standard.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Luxury Hotel Spa", price: "₹19999", desc: "A longer, more indulgent luxury full body massage in Delhi at your five-star hotel.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
   { question: "What is a full body massage spa in Delhi?", answer: "A full body massage spa in Delhi is an outlet offering a complete head-to-toe massage — back, shoulders, arms, legs, and feet — performed by trained therapists in a private room." },
   { question: "Do you offer luxury full body massage in Delhi?", answer: "Yes, our luxury full body massage in Delhi is available at select five-star hotels across the city, with a longer session, private suite, and optional facial add-on." },
   { question: "What is the difference between body massage and full body massage in Delhi?", answer: "Body massage is often used loosely to mean any massage service, while a full body massage in Delhi specifically covers every major muscle group — not just one targeted area." },
-  { question: "What is the full body massage price in Delhi?", answer: "Our full body massage price in Delhi starts from ₹1999 at the outlet, ₹15,000 for home spa, and ₹20,000 for luxury hotel spa, depending on duration and location." },
-  { question: "What is the full body massage at home in Delhi price?", answer: "Full body massage at home in Delhi starts from ₹15,000 for a 90-minute session, with the same certified therapists and premium oils used at our outlets." },
+  { question: "What is the full body massage price in Delhi?", answer: "Our full body massage price in Delhi starts from ₹1999 at the outlet, ₹14,999 for home spa, and ₹19,999 for luxury hotel spa, depending on duration and location." },
+  { question: "What is the full body massage at home in Delhi price?", answer: "Full body massage at home in Delhi starts from ₹14,999 for a 90-minute session, with the same certified therapists and premium oils used at our outlets." },
   { question: "Do you offer full body massage by a female therapist in Delhi?", answer: "Yes, full body massage by a female therapist in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." },
   { question: "Can I book a full body massage at a hotel in Delhi?", answer: "Yes, we regularly serve guests staying at hotels across Delhi, including Roseate House, The Oberoi, and The Suryaa — just share your hotel and room details when booking." },
 ];

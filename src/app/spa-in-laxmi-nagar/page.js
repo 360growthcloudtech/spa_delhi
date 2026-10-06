@@ -67,7 +67,7 @@ const faqSchema = {
       name: "How much does a body massage in Laxmi Nagar Delhi cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A body massage in Laxmi Nagar Delhi at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment.",
+        text: "A body massage in Laxmi Nagar Delhi at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and treatment.",
       },
     },
   ],

@@ -75,8 +75,8 @@ const nearbyAreas = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage session at our Rohini outlet with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine massage spa in Rohini, delivered to your home anywhere in North West Delhi.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel near Rohini or Pitampura.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Spa", price: "₹14999", desc: "The same genuine massage spa in Rohini, delivered to your home anywhere in North West Delhi.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent session at your hotel near Rohini or Pitampura.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -85,7 +85,7 @@ const faqs = [
   { question: "Do you provide home spa service in Rohini?", answer: "Yes, alongside our outlet, we offer home spa in Rohini and across North West Delhi — our therapist arrives with everything needed for a relaxing, hygienic session at your residence." },
   { question: "Can I book a couple massage in Rohini?", answer: "Yes, our Rohini outlet has private rooms designed for couple massage, including our popular spa with female therapists in Rohini option, so two people can relax together comfortably." },
   { question: "Do you have Russian or other foreign therapists in Rohini?", answer: "Yes, our Russian spa in Rohini packages include experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, giving you real variety in massage style." },
-  { question: "How much does a full body massage cost in Rohini?", answer: "A full body massage at our Rohini outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages start from ₹15,000, depending on duration." },
+  { question: "How much does a full body massage cost in Rohini?", answer: "A full body massage at our Rohini outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages start from ₹14,999, depending on duration." },
   { question: "Do you offer spa Rohini Sector 16 or near City Centre Mall Rohini?", answer: "Yes, our Rohini outlet serves guests across all major sectors, including Sector 3, 7, 16, 17, and 24, and is a short distance from City Centre Mall Rohini." },
   { question: "I searched for spa near me Rohini — will you actually come to my area?", answer: "Yes, if you searched spa near me Rohini or spa near Rohini, our outlet, home spa, and hotel spa options are built to cover the whole of Rohini and North West Delhi." },
 ];

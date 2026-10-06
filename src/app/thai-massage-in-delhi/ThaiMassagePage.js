@@ -35,7 +35,7 @@ export default function ThaiMassagePage() {
     },
     {
       question: "How much does a Thai massage cost in Delhi?",
-      answer: "Our Thai massage in Delhi starts at just ₹1999 for a first-visit outlet session, with premium home spa and hotel spa packages available from ₹15,000 depending on duration and setting.",
+      answer: "Our Thai massage in Delhi starts at just ₹1999 for a first-visit outlet session, with premium home spa and hotel spa packages available from ₹14,999 depending on duration and setting.",
       icon: <FaLeaf className="text-teal-600" />
     },
     {
@@ -101,7 +101,7 @@ export default function ThaiMassagePage() {
     },
     {
       title: "Home Thai Spa",
-      price: "₹15000/-",
+      price: "₹14999/-",
       description: "Premium Thai massage at your own location",
       features: ["Traditional Thai Technique", "Private Setting", "Aromatherapy Add-on", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
@@ -109,7 +109,7 @@ export default function ThaiMassagePage() {
     },
     {
       title: "5 Star Hotel Thai Spa",
-      price: "₹20000/-",
+      price: "₹19999/-",
       description: "Luxury Thai massage experience with added treatments",
       features: ["International Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,

@@ -53,8 +53,8 @@ const services = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private body spa in Greater Kailash session at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "A premium at-home wellness session anywhere in GK-1, GK-2, or nearby South Delhi.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent hotel spa session delivered anywhere near Greater Kailash and South Delhi.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Spa", price: "₹14999", desc: "A premium at-home wellness session anywhere in GK-1, GK-2, or nearby South Delhi.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent hotel spa session delivered anywhere near Greater Kailash and South Delhi.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
 ];
 
 const faqs = [
@@ -65,7 +65,7 @@ const faqs = [
   { question: "Is home service available for spa GK 2?", answer: "Yes, alongside our outlet, we offer home spa across spa in GK1 and spa in GK 2. Our therapist arrives with all the equipment needed for a relaxing, hygienic session at your residence." },
   { question: "Do you have Russian or other foreign therapists in Greater Kailash?", answer: "Yes, our Russian spa in Greater Kailash packages include experienced Russian, Thai, and Uzbek therapists alongside our highly trained Indian staff." },
   { question: "Can I book a couple massage in Greater Kailash?", answer: "Yes, our Greater Kailash outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
-  { question: "How much does a body spa in Greater Kailash cost?", answer: "A body spa in Greater Kailash at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
+  { question: "How much does a body spa in Greater Kailash cost?", answer: "A body spa in Greater Kailash at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and treatment." },
 ];
 
 export default function SpaInGreaterkailash() {

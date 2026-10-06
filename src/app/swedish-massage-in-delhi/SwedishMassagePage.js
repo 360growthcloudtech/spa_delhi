@@ -45,7 +45,7 @@ export default function SwedishMassagePage() {
     },
     {
       question: "What does a Swedish massage cost in Delhi?",
-      answer: "Our Swedish massage in Delhi starts at ₹1999 for a first-visit outlet session, with home spa and hotel spa packages available from ₹15,000 depending on duration and setting.",
+      answer: "Our Swedish massage in Delhi starts at ₹1999 for a first-visit outlet session, with home spa and hotel spa packages available from ₹14,999 depending on duration and setting.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
@@ -123,7 +123,7 @@ export default function SwedishMassagePage() {
     },
     {
       title: "Home Swedish Spa",
-      price: "₹15000/-",
+      price: "₹14999/-",
       description: "Premium Swedish massage at your own location",
       features: ["Full Body Technique", "Private Setting", "Aromatherapy Add-on", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
@@ -131,7 +131,7 @@ export default function SwedishMassagePage() {
     },
     {
       title: "5 Star Hotel Swedish Spa",
-      price: "₹20000/-",
+      price: "₹19999/-",
       description: "Luxury Swedish massage experience with added treatments",
       features: ["International Therapist", "5 Star Property", "Private Suite", "Facial Session", "120 min Session"],
       highlight: false,

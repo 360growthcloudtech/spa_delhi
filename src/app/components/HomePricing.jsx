@@ -24,7 +24,7 @@ const pricingPlans = [
   {
     title: "5-Star Hotel & Home Spa",
     tagline: "Luxury In-Room Experience",
-    price: "₹15,000",
+    price: "₹14,999",
     period: "all-inclusive / 90 min",
     duration: "90 Min",
     popular: true,
@@ -43,7 +43,7 @@ const pricingPlans = [
   {
     title: "VIP Presidential Spa",
     tagline: "Exclusive Russian & International Therapists",
-    price: "₹20,000",
+    price: "₹19,999",
     period: "luxury VIP / 120 min",
     duration: "120 Min",
     description: "Our most indulgent session: international therapists, a complete therapy and total privacy.",

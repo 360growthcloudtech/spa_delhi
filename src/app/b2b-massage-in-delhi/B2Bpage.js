@@ -64,8 +64,8 @@ const services = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private B2B massage session at any of our 24+ Delhi NCR outlets.", features: ["Signature B2B Technique", "Premium Oils", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home B2B Spa", price: "₹15000", desc: "Genuine B2B massage at home in Delhi, delivered anywhere across Delhi NCR.", features: ["Signature B2B Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel B2B Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel — popular with guests staying at Delhi's five-star properties.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home B2B Spa", price: "₹14999", desc: "Genuine B2B massage at home in Delhi, delivered anywhere across Delhi NCR.", features: ["Signature B2B Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel B2B Spa", price: "₹19999", desc: "A longer, more indulgent session at your hotel — popular with guests staying at Delhi's five-star properties.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -73,7 +73,7 @@ const faqs = [
   { question: "What happens in a B2B massage?", answer: "After a short consultation about your preferences, your therapist applies premium oils and uses a signature full body technique with smooth, controlled movements — performed in a private, closed room from start to finish." },
   { question: "Are B2B massages legal in India?", answer: "Yes, B2B massage is a legal wellness treatment in India when offered by a professional, licensed spa following proper hygiene and conduct standards. Read our detailed guide on whether B2B massage is legal in India for the full picture." },
   { question: "What does a B2B massage include?", answer: "A standard session includes a consultation, full body massage using premium aromatherapy-grade oils, and a private room for the full duration — with optional add-ons like aromatherapy or a facial depending on your package." },
-  { question: "How much does a B2B massage cost in Delhi?", answer: "A B2B massage at our Delhi outlets starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and five-star hotel spa from ₹20,000, depending on duration and location." },
+  { question: "How much does a B2B massage cost in Delhi?", answer: "A B2B massage at our Delhi outlets starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and five-star hotel spa from ₹19,999, depending on duration and location." },
   { question: "Do you provide B2B massage at hotels in Delhi?", answer: "Yes, we regularly serve guests at five-star hotels across Delhi, including Andaz, The Park, The Suryaa, and JW Marriott — just share your hotel and room details when booking." },
   { question: "Do you have Russian or other foreign therapists for B2B massage?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available for B2B sessions alongside our experienced Indian staff, depending on the package you choose." },
   { question: "Do you offer full body massage by a female therapist in Delhi?", answer: "Yes, full body massage by a female therapist in Delhi is available at all our outlets, along with male and female therapist options — just mention your preference when booking." },

@@ -53,8 +53,8 @@ const services = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage hauz khas session at our outlet, with premium oils and complete privacy from start to finish.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage spa in Hauz Khas experience, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent luxury spa in Hauz Khas session delivered at your hotel, with added treatments and premium care.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Spa", price: "₹14999", desc: "The same genuine body massage spa in Hauz Khas experience, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent luxury spa in Hauz Khas session delivered at your hotel, with added treatments and premium care.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
 ];
 
 const faqs = [
@@ -66,7 +66,7 @@ const faqs = [
   { question: "Do you offer body massage in Hauz Khas Village at home?", answer: "Yes, alongside our outlet, we offer body massage in Hauz Khas Village as a home service across South Delhi. Our therapist arrives fully equipped for a relaxing, hygienic session at your residence." },
   { question: "Do you have a Russian spa in Hauz Khas?", answer: "Yes, our russian spa in Hauz Khas packages include experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, giving guests more variety in massage technique and style." },
   { question: "Can I book a couple massage in Hauz Khas?", answer: "Yes, our Hauz Khas outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
-  { question: "How much does a full body massage in Hauz Khas cost?", answer: "A full body massage in Hauz Khas at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
+  { question: "How much does a full body massage in Hauz Khas cost?", answer: "A full body massage in Hauz Khas at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and treatment." },
 ];
 
 export default function HauzKhasPage() {

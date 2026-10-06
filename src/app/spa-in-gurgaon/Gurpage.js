@@ -108,7 +108,7 @@ export default function Gurpage() {
     },
     {
       title: "Hotel Outlet",
-      price: "₹15000/-",
+      price: "₹14999/-",
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
@@ -117,7 +117,7 @@ export default function Gurpage() {
     },
     {
       title: "5 Star Hotel Spa",
-      price: "₹20000/-",
+      price: "₹19999/-",
       description: "Comprehensive spa experience with added treatments",
       features: ["International Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,

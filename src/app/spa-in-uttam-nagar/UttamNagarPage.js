@@ -78,8 +78,8 @@ const nearbyAreas = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private body spa in Uttam Nagar session at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "Our popular spa in Uttam Nagar home service, delivered to your residence anywhere in West Delhi.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent hotel spa session delivered anywhere near Uttam Nagar and West Delhi.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Spa", price: "₹14999", desc: "Our popular spa in Uttam Nagar home service, delivered to your residence anywhere in West Delhi.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent hotel spa session delivered anywhere near Uttam Nagar and West Delhi.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
 ];
 
 const faqs = [
@@ -90,7 +90,7 @@ const faqs = [
   { question: "What is the Luxury Russian Spa Uttam Nagar spa contact number?", answer: "You can reach our Uttam Nagar spa contact number on WhatsApp or call at +91 8799716197, available 24/7 to help you book outlet, home, or hotel spa sessions." },
   { question: "Do you have Thai massage or foreign therapists in Uttam Nagar?", answer: "Yes, thai massage is one of our most requested treatments in Uttam Nagar, delivered by experienced Thai, Russian, and Uzbek therapists alongside our skilled Indian staff." },
   { question: "Can I book a couple massage in Uttam Nagar?", answer: "Yes, our Uttam Nagar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
-  { question: "How much does a body spa in Uttam Nagar cost?", answer: "A body spa in Uttam Nagar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
+  { question: "How much does a body spa in Uttam Nagar cost?", answer: "A body spa in Uttam Nagar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and treatment." },
 ];
 
 export default function UttamNagarPage() {

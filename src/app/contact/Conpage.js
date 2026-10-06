@@ -202,7 +202,7 @@ export default function Conpage() {
           <div className="flex flex-col items-center text-center">
             <FaEnvelope className="text-amber-600 text-3xl mb-4" />
             <h3 className="text-xl font-semibold text-amber-800 mb-2">Email</h3>
-            <p className="text-gray-600">delhibodyspa@gmail.com</p>
+            <p className="text-gray-600">luxuryrussianspa1947@gmail.com</p>
           </div>
         </div>
 

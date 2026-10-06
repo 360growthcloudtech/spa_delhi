@@ -73,8 +73,8 @@ const nearbyAreas = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage in Paschim Vihar session at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage in Paschim Vihar, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent hotel spa session near Paschim Vihar, with added treatments.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Spa", price: "₹14999", desc: "The same genuine body massage in Paschim Vihar, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent hotel spa session near Paschim Vihar, with added treatments.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -85,7 +85,7 @@ const faqs = [
   { question: "Do you offer a full body massage in Paschim Vihar at home?", answer: "Yes, alongside our outlet, we offer full body massage in Paschim Vihar as a home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session." },
   { question: "How do I find a body spa in Paschim Vihar for a quick session?", answer: "Search body spa in Paschim Vihar and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day slot." },
   { question: "Can I book a couple massage in Paschim Vihar?", answer: "Yes, our Paschim Vihar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
-  { question: "How much does a full body massage in Paschim Vihar cost?", answer: "A full body massage in Paschim Vihar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
+  { question: "How much does a full body massage in Paschim Vihar cost?", answer: "A full body massage in Paschim Vihar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and treatment." },
 ];
 
 export default function PaschimViharPage() {

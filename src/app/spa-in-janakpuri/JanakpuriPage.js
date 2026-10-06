@@ -139,7 +139,7 @@ const pricingPlans = [
   },
   {
     title: "Home Spa",
-    price: "₹15000",
+    price: "₹14999",
     desc: "A premium at-home wellness session anywhere in Janakpuri, Vikaspuri or nearby West Delhi.",
     features: ["Full Body Massage", "Aromatherapy", "Private Setting", "90 min Session"],
     icon: <FaHotel className="text-amber-500" />,
@@ -148,7 +148,7 @@ const pricingPlans = [
   },
   {
     title: "5 Star Hotel Spa",
-    price: "₹20000",
+    price: "₹19999",
     desc: "A comprehensive luxury spa experience delivered to your hotel room with added treatments.",
     features: ["5 Star Property", "Private Suite", "Foreign Therapist", "120 min Session"],
     icon: <FaCrown className="text-amber-500" />,
@@ -201,7 +201,7 @@ const faqs = [
   {
     question: "How much does a full body massage cost in Janakpuri?",
     answer:
-      "A full body massage at our Janakpuri outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+      "A full body massage at our Janakpuri outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹14,999.",
   },
 ];
 

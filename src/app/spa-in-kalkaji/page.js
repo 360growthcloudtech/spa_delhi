@@ -75,7 +75,7 @@ const faqSchema = {
       name: "How much does a full body massage cost in Kalkaji?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A full body massage at our Kalkaji outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages start from ₹15,000 depending on duration.",
+        text: "A full body massage at our Kalkaji outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages start from ₹14,999 depending on duration.",
       },
     },
   ],

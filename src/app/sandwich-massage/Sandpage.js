@@ -36,7 +36,7 @@ export const faqs = [
   {
     question: "How much does a sandwich massage cost in Delhi?",
     answer:
-      "At our outlets, a sandwich massage starts at ₹1,999 for 60 minutes. A 90-minute session in a hotel suite is ₹15,000, and the 120-minute 5-star package with foreign therapists is ₹20,000. We confirm the price on WhatsApp before you come, so there are no surprises.",
+      "At our outlets, a sandwich massage starts at ₹1,999 for 60 minutes. A 90-minute session in a hotel suite is ₹14,999, and the 120-minute 5-star package with foreign therapists is ₹19,999. We confirm the price on WhatsApp before you come, so there are no surprises.",
   },
   {
     question: "Where can I find a sandwich massage near me in Delhi?",
@@ -178,7 +178,7 @@ const pricingPlans = [
   },
   {
     title: "Hotel Outlet",
-    price: "₹15,000",
+    price: "₹14,999",
     period: "90 min",
     description: "A longer session in a hotel suite",
     features: ["Oil, Cream or Dry Massage", "Two Therapists", "Private Suite", "Complimentary Refreshments", "90 min Session"],
@@ -187,7 +187,7 @@ const pricingPlans = [
   },
   {
     title: "5 Star Hotel Spa",
-    price: "₹20,000",
+    price: "₹19,999",
     period: "120 min",
     description: "The full experience with foreign therapists",
     features: ["Foreign Therapists", "5-Star Property", "Private Suite", "Aromatherapy Oils", "120 min Session"],

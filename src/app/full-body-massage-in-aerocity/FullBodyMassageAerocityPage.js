@@ -80,8 +80,8 @@ const processSteps = [
 
 const pricingPlans = [
   { title: "Full Body Outlet", price: "₹1999", desc: "A complete session at our Aerocity outlet, close to Terminal 3.", features: ["Full Body Technique", "Oil or Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Hotel Spa", price: "₹20000", desc: "Delivered straight to your Aerocity hotel room — ideal for layovers and business trips.", features: ["5 Star Property", "Private Suite", "Foreign Therapist", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "Home Spa", price: "₹15000", desc: "The same full body technique at a home or serviced apartment near Aerocity.", features: ["Full Body Massage", "Aromatherapy", "Private Setting", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "Hotel Spa", price: "₹19999", desc: "Delivered straight to your Aerocity hotel room — ideal for layovers and business trips.", features: ["5 Star Property", "Private Suite", "Foreign Therapist", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Spa", price: "₹14999", desc: "The same full body technique at a home or serviced apartment near Aerocity.", features: ["Full Body Massage", "Aromatherapy", "Private Setting", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
 ];
 
 const faqs = [
@@ -92,7 +92,7 @@ const faqs = [
   { question: "Do you have Russian or other foreign therapists for full body massage in Aerocity?", answer: "Yes, our Russian, Thai, and Uzbek therapists are available alongside our experienced Indian staff, from ₹2,800 depending on the package." },
   { question: "Can I book a night full body massage appointment in Aerocity?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, useful for late-night arrivals." },
   { question: "Is full body massage good for jet lag or travel fatigue?", answer: "Many travellers find a full body session genuinely helps — the combination of full-body coverage and relaxed pacing helps you reset after a long flight." },
-  { question: "How much does a full body massage cost in Aerocity?", answer: "A full body massage at our Aerocity outlet starts from ₹1999 for the first visit. Home and hotel spa packages start from ₹15,000 depending on duration." },
+  { question: "How much does a full body massage cost in Aerocity?", answer: "A full body massage at our Aerocity outlet starts from ₹1999 for the first visit. Home and hotel spa packages start from ₹14,999 depending on duration." },
 ];
 
 export default function FullBodyMassageAerocityPage() {

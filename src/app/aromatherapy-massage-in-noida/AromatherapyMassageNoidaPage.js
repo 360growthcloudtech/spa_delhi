@@ -63,8 +63,8 @@ const processSteps = [
 
 const pricingPlans = [
   { title: "Aromatherapy Outlet", price: "₹1999", desc: "A calming first session at our Noida outlet, close to Sector 18.", features: ["Essential Oil Blend", "Gentle Full Body Technique", "Warm Oil Massage", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Aromatherapy Spa", price: "₹15000", desc: "The same calming technique delivered to your home anywhere in Noida.", features: ["Custom Oil Selection", "Private Setting", "Full Body Technique", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Aromatherapy Spa", price: "₹20000", desc: "A longer, more indulgent session at your Noida hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Aromatherapy Spa", price: "₹14999", desc: "The same calming technique delivered to your home anywhere in Noida.", features: ["Custom Oil Selection", "Private Setting", "Full Body Technique", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Aromatherapy Spa", price: "₹19999", desc: "A longer, more indulgent session at your Noida hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -75,7 +75,7 @@ const faqs = [
   { question: "Do you have Russian or other foreign therapists for aromatherapy massage in Noida?", answer: "Yes, our Russian, Thai, and Uzbek therapists are trained in aromatherapy blending alongside our experienced Indian staff, with sessions available from ₹2,800." },
   { question: "Can I book a night aromatherapy massage appointment in Noida?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
   { question: "Do you offer home aromatherapy massage near Noida?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in Noida for the same calming, essential-oil-based technique." },
-  { question: "How much does an aromatherapy massage cost in Noida?", answer: "An aromatherapy massage at our Noida outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." },
+  { question: "How much does an aromatherapy massage cost in Noida?", answer: "An aromatherapy massage at our Noida outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹14,999 depending on duration." },
 ];
 
 export default function AromatherapyMassageNoidaPage() {

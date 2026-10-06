@@ -89,7 +89,7 @@ export default function KarolBaghPage() {
     },
     {
       title: "Home Spa",
-      price: "₹15000/-",
+      price: "₹14999/-",
       description: "Premium at-home experience with full privacy",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Setting", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
@@ -98,7 +98,7 @@ export default function KarolBaghPage() {
     },
     {
       title: "5 Star Hotel Spa",
-      price: "₹20000/-",
+      price: "₹19999/-",
       description: "Comprehensive spa experience with added treatments",
       features: ["International Therapist", "5 Star Property", "Private Suite", "Aromatherapy", "Facial Session", "120 min Session"],
       highlight: false,

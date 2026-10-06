@@ -63,8 +63,8 @@ const processSteps = [
 
 const pricingPlans = [
   { title: "Swedish Outlet", price: "₹1999", desc: "A relaxing first session at our Rajouri Garden outlet, close to City Square Mall.", features: ["Gliding Stroke Technique", "Light-Medium Pressure", "Warm Oil Massage", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Swedish Spa", price: "₹15000", desc: "The same gentle technique delivered to your home anywhere near Rajouri Garden.", features: ["Full Body Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Swedish Spa", price: "₹20000", desc: "A longer, more indulgent Swedish session at your hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Swedish Spa", price: "₹14999", desc: "The same gentle technique delivered to your home anywhere near Rajouri Garden.", features: ["Full Body Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Swedish Spa", price: "₹19999", desc: "A longer, more indulgent Swedish session at your hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -75,7 +75,7 @@ const faqs = [
   { question: "Do you have Russian or other foreign therapists trained in Swedish technique?", answer: "Yes, our Russian, Thai, and Uzbek therapists are trained in Swedish technique alongside our experienced Indian staff, with sessions available from ₹2,800." },
   { question: "Can I book a night Swedish massage appointment in Rajouri Garden?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." },
   { question: "Do you offer home Swedish massage near Rajouri Garden?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in and around Rajouri Garden for the same gentle technique." },
-  { question: "How much does a Swedish massage cost in Rajouri Garden?", answer: "A Swedish massage at our Rajouri Garden outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." },
+  { question: "How much does a Swedish massage cost in Rajouri Garden?", answer: "A Swedish massage at our Rajouri Garden outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹14,999 depending on duration." },
 ];
 
 export default function SwedishMassageRajouriGardenPage() {

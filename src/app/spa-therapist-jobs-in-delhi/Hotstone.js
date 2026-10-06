@@ -625,7 +625,7 @@ export default function Hotstone({ email = 'info@luxuryspacare.in', website = '#
                     </div>
                     <div>
                       <p className="text-amber-200 text-sm">Email us at</p>
-                      <p className="font-semibold">dmspadelhi@gmail.com</p>
+                      <p className="font-semibold">luxuryrussianspa1947@gmail.com</p>
                     </div>
                   </div>
                 </div>

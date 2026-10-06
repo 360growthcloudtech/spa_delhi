@@ -7,7 +7,7 @@ import { FiChevronDown, FiMail, FiX } from "react-icons/fi";
 import Logo from "./Logo";
 import { WHATSAPP_URL, TELEGRAM_URL, PHONE_LINK, PHONE_LABEL } from "./siteContact";
 
-const EMAIL = "dmspadelhi@gmail.com";
+const EMAIL = "luxuryrussianspa1947@gmail.com";
 
 const socials = [
   { name: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/delhi.luxury_spa/" },

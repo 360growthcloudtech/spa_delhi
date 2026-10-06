@@ -48,7 +48,7 @@ export const faqs = [
   {
     question: "How much does a massage in Aerocity cost?",
     answer:
-      "A 60-minute massage at our Aerocity outlet starts at ₹1,999. A 90-minute session in a hotel suite is ₹15,000, and the 120-minute 5-star package is ₹20,000. We'll confirm the price on WhatsApp before you come.",
+      "A 60-minute massage at our Aerocity outlet starts at ₹1,999. A 90-minute session in a hotel suite is ₹14,999, and the 120-minute 5-star package is ₹19,999. We'll confirm the price on WhatsApp before you come.",
   },
   {
     question: "Are you open late at night or early in the morning?",
@@ -150,7 +150,7 @@ const pricingPlans = [
   },
   {
     title: "Hotel Outlet",
-    price: "₹15,000",
+    price: "₹14,999",
     period: "90 min",
     description: "In your room at a partner Aerocity hotel",
     features: ["Oil, Cream or Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
@@ -159,7 +159,7 @@ const pricingPlans = [
   },
   {
     title: "5 Star Hotel Spa",
-    price: "₹20,000",
+    price: "₹19,999",
     period: "120 min",
     description: "Two full hours with international therapists",
     features: ["International Therapists", "5-Star Property", "Aromatherapy Oils", "120 min Session"],

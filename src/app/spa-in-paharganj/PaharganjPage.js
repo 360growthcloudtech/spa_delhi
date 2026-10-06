@@ -74,8 +74,8 @@ const nearbyAreas = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage session at our Paharganj outlet.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage spa in Paharganj, delivered to your home.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent session at your hotel near Paharganj or Connaught Place.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Spa", price: "₹14999", desc: "The same genuine body massage spa in Paharganj, delivered to your home.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent session at your hotel near Paharganj or Connaught Place.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -83,7 +83,7 @@ const faqs = [
   { question: "Do you offer a 24 hours spa in Paharganj?", answer: "Yes, our booking desk runs 24 hours — message us on WhatsApp or Telegram anytime and we'll confirm your massage in Paharganj session." },
   { question: "Where can I find a body massage spa in Paharganj?", answer: "Our Paharganj spa center is a short walk from New Delhi Railway Station and Main Bazaar, offering full body, B2B, and Thai spa options." },
   { question: "Do you provide home spa service near Paharganj?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in Central Delhi, including areas around Paharganj." },
-  { question: "How much does a body spa in Paharganj cost?", answer: "A session at our Paharganj outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000." },
+  { question: "How much does a body spa in Paharganj cost?", answer: "A session at our Paharganj outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999." },
   { question: "Do you provide spa services at hotels near Paharganj?", answer: "Yes, we regularly serve guests staying at hotels around Paharganj and Connaught Place — just share your hotel and room details when booking." },
 ];
 

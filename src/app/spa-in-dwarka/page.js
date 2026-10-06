@@ -67,7 +67,7 @@ const faqSchema = {
       name: "How much does a full body massage cost in Dwarka?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A full body massage at our Dwarka outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹15,000.",
+        text: "A full body massage at our Dwarka outlet starts from ₹1999 for the first visit. Home spa and hotel spa packages are priced separately depending on duration and treatment, starting from ₹14,999.",
       },
     },
     {

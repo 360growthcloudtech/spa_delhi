@@ -13,7 +13,7 @@ const faqSchema = {
     { "@type": "Question", name: "Do you have Russian or other foreign therapists for full body massage in Aerocity?", acceptedAnswer: { "@type": "Answer", text: "Yes, our Russian, Thai, and Uzbek therapists are available alongside our experienced Indian staff, from ₹2,800 depending on the package." } },
     { "@type": "Question", name: "Can I book a night full body massage appointment in Aerocity?", acceptedAnswer: { "@type": "Answer", text: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, useful for late-night arrivals." } },
     { "@type": "Question", name: "Is full body massage good for jet lag or travel fatigue?", acceptedAnswer: { "@type": "Answer", text: "Many travellers find a full body session genuinely helps — the combination of full-body coverage and relaxed pacing helps you reset after a long flight." } },
-    { "@type": "Question", name: "How much does a full body massage cost in Aerocity?", acceptedAnswer: { "@type": "Answer", text: "A full body massage at our Aerocity outlet starts from ₹1999 for the first visit. Home and hotel spa packages start from ₹15,000 depending on duration." } },
+    { "@type": "Question", name: "How much does a full body massage cost in Aerocity?", acceptedAnswer: { "@type": "Answer", text: "A full body massage at our Aerocity outlet starts from ₹1999 for the first visit. Home and hotel spa packages start from ₹14,999 depending on duration." } },
   ],
 };
 

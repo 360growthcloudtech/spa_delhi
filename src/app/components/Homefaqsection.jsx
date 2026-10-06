@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "What is the price of a full body massage in Delhi?",
     answer:
-      "A full body massage at our Delhi outlets starts at ₹1,999 for 60 minutes. An in-room session at a 5-star hotel is ₹15,000 for 90 minutes, and our VIP session with Russian and international therapists is ₹20,000 for 120 minutes. All prices are fixed, with no hidden charges.",
+      "A full body massage at our Delhi outlets starts at ₹1,999 for 60 minutes. An in-room session at a 5-star hotel is ₹14,999 for 90 minutes, and our VIP session with Russian and international therapists is ₹19,999 for 120 minutes. All prices are fixed, with no hidden charges.",
   },
   {
     question: "Can male guests book a female therapist?",

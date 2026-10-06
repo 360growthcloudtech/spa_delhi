@@ -128,7 +128,7 @@ export default function Conaughtpage() {
     },
     {
       title: "Hotel Outlet",
-      price: "₹15000/-",
+      price: "₹14999/-",
       description: "Premium experience with luxury amenities",
       features: [
         "Oil Massage",
@@ -144,7 +144,7 @@ export default function Conaughtpage() {
     },
     {
       title: "5 Star Hotel Spa",
-      price: "₹20000/-",
+      price: "₹19999/-",
       description: "Comprehensive spa experience with added treatments",
       features: [
         "International Therapist",

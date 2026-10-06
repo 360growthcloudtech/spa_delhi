@@ -53,8 +53,8 @@ const services = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private massage in Preet Vihar session at our outlet, with premium oils, fresh towels, and complete privacy from start to finish.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body spa in Preet Vihar experience, delivered to your home anywhere nearby with all equipment included.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent luxury spa in Preet Vihar session delivered at your hotel, with added treatments and premium care.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Spa", price: "₹14999", desc: "The same genuine body spa in Preet Vihar experience, delivered to your home anywhere nearby with all equipment included.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent luxury spa in Preet Vihar session delivered at your hotel, with added treatments and premium care.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
 ];
 
 const faqs = [
@@ -65,7 +65,7 @@ const faqs = [
   { question: "How do I find a spa near Preet Vihar for a same-day session?", answer: "Search spa near Preet Vihar and message us on WhatsApp or Telegram — our outlet, home spa, and hotel spa teams can usually confirm a same-day appointment depending on therapist availability." },
   { question: "Do you offer a body spa in Preet Vihar at home?", answer: "Yes, alongside our preet vihar spa centre, we offer body spa in Preet Vihar as a home service across East Delhi. Our therapist arrives fully equipped for a relaxing, hygienic session at your residence." },
   { question: "Can I book a couple massage in Preet Vihar?", answer: "Yes, our Preet Vihar outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in complete comfort." },
-  { question: "How much does a full body massage in Preet Vihar cost?", answer: "A full body massage in Preet Vihar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and the treatment you choose." },
+  { question: "How much does a full body massage in Preet Vihar cost?", answer: "A full body massage in Preet Vihar at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and the treatment you choose." },
   { question: "Are there Russian or foreign therapists available at your Preet Vihar spa?", answer: "Yes, our russian spa in Preet Vihar packages include experienced Russian, Thai, and Uzbek therapists alongside our skilled Indian staff, giving guests more variety in massage technique and style." },
   { question: "Is your massage spa in Preet Vihar suitable for guests near V3S Mall or Nirman Vihar?", answer: "Yes, our massage spa in Preet Vihar is a short, easy trip from V3S Mall and Nirman Vihar Metro Station, so it's a convenient stop whether you're heading home from work or finishing up some shopping nearby." },
 ];

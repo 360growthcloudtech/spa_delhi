@@ -53,8 +53,8 @@ const services = [
 
 const pricingPlans = [
   { title: "Spa Outlet", price: "₹1999", desc: "A private body spa in Punjabi Bagh session at our outlet, with premium oils and complete privacy.", features: ["Oil Massage", "Cream Massage", "Private Room", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Spa", price: "₹15000", desc: "The same genuine body massage spa in Punjabi Bagh experience, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
-  { title: "5 Star Hotel Spa", price: "₹20000", desc: "A longer, more indulgent luxury spa in Punjabi Bagh session at your hotel, with added treatments.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "Home Spa", price: "₹14999", desc: "The same genuine body massage spa in Punjabi Bagh experience, delivered to your home anywhere nearby.", features: ["Therapist of Choice", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Flexible" },
+  { title: "5 Star Hotel Spa", price: "₹19999", desc: "A longer, more indulgent luxury spa in Punjabi Bagh session at your hotel, with added treatments.", features: ["Foreign Therapist Option", "Private Suite", "Facial Add-on", "120 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
 ];
 
 const faqs = [
@@ -65,7 +65,7 @@ const faqs = [
   { question: "Is there a massage center in Punjabi Bagh near Shivaji Park or Ring Road?", answer: "Yes, our massage center in Punjabi Bagh is easy to reach from Shivaji Park, Ring Road, Club Road, and West Punjabi Bagh, with home spa options across all of these areas." },
   { question: "Do you offer a full body massage Punjabi Bagh at home?", answer: "Yes, alongside our outlet, we offer full body massage Punjabi Bagh as a home service across West Delhi. Our therapist arrives with all the equipment needed for a relaxing, hygienic session." },
   { question: "Can I book a couple massage in Punjabi Bagh?", answer: "Yes, our Punjabi Bagh outlet has private rooms designed for couple massage, including our popular couple massage with female therapists, so two people can relax together in comfort." },
-  { question: "How much does a body spa in Punjabi Bagh cost?", answer: "A body spa in Punjabi Bagh at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹15,000 and hotel spa from ₹20,000, depending on duration and treatment." },
+  { question: "How much does a body spa in Punjabi Bagh cost?", answer: "A body spa in Punjabi Bagh at our outlet starts from ₹1999 for the first visit. Home spa starts from ₹14,999 and hotel spa from ₹19,999, depending on duration and treatment." },
 ];
 
 export default function PunjabiBaghPage() {

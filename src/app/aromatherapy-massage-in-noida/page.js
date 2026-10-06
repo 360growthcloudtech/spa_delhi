@@ -13,7 +13,7 @@ const faqSchema = {
     { "@type": "Question", name: "Do you have Russian or other foreign therapists for aromatherapy massage in Noida?", acceptedAnswer: { "@type": "Answer", text: "Yes, our Russian, Thai, and Uzbek therapists are trained in aromatherapy blending alongside our experienced Indian staff, with sessions available from ₹2,800." } },
     { "@type": "Question", name: "Can I book a night aromatherapy massage appointment in Noida?", acceptedAnswer: { "@type": "Answer", text: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk." } },
     { "@type": "Question", name: "Do you offer home aromatherapy massage near Noida?", acceptedAnswer: { "@type": "Answer", text: "Yes, alongside our outlet, we send a therapist to your home anywhere in Noida for the same calming, essential-oil-based technique." } },
-    { "@type": "Question", name: "How much does an aromatherapy massage cost in Noida?", acceptedAnswer: { "@type": "Answer", text: "An aromatherapy massage at our Noida outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." } },
+    { "@type": "Question", name: "How much does an aromatherapy massage cost in Noida?", acceptedAnswer: { "@type": "Answer", text: "An aromatherapy massage at our Noida outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹14,999 depending on duration." } },
   ],
 };
 

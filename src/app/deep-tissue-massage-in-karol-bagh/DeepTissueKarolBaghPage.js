@@ -79,8 +79,8 @@ const processSteps = [
 
 const pricingPlans = [
   { title: "Deep Tissue Outlet", price: "₹1999", desc: "A focused first session at our Karol Bagh outlet — firm pressure, warm oils, full privacy.", features: ["Firm Pressure Technique", "Trigger Point Focus", "Warm Oil Massage", "60 min Session"], icon: <FaSpa className="text-amber-500" />, highlight: false, badge: "Starter" },
-  { title: "Home Deep Tissue Spa", price: "₹15000", desc: "The same firm technique delivered to your home anywhere near Karol Bagh or Central Delhi.", features: ["Firm Pressure Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
-  { title: "5 Star Hotel Deep Tissue", price: "₹20000", desc: "A longer, more thorough deep tissue session at your hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Session", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
+  { title: "Home Deep Tissue Spa", price: "₹14999", desc: "The same firm technique delivered to your home anywhere near Karol Bagh or Central Delhi.", features: ["Firm Pressure Technique", "Private Setting", "Aromatherapy Add-on", "90 min Session"], icon: <FaHotel className="text-amber-500" />, highlight: true, badge: "Most Popular" },
+  { title: "5 Star Hotel Deep Tissue", price: "₹19999", desc: "A longer, more thorough deep tissue session at your hotel with added treatments.", features: ["Foreign Therapist", "Private Suite", "Facial Session", "120 min Session"], icon: <FaCrown className="text-amber-500" />, highlight: false, badge: "Luxury" },
 ];
 
 const faqs = [
@@ -91,7 +91,7 @@ const faqs = [
   { question: "Do you have Russian or other foreign therapists trained in deep tissue technique?", answer: "Yes, our Russian, Thai, and Uzbek therapists are trained in deep tissue work alongside our experienced Indian staff, with sessions available from ₹2,800." },
   { question: "Can I book a night deep tissue massage appointment in Karol Bagh?", answer: "Yes, evening and night appointments can be booked in advance through our 24/7 WhatsApp and Telegram help desk, subject to therapist availability." },
   { question: "Do you offer home deep tissue massage near Karol Bagh?", answer: "Yes, alongside our outlet, we send a therapist to your home anywhere in and around Karol Bagh for the same firm, focused technique." },
-  { question: "How much does a deep tissue massage cost in Karol Bagh?", answer: "A deep tissue massage at our Karol Bagh outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹15,000 depending on duration." },
+  { question: "How much does a deep tissue massage cost in Karol Bagh?", answer: "A deep tissue massage at our Karol Bagh outlet starts from ₹1999 for the first visit. Home and hotel packages start from ₹14,999 depending on duration." },
 ];
 
 export default function DeepTissueKarolBaghPage() {
