@@ -26,6 +26,8 @@ const cormorant = Cormorant_Garamond({
   style: ['italic'],
   variable: '--font-cormorant',
   display: 'swap',
+  // Only used for the small italic "Luxury" accent; not worth competing with the hero image on mobile
+  preload: false,
 })
 
 

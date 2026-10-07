@@ -1,11 +1,8 @@
 import { FiArrowRight } from "react-icons/fi";
 import HomeHeading from "./HomeHeading";
+import LazyVideo from "./LazyVideo";
 
-// Posters go through the Next.js image optimizer (640px AVIF/WebP) instead of the raw files,
-// which were up to 428 KB each and competed with the hero image on mobile.
-const posterSrc = (src) => `/_next/image?url=${encodeURIComponent(src)}&w=640&q=70`;
-
-// Videos use preload="none" so they cost nothing until a visitor presses play.
+// Posters are pre-resized 640px WebP files that load lazily; each video loads only when pressed.
 export default function HomeVideoShowcase() {
   return (
     <section aria-labelledby="home-video-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
@@ -21,39 +18,15 @@ export default function HomeVideoShowcase() {
 
         <div className="grid gap-5 md:grid-cols-3">
           <div className="overflow-hidden rounded-3xl bg-dark ring-4 ring-white shadow-[0_15px_40px_rgba(43,24,16,0.15)]">
-            <video
-              className="aspect-[4/5] w-full object-cover"
-              src="/images/spavideo.mp4"
-              poster={posterSrc("/images/spaservices1.jpg")}
-              controls
-              playsInline
-              preload="none"
-              aria-label="Video tour of a massage session at Luxury Russian Spa"
-            />
+            <LazyVideo src="/images/spavideo.mp4" poster="/images/hero/poster1-640.webp" label="Video tour of a massage session at Luxury Russian Spa" />
           </div>
 
           <div className="overflow-hidden rounded-3xl bg-dark ring-4 ring-white shadow-[0_15px_40px_rgba(43,24,16,0.15)]">
-            <video
-              className="aspect-[4/5] w-full object-cover"
-              src="/images/spavideo3.mp4"
-              poster={posterSrc("/images/spa-treatment_outlet.png")}
-              controls
-              playsInline
-              preload="none"
-              aria-label="Video of a private treatment room at a Luxury Russian Spa outlet in Delhi"
-            />
+            <LazyVideo src="/images/spavideo3.mp4" poster="/images/hero/poster2-640.webp" label="Video of a private treatment room at a Luxury Russian Spa outlet in Delhi" />
           </div>
 
           <div className="overflow-hidden rounded-3xl bg-dark ring-4 ring-white shadow-[0_15px_40px_rgba(43,24,16,0.15)]">
-            <video
-              className="aspect-[4/5] w-full object-cover"
-              src="/images/spavideo2.mp4"
-              poster={posterSrc("/images/spaservices4.jpg")}
-              controls
-              playsInline
-              preload="none"
-              aria-label="Video of a relaxing spa therapy in Delhi"
-            />
+            <LazyVideo src="/images/spavideo2.mp4" poster="/images/hero/poster3-640.webp" label="Video of a relaxing spa therapy in Delhi" />
           </div>
         </div>
 

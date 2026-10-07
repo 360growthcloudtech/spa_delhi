@@ -1,31 +1,46 @@
-import Image from "next/image";
+import { preload } from "react-dom";
 import { CalendarCheck, Phone, Sparkles } from "lucide-react";
 import { WHATSAPP_URL as WHATSAPP, PHONE_LINK, PHONE_LABEL } from "./siteContact";
 
 // Pure-CSS crossfade (no slider JS): the first image sits underneath and is visible on the very
 // first paint, so it is the LCP image; the other two fade in on top of it in turn (hero-slide-* in globals.css).
+// Slides are pre-resized static files in /images/hero (640/828/1252px) rather than next/image: the on-demand
+// optimizer made the LCP image wait seconds whenever its cache was cold, which swung the mobile score red/yellow.
 const slides = [
-  { image: "/images/hb1.webp", alt: "Relaxing full body massage at Luxury Russian Spa in Delhi" },
-  { image: "/images/hb2.webp", alt: "Private 5-star hotel spa suite in Delhi NCR", className: "hero-slide-2" },
-  { image: "/images/hb3.webp", alt: "Certified therapist giving a body massage at a spa in Delhi", className: "hero-slide-3" },
+  { name: "hb1", alt: "Relaxing full body massage at Luxury Russian Spa in Delhi" },
+  { name: "hb2", alt: "Private 5-star hotel spa suite in Delhi NCR", className: "hero-slide-2" },
+  { name: "hb3", alt: "Certified therapist giving a body massage at a spa in Delhi", className: "hero-slide-3" },
 ];
+const heroSrcSet = (name) => [640, 828, 1252].map((w) => `/images/hero/${name}-${w}.webp ${w}w`).join(", ");
 
 export default function HomeBanner() {
+  // Puts <link rel="preload"> for the LCP slide in <head> so it starts downloading before the CSS is parsed
+  preload(`/images/hero/hb1-828.webp`, {
+    as: "image",
+    imageSrcSet: heroSrcSet("hb1"),
+    imageSizes: "100vw",
+    fetchPriority: "high",
+  });
+
   return (
     <section
         aria-labelledby="home-hero-title"
         className="relative w-full overflow-hidden bg-dark min-h-[640px] md:min-h-[700px] lg:h-screen lg:min-h-[720px] lg:max-h-[900px]"
       >
         {slides.map((slide, i) => (
-          <div key={slide.image} className={`absolute inset-0 overflow-hidden ${slide.className ?? ""}`}>
-            <Image
-              src={slide.image}
-              alt={slide.alt}
-              fill
-              priority={i === 0}
-              fetchPriority={i === 0 ? "high" : "low"}
+          <div key={slide.name} className={`absolute inset-0 overflow-hidden ${slide.className ?? ""}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`/images/hero/${slide.name}-828.webp`}
+              srcSet={heroSrcSet(slide.name)}
               sizes="100vw"
-              className={`object-cover ${i === 0 ? "animate-zoom-slow" : ""}`}
+              alt={slide.alt}
+              width={1252}
+              height={834}
+              loading={i === 0 ? "eager" : "lazy"}
+              fetchPriority={i === 0 ? "high" : "low"}
+              decoding={i === 0 ? "sync" : "async"}
+              className={`absolute inset-0 h-full w-full object-cover ${i === 0 ? "animate-zoom-slow" : ""}`}
             />
           </div>
         ))}
