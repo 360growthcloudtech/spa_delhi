@@ -5,18 +5,18 @@ import { Breadcrumbs } from "../../components/BlogComponents";
 
 export const metadata = {
   title:
-    "Spa in Connaught Place - Best Hotels & Massage Guide | Luxury Russian Spa",
+    "Connaught Place Spa Guide: How to Choose a Hotel Spa in CP | Luxury Russian Spa",
   description:
-    "Spa in Connaught Place guide to top hotel spas & massage options in Central Delhi. Trusted tips from Luxury Russian Spa's wellness experts. Read the guide & book now!",
+    "A practical CP spa guide: how to pick a hotel spa in Connaught Place, which massage to choose, the best time to go and what to check before you book.",
   keywords: ["best hotels connaught place spa", "connaught place spa guide", "cp massage options"],
   alternates: {
     canonical:
       "https://www.luxuryrussianspa.com/blog/spa-in-connaught-place",
   },
   openGraph: {
-    title: "Spa in Connaught Place: Best Hotels, Services, and Massage Options",
+    title: "Connaught Place Spa Guide: How to Choose a Hotel Spa in CP",
     description:
-      "Discover the best spa in Connaught Place, hotel spa experiences, massage services, and tips for choosing the right massage centre in Delhi.",
+      "How to pick a hotel spa in CP, which massage suits you, the best time to go and what to check before you book.",
     images: ["https://www.luxuryrussianspa.com/images/spa-treatments.jpg"],
     type: "article",
   },
@@ -32,15 +32,15 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
     { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.luxuryrussianspa.com/blog" },
-    { "@type": "ListItem", position: 3, name: "Spa in Connaught Place", item: "https://www.luxuryrussianspa.com/blog/spa-in-connaught-place" },
+    { "@type": "ListItem", position: 3, name: "Connaught Place Spa Guide", item: "https://www.luxuryrussianspa.com/blog/spa-in-connaught-place" },
   ],
 };
 
 const faqs = [
   {
-    question: "Why choose a spa in Connaught Place for relaxation?",
+    question: "Why pick a hotel spa in CP for relaxation?",
     answer:
-      "A spa in Connaught Place offers convenient access, professional wellness services, peaceful surroundings, and multiple massage options. Its central location makes it ideal for working professionals, travelers, and visitors seeking relaxation, stress relief, and a refreshing self-care experience.",
+      "A hotel spa in CP offers convenient access, professional wellness services, peaceful surroundings, and multiple massage options. Its central location makes it ideal for working professionals, travelers, and visitors seeking relaxation, stress relief, and a refreshing self-care experience.",
   },
   {
     question: "What services are available at massage centres?",
@@ -109,7 +109,7 @@ export default function SpaInConnaughtPlacePage() {
             items={[
               { label: "Home", href: "/" },
               { label: "Blog", href: "/blog" },
-              { label: "Spa in Connaught Place" },
+              { label: "Connaught Place Spa Guide" },
             ]}
           />
 
@@ -126,7 +126,7 @@ export default function SpaInConnaughtPlacePage() {
               </p>
 
               <h1 className="text-3xl font-bold leading-tight text-amber-900 sm:text-4xl lg:text-5xl">
-                Spa in Connaught Place: Best Hotels, Services, and Massage Options
+                Connaught Place Spa Guide: How to Choose a Hotel Spa in CP
               </h1>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
@@ -143,7 +143,7 @@ export default function SpaInConnaughtPlacePage() {
 
               <Image
                 src="/images/spa-in-Connaught-place1.png"
-                alt="Spa in Connaught Place"
+                alt="Hotel spa room in Connaught Place"
                 fill
                 priority
                 className="object-cover"
@@ -162,7 +162,7 @@ export default function SpaInConnaughtPlacePage() {
                   </h2>
 
                   <p className="text-lg leading-8 text-gray-700">
-                    Connaught Place is one of Delhi's most popular destinations, known for its shopping streets, restaurants, business hubs, and premium lifestyle experiences. With the increasing demand for wellness and relaxation, finding a trusted spa in Connaught Place has become easier for people looking to take a break from their busy schedules.
+                    Connaught Place is one of Delhi's most popular destinations, known for its shopping streets, restaurants, business hubs, and premium lifestyle experiences. With the increasing demand for wellness and relaxation, finding a trusted hotel spa in CP has become easier for people looking to take a break from their busy schedules. Ready to book? See our <Link href="/spa-in-connaught-place" className="font-semibold text-amber-700 underline underline-offset-4">spa in Connaught Place</Link> page for prices, hotels and timings.
                   </p>
 
                   <p className="text-lg leading-8 text-gray-700">
@@ -183,7 +183,7 @@ export default function SpaInConnaughtPlacePage() {
 
                   <ul className="space-y-2 text-gray-700">
 
-                    <li><a href="#why-choose">• Why Choose a Spa in Connaught Place?</a></li>
+                    <li><a href="#why-choose">• Why Pick a Hotel Spa in CP?</a></li>
 
                     <li><a href="#services">• Popular Massage Services Available at Spas in Connaught Place</a></li>
 
@@ -195,7 +195,7 @@ export default function SpaInConnaughtPlacePage() {
 
                     <li><a href="#luxury-spa">• Luxury Spa in Delhi: What Makes It Different?</a></li>
 
-                    <li><a href="#best-time">• Best Time to Visit a Spa in Connaught Place</a></li>
+                    <li><a href="#best-time">• Best Time for a Massage in CP</a></li>
 
                     <li><a href="#tips">• Tips Before Your Spa Appointment</a></li>
 
@@ -213,7 +213,7 @@ export default function SpaInConnaughtPlacePage() {
                 >
 
                   <h2 className="text-2xl font-semibold text-amber-900">
-                    Why Choose a Spa in Connaught Place?
+                    Why Pick a Hotel Spa in CP?
                   </h2>
 
                   <p className="text-lg leading-8 text-gray-700">
@@ -221,7 +221,7 @@ export default function SpaInConnaughtPlacePage() {
                   </p>
 
                   <p className="text-lg leading-8 text-gray-700">
-                    Choosing a spa in Connaught Place offers several advantages:
+                    Choosing a hotel spa in CP offers several advantages:
                   </p>
 
                   <div className="space-y-6">
@@ -270,7 +270,7 @@ export default function SpaInConnaughtPlacePage() {
 
                   <Image
                     src="/images/spa-in-connaught-place8.jpg"
-                    alt="Spa in Connaught Place"
+                    alt="Hotel spa room in Connaught Place"
                     fill
                     className="object-cover"
                   />
@@ -645,7 +645,7 @@ export default function SpaInConnaughtPlacePage() {
                 >
 
                   <h2 className="text-2xl font-semibold text-amber-900">
-                    Best Time to Visit a Spa in Connaught Place
+                    Best Time for a Massage in CP
                   </h2>
 
                   <p className="text-lg leading-8 text-gray-700">
@@ -710,7 +710,7 @@ export default function SpaInConnaughtPlacePage() {
 
                   <Image
                     src="/images/JwMarriott_CP.jpg"
-                    alt="Best Time to Visit a Spa in Connaught Place"
+                    alt="Best time for a massage in Connaught Place"
                     fill
                     className="object-cover"
                   />
@@ -767,7 +767,7 @@ export default function SpaInConnaughtPlacePage() {
                   </h2>
 
                   <p className="text-lg leading-8 text-gray-700">
-                    Finding the right spa in Connaught Place allows you to enjoy professional wellness services in one of Delhi's most convenient locations. Whether you are looking for a relaxing massage, a premium hotel spa in Delhi, or a trusted massage centre in Connaught Place, choosing a professional spa ensures comfort, quality, and relaxation.
+                    Finding the right hotel spa in CP allows you to enjoy professional wellness services in one of Delhi's most convenient locations. Whether you are looking for a relaxing massage, a premium hotel spa in Delhi, or a trusted massage centre in Connaught Place, choosing a professional spa ensures comfort, quality, and relaxation.
                   </p>
 
                   <p className="text-lg leading-8 text-gray-700">

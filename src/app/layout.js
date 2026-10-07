@@ -40,6 +40,10 @@ export const metadata = {
       "urWTsZ4VUiaWDY0gtPaGZ2YFOFrW4fQxFwqYn8lovLs",
       "jjG9CJGWtQ9GFiVMB6g7y6y3QCtEo9vEP6cD_pVrmZI",
     ],
+    other: {
+      // Pinterest domain verification
+      "p:domain_verify": "d2660bf5bba1b7541eec4a76dc4b2d60",
+    },
   },
 };
 

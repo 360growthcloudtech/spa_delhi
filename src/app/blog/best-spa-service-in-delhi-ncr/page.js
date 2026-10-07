@@ -81,7 +81,7 @@ const relatedBlogs = [
     image: "/images/sandwich-massage.png",
   },
   {
-    title: "Spa in Connaught Place",
+    title: "Connaught Place Spa Guide",
     href: "/blog/spa-in-connaught-place",
     image: "/images/spa-in-Connaught-place.png",
   },
