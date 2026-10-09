@@ -3,67 +3,16 @@
 import { useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-import { WHATSAPP_URL } from "../components/siteContact";
+import { WHATSAPP_URL } from "./siteContact";
 
 /**
- * "How are you feeling today?" picker. Every option and its suggestion is in the server HTML
- * (only one is visible at a time), so search engines still read all of it.
+ * "How are you feeling today?" picker used on the location pages. Each page passes its own `moods`
+ * ({ id, label, emoji, pick, time, why, points, href }). Every option and its suggestion is in the
+ * server HTML (only one is visible at a time), so search engines still read all of it.
  */
-const moods = [
-  {
-    id: "sore",
-    label: "Sore back & neck",
-    emoji: "😣",
-    pick: "Deep Tissue Massage",
-    time: "60–90 min",
-    why: "Firm, slow pressure on the knots that build up after long hours at a desk or behind the wheel.",
-    points: ["Works on shoulders, neck and lower back", "Tell us how firm you want it", "You'll feel looser the same evening"],
-    href: "/deep-tissue-massage-in-delhi",
-  },
-  {
-    id: "stressed",
-    label: "Stressed & tired",
-    emoji: "😮‍💨",
-    pick: "Full Body Massage",
-    time: "60–90 min",
-    why: "Warm oil, long strokes, head to toe. The one most guests book when they just need to switch off.",
-    points: ["Our most booked massage in Lajpat Nagar", "Soft music, dim lights, no rush", "Good for better sleep that night"],
-    href: "/full-body-massage-in-delhi",
-  },
-  {
-    id: "couple",
-    label: "Coming as a couple",
-    emoji: "💑",
-    pick: "Couple Massage",
-    time: "60–120 min",
-    why: "Two tables in one private room, two therapists, same time. Nice for an anniversary or a lazy Sunday.",
-    points: ["Private room for just the two of you", "Choose the same or different massages", "Add a longer session if you like"],
-    href: "/couple-massage",
-  },
-  {
-    id: "shopping",
-    label: "Legs tired from shopping",
-    emoji: "🛍️",
-    pick: "Thai Massage",
-    time: "60 min",
-    why: "Stretching and pressure points on a mat, no oil. Perfect after a long walk round Central Market.",
-    points: ["No oil, so no need to shower after", "Great for tight hips and legs", "Done in an hour"],
-    href: "/thai-massage-in-lajpat-nagar",
-  },
-  {
-    id: "treat",
-    label: "Want a real treat",
-    emoji: "✨",
-    pick: "B2B or Sandwich Massage",
-    time: "60–90 min",
-    why: "Our premium body spa options in a fully private room. Ask us on WhatsApp and we'll explain each one.",
-    points: ["Fully private room", "Choose your therapist", "Price confirmed before you come"],
-    href: "/b2b-massage-in-delhi",
-  },
-];
 
-export default function MassagePicker() {
-  const [active, setActive] = useState(moods[1].id);
+export default function MassagePicker({ moods, defaultId = moods[0].id }) {
+  const [active, setActive] = useState(defaultId);
 
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_1.3fr]">
@@ -127,12 +76,14 @@ export default function MassagePicker() {
             >
               <FaWhatsapp className="size-4" /> Book This Massage
             </a>
-            <a
-              href={m.href}
-              className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold text-white ring-1 ring-white/30 transition-colors hover:bg-white/10"
-            >
-              About {m.pick} <ArrowRight className="size-4" />
-            </a>
+            {m.href && (
+              <a
+                href={m.href}
+                className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold text-white ring-1 ring-white/30 transition-colors hover:bg-white/10"
+              >
+                About {m.pick} <ArrowRight className="size-4" />
+              </a>
+            )}
           </div>
         </div>
       ))}

@@ -27,6 +27,7 @@ const quickLinks = [
 // "Find a spa in your area" (Avataar's city finder), all real location pages
 const areas = [
   { name: "Aerocity", link: "/spa-in-aerocity" },
+  { name: "Bangalore", link: "/spa-in-bangalore" },
   { name: "Connaught Place", link: "/spa-in-connaught-place" },
   { name: "Dwarka", link: "/spa-in-dwarka" },
   { name: "Faridabad", link: "/spa-in-faridabad" },

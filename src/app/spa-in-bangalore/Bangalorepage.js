@@ -3,186 +3,185 @@ import { preload } from "react-dom";
 import {
   ArrowRight,
   CalendarCheck,
-  Car,
   Check,
   Clock,
   CreditCard,
+  Home,
   Hotel,
-  Leaf,
   MapPin,
   Phone,
   Plus,
   ShieldCheck,
-  ShoppingBag,
   Sparkles,
   Star,
-  TrainFront,
   Users,
 } from "lucide-react";
 import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 import HomeHeading from "../components/HomeHeading";
+import MassagePicker from "../components/MassagePicker";
 import WhatsappFloat from "../components/WhatsappFloat";
 import { PHONE_LABEL, PHONE_LINK, TELEGRAM_URL, WHATSAPP_URL } from "../components/siteContact";
-import MassagePicker from "../components/MassagePicker";
+
+// In Bangalore we only do home and hotel visits (no walk-in outlet), so nothing on this page gives a street address.
 
 // Also used for the FAQPage schema in ./page.js, so the page and schema never drift apart.
 export const faqs = [
   {
-    question: "Where is your spa in Lajpat Nagar?",
+    question: "Do you have a spa in Bangalore?",
     answer:
-      "Our spa in Lajpat Nagar is close to Central Market and a few minutes from Lajpat Nagar metro station. Guests from Lajpat Nagar 2 and Lajpat Nagar 4 usually reach us in minutes. We send the exact location on WhatsApp as soon as your slot is confirmed.",
+      "We don't run a walk-in outlet in Bangalore. Instead, our therapists come to you, either at your home or in your hotel room. You get a proper spa massage without stepping into Bangalore traffic, which most of our guests are very happy about.",
   },
   {
-    question: "What is the Lajpat Nagar spa contact number?",
+    question: "I searched for a spa near me in Bangalore. How fast can you reach?",
     answer:
-      "You can call or WhatsApp us on +91 87997 16197. The same number works for booking, checking today's free slots, or asking about prices. We reply on WhatsApp at all hours.",
+      "That depends on where you are and, honestly, on the traffic. Send us your location on WhatsApp and we'll tell you a realistic time. Booking a few hours ahead, or the day before, is the safest way to get the slot you want.",
   },
   {
-    question: "What are the spa prices in Lajpat Nagar?",
+    question: "What are your spa charges in Bangalore?",
     answer:
-      "A 60-minute massage at our Lajpat Nagar spa starts at ₹1,999. A 90-minute session in a hotel suite is ₹14,999, and the 120-minute 5-star hotel spa package is ₹19,999. The price we confirm on WhatsApp is the price you pay, with no extra charges at the end.",
+      "A 90-minute massage in your hotel room is ₹14,999 and the 120-minute 5-star package with an international therapist is ₹19,999. For a home spa, the price depends on your area and how long you want the session, so we confirm it on WhatsApp before booking. There are no extra charges added later.",
   },
   {
-    question: "Which is the best spa in Lajpat Nagar for a body massage?",
+    question: "How does home spa in Bangalore work?",
     answer:
-      "It depends on what you need, but guests who choose us usually mention the same things: a private room, a therapist they picked themselves, and a fixed price they knew before arriving. Our full body massage is the most booked body massage in Lajpat Nagar, and our deep tissue massage is popular with people who sit at a desk all day.",
+      "You book a time, and the therapist arrives with fresh towels, oils and everything else needed. All you need is a quiet room with a little space. When the session is over, they pack up and leave the room the way they found it.",
   },
   {
-    question: "Do you have a Russian spa in Lajpat Nagar?",
+    question: "Can you come to my hotel in Bangalore?",
     answer:
-      "Yes. Along with our Indian therapists, we have therapists from Russia, Uzbekistan and Thailand. Just tell us who you'd prefer when you book and we'll confirm who is free.",
+      "Yes. A lot of our Bangalore bookings are from people staying in hotels for work. Just share your hotel name and room number when you book. If your hotel has rules about visitors, it helps to let the front desk know you're expecting a therapist.",
   },
   {
-    question: "Do you offer B2B massage in Lajpat Nagar?",
+    question: "Do you offer Thai massage in Bangalore?",
     answer:
-      "Yes, B2B massage is available at our Lajpat Nagar spa in a fully private room. Message us on WhatsApp and we'll explain the session, the timing and the price before you book.",
+      "Yes. Our Thai therapists do the traditional style, which is stretching and pressure points done on a mat, with no oil. It's a good choice if you've been sitting at a laptop all week and your hips and back feel stiff.",
   },
   {
-    question: "Is your spa near Lajpat Nagar Central Market?",
+    question: "Is B2B massage available in Bangalore?",
     answer:
-      "Yes. Many of our guests book a massage right after shopping at Central Market. A one-hour Thai or full body massage is a nice way to rest your legs before heading home.",
+      "Yes, B2B massage is available as a home or hotel session in Bangalore. Message us on WhatsApp and we'll explain the session, timing and price before you decide.",
   },
   {
-    question: "Can I walk in without booking?",
+    question: "Is your service unisex? Can I choose a female therapist?",
     answer:
-      "You can, but it depends on which therapists are free at that moment. Evenings and weekends get busy, so a quick WhatsApp message before you come saves you any waiting.",
+      "Both men and women book with us. Male guests can ask for a female therapist, and female guests can choose a male or female therapist. Just mention it when you book and we'll confirm who is free.",
   },
   {
-    question: "Can I choose a female therapist?",
+    question: "Do you cover Koramangala?",
     answer:
-      "Yes. Male guests can ask for a female therapist, and female guests can choose a male or female therapist. Mention it when you book and we'll confirm who is available.",
+      "Yes, Koramangala is one of the areas we get the most bookings from, along with HSR Layout, Indiranagar and Whitefield. If your area isn't on our list, ask anyway. We go to most parts of the city.",
   },
   {
-    question: "How can I pay?",
+    question: "How do I pay?",
     answer:
-      "You can pay by UPI, cash or card at the spa. There's no advance payment needed for outlet bookings.",
+      "You can pay by UPI, cash or card. We'll confirm the price on WhatsApp first, so you know exactly what you're paying before the therapist arrives.",
+  },
+  {
+    question: "What's your contact number for bookings in Bangalore?",
+    answer:
+      "Call or WhatsApp +91 87997 16197. The same number is used for all our bookings, and we usually reply on WhatsApp within a few minutes.",
   },
 ];
 
-// Options for the "How are you feeling today?" picker
+// Options for the "How are you feeling today?" picker. No links: our massage detail pages are Delhi-specific.
 const moods = [
   {
-    id: "sore",
-    label: "Sore back & neck",
-    emoji: "😣",
-    pick: "Deep Tissue Massage",
-    time: "60–90 min",
-    why: "Firm, slow pressure on the knots that build up after long hours at a desk or behind the wheel.",
-    points: ["Works on shoulders, neck and lower back", "Tell us how firm you want it", "You'll feel looser the same evening"],
-    href: "/deep-tissue-massage-in-delhi",
-  },
-  {
-    id: "stressed",
-    label: "Stressed & tired",
-    emoji: "😮‍💨",
+    id: "traffic",
+    label: "Stuck in traffic all day",
+    emoji: "🚗",
     pick: "Full Body Massage",
     time: "60–90 min",
-    why: "Warm oil, long strokes, head to toe. The one most guests book when they just need to switch off.",
-    points: ["Our most booked massage in Lajpat Nagar", "Soft music, dim lights, no rush", "Good for better sleep that night"],
-    href: "/full-body-massage-in-delhi",
+    why: "Two hours on Outer Ring Road does something to your shoulders. A full body massage with warm oil is the quickest way we know to undo it.",
+    points: ["Our most booked massage in Bangalore", "Covers back, legs, arms and neck", "Most people sleep really well after"],
+  },
+  {
+    id: "laptop",
+    label: "Back hurts from the laptop",
+    emoji: "💻",
+    pick: "Deep Tissue Massage",
+    time: "60–90 min",
+    why: "If you work long hours at a desk, the knots in your upper back and neck need firmer pressure than a regular massage gives.",
+    points: ["Firm pressure, done slowly", "Tell your therapist where it hurts", "You'll feel the difference the next morning"],
+  },
+  {
+    id: "stretch",
+    label: "Want a stretch, no oil",
+    emoji: "🧘",
+    pick: "Thai Massage",
+    time: "60–90 min",
+    why: "Thai massage is done in loose clothes on a mat. Your therapist moves you through stretches and presses on tight spots. No oil, no shower needed after.",
+    points: ["Done by our Thai therapists", "Good for hips, legs and lower back", "Leaves you feeling loose, not sleepy"],
   },
   {
     id: "couple",
-    label: "Coming as a couple",
+    label: "Booking for two",
     emoji: "💑",
     pick: "Couple Massage",
     time: "60–120 min",
-    why: "Two tables in one private room, two therapists, same time. Nice for an anniversary or a lazy Sunday.",
-    points: ["Private room for just the two of you", "Choose the same or different massages", "Add a longer session if you like"],
-    href: "/couple-massage",
-  },
-  {
-    id: "shopping",
-    label: "Legs tired from shopping",
-    emoji: "🛍️",
-    pick: "Thai Massage",
-    time: "60 min",
-    why: "Stretching and pressure points on a mat, no oil. Perfect after a long walk round Central Market.",
-    points: ["No oil, so no need to shower after", "Great for tight hips and legs", "Done in an hour"],
-    href: "/thai-massage-in-lajpat-nagar",
+    why: "Two therapists, same time, same room. People book it for anniversaries, birthdays or just because the weekend needed it.",
+    points: ["Two therapists come together", "Choose the same or different massages", "Works well in a hotel suite"],
   },
   {
     id: "treat",
-    label: "Want a real treat",
+    label: "Want something special",
     emoji: "✨",
-    pick: "B2B or Sandwich Massage",
+    pick: "B2B Massage",
     time: "60–90 min",
-    why: "Our premium body spa options in a fully private room. Ask us on WhatsApp and we'll explain each one.",
-    points: ["Fully private room", "Choose your therapist", "Price confirmed before you come"],
-    href: "/b2b-massage-in-delhi",
+    why: "Our premium body to body session, done fully privately at your home or hotel. Message us and we'll walk you through it.",
+    points: ["Fully private session", "Choose your therapist", "Price confirmed before booking"],
   },
 ];
 
 const linkClass = "font-semibold text-amber-700 underline decoration-amber-700/40 underline-offset-4 hover:decoration-amber-700";
 
-// Hero is a pre-resized static image (no on-demand optimizer) so the mobile LCP is fast and stable.
-const HERO_SRCSET = [640, 828, 1402].map((w) => `/images/lajpat/hero-${w}.webp ${w}w`).join(", ");
+// Pre-resized static hero (same files as the home page hero), so the mobile LCP doesn't wait on the image optimizer.
+const HERO_SRCSET = [640, 828, 1252].map((w) => `/images/hero/hb2-${w}.webp ${w}w`).join(", ");
 
 const heroChips = [
-  { icon: ShoppingBag, label: "Near Central Market" },
-  { icon: Users, label: "Russian & Indian Therapists" },
-  { icon: ShieldCheck, label: "Private Rooms" },
+  { icon: Home, label: "Home Spa" },
+  { icon: Hotel, label: "Hotel Room Visits" },
+  { icon: Users, label: "Thai & Russian Therapists" },
   { icon: Clock, label: "Bookings 24/7" },
 ];
 
 const quickFacts = [
-  { value: "₹1,999", label: "Starting Price", note: "60-minute massage" },
-  { value: "4", label: "Therapist Styles", note: "Russian, Uzbek, Thai, Indian" },
+  { value: "0 km", label: "Travel for You", note: "We come to your door" },
+  { value: "15+", label: "Areas Covered", note: "Koramangala to Whitefield" },
   { value: "60–120", label: "Minutes", note: "Pick your session" },
-  { value: "0", label: "Hidden Charges", note: "Price fixed before you come" },
+  { value: "₹0", label: "Hidden Charges", note: "Price fixed on WhatsApp" },
 ];
 
 const services = [
-  { title: "Full Body Massage", text: "Warm oil, head to toe. The body massage most people in Lajpat Nagar book.", time: "60–90 min", href: "/full-body-massage-in-delhi" },
-  { title: "B2B Massage", text: "A premium body spa session in a fully private room. Ask us for details.", time: "60–90 min", href: "/b2b-massage-in-delhi" },
-  { title: "Deep Tissue Massage", text: "Firm pressure for a stiff neck, tight shoulders and that office-chair back.", time: "60–90 min", href: "/deep-tissue-massage-in-delhi" },
-  { title: "Thai Massage", text: "Stretching on a mat, no oil. Our Lajpat Nagar guests love it after shopping.", time: "60 min", href: "/thai-massage-in-lajpat-nagar" },
-  { title: "Couple Massage", text: "Two tables, one private room. Good for anniversaries and lazy Sundays.", time: "60–120 min", href: "/couple-massage" },
-  { title: "Sandwich Massage", text: "Two therapists working together. Twice the hands, half the stress.", time: "60–90 min", href: "/sandwich-massage" },
+  { title: "Full Body Massage", text: "Warm oil from head to toe. This is the body massage most people in Bangalore ask for first.", time: "60–90 min" },
+  { title: "Thai Massage", text: "Stretching and pressure points on a mat, no oil, done by our Thai therapists.", time: "60–90 min" },
+  { title: "Deep Tissue Massage", text: "Slow, firm pressure for the neck and back pain that comes with long screen hours.", time: "60–90 min" },
+  { title: "B2B Massage", text: "A premium body to body session at your home or hotel. Ask us and we'll explain.", time: "60–90 min" },
+  { title: "Couple Massage", text: "Two therapists arrive together so you can both relax at the same time.", time: "60–120 min" },
+  { title: "Aromatherapy Massage", text: "A gentler massage with essential oils picked to calm you down or lift your mood.", time: "60–90 min" },
 ];
 
 const therapists = [
-  { name: "Russian", note: "Long, flowing strokes that help you switch off" },
+  { name: "Thai", note: "Traditional stretching, no oil" },
+  { name: "Russian", note: "Long, slow strokes that help you switch off" },
   { name: "Uzbek", note: "Firm and steady, good for tired muscles" },
-  { name: "Thai", note: "Stretching and pressure points, no oil" },
   { name: "Indian", note: "Warm oil and deep, familiar techniques" },
 ];
 
 const pricingPlans = [
   {
-    title: "Spa Outlet",
-    price: "₹1,999",
-    period: "60 min",
-    description: "At our Lajpat Nagar spa, near Central Market",
-    features: ["Oil, Cream or Dry Massage", "Private Room", "Quick Consultation", "Hot Shower After"],
-    icon: Leaf,
+    title: "Home Spa",
+    price: "On WhatsApp",
+    period: "60–120 min",
+    description: "At your home anywhere we cover in Bangalore",
+    features: ["Full Body, Thai or Deep Tissue", "Therapist brings towels & oils", "Price set by area and duration", "Confirmed before you book"],
+    icon: Home,
   },
   {
-    title: "Hotel Outlet",
+    title: "Hotel Room Spa",
     price: "₹14,999",
     period: "90 min",
-    description: "In a private suite at a partner hotel",
-    features: ["Oil, Cream or Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
+    description: "In your room at a Bangalore hotel",
+    features: ["Oil, Cream or Dry Massage", "Private Session", "Complimentary Refreshments", "90 min Session"],
     icon: Hotel,
     popular: true,
   },
@@ -190,72 +189,70 @@ const pricingPlans = [
     title: "5 Star Hotel Spa",
     price: "₹19,999",
     period: "120 min",
-    description: "Two full hours with international therapists",
+    description: "Two full hours with an international therapist",
     features: ["International Therapists", "5-Star Property", "Aromatherapy Oils", "120 min Session"],
     icon: Star,
   },
 ];
 
-const areas = ["Lajpat Nagar 1", "Lajpat Nagar 2", "Lajpat Nagar 3", "Lajpat Nagar 4", "Central Market", "Amar Colony", "Defence Colony", "Andrews Ganj", "Moolchand", "Jangpura", "Ashram", "South Extension"];
-
-const gettingHere = [
-  {
-    icon: TrainFront,
-    title: "By Metro",
-    text: "Get off at Lajpat Nagar. Both the Violet and Pink lines stop there, so whether you're coming from the ITO side or from Mayur Vihar, you won't have to change trains much.",
-  },
-  {
-    icon: Car,
-    title: "By Car",
-    text: "Driving over on a Saturday or Sunday? Be ready to go round once or twice near Central Market before you find a spot. On weekdays it's usually not a problem.",
-  },
-  {
-    icon: Clock,
-    title: "Best Time",
-    text: "If you can, come on a weekday afternoon. It's quieter and you'll usually get the therapist you asked for. After 7 p.m. and on Sundays we fill up fast, so message us a day before.",
-  },
-];
-
 const visitSteps = [
   {
-    time: "Before you come",
-    title: "Drop us a message",
-    text: "A WhatsApp text is enough. Just let us know what time suits you and which massage you have in mind. If you'd like a female therapist, or someone in particular, mention that too.",
+    time: "Before",
+    title: "Send us your location",
+    text: "A quick WhatsApp is enough. Tell us where you are, roughly what time you'd like, and which massage you're thinking of. We'll come back with the price and a realistic arrival time.",
   },
   {
-    time: "When you get here",
-    title: "We take you straight in",
-    text: "Someone from our team will be there to greet you. You'll get a glass of water and then go to your own room, so there's no sitting around in a waiting area with strangers.",
+    time: "Getting ready",
+    title: "Clear a little space",
+    text: "You don't need to buy anything. A quiet room with enough space to move around a bed or a mat is all it takes. If you're in a hotel, maybe give the front desk a heads-up.",
   },
   {
-    time: "First few minutes",
-    title: "A short chat",
-    text: "Your therapist will ask a couple of things before starting. Is your back or neck bothering you? Do you like it soft or firm? Keep it short if you want. Most people just say \"medium, please\".",
+    time: "On arrival",
+    title: "Your therapist sets up",
+    text: "They'll bring fresh towels and oils, ask a couple of questions about sore spots and how firm you like it, and get everything ready in about ten minutes.",
   },
   {
-    time: "60 to 90 minutes",
-    title: "The massage itself",
-    text: "The lights stay low and the oil is warmed before it touches your skin. Honestly, a lot of our guests doze off halfway through, and that's completely fine with us.",
+    time: "60 to 120 minutes",
+    title: "The massage",
+    text: "This is your time. Plenty of guests fall asleep partway through, and nobody minds. If you want more or less pressure, just say so.",
   },
   {
     time: "Afterwards",
-    title: "Take your time",
-    text: "There's a hot shower if you want one. Sit for a minute, drink some water and don't rush out. Central Market isn't going anywhere.",
+    title: "They pack up, you stay put",
+    text: "Your therapist tidies up and leaves. No driving home, no traffic. You can go straight to bed if you like, which, to be fair, is what most people do.",
   },
 ];
 
-const promises = [
-  { icon: ShieldCheck, title: "Clean and private", text: "Fresh linen for every guest and a room that's cleaned after each session." },
-  { icon: Users, title: "Your choice of therapist", text: "Russian or Indian, male or female, soft or firm. You decide." },
-  { icon: CreditCard, title: "Price fixed in advance", text: "We confirm it on WhatsApp. That's exactly what you pay." },
-  { icon: CalendarCheck, title: "No advance payment", text: "Pay at the spa by UPI, cash or card after your session." },
+const areas = [
+  "Koramangala",
+  "HSR Layout",
+  "Indiranagar",
+  "Whitefield",
+  "MG Road",
+  "UB City",
+  "Bellandur",
+  "Sarjapur Road",
+  "Marathahalli",
+  "Electronic City",
+  "JP Nagar",
+  "Jayanagar",
+  "Hebbal",
+  "Yelahanka",
+  "Airport Road",
 ];
 
-const nearby = [
-  { area: "Greater Kailash", note: "Just down the road", href: "/spa-in-greater-kailash" },
-  { area: "Kalkaji", note: "About 10 minutes away", href: "/spa-in-kalkaji" },
-  { area: "Saket", note: "South Delhi", href: "/spa-in-saket" },
-  { area: "Hauz Khas", note: "South Delhi", href: "/spa-in-hauz-khas" },
+const promises = [
+  { icon: ShieldCheck, title: "Clean and careful", text: "Fresh towels every time, and your room is left the way we found it." },
+  { icon: Users, title: "You pick the therapist", text: "Thai, Russian or Indian, male or female, soft or firm. It's up to you." },
+  { icon: CreditCard, title: "Price fixed first", text: "We agree the price on WhatsApp before anyone leaves for your place." },
+  { icon: CalendarCheck, title: "Pay after the session", text: "UPI, cash or card, once your massage is done." },
+];
+
+const delhiOutlets = [
+  { area: "Aerocity", note: "Near IGI Airport", href: "/spa-in-aerocity" },
+  { area: "Connaught Place", note: "Central Delhi", href: "/spa-in-connaught-place" },
+  { area: "Lajpat Nagar", note: "South Delhi", href: "/spa-in-lajpat-nagar" },
+  { area: "Gurgaon", note: "Delhi NCR", href: "/spa-in-gurgaon" },
 ];
 
 function WhatsAppButton({ children = "Book on WhatsApp", className = "" }) {
@@ -271,22 +268,22 @@ function WhatsAppButton({ children = "Book on WhatsApp", className = "" }) {
   );
 }
 
-export default function Lajpatpage() {
+export default function Bangalorepage() {
   // Starts the hero image download from <head>, before the CSS is parsed
-  preload("/images/lajpat/hero-828.webp", { as: "image", imageSrcSet: HERO_SRCSET, imageSizes: "100vw", fetchPriority: "high" });
+  preload("/images/hero/hb2-828.webp", { as: "image", imageSrcSet: HERO_SRCSET, imageSizes: "100vw", fetchPriority: "high" });
 
   return (
     <main className="font-sans overflow-hidden">
       {/* 1. Hero */}
-      <section aria-labelledby="ln-hero-title" className="relative bg-dark">
+      <section aria-labelledby="blr-hero-title" className="relative bg-dark">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/lajpat/hero-828.webp"
+          src="/images/hero/hb2-828.webp"
           srcSet={HERO_SRCSET}
           sizes="100vw"
-          alt="Massage table at our spa in Lajpat Nagar"
-          width={1402}
-          height={1122}
+          alt="In-room spa massage set up in a Bangalore hotel suite"
+          width={1252}
+          height={834}
           fetchPriority="high"
           decoding="sync"
           className="absolute inset-0 h-full w-full object-cover"
@@ -300,36 +297,35 @@ export default function Lajpatpage() {
             <span className="mx-2">/</span>
             <a href="/outlets" className="hover:text-secondary">Outlets</a>
             <span className="mx-2">/</span>
-            <span className="text-white">Spa in Lajpat Nagar</span>
+            <span className="text-white">Spa in Bangalore</span>
           </nav>
 
           <span className="inline-flex items-center gap-2 rounded-full border border-secondary/60 bg-black/30 px-5 py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-white">
-            <Sparkles className="size-3.5 text-secondary" /> Luxury Spa in Lajpat Nagar <Sparkles className="size-3.5 text-secondary" />
+            <Sparkles className="size-3.5 text-secondary" /> Luxury Spa in Bangalore <Sparkles className="size-3.5 text-secondary" />
           </span>
 
           <h1
-            id="ln-hero-title"
+            id="blr-hero-title"
             className="mt-6 font-title font-bold text-[40px] leading-[1.1] sm:text-6xl lg:text-7xl bg-gradient-to-b from-[#fff3e8] via-[#f6d2b4] to-[#e8a57a] bg-clip-text text-transparent drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]"
           >
-            Spa in Lajpat Nagar
+            Spa in Bangalore
           </h1>
 
           <p className="mt-5 font-title text-lg sm:text-2xl text-white">
-            Body Massage <span className="text-secondary" aria-hidden="true">·</span> Russian Therapists{" "}
-            <span className="text-secondary" aria-hidden="true">·</span> From ₹1,999
+            Body Massage at Your Home or Hotel Room
           </p>
 
           <p className="mt-5 mx-auto max-w-2xl text-sm sm:text-base leading-relaxed text-white/85">
-            Spent the whole day walking around Central Market? Or just had one of those weeks? Come lie down for an
-            hour. Our spa in Lajpat Nagar has quiet private rooms, therapists you can choose yourself, and prices we
-            tell you before you arrive.
+            Why sit in Silk Board traffic to get to a spa and then sit in it again on the way home? We bring the
+            massage to you instead. Our therapists visit homes and hotel rooms across Bangalore, from Koramangala to
+            Whitefield, and you only have to send one message to book.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <WhatsAppButton />
             <a
               href={PHONE_LINK}
-              aria-label={`Call Luxury Russian Spa Lajpat Nagar at ${PHONE_LABEL}`}
+              aria-label={`Call Luxury Russian Spa at ${PHONE_LABEL}`}
               className="inline-flex items-center justify-center gap-2.5 rounded-full border-2 border-white/90 px-8 py-4 text-sm font-semibold uppercase tracking-[0.08em] text-white transition-all duration-300 hover:bg-white hover:text-ink"
             >
               <Phone className="size-4 text-secondary" /> {PHONE_LABEL}
@@ -363,13 +359,13 @@ export default function Lajpatpage() {
       </div>
 
       {/* 2. Intro + contact */}
-      <section aria-labelledby="ln-intro-title" className="bg-white py-16 md:py-24 px-4 md:px-8">
+      <section aria-labelledby="blr-intro-title" className="bg-white py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-6xl mx-auto grid gap-14 lg:grid-cols-2 lg:items-center">
           <div className="relative pb-16 pr-10 sm:pr-20">
             <div className="relative aspect-square overflow-hidden rounded-[28px] shadow-[0_20px_50px_rgba(43,24,16,0.18)]">
               <Image
                 src="/images/luxurySpaRoom.jpg"
-                alt="Private room at our luxury spa in Lajpat Nagar"
+                alt="Relaxing body massage and spa session in Bangalore"
                 fill
                 sizes="(max-width:1024px) 90vw, 45vw"
                 className="object-cover"
@@ -378,48 +374,49 @@ export default function Lajpatpage() {
             <div className="absolute bottom-0 right-0 w-[48%] aspect-[4/5] overflow-hidden rounded-3xl border-[6px] border-white shadow-xl">
               <Image
                 src="/images/spaexpert3.webp"
-                alt="Therapist at our Lajpat Nagar massage spa"
+                alt="Therapist for home spa in Bangalore"
                 fill
                 sizes="(max-width:1024px) 45vw, 22vw"
                 className="object-cover"
               />
             </div>
             <span className="absolute left-5 top-5 rounded-full bg-white/90 px-4 py-2 text-xs font-bold uppercase tracking-wider text-primary shadow">
-              Near Central Market
+              We Come to You
             </span>
           </div>
 
           <div>
             <HomeHeading
-              id="ln-intro-title"
+              id="blr-intro-title"
               align="left"
-              eyebrow="Lajpat Nagar Massage Spa"
-              title="A Calm Corner in"
-              highlight="Busy Lajpat Nagar"
+              eyebrow="Massage and Spa in Bangalore"
+              title="A Spa in Bangalore"
+              highlight="Without the Commute"
               className="!mb-6"
             />
             <p className="leading-relaxed text-bodycolor">
-              If you live around here, you know Lajpat Nagar never really slows down. Shoppers fill Central Market,
-              the Ring Road is jammed by six, and the metro is packed. That&apos;s exactly why people come to us. You
-              step in, the noise drops away, and for the next hour nobody needs anything from you.
+              Anyone who lives here knows the problem. You finally book a massage, and then you spend forty minutes
+              getting there and another forty getting back. By the time you&apos;re home, half the relaxation is gone.
+              So we skipped the building altogether. When you book a massage in Bangalore with us, the therapist comes
+              to your flat or your hotel room.
             </p>
             <p className="mt-4 leading-relaxed text-bodycolor">
-              We&apos;re a luxury spa in Lajpat Nagar, but we try not to be fussy about it. No long menus, no hard
-              sell. Tell us how you feel, sore, tired or just fed up, and we&apos;ll suggest a body massage that fits.
-              Most of our guests come from Lajpat Nagar 2 and Lajpat Nagar 4, and plenty come over from Defence
-              Colony and Amar Colony too.
+              People sometimes ask whether a home spa can feel like a proper luxury spa. We think it can, and in some
+              ways it&apos;s better. It&apos;s your own space, you can pick your therapist, and when it&apos;s over you
+              don&apos;t have to go anywhere. Most of our bookings come from Koramangala, HSR Layout, Indiranagar and
+              Whitefield, but we cover a lot more of the city than that.
             </p>
 
             <div className="mt-8 rounded-2xl bg-amber-50 p-5 ring-1 ring-amber-100">
               <p className="flex items-center gap-2 font-title text-lg font-bold text-amber-900">
-                <Phone className="size-5 text-primary" /> Lajpat Nagar Spa Contact Number
+                <Phone className="size-5 text-primary" /> Bangalore Booking Number
               </p>
               <a href={PHONE_LINK} className="mt-2 block font-title text-3xl font-bold text-primary hover:underline">
                 {PHONE_LABEL}
               </a>
               <p className="mt-2 text-sm text-bodycolor">
-                Call or WhatsApp for bookings, today&apos;s free slots and prices. We send the exact spa location on
-                WhatsApp once your slot is confirmed.
+                Call or WhatsApp with your area and the time you have in mind. We&apos;ll reply with the price and when
+                the therapist can reach you.
               </p>
               <div className="mt-4 flex flex-wrap gap-3">
                 <a
@@ -443,79 +440,79 @@ export default function Lajpatpage() {
       </section>
 
       {/* 3. Massage picker */}
-      <section aria-labelledby="ln-picker-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="blr-picker-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="ln-picker-title"
+            id="blr-picker-title"
             eyebrow="Not Sure What to Book?"
             title="How Are You Feeling"
             highlight="Today?"
-            text="Pick the one that sounds most like you, and we'll suggest a Lajpat Nagar massage that fits."
+            text="Tap whichever sounds most like you. We'll suggest the massage that usually helps."
           />
-          <MassagePicker moods={moods} defaultId="stressed" />
+          <MassagePicker moods={moods} defaultId="traffic" />
         </div>
       </section>
 
       {/* 4. Services */}
-      <section aria-labelledby="ln-services-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="blr-services-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="ln-services-title"
-            eyebrow="Body Spa in Lajpat Nagar"
-            title="Body Massage Spa in Lajpat Nagar:"
-            highlight="Our Menu"
-            text="Six massages, all done in a private room. Tap any one to read more about it."
+            id="blr-services-title"
+            eyebrow="Body Spa in Bangalore"
+            title="Body Massage in Bangalore:"
+            highlight="What You Can Book"
+            text="Every one of these can be done at your home or in your hotel room. Not sure which? Ask us on WhatsApp."
           />
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {services.map(({ title, text, time, href }, i) => (
-              <li key={href}>
+            {services.map(({ title, text, time }, i) => (
+              <li
+                key={title}
+                className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-amber-50 p-6 ring-1 ring-amber-100 transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-[0_20px_45px_rgba(43,24,16,0.12)] hover:ring-amber-300"
+              >
+                {/* Decorative big number drawn by CSS so it is not read as low-contrast text */}
+                <span
+                  data-n={String(i + 1).padStart(2, "0")}
+                  className="absolute -right-2 -top-4 font-title text-7xl font-bold text-amber-200/60 transition-colors before:content-[attr(data-n)] group-hover:text-amber-200"
+                  aria-hidden="true"
+                />
+                <span className="relative inline-flex w-max items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-semibold text-amber-700 ring-1 ring-amber-200">
+                  <Clock className="size-3" /> {time}
+                </span>
+                <h3 className="relative mt-4 font-title text-xl font-bold text-amber-900">{title}</h3>
+                <p className="relative mt-2 flex-1 text-sm text-bodycolor">{text}</p>
                 <a
-                  href={href}
-                  className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-amber-50 p-6 ring-1 ring-amber-100 transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:shadow-[0_20px_45px_rgba(43,24,16,0.12)] hover:ring-amber-300"
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative mt-5 inline-flex w-max items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
                 >
-                  {/* Decorative big number drawn by CSS so it is not read as low-contrast text */}
-                  <span
-                    data-n={String(i + 1).padStart(2, "0")}
-                    className="absolute -right-2 -top-4 font-title text-7xl font-bold text-amber-200/60 transition-colors before:content-[attr(data-n)] group-hover:text-amber-200"
-                    aria-hidden="true"
-                  />
-                  <span className="relative inline-flex w-max items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[11px] font-semibold text-amber-700 ring-1 ring-amber-200">
-                    <Clock className="size-3" /> {time}
-                  </span>
-                  <span className="relative mt-4 block font-title text-xl font-bold text-amber-900 group-hover:text-primary">{title}</span>
-                  <span className="relative mt-2 flex-1 text-sm text-bodycolor">{text}</span>
-                  <span className="relative mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
-                    Read more <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-                  </span>
+                  <FaWhatsapp /> Book {title}
                 </a>
               </li>
             ))}
           </ul>
-          <p className="mt-8 text-center text-sm text-bodycolor">
-            Looking for something else? See every option on our <a href="/massage-in-delhi" className={linkClass}>massage in Delhi</a> page.
-          </p>
         </div>
       </section>
 
-      {/* 5. Russian spa: therapists */}
-      <section aria-labelledby="ln-russian-title" className="relative overflow-hidden bg-dark py-16 md:py-24 px-4 md:px-8">
+      {/* 5. Therapists */}
+      <section aria-labelledby="blr-therapists-title" className="relative overflow-hidden bg-dark py-16 md:py-24 px-4 md:px-8">
         <Image src="/images/hb3.webp" alt="" fill sizes="100vw" className="object-cover opacity-15" aria-hidden="true" />
         <div className="relative max-w-6xl mx-auto grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <div>
             <HomeHeading
               light
-              id="ln-russian-title"
+              id="blr-therapists-title"
               align="left"
-              eyebrow="Russian Spa in Lajpat Nagar"
-              title="Meet the Hands"
-              highlight="Behind the Calm"
+              eyebrow="Thai Spa in Bangalore"
+              title="Who Comes"
+              highlight="to Your Door"
               className="!mb-6"
             />
             <p className="leading-relaxed text-white/80">
-              People often ask if we&apos;re really a Russian spa in Lajpat Nagar. We are, and then some. Our team
-              includes therapists from Russia, Uzbekistan and Thailand, alongside Indian therapists who&apos;ve been
-              doing this for years. Each one has their own touch, so don&apos;t be shy about asking for someone
-              specific.
+              If you&apos;ve been looking for a good Thai massage in Bangalore, our Thai therapists are usually the
+              first ones people ask for. We also have therapists from Russia and Uzbekistan, along with Indian
+              therapists who have been doing this for years. Each one works a little differently, so tell us what
+              you like and we&apos;ll match you with someone.
             </p>
             <WhatsAppButton className="mt-8 !bg-secondary !text-dark hover:!bg-white">Pick My Therapist</WhatsAppButton>
           </div>
@@ -539,17 +536,18 @@ export default function Lajpatpage() {
       </section>
 
       {/* 6. Pricing */}
-      <section id="pricing" aria-labelledby="ln-pricing-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      <section id="pricing" aria-labelledby="blr-pricing-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="ln-pricing-title"
-            eyebrow="Clear Prices"
-            title="Lajpat Nagar"
-            highlight="Spa Prices"
+            id="blr-pricing-title"
+            eyebrow="Spa Charges in Bangalore"
+            title="Spa in Bangalore"
+            highlight="With Price"
             text={
               <>
-                Three options, and no surprises at the end. What we quote on WhatsApp is what you pay. You&apos;ll find
-                every rate on our <a href="/spa-price-in-delhi" className={linkClass}>spa price in Delhi</a> page.
+                Here&apos;s what a session costs. For home visits we confirm the exact price on WhatsApp, because it
+                depends on your area and how long you want. Our full rate list is on the{" "}
+                <a href="/spa-price-in-delhi" className={linkClass}>spa price</a> page.
               </>
             }
           />
@@ -573,7 +571,7 @@ export default function Lajpatpage() {
                 </span>
                 <h3 className={`mt-5 font-title text-2xl font-bold ${popular ? "text-white" : "text-amber-900"}`}>{title}</h3>
                 <p className={`mt-1 text-sm ${popular ? "text-white/70" : "text-bodycolor"}`}>{description}</p>
-                <p className="mt-6 flex items-end gap-2">
+                <p className="mt-6 flex flex-wrap items-end gap-2">
                   <span className={`font-title text-4xl font-bold ${popular ? "text-secondary" : "text-primary"}`}>{price}</span>
                   <span className={`pb-1 text-sm ${popular ? "text-white/60" : "text-bodycolor"}`}>/ {period}</span>
                 </p>
@@ -593,7 +591,7 @@ export default function Lajpatpage() {
                     popular ? "bg-secondary text-dark hover:bg-white" : "bg-white text-primary ring-1 ring-amber-200 hover:bg-primary hover:text-white"
                   }`}
                 >
-                  <FaWhatsapp className="size-4" /> Book Now
+                  <FaWhatsapp className="size-4" /> {price === "On WhatsApp" ? "Get My Price" : "Book Now"}
                 </a>
               </div>
             ))}
@@ -601,15 +599,15 @@ export default function Lajpatpage() {
         </div>
       </section>
 
-      {/* 7. Your visit, step by step */}
-      <section aria-labelledby="ln-visit-title" className="bg-cream py-16 md:py-20 px-4 md:px-8">
+      {/* 7. How a home or hotel visit goes */}
+      <section aria-labelledby="blr-visit-title" className="bg-cream py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           <HomeHeading
-            id="ln-visit-title"
-            eyebrow="First Time Here?"
-            title="What Your Visit"
-            highlight="Looks Like"
-            text="First time at a spa? Lots of our guests are. This is roughly how it goes, from the first message to walking back out."
+            id="blr-visit-title"
+            eyebrow="Home Spa in Bangalore"
+            title="How a Home Visit"
+            highlight="Actually Works"
+            text="Never had a therapist come home before? It's simpler than it sounds. Here's the whole thing, start to finish."
           />
           <ol className="relative space-y-6 border-l-2 border-dashed border-amber-300 pl-8 md:pl-10">
             {visitSteps.map((s, i) => (
@@ -628,15 +626,15 @@ export default function Lajpatpage() {
         </div>
       </section>
 
-      {/* 8. Area + getting here */}
-      <section aria-labelledby="ln-area-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      {/* 8. Areas */}
+      <section aria-labelledby="blr-area-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-5xl mx-auto">
           <HomeHeading
-            id="ln-area-title"
-            eyebrow="Spa Near You"
-            title="Spa in Lajpat Nagar 2, 4"
-            highlight="and Nearby"
-            text="We're close to Central Market, so getting here is easy from most of South and Central Delhi. These are the areas our guests usually come from."
+            id="blr-area-title"
+            eyebrow="Spa Near Me in Bangalore"
+            title="Areas We Visit"
+            highlight="Most Often"
+            text="Searching for a massage near me in Bangalore? If you're in one of these areas, we're probably already nearby. Not on the list? Message us anyway."
           />
           <ul className="flex flex-wrap justify-center gap-2.5">
             {areas.map((a) => (
@@ -647,7 +645,23 @@ export default function Lajpatpage() {
           </ul>
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
-            {gettingHere.map(({ icon: Icon, title, text }) => (
+            {[
+              {
+                icon: Home,
+                title: "At Home",
+                text: "Good for evenings when you just want to stay in. Our therapist brings what's needed, and you don't have to change out of your comfiest clothes until it's time.",
+              },
+              {
+                icon: Hotel,
+                title: "At Your Hotel",
+                text: "In town for work? Book a session in your room after the last meeting. Share the hotel name and room number, and let reception know someone's coming.",
+              },
+              {
+                icon: Clock,
+                title: "Timing Tips",
+                text: "Weeknight slots after 8 p.m. go quickly, and so do weekend afternoons. Booking a day before is the easiest way to get the time and therapist you want.",
+              },
+            ].map(({ icon: Icon, title, text }) => (
               <div key={title} className="rounded-3xl bg-amber-50 p-7 ring-1 ring-amber-100">
                 <span className="flex size-12 items-center justify-center rounded-2xl bg-white text-primary shadow-sm">
                   <Icon className="size-6" />
@@ -661,14 +675,14 @@ export default function Lajpatpage() {
       </section>
 
       {/* 9. Promises */}
-      <section aria-labelledby="ln-promise-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="blr-promise-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
           <HomeHeading
-            id="ln-promise-title"
-            eyebrow="Why Guests Come Back"
-            title="What Makes Us the Best Spa in"
-            highlight="Lajpat Nagar"
-            text="We'll let you be the judge of that. But here's what we promise every single guest."
+            id="blr-promise-title"
+            eyebrow="Why People Book Us Again"
+            title="Looking for the Best Massage"
+            highlight="in Bangalore?"
+            text="That's your call to make, not ours. What we can do is promise you these, every single time."
           />
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {promises.map(({ icon: Icon, title, text }) => (
@@ -684,18 +698,18 @@ export default function Lajpatpage() {
         </div>
       </section>
 
-      {/* 10. Nearby outlets */}
-      <section aria-labelledby="ln-nearby-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+      {/* 10. Delhi outlets */}
+      <section aria-labelledby="blr-delhi-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-5xl mx-auto">
           <HomeHeading
-            id="ln-nearby-title"
-            eyebrow="Spa Near Lajpat Nagar"
-            title="Not in Lajpat Nagar Today?"
-            highlight="Try These"
-            text="If another part of South Delhi is closer, one of these outlets might suit you better."
+            id="blr-delhi-title"
+            eyebrow="Travelling to Delhi?"
+            title="Visit Our Spa Outlets"
+            highlight="in Delhi NCR"
+            text="If work takes you to Delhi, you can walk into one of our outlets there, or we'll come to your hotel the same way we do in Bangalore."
           />
           <ul className="grid gap-4 sm:grid-cols-2">
-            {nearby.map(({ area, note, href }) => (
+            {delhiOutlets.map(({ area, note, href }) => (
               <li key={href}>
                 <a
                   href={href}
@@ -714,19 +728,18 @@ export default function Lajpatpage() {
             ))}
           </ul>
           <p className="mt-8 text-center text-sm text-bodycolor">
-            Just want a stretch? Read about our <a href="/thai-massage-in-lajpat-nagar" className={linkClass}>Thai massage in Lajpat Nagar</a>, or{" "}
-            <a href="/outlets" className={linkClass}>see all 24+ outlets</a>.
+            <a href="/outlets" className={linkClass}>See all our outlets</a>
           </p>
         </div>
       </section>
 
       {/* 11. FAQ */}
-      <section aria-labelledby="ln-faq-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="blr-faq-title" className="bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           <HomeHeading
-            id="ln-faq-title"
+            id="blr-faq-title"
             eyebrow="Questions? We're Here To Help"
-            title="Spa in Lajpat Nagar"
+            title="Spa in Bangalore"
             highlight="FAQs"
           />
           <div className="space-y-4">
@@ -753,16 +766,16 @@ export default function Lajpatpage() {
       </section>
 
       {/* 12. Final CTA */}
-      <section aria-labelledby="ln-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
+      <section aria-labelledby="blr-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
         <Image src="/images/spa-booking-consultation.webp" alt="" fill sizes="100vw" className="object-cover opacity-20" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto text-center">
           <HomeHeading
             light
-            id="ln-cta-title"
+            id="blr-cta-title"
             eyebrow="Book Today"
-            title="Your Hour of Quiet"
-            highlight="Is One Message Away"
-            text="Tell us the time and the massage. We'll confirm your slot, your therapist and the price on the same chat."
+            title="Skip the Traffic,"
+            highlight="Keep the Massage"
+            text="Send us your area and a time that works. We'll confirm the therapist and the price on the same chat."
             className="!mb-8"
           />
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -783,7 +796,7 @@ export default function Lajpatpage() {
             </a>
           </div>
           <p className="mt-6 flex items-center justify-center gap-2 text-xs text-white/60">
-            <CalendarCheck className="size-4" /> No advance payment for outlet bookings
+            <CalendarCheck className="size-4" /> Pay after your session
           </p>
         </div>
       </section>
