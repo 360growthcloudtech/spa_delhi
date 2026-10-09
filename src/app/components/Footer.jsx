@@ -28,6 +28,7 @@ const quickLinks = [
 const areas = [
   { name: "Aerocity", link: "/spa-in-aerocity" },
   { name: "Bangalore", link: "/spa-in-bangalore" },
+  { name: "Chandigarh", link: "/spa-in-chandigarh" },
   { name: "Connaught Place", link: "/spa-in-connaught-place" },
   { name: "Dwarka", link: "/spa-in-dwarka" },
   { name: "Faridabad", link: "/spa-in-faridabad" },
