@@ -1,104 +1,143 @@
-import Pricpage from "./Pricpage";
-// src/app/page.js
-// <-- NO "use client" here -->
+import Pricpage, { PRICES, faqs } from "./Pricpage";
 
+const PAGE_URL = "https://www.luxuryrussianspa.com/spa-price-in-delhi";
+const IMAGE_URL = "https://www.luxuryrussianspa.com/images/price/hero-1280.webp";
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
+};
+
+// Mirrors the visible breadcrumb on the page (Home / Services / Spa Price in Delhi).
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
-    { "@type": "ListItem", position: 2, name: "Spa Price in Delhi", item: "https://www.luxuryrussianspa.com/spa-price-in-delhi" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://www.luxuryrussianspa.com/massage-in-delhi" },
+    { "@type": "ListItem", position: 3, name: "Spa Price in Delhi", item: PAGE_URL },
   ],
 };
 
-const faqSchema = {
+// The price list as an offer catalog, built from the same PRICES the page shows.
+const massages = [
+  "Full Body Massage",
+  "Deep Tissue Massage",
+  "Thai Massage",
+  "Swedish Massage",
+  "Aromatherapy Massage",
+  "B2B Massage",
+  "Sandwich Massage",
+];
+const tierNames = [
+  ["outlet", "at outlet"],
+  ["home", "at home or hotel"],
+  ["fiveStar", "5 star hotel spa"],
+];
+const priceSchema = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What is the spa price in Delhi for a first visit?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Our spa price in Delhi starts from ₹1999 for a first-visit session. Pricing is transparent with no hidden charges, and we regularly run first-visit offers and seasonal discounts.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the full body massage price in Karol Bagh?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A full body massage at our Karol Bagh outlet starts from ₹1999. Reach out to our support team on WhatsApp for the exact price based on the treatment and duration you want.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you offer package discounts and combos?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, booking a combo session or more than one treatment together unlocks an extra discount. Check the pricing packages, or ask our team while booking for the best current deal.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you run seasonal promotions on pricing?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, we run seasonal and festival promotions with discounts on both combo packs and regular sessions. Message us on WhatsApp for whatever offer is currently running.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What are the spa prices in Noida?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Our Noida outlet offers the same transparent pricing as Delhi, starting from ₹1999, with both male and female therapist options for corporate employees and residents nearby.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Can I pay online for my services?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, we offer secure online payment options through our website for your convenience.",
-      },
-    },
+  "@type": "Service",
+  "@id": `${PAGE_URL}#prices`,
+  name: "Spa and Massage Prices in Delhi",
+  serviceType: "Massage therapy",
+  url: PAGE_URL,
+  provider: {
+    "@type": "Organization",
+    name: "Luxury Russian Spa",
+    telephone: "+91-8799716197",
+    url: "https://www.luxuryrussianspa.com/",
+  },
+  areaServed: [
+    { "@type": "City", name: "Delhi" },
+    { "@type": "City", name: "New Delhi" },
+    { "@type": "City", name: "Gurgaon" },
+    { "@type": "City", name: "Noida" },
   ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Delhi Spa Price List",
+    itemListElement: massages.flatMap((m) =>
+      tierNames.map(([key, where]) => ({
+        "@type": "Offer",
+        name: `${m} ${where}, ${PRICES[key].time}`,
+        price: String(PRICES[key].price),
+        priceCurrency: "INR",
+        itemOffered: { "@type": "Service", name: m },
+      }))
+    ),
+  },
 };
 
 export const metadata = {
-  title: "Spa Price in Delhi - Full Body Massage From ₹1999 | Luxury Russian Spa",
-  description: "Spa price in Delhi starting from just ₹1999 at our top 5-star outlets across Delhi NCR. Transparent pricing, certified therapists. Check rates and book now!",
+  title: "Spa Price in Delhi 2026 - Massage Rates From ₹1999 | Luxury Russian Spa",
+  description:
+    "Spa price in Delhi: ₹1,999 for 60 min at any outlet, ₹14,999 for 90 min at home or hotel. Full body, Thai & couple spa rates. Same price in every area.",
   keywords: [
     "spa price in delhi",
-    "massage price in delhi",
-    "full body massage price delhi",
-    "spa cost delhi",
-    "body massage price in delhi",
-    "spa price list delhi",
-    "couple spa price in delhi",
-    "spa price in karol bagh",
-    "spa price in noida",
+    "delhi spa price",
+    "spa delhi price list",
+    "delhi spa center price list",
+    "delhi spa rates",
+    "spa rate in delhi",
+    "spa charges in delhi",
+    "spa cost in delhi",
+    "best spa in delhi with price",
+    "full body massage in delhi price",
+    "full body massage price in delhi",
+    "full body massage cost in delhi",
+    "full body massage delhi price",
+    "full body massage at home in delhi price",
+    "full body spa price in delhi",
+    "body massage in delhi price",
+    "body massage price delhi",
+    "body massage rate in delhi",
+    "body massage charges in delhi",
+    "body massage cost in delhi",
+    "body spa in delhi price",
+    "body spa in delhi with price",
+    "massage price delhi",
+    "delhi massage price",
+    "massage rate in delhi",
+    "massage charges in delhi",
+    "massage center in delhi with price",
+    "delhi massage center price",
+    "delhi massage spa price",
+    "spa massage delhi price",
+    "spa massage delhi rate",
+    "thai massage in delhi price",
+    "couple spa in delhi price",
+    "couple spa in delhi with price",
+    "mahipalpur spa price",
+    "spa in mahipalpur price",
+    "lajpat nagar spa prices",
+    "spa in uttam nagar with price",
+    "full body massage centre paharganj delhi price",
   ],
-  openGraph: {
-    title: "Spa Price in Delhi - Full Body Massage From ₹1999 | Luxury Russian Spa",
-    description: "Clear, honest spa pricing in Delhi starting from ₹1999. Certified therapists, 5-star outlets across Delhi, Noida & Gurgaon. Check rates and book now!",
-    images: ["https://www.luxuryrussianspa.com/images/PricingBanner.jpg"],
-    type: "website",
+  alternates: {
+    canonical: PAGE_URL,
   },
-   alternates: {
-    canonical: "https://www.luxuryrussianspa.com/spa-price-in-delhi",
+  openGraph: {
+    title: "Spa Price in Delhi | One Clear Price List From ₹1999",
+    description:
+      "₹1,999 for 60 minutes at any outlet, ₹14,999 at home or hotel, ₹19,999 for the 5-star package. Same rates in every part of Delhi NCR.",
+    url: PAGE_URL,
+    siteName: "Luxury Russian Spa",
+    images: [{ url: IMAGE_URL, width: 1280, height: 845, alt: "Spa price in Delhi at Luxury Russian Spa" }],
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://www.luxuryrussianspa.com/images/PricingBanner.jpg"]
-  }
+    title: "Spa Price in Delhi | One Clear Price List From ₹1999",
+    description:
+      "₹1,999 for 60 minutes at any outlet, ₹14,999 at home or hotel, ₹19,999 for the 5-star package. Same rates in every part of Delhi NCR.",
+    images: [IMAGE_URL],
+  },
 };
-
-// import dynamic from "next/dynamic";
-
-// dynamic import is optional but helps to avoid SSR issues with some libs
-// const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function page() {
   return (
@@ -107,6 +146,11 @@ export default function page() {
         id="breadcrumb-schema-spa-price-in-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        id="price-schema-spa-price-in-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(priceSchema) }}
       />
       <script
         id="faq-schema-spa-price-in-delhi"

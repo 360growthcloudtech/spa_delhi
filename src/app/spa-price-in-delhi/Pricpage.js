@@ -1,1226 +1,730 @@
-'use client';
+import { preload } from "react-dom";
+import {
+  ArrowLeft,
+  ArrowRight,
+  CalendarCheck,
+  Check,
+  Clock,
+  CreditCard,
+  Home,
+  Leaf,
+  MapPin,
+  Phone,
+  Plus,
+  ShieldCheck,
+  Sparkles,
+  Star,
+  X,
+} from "lucide-react";
+import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
+import HomeHeading from "../components/HomeHeading";
+import WhatsappFloat from "../components/WhatsappFloat";
+import { PHONE_LABEL, PHONE_LINK, TELEGRAM_URL, WHATSAPP_URL } from "../components/siteContact";
 
-import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { FaSpa, FaHotel, FaCrown, FaCheckCircle, FaStar, FaHotTub } from "react-icons/fa";
-import { FaWhatsapp } from 'react-icons/fa';
-import Image from 'next/image';
-import Link from 'next/link';
-import WhatsappFloat from '../components/WhatsappFloat';
-import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
-import { AnimatePresence } from "framer-motion";
-import { FaTelegram } from 'react-icons/fa';
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Sparkles } from 'lucide-react';
-import { Camera } from "lucide-react";
-import { MapPin } from 'lucide-react';
-import { Flower2, Bath, HeartHandshake } from "lucide-react";
+// One price list for every outlet. Change these three and the whole page (and the schema in ./page.js) follows.
+export const PRICES = {
+  outlet: { price: 1999, label: "₹1,999", time: "60 min" },
+  home: { price: 14999, label: "₹14,999", time: "90 min" },
+  fiveStar: { price: 19999, label: "₹19,999", time: "120 min" },
+};
 
+// Also used for the FAQPage schema in ./page.js, so the page and schema never drift apart.
+export const faqs = [
+  {
+    question: "What is the spa price in Delhi at Luxury Russian Spa?",
+    answer:
+      "A 60-minute massage at any of our outlets is ₹1,999. A 90-minute session at your home or hotel is ₹14,999, and our 120-minute 5-star hotel spa package is ₹19,999. Those are the full prices, with no extra charges added at the end.",
+  },
+  {
+    question: "How much does a full body massage cost in Delhi?",
+    answer:
+      "A full body massage at our outlets costs ₹1,999 for 60 minutes. If you'd like it at home, a 90-minute full body massage at home in Delhi is ₹14,999.",
+  },
+  {
+    question: "Is the price different in Mahipalpur, Lajpat Nagar or Uttam Nagar?",
+    answer:
+      "No. We keep the same rates at every outlet, whether you're in Mahipalpur, Lajpat Nagar, Uttam Nagar, Paharganj or anywhere else in Delhi NCR. The only things that change the price are the length of the session and where it happens.",
+  },
+  {
+    question: "What is the Thai massage price in Delhi?",
+    answer:
+      "A 60-minute Thai massage at our outlets is ₹1,999, the same as our other massages. It's done on a mat in loose clothes, with no oil.",
+  },
+  {
+    question: "What does a couple spa in Delhi cost?",
+    answer:
+      "Couple massage prices depend on how long you'd like and whether it's at an outlet, your home or a hotel suite. Send us those details on WhatsApp and we'll give you the exact price before you book.",
+  },
+  {
+    question: "Can I book a 90-minute session at an outlet?",
+    answer:
+      "Yes. Longer outlet sessions are available, and we'll confirm the price on WhatsApp when you book, since it depends on the massage and the outlet.",
+  },
+  {
+    question: "What's included in the price?",
+    answer:
+      "Your massage, a private room, fresh towels and linen, the oils, and a hot shower afterwards at the outlet. For home visits, the therapist brings towels and oils with them. Tips are never expected.",
+  },
+  {
+    question: "Are you a cheap spa?",
+    answer:
+      "We're not the cheapest massage in Delhi, and we don't try to be. What you pay for is a private room, a trained therapist you choose yourself, and a price that doesn't change once you're on the table. If a place quotes much lower, it's worth asking what's left out.",
+  },
+  {
+    question: "Are there any offers or discounts?",
+    answer:
+      "We run offers from time to time, especially for first visits. Just ask for today's offer when you message us on WhatsApp.",
+  },
+  {
+    question: "Do I have to pay in advance?",
+    answer:
+      "Not for outlet bookings. You pay after your session, by UPI, cash or card. For home and hotel visits we'll explain the payment when we confirm your booking.",
+  },
+  {
+    question: "Why is the home or hotel price higher?",
+    answer:
+      "Because the session is longer, 90 minutes instead of 60, and the therapist travels to you with everything needed. You also skip the travel time and can go straight to bed afterwards.",
+  },
+];
 
+const linkClass = "font-semibold text-amber-700 underline decoration-amber-700/40 underline-offset-4 hover:decoration-amber-700";
 
+// Hero is a pre-resized static image (no on-demand optimizer) so the mobile LCP is fast and stable.
+const HERO_SRCSET = [640, 828, 1280].map((w) => `/images/price/hero-${w}.webp ${w}w`).join(", ");
+
+// In-page navigation ("On this page")
+const sections = [
+  { id: "price-tiers", label: "Price at a Glance" },
+  { id: "price-list", label: "Full Price List" },
+  { id: "included", label: "What's Included" },
+  { id: "area-prices", label: "Prices by Area" },
+  { id: "get-price", label: "Get Your Price" },
+  { id: "faq", label: "FAQs" },
+];
+
+const tiers = [
+  {
+    icon: Leaf,
+    title: "Spa Outlet",
+    ...PRICES.outlet,
+    description: "At any of our 24+ outlets in Delhi NCR",
+    features: ["Any massage on our menu", "Private room", "Hot shower after", "Pay after your session"],
+  },
+  {
+    icon: Home,
+    title: "Home or Hotel",
+    ...PRICES.home,
+    description: "The therapist comes to you",
+    features: ["Full body, Thai or deep tissue", "Therapist brings towels & oils", "Your home or hotel room", "No travel for you"],
+    popular: true,
+  },
+  {
+    icon: Star,
+    title: "5 Star Hotel Spa",
+    ...PRICES.fiveStar,
+    description: "Our longest, most indulgent session",
+    features: ["International therapist", "5-star property", "Aromatherapy oils", "Two full hours"],
+  },
+];
+
+// Every massage, with a link to its own page and a WhatsApp link that already names the massage
+const WHATSAPP_NUMBER_URL = "https://wa.me/918799716197";
+const askPriceUrl = (massage) =>
+  `${WHATSAPP_NUMBER_URL}?text=${encodeURIComponent(`Hi! What's the price for a ${massage}? I'd like to book at an outlet / at home (please tell me both).`)}`;
+
+const priceList = [
+  { name: "Full Body Massage", href: "/full-body-massage-in-delhi", emoji: "💆", note: "Head to toe with warm oil. Our most booked massage.", tag: "Most booked" },
+  { name: "Deep Tissue Massage", href: "/deep-tissue-massage-in-delhi", emoji: "💪", note: "Slow, firm pressure for a stiff neck, shoulders or back." },
+  { name: "Thai Massage", href: "/thai-massage-in-delhi", emoji: "🧘", note: "Stretching on a mat, in loose clothes. No oil." },
+  { name: "Swedish Massage", href: "/swedish-massage-in-delhi", emoji: "🌙", note: "Light, flowing strokes. Nice for a first massage." },
+  { name: "Aromatherapy Massage", href: "/aromatherapy-massage-in-delhi", emoji: "🌿", note: "Gentle pressure with essential oils you pick." },
+  { name: "B2B Massage", href: "/b2b-massage-in-delhi", emoji: "✨", note: "Our premium session in a fully private room." },
+  { name: "Sandwich Massage", href: "/sandwich-massage", emoji: "👐", note: "Two therapists working on you at the same time." },
+  { name: "Couple Massage", href: "/couple-massage", emoji: "💑", note: "Two therapists, one room, both of you together.", onRequest: true },
+];
+
+const durations = [PRICES.outlet, PRICES.home, PRICES.fiveStar];
+
+const included = [
+  { icon: ShieldCheck, title: "A private room", text: "Just you and your therapist. Cleaned after every guest, with fresh linen each time." },
+  { icon: Sparkles, title: "Oils and towels", text: "Good quality oils and clean towels are part of the price, not an add-on." },
+  { icon: Check, title: "A hot shower after", text: "At the outlet, so you don't leave feeling oily. Home visits skip this, obviously." },
+  { icon: CreditCard, title: "No surprise extras", text: "The price we quote on WhatsApp is the price you pay. Tips are never expected." },
+];
+
+const notIncluded = [
+  "Hidden \"service charges\" added at the end",
+  "Pressure to buy a package before you leave",
+  "A different price once you're on the table",
+];
+
+// Same rates everywhere, so areas are grouped by zone and each links to its own page instead of repeating the price.
+const areaZones = [
+  {
+    zone: "Near the Airport",
+    emoji: "✈️",
+    areas: [
+      { area: "Mahipalpur", href: "/spa-in-mahipalpur", note: "Open 24/7" },
+      { area: "Aerocity", href: "/spa-in-aerocity", note: "Outlet + hotel visits" },
+    ],
+  },
+  {
+    zone: "Central Delhi",
+    emoji: "🏛️",
+    areas: [
+      { area: "Connaught Place", href: "/spa-in-connaught-place", note: "At The Park hotel" },
+      { area: "Karol Bagh", href: "/spa-in-karol-bagh" },
+      { area: "Paharganj", href: "/spa-in-paharganj", note: "Near New Delhi station" },
+    ],
+  },
+  {
+    zone: "South Delhi",
+    emoji: "🌳",
+    areas: [
+      { area: "Lajpat Nagar", href: "/spa-in-lajpat-nagar", note: "Near Central Market" },
+      { area: "Saket", href: "/spa-in-saket" },
+    ],
+  },
+  {
+    zone: "West Delhi",
+    emoji: "🌇",
+    areas: [
+      { area: "Uttam Nagar", href: "/spa-in-uttam-nagar" },
+      { area: "Rajouri Garden", href: "/spa-in-rajouri-garden" },
+      { area: "Dwarka", href: "/spa-in-dwarka" },
+    ],
+  },
+  {
+    zone: "North & East Delhi",
+    emoji: "🧭",
+    areas: [
+      { area: "Rohini", href: "/spa-in-rohini" },
+      { area: "Laxmi Nagar", href: "/spa-in-laxmi-nagar" },
+    ],
+  },
+  {
+    zone: "Delhi NCR",
+    emoji: "🏙️",
+    areas: [
+      { area: "Gurgaon", href: "/spa-in-gurgaon" },
+      { area: "Noida", href: "/spa-in-noida" },
+    ],
+  },
+];
+
+const nearestOutletUrl = `https://wa.me/918799716197?text=${encodeURIComponent("Hi! Which of your outlets is nearest to me? My area is: ")}`;
+
+const getPriceSteps = [
+  { title: "Tell us three things", text: "Which massage, how long, and whether it's at an outlet, your home or a hotel. That's all we need." },
+  { title: "We reply with the price", text: "Usually within a few minutes on WhatsApp, along with a time that works and who your therapist will be." },
+  { title: "Book, then pay after", text: "Once you're happy with the price, we lock in the slot. For outlet visits you pay after your session." },
+];
+
+// "Where next" links so visitors can move on to a service, an outlet or the home page easily
+const nextLinks = [
+  { label: "Home", href: "/", text: "Back to the main page" },
+  { label: "All Massage Services", href: "/massage-in-delhi", text: "Every massage we offer in Delhi" },
+  { label: "Full Body Massage", href: "/full-body-massage-in-delhi", text: "Our most booked massage" },
+  { label: "Couple Massage", href: "/couple-massage", text: "Two therapists, one room" },
+  { label: "Our Outlets", href: "/outlets", text: "Find the one nearest you" },
+  { label: "Contact Us", href: "/contact", text: "Call, WhatsApp or Telegram" },
+];
+
+function WhatsAppButton({ children = "Get My Price on WhatsApp", className = "" }) {
+  return (
+    <a
+      href={WHATSAPP_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`inline-flex items-center justify-center gap-2.5 rounded-full bg-primary px-8 py-4 text-sm font-semibold uppercase tracking-[0.08em] text-white shadow-lg shadow-primary/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-amber-800 ${className}`}
+    >
+      <FaWhatsapp className="size-5" /> {children}
+    </a>
+  );
+}
 
 export default function Pricpage() {
-  const [isVisible, setIsVisible] = useState(false);
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
-  const [activeIndex, setActiveIndex] = useState(null);
-  const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.getElementById('services-section');
-      if (element) {
-        const top = element.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        if (top < windowHeight * 0.8) {
-          setIsVisible(true);
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check on initial load
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-  const faqs = [
-    {
-      question: "What is the spa price in Delhi for a first visit?",
-      answer: "Our spa price in Delhi starts from ₹1999 for a first-visit session. Pricing is transparent with no hidden charges, and we regularly run first-visit offers and seasonal discounts.",
-      icon: <FaSpa className="text-teal-600" />
-    },
-    {
-      question: "What is the full body massage price in Karol Bagh?",
-      answer: "A full body massage at our Karol Bagh outlet starts from ₹1999. Reach out to our support team on WhatsApp for the exact price based on the treatment and duration you want.",
-      icon: <FaHandSparkles className="text-teal-600" />
-    },
-    {
-      question: "Do you offer package discounts and combos?",
-      answer: "Yes, booking a combo session or more than one treatment together unlocks an extra discount. Check the pricing packages above, or ask our team while booking for the best current deal.",
-      icon: <FaLeaf className="text-teal-600" />
-    },
-    {
-      question: "Do you run seasonal promotions on pricing?",
-      answer: "Yes, we run seasonal and festival promotions with discounts on both combo packs and regular sessions. Message us on WhatsApp for whatever offer is currently running.",
-      icon: <FaSpa className="text-teal-600" />
-    },
-    {
-      question: "What are the spa prices in Noida?",
-      answer: "Our Noida outlet offers the same transparent pricing as Delhi, starting from ₹1999, with both male and female therapist options for corporate employees and residents nearby.",
-      icon: <FaHotTub className="text-teal-600" />
-    },
-    {
-      question: "Can I pay online for my services?",
-      answer: "Yes, we offer secure online payment options through our website for your convenience.",
-      icon: <FaSpa className="text-teal-600" />
-    },
-  ];
-
-  const pricingPlans = [
-    {
-      title: "Spa Outlet",
-      price: "₹1999/-",
-      description: "Perfect for individual relaxation sessions",
-      features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
-      highlight: false,
-      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-      icon: <FaSpa className="text-amber-500" />
-    },
-    {
-      title: "Hotel Outlet",
-      price: "₹13999/-",
-      description: "Premium experience with luxury amenities",
-      features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
-      highlight: true,
-      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-      icon: <FaHotel className="text-amber-500" />
-    },
-    {
-      title: "Premium Package",
-      price: "₹4999/-",
-      description: "Comprehensive spa experience with added treatments",
-      features: ["Massage + Steam", "Aromatherapy", "Facial Session", "60 min Session"],
-      highlight: false,
-      ctaLink: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-      icon: <FaCrown className="text-amber-500" />
-    }
-  ];
-  const outlets = [
-    {
-      title: 'Aerocity',
-      description: 'Our Aerocity outlet lists every Thai massage, couple spa, and full-body session with clear, upfront pricing — no surprises. Set inside luxury hotels near IGI Airport, we run 24×7 with sessions starting at ₹1,999, including a complimentary steam and shower.',
-      image: '/images/RoseateHouse.jpg',
-      link: 'https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.',
-      pageLink: '/spa-in-aerocity',
-    },
-    {
-      title: 'New Friends Colony (NFC)',
-      description: 'Our New Friends Colony centre publishes its full body-spa, Swedish, and couple massage pricing online, so there\'s nothing to guess before you arrive. Expect hotel-style rooms, organic oils, and late-night slots, with full body massage starting from ₹1,799.',
-      image: '/images/fpkdl.com_960_1758981740_exterior-view-bellagio-caesars-palace-hotel-las-vegas-nevada-march-6-2024_943860-2321.jpg',
-      link: 'https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.',
-      pageLink: null,
-    },
-    {
-      title: 'Connaught Place',
-      description: 'Right on Janpath, our Connaught Place outlet welcomes shoppers and office-goers with clear, upfront pricing. Book a Thai massage or a couple spa session from ₹2,099, both including a shower, steam, and complimentary foot ritual. Sessions run 60 to 120 minutes, daily.',
-      image: '/images/pexels-pavel-danilyuk-9119782.jpg',
-      link: 'https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.',
-      pageLink: '/spa-in-connaught-place',
-    },
-    {
-      title: 'Grand Vasant Kunj',
-      description: 'Tucked inside premium malls in Vasant Kunj, we publish every full-body massage rate online — no hidden costs. Solo and couple packages start from ₹1,899, with Himalayan salt rooms, Thai therapists, and free pickup within 5 km.',
-      image: '/images/lajpatnagar.jpg',
-      link: 'https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.',
-      pageLink: '/spa-in-vasant-kunj',
-    },
-  ];
-  const teamMembers = [
-    {
-      name: "Chelsea Foster",
-      designation: "Spa Therapist",
-      image: "/images/spa-therapist-uniform.webp",
-      socials: {
-        WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-        instagram: "https://www.instagram.com/delhi.luxury_spa/",
-        // twitter: "https://twitter.com",
-      },
-    },
-    {
-      name: "Lane Parsons",
-      designation: "Spa Therapist",
-      image: "/images/spaExper2.webp",
-      socials: {
-        WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-        instagram: "https://www.instagram.com/delhi.luxury_spa/",
-        // twitter: "https://twitter.com",
-      },
-    },
-    {
-      name: "Haven West",
-      designation: "Spa Therapist",
-      image: "/images/spa-therapist-delhi.webp",
-      socials: {
-        WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-        instagram: "https://www.instagram.com/delhi.luxury_spa/",
-        // twitter: "https://twitter.com",
-      },
-    },
-    {
-      name: "Avery Grace",
-      designation: "Spa Therapist",
-      image: "/images/spaExpert4.webp",
-      socials: {
-        WhatsApp: "https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.",
-        instagram: "https://www.instagram.com/delhi.luxury_spa/",
-        // twitter: "https://twitter.com",
-      },
-    },
-  ];
-  {/* Our Process */ }
-  const processSteps = [
-    {
-      number: '01',
-      title: 'Select Hotel And Spa Outlet',
-      description: 'Our spa meeting process ensures a seamless and soothing experience, from scheduling to consultation and relaxation.',
-      image: '/images/mmeeting.webp',
-    },
-    {
-      number: '02',
-      title: 'Appointment',
-      description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
-      image: '/images/spa-treatments.jpg',
-    },
-    {
-      number: '03',
-      title: 'Visit',
-      description: 'Confirm your appointment, choose your therapy, and relax, your spa journey is now set.',
-      image: '/images/finalizing.avif',
-    },
-  ];
-  {/* End Our Process */ }
+  // Starts the hero image download from <head>, before the CSS is parsed
+  preload("/images/price/hero-828.webp", { as: "image", imageSrcSet: HERO_SRCSET, imageSizes: "100vw", fetchPriority: "high" });
 
   return (
+    <main className="font-sans overflow-hidden">
+      {/* 1. Hero */}
+      <section aria-labelledby="price-hero-title" className="relative bg-dark">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/price/hero-828.webp"
+          srcSet={HERO_SRCSET}
+          sizes="100vw"
+          alt="Private spa room in Delhi"
+          width={1280}
+          height={845}
+          fetchPriority="high"
+          decoding="sync"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/65" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/70" aria-hidden="true" />
 
-    <main>
-      {/* Banner */}
-      <section
-        className="relative w-full h-[45vh] sm:h-[60px] md:h-[70vh] lg:h-[85vh] xl:h-[80vh] bg-cover bg-center bg-no-repeat flex items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('/images/steptodown.com870307.webp')"
-        }}
-      >
-        {/* Gradient Overlay with soft blur */}
-        {/* <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div> */}
+        <div className="relative max-w-5xl mx-auto px-5 md:px-10 pt-14 pb-36 md:pt-20 md:pb-44 text-center">
+          <nav aria-label="Breadcrumb" className="mb-6 text-xs text-white/70">
+            <a href="/" className="hover:text-secondary">Home</a>
+            <span className="mx-2">/</span>
+            <a href="/massage-in-delhi" className="hover:text-secondary">Services</a>
+            <span className="mx-2">/</span>
+            <span className="text-white">Spa Price in Delhi</span>
+          </nav>
 
-        {/* Content */}
-        <div className="relative z-10 max-w-4xl text-center px-4">
+          <span className="inline-flex items-center gap-2 rounded-full border border-secondary/60 bg-black/30 px-5 py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-white">
+            <Sparkles className="size-3.5 text-secondary" /> Delhi Spa Price List <Sparkles className="size-3.5 text-secondary" />
+          </span>
+
           <h1
-            className={`text-3xl md:text-5xl font-bold text-white leading-tight font-serif`}
+            id="price-hero-title"
+            className="mt-6 font-title font-bold text-[40px] leading-[1.1] sm:text-6xl lg:text-7xl bg-gradient-to-b from-[#fff3e8] via-[#f6d2b4] to-[#e8a57a] bg-clip-text text-transparent drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]"
           >
-            Spa Price in Delhi — Clear, Honest Rates From ₹1999
+            Spa Price in Delhi
           </h1>
-          <p
-            className={`mt-6 text-lg md:text-1xl text-white/90 font-light`}
-          >
-            Choose from flexible packages crafted for every need. No hidden fees. Just luxury and comfort, always within reach.
+
+          <p className="mt-5 font-title text-lg sm:text-2xl text-white">
+            One Clear Price List for Every Outlet, From ₹1,999
           </p>
 
-          <a
-            href="/massage-in-delhi"
-            className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
-          >
-            View Our Services
-          </a>
+          <p className="mt-5 mx-auto max-w-2xl text-sm sm:text-base leading-relaxed text-white/85">
+            Most people searching for spa rates in Delhi just want a straight answer. So here it is. A massage at any
+            of our outlets is ₹1,999 for an hour. At home or in your hotel it&apos;s ₹14,999 for 90 minutes. That&apos;s
+            the full price, and it&apos;s the same in Mahipalpur as it is in Lajpat Nagar.
+          </p>
+
+          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+            <WhatsAppButton />
+            <a
+              href={PHONE_LINK}
+              aria-label={`Call Luxury Russian Spa at ${PHONE_LABEL}`}
+              className="inline-flex items-center justify-center gap-2.5 rounded-full border-2 border-white/90 px-8 py-4 text-sm font-semibold uppercase tracking-[0.08em] text-white transition-all duration-300 hover:bg-white hover:text-ink"
+            >
+              <Phone className="size-4 text-secondary" /> {PHONE_LABEL}
+            </a>
+          </div>
         </div>
       </section>
-      <div className="w-full overflow-x-hidden bg-white relative">
-        {/* End Banner */}
 
-        <section id="services-section" className="relative w-full py-16 overflow-hidden bg-gradient-to-b from-amber-50 to-white" >
-
-          {/* Decorative Background (applies to full page) */}
-          <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
-            <div className="absolute top-20 left-10 w-40 h-40 rounded-full bg-amber-200 mix-blend-multiply"></div>
-            <div className="absolute bottom-20 right-10 w-60 h-60 rounded-full bg-amber-100 mix-blend-multiply"></div>
-            <div className="absolute top-1/3 right-1/4 w-20 h-20 rounded-full bg-amber-300 mix-blend-multiply opacity-40"></div>
-          </div>
-          {/* Floating ✿ */}
-          <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-            {[...Array(15)].map((_, i) => (
-              <motion.div
-                key={i}
-                className="absolute text-amber-200"
-                style={{
-                  top: `${Math.random() * 100}%`,
-                  left: `${Math.random() * 100}%`,
-                  fontSize: `${Math.random() * 24 + 16}px`,
-                  rotate: `${Math.random() * 360}deg`,
-                }}
-                animate={{
-                  y: [0, 40, 0],
-                  x: [0, Math.random() * 30 - 15, 0],
-                  opacity: [0.2, 0.8, 0.2],
-                  scale: [1, 1.1, 1],
-                }}
-                transition={{
-                  duration: Math.random() * 8 + 6,
-                  repeat: Infinity,
-                  delay: Math.random() * 3,
-                }}
-              >
-                ✿
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Amber Gradient */}
-          <div className="absolute inset-0 z-0 pointer-events-none">
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-amber-700/5 to-transparent"></div>
-            <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-amber-800/5 to-transparent"></div>
-          </div>
-          {/* Section Title */}
-          <div className="relative z-10 max-w-6xl mx-auto px-4">
-
-            <motion.h2
-              className="text-5xl md:text-6xl font-light text-center text-amber-900 mb-6"
-              initial={{ opacity: 0, y: 30 }}
-              animate={isVisible ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8 }}
-              style={{ fontFamily: "'Playfair Display', serif" }}
-            >
-              Our Spa & Massages Prices in Delhi
-            </motion.h2>
-            <motion.div
-              className="mt-4 w-32 h-1 mx-auto bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"
-              initial={{ scaleX: 0 }}
-              animate={isVisible ? { scaleX: 1 } : {}}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              style={{ transformOrigin: 'center' }}
-            ></motion.div>
-            <motion.p
-              className="mt-10 text-center text-xl md:text-2xl text-amber-800 font-light leading-relaxed max-w-3xl mx-auto"
-              initial={{ opacity: 0, y: 30 }}
-              animate={isVisible ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              style={{ fontFamily: "'Montserrat', sans-serif" }}
-            >
-              You deserve better than a rushed massage by a rookie therapist in a place that makes you feel more stressed.
-            </motion.p>
-            {/* Price List Section */}
-            <section className="relative z-10 mt-16 max-w-3xl mx-auto px-4">
-              <motion.ul
-                className="space-y-8"
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                viewport={{ once: true }}
-              >
-                {[
-                  { title: "B2B Therapy", price: "₹1999", duration: "60 Minutes" },
-                  { title: "Ayurvedic Massage", price: "₹1999", duration: "60 Minutes" },
-                  { title: "Traditional Thai Massage", price: "₹1499", duration: "60 Minutes" },
-                  { title: "Sandwich Massage", price: "₹1999", duration: "60 Minutes" },
-                  { title: "Hotel Spa", price: "₹15999", duration: "60 Minutes" },
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
-                    className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-amber-200 pb-4"
-                  >
-                    <div>
-                      <h4 className="text-xl font-semibold text-amber-900" style={{ fontFamily: "'Playfair Display', serif" }}>
-                        {item.title}
-                      </h4>
-                      <p className="text-sm text-amber-700 font-light mt-1">{item.duration}</p>
-                    </div>
-                    <span className="text-amber-600 text-lg font-medium mt-2 md:mt-0">{item.price}</span>
-                  </li>
-                ))}
-              </motion.ul>
-            </section>
-            {/* End Price List Section */}
-            {/* CTA Button */}
-            <motion.div
-              className="text-center mt-20"
-              initial={{ opacity: 0, y: 30 }}
-              animate={isVisible ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 1 }}
-            >
-              <a href='/outlets'>
-                <button className="px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-lg font-medium hover:opacity-90 transition-opacity shadow-lg shadow-amber-500/30">
-                  Outlets
-                </button>
-              </a>
-              <p className="mt-6 text-amber-700 max-w-xl mx-auto">
-                Experience the difference of our premium spa treatments. Book a consultation today and discover your path to wellness.
-              </p>
-            </motion.div>
-          </div>
-
-          {/* Corner decorations */}
-          <div className="absolute top-6 left-6 w-10 h-10 z-10 border-t border-l border-amber-400/50"></div>
-          <div className="absolute top-6 right-6 w-10 h-10 z-10 border-t border-r border-amber-400/50"></div>
-          <div className="absolute bottom-6 left-6 w-10 h-10 z-10 border-b border-l border-amber-400/50"></div>
-          <div className="absolute bottom-6 right-6 w-10 h-10 z-10 border-b border-r border-amber-400/50"></div>
-        </section>
+      {/* Price strip, overlapping the hero */}
+      <div className="relative z-10 -mt-20 md:-mt-24 px-4 md:px-8">
+        <dl className="max-w-5xl mx-auto grid grid-cols-3 gap-px overflow-hidden rounded-3xl bg-amber-100 shadow-[0_20px_50px_rgba(43,24,16,0.15)] ring-1 ring-amber-100">
+          {tiers.map((t) => (
+            <div key={t.title} className="bg-white p-4 md:p-7 text-center">
+              <dt className="text-xs sm:text-sm font-semibold text-amber-900">{t.title}</dt>
+              <dd>
+                <span className="mt-1 block font-title text-2xl md:text-4xl font-bold text-primary">{t.label}</span>
+                <span className="block text-xs text-bodycolor">{t.time}</span>
+              </dd>
+            </div>
+          ))}
+        </dl>
       </div>
-      {/* Pricing Section */}
-      <section id="Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
-        {/* Decorative elements */}
-        <div className="absolute top-10 left-0 w-24 h-24 rounded-full bg-amber-100 opacity-20 blur-3xl"></div>
-        <div className="absolute bottom-20 right-0 w-32 h-32 rounded-full bg-amber-200 opacity-15 blur-3xl"></div>
 
-        <div className="max-w-7xl mx-auto relative z-10">
-          {/* Heading */}
-          <div className="text-center mb-10 md:mb-12">
-            <motion.div
-              className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <FaStar className="text-amber-500" />
-              Affordable Luxury
-            </motion.div>
-            <motion.h2
-              className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-            >
-              Full Service Pricing — <span className="text-amber-600">Delhi, Noida &amp; Gurgaon</span>
-            </motion.h2>
-            <motion.p
-              className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
-              Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
-            </motion.p>
-            <motion.div
-              className="flex justify-center mt-10"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-            >
-              <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-            </motion.div>
-          </div>
+      {/* On this page */}
+      <nav aria-label="On this page" className="bg-white px-4 pt-10 md:px-8">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">On this page</p>
+          <ul className="mt-4 flex flex-wrap justify-center gap-2">
+            {sections.map((s) => (
+              <li key={s.id}>
+                <a
+                  href={`#${s.id}`}
+                  className="inline-block rounded-full bg-amber-50 px-4 py-2 text-sm font-medium text-amber-900 ring-1 ring-amber-200 transition-colors hover:bg-primary hover:text-white"
+                >
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
 
-          {/* Pricing Cards */}
-          <div className="grid md:grid-cols-3 gap-8 lg:gap-10">
-            {pricingPlans.map((plan, index) => (
-              <motion.div
-                key={index}
-                className={`relative rounded-3xl overflow-hidden ${plan.highlight ? "transform lg:-translate-y-4" : ""}`}
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ y: -10 }}
+      {/* 2. Price tiers */}
+      <section id="price-tiers" aria-labelledby="price-tiers-title" className="scroll-mt-24 bg-white py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <HomeHeading
+            id="price-tiers-title"
+            eyebrow="Spa Charges in Delhi"
+            title="Three Prices."
+            highlight="That's It."
+            text="The price depends on two things only: how long your session is, and where it happens. The massage you pick doesn't change it."
+          />
+          <div className="grid gap-6 md:grid-cols-3 md:items-stretch">
+            {tiers.map(({ icon: Icon, title, label, time, description, features, popular }) => (
+              <div
+                key={title}
+                className={`relative flex flex-col rounded-3xl p-8 transition-transform duration-300 hover:-translate-y-1 ${
+                  popular
+                    ? "bg-dark text-white shadow-[0_25px_60px_rgba(43,24,16,0.35)] md:-my-4 md:py-12"
+                    : "bg-amber-50 ring-1 ring-amber-100"
+                }`}
               >
-                {/* Featured badge */}
-                {plan.highlight && (
-                  <div className="absolute top-6 right-6 bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-1 rounded-full text-sm font-bold z-20 rotate-12 shadow-lg">
-                    MOST POPULAR
-                  </div>
+                {popular && (
+                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-secondary px-4 py-1 text-[11px] font-bold uppercase tracking-wider text-dark">
+                    Most Popular
+                  </span>
                 )}
-
-                <div className={`h-full flex flex-col border ${plan.highlight ? "border-amber-500 shadow-xl" : "border-amber-100 shadow-lg"} rounded-3xl overflow-hidden bg-white`}>
-                  <div className={`p-8 pb-6 ${plan.highlight ? "bg-gradient-to-r from-amber-600 to-amber-700" : "bg-amber-800"}`}>
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="text-3xl">
-                        {plan.icon}
-                      </div>
-                      <h3 className={`text-2xl font-bold font-serif ${plan.highlight ? "text-white" : "text-amber-100"}`}>
-                        {plan.title}
-                      </h3>
-                    </div>
-                    <p className={`text-lg ${plan.highlight ? "text-amber-100" : "text-amber-200"}`}>
-                      {plan.description}
-                    </p>
-                  </div>
-
-                  <div className="p-8 pt-12 pb-10 -mt-6 relative">
-                    {/* Price circle */}
-                    <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-20 h-20 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 flex items-center justify-center shadow-lg">
-                      <span className="text-white text-xl font-bold">
-                        {plan.price}
-                      </span>
-                    </div>
-
-                    <ul className="space-y-4 mb-8">
-                      {plan.features.map((feature, i) => (
-                        <li key={i} className="flex items-start gap-3">
-                          <FaCheckCircle className="text-amber-500 mt-1 flex-shrink-0" />
-                          <span className="text-amber-800">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-
-                    <a
-                      href={plan.ctaLink}
-                      className={`mt-auto block text-center py-3 px-6 rounded-full font-bold transition-all duration-300 ${plan.highlight
-                          ? "bg-gradient-to-r from-amber-500 to-amber-600 text-white hover:shadow-xl hover:from-amber-600 hover:to-amber-700"
-                          : "bg-amber-100 text-amber-800 hover:bg-amber-200"
-                        }`}
-                    >
-                      Book Now
-                    </a>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Additional information */}
-          {/* <motion.div 
-                    className="mt-16 bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-200 rounded-2xl p-6 md:p-8 text-center"
-                    initial={false}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                  >
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-                      <div className="bg-amber-200 w-16 h-16 rounded-full flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 1 1 -18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <h3 className="text-xl font-bold text-amber-900 mb-2">Flexible Booking Options</h3>
-                        <p className="text-amber-800 max-w-2xl">
-                          All packages include free rescheduling up to 24 hours before your appointment. 
-                          <span className="font-semibold"> Group discounts available for 3+ bookings!</span>
-                        </p>
-                      </div>
-                    </div>
-                  </motion.div> */}
-        </div>
-      </section>
-      {/* End Pricing Section */}
-      {/* content */}
-      <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
-        {/* Decorative elements */}
-        <div className="absolute top-10 left-10 opacity-10">
-          <svg width="100" height="100" viewBox="0 0 100 100">
-            <path d="M50,15 C65,15 80,25 85,40 C90,55 85,70 70,85 C55,90 40,85 25,70 C15,55 15,40 25,25 C30,20 40,15 50,15 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
-          </svg>
-        </div>
-
-        <div className="absolute bottom-20 right-10 opacity-10 rotate-45">
-          <svg width="80" height="80" viewBox="0 0 80 80">
-            <path d="M40,10 C50,10 60,15 65,25 C70,35 65,45 55,55 C45,60 35,65 25,55 C15,45 15,35 25,25 C30,20 35,15 40,10 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
-          </svg>
-        </div>
-
-        <div className="max-w-[95%] mx-auto">
-          {/* Section header */}
-          <div className="text-center mb-10 md:mb-12">
-            <motion.div
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-              initial={false}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
-            >
-              <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-              <span className="text-amber-700 font-medium tracking-wider">PREMIUM EXPERIENCE</span>
-            </motion.div>
-
-            <motion.h2
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-            >
-              Spa Price in Delhi – First Visit Only ₹1999 | <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Top Spa in Delhi with Price & Offers.</span>
-            </motion.h2>
-            <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
-          </div>
-
-
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-            {/* Left Image & Content */}
-
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7 }}
-              className="w-full lg:w-1/2 relative"
-            >
-              <div className="relative overflow-hidden rounded-2xl shadow-xl z-10">
-                <div className="bg-gradient-to-br from-stone-50 to-amber-50 p-1 rounded-2xl">
-                  <div className="bg-white p-6 rounded-2xl shadow-sm">
-                    <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-                      <img
-                        src="/images/spapic.jpg" // Change path accordingly
-                        alt="Premium Body Spa"
-                        className="w-full h-full object-cover rounded-xl"
-                      />
-                      <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full" />
-                      <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
-                        Most Popular
-                      </div>
-                    </div>
-
-                    <div className="mt-6">
-                      <div className="flex justify-between items-start">
-                        <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
-                        <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
-                          <span className="font-bold">₹1999</span> First Visit
-                        </div>
-                      </div>
-
-                      <ul className="mt-4 space-y-2">
-                        <li className="flex items-center">
-                          <span className="text-amber-600 mr-2">✓</span>
-                          <span className="text-stone-700">Couple Massage</span>
-                        </li>
-                        <li className="flex items-center">
-                          <span className="text-amber-600 mr-2">✓</span>
-                          <span className="text-stone-700">Jacuzzi Bath</span>
-                        </li>
-                        <li className="flex items-center">
-                          <span className="text-amber-600 mr-2">✓</span>
-                          <span className="text-stone-700">Private Room</span>
-                        </li>
-                        <li className="flex items-center">
-                          <span className="text-amber-600 mr-2">✓</span>
-                          <span className="text-stone-700">Oil & Cream Massage</span>
-                        </li>
-                        <li className="flex items-center">
-                          <span className="text-amber-600 mr-2">✓</span>
-                          <span className="text-stone-700">Aromatherapy</span>
-                        </li>
-                      </ul>
-                      <a href='https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.'>
-                        <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                          Book Now
-                        </button>
-                      </a>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Decorative elements */}
-              <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-amber-100 rounded-full z-0"></div>
-              <div className="absolute -top-6 -right-6 w-16 h-16 bg-stone-200 rounded-full z-0"></div>
-            </motion.div>
-
-            {/* Right Text Content */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7 }}
-              className="w-full lg:w-1/2"
-            >
-              <div className="max-w-lg">
-                <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                  Looking for the best spa price in Delhi? Your search ends here. First-time guests pay just ₹1,999 for any 60-minute therapy — Swedish, aromatherapy, deep tissue, or Thai — with no hidden costs. The price already includes a steam shower, fresh towels, herbal tea, and a complimentary head massage. Our CIDESCO-trained therapists work in freshly sanitized rooms with clean linen for every client, and couples can book together at the same ₹1,999 rate each. We're located in a safe South Delhi spot, a five-minute walk from the metro with free parking, and open daily from 11 am to 10 pm (last booking 9 pm). Reserve by call or WhatsApp — we confirm within minutes.
-                  {/* <span className="font-medium text-stone-800">hot stone massage</span>, 
-                      <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                      and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                      designed private sanctuaries. */}
+                <span className={`flex size-12 items-center justify-center rounded-xl ${popular ? "bg-white/10 text-secondary" : "bg-white text-primary"}`}>
+                  <Icon className="size-6" />
+                </span>
+                <h3 className={`mt-5 font-title text-2xl font-bold ${popular ? "text-white" : "text-amber-900"}`}>{title}</h3>
+                <p className={`mt-1 text-sm ${popular ? "text-white/70" : "text-bodycolor"}`}>{description}</p>
+                <p className="mt-6 flex items-end gap-2">
+                  <span className={`font-title text-4xl font-bold ${popular ? "text-secondary" : "text-primary"}`}>{label}</span>
+                  <span className={`pb-1 text-sm ${popular ? "text-white/60" : "text-bodycolor"}`}>/ {time}</span>
                 </p>
-
-
-
-                {/* <p className="text-stone-600 mb-6 leading-relaxed">
-                      We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                      <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                      and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                      designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                      Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                      of calm in the heart of Delhi.
-                    </p> */}
-
-                <div className="grid grid-cols-2 gap-4 mb-8">
-                  <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                    <div className="text-amber-600 text-2xl mb-2">★</div>
-                    <h4 className="font-medium text-stone-800">starting At 1999</h4>
-                    <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                    <div className="text-amber-600 text-2xl mb-2">🙎🏼‍♀️</div>
-                    <h4 className="font-medium text-stone-800">International Therapist</h4>
-                    <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                    <div className="text-amber-600 text-2xl mb-2">👩🏻‍❤️‍💋‍👨🏼</div>
-                    <h4 className="font-medium text-stone-800">Couples Welcome</h4>
-                    <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                    <div className="text-amber-600 text-2xl mb-2">🌿</div>
-                    <h4 className="font-medium text-stone-800">Organic Products</h4>
-                    <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
-                  </div>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <a href='/massage-in-delhi'>
-                    <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                      View Treatments
-                    </button>
-                  </a>
-                  <a href='https://wa.me/918799716197?text=Hi!%20How%20can%20I%20book%20an%20appointment%20at%20your%205-star%20hotel%20spa%20outlets%3A%20The%20Suryaa%20(NFC)%2C%20The%20Park%20(CP)%20or%20Novotel%20(Aerocity)%3F%20Please%20send%20me%20today%27s%20offer.'>
-                    <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                      Book Appointment
-                    </button>
-                  </a>
-
-                </div>
-
+                <ul className="mt-6 flex-1 space-y-3">
+                  {features.map((f) => (
+                    <li key={f} className="flex items-center gap-3 text-sm">
+                      <Check className={`size-4 shrink-0 ${popular ? "text-secondary" : "text-primary"}`} strokeWidth={3} />
+                      <span className={popular ? "text-white/90" : "text-amber-900"}>{f}</span>
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`mt-8 inline-flex items-center justify-center gap-2 rounded-full py-3.5 text-sm font-semibold transition-colors duration-300 ${
+                    popular ? "bg-secondary text-dark hover:bg-white" : "bg-white text-primary ring-1 ring-amber-200 hover:bg-primary hover:text-white"
+                  }`}
+                >
+                  <FaWhatsapp className="size-4" /> Book Now
+                </a>
               </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-      {/* end content */}
-
-      {/* //// */}
-      <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <div className="text-center mb-10 md:mb-12">
-            <motion.div
-              className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <FaStar className="text-amber-500" />
-              Affordable Luxury
-            </motion.div>
-            <motion.h2
-              className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-            >
-              What's Included in <span className="text-amber-600">Every Session</span>
-            </motion.h2>
-            <motion.p
-              className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-            >
-              Thai, Couple & Full Body Massage in Delhi Price List with Free Steam
-            </motion.p>
-            <motion.div
-              className="flex justify-center mt-10"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-            >
-              <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-            </motion.div>
-          </div>
-          {/* Heading */}
-
-
-          {/* Features Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-
-            <div className="flex flex-col items-center text-center bg-amber-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition">
-              <Flower2 className="w-12 h-12 text-amber-600 mb-3" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Aroma Therapy</h3>
-              <p className="text-gray-900">
-                Warm lavender and lemongrass oils ease tension and lift your mood. A 60-minute aromatherapy session is ₹1,999 on your first visit, with a complimentary steam included.
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center text-center bg-amber-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition">
-              <Bath className="w-12 h-12 text-amber-600 mb-3" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Luxury Spa Bath</h3>
-              <p className="text-gray-900">
-                A deep soaking tub with warm water, rose petals, and a jet spray for your back — plus a complimentary head massage. First-time guests pay just ₹1,999.
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center text-center bg-amber-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition">
-              <HeartHandshake className="w-12 h-12 text-amber-600 mb-3" />
-              <h3 className="text-xl font-semibold text-amber-900 mb-2">Healing Massage</h3>
-              <p className="text-gray-900">
-                Firm, focused pressure releases muscle knots and improves circulation. A 60-minute healing massage is ₹1,999, with a 90-minute upgrade available for just ₹499 more.
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
-      {/* //// */}
-
-      {/* /////? */}
-      <section className="relative bg-white py-16 px-6 md:px-16">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
-          {/* Left Side Content */}
-          <motion.div
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="space-y-6"
-          >
-            <h2 className="text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">
-              Thai, Couple &amp; Full Body Massage <span className="text-amber-600">— Priced Simply</span>
-            </h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Confused about spa pricing in Delhi? We keep it simple with a clear price card and no hidden charges. Thai massage is a flat ₹1,999 for a full 60-minute session, with therapists using knees, elbows, and gentle stretches to release tension from your back. A couples spa session is just ₹3,998 for two people in the same private room, with soft music and a relaxing ambience — perfect for an anniversary treat. Every first-visit option — Swedish, aromatherapy, or deep tissue — is priced the same at ₹1,999, so you can pick based on what you need rather than your budget. Want more time? A 90-minute full body massage upgrade is just ₹499 extra, still one of the most affordable in the city. We're open 11 am to 10 pm, five minutes from the metro with free parking. Book on WhatsApp and pay after your session.
-            </p>
-            {/* <p className="text-gray-600 text-lg leading-relaxed">
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
-            
-          </p> */}
-            {/* <p className="text-gray-600 text-lg leading-relaxed">
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
-            
-          </p> */}
-
-            {/* Highlights */}
-            {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
-  <div className="flex flex-col items-center text-center bg-pink-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
-    <Flower2 className="w-10 h-10 text-amber-600 mb-2" />
-    <p className="font-semibold text-gray-800">Relaxing Aroma</p>
-  </div>
-
-  <div className="flex flex-col items-center text-center bg-pink-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
-    <Bath className="w-10 h-10 text-amber-600 mb-2" />
-    <p className="font-semibold text-gray-800">Luxury Spa</p>
-  </div>
-
-  <div className="flex flex-col items-center text-center bg-pink-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
-    <HeartHandshake className="w-10 h-10 text-amber-600 mb-2" />
-    <p className="font-semibold text-gray-800">Healing Touch</p>
-  </div>
-</div> */}
-          </motion.div>
-
-          {/* Right Side Image */}
-          <motion.div
-            initial={false}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
-            <div className="rounded-3xl overflow-hidden shadow-2xl">
-              <Image
-                src="/images/luxurySpaRoom.jpg"
-                alt="Spa Pricing in Delhi - Private Treatment Room"
-                width={600}
-                height={600}
-                className="object-cover rounded-3xl"
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-6 bg-amber-600 text-white px-6 py-3 rounded-2xl shadow-lg font-semibold">
-              ₹1,999 First Visit
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Our Process */}
-      <section className="w-full py-10 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Section Header */}
-          <motion.div
-            className="text-center mb-10 md:mb-12"
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8 }}
-          >
-            <motion.div
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-              initial={false}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
-            >
-              <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-              <span className="text-amber-700 font-medium tracking-wider">Process</span>
-            </motion.div>
-
-            <motion.h2
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-            >
-              We Offer Luxurious <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Treatments at Great Rates</span>
-            </motion.h2>
-
-            {/* <motion.p
-            className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.5 }}
-          >
-            Located in premium 5-star properties across Delhi – enjoy serenity, comfort, and personalized spa experiences at every outlet.
-          </motion.p> */}
-
-            <motion.div
-              className="flex justify-center mt-10"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-            >
-              <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
-            </motion.div>
-          </motion.div>
-
-          {/* Process Steps */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {processSteps.map((step, index) => (
-              <motion.div
-                key={index}
-                className="relative bg-white shadow-lg rounded-2xl px-6 pt-24 pb-10 text-center hover:shadow-xl transition-shadow duration-300"
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-              >
-                {/* Step Number */}
-                <div className="absolute top-4 left-4 text-3xl font-bold text-amber-300 opacity-30 z-0">
-                  {step.number}
-                </div>
-
-                {/* Image */}
-                <div className="relative w-44 h-44 mx-auto mb-8 rounded-full overflow-hidden shadow-xl border-4 border-gradient-to-tr from-rose-200 via-amber-100 to-rose-100 transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                  <Image
-                    src={step.image}
-                    alt={step.title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-full"
-                  />
-                </div>
-
-
-                {/* Title */}
-                <h4 className="text-2xl font-semibold text-amber-800 mb-4 font-serif">
-                  {step.title}
-                </h4>
-
-                {/* Description */}
-                <p className="text-gray-600 leading-relaxed text-base">{step.description}</p>
-              </motion.div>
             ))}
           </div>
         </div>
       </section>
-      {/* End Our Process */}
-      {/* About Us Section */}
-      <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
-          <motion.div
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="space-y-6"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-amber-900 font-serif">
-              Full Body Massage in Delhi — Straightforward Pricing
-            </h2>
-            <p className="text-gray-700 text-lg">
-              We keep our pricing simple, with the full rate posted at the door and no hidden charges or pressure to tip. Your first visit gets you a full 60-minute session — Swedish, aromatherapy, deep tissue, or Thai — for ₹1,999, along with a free steam shower, fresh towels, and lemon-honey water. Couples can book together for ₹3,998, in the same private room with soft music and rose petals on request. Want a longer session? A 90-minute upgrade is just ₹499 more. We're open 11 am to 10 pm, a five-minute walk from the metro, with free parking on-site. Reach out on WhatsApp, get your slot confirmed within minutes, and pay after your session.
-            </p>
 
-            {/* <p className="text-gray-700 text-lg">
-                    Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
-                     From full-body massages to specialized therapies, each session is designed to relax the mind, soothe the body, and uplift the spirit.
-                     Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
-                  </p> */}
-          </motion.div>
+      {/* 3. Price list by massage */}
+      <section id="price-list" aria-labelledby="price-list-title" className="scroll-mt-24 bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <HomeHeading
+            id="price-list-title"
+            eyebrow="Massage Rates in Delhi"
+            title="Delhi Spa Price List"
+            highlight="by Massage"
+            text="Every massage on our menu costs the same. What changes the price is how long you book and where. Tap 'Ask Price' and WhatsApp opens with your massage already typed in."
+          />
 
-          <motion.div
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="grid grid-cols-2 gap-4"
-          >
-            <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/new5.jpeg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
-            </div>
-            <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/spa-treatments.jpg" alt="Massage Session" className="w-full h-full object-cover" />
-            </div>
-          </motion.div>
-        </div>
-      </section>
-      {/* outlate */}
-      <section className="py-10 px-4 sm:px-6 lg:px-16 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          {/* Section Title */}
-          <div className="text-center mb-10 md:mb-12">
-            <motion.h2
-              className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              Best Spa in Delhi — <span className="text-amber-600">By the Numbers</span>
-            </motion.h2>
-            <motion.p
-              className="text-gray-600 max-w-2xl mx-auto text-lg"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              viewport={{ once: true }}
-            >
-              Compare pricing across our Aerocity, New Friends Colony, Connaught Place &amp; Vasant Kunj outlets.
-            </motion.p>
+          {/* The three rates, shown once instead of repeating them on every card */}
+          <div className="mx-auto mb-10 max-w-3xl rounded-2xl bg-white p-4 ring-1 ring-amber-100 shadow-[0_6px_20px_rgba(43,24,16,0.05)]">
+            <p className="text-center text-xs font-semibold uppercase tracking-[0.15em] text-amber-700">Same price for any massage</p>
+            <dl className="mt-3 grid grid-cols-3 gap-2">
+              {tiers.map((t) => (
+                <div key={t.title} className="rounded-xl bg-amber-50 px-2 py-3 text-center ring-1 ring-amber-200">
+                  <dt className="text-[11px] sm:text-xs text-bodycolor">{t.title} · {t.time}</dt>
+                  <dd className="font-title text-lg sm:text-2xl font-bold text-primary">{t.label}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
 
-          {/* Grid Layout - 2 per row */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-            {outlets.map((outlet, index) => (
-              <motion.div
-                key={index}
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="bg-white rounded-3xl shadow-xl overflow-hidden group"
+          <ul className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
+            {priceList.map((m) => (
+              <li
+                key={m.name}
+                className={`relative flex flex-col rounded-2xl sm:rounded-3xl p-4 sm:p-6 transition-all duration-300 hover:-translate-y-1 ${
+                  m.onRequest
+                    ? "bg-dark text-white shadow-[0_20px_45px_rgba(43,24,16,0.3)]"
+                    : "bg-white ring-1 ring-amber-100 shadow-[0_8px_24px_rgba(43,24,16,0.06)] hover:shadow-[0_20px_45px_rgba(43,24,16,0.12)] hover:ring-amber-300"
+                }`}
               >
-                <div className="relative">
-                  <Image
-                    src={outlet.image}
-                    alt={outlet.title}
-                    width={600}
-                    height={400}
-                    className="w-full h-[300px] object-cover transform group-hover:scale-105 transition duration-500"
-                  />
-                  {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent z-10"></div> */}
+                {m.tag && (
+                  <span className="absolute right-3 top-3 sm:right-4 sm:top-4 rounded-full bg-secondary px-2 sm:px-2.5 py-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-dark">
+                    {m.tag}
+                  </span>
+                )}
+                <span className={`flex size-10 sm:size-12 items-center justify-center rounded-xl sm:rounded-2xl text-xl sm:text-2xl ${m.onRequest ? "bg-white/10" : "bg-amber-50"}`} aria-hidden="true">
+                  {m.emoji}
+                </span>
+                <h3 className={`mt-3 sm:mt-4 font-title text-base sm:text-xl font-bold leading-snug ${m.onRequest ? "text-white" : "text-amber-900"}`}>{m.name}</h3>
+                <p className={`mt-1 flex-1 text-xs sm:text-sm ${m.onRequest ? "text-white/75" : "text-bodycolor"}`}>{m.note}</p>
+
+                <div className="mt-4 sm:mt-5">
+                  {m.onRequest ? (
+                    <p className="font-title text-lg sm:text-2xl font-bold leading-tight text-secondary">Price on request</p>
+                  ) : (
+                    <p className="flex items-baseline gap-1.5">
+                      <span className="text-xs text-bodycolor">From</span>
+                      <span className="font-title text-2xl sm:text-3xl font-bold text-primary">{PRICES.outlet.label}</span>
+                    </p>
+                  )}
+                  <ul className="mt-3 hidden flex-wrap gap-1.5 sm:flex" aria-label="Session lengths">
+                    {durations.map((d) => (
+                      <li
+                        key={d.time}
+                        className={`rounded-full px-2.5 py-1 text-[11px] font-semibold ${
+                          m.onRequest ? "bg-white/10 text-white/80" : "bg-amber-50 text-amber-800 ring-1 ring-amber-200"
+                        }`}
+                      >
+                        {d.time}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
-                <div className="p-6 text-center">
-                  <h3 className="text-2xl font-bold text-amber-900 mb-2 font-serif">
-                    {outlet.title}
-                  </h3>
-                  <p className="text-gray-700 text-base mb-4">
-                    {outlet.description}
-                  </p>
+                <div className="mt-4 sm:mt-6 grid gap-2">
                   <a
-                    href="https://t.me/+yulqEcJa2dxhM2I9"
+                    href={askPriceUrl(m.name)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-amber-600 to-amber-800 hover:from-amber-700 hover:to-amber-900 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                    className="inline-flex items-center justify-center gap-1.5 sm:gap-2 rounded-full bg-[#15803d] px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm font-semibold text-white transition-colors hover:bg-[#166534]"
                   >
-                    <FaTelegram className="text-xl mr-3" />
-                    Chat On Telegram
+                    <FaWhatsapp className="size-4" /> Ask Price<span className="sr-only"> for {m.name} on WhatsApp</span>
                   </a>
-                  {outlet.pageLink && (
-                    <Link href={outlet.pageLink} className="block mt-3 text-sm font-semibold text-amber-700 hover:underline">
-                      View full {outlet.title} outlet details →
-                    </Link>
-                  )}
+                  <a
+                    href={m.href}
+                    className={`inline-flex items-center justify-center gap-1.5 rounded-full px-3 sm:px-4 py-2 sm:py-2.5 text-xs sm:text-sm font-semibold transition-colors ${
+                      m.onRequest ? "text-white/90 ring-1 ring-white/30 hover:bg-white/10" : "text-primary ring-1 ring-amber-200 hover:bg-amber-50"
+                    }`}
+                  >
+                    Details<span className="sr-only"> about {m.name}</span> <ArrowRight className="size-4" />
+                  </a>
                 </div>
-              </motion.div>
+              </li>
             ))}
+          </ul>
+
+          <p className="mt-8 text-center text-sm text-bodycolor">
+            Want to compare the massages first? See <a href="/massage-in-delhi" className={linkClass}>all our massage services in Delhi</a>.
+          </p>
+        </div>
+      </section>
+
+      {/* 4. What's included */}
+      <section id="included" aria-labelledby="included-title" className="scroll-mt-24 bg-white py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <HomeHeading
+            id="included-title"
+            eyebrow="What You Pay For"
+            title="What's Included in"
+            highlight="the Price"
+            text="When you compare spa charges in Delhi, check what each price actually covers. Here's what ours does."
+          />
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {included.map(({ icon: Icon, title, text }) => (
+              <div key={title} className="rounded-3xl bg-amber-50 p-7 ring-1 ring-amber-100">
+                <span className="flex size-12 items-center justify-center rounded-2xl bg-white text-primary shadow-sm">
+                  <Icon className="size-6" />
+                </span>
+                <h3 className="mt-5 font-title text-lg font-bold text-amber-900">{title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-bodycolor">{text}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 rounded-3xl bg-dark p-7 md:p-10 text-white">
+            <p className="font-title text-2xl font-bold">And what you won&apos;t find on your bill</p>
+            <ul className="mt-5 grid gap-3 md:grid-cols-3">
+              {notIncluded.map((n) => (
+                <li key={n} className="flex items-start gap-3 text-sm text-white/85">
+                  <X className="mt-0.5 size-4 shrink-0 text-secondary" strokeWidth={3} /> {n}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
-      {/* End outlate */}
-      {/* Our Therapy Experts */}
-      <section className="py-16 px-4 bg-gradient-to-br from-[#fffaf5] via-[#fcf5e9] to-[#f9f1e2]">
-        <div className="max-w-7xl mx-auto">
 
-          <div className="text-center mb-10 md:mb-12">
-            <motion.p
-              className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              Experts Therapy
-            </motion.p>
+      {/* 5. Prices by area */}
+      <section id="area-prices" aria-labelledby="area-prices-title" className="scroll-mt-24 bg-cream py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <HomeHeading
+            id="area-prices-title"
+            eyebrow="Same Rates Everywhere"
+            title="Spa Prices"
+            highlight="by Area"
+            text="Searching for a spa in Mahipalpur with price, or a spa in Uttam Nagar with price? You don't need to compare outlets. The rate is the same wherever you go."
+          />
 
-            <motion.h2
-              className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              International<span className="text-amber-600"> Therapists at affordable Price</span>
-            </motion.h2>
-
-            <motion.p
-              className="text-gray-600 max-w-2xl mx-auto text-lg"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              viewport={{ once: true }}
-            >
-              Meet our certified spa professionals dedicated to your relaxation and rejuvenation.
-            </motion.p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, idx) => (
-              <motion.div
-                key={idx}
-                whileHover={{ scale: 1.05 }}
-                className="bg-white rounded-2xl shadow-md overflow-hidden text-center relative group"
+          {/* One price statement instead of repeating it on every area */}
+          <div className="relative mb-10 overflow-hidden rounded-3xl bg-dark p-6 md:p-8 text-white shadow-[0_20px_50px_rgba(43,24,16,0.25)]">
+            <div className="grid items-center gap-6 md:grid-cols-[auto_1fr_auto]">
+              <div className="text-center md:text-left">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-secondary">At every outlet</p>
+                <p className="mt-1 font-title text-5xl font-bold text-white">{PRICES.outlet.label}</p>
+                <p className="text-sm text-white/70">for {PRICES.outlet.time}</p>
+              </div>
+              <ul className="grid gap-2 text-sm text-white/85 sm:grid-cols-3 md:border-l md:border-white/15 md:pl-8">
+                {["No area surcharge", "Same quality everywhere", "Price confirmed first"].map((t) => (
+                  <li key={t} className="flex items-center gap-2">
+                    <Check className="size-4 shrink-0 text-secondary" strokeWidth={3} /> {t}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={nearestOutletUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-secondary px-6 py-3 text-sm font-semibold text-dark transition-colors hover:bg-white"
               >
-                <div className="relative h-96 overflow-hidden">
-                  <Image
-                    loading="lazy"
-                    src={member.image}
-                    alt={member.name}
-                    width={400}
-                    height={400}
-                    className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-4">
-                    <h3 className="text-white text-xl font-semibold">
-                      {member.name}
-                    </h3>
-                    <p className="text-yellow-300">{member.designation}</p>
-                  </div>
-                </div>
-                <div className="flex justify-center gap-4 mt-4 pb-4">
-                  <a href={member.socials.WhatsApp} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaWhatsapp /></a>
-                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
-                  {/* <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a> */}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* End Our Therapy Experts */}
-      {/* F&Q Section */}
-      <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-        <div className="max-w-5xl mx-auto px-4">
-          <motion.div
-            initial={false}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-14"
-          >
-            <motion.div
-              className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-amber-100 rounded-full text-amber-800 font-medium"
-              initial={false}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <FaStar className="text-amber-500" />
-              Questions? We’re here to help
-            </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
-              Frequently Asked <span className="text-amber-600">Questions</span>
-            </h2>
-            <p className="text-amber-800 max-w-2xl mx-auto text-lg">
-              Everything you need to know about our luxurious spa services and how to book them.
-            </p>
-            <div className="flex justify-center mt-6">
-              <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-full"></div>
+                <FaWhatsapp className="size-4" /> Find My Nearest Outlet
+              </a>
             </div>
-          </motion.div>
-
-          {/* FAQ Accordion */}
-          <div className="space-y-5">
-            {faqs.map((faq, index) => (
-              <motion.div
-                key={index}
-                initial={false}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-white rounded-2xl shadow-lg overflow-hidden border border-amber-100"
-              >
-                <button
-                  onClick={() => toggleFAQ(index)}
-                  className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
-                >
-                  <div className="flex items-start space-x-4">
-                    <div className="mt-1 p-2 bg-amber-50 rounded-lg">
-                      {faq.icon}
-                    </div>
-                    <h3 className="text-lg md:text-xl font-medium text-amber-900 group-hover:text-amber-700 transition-colors">
-                      {faq.question}
-                    </h3>
-                  </div>
-                  <div className="ml-4 flex-shrink-0">
-                    <svg
-                      className={`w-6 h-6 text-amber-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </div>
-                </button>
-
-                <AnimatePresence>
-                  {activeIndex === index && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: 'auto', opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3 }}
-                      className="overflow-hidden"
-                    >
-                      <div className="px-6 pb-6 pt-2 border-t border-amber-50">
-                        <p className="text-amber-700">
-                          {faq.answer}
-                        </p>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </motion.div>
-            ))}
           </div>
 
-          {/* CTA Box */}
-          {/* <motion.div
-                                initial={false}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6, delay: 0.4 }}
-                                viewport={{ once: true }}
-                                className="mt-14 bg-gradient-to-r from-amber-500 to-amber-600 rounded-2xl p-8 text-center text-white shadow-xl"
-                              >
-                                <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
-                                <p className="mb-5 max-w-2xl mx-auto">
-                                  Our wellness team is here to assist you. Reach out and we’ll help you find the perfect treatment.
-                                </p>
-                                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                                  <button className="px-6 py-3 bg-white text-amber-700 font-medium rounded-full shadow-md hover:bg-amber-100 transition-colors">
-                                    Contact Us
-                                  </button>
-                                  <button className="px-6 py-3 bg-amber-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
-                                    Book Appointment
-                                  </button>
-                                </div>
-                              </motion.div> */}
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {areaZones.map((z) => (
+              <div key={z.zone} className="rounded-3xl bg-white p-6 ring-1 ring-amber-100 shadow-[0_6px_20px_rgba(43,24,16,0.05)]">
+                <h3 className="flex items-center gap-2.5 font-title text-lg font-bold text-amber-900">
+                  <span className="flex size-9 items-center justify-center rounded-xl bg-amber-50 text-lg" aria-hidden="true">{z.emoji}</span>
+                  {z.zone}
+                </h3>
+                <ul className="mt-4 divide-y divide-amber-100">
+                  {z.areas.map((a) => (
+                    <li key={a.href}>
+                      <a href={a.href} className="group flex items-center gap-3 py-3">
+                        <MapPin className="size-4 shrink-0 text-primary" />
+                        <span className="flex-1">
+                          <span className="block font-semibold text-amber-900 group-hover:text-primary">Spa in {a.area}</span>
+                          {a.note && <span className="text-xs text-bodycolor">{a.note}</span>}
+                        </span>
+                        <ArrowRight className="size-4 text-primary opacity-60 transition-all group-hover:translate-x-1 group-hover:opacity-100" />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-sm text-bodycolor">
+            Don&apos;t see your area? <a href="/outlets" className={linkClass}>See all 24+ outlets</a>, or tap &quot;Find My Nearest Outlet&quot; above.
+          </p>
         </div>
       </section>
+
+      {/* 6. How to get your exact price */}
+      <section id="get-price" aria-labelledby="get-price-title" className="scroll-mt-24 bg-white py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-5xl mx-auto">
+          <HomeHeading
+            id="get-price-title"
+            eyebrow="Couple, Longer or Custom Sessions"
+            title="Get Your Exact Price"
+            highlight="in a Few Minutes"
+            text="For couple massages, longer outlet sessions or anything a bit different, we'll quote you on WhatsApp. It's quick."
+          />
+          <ol className="grid gap-5 md:grid-cols-3">
+            {getPriceSteps.map((s, i) => (
+              <li key={s.title} className="relative rounded-3xl bg-amber-50 p-7 ring-1 ring-amber-100">
+                <span className="flex size-10 items-center justify-center rounded-full bg-primary font-title text-lg font-bold text-white">{i + 1}</span>
+                <h3 className="mt-5 font-title text-xl font-bold text-amber-900">{s.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-bodycolor">{s.text}</p>
+              </li>
+            ))}
+          </ol>
+          <div className="mt-10 text-center">
+            <WhatsAppButton>Ask for My Price</WhatsAppButton>
+            <p className="mt-4 flex items-center justify-center gap-2 text-xs text-bodycolor">
+              <Clock className="size-4" /> We take booking messages 24 hours a day
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 7. FAQ */}
+      <section id="faq" aria-labelledby="price-faq-title" className="scroll-mt-24 bg-[#fffaf5] py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-4xl mx-auto">
+          <HomeHeading
+            id="price-faq-title"
+            eyebrow="Questions About Price?"
+            title="Spa Price in Delhi"
+            highlight="FAQs"
+          />
+          <div className="space-y-4">
+            {faqs.map((faq, i) => (
+              <details
+                key={faq.question}
+                open={i === 0}
+                className="group rounded-2xl bg-white ring-1 ring-amber-100 transition-shadow open:shadow-[0_10px_30px_rgba(43,24,16,0.08)]"
+              >
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 p-5 md:p-6 [&::-webkit-details-marker]:hidden">
+                  <span className="flex items-center gap-4">
+                    <span className="font-title text-lg font-bold text-amber-700">{String(i + 1).padStart(2, "0")}</span>
+                    <h3 className="font-sans text-base font-semibold text-amber-900">{faq.question}</h3>
+                  </span>
+                  <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-amber-50 text-primary ring-1 ring-amber-200 transition-transform duration-300 group-open:rotate-45 group-open:bg-primary group-open:text-white">
+                    <Plus className="size-4" />
+                  </span>
+                </summary>
+                <p className="px-5 pb-6 pl-[3.75rem] text-sm leading-relaxed text-bodycolor md:px-6 md:pl-[4.25rem]">{faq.answer}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Where next */}
+      <nav aria-labelledby="next-title" className="bg-white py-16 md:py-20 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto">
+          <HomeHeading
+            id="next-title"
+            eyebrow="Keep Exploring"
+            title="Where to"
+            highlight="Next?"
+            text="Know the price, now pick your massage or your nearest outlet."
+          />
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {nextLinks.map((l, i) => (
+              <li key={l.href}>
+                <a
+                  href={l.href}
+                  className="group flex h-full items-center gap-4 rounded-2xl bg-amber-50 p-5 ring-1 ring-amber-100 transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:ring-amber-300"
+                >
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white text-primary shadow-sm transition-colors group-hover:bg-primary group-hover:text-white">
+                    {i === 0 ? <ArrowLeft className="size-5" /> : <ArrowRight className="size-5" />}
+                  </span>
+                  <span>
+                    <span className="block font-title text-lg font-bold text-amber-900">{l.label}</span>
+                    <span className="text-xs text-bodycolor">{l.text}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </nav>
+
+      {/* 9. Final CTA */}
+      <section aria-labelledby="price-cta-title" className="relative overflow-hidden bg-dark py-16 md:py-20 px-4 md:px-8">
+        <div className="relative max-w-3xl mx-auto text-center">
+          <HomeHeading
+            light
+            id="price-cta-title"
+            eyebrow="Book Today"
+            title="Happy With the Price?"
+            highlight="Let's Book It"
+            text="Message us the massage, a time and your area. We'll confirm the therapist and the exact price on the same chat."
+            className="!mb-8"
+          />
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <WhatsAppButton className="!bg-[#15803d] hover:!bg-[#166534] !shadow-black/30">Book on WhatsApp</WhatsAppButton>
+            <a
+              href={TELEGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2.5 rounded-full bg-[#1d6fa5] px-8 py-4 text-sm font-semibold uppercase tracking-[0.08em] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#185d8a]"
+            >
+              <FaTelegramPlane className="size-5" /> Chat on Telegram
+            </a>
+            <a
+              href={PHONE_LINK}
+              className="inline-flex items-center justify-center gap-2.5 rounded-full border-2 border-white/80 px-8 py-4 text-sm font-semibold uppercase tracking-[0.08em] text-white transition-all duration-300 hover:bg-white hover:text-ink"
+            >
+              <Phone className="size-4" /> Call Now
+            </a>
+          </div>
+          <p className="mt-6 flex items-center justify-center gap-2 text-xs text-white/60">
+            <CalendarCheck className="size-4" /> No advance payment for outlet bookings
+          </p>
+        </div>
+      </section>
+
       <WhatsappFloat />
     </main>
   );

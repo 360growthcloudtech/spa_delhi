@@ -1,94 +1,156 @@
-import Fullbodypage from "./Fullbodypage";
-// src/app/full-body-massage-in-delhi/page.js
-// <-- NO "use client" here -->
+import Fullbodypage, { faqs } from "./Fullbodypage";
+
+const PAGE_URL = "https://www.luxuryrussianspa.com/full-body-massage-in-delhi";
+const IMAGE_URL = "https://www.luxuryrussianspa.com/images/full-body/hero-1024.webp";
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
-    { "@type": "Question", name: "What is a full body massage spa in Delhi?", acceptedAnswer: { "@type": "Answer", text: "A full body massage spa in Delhi is an outlet offering a complete head-to-toe massage — back, shoulders, arms, legs, and feet — performed by trained therapists in a private room." } },
-    { "@type": "Question", name: "Do you offer luxury full body massage in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, our luxury full body massage in Delhi is available at select five-star hotels across the city, with a longer session, private suite, and optional facial add-on." } },
-    { "@type": "Question", name: "What is the difference between body massage and full body massage in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Body massage is often used loosely to mean any massage service, while a full body massage in Delhi specifically covers every major muscle group — not just one targeted area." } },
-    { "@type": "Question", name: "What is the full body massage price in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Our full body massage price in Delhi starts from ₹1999 at the outlet, ₹14,999 for home spa, and ₹19,999 for luxury hotel spa, depending on duration and location." } },
-    { "@type": "Question", name: "What is the full body massage at home in Delhi price?", acceptedAnswer: { "@type": "Answer", text: "Full body massage at home in Delhi starts from ₹14,999 for a 90-minute session, with the same certified therapists and premium oils used at our outlets." } },
-    { "@type": "Question", name: "Do you offer full body massage by a female therapist in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, full body massage by a female therapist in Delhi is available at all our outlets and for home and hotel bookings — just mention your therapist preference when you book." } },
-    { "@type": "Question", name: "Can I book a full body massage at a hotel in Delhi?", acceptedAnswer: { "@type": "Answer", text: "Yes, we regularly serve guests staying at hotels across Delhi, including Roseate House, The Oberoi, and The Suryaa — just share your hotel and room details when booking." } },
-  ],
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
 };
 
-export const metadata = {
-  title: "Full Body Massage in Delhi - Affordable Luxury | Luxury Russian Spa",
-  description:
-    "Affordable full body massage in Delhi at 24+ outlets. Luxury full body massage spa options at hotels & home too. Certified therapists. Book from ₹1999 today!",
-  keywords: [
-    "full body massage in delhi",
-    "affordable full body massage in delhi",
-    "full body massage spa in delhi",
-    "luxury full body massage in delhi",
-    "body massage in delhi",
-    "full body massage near me delhi",
-    "full body spa delhi karol bagh",
-    "full body massage price in delhi",
-    "full body massage in delhi price",
-    "full body massage at home in delhi price",
-    "full body massage by a female therapist delhi",
-    "russian body spa mahipalpur",
-    "body massage mahipalpur",
-    "body massage in lajpat nagar",
-    "body massage saket",
-    "full body massage in rohini",
-    "full body massage in rohini delhi",
-  ],
-  openGraph: {
-    title: "Full Body Massage in Delhi - Affordable Luxury | Luxury Russian Spa",
-    description:
-      "Affordable full body massage in Delhi at 24+ outlets. Luxury full body massage spa options at hotels & home too. Certified therapists. Book from ₹1999 today!",
-    images: ["https://www.luxuryrussianspa.com/images/MassageSession.webp"],
-    type: "website",
-    url: "https://www.luxuryrussianspa.com/full-body-massage-in-delhi",
-  },
-  alternates: {
-    canonical: "https://www.luxuryrussianspa.com/full-body-massage-in-delhi",
-  },
-  twitter: {
-    card: "summary_large_image",
-    images: ["https://www.luxuryrussianspa.com/images/MassageSession.webp"],
-  },
-};
-
+// Mirrors the visible breadcrumb on the page (Home / Services / Full Body Massage in Delhi).
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://www.luxuryrussianspa.com/" },
-    { "@type": "ListItem", position: 2, name: "Full Body Massage in Delhi", item: "https://www.luxuryrussianspa.com/full-body-massage-in-delhi" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://www.luxuryrussianspa.com/massage-in-delhi" },
+    { "@type": "ListItem", position: 3, name: "Full Body Massage in Delhi", item: PAGE_URL },
   ],
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": `${PAGE_URL}#service`,
   serviceType: "Full Body Massage",
   name: "Full Body Massage in Delhi",
+  url: PAGE_URL,
+  image: IMAGE_URL,
+  description:
+    "Full body massage in Delhi at 24+ outlets across Delhi NCR, with home and hotel visits. Russian, Thai and Indian therapists. From ₹1999.",
   provider: {
-    "@type": "LocalBusiness",
+    "@type": "Organization",
     name: "Luxury Russian Spa",
     telephone: "+91-8799716197",
     url: "https://www.luxuryrussianspa.com/",
   },
-  areaServed: "Delhi",
+  areaServed: [
+    { "@type": "City", name: "Delhi" },
+    { "@type": "City", name: "New Delhi" },
+    { "@type": "City", name: "Gurgaon" },
+    { "@type": "City", name: "Noida" },
+  ],
+  offers: [
+    { "@type": "Offer", name: "Full body massage at outlet, 60 min", price: "1999", priceCurrency: "INR" },
+    { "@type": "Offer", name: "Full body massage at home or hotel, 90 min", price: "14999", priceCurrency: "INR" },
+    { "@type": "Offer", name: "5 star hotel spa, 120 min", price: "19999", priceCurrency: "INR" },
+  ],
+};
+
+export const metadata = {
+  title: "Full Body Massage in Delhi - Price From ₹1999 | Luxury Russian Spa",
   description:
-    "Affordable full body massage in Delhi at 24+ outlets, with luxury hotel and home spa options and certified therapists, from ₹1999.",
+    "Full body massage in Delhi at 24+ outlets or at your home. Saket, Rohini, Lajpat Nagar, Mahipalpur, Laxmi Nagar & more. See prices and book on WhatsApp.",
+  keywords: [
+    "full body massage in delhi",
+    "body massage in delhi",
+    "full body massage in delhi price",
+    "full body massage price in delhi",
+    "best full body massage in delhi",
+    "full body massage at home delhi",
+    "full body massage at home in delhi price",
+    "full body massage home service delhi",
+    "full body massage service in delhi",
+    "full body massage spa in delhi",
+    "delhi full body massage centre",
+    "full body spa delhi",
+    "full body spa price in delhi",
+    "full massage in delhi",
+    "full body massage in new delhi",
+    "full body massage in delhi ncr",
+    "full body massage in delhi contact no",
+    "full body massage in south delhi",
+    "full body massage in west delhi",
+    "full body massage in north delhi",
+    "full body massage east delhi",
+    "russian body spa mahipalpur",
+    "full body massage in mahipalpur",
+    "body massage centre in mahipalpur",
+    "full body massage near delhi airport",
+    "full body massage in saket",
+    "body massage in saket delhi",
+    "full body massage in malviya nagar",
+    "full body massage in hauz khas",
+    "body massage spa in hauz khas",
+    "full body massage in green park",
+    "full body massage in lajpat nagar",
+    "body massage in lajpat nagar",
+    "full body massage in kalkaji",
+    "full body massage in south extension",
+    "full body massage in vasant kunj",
+    "full body massage in munirka",
+    "full body massage in safdarjung enclave",
+    "full body massage in jasola",
+    "full body massage in sarita vihar",
+    "full body massage near badarpur border",
+    "full body massage in govindpuri",
+    "body massage in kailash colony",
+    "full body massage in rohini",
+    "full body massage in pitampura",
+    "full body massage in netaji subhash place delhi",
+    "full body massage in shalimar bagh",
+    "body massage in gtb nagar",
+    "full body massage in janakpuri",
+    "full body massage in rajouri garden",
+    "full body massage in tilak nagar",
+    "full body massage in uttam nagar",
+    "full body massage dwarka",
+    "full body massage in paschim vihar",
+    "full body massage punjabi bagh",
+    "full body massage in patel nagar",
+    "full body massage in palam new delhi",
+    "full body massage in laxmi nagar",
+    "full body massage in preet vihar delhi",
+    "full body massage in mayur vihar phase 1",
+    "full body massage spa in anand vihar",
+    "full body massage in shahdara delhi",
+    "full body massage in dilshad garden",
+    "full body massage in karol bagh",
+    "full body massage in paharganj",
+    "full body massage in delhi chandni chowk",
+    "full body massage near new delhi railway station",
+    "full body massage near nizamuddin railway station",
+  ],
+  alternates: {
+    canonical: PAGE_URL,
+  },
+  openGraph: {
+    title: "Full Body Massage in Delhi | 24+ Outlets & Home Service From ₹1999",
+    description:
+      "Head to toe, in a private room or at your home. Russian, Thai and Indian therapists across Delhi NCR. Price confirmed on WhatsApp before you book.",
+    url: PAGE_URL,
+    siteName: "Luxury Russian Spa",
+    images: [{ url: IMAGE_URL, width: 1024, height: 683, alt: "Full body massage in Delhi at Luxury Russian Spa" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Full Body Massage in Delhi | 24+ Outlets & Home Service From ₹1999",
+    description:
+      "Head to toe, in a private room or at your home. Russian, Thai and Indian therapists across Delhi NCR. Price confirmed on WhatsApp before you book.",
+    images: [IMAGE_URL],
+  },
 };
 
 export default function page() {
   return (
     <>
-      <script
-        id="faq-schema-full-body-massage-delhi"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
       <script
         id="breadcrumb-schema-full-body-massage-in-delhi"
         type="application/ld+json"
@@ -98,6 +160,11 @@ export default function page() {
         id="service-schema-full-body-massage-in-delhi"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        id="faq-schema-full-body-massage-delhi"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <Fullbodypage />
     </>
