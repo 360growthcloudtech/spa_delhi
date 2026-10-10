@@ -3,3 +3,12 @@ export const WHATSAPP_URL = "https://wa.me/918799716197?text=Hi!%20How%20can%20I
 export const TELEGRAM_URL = "https://t.me/+yulqEcJa2dxhM2I9";
 export const PHONE_LINK = "tel:+918799716197";
 export const PHONE_LABEL = "+91 87997 16197";
+export const CONTACT_EMAIL = "luxuryrussianspa1947@gmail.com";
+
+// Main address, same as the site footer. Used on the About and Contact pages and in their schema.
+export const MAIN_ADDRESS = {
+  streetAddress: "Novotel Lobby Level, Asset No 02, GMR Hospitality District, IGI Airport, Northern Access Rd, Aerocity",
+  addressLocality: "New Delhi",
+  addressRegion: "DL",
+  postalCode: "110037",
+};
