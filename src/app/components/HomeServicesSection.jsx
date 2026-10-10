@@ -122,16 +122,15 @@ export default function HomeServicesSection() {
                     href={WHATSAPP_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 rounded-full bg-amber-500 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-amber-600"
+                    className="inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-amber-800"
                   >
                     Book Now <FiArrowRight />
                   </a>
                   <a
                     href={service.link}
                     className="text-xs font-semibold text-amber-700 underline-offset-4 hover:underline"
-                    aria-label={`Read more about ${service.title} in Delhi`}
                   >
-                    View Details
+                    View Details<span className="sr-only"> about {service.title} in Delhi</span>
                   </a>
                 </div>
               </div>

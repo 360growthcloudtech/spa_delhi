@@ -31,7 +31,7 @@ const inputClass =
  * Builds a WhatsApp message from a few fields and shows a live preview of it. Sending opens WhatsApp
  * with the message filled in, so nothing is stored on our side and nothing gets lost.
  */
-export default function ContactComposer({ email }) {
+export default function EnquiryComposer({ email }) {
   const [form, setForm] = useState({ name: "", massage: massages[0], place: "outlet", area: "", when: "", note: "" });
   const set = (key) => (e) => setForm((f) => ({ ...f, [key]: e.target.value }));
 

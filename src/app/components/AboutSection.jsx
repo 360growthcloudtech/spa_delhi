@@ -53,7 +53,7 @@ export default function AboutSection() {
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <a
                 href="/about-us"
-                className="inline-flex items-center gap-2 rounded-full bg-amber-500 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-amber-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-amber-600"
+                className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-amber-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-amber-800"
               >
                 Learn More About Us <FiArrowRight />
               </a>

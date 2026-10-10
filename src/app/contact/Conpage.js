@@ -3,7 +3,7 @@ import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 import HomeHeading from "../components/HomeHeading";
 import WhatsappFloat from "../components/WhatsappFloat";
 import { CONTACT_EMAIL, MAIN_ADDRESS, PHONE_LABEL, PHONE_LINK, TELEGRAM_URL, WHATSAPP_URL } from "../components/siteContact";
-import ContactComposer from "./ContactComposer";
+import EnquiryComposer from "../components/EnquiryComposer";
 import MapEmbed from "./MapEmbed";
 
 const FULL_ADDRESS = `${MAIN_ADDRESS.streetAddress}, ${MAIN_ADDRESS.addressLocality}, Delhi ${MAIN_ADDRESS.postalCode}`;
@@ -159,7 +159,7 @@ export default function Conpage() {
             highlight="in 30 Seconds"
             text="Fill in what you know, skip what you don't. We'll turn it into a WhatsApp message, so you don't have to type it all out."
           />
-          <ContactComposer email={CONTACT_EMAIL} />
+          <EnquiryComposer email={CONTACT_EMAIL} />
         </div>
       </section>
 

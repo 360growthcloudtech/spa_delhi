@@ -86,7 +86,7 @@ export default function HomeFaqSection() {
                       className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left font-sans text-[15px] md:text-base font-semibold text-amber-900 cursor-pointer"
                     >
                       <span>
-                        <span className="mr-2 text-amber-500">{String(index + 1).padStart(2, "0")}.</span>
+                        <span className="mr-2 text-amber-700">{String(index + 1).padStart(2, "0")}.</span>
                         {faq.question}
                       </span>
                       <span

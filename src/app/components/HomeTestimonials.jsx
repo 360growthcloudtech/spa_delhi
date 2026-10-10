@@ -89,11 +89,11 @@ export default function HomeTestimonials() {
     <section aria-labelledby="home-reviews-title" className="bg-[#fdf3ee] py-16 md:py-20 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12 text-center">
-          <span className="inline-block rounded-full bg-[#f3dccf] px-5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#a0522d]">
+          <span className="inline-block rounded-full bg-[#f3dccf] !text-[#7a3f22] px-5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#a0522d]">
             ✦ Client Testimonials ✦
           </span>
           <h2 id="home-reviews-title" className="mt-5 font-title text-4xl md:text-5xl font-bold text-[#2b1810]">
-            What Our <span className="text-[#d2795a]">Guests Say</span>
+            What Our <span className="text-primary">Guests Say</span>
           </h2>
           <p className="mt-3 text-sm md:text-base text-bodycolor">
             Experiences shared by guests at Luxury Russian Spa across Delhi NCR
@@ -104,7 +104,7 @@ export default function HomeTestimonials() {
               <span className="inline-flex items-center gap-3 rounded-full bg-white px-5 py-2.5 shadow-[0_6px_20px_rgba(43,24,16,0.06)]">
                 <Stars rating={overallRating} className="text-sm" />
                 <span className="font-title text-lg font-bold text-[#a0522d]">
-                  {overallRating} <span className="text-sm font-normal text-gray-400">/ 5</span>
+                  {overallRating} <span className="text-sm font-normal text-gray-500">/ 5</span>
                 </span>
               </span>
               <span className="text-xs text-bodycolor">Based on {reviewCount} verified guest reviews</span>

@@ -49,7 +49,7 @@ export default function HomeBanner() {
         <div className="pointer-events-none absolute inset-0 z-[1] bg-black/55" aria-hidden="true" />
         <div className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-b from-black/40 via-transparent to-black/60" aria-hidden="true" />
 
-        <div className="relative z-[2] min-h-[inherit] lg:h-full max-w-5xl mx-auto px-5 md:px-10 pt-16 pb-24 flex flex-col items-center justify-center text-center">
+        <div className="relative z-[2] min-h-[inherit] lg:h-full max-w-5xl mx-auto px-5 md:px-10 pt-16 pb-32 md:pb-36 flex flex-col items-center justify-center text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-secondary/60 bg-black/30 px-5 py-2 mb-6 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-white">
             <Sparkles className="size-3.5 text-secondary" /> Delhi&apos;s Trusted Luxury Spa <Sparkles className="size-3.5 text-secondary" />
           </span>
@@ -77,7 +77,7 @@ export default function HomeBanner() {
               href={WHATSAPP}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2.5 rounded-full bg-[#d97a52] px-9 py-4 text-base font-semibold text-white shadow-lg shadow-black/30 transition-all duration-300 hover:bg-primary hover:-translate-y-0.5 sm:min-w-[260px]"
+              className="inline-flex items-center justify-center gap-2.5 rounded-full bg-primary px-9 py-4 text-base font-semibold text-white shadow-lg shadow-black/30 transition-all duration-300 hover:bg-amber-800 hover:-translate-y-0.5 sm:min-w-[260px]"
             >
               <CalendarCheck className="size-5" /> Book Appointment
             </a>
@@ -91,10 +91,6 @@ export default function HomeBanner() {
           </div>
         </div>
 
-        {/* Bottom tagline pill */}
-        <p className="absolute bottom-6 left-1/2 z-[2] w-max max-w-[calc(100%-32px)] -translate-x-1/2 rounded-full bg-black/55 px-5 py-2 text-center text-[11px] sm:text-[13px] font-medium text-white/85">
-          Luxury Russian Spa — Where Calm Meets Comfort, 24/7
-        </p>
     </section>
   );
 }

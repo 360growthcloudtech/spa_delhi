@@ -2,11 +2,14 @@ import dynamic from "next/dynamic";
 
 // Above the fold
 import HomeBanner from "./components/HomeBanner";
+import HomeQuickFacts from "./components/HomeQuickFacts";
 import AboutSection from "./components/AboutSection";
 import HomeServicesSection from "./components/HomeServicesSection";
 import HomeHeading from "./components/HomeHeading";
 
 // Below the fold (split into separate chunks, still server-rendered for SEO)
+const HomeEnquiry = dynamic(() => import("./components/HomeEnquiry"));
+const HomeGalleryTeaser = dynamic(() => import("./components/HomeGalleryTeaser"));
 const SignatureRange = dynamic(() => import("./components/SignatureRange"));
 const HomeVideoShowcase = dynamic(() => import("./components/HomeVideoShowcase"));
 const HomeSplitFeatures = dynamic(() => import("./components/HomeSplitFeatures"));
@@ -36,6 +39,7 @@ export default function HomeClient() {
       {/* Each section covers one topic; don't add a section that repeats another's content. */}
       {/* 1. First impression */}
       <HomeBanner />
+      <HomeQuickFacts />
       <AboutSection />
 
       {/* Below-the-fold sections are wrapped in .cv-auto (content-visibility: auto) so the browser skips
@@ -43,8 +47,12 @@ export default function HomeClient() {
 
       {/* 2. What we offer */}
       <div className="cv-auto"><HomeServicesSection /></div>
+
+      {/* Book without leaving the page: WhatsApp message builder with a live preview */}
+      <div className="cv-auto"><HomeEnquiry /></div>
       <div className="cv-auto"><SignatureRange /></div>
       <div className="cv-auto"><HomeVideoShowcase /></div>
+      <div className="cv-auto"><HomeGalleryTeaser /></div>
       <div className="cv-auto"><HomeSplitFeatures /></div>
 
       {/* 3. Why us & where */}

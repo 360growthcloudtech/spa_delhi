@@ -136,7 +136,7 @@ export default function HomeSplitFeatures() {
                   {block.eyebrow}
                 </p>
                 <h2 className="mt-4 font-title text-[28px] md:text-4xl font-bold leading-tight text-amber-900">{block.title}</h2>
-                <p className="mt-2 font-title text-2xl md:text-[32px] font-bold text-amber-400">{block.accent}</p>
+                <p className="mt-2 font-title text-2xl md:text-[32px] font-bold text-amber-700">{block.accent}</p>
 
                 <div className="mt-5 space-y-4 text-[15px] leading-relaxed text-bodycolor">
                   {block.body.map((para, j) => (
@@ -159,7 +159,7 @@ export default function HomeSplitFeatures() {
                   <a
                     href={block.primary.href}
                     {...ext(block.primary.external)}
-                    className="inline-flex items-center gap-2 rounded-full bg-amber-500 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-amber-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-amber-600"
+                    className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-amber-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-amber-800"
                   >
                     <CtaIcon name={block.primary.icon} /> {block.primary.label}
                     {!block.primary.icon && <FiArrowRight />}
